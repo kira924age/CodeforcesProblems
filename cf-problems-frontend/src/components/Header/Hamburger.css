@@ -1,0 +1,13 @@
+#hamburger-btn {
+  padding-right: 20px;
+  float:right;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 28px;
+  line-height: 56px;
+  position: relative;
+  height: auto;
+  border:0;
+  cursor: pointer;
+}

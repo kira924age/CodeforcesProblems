@@ -1,0 +1,121 @@
+@import '~antd/dist/antd.css';
+@import "./ContestTable.css";
+@import "./Achievement.css";
+@import "./UserNotFound.css";
+@import "./DifficultyCircle.css";
+
+.theme-dark {
+  @import "./theme-dark.scss";
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h6 {
+   font-size: 1rem;
+   line-height: 1.2;
+   margin: 8px 0 8px;
+   font-weight: 500;
+}
+
+hr {
+  border: 1px solid #dee2e6;
+}
+
+.verdict-accepted {
+  color: #0a0;
+  font-weight: bold;
+}
+
+.verdict-rejected {
+  color: #00a;
+}
+
+
+table td, th {
+   padding: 12px 12px 12px 12px;
+   font-size: 16px;
+   word-break: break-all;
+}
+
+.Main {
+  margin: auto;
+  padding-top: 106px;
+  padding-bottom: 56px;
+  width:90%;
+}
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #242526;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-table-cell {
+  background-color: "red";
+  color: "red";
+}
+
+#swich-btns {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 445px;
+}
+
+#hide-contest-btn {
+  margin-right: 12px;
+  margin-bottom: 10px;
+}

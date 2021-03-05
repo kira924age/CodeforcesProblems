@@ -1,0 +1,38 @@
+.div-diff-circle {
+  display: inline-block;
+}
+
+.difficulty-unavailable-circle {
+  display: inline-block;
+}
+
+.difficulty-unavailable-circle > span {
+  text-align: center;
+  border-color: #000000;
+  background: #000000;
+}
+
+.theme-dark .difficulty-unavailable-circle > span {
+  text-align: center;
+  border-color: #C9D1D9;
+  background: #C9D1D9;
+}
+
+.common-difficulty-circle {
+  display: inline-block;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 5px;
+  height: 12px;
+  width: 12px;
+}
+
+.big-difficulty-circle {
+  display: inline-block;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  width: 36px;
+  height: 36px;
+}

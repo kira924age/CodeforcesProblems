@@ -1,0 +1,9 @@
+.ant-alert {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.ant-alert-message {
+  color: #721c24;
+  font-size: 16px;
+}

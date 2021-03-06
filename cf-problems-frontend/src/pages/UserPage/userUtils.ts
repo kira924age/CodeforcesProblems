@@ -46,11 +46,11 @@ export const makeAchievementData = (submission: any[]) => {
 
     if (isSolved.get(problemId) === undefined) {
       if (month === 1) {
-        if (time.getMonth() === 12 && time.getFullYear() == year - 1) {
+        if (time.getMonth() === 12 && time.getFullYear() === year - 1) {
           cntSolveLastMonth++;
         }
       } else {
-        if (time.getMonth() === month - 1 && time.getFullYear() == year) {
+        if (time.getMonth() === month - 1 && time.getFullYear() === year) {
           cntSolveLastMonth++;
         }
       }

@@ -72,7 +72,7 @@ export const makeAchievementData = (submission: any[]) => {
     const x = uniqDaySubmissions[i];
     const e = formatDate(x);
 
-    if (formatDate(tmpTime.getTime()) === e) {
+    if (formatDate(tmpTime.getTime() / 1000) === e) {
       cntCurrentStreak++;
     } else {
       break;

@@ -83,12 +83,12 @@ const Heatmap: React.FunctionComponent<Props> = (props: Props) => {
       <h3>Heatmap</h3>
       <hr />
 
-      <div style={{ height: 200, marginBottom: 50 }}>
+      <div style={{ height: 300, marginBottom: 50 }}>
         <div style={{ textAlign: "right", paddingTop: "20px" }}>
           {years.length > 0 && (
             <Select
               defaultValue="Choose year"
-              style={{ width: 120, textAlign: "left" }}
+              style={{ width: 150, textAlign: "left" }}
               onChange={(value) => {
                 setSelectYear(value);
               }}

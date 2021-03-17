@@ -21,7 +21,7 @@ export const cachedContestArray = async (): Promise<any[]> => {
       let t = await fetchContests(STATIC_API_BASE_URL + "/contest.list");
       CACHED_CONTESTS = t;
     } catch (e) {
-      console.log(e);
+      // console.log(e);
       CACHED_CONTESTS = [];
     }
   }
@@ -58,7 +58,7 @@ export const cachedProblemMap = async (): Promise<any> => {
         STATIC_API_BASE_URL + "/problemset.problems"
       );
     } catch (e) {
-      console.log(e);
+      // console.log(e);
       CACHED_PROBLEMS = new Map();
     }
   }
@@ -102,6 +102,9 @@ const fetchUserInfo = async (url: string): Promise<any> => {
   let isUserExist: boolean = true;
   await fetch(url)
     .then((res) => res.json())
+    .catch(() => {
+      isUserExist = false;
+    })
     .then((x) => {
       if (x.status !== "OK") {
         isUserExist = false;
@@ -130,7 +133,7 @@ export const cachedUserInfo = async (userId: string): Promise<any> => {
         )
       );
     } catch (e) {
-      console.log(e);
+      // console.log(e);
       CACHED_PROBLEMS = new Map();
     }
   }

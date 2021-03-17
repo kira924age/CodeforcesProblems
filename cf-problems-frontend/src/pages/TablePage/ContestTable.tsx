@@ -13,6 +13,8 @@ import {
   noCachedUserSubmissions,
 } from "../../utils/TypedCachedApiClient";
 
+import ErrorMessage from "./ErrorMessage";
+
 interface ContestTableProps {
   name: string;
   isShowDifficulty: boolean;
@@ -20,6 +22,8 @@ interface ContestTableProps {
 }
 
 const ContestTable: React.FC<ContestTableProps> = (props) => {
+  const [isFetchFailue, setIsFetchFailue] = React.useState(false);
+
   const [acList, setAcList] = React.useState(new Map());
 
   const problemDataFromLocal = localStorage.getItem("problemData");
@@ -81,6 +85,10 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
         cachedProblemMap(),
       ]);
 
+      if (contests.length === 0 && mp.size === 0) {
+        setIsFetchFailue(true);
+      }
+
       if (isMounted) {
         setContestData(contests);
         setProblemData(mp);
@@ -120,8 +128,10 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
   const columns = makeContestColumns(props.name);
 
   return (
-    <>
+    <React.Fragment>
       <h2>{props.name}</h2>
+
+      {isFetchFailue && <ErrorMessage />}
 
       {isLoading ? (
         <Table
@@ -155,7 +165,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
           dataSource={problemData2}
         />
       )}
-    </>
+    </React.Fragment>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../..//components/Header/Header";
 import UserNotFound from "./UserNotFound";
+import ErrorMessage from "../TablePage/ErrorMessage";
 import Loading from "./Loading";
 import UserNameLabel from "./UserNameLabel";
 import Achievement from "./Achievement";
@@ -18,6 +19,7 @@ interface Props {
 }
 
 const User: React.FunctionComponent<Props> = (props: Props) => {
+  const [isError, setIsError] = React.useState(false);
   const [isUserExist, setIsUserExist] = React.useState(false);
   const [isLoading, setIsLoading] = React.useState(true);
   const [userRating, setUserRating] = React.useState(0);
@@ -41,7 +43,7 @@ const User: React.FunctionComponent<Props> = (props: Props) => {
       const str = "https://codeforces.com/api/user.status?handle=";
       const userInfo = await cachedUserInfo(props.userId);
 
-      if (userInfo.isUserExist) {
+      if (userInfo.isUserExist && userInfo.isError === false) {
         const submissions = await fetchUserSubmission(str + userId);
         const res = makeAchievementData(submissions);
         if (isMounted) {
@@ -63,6 +65,7 @@ const User: React.FunctionComponent<Props> = (props: Props) => {
       } else {
         if (isMounted) {
           setIsLoading(false);
+          setIsError(userInfo.isError);
           setIsUserExist(userInfo.isUserExist);
         }
       }
@@ -75,26 +78,29 @@ const User: React.FunctionComponent<Props> = (props: Props) => {
     };
   }, [props.userId]);
 
-  const element = isUserExist ? (
-    <>
-      <UserNameLabel userId={props.userId} rating={userRating} />
-      <hr />
-      <Achievement
-        userId={props.userId}
-        solvedCountAll={userInfo.solvedCountAll}
-        solvedCountLastYear={userInfo.solvedCountLastYear}
-        solvedCountLastMonth={userInfo.solvedCountLastMonth}
-        longestStreak={userInfo.longestStreak}
-        currentStreak={userInfo.currentStreak}
-        streakSum={userInfo.streakSum}
-      />
-      <Climbing solvedHistory={userInfo.solvedHistory} />
-      <Heatmap data={userInfo.submissionHistory} />
-      <SubmissionListTable submission={userSubmission} />
-    </>
-  ) : (
-    <UserNotFound />
-  );
+  const element =
+    isUserExist && isError === false ? (
+      <>
+        <UserNameLabel userId={props.userId} rating={userRating} />
+        <hr />
+        <Achievement
+          userId={props.userId}
+          solvedCountAll={userInfo.solvedCountAll}
+          solvedCountLastYear={userInfo.solvedCountLastYear}
+          solvedCountLastMonth={userInfo.solvedCountLastMonth}
+          longestStreak={userInfo.longestStreak}
+          currentStreak={userInfo.currentStreak}
+          streakSum={userInfo.streakSum}
+        />
+        <Climbing solvedHistory={userInfo.solvedHistory} />
+        <Heatmap data={userInfo.submissionHistory} />
+        <SubmissionListTable submission={userSubmission} />
+      </>
+    ) : isError ? (
+      <ErrorMessage />
+    ) : (
+      <UserNotFound />
+    );
   const a = isLoading ? <Loading /> : element;
 
   return (

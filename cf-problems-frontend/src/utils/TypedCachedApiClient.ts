@@ -100,10 +100,12 @@ export const noCachedUserSubmissions = async (url: string): Promise<any> => {
 const fetchUserInfo = async (url: string): Promise<any> => {
   let currentRating: number = 0;
   let isUserExist: boolean = true;
+  let isError: boolean = false;
+
   await fetch(url)
     .then((res) => res.json())
     .catch(() => {
-      isUserExist = false;
+      isError = true;
     })
     .then((x) => {
       if (x.status !== "OK") {
@@ -118,6 +120,7 @@ const fetchUserInfo = async (url: string): Promise<any> => {
 
   return {
     isUserExist: isUserExist,
+    isError: isError,
     userRating: currentRating,
   };
 };

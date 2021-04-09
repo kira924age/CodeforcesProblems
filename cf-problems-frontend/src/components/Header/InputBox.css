@@ -19,7 +19,6 @@
   background: white; 
 }
 
-
 #input-box button {
   padding: 0 0 0 0 ;
   text-align: center;
@@ -30,5 +29,7 @@
   font-size: 16px;
   border: 1px solid #ced4da;
   border-radius: .25rem;
-  background: white; 
+  background: #484f58;
+  border-color: #484f58;
+  color: #C9D1D9;
 }

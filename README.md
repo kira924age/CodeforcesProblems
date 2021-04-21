@@ -7,33 +7,11 @@ This application uses [Codeforces API](https://codeforces.com/apiHelp)
 
 ![capture image](./images/screenshot-table.png)
 
-## Prerequisites
-
-* Yarn
-
-## Install required packages
-
-```
-$ yarn
-```
-
-## Start the web application on your local machine
-
-```
-$ yarn start
-```
-
-## Create a production build
-
-```
-$ yarn build
-```
-
 ## Contribution
 
 ### Found a Bug?
 
-If you found a bug in the source code, you can help me by submitting an issue to our GitHub Repository.
+If you found a bug in the source code, you can help us by submitting an issue to our GitHub Repository.
 
 ### Missing a Feature?
 

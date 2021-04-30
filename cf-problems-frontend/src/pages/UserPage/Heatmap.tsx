@@ -2,6 +2,7 @@ import React from "react";
 
 import { ResponsiveCalendar } from "@nivo/calendar";
 import { Select } from "antd";
+import { useTheme } from "../../components/ThemeProvider";
 
 interface Props {
   data: any[];
@@ -35,6 +36,8 @@ interface CalendarProps {
 }
 
 const MyResponsiveCalendar = (props: CalendarProps) => {
+  const theme = useTheme();
+
   return (
     <ResponsiveCalendar
       data={props.data}
@@ -43,11 +46,12 @@ const MyResponsiveCalendar = (props: CalendarProps) => {
       emptyColor="#ebedf0"
       colors={["#C6E48B", "#7BC96F", "#239A3B", "#196127"]}
       minValue="auto"
+      theme={{ textColor: theme === "dark" ? "#fff" : "#333" }}
       margin={{ top: 5, right: 5, bottom: 5, left: 25 }}
       yearSpacing={45}
-      monthBorderColor="#ffffff"
-      dayBorderWidth={2}
-      dayBorderColor="#ffffff"
+      dayBorderWidth={0.5}
+      dayBorderColor={theme === "dark" ? "#333" : "#fff"}
+      monthBorderWidth={0}
       tooltip={Customtooltip}
       legends={[
         {

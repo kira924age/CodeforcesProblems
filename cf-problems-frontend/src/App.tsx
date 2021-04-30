@@ -11,7 +11,7 @@ const App: React.FunctionComponent = () => (
       <div className="App">
         <Switch>
           <Route
-            path="/table/:userIds([a-zA-Z0-9_]*)*"
+            path="/table/:userIds([a-zA-Z0-9_.]*)*"
             render={({ match }): React.ReactElement => {
               // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
               const params: { userIds?: string } = match.params;
@@ -20,7 +20,7 @@ const App: React.FunctionComponent = () => (
             }}
           />
           <Route
-            path="/user/:userIds([a-zA-Z0-9_]*)*"
+            path="/user/:userIds([a-zA-Z0-9_.]*)*"
             render={({ match }): React.ReactElement => {
               // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
               const params: { userIds?: string } = match.params;

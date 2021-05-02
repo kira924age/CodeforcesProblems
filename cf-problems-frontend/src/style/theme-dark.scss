@@ -99,7 +99,7 @@ table {
   color: #C9D1D9;
 }
 
-.difficulty-black {
+.difficulty-black:not(:hover) {
   color: #FFFFFF;
 }
 
@@ -119,6 +119,7 @@ table {
 .ant-switch-checked {
   background: #0E7AAC;
 }
+
 .ant-switch-checked .ant-switch-handle::before {
   color: white;
   background: white;

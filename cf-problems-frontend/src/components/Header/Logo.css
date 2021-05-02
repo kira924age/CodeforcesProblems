@@ -10,7 +10,7 @@
   margin: 0;
 }
 
-#logo:hover > a{
+#logo > a:hover{
   color: #c9d1d9;
 }
 

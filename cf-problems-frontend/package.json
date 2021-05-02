@@ -61,5 +61,8 @@
   },
   "devDependencies": {
     "prettier": "2.2.1"
+  },
+  "resolutions": {
+    "react-spring": "9.1.2"
   }
 }

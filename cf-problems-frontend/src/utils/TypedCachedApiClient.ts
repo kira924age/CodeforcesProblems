@@ -86,15 +86,19 @@ const fetchUserSubmissions = async (url: string): Promise<any> => {
   return newMap;
 };
 
-export const noCachedUserSubmissions = async (url: string): Promise<any> => {
-  let res;
-  try {
-    res = await fetchUserSubmissions(url);
-  } catch (e) {
-    console.log(e);
-    res = new Map();
+let CACHED_USER_SUBMISSIONS: Map<string, any> = new Map();
+export const cachedUserSubmissions = async (userId: string): Promise<any> => {
+  const prefixStr = "https://codeforces.com/api/user.status?handle=";
+  const url = prefixStr + userId;
+
+  if (CACHED_USER_SUBMISSIONS.get(userId) === undefined) {
+    try {
+      CACHED_USER_SUBMISSIONS.set(userId, await fetchUserSubmissions(url));
+    } catch (e) {
+      console.log(e);
+    }
   }
-  return res;
+  return CACHED_USER_SUBMISSIONS.get(userId);
 };
 
 const fetchUserInfo = async (url: string): Promise<any> => {

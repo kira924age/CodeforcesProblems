@@ -10,7 +10,7 @@ import {
 import {
   cachedContestArray,
   cachedProblemMap,
-  noCachedUserSubmissions,
+  cachedUserSubmissions,
 } from "../../utils/TypedCachedApiClient";
 
 import ErrorMessage from "./ErrorMessage";
@@ -58,11 +58,9 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       return;
     }
 
-    const str = "https://codeforces.com/api/user.status?handle=";
-
     const getUserSubmissions = async () => {
       const [userSubmission] = await Promise.all([
-        noCachedUserSubmissions(str + props.userId),
+        cachedUserSubmissions(String(props.userId)),
       ]);
       if (isMounted) {
         setAcList(userSubmission);

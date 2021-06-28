@@ -7,11 +7,7 @@ import {
   makeContestTable,
 } from "./contestTableUtils";
 
-import {
-  cachedContestArray,
-  cachedProblemMap,
-  cachedUserSubmissions,
-} from "../../utils/TypedCachedApiClient";
+import { cachedUserSubmissions } from "../../utils/TypedCachedApiClient";
 
 import ErrorMessage from "./ErrorMessage";
 
@@ -25,29 +21,6 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
   const [isFetchFailue, setIsFetchFailue] = React.useState(false);
 
   const [acList, setAcList] = React.useState(new Map());
-
-  const problemDataFromLocal = localStorage.getItem("problemData");
-  const contestDataFromLocal = localStorage.getItem("contestData");
-
-  const [contestData, setContestData] = React.useState(
-    contestDataFromLocal === undefined || contestDataFromLocal === null
-      ? ([] as any[])
-      : JSON.parse(contestDataFromLocal)
-  );
-
-  const [problemData, setProblemData] = React.useState(
-    problemDataFromLocal === undefined || problemDataFromLocal === null
-      ? new Map()
-      : new Map(JSON.parse(problemDataFromLocal))
-  );
-
-  const f =
-    problemDataFromLocal !== undefined &&
-    problemDataFromLocal !== null &&
-    contestDataFromLocal !== undefined &&
-    contestDataFromLocal !== null;
-
-  const [isLoading, setIsLoading] = React.useState(!f);
 
   React.useEffect(() => {
     let isMounted = true;
@@ -74,57 +47,22 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
     };
   }, [props.userId]);
 
-  React.useEffect(() => {
-    let isMounted = true;
+  const jsonObj = require("./contests.json");
+  const problemData = jsonObj;
 
-    const getUniversalInfo = async () => {
-      const [contests, mp] = await Promise.all([
-        cachedContestArray(),
-        cachedProblemMap(),
-      ]);
+  console.log(problemData);
 
-      if (contests.length === 0 && mp.size === 0) {
-        setIsFetchFailue(true);
-      }
-
-      if (isMounted) {
-        setContestData(contests);
-        setProblemData(mp);
-        localStorage.setItem(
-          "problemData",
-          JSON.stringify(Array.from(mp.entries()))
-        );
-        localStorage.setItem("contestData", JSON.stringify(contests));
-        setIsLoading(false);
-      }
-    };
-
-    void getUniversalInfo();
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
-
-  let problemData2;
-  if (problemData.size !== 0 && problemData.size !== undefined) {
-    let filteredContestData: object[] = contestData!.filter((obj: any) => {
-      const id = obj.id;
-      return problemData.has(id);
-    });
-
-    filteredContestData = filterContest(props.name, filteredContestData);
-
-    problemData2 = makeContestTable(
-      filteredContestData,
-      problemData,
-      props.isShowDifficulty,
-      acList
-    );
-  }
+  //  let problemData2 = makeContestTable(
+  //    props.name,
+  //    problemData,
+  //    props.isShowDifficulty,
+  //    acList
+  //  );
 
   const columns = makeContestColumns(props.name);
 
+  return <></>;
+  /*
   return (
     <React.Fragment>
       <h2>{props.name}</h2>
@@ -165,6 +103,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       )}
     </React.Fragment>
   );
+ */
 };
 
 export default ContestTable;

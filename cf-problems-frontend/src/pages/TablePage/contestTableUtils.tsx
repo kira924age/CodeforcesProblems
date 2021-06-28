@@ -134,7 +134,7 @@ export const filterContest = (
 
 const PREFIX = "https://codeforces.com/contest/";
 export const makeContestTable = (
-  filteredContestData: any[],
+  contestType: string,
   problemData: Map<number, any[]>,
   isShowDifficulty: boolean,
   acList: Map<string, boolean>

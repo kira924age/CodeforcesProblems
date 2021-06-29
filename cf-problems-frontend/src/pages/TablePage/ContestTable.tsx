@@ -3,7 +3,6 @@ import { Table } from "antd";
 
 import {
   makeContestColumns,
-  filterContest,
   makeContestTable,
 } from "./contestTableUtils";
 
@@ -47,63 +46,76 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
     };
   }, [props.userId]);
 
-  const jsonObj = require("./contests.json");
-  const problemData = jsonObj;
+  const allProblems = require("./contests.json");
 
-  console.log(problemData);
+  let problemData = allProblems;
+  problemData.forEach( (x: any) => {
+    if (x.problems === null) {
+      // console.log(x.id, x.name);
+    }
+  })
 
-  //  let problemData2 = makeContestTable(
-  //    props.name,
-  //    problemData,
-  //    props.isShowDifficulty,
-  //    acList
-  //  );
+  switch (props.name) {
+    case "Educational Codeforces Rounds":
+      problemData =  problemData.filter((x : any) => (x.type === "Educational"));
+      break;
+    case "Codeforces Global Rounds":
+      problemData =  problemData.filter((x : any) => (x.type === "Global"));
+      break;
+    case "Div. 1 + Div. 2 Contests":
+      problemData =  problemData.filter((x : any) => (x.type === "Div1 + Div2"));
+      break;
+    case "Div. 1 Contests":
+      problemData =  problemData.filter((x : any) => (x.type === "Div1"));
+      break;
+    case "Div. 2 Contests":
+      problemData =  problemData.filter((x : any) => (x.type === "Div2"));
+      break;
+    case "Div. 3 Contests":
+      problemData =  problemData.filter((x : any) => (x.type === "Div3"));
+      break;
+    case "Div. 4 Contests":
+      problemData =  problemData.filter((x : any) => (x.type === "Div4"));
+      break;
+    case "Microsoft Q# Coding Contests":
+      problemData =  problemData.filter((x : any) => (x.type === "Q#"));
+      break;
+    default:
+      problemData = allProblems;
+  }
+
+  let problemData2 = makeContestTable(
+    props.name,
+    problemData,
+    props.isShowDifficulty,
+    acList
+  );
+  console.log(problemData2);
 
   const columns = makeContestColumns(props.name);
 
-  return <></>;
-  /*
   return (
     <React.Fragment>
       <h2>{props.name}</h2>
-
-      {isFetchFailue && <ErrorMessage />}
-
-      {isLoading ? (
-        <Table
-          loading
-          pagination={{
-            defaultPageSize: 50,
-            pageSizeOptions: ["10", "20", "50", "100"],
-          }}
-          bordered
-          className="ant-contest-table"
-          columns={columns}
-          dataSource={problemData2}
-          locale={{
-            emptyText: (
-              <React.Fragment>
-                <br />
-                Now Loading!!!!
-              </React.Fragment>
-            ),
-          }}
-        />
-      ) : (
-        <Table
-          pagination={{
-            defaultPageSize: 50,
-            pageSizeOptions: ["10", "20", "50", "100"],
-          }}
-          bordered
-          className="ant-contest-table"
-          columns={columns}
-          dataSource={problemData2}
-        />
-      )}
+      <Table
+        pagination={{
+          defaultPageSize: 50,
+          pageSizeOptions: ["10", "20", "50", "100"],
+        }}
+        bordered
+        className="ant-contest-table"
+        columns={columns}
+        dataSource={problemData2}
+        locale={{
+          emptyText: (
+            <React.Fragment>
+              <br />
+            </React.Fragment>
+          ),
+        }}
+      />
     </React.Fragment>
   );
- */
 };
 
 export default ContestTable;

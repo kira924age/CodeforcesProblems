@@ -98,6 +98,9 @@ export const makeContestTable = (
       return [];
     }
       problems.forEach((e: any)=> {
+        const ratingColorClass = isShowDifficulty
+         ? getRatingColorClass(e.rating)
+         : "difficulty-black";
         const problemId : string = e.index;
         const problemName : string = e.name;
 
@@ -112,6 +115,7 @@ export const makeContestTable = (
                       href={PREFIX + String(x.id) + "/problem/" + e.index}
                       rel="noopener noreferrer"
                       target="_blank"
+                      className={ratingColorClass}
                     >
                       {String(e.index) + ". " + problemName}
                     </a>
@@ -124,6 +128,7 @@ export const makeContestTable = (
                     href={PREFIX + String(x.id) + "/problem/" + e.index}
                     rel="noopener noreferrer"
                     target="_blank"
+                    className={ratingColorClass}
                   >
                     {String(e.index) + ". " + problemName}
                   </a>
@@ -133,7 +138,6 @@ export const makeContestTable = (
        )
      });
      return obj;
-
    });
  };
 

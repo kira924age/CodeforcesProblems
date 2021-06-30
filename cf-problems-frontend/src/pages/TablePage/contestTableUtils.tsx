@@ -97,6 +97,7 @@ export const makeContestTable = (
     if (problems === null) {
       return [];
     }
+
       problems.forEach((e: any)=> {
         const ratingColorClass = isShowDifficulty
          ? getRatingColorClass(e.rating)
@@ -104,12 +105,18 @@ export const makeContestTable = (
         const problemId : string = e.index;
         const problemName : string = e.name;
 
-        obj[problemId[0]] = (
+       let isOk: boolean = true;
+       const tmp = acList!.get(contestId + problemId);
+       isOk = isOk && (tmp === undefined ? false : true);
+
+       let className = isOk ? "cell-element OK" : "cell-element"
+
+       obj[problemId[0]] = (
           <>
             {obj[problemId[0]] !== undefined ? (
               <>
                 {obj[problemId[0]]}
-                  <div className="cell-element">
+                  <div className={className}>
                     {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
                     <a
                       href={PREFIX + String(x.id) + "/problem/" + e.index}
@@ -122,7 +129,7 @@ export const makeContestTable = (
                   </div>
               </>
             ) : (
-                <div className="cell-element">
+                <div className={className}>
                   {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
                   <a
                     href={PREFIX + String(x.id) + "/problem/" + e.index}

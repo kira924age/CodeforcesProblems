@@ -11,17 +11,15 @@ const DifficultyCircle: React.FunctionComponent<Props> = (props) => {
   if (props.rating === undefined) {
     return (
       <Tooltip title="Difficulty is unavailable." color="black">
-        <div className="difficulty-unavailable-circle">
-          <span className="common-difficulty-circle"></span>
-        </div>
+        <span className="common-difficulty-circle difficulty-unavailable-circle"></span>
       </Tooltip>
     );
   }
   return (
     <Tooltip title={"Difficulty :" + String(props.rating)} color="black">
-      <div className="div-diff-circle">
+      <span>
         <TopcoderLikeCircle rating={props.rating} />
-      </div>
+      </span>
     </Tooltip>
   );
 };

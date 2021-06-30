@@ -129,7 +129,7 @@ const TopcoderLikeCircle: React.FunctionComponent<Props> = (props) => {
       };
   return (
     <span
-      className={
+     className={
         props.big ? "big-difficulty-circle" : "common-difficulty-circle"
       }
       style={styles}

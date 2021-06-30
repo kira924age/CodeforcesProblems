@@ -109,9 +109,30 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       acList
     ));
 
+    tmp.set("Kotlin", makeContestTable(
+      allProblems,
+      problemData.filter((x : any) => (x.type === "Kotlin")),
+      props.isShowDifficulty,
+      acList
+    ));
+
+    tmp.set("ICPC", makeContestTable(
+      allProblems,
+      problemData.filter((x : any) => (x.type === "ICPC")),
+      props.isShowDifficulty,
+      acList
+    ));
+
     tmp.set("Microsoft Q# Coding Contests", makeContestTable(
       allProblems,
       problemData.filter((x : any) => (x.type === "Q#")),
+      props.isShowDifficulty,
+      acList
+    ));
+
+    tmp.set("Other Contests", makeContestTable(
+      allProblems,
+      problemData.filter((x : any) => (x.type === "Other")),
       props.isShowDifficulty,
       acList
     ));

@@ -1,3 +1,13 @@
+.OK {
+  height:100%;
+  width:100%;
+  background: #c3e6cb!important;
+}
+
+.OK-2 {
+  background: linear-gradient(to bottom, #fff 50%, #d4edc9 50%);
+}
+
 .difficulty-grey {
   color: #808080;
 }

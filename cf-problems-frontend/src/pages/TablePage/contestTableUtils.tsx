@@ -80,17 +80,35 @@ export const makeContestTable = (
     let contestName = x.name;
     let problems = x.problems;
 
+    let isOk: boolean = true;
+    let mp: Map<string, number> = new Map();
+
+    if (problems !== null) {
+      problems.forEach((e: any) => {
+        const t = acList!.get(String(x.id) + String(e.index));
+        isOk = isOk && (t === undefined ? false : true);
+
+        let cnt = mp.get(e.index[0]);
+        if (cnt === undefined) {
+          cnt = 1;
+        } else {
+          cnt++;
+        }
+        mp.set(e.index[0], cnt);
+      });
+    }
+
+    const contestClassName = isOk ? "cell-element OK" : "cell-element";
+
     obj["name"] = (
-      <div className="box">
-        <div className="cell-element">
-          <a
-            href={PREFIX + String(contestId)}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-          {contestName}
-          </a>
-        </div>
+      <div className={contestClassName}>
+        <a
+          href={PREFIX + String(contestId)}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+        {contestName}
+        </a>
       </div>
     );
 
@@ -109,7 +127,11 @@ export const makeContestTable = (
        const tmp = acList!.get(contestId + problemId);
        isOk = isOk && (tmp === undefined ? false : true);
 
-       let className = isOk ? "cell-element OK" : "cell-element"
+       let classOK = "cell-element OK" + "-" + String(mp.get(e.index[0]));
+       let classNA = "cell-element NA" + "-" + String(mp.get(e.index[0]));
+       let classNG = "cell-element NG" + "-" + String(mp.get(e.index[0]));
+
+       const className = isOk ? classOK : classNA;
 
        obj[problemId[0]] = (
           <>
@@ -175,32 +197,6 @@ export const makeContestTable = (
 //       }
 //       tmp.set(e.index[0], cnt);
 //     });
-// 
-//     obj["name"] = (
-//       <>
-//         {isOk ? (
-//           <div className="table-success-1 cell-element">
-//             <a
-//               href={PREFIX + String(x.id)}
-//               rel="noopener noreferrer"
-//               target="_blank"
-//             >
-//               {x.name}
-//             </a>
-//           </div>
-//         ) : (
-//           <div className="cell-element">
-//             <a
-//               href={PREFIX + String(x.id)}
-//               rel="noopener noreferrer"
-//               target="_blank"
-//             >
-//               {x.name}
-//             </a>
-//           </div>
-//         )}
-//       </>
-//     );
 //
 //     problems!.forEach((e: any) => {
 //       const className = acList!.get(String(x.id) + String(e.index))

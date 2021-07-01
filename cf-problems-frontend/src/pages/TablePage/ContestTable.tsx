@@ -21,7 +21,6 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
   const [acList, setAcList] = React.useState(new Map());
   const [mp, setMp] = React.useState(new Map());
 
-
   React.useEffect(() => {
     let isMounted = true;
     if (props.userId === undefined || props.userId === "") {
@@ -35,8 +34,15 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       const [userSubmission] = await Promise.all([
         cachedUserSubmissions(String(props.userId)),
       ]);
+
       if (isMounted) {
-        setAcList(userSubmission);
+        if (userSubmission === null) {
+          setIsFetchFailue(true);
+          setAcList(new Map());
+        } else {
+          setIsFetchFailue(false);
+          setAcList(userSubmission);
+        }
       }
     };
 
@@ -47,12 +53,11 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
     };
   }, [props.userId]);
 
-  let tmp : Map<string, any> = new Map();
-
   React.useEffect( () => {
     const allProblems = require("./contests.json");
     let problemData = allProblems;
 
+    let tmp : Map<string, any> = new Map();
     tmp.set("All Contests", makeContestTable(
       allProblems,
       problemData,
@@ -145,22 +150,16 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
   return (
     <React.Fragment>
       <h2>{props.name}</h2>
+      {isFetchFailue && <ErrorMessage />}
       <Table
         pagination={{
-          defaultPageSize: 200,
+          defaultPageSize: 100,
           pageSizeOptions: ["10", "20", "50", "100"],
         }}
         bordered
         className="ant-contest-table"
         columns={columns}
         dataSource={mp.get(props.name)}
-        locale={{
-          emptyText: (
-            <React.Fragment>
-              <br />
-            </React.Fragment>
-          ),
-        }}
       />
     </React.Fragment>
   );

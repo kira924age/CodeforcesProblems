@@ -67,6 +67,7 @@ export const cachedProblemMap = async (): Promise<any> => {
 
 const fetchUserSubmissions = async (url: string): Promise<any> => {
   let tmp: any = [];
+  let isOk = true;
   await fetch(url)
     .then((res) => res.json())
     .then((x) => {
@@ -74,9 +75,12 @@ const fetchUserSubmissions = async (url: string): Promise<any> => {
     })
     .catch((error) => {
       console.log("Error: ", error.message);
-      return;
+      isOk = false;
     });
 
+  if (!isOk) {
+    return null;
+  }
   let newMap: Map<string, boolean> = new Map();
   tmp.forEach((x: any) => {
     let t = String(x.problem.contestId) + x.problem.index;

@@ -80,7 +80,8 @@ export const makeContestTable = (
     let contestName = x.name;
     let problems = x.problems;
 
-    let isOk: boolean = true;
+    let isOk: boolean = problems !== null ? true : false;
+
     let mp: Map<string, number> = new Map();
 
     if (problems !== null) {
@@ -113,44 +114,31 @@ export const makeContestTable = (
     );
 
     if (problems === null) {
-      return [];
+      return obj;
     }
 
-      problems.forEach((e: any)=> {
-        const ratingColorClass = isShowDifficulty
-         ? getRatingColorClass(e.rating)
-         : "difficulty-black";
-        const problemId : string = e.index;
-        const problemName : string = e.name;
+    problems.forEach((e: any)=> {
+      const ratingColorClass = isShowDifficulty
+       ? getRatingColorClass(e.rating)
+       : "difficulty-black";
+      const problemId : string = e.index;
+      const problemName : string = e.name;
 
-       let isOk: boolean = true;
-       const tmp = acList!.get(contestId + problemId);
-       isOk = isOk && (tmp === undefined ? false : true);
+     let isOk: boolean = true;
+     const tmp = acList!.get(contestId + problemId);
+     isOk = isOk && (tmp === undefined ? false : true);
 
-       let classOK = "cell-element OK" + "-" + String(mp.get(e.index[0]));
-       let classNA = "cell-element NA" + "-" + String(mp.get(e.index[0]));
-       let classNG = "cell-element NG" + "-" + String(mp.get(e.index[0]));
+     let classOK = "cell-element OK-" + String(mp.get(e.index[0]));
+     let classNA = "cell-element NA-" + String(mp.get(e.index[0]));
+     // let classNG = "cell-element NG" + "-" + String(mp.get(e.index[0]));
 
-       const className = isOk ? classOK : classNA;
+     const className = isOk ? classOK : classNA;
 
-       obj[problemId[0]] = (
-          <>
-            {obj[problemId[0]] !== undefined ? (
-              <>
-                {obj[problemId[0]]}
-                  <div className={className}>
-                    {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
-                    <a
-                      href={PREFIX + String(x.id) + "/problem/" + e.index}
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      className={ratingColorClass}
-                    >
-                      {String(e.index) + ". " + problemName}
-                    </a>
-                  </div>
-              </>
-            ) : (
+     obj[problemId[0]] = (
+        <>
+          {obj[problemId[0]] !== undefined ? (
+            <>
+              {obj[problemId[0]]}
                 <div className={className}>
                   {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
                   <a
@@ -162,102 +150,23 @@ export const makeContestTable = (
                     {String(e.index) + ". " + problemName}
                   </a>
                 </div>
-            )}
-          </>
-       )
-     });
-     return obj;
-   });
- };
-
-
-// export const makeContestTable = (
-// ) => {
-//   return problemData.map((x: any) => {
-// 
-//     let obj: any = {};
-//     const contestId = x.id;
-//     const contestType = x.type;
-//     const contestName = x.name;
-// 
-//     let problems = x.problems;
-//
-//     let tmp: Map<string, number> = new Map();
-//
-//     let isOk: boolean = true;
-//     problems!.forEach((e: any) => {
-//       const t = acList!.get(String(x.id) + String(e.index));
-//       isOk = isOk && (t === undefined ? false : true);
-// 
-//       let cnt = tmp.get(e.index[0]);
-//       if (cnt === undefined) {
-//         cnt = 1;
-//       } else {
-//         cnt++;
-//       }
-//       tmp.set(e.index[0], cnt);
-//     });
-//
-//     problems!.forEach((e: any) => {
-//       const className = acList!.get(String(x.id) + String(e.index))
-//         ? "table-success-" + tmp.get(e.index[0])
-//         : "table-not-success-" + tmp.get(e.index[0]);
-//       const ratingColorClass = isShowDifficulty
-//         ? getRatingColorClass(e.rating)
-//         : "difficulty-black";
-//
-//       obj[e.index[0]] = (
-//         <>
-//           {obj[e.index[0]] !== undefined ? (
-//             <>
-//               {obj[e.index[0]]}
-//               <div className={className}>
-//                 <div className="cell-element">
-//                   {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
-//                   <a
-//                     href={PREFIX + String(x.id) + "/problem/" + e.index}
-//                     rel="noopener noreferrer"
-//                     target="_blank"
-//                     className={ratingColorClass}
-//                   >
-//                     {String(e.index) + ". " + e.name}
-//                   </a>
-//                 </div>
-//               </div>
-//             </>
-//           ) : (
-//             <div className={className}>
-//               <div className="cell-element">
-//                 {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
-//                 <a
-//                   href={PREFIX + String(x.id) + "/problem/" + e.index}
-//                   rel="noopener noreferrer"
-//                   target="_blank"
-//                   className={ratingColorClass}
-//                 >
-//                   {String(e.index) + ". " + e.name}
-//                 </a>
-//               </div>
-//             </div>
-//           )}
-//         </>
-//       );
-//     });
-// 
-//     obj["key"] = contestId;
-//     obj["id"] = contestId;
-// 
-//     obj["name"] = <div className="box">{obj["name"]}</div>;
-//     obj["A"] = <div className="box">{obj["A"]}</div>;
-//     obj["B"] = <div className="box">{obj["B"]}</div>;
-//     obj["C"] = <div className="box">{obj["C"]}</div>;
-//     obj["D"] = <div className="box">{obj["D"]}</div>;
-//     obj["E"] = <div className="box">{obj["E"]}</div>;
-//     obj["F"] = <div className="box">{obj["F"]}</div>;
-//     obj["G"] = <div className="box">{obj["G"]}</div>;
-//     obj["H"] = <div className="box">{obj["H"]}</div>;
-//     obj["I"] = <div className="box">{obj["I"]}</div>;
-// 
-//     return obj;
-//   });
-// };
+            </>
+          ) : (
+              <div className={className}>
+                {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
+                <a
+                  href={PREFIX + String(x.id) + "/problem/" + e.index}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className={ratingColorClass}
+                >
+                  {String(e.index) + ". " + problemName}
+                </a>
+              </div>
+          )}
+        </>
+     )
+    });
+    return obj;
+  });
+};

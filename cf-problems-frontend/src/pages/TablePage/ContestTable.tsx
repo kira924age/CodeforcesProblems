@@ -153,7 +153,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       {isFetchFailue && <ErrorMessage />}
       <Table
         pagination={{
-          defaultPageSize: 100,
+          defaultPageSize: 50,
           pageSizeOptions: ["10", "20", "50", "100"],
         }}
         bordered

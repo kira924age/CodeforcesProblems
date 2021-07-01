@@ -209,6 +209,10 @@ tr {
     display: none;
   }
 
+  .ant-table-cell:empty {
+    display: none;
+  }
+
   .ant-contest-table td {
     display: block;
   }

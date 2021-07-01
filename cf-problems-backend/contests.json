@@ -1,32 +1,85 @@
 [
     {
+        "id": 1533,
+        "type": "Kotlin",
+        "name": "Kotlin Heroes: Episode 7",
+        "problems": [
+            {
+                "index": "A",
+                "name": "Travel to Bertown"
+            },
+            {
+                "index": "B",
+                "name": "Nearest Point Function"
+            },
+            {
+                "index": "C",
+                "name": "Sweets"
+            },
+            {
+                "index": "D",
+                "name": "String Searching"
+            },
+            {
+                "index": "E",
+                "name": "Chess Team Forming"
+            },
+            {
+                "index": "F",
+                "name": "Binary String Partition"
+            },
+            {
+                "index": "G",
+                "name": "Biome Map"
+            },
+            {
+                "index": "H",
+                "name": "Submatrices"
+            },
+            {
+                "index": "I",
+                "name": "Excursions"
+            },
+            {
+                "index": "J",
+                "name": "Pawns"
+            }
+        ]
+    },
+    {
         "id": 1540,
         "type": "Div1",
         "name": "Codeforces Round #728 (Div. 1)",
         "problems": [
             {
                 "index": "A",
-                "name": "Great Graphs"
+                "name": "Great Graphs",
+                "rating": 1400
             },
             {
                 "index": "B",
-                "name": "Tree Array"
+                "name": "Tree Array",
+                "rating": 2300
             },
             {
                 "index": "C1",
-                "name": "Converging Array (Easy Version)"
+                "name": "Converging Array (Easy Version)",
+                "rating": 2700
             },
             {
                 "index": "C2",
-                "name": "Converging Array (Hard Version)"
+                "name": "Converging Array (Hard Version)",
+                "rating": 2900
             },
             {
                 "index": "D",
-                "name": "Inverse Inversions"
+                "name": "Inverse Inversions",
+                "rating": 3200
             },
             {
                 "index": "E",
-                "name": "Tasty Dishes"
+                "name": "Tasty Dishes",
+                "rating": 3500
             }
         ]
     },
@@ -42,6 +95,37 @@
             {
                 "index": "B",
                 "name": "Pleasant Pairs"
+            }
+        ]
+    },
+    {
+        "id": 1532,
+        "type": "Kotlin",
+        "name": "Kotlin Heroes: Practice 7",
+        "problems": [
+            {
+                "index": "A",
+                "name": "A+B (Trial Problem)"
+            },
+            {
+                "index": "B",
+                "name": "Frog Jumping"
+            },
+            {
+                "index": "C",
+                "name": "Uniform String"
+            },
+            {
+                "index": "D",
+                "name": "Teams Forming"
+            },
+            {
+                "index": "E",
+                "name": "Good Array"
+            },
+            {
+                "index": "F",
+                "name": "Prefixes and Suffixes"
             }
         ]
     },

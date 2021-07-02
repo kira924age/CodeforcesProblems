@@ -4,9 +4,13 @@ import { Table } from "antd";
 import {
   makeContestColumns,
   makeContestTable,
+  filterProblems
 } from "./contestTableUtils";
 
-import { cachedUserSubmissions } from "../../utils/TypedCachedApiClient";
+import {
+  cachedUserSubmissions ,
+  cachedContestArray,
+} from "../../utils/TypedCachedApiClient";
 
 import ErrorMessage from "./ErrorMessage";
 
@@ -19,7 +23,6 @@ interface ContestTableProps {
 const ContestTable: React.FC<ContestTableProps> = (props) => {
   const [isFetchFailue, setIsFetchFailue] = React.useState(false);
   const [acList, setAcList] = React.useState(new Map());
-  const [mp, setMp] = React.useState(new Map());
 
   React.useEffect(() => {
     let isMounted = true;
@@ -53,97 +56,12 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
     };
   }, [props.userId]);
 
-  React.useEffect( () => {
-    const allProblems = require("./contests.json");
-    let problemData = allProblems;
+  const allProblems = cachedContestArray();
+  let problemData = filterProblems(props.name, allProblems);
 
-    let tmp : Map<string, any> = new Map();
-    tmp.set("All Contests", makeContestTable(
-      allProblems,
-      problemData,
-      props.isShowDifficulty,
-      acList
-    ));
+  console.log("OUTPUT FOR DEGUG");
 
-    tmp.set("Educational Codeforces Rounds", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Educational")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("Codeforces Global Rounds", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Global")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("Div. 1 + Div. 2 Contests", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Div1 + Div2")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("Div. 1 Contests", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Div1")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("Div. 2 Contests", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Div2")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("Div. 3 Contests", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Div3")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("Div. 4 Contests", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Div4")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("Kotlin", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Kotlin")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("ICPC", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "ICPC")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("Microsoft Q# Coding Contests", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Q#")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    tmp.set("Other Contests", makeContestTable(
-      allProblems,
-      problemData.filter((x : any) => (x.type === "Other")),
-      props.isShowDifficulty,
-      acList
-    ));
-
-    setMp(tmp);
-  }, [props.isShowDifficulty, acList]);
+  let problemData2 = makeContestTable(problemData, props.isShowDifficulty, acList);
 
   const columns = makeContestColumns(props.name);
 
@@ -159,7 +77,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
         bordered
         className="ant-contest-table"
         columns={columns}
-        dataSource={mp.get(props.name)}
+        dataSource={problemData2}
       />
     </React.Fragment>
   );

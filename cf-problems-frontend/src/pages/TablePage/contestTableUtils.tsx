@@ -68,14 +68,14 @@ export const makeContestColumns = (contest: string) => {
 };
 
 const PREFIX = "https://codeforces.com/contest/";
+
 export const makeContestTable = (
-  contestType: string,
   problemData: object[],
   isShowDifficulty: boolean,
   acList: Map<string, boolean>
 ) => {
   return problemData.map((x: any) => {
-    let obj : any = {};
+    let obj: any = {};
     let contestId = x.id;
     let contestName = x.name;
     let problems = x.problems;
@@ -108,7 +108,7 @@ export const makeContestTable = (
           rel="noopener noreferrer"
           target="_blank"
         >
-        {contestName}
+          {contestName}
         </a>
       </div>
     );
@@ -117,41 +117,28 @@ export const makeContestTable = (
       return obj;
     }
 
-    problems.forEach((e: any)=> {
+    problems.forEach((e: any) => {
       const ratingColorClass = isShowDifficulty
-       ? getRatingColorClass(e.rating)
-       : "difficulty-black";
-      const problemId : string = e.index;
-      const problemName : string = e.name;
+        ? getRatingColorClass(e.rating)
+        : "difficulty-black";
+      const problemId: string = e.index;
+      const problemName: string = e.name;
 
-     let isOk: boolean = true;
-     const tmp = acList!.get(contestId + problemId);
-     isOk = isOk && (tmp === undefined ? false : true);
+      let isOk: boolean = true;
+      const tmp = acList!.get(contestId + problemId);
+      isOk = isOk && (tmp === undefined ? false : true);
 
-     let classOK = "cell-element OK-" + String(mp.get(e.index[0]));
-     let classNA = "cell-element NA-" + String(mp.get(e.index[0]));
-     // let classNG = "cell-element NG" + "-" + String(mp.get(e.index[0]));
+      let classOK = "cell-element OK-" + String(mp.get(e.index[0]));
+      let classNA = "cell-element NA-" + String(mp.get(e.index[0]));
+      // let classNG = "cell-element NG" + "-" + String(mp.get(e.index[0]));
 
-     const className = isOk ? classOK : classNA;
+      const className = isOk ? classOK : classNA;
 
-     obj[problemId[0]] = (
+      obj[problemId[0]] = (
         <>
           {obj[problemId[0]] !== undefined ? (
             <>
               {obj[problemId[0]]}
-                <div className={className}>
-                  {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
-                  <a
-                    href={PREFIX + String(x.id) + "/problem/" + e.index}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    className={ratingColorClass}
-                  >
-                    {String(e.index) + ". " + problemName}
-                  </a>
-                </div>
-            </>
-          ) : (
               <div className={className}>
                 {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
                 <a
@@ -163,10 +150,103 @@ export const makeContestTable = (
                   {String(e.index) + ". " + problemName}
                 </a>
               </div>
+            </>
+          ) : (
+            <div className={className}>
+              {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
+              <a
+                href={PREFIX + String(x.id) + "/problem/" + e.index}
+                rel="noopener noreferrer"
+                target="_blank"
+                className={ratingColorClass}
+              >
+                {String(e.index) + ". " + problemName}
+              </a>
+            </div>
           )}
         </>
-     )
+      );
     });
     return obj;
   });
+};
+
+let filterProblemsMap : Map<string, object[]> = new Map();
+
+export const filterProblems = (
+  contestName: string,
+  allProblems: object[]
+): object[] => {
+  let problemData;
+
+  let a = filterProblemsMap.get(contestName);
+  if (a !== undefined) {
+    return a;
+  }
+
+  if (contestName === "All Contests") {
+    problemData = allProblems;
+    filterProblemsMap.set("All Contests", problemData)
+  } else if (contestName === "Educational Codeforces Rounds") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Educational";
+    });
+    filterProblemsMap.set("Educational Codeforces Rounds", problemData)
+  } else if (contestName === "Codeforces Global Rounds") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Global";
+    });
+    filterProblemsMap.set("Codeforces Global Rounds", problemData)
+  } else if (contestName === "Div. 1 + Div. 2 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div1 + Div2";
+    });
+    filterProblemsMap.set("Div. 1 + Div. 2 Contests", problemData)
+  } else if (contestName === "Div. 1 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div1";
+    });
+    filterProblemsMap.set("Div. 1 Contests", problemData)
+  } else if (contestName === "Div. 2 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div2";
+    });
+    filterProblemsMap.set("Div. 2 Contests", problemData)
+  } else if (contestName === "Div. 3 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div3";
+    });
+    filterProblemsMap.set("Div. 3 Contests", problemData)
+  } else if (contestName === "Div. 4 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div4";
+    });
+    filterProblemsMap.set("Div. 4 Contests", problemData)
+  } else if (contestName === "Kotlin Heroes") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Kotlin";
+    });
+    filterProblemsMap.set("Kotlin Heroes", problemData)
+  } else if (contestName === "ICPC") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "ICPC";
+    });
+    filterProblemsMap.set("ICPC", problemData)
+  } else if (contestName === "Microsoft Q# Coding Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Q#";
+    });
+    filterProblemsMap.set("Microsoft Q# Coding Contests", problemData)
+  } else if (contestName === "Other Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Other";
+    });
+    filterProblemsMap.set("Other Contests", problemData)
+  }
+
+  if (problemData !== undefined) {
+    return problemData;
+  } else {
+    return [];
+  }
 };

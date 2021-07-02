@@ -1,29 +1,9 @@
 const STATIC_API_BASE_URL = "https://codeforces.com/api";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const fetchContests = async (url: string): Promise<any> => {
-  let tmp: any = [];
-  await fetch(url)
-    .then((res) => res.json())
-    .then((x) => {
-      tmp = x.result.filter((obj: any) => {
-        return obj.phase === "FINISHED";
-      });
-    });
-
-  return tmp;
-};
-
 let CACHED_CONTESTS: any[];
-export const cachedContestArray = async (): Promise<any[]> => {
+export const cachedContestArray = () => {
   if (CACHED_CONTESTS === undefined) {
-    try {
-      let t = await fetchContests(STATIC_API_BASE_URL + "/contest.list");
-      CACHED_CONTESTS = t;
-    } catch (e) {
-      // console.log(e);
-      CACHED_CONTESTS = [];
-    }
+    CACHED_CONTESTS = require("./contests.json");
   }
   return CACHED_CONTESTS;
 };

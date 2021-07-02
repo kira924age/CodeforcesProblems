@@ -55,8 +55,8 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
         <Radio.Button value="Div. 2 Contests">Div2</Radio.Button>
         <Radio.Button value="Div. 3 Contests">Div3</Radio.Button>
         <Radio.Button value="Div. 4 Contests">Div4</Radio.Button>
-        <Radio.Button value="Kotlin Heroes">Kotlin</Radio.Button>
         <Radio.Button value="ICPC">ICPC</Radio.Button>
+        <Radio.Button value="Kotlin Heroes">Kotlin</Radio.Button>
         <Radio.Button value="Microsoft Q# Coding Contests">Q#</Radio.Button>
         <Radio.Button value="Other Contests">other</Radio.Button>
         <Radio.Button value="All Contests">All</Radio.Button>

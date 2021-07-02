@@ -9,4 +9,6 @@ func main() {
 	if !isExist {
 		initialCrawl()
 	}
+
+	updateContest(1350, "Div2", "Codeforces Round #641 (Div. 2)")
 }

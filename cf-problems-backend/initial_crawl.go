@@ -11,11 +11,12 @@ import (
 )
 
 type Contest struct {
-	ID     int    `json:"id"`
-	Name   string `json:"name"`
-	Type   string `json:"type"`
-	Phase  string `json:"phase"`
-	Frozen bool   `json:"frozen"`
+	ID               int    `json:"id"`
+	Name             string `json:"name"`
+	Type             string `json:"type"`
+	Phase            string `json:"phase"`
+	Frozen           bool   `json:"frozen"`
+	StartTimeSeconds int64  `json:"startTimeSeconds"`
 }
 
 type ContestList struct {

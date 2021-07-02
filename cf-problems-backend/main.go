@@ -1,6 +1,8 @@
 package main
 
-import "os"
+import (
+	"os"
+)
 
 func main() {
 	_, err := os.Stat("contests.json")
@@ -8,7 +10,7 @@ func main() {
 
 	if !isExist {
 		initialCrawl()
+	} else {
+		regularCrawl()
 	}
-
-	updateContest(1350, "Div2", "Codeforces Round #641 (Div. 2)")
 }

@@ -2,23 +2,38 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 
 	"github.com/gocolly/colly"
 )
 
 func getTitle(URL string) string {
-	res := "HOGE"
+	res := ""
 	// Instantiate default collector
 	c := colly.NewCollector()
 	c.OnHTML(".problem-statement > .header > .title", func(e *colly.HTMLElement) {
-		res = e.Text
+		num := strings.Index(e.Text, ".")
+		res = strings.TrimSpace(e.Text[num+1:])
 	})
 
-	// Start scraping on https://hackerspaces.org
 	c.Visit(URL)
 
-	fmt.Println("Problem Name : ", res)
+	return res
+}
+
+func getDifficulty(URL string) int {
+	res := -1
+	// Instantiate default collector
+	c := colly.NewCollector()
+	c.OnHTML("span[title='Difficulty']", func(e *colly.HTMLElement) {
+		diff, _ := strconv.Atoi(strings.TrimSpace(e.Text)[1:])
+		res = diff
+	})
+
+	c.Visit(URL)
+
+	fmt.Println("Difficulty:", res)
 	return res
 }
 
@@ -35,6 +50,7 @@ func crawlContest(contestID int, problems []Problem) []Problem {
 
 		problemIndex := strings.TrimSpace(e.Text)
 		problemName := getTitle(e.Request.AbsoluteURL(link))
+		problemDiff := getDifficulty(e.Request.AbsoluteURL(link))
 
 		isExist := false
 		for _, problem := range problems {
@@ -44,8 +60,12 @@ func crawlContest(contestID int, problems []Problem) []Problem {
 			}
 		}
 
-		if !isExist {
-			res = append(res, Problem{problemIndex, problemName, 0})
+		if !isExist && problemName != "" {
+			if problemDiff != -1 {
+				res = append(res, Problem{Index: problemIndex, Name: problemName, Rating: problemDiff})
+			} else {
+				res = append(res, Problem{Index: problemIndex, Name: problemName})
+			}
 		}
 
 		fmt.Printf("Link found: %q -> %s\n", problemIndex, link)

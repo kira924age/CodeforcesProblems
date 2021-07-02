@@ -73,7 +73,8 @@ func initialCrawl() {
 			contests = append(contests, FormatedContest{contestID, contestType, contest.Name, problems[contest.ID]})
 		}
 
-		json, err := json.MarshalIndent(contests, "", "    ")
+		// json, err := json.MarshalIndent(contests, "", "    ")
+		json, err := json.Marshal(contests)
 		if err != nil {
 			log.Fatal(err)
 		}

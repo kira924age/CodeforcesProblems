@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"time"
 
 	"github.com/gocolly/colly"
 )
@@ -56,13 +57,20 @@ func initialCrawl() {
 
 		contests := make([]FormatedContest, 0)
 		for _, contest := range response.Result {
-			if contest.Phase != "FINISHED" {
+			var contestPhase = contest.Phase
+			var contestID = contest.ID
+
+			if contestPhase != "FINISHED" {
 				continue
 			}
 
 			contestType := classifyContestType(contest.Name)
 
-			contests = append(contests, FormatedContest{contest.ID, contestType, contest.Name, problems[contest.ID]})
+			// wait 5 seconds
+			time.Sleep(5000 * time.Millisecond)
+			problems[contestID] = crawlContest(contestID, problems[contestID])
+
+			contests = append(contests, FormatedContest{contestID, contestType, contest.Name, problems[contest.ID]})
 		}
 
 		json, err := json.MarshalIndent(contests, "", "    ")

@@ -44,7 +44,9 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
       - name: install dependency
-        run: yarn
+        run: |
+          yarn
+          yarn build
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
 

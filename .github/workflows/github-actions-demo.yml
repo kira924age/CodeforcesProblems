@@ -60,6 +60,7 @@ jobs:
       - name: git commit
         run: |
           git commit -a -m "Update build (By GitHub Actions)"
+          git add -A
           git push
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: git checkout

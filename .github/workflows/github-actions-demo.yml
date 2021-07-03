@@ -75,8 +75,8 @@ jobs:
         run: |
           cp -rf cf-problems-frontend/build/* .
           rm -rf cf-problems-frontend
-          cp cf-problems-frontend/build/CNAME .
-          rm cf-problems-frontend/build/CNAME
+          cp cf-problems-frontend/public/CNAME .
+          rm cf-problems-frontend/public/CNAME
       - name: ls
         run: ls
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

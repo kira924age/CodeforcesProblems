@@ -1,5 +1,9 @@
-name: GitHub Actions Demo
-on: [push]
+name: GitHub Actions
+on: 
+  push:
+  schedule:
+    - cron: '0 0 * * *' # Once per day at midnight
+
 jobs:
 #  Crawl-Codeforces:
 #    name: Crawl-Codeforces-Job

@@ -65,7 +65,8 @@ jobs:
       - name: git checkout
         run: |
           git checkout -b gh-pages origin/gh-pages
-          git branch -a
+          rm -rf *
+          git checkout -b issues/1 cf-problems/cf-problems-fronted/build
       - name: ls
         run: ls
 

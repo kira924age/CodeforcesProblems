@@ -10,7 +10,7 @@ const Logo: React.FunctionComponent = (props) => {
     <h1 id="logo">
       <Link to="/table">
         <img alt="logo" src="../CF-like-logo.png" />
-        CF Problems{" "}
+        Codeforces Problems{" "}
       </Link>
     </h1>
   );

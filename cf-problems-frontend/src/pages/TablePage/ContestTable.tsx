@@ -3,14 +3,13 @@ import { Table } from "antd";
 
 import {
   makeContestColumns,
-  filterContest,
   makeContestTable,
+  filterProblems
 } from "./contestTableUtils";
 
 import {
+  cachedUserSubmissions ,
   cachedContestArray,
-  cachedProblemMap,
-  cachedUserSubmissions,
 } from "../../utils/TypedCachedApiClient";
 
 import ErrorMessage from "./ErrorMessage";
@@ -23,31 +22,7 @@ interface ContestTableProps {
 
 const ContestTable: React.FC<ContestTableProps> = (props) => {
   const [isFetchFailue, setIsFetchFailue] = React.useState(false);
-
   const [acList, setAcList] = React.useState(new Map());
-
-  const problemDataFromLocal = localStorage.getItem("problemData");
-  const contestDataFromLocal = localStorage.getItem("contestData");
-
-  const [contestData, setContestData] = React.useState(
-    contestDataFromLocal === undefined || contestDataFromLocal === null
-      ? ([] as any[])
-      : JSON.parse(contestDataFromLocal)
-  );
-
-  const [problemData, setProblemData] = React.useState(
-    problemDataFromLocal === undefined || problemDataFromLocal === null
-      ? new Map()
-      : new Map(JSON.parse(problemDataFromLocal))
-  );
-
-  const f =
-    problemDataFromLocal !== undefined &&
-    problemDataFromLocal !== null &&
-    contestDataFromLocal !== undefined &&
-    contestDataFromLocal !== null;
-
-  const [isLoading, setIsLoading] = React.useState(!f);
 
   React.useEffect(() => {
     let isMounted = true;
@@ -62,8 +37,15 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       const [userSubmission] = await Promise.all([
         cachedUserSubmissions(String(props.userId)),
       ]);
+
       if (isMounted) {
-        setAcList(userSubmission);
+        if (userSubmission === null) {
+          setIsFetchFailue(true);
+          setAcList(new Map());
+        } else {
+          setIsFetchFailue(false);
+          setAcList(userSubmission);
+        }
       }
     };
 
@@ -74,95 +56,29 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
     };
   }, [props.userId]);
 
-  React.useEffect(() => {
-    let isMounted = true;
+  const allProblems = cachedContestArray();
+  let problemData = filterProblems(props.name, allProblems);
 
-    const getUniversalInfo = async () => {
-      const [contests, mp] = await Promise.all([
-        cachedContestArray(),
-        cachedProblemMap(),
-      ]);
+  console.log("OUTPUT FOR DEGUG");
 
-      if (contests.length === 0 && mp.size === 0) {
-        setIsFetchFailue(true);
-      }
-
-      if (isMounted) {
-        setContestData(contests);
-        setProblemData(mp);
-        localStorage.setItem(
-          "problemData",
-          JSON.stringify(Array.from(mp.entries()))
-        );
-        localStorage.setItem("contestData", JSON.stringify(contests));
-        setIsLoading(false);
-      }
-    };
-
-    void getUniversalInfo();
-
-    return () => {
-      isMounted = false;
-    };
-  }, []);
-
-  let problemData2;
-  if (problemData.size !== 0 && problemData.size !== undefined) {
-    let filteredContestData: object[] = contestData!.filter((obj: any) => {
-      const id = obj.id;
-      return problemData.has(id);
-    });
-
-    filteredContestData = filterContest(props.name, filteredContestData);
-
-    problemData2 = makeContestTable(
-      filteredContestData,
-      problemData,
-      props.isShowDifficulty,
-      acList
-    );
-  }
+  let problemData2 = makeContestTable(problemData, props.isShowDifficulty, acList);
 
   const columns = makeContestColumns(props.name);
 
   return (
     <React.Fragment>
       <h2>{props.name}</h2>
-
       {isFetchFailue && <ErrorMessage />}
-
-      {isLoading ? (
-        <Table
-          loading
-          pagination={{
-            defaultPageSize: 50,
-            pageSizeOptions: ["10", "20", "50", "100"],
-          }}
-          bordered
-          className="ant-contest-table"
-          columns={columns}
-          dataSource={problemData2}
-          locale={{
-            emptyText: (
-              <React.Fragment>
-                <br />
-                Now Loading!!!!
-              </React.Fragment>
-            ),
-          }}
-        />
-      ) : (
-        <Table
-          pagination={{
-            defaultPageSize: 50,
-            pageSizeOptions: ["10", "20", "50", "100"],
-          }}
-          bordered
-          className="ant-contest-table"
-          columns={columns}
-          dataSource={problemData2}
-        />
-      )}
+      <Table
+        pagination={{
+          defaultPageSize: 50,
+          pageSizeOptions: ["10", "20", "50", "100"],
+        }}
+        bordered
+        className="ant-contest-table"
+        columns={columns}
+        dataSource={problemData2}
+      />
     </React.Fragment>
   );
 };

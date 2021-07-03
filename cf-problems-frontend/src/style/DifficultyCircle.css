@@ -1,21 +1,6 @@
-.div-diff-circle {
-  display: inline-block;
-}
-
 .difficulty-unavailable-circle {
-  display: inline-block;
-}
-
-.difficulty-unavailable-circle > span {
-  text-align: center;
   border-color: #000000;
   background: #000000;
-}
-
-.theme-dark .difficulty-unavailable-circle > span {
-  text-align: center;
-  border-color: #C9D1D9;
-  background: #C9D1D9;
 }
 
 .common-difficulty-circle {

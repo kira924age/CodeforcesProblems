@@ -32,8 +32,11 @@ export const makeContestColumns = (contest: string) => {
     case "Codeforces Global Rounds":
       columnNum = 9;
       break;
-    case "Div. 1 Contests":
+    case "Div. 1 + Div. 2 Contests":
       columnNum = 8;
+      break;
+    case "Div. 1 Contests":
+      columnNum = 7;
       break;
     case "Div. 2 Contests":
       columnNum = 8;
@@ -44,11 +47,20 @@ export const makeContestColumns = (contest: string) => {
     case "Div. 4 Contests":
       columnNum = 7;
       break;
+    case "ICPC":
+      columnNum = 14;
+      break;
+    case "Kotlin Heroes":
+      columnNum = 10;
+      break;
     case "Q#":
       columnNum = 9;
       break;
+    case "Other Contests":
+      columnNum = 15;
+      break;
     case "All Contests":
-      columnNum = 18;
+      columnNum = 14;
       break;
   }
 
@@ -67,156 +79,79 @@ export const makeContestColumns = (contest: string) => {
   return columns;
 };
 
-export const filterContest = (
-  contestName: string,
-  contestData: object[]
-): object[] => {
-  let filteredContestData;
-
-  if (contestName === "All Contests") {
-    filteredContestData = contestData!.filter((obj: any) => {
-      return true;
-    });
-  }
-
-  if (contestName === "Educational Codeforces Rounds") {
-    filteredContestData = contestData!.filter((obj: any) => {
-      return obj.name.substr(0, 11) === "Educational";
-    });
-  }
-
-  if (contestName === "Codeforces Global Rounds") {
-    filteredContestData = contestData!.filter((obj: any) => {
-      return obj.name.includes("Codeforces Global Round");
-    });
-  }
-
-  if (contestName === "Div. 1 Contests") {
-    filteredContestData = contestData!.filter((obj: any) => {
-      return obj.name.includes("Div. 1") && !obj.name.includes("Bubble Cup");
-    });
-  }
-
-  if (contestName === "Div. 2 Contests") {
-    filteredContestData = contestData!.filter((obj: any) => {
-      return (
-        obj.name.includes("Div. 2") &&
-        !obj.name.includes("Educational") &&
-        !obj.name.includes("Bubble Cup")
-      );
-    });
-  }
-
-  if (contestName === "Div. 3 Contests") {
-    filteredContestData = contestData!.filter((obj: any) => {
-      return obj.name.includes("Div. 3");
-    });
-  }
-
-  if (contestName === "Div. 4 Contests") {
-    filteredContestData = contestData!.filter((obj: any) => {
-      return obj.name.includes("Div. 4");
-    });
-  }
-
-  if (contestName === "Microsoft Q# Coding Contests") {
-    filteredContestData = contestData!.filter((obj: any) => {
-      return obj.name.includes("Q#");
-    });
-  }
-
-  if (filteredContestData !== undefined) {
-    return filteredContestData;
-  } else {
-    return [];
-  }
-};
-
 const PREFIX = "https://codeforces.com/contest/";
+
 export const makeContestTable = (
-  filteredContestData: any[],
-  problemData: Map<number, any[]>,
+  problemData: object[],
   isShowDifficulty: boolean,
   acList: Map<string, boolean>
 ) => {
-  return filteredContestData.map((x: any) => {
+  return problemData.map((x: any) => {
     let obj: any = {};
+    let contestId = x.id;
+    let contestName = x.name;
+    let problems = x.problems;
 
-    const contestId = x.id;
-    let problemList = problemData.get(contestId);
+    let isOk: boolean = problems !== null ? true : false;
 
-    let tmp: Map<string, number> = new Map();
-    let isOk: boolean = true;
+    let mp: Map<string, number> = new Map();
 
-    problemList!.forEach((e: any) => {
-      const t = acList!.get(String(x.id) + String(e.index));
-      isOk = isOk && (t === undefined ? false : true);
+    if (problems !== null) {
+      problems.forEach((e: any) => {
+        const t = acList!.get(String(x.id) + String(e.index));
+        isOk = isOk && (t === undefined ? false : true);
 
-      let cnt = tmp.get(e.index[0]);
-      if (cnt === undefined) {
-        cnt = 1;
-      } else {
-        cnt++;
-      }
-      tmp.set(e.index[0], cnt);
-    });
+        let cnt = mp.get(e.index[0]);
+        if (cnt === undefined) {
+          cnt = 1;
+        } else {
+          cnt++;
+        }
+        mp.set(e.index[0], cnt);
+      });
+    }
+
+    const contestClassName = isOk ? "cell-element OK" : "cell-element";
 
     obj["name"] = (
-      <>
-        {isOk ? (
-          <div className="table-success-1 cell-element">
-            <a
-              href={PREFIX + String(x.id)}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              {x.name}
-            </a>
-          </div>
-        ) : (
-          <div className="cell-element">
-            <a
-              href={PREFIX + String(x.id)}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              {x.name}
-            </a>
-          </div>
-        )}
-      </>
+      <div className={contestClassName}>
+        <a
+          href={PREFIX + String(contestId)}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          {contestName}
+        </a>
+      </div>
     );
 
-    problemList!.forEach((e: any) => {
-      const className = acList!.get(String(x.id) + String(e.index))
-        ? "table-success-" + tmp.get(e.index[0])
-        : "table-not-success-" + tmp.get(e.index[0]);
+    if (problems === null) {
+      return obj;
+    }
+
+    problems.forEach((e: any) => {
       const ratingColorClass = isShowDifficulty
         ? getRatingColorClass(e.rating)
         : "difficulty-black";
+      const problemId: string = e.index;
+      const problemName: string = e.name;
 
-      obj[e.index[0]] = (
+      let isOk: boolean = true;
+      const tmp = acList!.get(contestId + problemId);
+      isOk = isOk && (tmp === undefined ? false : true);
+
+      let classOK = "cell-element OK-" + String(mp.get(e.index[0]));
+      let classNA = "cell-element NA-" + String(mp.get(e.index[0]));
+      // let classNG = "cell-element NG" + "-" + String(mp.get(e.index[0]));
+
+      const className = isOk ? classOK : classNA;
+
+      obj[problemId[0]] = (
         <>
-          {obj[e.index[0]] !== undefined ? (
+          {obj[problemId[0]] !== undefined ? (
             <>
-              {obj[e.index[0]]}
+              {obj[problemId[0]]}
               <div className={className}>
-                <div className="cell-element">
-                  {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
-                  <a
-                    href={PREFIX + String(x.id) + "/problem/" + e.index}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    className={ratingColorClass}
-                  >
-                    {String(e.index) + ". " + e.name}
-                  </a>
-                </div>
-              </div>
-            </>
-          ) : (
-            <div className={className}>
-              <div className="cell-element">
                 {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
                 <a
                   href={PREFIX + String(x.id) + "/problem/" + e.index}
@@ -224,29 +159,106 @@ export const makeContestTable = (
                   target="_blank"
                   className={ratingColorClass}
                 >
-                  {String(e.index) + ". " + e.name}
+                  {String(e.index) + ". " + problemName}
                 </a>
               </div>
+            </>
+          ) : (
+            <div className={className}>
+              {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
+              <a
+                href={PREFIX + String(x.id) + "/problem/" + e.index}
+                rel="noopener noreferrer"
+                target="_blank"
+                className={ratingColorClass}
+              >
+                {String(e.index) + ". " + problemName}
+              </a>
             </div>
           )}
         </>
       );
     });
-
-    obj["key"] = contestId;
-    obj["id"] = contestId;
-
-    obj["name"] = <div className="box">{obj["name"]}</div>;
-    obj["A"] = <div className="box">{obj["A"]}</div>;
-    obj["B"] = <div className="box">{obj["B"]}</div>;
-    obj["C"] = <div className="box">{obj["C"]}</div>;
-    obj["D"] = <div className="box">{obj["D"]}</div>;
-    obj["E"] = <div className="box">{obj["E"]}</div>;
-    obj["F"] = <div className="box">{obj["F"]}</div>;
-    obj["G"] = <div className="box">{obj["G"]}</div>;
-    obj["H"] = <div className="box">{obj["H"]}</div>;
-    obj["I"] = <div className="box">{obj["I"]}</div>;
-
     return obj;
   });
+};
+
+let filterProblemsMap : Map<string, object[]> = new Map();
+
+export const filterProblems = (
+  contestName: string,
+  allProblems: object[]
+): object[] => {
+  let problemData;
+
+  let a = filterProblemsMap.get(contestName);
+  if (a !== undefined) {
+    return a;
+  }
+
+  if (contestName === "All Contests") {
+    problemData = allProblems;
+    filterProblemsMap.set("All Contests", problemData)
+  } else if (contestName === "Educational Codeforces Rounds") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Educational";
+    });
+    filterProblemsMap.set("Educational Codeforces Rounds", problemData)
+  } else if (contestName === "Codeforces Global Rounds") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Global";
+    });
+    filterProblemsMap.set("Codeforces Global Rounds", problemData)
+  } else if (contestName === "Div. 1 + Div. 2 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div1 + Div2";
+    });
+    filterProblemsMap.set("Div. 1 + Div. 2 Contests", problemData)
+  } else if (contestName === "Div. 1 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div1";
+    });
+    filterProblemsMap.set("Div. 1 Contests", problemData)
+  } else if (contestName === "Div. 2 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div2";
+    });
+    filterProblemsMap.set("Div. 2 Contests", problemData)
+  } else if (contestName === "Div. 3 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div3";
+    });
+    filterProblemsMap.set("Div. 3 Contests", problemData)
+  } else if (contestName === "Div. 4 Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Div4";
+    });
+    filterProblemsMap.set("Div. 4 Contests", problemData)
+  } else if (contestName === "Kotlin Heroes") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Kotlin";
+    });
+    filterProblemsMap.set("Kotlin Heroes", problemData)
+  } else if (contestName === "ICPC") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "ICPC";
+    });
+    filterProblemsMap.set("ICPC", problemData)
+  } else if (contestName === "Microsoft Q# Coding Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Q#";
+    });
+    filterProblemsMap.set("Microsoft Q# Coding Contests", problemData)
+  } else if (contestName === "Other Contests") {
+    problemData = allProblems.filter((obj: any) => {
+      return obj.type === "Other";
+    });
+    filterProblemsMap.set("Other Contests", problemData)
+  }
+
+  if (problemData !== undefined) {
+    return problemData;
+  } else {
+    return [];
+  }
 };

@@ -1,0 +1,81 @@
+name: GitHub Actions
+on: 
+  push:
+  schedule:
+    - cron: '0 0 * * *' # Once per day at midnight
+
+jobs:
+  Crawl-Codeforces:
+    name: Crawl-Codeforces-Job
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-go@v1
+        with:
+          go-version: 1.16
+      - name: go get
+        run: go get github.com/gocolly/colly
+        working-directory: ${{ github.workspace }}/cf-problems-backend
+      - name: go build
+        run: go build -o main *.go
+        working-directory: ${{ github.workspace }}/cf-problems-backend
+      - name: run go binary
+        run: ./main
+        working-directory: ${{ github.workspace }}/cf-problems-backend
+      - name: copy contests.json
+        run: cp contests.json ../cf-problems-frontend/src/utils
+        working-directory: ${{ github.workspace }}/cf-problems-backend
+      - name: git setting
+        run: |
+          git config --local user.email "kira924age@gmail.com"
+          git config --local user.name "kira924age"
+      - name: Commit files
+        run: |
+          git add -A
+          if ! git diff-index --quiet HEAD --; then git commit -a -m "Update contests.json (By GitHub Actions)"; fi;
+          git push
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+
+  Build-React-App:
+    name: Build-React-App-Job
+    needs: Crawl-Codeforces
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.17]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+      - name: git setting
+        run: |
+          git config --local user.email "kira924age@gmail.com"
+          git config --local user.name "kira924age"
+          git pull
+      - name: install dependency
+        run: yarn
+        working-directory: ${{ github.workspace }}/cf-problems-frontend
+      - name: build React App
+        run: yarn build
+        working-directory: ${{ github.workspace }}/cf-problems-frontend
+      - name: git commit
+        run: |
+          git add -A
+          if ! git diff-index --quiet HEAD --; then git commit -a -m "Update build files (By GitHub Actions)"; fi;
+          git push
+      - name: git checkout
+        run: |
+          git checkout -b gh-pages origin/gh-pages
+          rm -rf *
+          git checkout issues/1 -- cf-problems-frontend/build
+          git checkout issues/1 -- cf-problems-frontend/public/CNAME
+      - name: copy files
+        run: |
+          cp -rf cf-problems-frontend/build/* .
+          cp cf-problems-frontend/public/CNAME .
+          rm -rf cf-problems-frontend
+      - name: ls
+        run: ls -al
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

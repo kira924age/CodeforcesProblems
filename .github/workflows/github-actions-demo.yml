@@ -70,10 +70,13 @@ jobs:
           git checkout -b gh-pages origin/gh-pages
           rm -rf *
           git checkout issues/1 -- cf-problems-frontend/build
+          git checkout issues/1 -- cf-problems-frontend/public/CNAME
       - name: copy files
         run: |
           cp -rf cf-problems-frontend/build/* .
           rm -rf cf-problems-frontend
+          cp cf-problems-frontend/build/CNAME .
+          rm cf-problems-frontend/build/CNAME
       - name: ls
         run: ls
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

@@ -6,6 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-go@v1
+        with:
+          go-version: 1.16
       - run: go get github.com/gocolly/colly
       - run: cd ${{ github.workspace }}/cf-problems-backend
       - run: go build -o main main.go initial_crawl.go updateContest.go regularCrawl.go getProblems.go crawlContest.go cf-problems-utils.go

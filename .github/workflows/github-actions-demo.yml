@@ -32,8 +32,7 @@ jobs:
       - name: Commit files
         run: |
           git add -A
-          git diff --exit-code
-          if test $? -eq 1; then git commit -a -m "Update contests.json (By GitHub Actions)"; fi;
+          if ! git diff-index --quiet HEAD --; then git commit -a -m "Update contests.json (By GitHub Actions)"; fi;
           git push
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
 
@@ -61,14 +60,11 @@ jobs:
       - name: build React App
         run: yarn build
         working-directory: ${{ github.workspace }}/cf-problems-frontend
-      - name: git add
-        run: git add -A
       - name: git commit
         run: |
-          git diff --exit-code
-          if test $? -eq 1; then git commit -a -m "Update build (By GitHub Actions)"; fi;
-      - name: git push
-        run: git push
+          git add -A
+          if ! git diff-index --quiet HEAD --; then git commit -a -m "Update build files (By GitHub Actions)"; fi;
+          git push
       - name: git checkout
         run: |
           git checkout -b gh-pages origin/gh-pages

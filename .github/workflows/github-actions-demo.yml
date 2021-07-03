@@ -71,12 +71,12 @@ jobs:
           rm -rf *
           git checkout issues/1 -- cf-problems-frontend/build
           git checkout issues/1 -- cf-problems-frontend/public/CNAME
+      - name: ls
+        run: ls cf-problems-frontend
       - name: copy files
         run: |
           cp -rf cf-problems-frontend/build/* .
           rm -rf cf-problems-frontend
           cp cf-problems-frontend/public/CNAME .
           rm cf-problems-frontend/public/CNAME
-      - name: ls
-        run: ls
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

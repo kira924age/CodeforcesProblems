@@ -1,39 +1,44 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-  Crawl-Codeforces:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - uses: actions/setup-go@v1
-        with:
-          go-version: 1.16
-      - name: go get
-        run: go get github.com/gocolly/colly
-        working-directory: ${{ github.workspace }}/cf-problems-backend
-      - name: go build
-        run: go build -o main *.go
-        working-directory: ${{ github.workspace }}/cf-problems-backend
-      - name: run go binary
-        run: ./main
-        working-directory: ${{ github.workspace }}/cf-problems-backend
-      - name: copy contests.json
-        run: cp contests.json ../cf-problems-frontend/src/utils
-        working-directory: ${{ github.workspace }}/cf-problems-backend
-      - name: git setting
-        run: |
-          git config --local user.email "kira924age@gmail.com"
-          git config --local user.name "kira924age"
-      - name: Commit files
-        run: |
-          git add -A
-          git commit -a -m "Update contests.json (By GitHub Actions)"
-          git pull
-          git push
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+#  Crawl-Codeforces:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@master
+#      - uses: actions/setup-go@v1
+#        with:
+#          go-version: 1.16
+#      - name: go get
+#        run: go get github.com/gocolly/colly
+#        working-directory: ${{ github.workspace }}/cf-problems-backend
+#      - name: go build
+#        run: go build -o main *.go
+#        working-directory: ${{ github.workspace }}/cf-problems-backend
+#      - name: run go binary
+#        run: ./main
+#        working-directory: ${{ github.workspace }}/cf-problems-backend
+#      - name: copy contests.json
+#        run: cp contests.json ../cf-problems-frontend/src/utils
+#        working-directory: ${{ github.workspace }}/cf-problems-backend
+#      - name: git setting
+#        run: |
+#          git config --local user.email "kira924age@gmail.com"
+#          git config --local user.name "kira924age"
+#      - name: Commit files
+#        run: |
+#          git add -A
+#          git commit -a -m "Update contests.json (By GitHub Actions)"
+#          git pull
+#          git push
+#      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
 
   Build-React-App:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: 15.x
+
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}

@@ -616,27 +616,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "And Then There Were K"
+    "name": "And Then There Were K",
+    "rating": 800
    },
    {
     "index": "B1",
-    "name": "Palindrome Game (easy version)"
+    "name": "Palindrome Game (easy version)",
+    "rating": 1200
    },
    {
     "index": "B2",
-    "name": "Palindrome Game (hard version)"
+    "name": "Palindrome Game (hard version)",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Sequence Pair Weight"
+    "name": "Sequence Pair Weight",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "MEX Tree"
+    "name": "MEX Tree",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Partition Game"
+    "name": "Partition Game",
+    "rating": 2500
    }
   ]
  },

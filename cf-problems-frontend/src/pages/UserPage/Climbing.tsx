@@ -46,6 +46,7 @@ const ClimbingChart: React.FunctionComponent<Props> = (props) => {
           return (
             <Area
               type="linear"
+              isAnimationActive={false}
               key={ratingColor}
               dataKey={ratingColor === "Black" ? "Other" : ratingColor}
               stackId="1"

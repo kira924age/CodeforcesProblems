@@ -10,9 +10,11 @@ jobs:
           go-version: 1.16
       - run: go get github.com/gocolly/colly
         working-directory: ${{ github.workspace }}/cf-problems-backend
-      - run: ls ${{ github.workspace }}
+      - run: ls
         working-directory: ${{ github.workspace }}/cf-problems-backend
       - run: go build -o main *.go
+        working-directory: ${{ github.workspace }}/cf-problems-backend
+      - run: ls
         working-directory: ${{ github.workspace }}/cf-problems-backend
 
   Explore-GitHub-Actions:

@@ -59,8 +59,8 @@ jobs:
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: git commit
         run: |
-          git commit -a -m "Update build (By GitHub Actions)"
           git add -A
+          git commit -a -m "Update build (By GitHub Actions)"
           git push
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: git checkout

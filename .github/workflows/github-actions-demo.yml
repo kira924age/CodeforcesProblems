@@ -32,8 +32,8 @@ jobs:
       - name: Commit files
         run: |
           git add -A
-          git commit -a -m "Update contests.json (By GitHub Actions)"
-          git pull
+          git diff --exit-code
+          if test $? -eq 1; then git commit -a -m "Update contests.json (By GitHub Actions)"; fi;
           git push
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
 

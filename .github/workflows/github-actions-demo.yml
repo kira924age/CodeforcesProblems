@@ -65,12 +65,15 @@ jobs:
           if test $? -eq 1; then git commit -a -m "Update build (By GitHub Actions)"; fi;
       - name: git push
         run: git push
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: git checkout
         run: |
           git checkout -b gh-pages origin/gh-pages
           rm -rf *
           git checkout issues/1 -- cf-problems-frontend/build
+      - name: copy files
+        run: |
+          cp -rf cf-problems-frontend/* .
+          rm -rf cf-problems-frontend
       - name: ls
         run: ls
-
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

@@ -1,6 +1,12 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
+  set-up:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-go@v1
+      - run: go run hello.go
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:

@@ -59,7 +59,7 @@ jobs:
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: git checkout
-      - run: |
+        run: |
         git checkout -b gh-pages origin/gh-pages
         git branch -a
 

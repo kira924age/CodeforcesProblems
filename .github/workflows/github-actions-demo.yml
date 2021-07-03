@@ -24,7 +24,7 @@ jobs:
       - name: Commit files
         run: |
           git add -A
-          git commit -a -m "Update contest.json"
+          git commit -a -m "Update contest.json (By GitHub Actions)"
           git pull
           git push
 

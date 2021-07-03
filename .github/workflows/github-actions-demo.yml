@@ -62,7 +62,7 @@ jobs:
       - name: git commit
         run: |
           git diff --exit-code
-          if test $? -eq 0; then git commit -a -m "Update build (By GitHub Actions)"; fi;
+          if test $? -eq 1; then git commit -a -m "Update build (By GitHub Actions)"; fi;
       - name: git push
         run: git push
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

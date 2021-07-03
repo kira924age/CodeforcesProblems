@@ -62,4 +62,6 @@ jobs:
         run: |
           git checkout -b gh-pages origin/gh-pages
           git branch -a
+      - name: ls
+        run: ls
 

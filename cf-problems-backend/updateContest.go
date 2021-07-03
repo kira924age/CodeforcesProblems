@@ -75,7 +75,20 @@ func updateContest(contestID int, contestType string, contestName string) {
 
 	add := FormatedContest{ID: contestID, Type: contestType, Name: contestName, Problems: ps}
 	if idx != -1 {
-		contests[idx] = add
+		prev := contests[idx]
+		if len(add.Problems) <= len(prev.Problems) {
+			cnt := 0
+			for i := 0; i < len(prev.Problems); i++ {
+				if prev.Problems[i].Rating != 0 {
+					cnt++
+				}
+			}
+			if cnt != len(prev.Problems) {
+				contests[idx] = add
+			}
+		} else {
+			contests[idx] = add
+		}
 	} else {
 		contests = append([]FormatedContest{add}, contests...)
 	}

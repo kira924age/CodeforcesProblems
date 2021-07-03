@@ -32,8 +32,11 @@ export const makeContestColumns = (contest: string) => {
     case "Codeforces Global Rounds":
       columnNum = 9;
       break;
-    case "Div. 1 Contests":
+    case "Div. 1 + Div. 2 Contests":
       columnNum = 8;
+      break;
+    case "Div. 1 Contests":
+      columnNum = 7;
       break;
     case "Div. 2 Contests":
       columnNum = 8;
@@ -44,11 +47,20 @@ export const makeContestColumns = (contest: string) => {
     case "Div. 4 Contests":
       columnNum = 7;
       break;
+    case "ICPC":
+      columnNum = 14;
+      break;
+    case "Kotlin Heroes":
+      columnNum = 10;
+      break;
     case "Q#":
       columnNum = 9;
       break;
+    case "Other Contests":
+      columnNum = 10;
+      break;
     case "All Contests":
-      columnNum = 18;
+      columnNum = 14;
       break;
   }
 

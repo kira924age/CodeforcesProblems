@@ -438,7 +438,7 @@
    },
    {
     "index": "H",
-    "name": "Hopping Around the Array ",
+    "name": "Hopping Around the Array",
     "rating": 3500
    }
   ]
@@ -616,33 +616,27 @@
   "problems": [
    {
     "index": "A",
-    "name": "And Then There Were K",
-    "rating": 800
+    "name": "And Then There Were K"
    },
    {
     "index": "B1",
-    "name": "Palindrome Game (easy version)",
-    "rating": 1200
+    "name": "Palindrome Game (easy version)"
    },
    {
     "index": "B2",
-    "name": "Palindrome Game (hard version)",
-    "rating": 1900
+    "name": "Palindrome Game (hard version)"
    },
    {
     "index": "C",
-    "name": "Sequence Pair Weight",
-    "rating": 1600
+    "name": "Sequence Pair Weight"
    },
    {
     "index": "D",
-    "name": "MEX Tree",
-    "rating": 2400
+    "name": "MEX Tree"
    },
    {
     "index": "E",
-    "name": "Partition Game",
-    "rating": 2500
+    "name": "Partition Game"
    }
   ]
  },
@@ -3054,12 +3048,6 @@
   ]
  },
  {
-  "id": 1410,
-  "type": "Other",
-  "name": "Технокубок 2021 - Ознакомительный Раунд 3",
-  "problems": null
- },
- {
   "id": 1463,
   "type": "Educational",
   "name": "Educational Codeforces Round 100 (Rated for Div. 2)",
@@ -3422,12 +3410,6 @@
     "rating": 2200
    }
   ]
- },
- {
-  "id": 1414,
-  "type": "Other",
-  "name": "Технокубок 2021 - Ознакомительный Раунд 2",
-  "problems": null
  },
  {
   "id": 1454,
@@ -4188,12 +4170,6 @@
   ]
  },
  {
-  "id": 1412,
-  "type": "Other",
-  "name": "Технокубок 2021 - Ознакомительный Раунд 1",
-  "problems": null
- },
- {
   "id": 1433,
   "type": "Div3",
   "name": "Codeforces Round #677 (Div. 3)",
@@ -4410,7 +4386,7 @@
  },
  {
   "id": 1423,
-  "type": "Div1",
+  "type": "Other",
   "name": "Bubble Cup 13 - Finals [Online Mirror, unrated, Div. 1]",
   "problems": [
    {
@@ -4487,7 +4463,7 @@
  },
  {
   "id": 1424,
-  "type": "Div2",
+  "type": "Other",
   "name": "Bubble Cup 13 - Finals [Online Mirror, unrated, Div. 2]",
   "problems": [
    {
@@ -8953,7 +8929,7 @@
  },
  {
   "id": 1302,
-  "type": "Div1",
+  "type": "Other",
   "name": "AIM Tech Poorly Prepared Contest (unrated, funny, Div. 1 preferred)",
   "problems": [
    {
@@ -9996,12 +9972,6 @@
   ]
  },
  {
-  "id": 1258,
-  "type": "Other",
-  "name": "Технокубок 2020 - Ознакомительный Раунд 4",
-  "problems": null
- },
- {
   "id": 1273,
   "type": "Other",
   "name": "VK Cup 2019 - Квалификация (Design)",
@@ -10443,12 +10413,6 @@
     "rating": 2400
    }
   ]
- },
- {
-  "id": 1226,
-  "type": "Other",
-  "name": "Технокубок 2020 - Ознакомительный Раунд 3",
-  "problems": null
  },
  {
   "id": 1254,
@@ -11064,12 +11028,6 @@
   ]
  },
  {
-  "id": 1224,
-  "type": "Other",
-  "name": "Технокубок 2020 - Ознакомительный Раунд 2",
-  "problems": null
- },
- {
   "id": 1249,
   "type": "Div3",
   "name": "Codeforces Round #595 (Div. 3)",
@@ -11490,12 +11448,6 @@
   ]
  },
  {
-  "id": 1222,
-  "type": "Other",
-  "name": "Технокубок 2020 - Ознакомительный Раунд 1",
-  "problems": null
- },
- {
   "id": 1234,
   "type": "Div3",
   "name": "Codeforces Round #590 (Div. 3)",
@@ -11889,7 +11841,7 @@
  },
  {
   "id": 1218,
-  "type": "Div1",
+  "type": "Other",
   "name": "Bubble Cup 12 - Finals [Online Mirror, unrated, Div. 1]",
   "problems": [
    {
@@ -11941,7 +11893,7 @@
  },
  {
   "id": 1219,
-  "type": "Div2",
+  "type": "Other",
   "name": "Bubble Cup 12 - Finals [Online Mirror, unrated, Div. 2]",
   "problems": [
    {
@@ -14193,7 +14145,7 @@
  },
  {
   "id": 1164,
-  "type": "Other",
+  "type": "exclude",
   "name": "Mathforces: Tech Scouts Online Test 2018 (just fun and practice, unofficial, unrated)",
   "problems": [
    {
@@ -16617,12 +16569,6 @@
   ]
  },
  {
-  "id": 1094,
-  "type": "Other",
-  "name": "Технокубок 2019 - Ознакомительный Раунд 4",
-  "problems": null
- },
- {
   "id": 1092,
   "type": "Div3",
   "name": "Codeforces Round #527 (Div. 3)",
@@ -17288,12 +17234,6 @@
   ]
  },
  {
-  "id": 1050,
-  "type": "Other",
-  "name": "Технокубок 2019 - Ознакомительный Раунд 3",
-  "problems": null
- },
- {
   "id": 1077,
   "type": "Div3",
   "name": "Codeforces Round #521 (Div. 3)",
@@ -17899,12 +17839,6 @@
   ]
  },
  {
-  "id": 1049,
-  "type": "Other",
-  "name": "Технокубок 2019 - Ознакомительный Раунд 2",
-  "problems": null
- },
- {
   "id": 1054,
   "type": "Other",
   "name": "Mail.Ru Cup 2018 Round 1",
@@ -18365,7 +18299,7 @@
  },
  {
   "id": 1045,
-  "type": "Div1",
+  "type": "Other",
   "name": "Bubble Cup 11 - Finals [Online Mirror, Div. 1]",
   "problems": [
    {
@@ -18422,7 +18356,7 @@
  },
  {
   "id": 1046,
-  "type": "Div2",
+  "type": "Other",
   "name": "Bubble Cup 11 - Finals [Online Mirror, Div. 2]",
   "problems": [
    {
@@ -18540,12 +18474,6 @@
     "rating": 2700
    }
   ]
- },
- {
-  "id": 1048,
-  "type": "Other",
-  "name": "Технокубок 2019 - Ознакомительный Раунд 1",
-  "problems": null
  },
  {
   "id": 1052,
@@ -23064,12 +22992,6 @@
   ]
  },
  {
-  "id": 905,
-  "type": "Other",
-  "name": "Технокубок 2018 - Ознакомительный Раунд 4",
-  "problems": null
- },
- {
   "id": 901,
   "type": "Div1",
   "name": "Codeforces Round #453 (Div. 1)",
@@ -23659,12 +23581,6 @@
   ]
  },
  {
-  "id": 885,
-  "type": "Other",
-  "name": "Технокубок 2018 - Ознакомительный Раунд 3",
-  "problems": null
- },
- {
   "id": 887,
   "type": "Div2",
   "name": "Codeforces Round #444 (Div. 2)",
@@ -24122,12 +24038,6 @@
     "rating": 2400
    }
   ]
- },
- {
-  "id": 874,
-  "type": "Other",
-  "name": "Technocup 2018 - Practice Round 2",
-  "problems": null
  },
  {
   "id": 869,
@@ -24701,12 +24611,6 @@
     "rating": 3000
    }
   ]
- },
- {
-  "id": 857,
-  "type": "Other",
-  "name": "Технокубок 2018 - Ознакомительный Раунд 1",
-  "problems": null
  },
  {
   "id": 856,
@@ -25703,12 +25607,6 @@
     "rating": 3200
    }
   ]
- },
- {
-  "id": 826,
-  "type": "Other",
-  "name": "VK Cup 2017 - Finals (practice session)",
-  "problems": null
  },
  {
   "id": 822,
@@ -28887,12 +28785,6 @@
   ]
  },
  {
-  "id": 728,
-  "type": "Other",
-  "name": "Технокубок 2017 - Ознакомительный Раунд 2",
-  "problems": null
- },
- {
   "id": 734,
   "type": "Div2",
   "name": "Codeforces Round #379 (Div. 2)",
@@ -29185,12 +29077,6 @@
     "rating": 2300
    }
   ]
- },
- {
-  "id": 726,
-  "type": "Other",
-  "name": "Технокубок 2017 - Ознакомительный Раунд 1",
-  "problems": null
  },
  {
   "id": 724,
@@ -30392,12 +30278,6 @@
     "rating": 3300
    }
   ]
- },
- {
-  "id": 693,
-  "type": "Other",
-  "name": "VK Cup 2016 - Finals (trial contest)",
-  "problems": null
  },
  {
   "id": 687,
@@ -32189,12 +32069,6 @@
     "rating": 2400
    }
   ]
- },
- {
-  "id": 636,
-  "type": "Other",
-  "name": "VeeRoute Marathon",
-  "problems": null
  },
  {
   "id": 627,

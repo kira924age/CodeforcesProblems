@@ -57,7 +57,7 @@ export const makeContestColumns = (contest: string) => {
       columnNum = 9;
       break;
     case "Other Contests":
-      columnNum = 10;
+      columnNum = 15;
       break;
     case "All Contests":
       columnNum = 14;

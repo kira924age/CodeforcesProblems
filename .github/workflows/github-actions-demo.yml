@@ -39,7 +39,7 @@ jobs:
 
   Build-React-App:
     name: Build-React-App-Job
-    needs: Crawl-Codeforces-Job
+    needs: Crawl-Codeforces
     runs-on: ubuntu-latest
 
     strategy:

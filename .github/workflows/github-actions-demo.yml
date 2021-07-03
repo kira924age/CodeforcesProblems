@@ -72,7 +72,7 @@ jobs:
           git checkout issues/1 -- cf-problems-frontend/build
       - name: copy files
         run: |
-          cp -rf cf-problems-frontend/* .
+          cp -rf cf-problems-frontend/build/* .
           rm -rf cf-problems-frontend
       - name: ls
         run: ls

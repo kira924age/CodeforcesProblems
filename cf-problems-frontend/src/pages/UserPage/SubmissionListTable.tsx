@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Table, Tooltip } from "antd";
-import TopcoderLikeCircle from "../../components/TopcoderLikeCircle";
+import { Table } from "antd";
+import DifficultyCircle from "../../components/DifficultyCircle";
 import { getRatingColorClass } from "../../utils/colors";
 import { formatFullDate } from "../../utils/formatDate";
 
@@ -41,21 +41,7 @@ const SubmissionListTable: React.FunctionComponent<Props> = (props: Props) => {
   const dataSource = props.submission.map((x) => {
     const submissionSecond = x.creationTimeSeconds;
     const rating: number | undefined = x.problem.rating;
-    const difficultyCircle =
-      rating === undefined ? (
-        <Tooltip title="Difficulty is unavailable." color="black">
-          <div className="difficulty-unavailable-circle">
-            <span className="common-difficulty-circle"></span>
-          </div>
-        </Tooltip>
-      ) : (
-        <Tooltip title={"Difficulty: " + String(rating)} color="black">
-          {" "}
-          <span>
-            <TopcoderLikeCircle rating={rating} />
-          </span>
-        </Tooltip>
-      );
+    const difficultyCircle = <DifficultyCircle rating={x.problem.rating} />;
 
     const contestId: string = String(x.problem.contestId);
     const problemIndex: string = String(x.problem.index);

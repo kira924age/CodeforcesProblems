@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-go@v1
       - run: cd ${{ github.workspace }}/cf-problems-backend
-      - run: go build -o main *.go
+      - run: go build -o main main.go initial_crawl.go updateContest.go regularCrawl.go getProblems.go crawlContest.go
 
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

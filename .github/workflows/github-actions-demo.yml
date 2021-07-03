@@ -8,14 +8,16 @@ jobs:
       - uses: actions/setup-go@v1
         with:
           go-version: 1.16
-      - run:
-        shell: bash
-        working-directory: ${{ github.workspace }}/cf-problems-backend
       - run: go get github.com/gocolly/colly
+        working-directory: ${{ github.workspace }}/cf-problems-backend
       - run: go mod init github.com/gocolly/colly
+        working-directory: ${{ github.workspace }}/cf-problems-backend
       - run: go mod tidy
+        working-directory: ${{ github.workspace }}/cf-problems-backend
       - run: ls ${{ github.workspace }}
+        working-directory: ${{ github.workspace }}/cf-problems-backend
       - run: go build -o main *.go
+        working-directory: ${{ github.workspace }}/cf-problems-backend
 
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

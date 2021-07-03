@@ -10,10 +10,6 @@ jobs:
           go-version: 1.16
       - run: go get github.com/gocolly/colly
         working-directory: ${{ github.workspace }}/cf-problems-backend
-      - run: go mod init github.com/gocolly/colly
-        working-directory: ${{ github.workspace }}/cf-problems-backend
-      - run: go mod tidy
-        working-directory: ${{ github.workspace }}/cf-problems-backend
       - run: ls ${{ github.workspace }}
         working-directory: ${{ github.workspace }}/cf-problems-backend
       - run: go build -o main *.go

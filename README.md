@@ -1,6 +1,6 @@
-# CF Problems
+# Codeforces Problems
 
-[CF Problems](https://cf.kira924age.com) is a web application to manage your Codeforces Problems.
+[Codeforces Problems](https://cf.kira924age.com) is a web application to manage your Codeforces Problems.
 It is written in TypeScript with React.
 
 This application uses [Codeforces API](https://codeforces.com/apiHelp)

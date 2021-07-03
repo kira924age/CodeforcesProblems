@@ -69,13 +69,16 @@ jobs:
         run: |
           git checkout -b gh-pages origin/gh-pages
           rm -rf *
-          git checkout issues/1 -- cf-problems-frontend/build
-          git checkout issues/1 -- cf-problems-frontend/public/CNAME
+          git checkout main -- cf-problems-frontend/build
+          git checkout main -- cf-problems-frontend/public/CNAME
       - name: copy files
         run: |
           cp -rf cf-problems-frontend/build/* .
           cp cf-problems-frontend/public/CNAME .
           rm -rf cf-problems-frontend
-      - name: ls
-        run: ls -al
+      - name: git commit
+        run: |
+          git add -A
+          if ! git diff-index --quiet HEAD --; then git commit -a -m "Update gh-pages (By GitHub Actions)"; fi;
+          git push
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

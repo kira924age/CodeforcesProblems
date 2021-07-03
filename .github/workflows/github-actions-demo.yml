@@ -1,12 +1,14 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-  set-up:
+  Set-Up:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-go@v1
-      - run: go run hello.go
+      - run: cd ${{ github.workspace }}/cf-problems-backend
+      - run: go build -o main *.go
+
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:

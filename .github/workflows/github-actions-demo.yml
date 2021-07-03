@@ -60,6 +60,6 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - name: git checkout
         run: |
-        git checkout -b gh-pages origin/gh-pages
-        git branch -a
+          git checkout -b gh-pages origin/gh-pages
+          git branch -a
 

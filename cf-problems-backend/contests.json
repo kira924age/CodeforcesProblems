@@ -438,7 +438,7 @@
    },
    {
     "index": "H",
-    "name": "Hopping Around the Array ",
+    "name": "Hopping Around the Array",
     "rating": 3500
    }
   ]
@@ -616,33 +616,27 @@
   "problems": [
    {
     "index": "A",
-    "name": "And Then There Were K",
-    "rating": 800
+    "name": "And Then There Were K"
    },
    {
     "index": "B1",
-    "name": "Palindrome Game (easy version)",
-    "rating": 1200
+    "name": "Palindrome Game (easy version)"
    },
    {
     "index": "B2",
-    "name": "Palindrome Game (hard version)",
-    "rating": 1900
+    "name": "Palindrome Game (hard version)"
    },
    {
     "index": "C",
-    "name": "Sequence Pair Weight",
-    "rating": 1600
+    "name": "Sequence Pair Weight"
    },
    {
     "index": "D",
-    "name": "MEX Tree",
-    "rating": 2400
+    "name": "MEX Tree"
    },
    {
     "index": "E",
-    "name": "Partition Game",
-    "rating": 2500
+    "name": "Partition Game"
    }
   ]
  },

@@ -27,8 +27,8 @@ jobs:
         working-directory: ${{ github.workspace }}/cf-problems-backend
       - name: git setting
         run: |
-          git config --local user.email "kira924age@gmail.com"
-          git config --local user.name "kira924age"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
       - name: Commit files
         run: |
           git add -A
@@ -51,8 +51,8 @@ jobs:
         uses: actions/setup-node@v2
       - name: git setting
         run: |
-          git config --local user.email "kira924age@gmail.com"
-          git config --local user.name "kira924age"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git pull
       - name: install dependency
         run: yarn

@@ -1,13 +1,13 @@
-#logo > a{
+#logo > a {
   background: transparent;
   color: #f0f6fc;
-  padding-left: 20px;
   overflow: hidden;
   white-space: nowrap;
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 56px;
   margin: 0;
+  margin-left: 20px;
 }
 
 #logo > a:hover{

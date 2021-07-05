@@ -13,10 +13,3 @@
 #logo > a:hover{
   color: #c9d1d9;
 }
-
-#logo > a > img {
-  position: relative;
-  top: -1.5px;
-  height: 32px;
-  margin-right: 16px;
-}

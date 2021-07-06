@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Odd Set"
+    "name": "Odd Set",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Plus and Multiply"
+    "name": "Plus and Multiply",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "Strange Function"
+    "name": "Strange Function",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Priority Queue"
+    "name": "Priority Queue",
+    "rating": 2200
    },
    {
     "index": "E1",
-    "name": "Abnormal Permutation Pairs (easy version)"
+    "name": "Abnormal Permutation Pairs (easy version)",
+    "rating": 2400
    },
    {
     "index": "E2",
-    "name": "Abnormal Permutation Pairs (hard version)"
+    "name": "Abnormal Permutation Pairs (hard version)",
+    "rating": 2700
    }
   ]
  },

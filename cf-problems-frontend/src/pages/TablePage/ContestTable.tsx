@@ -59,9 +59,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
   const allProblems = cachedContestArray();
   let problemData = filterProblems(props.name, allProblems);
 
-  console.log("OUTPUT FOR DEGUG");
-
-  let problemData2 = makeContestTable(problemData, props.isShowDifficulty, acList);
+  let contestTable = makeContestTable(problemData, props.isShowDifficulty, acList);
 
   const columns = makeContestColumns(props.name);
 
@@ -77,7 +75,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
         bordered
         className="ant-contest-table"
         columns={columns}
-        dataSource={problemData2}
+        dataSource={contestTable}
       />
     </React.Fragment>
   );

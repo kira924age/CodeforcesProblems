@@ -127,11 +127,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Pretty Permutations"
+    "name": "Pretty Permutations",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Pleasant Pairs"
+    "name": "Pleasant Pairs",
+    "rating": 1200
    },
    {
     "index": "C",

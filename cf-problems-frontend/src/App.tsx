@@ -1,40 +1,37 @@
-import React, { Suspense, lazy} from "react";
+import React from "react";
 import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
 
 import ThemeProvider from "./components/ThemeProvider";
-
-const TablePage = lazy(() => import("./pages/TablePage/index") );
-const User = lazy(() => import("./pages/UserPage/index") );
+import TablePage from "./pages/TablePage/index";
+import User from "./pages/UserPage/index";
 
 const App: React.FunctionComponent = () => (
   <ThemeProvider>
     <HashRouter>
       <div className="App">
-        <Suspense fallback={<div>Loading...</div>}>
-          <Switch>
-            <Route
-              path="/table/:userIds([a-zA-Z0-9_.]*)*"
-              render={({ match }): React.ReactElement => {
-                // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-                const params: { userIds?: string } = match.params;
-                const userId = params.userIds === undefined ? "" : params.userIds;
-                return <TablePage userId={userId} />;
-              }}
-            />
-            <Route
-              path="/user/:userIds([a-zA-Z0-9_.]*)*"
-              render={({ match }): React.ReactElement => {
-                // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-                const params: { userIds?: string } = match.params;
-                const userId = params.userIds === undefined ? "" : params.userIds;
-                return <User userId={userId} />;
-              }}
-            />
+        <Switch>
+          <Route
+            path="/table/:userIds([a-zA-Z0-9_.]*)*"
+            render={({ match }): React.ReactElement => {
+              // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+              const params: { userIds?: string } = match.params;
+              const userId = params.userIds === undefined ? "" : params.userIds;
+              return <TablePage userId={userId} />;
+            }}
+          />
+          <Route
+            path="/user/:userIds([a-zA-Z0-9_.]*)*"
+            render={({ match }): React.ReactElement => {
+              // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+              const params: { userIds?: string } = match.params;
+              const userId = params.userIds === undefined ? "" : params.userIds;
+              return <User userId={userId} />;
+            }}
+          />
 
-            {/*Default Path*/}
-            <Redirect path="/" to="/table/" />
-          </Switch>
-        </Suspense>
+          {/*Default Path*/}
+          <Redirect path="/" to="/table/" />
+        </Switch>
       </div>
     </HashRouter>
   </ThemeProvider>

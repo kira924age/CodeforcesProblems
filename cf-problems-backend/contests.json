@@ -1,5 +1,36 @@
 [
  {
+  "id": 1543,
+  "type": "Div2",
+  "name": "Codeforces Round #730 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Exciting Bets"
+   },
+   {
+    "index": "B",
+    "name": "Customising the Track"
+   },
+   {
+    "index": "C",
+    "name": "Need for Pink Slips"
+   },
+   {
+    "index": "D1",
+    "name": "RPD and Rap Sheet (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "RPD and Rap Sheet (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "The Final Pursuit"
+   }
+  ]
+ },
+ {
   "id": 1542,
   "type": "Div2",
   "name": "Codeforces Round #729 (Div. 2)",

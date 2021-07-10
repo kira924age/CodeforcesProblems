@@ -10,7 +10,11 @@ interface Props {
 }
 
 const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
-  const [contest, setContest] = React.useState("Educational Codeforces Rounds");
+  const [contest, setContest] = useLocalStorage(
+    "activeTab",
+    "Educational Codeforces Rounds"
+  );
+
   const [isShowDifficulty, setIsShowDifficulty] = useLocalStorage(
     "isShowDifficulty",
     true
@@ -48,9 +52,13 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
           setContest(e.target.value);
         }}
       >
-        <Radio.Button value="Educational Codeforces Rounds">Educational</Radio.Button>
+        <Radio.Button value="Educational Codeforces Rounds">
+          Educational
+        </Radio.Button>
         <Radio.Button value="Codeforces Global Rounds">Global</Radio.Button>
-        <Radio.Button value="Div. 1 + Div. 2 Contests">Div1 + Div2</Radio.Button>
+        <Radio.Button value="Div. 1 + Div. 2 Contests">
+          Div1 + Div2
+        </Radio.Button>
         <Radio.Button value="Div. 1 Contests">Div1</Radio.Button>
         <Radio.Button value="Div. 2 Contests">Div2</Radio.Button>
         <Radio.Button value="Div. 3 Contests">Div3</Radio.Button>

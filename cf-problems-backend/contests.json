@@ -1,32 +1,73 @@
 [
  {
+  "id": 1547,
+  "type": "Div3",
+  "name": "Codeforces Round #731 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Shortest Path with Obstacle"
+   },
+   {
+    "index": "B",
+    "name": "Alphabetical Strings"
+   },
+   {
+    "index": "C",
+    "name": "Pair Programming"
+   },
+   {
+    "index": "D",
+    "name": "Co-growing Sequence"
+   },
+   {
+    "index": "E",
+    "name": "Air Conditioners"
+   },
+   {
+    "index": "F",
+    "name": "Array Stabilization (GCD version)"
+   },
+   {
+    "index": "G",
+    "name": "How Many Paths?"
+   }
+  ]
+ },
+ {
   "id": 1543,
   "type": "Div2",
   "name": "Codeforces Round #730 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Exciting Bets"
+    "name": "Exciting Bets",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Customising the Track"
+    "name": "Customising the Track",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Need for Pink Slips"
+    "name": "Need for Pink Slips",
+    "rating": 1900
    },
    {
     "index": "D1",
-    "name": "RPD and Rap Sheet (Easy Version)"
+    "name": "RPD and Rap Sheet (Easy Version)",
+    "rating": 1700
    },
    {
     "index": "D2",
-    "name": "RPD and Rap Sheet (Hard Version)"
+    "name": "RPD and Rap Sheet (Hard Version)",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "The Final Pursuit"
+    "name": "The Final Pursuit",
+    "rating": 2700
    }
   ]
  },

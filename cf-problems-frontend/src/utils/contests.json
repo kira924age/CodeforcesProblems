@@ -1,36 +1,122 @@
 [
  {
+  "id": 1545,
+  "type": "Div1",
+  "name": "Codeforces Round #732 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "AquaMoon and Strange Sort",
+    "rating": 1500
+   },
+   {
+    "index": "B",
+    "name": "AquaMoon and Chess",
+    "rating": 1900
+   },
+   {
+    "index": "C",
+    "name": "AquaMoon and Permutations",
+    "rating": 2800
+   },
+   {
+    "index": "D",
+    "name": "AquaMoon and Wrong Coordinate",
+    "rating": 3000
+   },
+   {
+    "index": "E1",
+    "name": "AquaMoon and Time Stop (easy version)",
+    "rating": 3500
+   },
+   {
+    "index": "E2",
+    "name": "AquaMoon and Time Stop (hard version)",
+    "rating": 3500
+   },
+   {
+    "index": "F",
+    "name": "AquaMoon and Potatoes",
+    "rating": 3500
+   }
+  ]
+ },
+ {
+  "id": 1546,
+  "type": "Div2",
+  "name": "Codeforces Round #732 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "AquaMoon and Two Arrays",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "AquaMoon and Stolen String",
+    "rating": 1200
+   },
+   {
+    "index": "C",
+    "name": "AquaMoon and Strange Sort",
+    "rating": 1500
+   },
+   {
+    "index": "D",
+    "name": "AquaMoon and Chess",
+    "rating": 1900
+   },
+   {
+    "index": "E",
+    "name": "AquaMoon and Permutations",
+    "rating": 2800
+   },
+   {
+    "index": "F",
+    "name": "AquaMoon and Wrong Coordinate",
+    "rating": 3000
+   }
+  ]
+ },
+ {
   "id": 1547,
   "type": "Div3",
   "name": "Codeforces Round #731 (Div. 3)",
   "problems": [
    {
     "index": "A",
-    "name": "Shortest Path with Obstacle"
+    "name": "Shortest Path with Obstacle",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Alphabetical Strings"
+    "name": "Alphabetical Strings",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Pair Programming"
+    "name": "Pair Programming",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Co-growing Sequence"
+    "name": "Co-growing Sequence",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Air Conditioners"
+    "name": "Air Conditioners",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Array Stabilization (GCD version)"
+    "name": "Array Stabilization (GCD version)",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "How Many Paths?"
+    "name": "How Many Paths?",
+    "rating": 2100
    }
   ]
  },

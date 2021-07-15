@@ -1,5 +1,36 @@
 [
  {
+  "id": 1550,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 111 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Find The Array"
+   },
+   {
+    "index": "B",
+    "name": "Maximum Cost Deletion"
+   },
+   {
+    "index": "C",
+    "name": "Manhattan Subarrays"
+   },
+   {
+    "index": "D",
+    "name": "Excellent Arrays"
+   },
+   {
+    "index": "E",
+    "name": "Stringforces"
+   },
+   {
+    "index": "F",
+    "name": "Jumping Around"
+   }
+  ]
+ },
+ {
   "id": 1545,
   "type": "Div1",
   "name": "Codeforces Round #732 (Div. 1)",

@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Find The Array"
+    "name": "Find The Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Maximum Cost Deletion"
+    "name": "Maximum Cost Deletion",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Manhattan Subarrays"
+    "name": "Manhattan Subarrays",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Excellent Arrays"
+    "name": "Excellent Arrays",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Stringforces"
+    "name": "Stringforces",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Jumping Around"
+    "name": "Jumping Around",
+    "rating": 2700
    }
   ]
  },

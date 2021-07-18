@@ -1,5 +1,83 @@
 [
  {
+  "id": 1544,
+  "type": "Other",
+  "name": "VK Cup 2021 - Elimination (Engine)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Binary Decimal"
+   },
+   {
+    "index": "B",
+    "name": "Putting Plates"
+   },
+   {
+    "index": "C",
+    "name": "Pursuit"
+   },
+   {
+    "index": "D",
+    "name": "Secret Santa"
+   },
+   {
+    "index": "E",
+    "name": "Minimax"
+   },
+   {
+    "index": "F",
+    "name": "Bingo"
+   },
+   {
+    "index": "G",
+    "name": "What a Reversal"
+   },
+   {
+    "index": "H",
+    "name": "Turing's Award"
+   }
+  ]
+ },
+ {
+  "id": 1530,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round #733 (Div. 1 + Div. 2, based on VK Cup 2021 - Elimination (Engine))",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Binary Decimal"
+   },
+   {
+    "index": "B",
+    "name": "Putting Plates"
+   },
+   {
+    "index": "C",
+    "name": "Pursuit"
+   },
+   {
+    "index": "D",
+    "name": "Secret Santa"
+   },
+   {
+    "index": "E",
+    "name": "Minimax"
+   },
+   {
+    "index": "F",
+    "name": "Bingo"
+   },
+   {
+    "index": "G",
+    "name": "What a Reversal"
+   },
+   {
+    "index": "H",
+    "name": "Turing's Award"
+   }
+  ]
+ },
+ {
   "id": 1550,
   "type": "Educational",
   "name": "Educational Codeforces Round 111 (Rated for Div. 2)",

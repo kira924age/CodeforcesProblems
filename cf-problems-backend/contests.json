@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Binary Decimal"
+    "name": "Binary Decimal",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Putting Plates"
+    "name": "Putting Plates",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Pursuit"
+    "name": "Pursuit",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Secret Santa"
+    "name": "Secret Santa",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Minimax"
+    "name": "Minimax",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Bingo"
+    "name": "Bingo",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "What a Reversal"
+    "name": "What a Reversal",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "Turing's Award"
+    "name": "Turing's Award",
+    "rating": 3400
    }
   ]
  },
@@ -45,35 +53,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Binary Decimal"
+    "name": "Binary Decimal",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Putting Plates"
+    "name": "Putting Plates",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Pursuit"
+    "name": "Pursuit",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Secret Santa"
+    "name": "Secret Santa",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Minimax"
+    "name": "Minimax",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Bingo"
+    "name": "Bingo",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "What a Reversal"
+    "name": "What a Reversal",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "Turing's Award"
+    "name": "Turing's Award",
+    "rating": 3400
    }
   ]
  },

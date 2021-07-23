@@ -1,5 +1,48 @@
 [
  {
+  "id": 1553,
+  "type": "Div1 + Div2",
+  "name": "Harbour.Space Scholarship Contest 2021-2022 (open for everyone, rated, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Digits Sum"
+   },
+   {
+    "index": "B",
+    "name": "Reverse String"
+   },
+   {
+    "index": "C",
+    "name": "Penalty"
+   },
+   {
+    "index": "D",
+    "name": "Backspace"
+   },
+   {
+    "index": "E",
+    "name": "Permutation Shift"
+   },
+   {
+    "index": "F",
+    "name": "Pairwise Modulo"
+   },
+   {
+    "index": "G",
+    "name": "Common Divisor Graph"
+   },
+   {
+    "index": "H",
+    "name": "XOR and Distance"
+   },
+   {
+    "index": "I",
+    "name": "Stairs"
+   }
+  ]
+ },
+ {
   "id": 1544,
   "type": "Other",
   "name": "VK Cup 2021 - Elimination (Engine)",

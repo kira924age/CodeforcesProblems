@@ -1,5 +1,44 @@
 [
  {
+  "id": 1551,
+  "type": "Div3",
+  "name": "Codeforces Round #734 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Polycarp and Coins"
+   },
+   {
+    "index": "B1",
+    "name": "Wonderful Coloring - 1"
+   },
+   {
+    "index": "B2",
+    "name": "Wonderful Coloring - 2"
+   },
+   {
+    "index": "C",
+    "name": "Interesting Story"
+   },
+   {
+    "index": "D1",
+    "name": "Domino (easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Domino (hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Fixed Points"
+   },
+   {
+    "index": "F",
+    "name": "Equidistant Vertices"
+   }
+  ]
+ },
+ {
   "id": 1553,
   "type": "Div1 + Div2",
   "name": "Harbour.Space Scholarship Contest 2021-2022 (open for everyone, rated, Div. 1 + Div. 2)",

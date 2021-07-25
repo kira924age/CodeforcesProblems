@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Polycarp and Coins"
+    "name": "Polycarp and Coins",
+    "rating": 800
    },
    {
     "index": "B1",
-    "name": "Wonderful Coloring - 1"
+    "name": "Wonderful Coloring - 1",
+    "rating": 800
    },
    {
     "index": "B2",
-    "name": "Wonderful Coloring - 2"
+    "name": "Wonderful Coloring - 2",
+    "rating": 1400
    },
    {
     "index": "C",
-    "name": "Interesting Story"
+    "name": "Interesting Story",
+    "rating": 1500
    },
    {
     "index": "D1",
-    "name": "Domino (easy version)"
+    "name": "Domino (easy version)",
+    "rating": 1700
    },
    {
     "index": "D2",
-    "name": "Domino (hard version)"
+    "name": "Domino (hard version)",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Fixed Points"
+    "name": "Fixed Points",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Equidistant Vertices"
+    "name": "Equidistant Vertices",
+    "rating": 2200
    }
   ]
  },
@@ -45,39 +53,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Digits Sum"
+    "name": "Digits Sum",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Reverse String"
+    "name": "Reverse String",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Penalty"
+    "name": "Penalty",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Backspace"
+    "name": "Backspace",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Permutation Shift"
+    "name": "Permutation Shift",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Pairwise Modulo"
+    "name": "Pairwise Modulo",
+    "rating": 2300
    },
    {
     "index": "G",
-    "name": "Common Divisor Graph"
+    "name": "Common Divisor Graph",
+    "rating": 2700
    },
    {
     "index": "H",
-    "name": "XOR and Distance"
+    "name": "XOR and Distance",
+    "rating": 2900
    },
    {
     "index": "I",
-    "name": "Stairs"
+    "name": "Stairs",
+    "rating": 3400
    }
   ]
  },

@@ -1,5 +1,48 @@
 [
  {
+  "id": 1552,
+  "type": "Global",
+  "name": "Codeforces Global Round 15",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Subsequence Permutation"
+   },
+   {
+    "index": "B",
+    "name": "Running for Gold"
+   },
+   {
+    "index": "C",
+    "name": "Maximize the Intersections"
+   },
+   {
+    "index": "D",
+    "name": "Array Differentiation"
+   },
+   {
+    "index": "E",
+    "name": "Colors and Intervals"
+   },
+   {
+    "index": "F",
+    "name": "Telepanting"
+   },
+   {
+    "index": "G",
+    "name": "A Serious Referee"
+   },
+   {
+    "index": "H",
+    "name": "Guess the Perimeter"
+   },
+   {
+    "index": "I",
+    "name": "Organizing a Music Festival"
+   }
+  ]
+ },
+ {
   "id": 1551,
   "type": "Div3",
   "name": "Codeforces Round #734 (Div. 3)",

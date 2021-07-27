@@ -1,4 +1,5 @@
 import React from "react";
+import { useTheme } from "./ThemeProvider";
 
 function getColor(difficulty: number | undefined): string {
   let color: string;
@@ -30,23 +31,23 @@ function getColor(difficulty: number | undefined): string {
   return color;
 }
 
-function getColorCode(difficulty: number): string {
+function getColorCode(difficulty: number, theme: string): string {
   let color: string;
 
   if (difficulty < 1200) {
-    color = "#808080";
+    color = theme === "dark" ? "#C0C0C0" : "#808080";
   } else if (difficulty < 1400) {
-    color = "#008000";
+    color = theme === "dark" ? "#3FAF3F" : "#008000";
   } else if (difficulty < 1600) {
-    color = "#03A89E";
+    color = theme === "dark" ? "#42E0E0" : "#03A89E";
   } else if (difficulty < 1900) {
-    color = "#0000FF";
+    color = theme === "dark" ? "#8888FF" : "#0000FF";
   } else if (difficulty < 2100) {
-    color = "#AA00AA";
+    color = theme === "dark" ? "#BA55D3" : "#AA00AA";
   } else if (difficulty < 2400) {
     color = "#FF8C00";
   } else if (difficulty < 2600) {
-    color = "#FF0000";
+    color = theme === "dark" ? "#FF375F" : "#FF0000";
   } else if (difficulty < 2900) {
     color = "#965C2C";
   } else if (difficulty < 3200) {
@@ -90,8 +91,8 @@ interface Props {
 
 const TopcoderLikeCircle: React.FunctionComponent<Props> = (props) => {
   const color = getColor(props.rating);
-
-  const colorCode = getColorCode(props.rating);
+  const theme = useTheme();
+  const colorCode = getColorCode(props.rating, theme);
   const fillRatio = calcFillRatio(props.rating);
 
   const isMetal = color === "bronze" || color === "silver" || color === "gold";

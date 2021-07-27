@@ -163,8 +163,28 @@ table {
   color: #FFFFFF;
 }
 
+.difficulty-grey:not(:hover) {
+  color: #C0C0C0;
+}
+
+.difficulty-green:not(:hover) {
+  color: #3faf3f;
+}
+
+.difficulty-cyan:not(:hover) {
+  color: #42E0E0;
+}
+
 .difficulty-blue:not(:hover) {
   color: #8888FF;
+}
+
+.difficulty-violet:not(:hover) {
+  color: #BA55D3;
+}
+
+.difficulty-red:not(:hover) {
+  color: #ff375f;
 }
 
 .ant-switch {
@@ -227,4 +247,10 @@ td .table-notsuccess-10 {
 
 .ant-radio-button-wrapper:hover {
   background: #1890ff;
+  background: #0e7aac
+}
+
+.verdict-rejected {
+  color: #0e7aac;
+  color: #8888FF;
 }

@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Subsequence Permutation"
+    "name": "Subsequence Permutation",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Running for Gold"
+    "name": "Running for Gold",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "Maximize the Intersections"
+    "name": "Maximize the Intersections",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Array Differentiation"
+    "name": "Array Differentiation",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Colors and Intervals"
+    "name": "Colors and Intervals",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Telepanting"
+    "name": "Telepanting",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "A Serious Referee"
+    "name": "A Serious Referee",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Guess the Perimeter"
+    "name": "Guess the Perimeter",
+    "rating": 3300
    },
    {
     "index": "I",
-    "name": "Organizing a Music Festival"
+    "name": "Organizing a Music Festival",
+    "rating": 3400
    }
   ]
  },

@@ -41,8 +41,8 @@ func regularCrawl() {
 			nowSeconds := time.Now().Unix()
 			passedTimeSeconds := nowSeconds - contest.StartTimeSeconds
 
-			// see only within 8 weeks
-			if passedTimeSeconds > 60*60*24*7*8 {
+			// see only within 4 weeks
+			if passedTimeSeconds > 60*60*24*7*4 {
 				continue
 			}
 

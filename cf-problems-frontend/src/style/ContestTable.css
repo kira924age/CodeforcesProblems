@@ -169,9 +169,14 @@ tr {
   line-height: 1.5;
 }
 
-.show-diff-btn {
+.inline-btn {
    display: inline-block;
-   margin-right: 10px;
+   margin-right: 15px;
+   font-size: 16px;
+}
+
+.ant-switch {
+  margin-right: 5px;
 }
 
 .custom-control-label {

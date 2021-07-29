@@ -17,6 +17,7 @@ import ErrorMessage from "./ErrorMessage";
 interface ContestTableProps {
   name: string;
   isShowDifficulty: boolean;
+  isReverseOrder: boolean;
   userId: string | undefined;
 }
 
@@ -58,6 +59,10 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
 
   const allProblems = cachedContestArray();
   let problemData = filterProblems(props.name, allProblems);
+
+  if (props.isReverseOrder) {
+    problemData = [...problemData].reverse()
+  }
 
   let contestTable = makeContestTable(problemData, props.isShowDifficulty, acList);
 

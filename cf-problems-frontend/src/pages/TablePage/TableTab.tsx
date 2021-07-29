@@ -20,10 +20,15 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
     true
   );
 
+  const [isReverseOrder, setIsReverseOrder] = useLocalStorage(
+    "isReverseOrder",
+    false
+  );
+
   return (
     <React.Fragment>
       <div>
-        <div className="show-diff-btn">
+        <div className="inline-btn">
           {isShowDifficulty ? (
             <Switch
               size="small"
@@ -40,8 +45,29 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
               }}
             />
           )}
+
+        <label>Show Difficulty</label>
         </div>
-        <label className="show-diff-btn">Show Difficulty</label>
+
+        <div className="inline-btn">
+          {isReverseOrder ? (
+            <Switch
+              size="small"
+              defaultChecked
+              onChange={(e) => {
+                setIsReverseOrder(!isReverseOrder);
+              }}
+            />
+          ) : (
+            <Switch
+              size="small"
+              onChange={(e) => {
+                setIsReverseOrder(!isReverseOrder);
+              }}
+            />
+          )}
+        <label>Reverse Order</label>
+        </div>
       </div>
 
       <Radio.Group
@@ -73,6 +99,7 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
       <ContestTable
         name={contest}
         isShowDifficulty={isShowDifficulty}
+        isReverseOrder={isReverseOrder}
         userId={props.userId}
       />
     </React.Fragment>

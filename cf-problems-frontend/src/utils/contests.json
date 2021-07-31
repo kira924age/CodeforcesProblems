@@ -1,5 +1,42 @@
 [
  {
+  "id": 1555,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 112 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "PizzaForces",
+    "rating": 900
+   },
+   {
+    "index": "B",
+    "name": "Two Tables",
+    "rating": 1300
+   },
+   {
+    "index": "C",
+    "name": "Coin Rows",
+    "rating": 1300
+   },
+   {
+    "index": "D",
+    "name": "Say No to Palindromes",
+    "rating": 1600
+   },
+   {
+    "index": "E",
+    "name": "Boring Segments",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Good Graph",
+    "rating": 2700
+   }
+  ]
+ },
+ {
   "id": 1554,
   "type": "Div2",
   "name": "Codeforces Round #735 (Div. 2)",

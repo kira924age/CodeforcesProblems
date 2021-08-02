@@ -1,5 +1,71 @@
 [
  {
+  "id": 1548,
+  "type": "Div1",
+  "name": "Codeforces Round #736 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Web of Lies"
+   },
+   {
+    "index": "B",
+    "name": "Integers Have Friends"
+   },
+   {
+    "index": "C",
+    "name": "The Three Little Pigs"
+   },
+   {
+    "index": "D1",
+    "name": "Gregor and the Odd Cows (Easy)"
+   },
+   {
+    "index": "D2",
+    "name": "Gregor and the Odd Cows (Hard)"
+   },
+   {
+    "index": "E",
+    "name": "Gregor and the Two Painters"
+   }
+  ]
+ },
+ {
+  "id": 1549,
+  "type": "Div2",
+  "name": "Codeforces Round #736 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Gregor and Cryptography"
+   },
+   {
+    "index": "B",
+    "name": "Gregor and the Pawn Game"
+   },
+   {
+    "index": "C",
+    "name": "Web of Lies"
+   },
+   {
+    "index": "D",
+    "name": "Integers Have Friends"
+   },
+   {
+    "index": "E",
+    "name": "The Three Little Pigs"
+   },
+   {
+    "index": "F1",
+    "name": "Gregor and the Odd Cows (Easy)"
+   },
+   {
+    "index": "F2",
+    "name": "Gregor and the Odd Cows (Hard)"
+   }
+  ]
+ },
+ {
   "id": 1555,
   "type": "Educational",
   "name": "Educational Codeforces Round 112 (Rated for Div. 2)",

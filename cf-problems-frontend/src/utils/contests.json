@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Web of Lies"
+    "name": "Web of Lies",
+    "rating": 1400
    },
    {
     "index": "B",
-    "name": "Integers Have Friends"
+    "name": "Integers Have Friends",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "The Three Little Pigs"
+    "name": "The Three Little Pigs",
+    "rating": 2500
    },
    {
     "index": "D1",
-    "name": "Gregor and the Odd Cows (Easy)"
+    "name": "Gregor and the Odd Cows (Easy)",
+    "rating": 2300
    },
    {
     "index": "D2",
-    "name": "Gregor and the Odd Cows (Hard)"
+    "name": "Gregor and the Odd Cows (Hard)",
+    "rating": 3300
    },
    {
     "index": "E",
-    "name": "Gregor and the Two Painters"
+    "name": "Gregor and the Two Painters",
+    "rating": 3400
    }
   ]
  },
@@ -45,23 +51,28 @@
    },
    {
     "index": "C",
-    "name": "Web of Lies"
+    "name": "Web of Lies",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Integers Have Friends"
+    "name": "Integers Have Friends",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "The Three Little Pigs"
+    "name": "The Three Little Pigs",
+    "rating": 2500
    },
    {
     "index": "F1",
-    "name": "Gregor and the Odd Cows (Easy)"
+    "name": "Gregor and the Odd Cows (Easy)",
+    "rating": 2300
    },
    {
     "index": "F2",
-    "name": "Gregor and the Odd Cows (Hard)"
+    "name": "Gregor and the Odd Cows (Hard)",
+    "rating": 3300
    }
   ]
  },

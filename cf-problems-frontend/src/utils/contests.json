@@ -1,5 +1,32 @@
 [
  {
+  "id": 1557,
+  "type": "Div2",
+  "name": "Codeforces Round #737 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Ezzat and Two Subsequences"
+   },
+   {
+    "index": "B",
+    "name": "Moamen and k-subarrays"
+   },
+   {
+    "index": "C",
+    "name": "Moamen and XOR"
+   },
+   {
+    "index": "D",
+    "name": "Ezzat and Grid"
+   },
+   {
+    "index": "E",
+    "name": "Assiut Chess"
+   }
+  ]
+ },
+ {
   "id": 1548,
   "type": "Div1",
   "name": "Codeforces Round #736 (Div. 1)",

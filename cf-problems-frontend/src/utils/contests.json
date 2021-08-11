@@ -6,23 +6,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "Ezzat and Two Subsequences"
+    "name": "Ezzat and Two Subsequences",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Moamen and k-subarrays"
+    "name": "Moamen and k-subarrays",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Moamen and XOR"
+    "name": "Moamen and XOR",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Ezzat and Grid"
+    "name": "Ezzat and Grid",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Assiut Chess"
+    "name": "Assiut Chess",
+    "rating": 2800
    }
   ]
  },

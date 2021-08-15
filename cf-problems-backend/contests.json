@@ -88,7 +88,8 @@
    },
    {
     "index": "D",
-    "name": "Integers Have Friends"
+    "name": "Integers Have Friends",
+    "rating": 1800
    },
    {
     "index": "E",
@@ -102,7 +103,8 @@
    },
    {
     "index": "F2",
-    "name": "Gregor and the Odd Cows (Hard)"
+    "name": "Gregor and the Odd Cows (Hard)",
+    "rating": 3300
    }
   ]
  },

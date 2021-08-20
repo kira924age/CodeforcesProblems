@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Dislike of Threes"
+    "name": "Dislike of Threes",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Who's Opposite?"
+    "name": "Who's Opposite?",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Infinity Table"
+    "name": "Infinity Table",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Make a Power of Two"
+    "name": "Make a Power of Two",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Polycarp and String Transformation"
+    "name": "Polycarp and String Transformation",
+    "rating": 1800
    },
    {
     "index": "F1",
-    "name": "Nearest Beautiful Number (easy version)"
+    "name": "Nearest Beautiful Number (easy version)",
+    "rating": 1900
    },
    {
     "index": "F2",
-    "name": "Nearest Beautiful Number (hard version)"
+    "name": "Nearest Beautiful Number (hard version)",
+    "rating": 2100
    }
   ]
  },
@@ -41,27 +48,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Mocha and Math"
+    "name": "Mocha and Math",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Mocha and Red and Blue"
+    "name": "Mocha and Red and Blue",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Mocha and Hiking"
+    "name": "Mocha and Hiking",
+    "rating": 1200
    },
    {
     "index": "D1",
-    "name": "Mocha and Diana (Easy Version)"
+    "name": "Mocha and Diana (Easy Version)",
+    "rating": 1400
    },
    {
     "index": "D2",
-    "name": "Mocha and Diana (Hard Version)"
+    "name": "Mocha and Diana (Hard Version)",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Mocha and Stars"
+    "name": "Mocha and Stars",
+    "rating": 2200
    }
   ]
  },
@@ -141,11 +154,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Gregor and Cryptography"
+    "name": "Gregor and Cryptography",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Gregor and the Pawn Game"
+    "name": "Gregor and the Pawn Game",
+    "rating": 800
    },
    {
     "index": "C",

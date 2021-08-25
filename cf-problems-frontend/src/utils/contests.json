@@ -1,5 +1,102 @@
 [
  {
+  "id": 1558,
+  "type": "Div1",
+  "name": "Codeforces Round #740 (Div. 1, based on VK Cup 2021 - Final (Engine))",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Charmed by the Game"
+   },
+   {
+    "index": "B",
+    "name": "Up the Strip"
+   },
+   {
+    "index": "C",
+    "name": "Bottom-Tier Reversals"
+   },
+   {
+    "index": "D",
+    "name": "Top-Notch Insertions"
+   },
+   {
+    "index": "E",
+    "name": "Down Below"
+   },
+   {
+    "index": "F",
+    "name": "Strange Sort"
+   }
+  ]
+ },
+ {
+  "id": 1561,
+  "type": "Div2",
+  "name": "Codeforces Round #740 (Div. 2, based on VK Cup 2021 - Final (Engine))",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Simply Strange Sort"
+   },
+   {
+    "index": "B",
+    "name": "Charmed by the Game"
+   },
+   {
+    "index": "C",
+    "name": "Deep Down Below"
+   },
+   {
+    "index": "D1",
+    "name": "Up the Strip (simplified version)"
+   },
+   {
+    "index": "D2",
+    "name": "Up the Strip"
+   },
+   {
+    "index": "E",
+    "name": "Bottom-Tier Reversals"
+   },
+   {
+    "index": "F",
+    "name": "Top-Notch Insertions"
+   }
+  ]
+ },
+ {
+  "id": 1563,
+  "type": "Other",
+  "name": "VK Cup 2021 - Final (Engine)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Charmed by the Game"
+   },
+   {
+    "index": "B",
+    "name": "Up the Strip"
+   },
+   {
+    "index": "C",
+    "name": "Bottom-Tier Reversals"
+   },
+   {
+    "index": "D",
+    "name": "Top-Notch Insertions"
+   },
+   {
+    "index": "E",
+    "name": "Down Below"
+   },
+   {
+    "index": "F",
+    "name": "Strange Sort"
+   }
+  ]
+ },
+ {
   "id": 1560,
   "type": "Div3",
   "name": "Codeforces Round #739 (Div. 3)",

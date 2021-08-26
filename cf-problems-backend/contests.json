@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Charmed by the Game"
+    "name": "Charmed by the Game",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Up the Strip"
+    "name": "Up the Strip",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Bottom-Tier Reversals"
+    "name": "Bottom-Tier Reversals",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Top-Notch Insertions"
+    "name": "Top-Notch Insertions",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Down Below"
+    "name": "Down Below",
+    "rating": 3000
    },
    {
     "index": "F",
-    "name": "Strange Sort"
+    "name": "Strange Sort",
+    "rating": 3300
    }
   ]
  },
@@ -37,31 +43,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Simply Strange Sort"
+    "name": "Simply Strange Sort",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Charmed by the Game"
+    "name": "Charmed by the Game",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Deep Down Below"
+    "name": "Deep Down Below",
+    "rating": 1300
    },
    {
     "index": "D1",
-    "name": "Up the Strip (simplified version)"
+    "name": "Up the Strip (simplified version)",
+    "rating": 1700
    },
    {
     "index": "D2",
-    "name": "Up the Strip"
+    "name": "Up the Strip",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Bottom-Tier Reversals"
+    "name": "Bottom-Tier Reversals",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Top-Notch Insertions"
+    "name": "Top-Notch Insertions",
+    "rating": 2600
    }
   ]
  },
@@ -72,27 +85,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Charmed by the Game"
+    "name": "Charmed by the Game",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Up the Strip"
+    "name": "Up the Strip",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Bottom-Tier Reversals"
+    "name": "Bottom-Tier Reversals",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Top-Notch Insertions"
+    "name": "Top-Notch Insertions",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Down Below"
+    "name": "Down Below",
+    "rating": 3000
    },
    {
     "index": "F",
-    "name": "Strange Sort"
+    "name": "Strange Sort",
+    "rating": 3300
    }
   ]
  },

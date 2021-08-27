@@ -1,5 +1,40 @@
 [
  {
+  "id": 1562,
+  "type": "Div2",
+  "name": "Codeforces Round #741 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Miracle and the Sleeper"
+   },
+   {
+    "index": "B",
+    "name": "Scenes From a Memory"
+   },
+   {
+    "index": "C",
+    "name": "Rings"
+   },
+   {
+    "index": "D1",
+    "name": "Two Hundred Twenty One (easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Two Hundred Twenty One (hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Rescue Niwen!"
+   },
+   {
+    "index": "F",
+    "name": "Tubular Bells"
+   }
+  ]
+ },
+ {
   "id": 1558,
   "type": "Div1",
   "name": "Codeforces Round #740 (Div. 1, based on VK Cup 2021 - Final (Engine))",

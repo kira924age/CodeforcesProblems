@@ -1,36 +1,90 @@
 [
  {
+  "id": 1556,
+  "type": "Div1 + Div2",
+  "name": "Deltix Round, Summer 2021 (open for everyone, rated, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "A Variety of Operations",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Take Your Places!",
+    "rating": 1300
+   },
+   {
+    "index": "C",
+    "name": "Compressed Bracket Sequence",
+    "rating": 1800
+   },
+   {
+    "index": "D",
+    "name": "Take a Guess",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Equilibrium",
+    "rating": 2200
+   },
+   {
+    "index": "F",
+    "name": "Sports Betting",
+    "rating": 2500
+   },
+   {
+    "index": "G",
+    "name": "Gates to Another World",
+    "rating": 3300
+   },
+   {
+    "index": "H",
+    "name": "DIY Tree",
+    "rating": 3300
+   }
+  ]
+ },
+ {
   "id": 1562,
   "type": "Div2",
   "name": "Codeforces Round #741 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "The Miracle and the Sleeper"
+    "name": "The Miracle and the Sleeper",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Scenes From a Memory"
+    "name": "Scenes From a Memory",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Rings"
+    "name": "Rings",
+    "rating": 1500
    },
    {
     "index": "D1",
-    "name": "Two Hundred Twenty One (easy version)"
+    "name": "Two Hundred Twenty One (easy version)",
+    "rating": 1700
    },
    {
     "index": "D2",
-    "name": "Two Hundred Twenty One (hard version)"
+    "name": "Two Hundred Twenty One (hard version)",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Rescue Niwen!"
+    "name": "Rescue Niwen!",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Tubular Bells"
+    "name": "Tubular Bells",
+    "rating": 2900
    }
   ]
  },

@@ -1,32 +1,69 @@
 [
  {
+  "id": 1569,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 113 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Balanced Substring"
+   },
+   {
+    "index": "B",
+    "name": "Chess Tournament"
+   },
+   {
+    "index": "C",
+    "name": "Jury Meeting"
+   },
+   {
+    "index": "D",
+    "name": "Inconvenient Pairs"
+   },
+   {
+    "index": "E",
+    "name": "Playoff Restoration"
+   },
+   {
+    "index": "F",
+    "name": "Palindromic Hamiltonian Path"
+   }
+  ]
+ },
+ {
   "id": 1567,
   "type": "Div2",
   "name": "Codeforces Round #742 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Domino Disaster"
+    "name": "Domino Disaster",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "MEXor Mixup"
+    "name": "MEXor Mixup",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Carrying Conundrum"
+    "name": "Carrying Conundrum",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Expression Evaluation Error"
+    "name": "Expression Evaluation Error",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Non-Decreasing Dilemma"
+    "name": "Non-Decreasing Dilemma",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "One-Four Overload"
+    "name": "One-Four Overload",
+    "rating": 2700
    }
   ]
  },

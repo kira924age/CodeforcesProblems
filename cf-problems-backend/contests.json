@@ -1,5 +1,48 @@
 [
  {
+  "id": 1566,
+  "type": "Global",
+  "name": "Codeforces Global Round 16",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Median Maximization"
+   },
+   {
+    "index": "B",
+    "name": "MIN-MEX Cut"
+   },
+   {
+    "index": "C",
+    "name": "MAX-MEX Cut"
+   },
+   {
+    "index": "D1",
+    "name": "Seating Arrangements (easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Seating Arrangements (hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Buds Re-hanging"
+   },
+   {
+    "index": "F",
+    "name": "Points Movement"
+   },
+   {
+    "index": "G",
+    "name": "Four Vertices"
+   },
+   {
+    "index": "H",
+    "name": "Xor-quiz"
+   }
+  ]
+ },
+ {
   "id": 1569,
   "type": "Educational",
   "name": "Educational Codeforces Round 113 (Rated for Div. 2)",

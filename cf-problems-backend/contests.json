@@ -1,44 +1,127 @@
 [
  {
+  "id": 1572,
+  "type": "Div1",
+  "name": "Codeforces Round #743 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Book",
+    "rating": 1800
+   },
+   {
+    "index": "B",
+    "name": "Xor of 3",
+    "rating": 2500
+   },
+   {
+    "index": "C",
+    "name": "Paint",
+    "rating": 2700
+   },
+   {
+    "index": "D",
+    "name": "Bridge Club",
+    "rating": 2800
+   },
+   {
+    "index": "E",
+    "name": "Polygon",
+    "rating": 3000
+   },
+   {
+    "index": "F",
+    "name": "Stations",
+    "rating": 3400
+   }
+  ]
+ },
+ {
+  "id": 1573,
+  "type": "Div2",
+  "name": "Codeforces Round #743 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Countdown",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Swaps",
+    "rating": 1400
+   },
+   {
+    "index": "C",
+    "name": "Book",
+    "rating": 1800
+   },
+   {
+    "index": "D",
+    "name": "Xor of 3",
+    "rating": 2500
+   },
+   {
+    "index": "E",
+    "name": "Paint",
+    "rating": 2700
+   },
+   {
+    "index": "F",
+    "name": "Bridge Club",
+    "rating": 2800
+   }
+  ]
+ },
+ {
   "id": 1566,
   "type": "Global",
   "name": "Codeforces Global Round 16",
   "problems": [
    {
     "index": "A",
-    "name": "Median Maximization"
+    "name": "Median Maximization",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "MIN-MEX Cut"
+    "name": "MIN-MEX Cut",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "MAX-MEX Cut"
+    "name": "MAX-MEX Cut",
+    "rating": 1000
    },
    {
     "index": "D1",
-    "name": "Seating Arrangements (easy version)"
+    "name": "Seating Arrangements (easy version)",
+    "rating": 1100
    },
    {
     "index": "D2",
-    "name": "Seating Arrangements (hard version)"
+    "name": "Seating Arrangements (hard version)",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Buds Re-hanging"
+    "name": "Buds Re-hanging",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Points Movement"
+    "name": "Points Movement",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Four Vertices"
+    "name": "Four Vertices",
+    "rating": 3100
    },
    {
     "index": "H",
-    "name": "Xor-quiz"
+    "name": "Xor-quiz",
+    "rating": 3200
    }
   ]
  },
@@ -49,27 +132,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Balanced Substring"
+    "name": "Balanced Substring",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Chess Tournament"
+    "name": "Chess Tournament",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Jury Meeting"
+    "name": "Jury Meeting",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Inconvenient Pairs"
+    "name": "Inconvenient Pairs",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Playoff Restoration"
+    "name": "Playoff Restoration",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Palindromic Hamiltonian Path"
+    "name": "Palindromic Hamiltonian Path",
+    "rating": 3000
    }
   ]
  },

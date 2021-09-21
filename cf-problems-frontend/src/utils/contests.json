@@ -1,5 +1,36 @@
 [
  {
+  "id": 1574,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 114 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Regular Bracket Sequences"
+   },
+   {
+    "index": "B",
+    "name": "Combinatorics Homework"
+   },
+   {
+    "index": "C",
+    "name": "Slay the Dragon"
+   },
+   {
+    "index": "D",
+    "name": "The Strongest Build"
+   },
+   {
+    "index": "E",
+    "name": "Coloring"
+   },
+   {
+    "index": "F",
+    "name": "Occurrences"
+   }
+  ]
+ },
+ {
   "id": 1572,
   "type": "Div1",
   "name": "Codeforces Round #743 (Div. 1)",

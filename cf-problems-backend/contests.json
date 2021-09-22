@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Regular Bracket Sequences"
+    "name": "Regular Bracket Sequences",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Combinatorics Homework"
+    "name": "Combinatorics Homework",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Slay the Dragon"
+    "name": "Slay the Dragon",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "The Strongest Build"
+    "name": "The Strongest Build",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Coloring"
+    "name": "Coloring",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Occurrences"
+    "name": "Occurrences",
+    "rating": 2700
    }
   ]
  },

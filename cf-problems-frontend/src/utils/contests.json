@@ -1,5 +1,11 @@
 [
  {
+  "id": 1579,
+  "type": "Div3",
+  "name": "Codeforces Round #744 (Div. 3)",
+  "problems": null
+ },
+ {
   "id": 1574,
   "type": "Educational",
   "name": "Educational Codeforces Round 114 (Rated for Div. 2)",

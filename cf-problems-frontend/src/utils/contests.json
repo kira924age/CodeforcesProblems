@@ -3,7 +3,48 @@
   "id": 1579,
   "type": "Div3",
   "name": "Codeforces Round #744 (Div. 3)",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Casimir's String Solitaire",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Shifting Sort",
+    "rating": 1100
+   },
+   {
+    "index": "C",
+    "name": "Ticks",
+    "rating": 1500
+   },
+   {
+    "index": "D",
+    "name": "Productive Meeting",
+    "rating": 1400
+   },
+   {
+    "index": "E1",
+    "name": "Permutation Minimization by Deque",
+    "rating": 1000
+   },
+   {
+    "index": "E2",
+    "name": "Array Optimization by Deque",
+    "rating": 1700
+   },
+   {
+    "index": "F",
+    "name": "Array Stabilization (AND version)",
+    "rating": 1700
+   },
+   {
+    "index": "G",
+    "name": "Minimal Coverage",
+    "rating": 2200
+   }
+  ]
  },
  {
   "id": 1574,

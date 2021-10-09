@@ -1,5 +1,397 @@
 [
  {
+  "id": 1594,
+  "type": "Div2",
+  "name": "Codeforces Round #747 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Consecutive Sum Riddle",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Special Numbers",
+    "rating": 1100
+   },
+   {
+    "index": "C",
+    "name": "Make Them Equal",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "The Number of Imposters",
+    "rating": 1700
+   },
+   {
+    "index": "E1",
+    "name": "Rubik's Cube Coloring (easy version)",
+    "rating": 1300
+   },
+   {
+    "index": "E2",
+    "name": "Rubik's Cube Coloring (hard version)",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Ideal Farm",
+    "rating": 2400
+   }
+  ]
+ },
+ {
+  "id": 1571,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Episode 8",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sequence of Comparisons"
+   },
+   {
+    "index": "B",
+    "name": "Epic Novel"
+   },
+   {
+    "index": "C",
+    "name": "Rhyme"
+   },
+   {
+    "index": "D",
+    "name": "Sweepstake"
+   },
+   {
+    "index": "E",
+    "name": "Fix the String"
+   },
+   {
+    "index": "F",
+    "name": "Kotlinforces"
+   },
+   {
+    "index": "G",
+    "name": "A Battle Against a Dragon"
+   },
+   {
+    "index": "H",
+    "name": "Laser Beams"
+   },
+   {
+    "index": "I",
+    "name": "Physical Examination"
+   },
+   {
+    "index": "J",
+    "name": "Two Railroads"
+   }
+  ]
+ },
+ {
+  "id": 1592,
+  "type": "Div2",
+  "name": "Codeforces Round #746 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Gamer Hemose",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Hemose Shopping",
+    "rating": 1200
+   },
+   {
+    "index": "C",
+    "name": "Bakry and Partitioning",
+    "rating": 1700
+   },
+   {
+    "index": "D",
+    "name": "Hemose in ICPC ?",
+    "rating": 2300
+   },
+   {
+    "index": "E",
+    "name": "Bored Bakry",
+    "rating": 2400
+   },
+   {
+    "index": "F1",
+    "name": "Alice and Recoloring 1",
+    "rating": 2600
+   },
+   {
+    "index": "F2",
+    "name": "Alice and Recoloring 2",
+    "rating": 2800
+   }
+  ]
+ },
+ {
+  "id": 1575,
+  "type": "ICPC",
+  "name": "COMPFEST 13 - Finals Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Another Sorting Problem",
+    "rating": 1100
+   },
+   {
+    "index": "B",
+    "name": "Building an Amusement Park",
+    "rating": 2300
+   },
+   {
+    "index": "C",
+    "name": "Cyclic Sum",
+    "rating": 3000
+   },
+   {
+    "index": "D",
+    "name": "Divisible by Twenty-Five",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Eye-Pleasing City Park Tour",
+    "rating": 2600
+   },
+   {
+    "index": "F",
+    "name": "Finding Expected Value",
+    "rating": 2900
+   },
+   {
+    "index": "G",
+    "name": "GCD Festival",
+    "rating": 2200
+   },
+   {
+    "index": "H",
+    "name": "Holiday Wall Ornaments",
+    "rating": 2200
+   },
+   {
+    "index": "I",
+    "name": "Illusions of the Desert",
+    "rating": 2300
+   },
+   {
+    "index": "J",
+    "name": "Jeopardy of Dropped Balls",
+    "rating": 1500
+   },
+   {
+    "index": "K",
+    "name": "Knitting Batik",
+    "rating": 2200
+   },
+   {
+    "index": "L",
+    "name": "Longest Array Deconstruction",
+    "rating": 2100
+   },
+   {
+    "index": "M",
+    "name": "Managing Telephone Poles",
+    "rating": 2400
+   }
+  ]
+ },
+ {
+  "id": 1570,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Practice 8",
+  "problems": [
+   {
+    "index": "A",
+    "name": "A+B (Trial Problem)"
+   },
+   {
+    "index": "B",
+    "name": "Yellow Cards"
+   },
+   {
+    "index": "C",
+    "name": "Shooting"
+   },
+   {
+    "index": "D",
+    "name": "Reachable Numbers"
+   },
+   {
+    "index": "E",
+    "name": "Erasing Zeroes"
+   },
+   {
+    "index": "F",
+    "name": "Square Filling"
+   },
+   {
+    "index": "G",
+    "name": "XOR Guessing"
+   },
+   {
+    "index": "H",
+    "name": "Chainword"
+   },
+   {
+    "index": "I",
+    "name": "Minimum Difference"
+   }
+  ]
+ },
+ {
+  "id": 1578,
+  "type": "ICPC",
+  "name": "ICPC WF Moscow Invitational Contest - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Anti-Tetris",
+    "rating": 2800
+   },
+   {
+    "index": "B",
+    "name": "Building Forest Trails",
+    "rating": 2800
+   },
+   {
+    "index": "C",
+    "name": "Cactus Lady and her Cing",
+    "rating": 3500
+   },
+   {
+    "index": "D",
+    "name": "Dragon Curve",
+    "rating": 3200
+   },
+   {
+    "index": "E",
+    "name": "Easy Scheduling",
+    "rating": 1200
+   },
+   {
+    "index": "F",
+    "name": "Framing Pictures",
+    "rating": 2900
+   },
+   {
+    "index": "G",
+    "name": "Game of Chance",
+    "rating": 3500
+   },
+   {
+    "index": "H",
+    "name": "Higher Order Functions",
+    "rating": 1700
+   },
+   {
+    "index": "I",
+    "name": "Interactive Rays",
+    "rating": 3300
+   },
+   {
+    "index": "J",
+    "name": "Just Kingdom",
+    "rating": 3100
+   },
+   {
+    "index": "K",
+    "name": "Kingdom of Islands",
+    "rating": 2800
+   },
+   {
+    "index": "L",
+    "name": "Labyrinth",
+    "rating": 2400
+   },
+   {
+    "index": "M",
+    "name": "The Mind",
+    "rating": 2700
+   }
+  ]
+ },
+ {
+  "id": 1580,
+  "type": "Div1",
+  "name": "Codeforces Round #745 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Portal",
+    "rating": 1700
+   },
+   {
+    "index": "B",
+    "name": "Mathematics Curriculum",
+    "rating": 2600
+   },
+   {
+    "index": "C",
+    "name": "Train Maintenance",
+    "rating": 2200
+   },
+   {
+    "index": "D",
+    "name": "Subsequence",
+    "rating": 2900
+   },
+   {
+    "index": "E",
+    "name": "Railway Construction",
+    "rating": 3400
+   },
+   {
+    "index": "F",
+    "name": "Problems for Codeforces",
+    "rating": 3300
+   }
+  ]
+ },
+ {
+  "id": 1581,
+  "type": "Div2",
+  "name": "Codeforces Round #745 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "CQXYM Count Permutations",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Diameter of Graph",
+    "rating": 1200
+   },
+   {
+    "index": "C",
+    "name": "Portal",
+    "rating": 1700
+   },
+   {
+    "index": "D",
+    "name": "Mathematics Curriculum",
+    "rating": 2600
+   },
+   {
+    "index": "E",
+    "name": "Train Maintenance",
+    "rating": 2200
+   },
+   {
+    "index": "F",
+    "name": "Subsequence",
+    "rating": 2900
+   }
+  ]
+ },
+ {
   "id": 1579,
   "type": "Div3",
   "name": "Codeforces Round #744 (Div. 3)",

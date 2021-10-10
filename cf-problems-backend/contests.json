@@ -1,5 +1,99 @@
 [
  {
+  "id": 1599,
+  "type": "Other",
+  "name": "Bubble Cup 14 - Finals Online Mirror (Unrated, ICPC Rules, Teams Preferred, Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Weights"
+   },
+   {
+    "index": "B",
+    "name": "Restaurant Game"
+   },
+   {
+    "index": "C",
+    "name": "Bubble Strike"
+   },
+   {
+    "index": "D",
+    "name": "Bubble Popping"
+   },
+   {
+    "index": "E",
+    "name": "Two Arrays"
+   },
+   {
+    "index": "F",
+    "name": "Mars"
+   },
+   {
+    "index": "G",
+    "name": "Shortest path"
+   },
+   {
+    "index": "H",
+    "name": "Hidden Fortress"
+   },
+   {
+    "index": "I",
+    "name": "Desert"
+   },
+   {
+    "index": "J",
+    "name": "Bob's Beautiful Array"
+   }
+  ]
+ },
+ {
+  "id": 1600,
+  "type": "Other",
+  "name": "Bubble Cup 14 - Finals Online Mirror (Unrated, ICPC Rules, Teams Preferred, Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Weights"
+   },
+   {
+    "index": "B",
+    "name": "Mars"
+   },
+   {
+    "index": "C",
+    "name": "Restaurant Game"
+   },
+   {
+    "index": "D",
+    "name": "Hidden Fortress"
+   },
+   {
+    "index": "E",
+    "name": "Array Game"
+   },
+   {
+    "index": "F",
+    "name": "Party Organization"
+   },
+   {
+    "index": "G",
+    "name": "Bob's Beautiful Array"
+   },
+   {
+    "index": "H",
+    "name": "Shortest path"
+   },
+   {
+    "index": "I",
+    "name": "Bubble Strike"
+   },
+   {
+    "index": "J",
+    "name": "Robot Factory"
+   }
+  ]
+ },
+ {
   "id": 1594,
   "type": "Div2",
   "name": "Codeforces Round #747 (Div. 2)",

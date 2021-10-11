@@ -6,43 +6,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Weights"
+    "name": "Weights",
+    "rating": 2600
    },
    {
     "index": "B",
-    "name": "Restaurant Game"
+    "name": "Restaurant Game",
+    "rating": 3100
    },
    {
     "index": "C",
-    "name": "Bubble Strike"
+    "name": "Bubble Strike",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Bubble Popping"
+    "name": "Bubble Popping",
+    "rating": 3200
    },
    {
     "index": "E",
-    "name": "Two Arrays"
+    "name": "Two Arrays",
+    "rating": 3200
    },
    {
     "index": "F",
-    "name": "Mars"
+    "name": "Mars",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Shortest path"
+    "name": "Shortest path",
+    "rating": 2700
    },
    {
     "index": "H",
-    "name": "Hidden Fortress"
+    "name": "Hidden Fortress",
+    "rating": 2100
    },
    {
     "index": "I",
-    "name": "Desert"
+    "name": "Desert",
+    "rating": 2700
    },
    {
     "index": "J",
-    "name": "Bob's Beautiful Array"
+    "name": "Bob's Beautiful Array",
+    "rating": 2600
    }
   ]
  },
@@ -53,43 +63,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Weights"
+    "name": "Weights",
+    "rating": 2600
    },
    {
     "index": "B",
-    "name": "Mars"
+    "name": "Mars",
+    "rating": 2700
    },
    {
     "index": "C",
-    "name": "Restaurant Game"
+    "name": "Restaurant Game",
+    "rating": 3100
    },
    {
     "index": "D",
-    "name": "Hidden Fortress"
+    "name": "Hidden Fortress",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Array Game"
+    "name": "Array Game",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Party Organization"
+    "name": "Party Organization",
+    "rating": 2300
    },
    {
     "index": "G",
-    "name": "Bob's Beautiful Array"
+    "name": "Bob's Beautiful Array",
+    "rating": 2600
    },
    {
     "index": "H",
-    "name": "Shortest path"
+    "name": "Shortest path",
+    "rating": 2700
    },
    {
     "index": "I",
-    "name": "Bubble Strike"
+    "name": "Bubble Strike",
+    "rating": 2000
    },
    {
     "index": "J",
-    "name": "Robot Factory"
+    "name": "Robot Factory",
+    "rating": 1400
    }
   ]
  },

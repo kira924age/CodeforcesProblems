@@ -1,5 +1,40 @@
 [
  {
+  "id": 1598,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 115 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Computer Game"
+   },
+   {
+    "index": "B",
+    "name": "Groups"
+   },
+   {
+    "index": "C",
+    "name": "Delete Two Elements"
+   },
+   {
+    "index": "D",
+    "name": "Training Session"
+   },
+   {
+    "index": "E",
+    "name": "Staircases"
+   },
+   {
+    "index": "F",
+    "name": "RBS"
+   },
+   {
+    "index": "G",
+    "name": "The Sum of Good Numbers"
+   }
+  ]
+ },
+ {
   "id": 1599,
   "type": "Other",
   "name": "Bubble Cup 14 - Finals Online Mirror (Unrated, ICPC Rules, Teams Preferred, Div. 1)",

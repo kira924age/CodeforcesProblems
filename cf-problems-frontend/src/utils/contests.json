@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Computer Game"
+    "name": "Computer Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Groups"
+    "name": "Groups",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Delete Two Elements"
+    "name": "Delete Two Elements",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Training Session"
+    "name": "Training Session",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Staircases"
+    "name": "Staircases",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "RBS"
+    "name": "RBS",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "The Sum of Good Numbers"
+    "name": "The Sum of Good Numbers",
+    "rating": 3200
    }
   ]
  },

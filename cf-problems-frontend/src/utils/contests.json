@@ -1,5 +1,55 @@
 [
  {
+  "id": 1593,
+  "type": "Div3",
+  "name": "Codeforces Round #748 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Elections"
+   },
+   {
+    "index": "B",
+    "name": "Make it Divisible by 25"
+   },
+   {
+    "index": "C",
+    "name": "Save More Mice"
+   },
+   {
+    "index": "D1",
+    "name": "All are Same"
+   },
+   {
+    "index": "D2",
+    "name": "Half of Same"
+   },
+   {
+    "index": "E",
+    "name": "Gardener and Tree"
+   },
+   {
+    "index": "F",
+    "name": "Red-Black Number"
+   },
+   {
+    "index": "G",
+    "name": "Changing Brackets"
+   }
+  ]
+ },
+ {
+  "id": 1576,
+  "type": "ICPC",
+  "name": "2021 ICPC Communication Routing Challenge: Marathon",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Communication Routing Challenge"
+   }
+  ]
+ },
+ {
   "id": 1598,
   "type": "Educational",
   "name": "Educational Codeforces Round 115 (Rated for Div. 2)",

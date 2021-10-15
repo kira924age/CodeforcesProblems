@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Elections"
+    "name": "Elections",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Make it Divisible by 25"
+    "name": "Make it Divisible by 25",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Save More Mice"
+    "name": "Save More Mice",
+    "rating": 1000
    },
    {
     "index": "D1",
-    "name": "All are Same"
+    "name": "All are Same",
+    "rating": 1100
    },
    {
     "index": "D2",
-    "name": "Half of Same"
+    "name": "Half of Same",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Gardener and Tree"
+    "name": "Gardener and Tree",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Red-Black Number"
+    "name": "Red-Black Number",
+    "rating": 2100
    },
    {
     "index": "G",
-    "name": "Changing Brackets"
+    "name": "Changing Brackets",
+    "rating": 2200
    }
   ]
  },

@@ -1,5 +1,23 @@
 [
  {
+  "id": 1583,
+  "type": "Other",
+  "name": "Technocup 2022 - Elimination Round 1",
+  "problems": null
+ },
+ {
+  "id": 1586,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round #749 (Div. 1 + Div. 2, based on Technocup 2022 Elimination Round 1)",
+  "problems": null
+ },
+ {
+  "id": 1595,
+  "type": "Other",
+  "name": "Технокубок 2022 - Ознакомительный Раунд 1",
+  "problems": null
+ },
+ {
   "id": 1593,
   "type": "Div3",
   "name": "Codeforces Round #748 (Div. 3)",
@@ -50,12 +68,7 @@
   "id": 1576,
   "type": "ICPC",
   "name": "2021 ICPC Communication Routing Challenge: Marathon",
-  "problems": [
-   {
-    "index": "A",
-    "name": "Communication Routing Challenge"
-   }
-  ]
+  "problems": null
  },
  {
   "id": 1598,
@@ -259,48 +272,7 @@
   "id": 1571,
   "type": "Kotlin",
   "name": "Kotlin Heroes: Episode 8",
-  "problems": [
-   {
-    "index": "A",
-    "name": "Sequence of Comparisons"
-   },
-   {
-    "index": "B",
-    "name": "Epic Novel"
-   },
-   {
-    "index": "C",
-    "name": "Rhyme"
-   },
-   {
-    "index": "D",
-    "name": "Sweepstake"
-   },
-   {
-    "index": "E",
-    "name": "Fix the String"
-   },
-   {
-    "index": "F",
-    "name": "Kotlinforces"
-   },
-   {
-    "index": "G",
-    "name": "A Battle Against a Dragon"
-   },
-   {
-    "index": "H",
-    "name": "Laser Beams"
-   },
-   {
-    "index": "I",
-    "name": "Physical Examination"
-   },
-   {
-    "index": "J",
-    "name": "Two Railroads"
-   }
-  ]
+  "problems": null
  },
  {
   "id": 1592,
@@ -420,44 +392,7 @@
   "id": 1570,
   "type": "Kotlin",
   "name": "Kotlin Heroes: Practice 8",
-  "problems": [
-   {
-    "index": "A",
-    "name": "A+B (Trial Problem)"
-   },
-   {
-    "index": "B",
-    "name": "Yellow Cards"
-   },
-   {
-    "index": "C",
-    "name": "Shooting"
-   },
-   {
-    "index": "D",
-    "name": "Reachable Numbers"
-   },
-   {
-    "index": "E",
-    "name": "Erasing Zeroes"
-   },
-   {
-    "index": "F",
-    "name": "Square Filling"
-   },
-   {
-    "index": "G",
-    "name": "XOR Guessing"
-   },
-   {
-    "index": "H",
-    "name": "Chainword"
-   },
-   {
-    "index": "I",
-    "name": "Minimum Difference"
-   }
-  ]
+  "problems": null
  },
  {
   "id": 1578,

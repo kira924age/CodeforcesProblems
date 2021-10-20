@@ -3,13 +3,83 @@
   "id": 1583,
   "type": "Other",
   "name": "Technocup 2022 - Elimination Round 1",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Windblume Ode"
+   },
+   {
+    "index": "B",
+    "name": "Omkar and Heavenly Tree"
+   },
+   {
+    "index": "C",
+    "name": "Omkar and Determination"
+   },
+   {
+    "index": "D",
+    "name": "Omkar and the Meaning of Life"
+   },
+   {
+    "index": "E",
+    "name": "Moment of Bloom"
+   },
+   {
+    "index": "F",
+    "name": "Defender of Childhood Dreams"
+   },
+   {
+    "index": "G",
+    "name": "Omkar and Time Travel"
+   },
+   {
+    "index": "H",
+    "name": "Omkar and Tours"
+   }
+  ]
  },
  {
   "id": 1586,
   "type": "Div1 + Div2",
   "name": "Codeforces Round #749 (Div. 1 + Div. 2, based on Technocup 2022 Elimination Round 1)",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Windblume Ode"
+   },
+   {
+    "index": "B",
+    "name": "Omkar and Heavenly Tree"
+   },
+   {
+    "index": "C",
+    "name": "Omkar and Determination"
+   },
+   {
+    "index": "D",
+    "name": "Omkar and the Meaning of Life"
+   },
+   {
+    "index": "E",
+    "name": "Moment of Bloom"
+   },
+   {
+    "index": "F",
+    "name": "Defender of Childhood Dreams"
+   },
+   {
+    "index": "G",
+    "name": "Omkar and Time Travel"
+   },
+   {
+    "index": "H",
+    "name": "Omkar and Tours"
+   },
+   {
+    "index": "I",
+    "name": "Omkar and Mosaic"
+   }
+  ]
  },
  {
   "id": 1595,
@@ -68,7 +138,12 @@
   "id": 1576,
   "type": "ICPC",
   "name": "2021 ICPC Communication Routing Challenge: Marathon",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Communication Routing Challenge"
+   }
+  ]
  },
  {
   "id": 1598,
@@ -272,7 +347,48 @@
   "id": 1571,
   "type": "Kotlin",
   "name": "Kotlin Heroes: Episode 8",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sequence of Comparisons"
+   },
+   {
+    "index": "B",
+    "name": "Epic Novel"
+   },
+   {
+    "index": "C",
+    "name": "Rhyme"
+   },
+   {
+    "index": "D",
+    "name": "Sweepstake"
+   },
+   {
+    "index": "E",
+    "name": "Fix the String"
+   },
+   {
+    "index": "F",
+    "name": "Kotlinforces"
+   },
+   {
+    "index": "G",
+    "name": "A Battle Against a Dragon"
+   },
+   {
+    "index": "H",
+    "name": "Laser Beams"
+   },
+   {
+    "index": "I",
+    "name": "Physical Examination"
+   },
+   {
+    "index": "J",
+    "name": "Two Railroads"
+   }
+  ]
  },
  {
   "id": 1592,
@@ -392,7 +508,44 @@
   "id": 1570,
   "type": "Kotlin",
   "name": "Kotlin Heroes: Practice 8",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "A+B (Trial Problem)"
+   },
+   {
+    "index": "B",
+    "name": "Yellow Cards"
+   },
+   {
+    "index": "C",
+    "name": "Shooting"
+   },
+   {
+    "index": "D",
+    "name": "Reachable Numbers"
+   },
+   {
+    "index": "E",
+    "name": "Erasing Zeroes"
+   },
+   {
+    "index": "F",
+    "name": "Square Filling"
+   },
+   {
+    "index": "G",
+    "name": "XOR Guessing"
+   },
+   {
+    "index": "H",
+    "name": "Chainword"
+   },
+   {
+    "index": "I",
+    "name": "Minimum Difference"
+   }
+  ]
  },
  {
   "id": 1578,

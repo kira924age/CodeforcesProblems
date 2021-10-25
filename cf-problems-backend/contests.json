@@ -1,5 +1,44 @@
 [
  {
+  "id": 1582,
+  "type": "Div2",
+  "name": "Codeforces Round #750 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Luntik and Concerts"
+   },
+   {
+    "index": "B",
+    "name": "Luntik and Subsequences"
+   },
+   {
+    "index": "C",
+    "name": "Grandma Capa Knits a Scarf"
+   },
+   {
+    "index": "D",
+    "name": "Vupsen, Pupsen and 0"
+   },
+   {
+    "index": "E",
+    "name": "Pchelyonok and Segments"
+   },
+   {
+    "index": "F1",
+    "name": "Korney Korneevich and XOR (easy version)"
+   },
+   {
+    "index": "F2",
+    "name": "Korney Korneevich and XOR (hard version)"
+   },
+   {
+    "index": "G",
+    "name": "Kuzya and Homework"
+   }
+  ]
+ },
+ {
   "id": 1583,
   "type": "Other",
   "name": "Technocup 2022 - Elimination Round 1",

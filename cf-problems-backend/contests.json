@@ -1,40 +1,122 @@
 [
  {
+  "id": 1601,
+  "type": "Div1",
+  "name": "Codeforces Round #751 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Array Elimination",
+    "rating": 1300
+   },
+   {
+    "index": "B",
+    "name": "Frog Traveler",
+    "rating": 1900
+   },
+   {
+    "index": "C",
+    "name": "Optimal Insertion",
+    "rating": 2300
+   },
+   {
+    "index": "D",
+    "name": "Difficult Mountain",
+    "rating": 2700
+   },
+   {
+    "index": "E",
+    "name": "Phys Ed Online",
+    "rating": 2900
+   },
+   {
+    "index": "F",
+    "name": "Two Sorts",
+    "rating": 3400
+   }
+  ]
+ },
+ {
+  "id": 1602,
+  "type": "Div2",
+  "name": "Codeforces Round #751 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Two Subsequences",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Divine Array",
+    "rating": 1100
+   },
+   {
+    "index": "C",
+    "name": "Array Elimination",
+    "rating": 1300
+   },
+   {
+    "index": "D",
+    "name": "Frog Traveler",
+    "rating": 1900
+   },
+   {
+    "index": "E",
+    "name": "Optimal Insertion",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Difficult Mountain",
+    "rating": 2700
+   }
+  ]
+ },
+ {
   "id": 1582,
   "type": "Div2",
   "name": "Codeforces Round #750 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Luntik and Concerts"
+    "name": "Luntik and Concerts",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Luntik and Subsequences"
+    "name": "Luntik and Subsequences",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Grandma Capa Knits a Scarf"
+    "name": "Grandma Capa Knits a Scarf",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Vupsen, Pupsen and 0"
+    "name": "Vupsen, Pupsen and 0",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Pchelyonok and Segments"
+    "name": "Pchelyonok and Segments",
+    "rating": 2000
    },
    {
     "index": "F1",
-    "name": "Korney Korneevich and XOR (easy version)"
+    "name": "Korney Korneevich and XOR (easy version)",
+    "rating": 1800
    },
    {
     "index": "F2",
-    "name": "Korney Korneevich and XOR (hard version)"
+    "name": "Korney Korneevich and XOR (hard version)",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Kuzya and Homework"
+    "name": "Kuzya and Homework",
+    "rating": 2600
    }
   ]
  },
@@ -45,35 +127,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Windblume Ode"
+    "name": "Windblume Ode",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Omkar and Heavenly Tree"
+    "name": "Omkar and Heavenly Tree",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Omkar and Determination"
+    "name": "Omkar and Determination",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Omkar and the Meaning of Life"
+    "name": "Omkar and the Meaning of Life",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Moment of Bloom"
+    "name": "Moment of Bloom",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Defender of Childhood Dreams"
+    "name": "Defender of Childhood Dreams",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Omkar and Time Travel"
+    "name": "Omkar and Time Travel",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Omkar and Tours"
+    "name": "Omkar and Tours",
+    "rating": 3300
    }
   ]
  },
@@ -84,39 +174,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Windblume Ode"
+    "name": "Windblume Ode",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Omkar and Heavenly Tree"
+    "name": "Omkar and Heavenly Tree",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Omkar and Determination"
+    "name": "Omkar and Determination",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Omkar and the Meaning of Life"
+    "name": "Omkar and the Meaning of Life",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Moment of Bloom"
+    "name": "Moment of Bloom",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Defender of Childhood Dreams"
+    "name": "Defender of Childhood Dreams",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Omkar and Time Travel"
+    "name": "Omkar and Time Travel",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Omkar and Tours"
+    "name": "Omkar and Tours",
+    "rating": 3300
    },
    {
     "index": "I",
-    "name": "Omkar and Mosaic"
+    "name": "Omkar and Mosaic",
+    "rating": 3500
    }
   ]
  },

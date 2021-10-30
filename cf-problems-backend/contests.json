@@ -1,5 +1,36 @@
 [
  {
+  "id": 1606,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 116 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "AB Balance"
+   },
+   {
+    "index": "B",
+    "name": "Update Files"
+   },
+   {
+    "index": "C",
+    "name": "Banknotes"
+   },
+   {
+    "index": "D",
+    "name": "Red-Blue Matrix"
+   },
+   {
+    "index": "E",
+    "name": "Arena"
+   },
+   {
+    "index": "F",
+    "name": "Tree Queries"
+   }
+  ]
+ },
+ {
   "id": 1601,
   "type": "Div1",
   "name": "Codeforces Round #751 (Div. 1)",

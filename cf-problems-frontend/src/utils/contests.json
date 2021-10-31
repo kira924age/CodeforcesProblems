@@ -1,32 +1,110 @@
 [
  {
+  "id": 1603,
+  "type": "Div1",
+  "name": "Codeforces Round #752 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Di-visible Confusion",
+    "rating": 1300
+   },
+   {
+    "index": "B",
+    "name": "Moderate Modular Mode",
+    "rating": 1600
+   },
+   {
+    "index": "C",
+    "name": "Extreme Extension",
+    "rating": 2300
+   },
+   {
+    "index": "D",
+    "name": "Artistic Partition",
+    "rating": 3000
+   },
+   {
+    "index": "E",
+    "name": "A Perfect Problem"
+   },
+   {
+    "index": "F",
+    "name": "October 18, 2017"
+   }
+  ]
+ },
+ {
+  "id": 1604,
+  "type": "Div2",
+  "name": "Codeforces Round #752 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Era",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "XOR Specia-LIS-t",
+    "rating": 1100
+   },
+   {
+    "index": "C",
+    "name": "Di-visible Confusion",
+    "rating": 1300
+   },
+   {
+    "index": "D",
+    "name": "Moderate Modular Mode",
+    "rating": 1600
+   },
+   {
+    "index": "E",
+    "name": "Extreme Extension",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Artistic Partition",
+    "rating": 3000
+   }
+  ]
+ },
+ {
   "id": 1606,
   "type": "Educational",
   "name": "Educational Codeforces Round 116 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "AB Balance"
+    "name": "AB Balance",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Update Files"
+    "name": "Update Files",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Banknotes"
+    "name": "Banknotes",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Red-Blue Matrix"
+    "name": "Red-Blue Matrix",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Arena"
+    "name": "Arena",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Tree Queries"
+    "name": "Tree Queries",
+    "rating": 2800
    }
   ]
  },

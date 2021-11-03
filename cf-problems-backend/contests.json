@@ -1,5 +1,44 @@
 [
  {
+  "id": 1607,
+  "type": "Div3",
+  "name": "Codeforces Round #753 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Linear Keyboard"
+   },
+   {
+    "index": "B",
+    "name": "Odd Grasshopper"
+   },
+   {
+    "index": "C",
+    "name": "Minimum Extraction"
+   },
+   {
+    "index": "D",
+    "name": "Blue-Red Permutation"
+   },
+   {
+    "index": "E",
+    "name": "Robot on the Board 1"
+   },
+   {
+    "index": "F",
+    "name": "Robot on the Board 2"
+   },
+   {
+    "index": "G",
+    "name": "Banquet Preparations 1"
+   },
+   {
+    "index": "H",
+    "name": "Banquet Preparations 2"
+   }
+  ]
+ },
+ {
   "id": 1603,
   "type": "Div1",
   "name": "Codeforces Round #752 (Div. 1)",
@@ -26,11 +65,13 @@
    },
    {
     "index": "E",
-    "name": "A Perfect Problem"
+    "name": "A Perfect Problem",
+    "rating": 3200
    },
    {
     "index": "F",
-    "name": "October 18, 2017"
+    "name": "October 18, 2017",
+    "rating": 2700
    }
   ]
  },

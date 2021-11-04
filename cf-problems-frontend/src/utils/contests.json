@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Linear Keyboard"
+    "name": "Linear Keyboard",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Odd Grasshopper"
+    "name": "Odd Grasshopper",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Minimum Extraction"
+    "name": "Minimum Extraction",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Blue-Red Permutation"
+    "name": "Blue-Red Permutation",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Robot on the Board 1"
+    "name": "Robot on the Board 1",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Robot on the Board 2"
+    "name": "Robot on the Board 2",
+    "rating": 2300
    },
    {
     "index": "G",
-    "name": "Banquet Preparations 1"
+    "name": "Banquet Preparations 1",
+    "rating": 2200
    },
    {
     "index": "H",
-    "name": "Banquet Preparations 2"
+    "name": "Banquet Preparations 2",
+    "rating": 2200
    }
   ]
  },

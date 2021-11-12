@@ -1,5 +1,36 @@
 [
  {
+  "id": 1605,
+  "type": "Div2",
+  "name": "Codeforces Round #754 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "A.M. Deviation"
+   },
+   {
+    "index": "B",
+    "name": "Reverse Sort"
+   },
+   {
+    "index": "C",
+    "name": "Dominant Character"
+   },
+   {
+    "index": "D",
+    "name": "Treelabeling"
+   },
+   {
+    "index": "E",
+    "name": "Array Equalizer"
+   },
+   {
+    "index": "F",
+    "name": "PalindORme"
+   }
+  ]
+ },
+ {
   "id": 1607,
   "type": "Div3",
   "name": "Codeforces Round #753 (Div. 3)",

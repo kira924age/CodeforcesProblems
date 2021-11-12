@@ -4,11 +4,11 @@ import { Table } from "antd";
 import {
   makeContestColumns,
   makeContestTable,
-  filterProblems
+  filterProblems,
 } from "./contestTableUtils";
 
 import {
-  cachedUserSubmissions ,
+  cachedUserSubmissions,
   cachedContestArray,
 } from "../../utils/TypedCachedApiClient";
 
@@ -61,10 +61,14 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
   let problemData = filterProblems(props.name, allProblems);
 
   if (props.isReverseOrder) {
-    problemData = [...problemData].reverse()
+    problemData = [...problemData].reverse();
   }
 
-  let contestTable = makeContestTable(problemData, props.isShowDifficulty, acList);
+  let contestTable = makeContestTable(
+    problemData,
+    props.isShowDifficulty,
+    acList
+  );
 
   const columns = makeContestColumns(props.name);
 

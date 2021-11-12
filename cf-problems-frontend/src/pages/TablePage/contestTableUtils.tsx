@@ -183,7 +183,7 @@ export const makeContestTable = (
   });
 };
 
-let filterProblemsMap : Map<string, object[]> = new Map();
+let filterProblemsMap: Map<string, object[]> = new Map();
 
 export const filterProblems = (
   contestName: string,
@@ -198,62 +198,62 @@ export const filterProblems = (
 
   if (contestName === "All Contests") {
     problemData = allProblems;
-    filterProblemsMap.set("All Contests", problemData)
+    filterProblemsMap.set("All Contests", problemData);
   } else if (contestName === "Educational Codeforces Rounds") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Educational";
     });
-    filterProblemsMap.set("Educational Codeforces Rounds", problemData)
+    filterProblemsMap.set("Educational Codeforces Rounds", problemData);
   } else if (contestName === "Codeforces Global Rounds") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Global";
     });
-    filterProblemsMap.set("Codeforces Global Rounds", problemData)
+    filterProblemsMap.set("Codeforces Global Rounds", problemData);
   } else if (contestName === "Div. 1 + Div. 2 Contests") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Div1 + Div2";
     });
-    filterProblemsMap.set("Div. 1 + Div. 2 Contests", problemData)
+    filterProblemsMap.set("Div. 1 + Div. 2 Contests", problemData);
   } else if (contestName === "Div. 1 Contests") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Div1";
     });
-    filterProblemsMap.set("Div. 1 Contests", problemData)
+    filterProblemsMap.set("Div. 1 Contests", problemData);
   } else if (contestName === "Div. 2 Contests") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Div2";
     });
-    filterProblemsMap.set("Div. 2 Contests", problemData)
+    filterProblemsMap.set("Div. 2 Contests", problemData);
   } else if (contestName === "Div. 3 Contests") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Div3";
     });
-    filterProblemsMap.set("Div. 3 Contests", problemData)
+    filterProblemsMap.set("Div. 3 Contests", problemData);
   } else if (contestName === "Div. 4 Contests") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Div4";
     });
-    filterProblemsMap.set("Div. 4 Contests", problemData)
+    filterProblemsMap.set("Div. 4 Contests", problemData);
   } else if (contestName === "Kotlin Heroes") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Kotlin";
     });
-    filterProblemsMap.set("Kotlin Heroes", problemData)
+    filterProblemsMap.set("Kotlin Heroes", problemData);
   } else if (contestName === "ICPC") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "ICPC";
     });
-    filterProblemsMap.set("ICPC", problemData)
+    filterProblemsMap.set("ICPC", problemData);
   } else if (contestName === "Microsoft Q# Coding Contests") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Q#";
     });
-    filterProblemsMap.set("Microsoft Q# Coding Contests", problemData)
+    filterProblemsMap.set("Microsoft Q# Coding Contests", problemData);
   } else if (contestName === "Other Contests") {
     problemData = allProblems.filter((obj: any) => {
       return obj.type === "Other";
     });
-    filterProblemsMap.set("Other Contests", problemData)
+    filterProblemsMap.set("Other Contests", problemData);
   }
 
   if (problemData !== undefined) {

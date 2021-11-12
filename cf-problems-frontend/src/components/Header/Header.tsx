@@ -79,17 +79,18 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
               onChange={handleChange}
               onPressEnter={handleEnter}
             />
-            <Button>
-              <Link to={"/table/" + userId} replace>Table</Link>
-            </Button>
+
+            <Link to={"/table/" + userId} replace>
+              <Button>Table</Button>
+            </Link>
             {userId === "" ? (
-              <Button disabled>
-                <Link to={"/user/" + userId} replace >User</Link>
-              </Button>
+              <Link to={"/user/" + userId} replace>
+                <Button disabled>User</Button>
+              </Link>
             ) : (
-              <Button>
-                <Link to={"/user/" + userId} replace>User</Link>
-              </Button>
+              <Link to={"/user/" + userId} replace>
+                <Button>User</Button>
+              </Link>
             )}
           </div>
           <ThemeToggler />
@@ -109,17 +110,17 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
               onChange={handleChange}
               onPressEnter={handleEnter}
             />
-            <Button>
-              <Link to={"/table/" + userId} replace>Table</Link>
-            </Button>
+            <Link to={"/table/" + userId} replace>
+              <Button>Table</Button>
+            </Link>
             {userId === "" ? (
-              <Button disabled>
-                <Link to={"/user/" + userId} replace>User</Link>
-              </Button>
+              <Link to={"/user/" + userId} replace>
+                <Button disabled>User</Button>
+              </Link>
             ) : (
-              <Button>
-                <Link to={"/user/" + userId} replace>User</Link>
-              </Button>
+              <Link to={"/user/" + userId} replace>
+                <Button>User</Button>
+              </Link>
             )}
           </div>
           <ThemeToggler />

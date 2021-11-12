@@ -6,9 +6,7 @@ import { Link } from "react-router-dom";
 const Logo: React.FunctionComponent = (props) => {
   return (
     <h1 id="logo">
-      <Link to="/table">
-        Codeforces Problems
-      </Link>
+      <Link to="/table">Codeforces Problems</Link>
     </h1>
   );
 };

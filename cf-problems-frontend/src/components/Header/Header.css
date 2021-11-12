@@ -1,14 +1,16 @@
 #header {
-   background-color: #161B22; position: fixed; /* Set the navbar to fixed position */ z-index: 999;
-   top: 0; /* Position the navbar at the top of the page */
-   width: 100%; /* Full width */
+  background-color: #161b22;
+  position: fixed; /* Set the navbar to fixed position */
+  z-index: 999;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 .menu-row {
-   overflow: hidden;
-   display: flex;
-   align-items: center;
-   margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
 button {
@@ -16,7 +18,7 @@ button {
 }
 
 #collapse {
-  background-color: #161B22;
+  background-color: #161b22;
   width: 100%;
   overflow: hidden;
   align-items: center;
@@ -24,7 +26,7 @@ button {
 }
 
 .collapse-isOpen-true {
-  background-color: #161B22;
+  background-color: #161b22;
   width: 100%;
   height: 56px;
   align-items: center;
@@ -39,8 +41,8 @@ button {
 }
 
 .collapse-isOpen-false {
-  padding-top : 0px;
-  background-color: #161B22;
+  padding-top: 0px;
+  background-color: #161b22;
   width: 100%;
   align-items: center;
   display: flex;
@@ -49,7 +51,7 @@ button {
 #collapse input {
   padding: 0;
   margin: 0;
-  max-width:200px;
+  max-width: 200px;
   flex: auto;
   align-items: center;
 }

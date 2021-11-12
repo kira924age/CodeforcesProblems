@@ -46,7 +46,7 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
             />
           )}
 
-        <label>Show Difficulty</label>
+          <label>Show Difficulty</label>
         </div>
 
         <div className="inline-btn">
@@ -66,7 +66,7 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
               }}
             />
           )}
-        <label>Reverse Order</label>
+          <label>Reverse Order</label>
         </div>
       </div>
 

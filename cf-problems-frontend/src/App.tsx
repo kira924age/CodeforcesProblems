@@ -11,7 +11,7 @@ const App: React.FunctionComponent = () => (
       <div className="App">
         <Switch>
           <Route
-            path="/table/:userIds([a-zA-Z0-9_.]+)+"
+            path="/table/:userIds([a-zA-Z0-9_.]*)*"
             render={({ match }): React.ReactElement => {
               // @ts-ignore
               const params: { userIds?: string } = match.params;

@@ -39,8 +39,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write ./src/**/*.{ts,tsx}"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -61,7 +60,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.4.1"
+    "prettier": "2.2.1"
   },
   "resolutions": {
     "react-spring": "9.1.2"

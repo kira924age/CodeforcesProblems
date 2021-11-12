@@ -21,7 +21,6 @@
     "@types/react-router-dom": "^5.1.7",
     "@types/react-toggle": "^4.0.2",
     "antd": "^4.16.6",
-    "eslint": "^8.2.0",
     "react": "^17.0.1",
     "react-collapse": "^5.1.0",
     "react-dom": "^17.0.1",

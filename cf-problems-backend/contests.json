@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "A.M. Deviation"
+    "name": "A.M. Deviation",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Reverse Sort"
+    "name": "Reverse Sort",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Dominant Character"
+    "name": "Dominant Character",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Treelabeling"
+    "name": "Treelabeling",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Array Equalizer"
+    "name": "Array Equalizer",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "PalindORme"
+    "name": "PalindORme",
+    "rating": 2900
    }
   ]
  },

@@ -1,5 +1,127 @@
 [
  {
+  "id": 1584,
+  "type": "Other",
+  "name": "Technocup 2022 - Elimination Round 2",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Mathematical Addition",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Coloring Rectangles",
+    "rating": 1000
+   },
+   {
+    "index": "C",
+    "name": "Two Arrays",
+    "rating": 900
+   },
+   {
+    "index": "D",
+    "name": "Guess the Permutation",
+    "rating": 2000
+   },
+   {
+    "index": "E",
+    "name": "Game with Stones",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Strange LCS",
+    "rating": 2600
+   },
+   {
+    "index": "G",
+    "name": "Eligible Segments",
+    "rating": 3200
+   }
+  ]
+ },
+ {
+  "id": 1588,
+  "type": "Div1",
+  "name": "Codeforces Round #755 (Div. 1, based on Technocup 2022 Elimination Round 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Two Arrays",
+    "rating": 900
+   },
+   {
+    "index": "B",
+    "name": "Guess the Permutation",
+    "rating": 2000
+   },
+   {
+    "index": "C",
+    "name": "Game with Stones",
+    "rating": 2300
+   },
+   {
+    "index": "D",
+    "name": "Strange LCS",
+    "rating": 2600
+   },
+   {
+    "index": "E",
+    "name": "Eligible Segments",
+    "rating": 3200
+   },
+   {
+    "index": "F",
+    "name": "Jumping Through the Array",
+    "rating": 3500
+   }
+  ]
+ },
+ {
+  "id": 1589,
+  "type": "Div2",
+  "name": "Codeforces Round #755 (Div. 2, based on Technocup 2022 Elimination Round 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Mathematical Addition",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Coloring Rectangles",
+    "rating": 1000
+   },
+   {
+    "index": "C",
+    "name": "Two Arrays",
+    "rating": 900
+   },
+   {
+    "index": "D",
+    "name": "Guess the Permutation",
+    "rating": 2000
+   },
+   {
+    "index": "E",
+    "name": "Game with Stones",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Strange LCS",
+    "rating": 2600
+   }
+  ]
+ },
+ {
+  "id": 1596,
+  "type": "Other",
+  "name": "Технокубок 2022 - Ознакомительный Раунд 2",
+  "problems": null
+ },
+ {
   "id": 1605,
   "type": "Div2",
   "name": "Codeforces Round #754 (Div. 2)",

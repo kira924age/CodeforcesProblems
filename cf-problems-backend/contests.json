@@ -1,5 +1,40 @@
 [
  {
+  "id": 1612,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 117 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Distance"
+   },
+   {
+    "index": "B",
+    "name": "Special Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Chat Ban"
+   },
+   {
+    "index": "D",
+    "name": "X-Magic Pair"
+   },
+   {
+    "index": "E",
+    "name": "Messages"
+   },
+   {
+    "index": "F",
+    "name": "Armor and Weapons"
+   },
+   {
+    "index": "G",
+    "name": "Max Sum Array"
+   }
+  ]
+ },
+ {
   "id": 1584,
   "type": "Other",
   "name": "Technocup 2022 - Elimination Round 2",

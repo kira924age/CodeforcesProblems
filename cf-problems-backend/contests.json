@@ -1,5 +1,48 @@
 [
  {
+  "id": 1610,
+  "type": "Global",
+  "name": "Codeforces Global Round 17",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Anti Light's Cell Guessing"
+   },
+   {
+    "index": "B",
+    "name": "Kalindrome Array"
+   },
+   {
+    "index": "C",
+    "name": "Keshi Is Throwing a Party"
+   },
+   {
+    "index": "D",
+    "name": "Not Quite Lee"
+   },
+   {
+    "index": "E",
+    "name": "AmShZ and G.O.A.T."
+   },
+   {
+    "index": "F",
+    "name": "Mashtali: a Space Oddysey"
+   },
+   {
+    "index": "G",
+    "name": "AmShZ Wins a Bet"
+   },
+   {
+    "index": "H",
+    "name": "Squid Game"
+   },
+   {
+    "index": "I",
+    "name": "Mashtali vs AtCoder"
+   }
+  ]
+ },
+ {
   "id": 1612,
   "type": "Educational",
   "name": "Educational Codeforces Round 117 (Rated for Div. 2)",

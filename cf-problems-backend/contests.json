@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Anti Light's Cell Guessing"
+    "name": "Anti Light's Cell Guessing",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Kalindrome Array"
+    "name": "Kalindrome Array",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Keshi Is Throwing a Party"
+    "name": "Keshi Is Throwing a Party",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Not Quite Lee"
+    "name": "Not Quite Lee",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "AmShZ and G.O.A.T."
+    "name": "AmShZ and G.O.A.T.",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Mashtali: a Space Oddysey"
+    "name": "Mashtali: a Space Oddysey",
+    "rating": 3000
    },
    {
     "index": "G",
-    "name": "AmShZ Wins a Bet"
+    "name": "AmShZ Wins a Bet",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "Squid Game"
+    "name": "Squid Game",
+    "rating": 3100
    },
    {
     "index": "I",
-    "name": "Mashtali vs AtCoder"
+    "name": "Mashtali vs AtCoder",
+    "rating": 3100
    }
   ]
  },

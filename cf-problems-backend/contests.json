@@ -1,5 +1,52 @@
 [
  {
+  "id": 1611,
+  "type": "Div3",
+  "name": "Codeforces Round #756 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Make Even",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Team Composition: Programmers and Mathematicians",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Polycarp Recovers the Permutation",
+    "rating": 1000
+   },
+   {
+    "index": "D",
+    "name": "Weights Assignment For Tree Edges",
+    "rating": 1500
+   },
+   {
+    "index": "E1",
+    "name": "Escape The Maze (easy version)",
+    "rating": 1700
+   },
+   {
+    "index": "E2",
+    "name": "Escape The Maze (hard version)",
+    "rating": 2000
+   },
+   {
+    "index": "F",
+    "name": "ATM and Students",
+    "rating": 1700
+   },
+   {
+    "index": "G",
+    "name": "Robot and Candies",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1610,
   "type": "Global",
   "name": "Codeforces Global Round 17",
@@ -58,31 +105,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Distance"
+    "name": "Distance",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Special Permutation"
+    "name": "Special Permutation",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Chat Ban"
+    "name": "Chat Ban",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "X-Magic Pair"
+    "name": "X-Magic Pair",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Messages"
+    "name": "Messages",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Armor and Weapons"
+    "name": "Armor and Weapons",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Max Sum Array"
+    "name": "Max Sum Array",
+    "rating": 2500
    }
   ]
  },

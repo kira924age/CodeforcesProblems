@@ -1,5 +1,42 @@
 [
  {
+  "id": 1614,
+  "type": "Div2",
+  "name": "Codeforces Round #757 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Divan and a Store",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Divan and a New Project",
+    "rating": 1000
+   },
+   {
+    "index": "C",
+    "name": "Divan and bitwise operations",
+    "rating": 1500
+   },
+   {
+    "index": "D1",
+    "name": "Divan and Kostomuksha (easy version)",
+    "rating": 2100
+   },
+   {
+    "index": "D2",
+    "name": "Divan and Kostomuksha (hard version)",
+    "rating": 2300
+   },
+   {
+    "index": "E",
+    "name": "Divan and a Cottage",
+    "rating": 2600
+   }
+  ]
+ },
+ {
   "id": 1611,
   "type": "Div3",
   "name": "Codeforces Round #756 (Div. 3)",

@@ -1,5 +1,52 @@
 [
  {
+  "id": 1609,
+  "type": "Div1 + Div2",
+  "name": "Deltix Round, Autumn 2021 (open for everyone, rated, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Divide and Multiply",
+    "rating": 900
+   },
+   {
+    "index": "B",
+    "name": "William the Vigilant",
+    "rating": 1100
+   },
+   {
+    "index": "C",
+    "name": "Complex Market Analysis",
+    "rating": 1400
+   },
+   {
+    "index": "D",
+    "name": "Social Network",
+    "rating": 1600
+   },
+   {
+    "index": "E",
+    "name": "William The Oblivious",
+    "rating": 2400
+   },
+   {
+    "index": "F",
+    "name": "Interesting Sections",
+    "rating": 2800
+   },
+   {
+    "index": "G",
+    "name": "A Stroll Around the Matrix",
+    "rating": 3000
+   },
+   {
+    "index": "H",
+    "name": "Pushing Robots",
+    "rating": 3500
+   }
+  ]
+ },
+ {
   "id": 1614,
   "type": "Div2",
   "name": "Codeforces Round #757 (Div. 2)",

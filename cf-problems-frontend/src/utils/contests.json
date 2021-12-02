@@ -1,5 +1,36 @@
 [
  {
+  "id": 1613,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 118 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Long Comparison"
+   },
+   {
+    "index": "B",
+    "name": "Absent Remainder"
+   },
+   {
+    "index": "C",
+    "name": "Poisoned Dagger"
+   },
+   {
+    "index": "D",
+    "name": "MEX Sequences"
+   },
+   {
+    "index": "E",
+    "name": "Crazy Robot"
+   },
+   {
+    "index": "F",
+    "name": "Tree Coloring"
+   }
+  ]
+ },
+ {
   "id": 1609,
   "type": "Div1 + Div2",
   "name": "Deltix Round, Autumn 2021 (open for everyone, rated, Div. 1 + Div. 2)",

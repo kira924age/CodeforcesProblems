@@ -1,5 +1,40 @@
 [
  {
+  "id": 1608,
+  "type": "Div2",
+  "name": "Codeforces Round #758 (Div.1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Find Array"
+   },
+   {
+    "index": "B",
+    "name": "Build the Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Game Master"
+   },
+   {
+    "index": "D",
+    "name": "Dominoes"
+   },
+   {
+    "index": "E",
+    "name": "The Cells on the Paper"
+   },
+   {
+    "index": "F",
+    "name": "MEX counting"
+   },
+   {
+    "index": "G",
+    "name": "Alphabetic Tree"
+   }
+  ]
+ },
+ {
   "id": 1613,
   "type": "Educational",
   "name": "Educational Codeforces Round 118 (Rated for Div. 2)",

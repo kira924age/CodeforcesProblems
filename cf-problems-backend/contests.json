@@ -1,5 +1,77 @@
 [
  {
+  "id": 1585,
+  "type": "Other",
+  "name": "Technocup 2022 - Elimination Round 3",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Life of a Flower"
+   },
+   {
+    "index": "B",
+    "name": "Array Eversion"
+   },
+   {
+    "index": "C",
+    "name": "Minimize Distance"
+   },
+   {
+    "index": "D",
+    "name": "Yet Another Sorting Problem"
+   },
+   {
+    "index": "E",
+    "name": "Frequency Queries"
+   },
+   {
+    "index": "F",
+    "name": "Non-equal Neighbours"
+   },
+   {
+    "index": "G",
+    "name": "Poachers"
+   }
+  ]
+ },
+ {
+  "id": 1591,
+  "type": "Div2",
+  "name": "Codeforces Round #759 (Div. 2, based on Technocup 2022 Elimination Round 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Life of a Flower"
+   },
+   {
+    "index": "B",
+    "name": "Array Eversion"
+   },
+   {
+    "index": "C",
+    "name": "Minimize Distance"
+   },
+   {
+    "index": "D",
+    "name": "Yet Another Sorting Problem"
+   },
+   {
+    "index": "E",
+    "name": "Frequency Queries"
+   },
+   {
+    "index": "F",
+    "name": "Non-equal Neighbours"
+   }
+  ]
+ },
+ {
+  "id": 1597,
+  "type": "Other",
+  "name": "Технокубок 2022 - Ознакомительный Раунд 3",
+  "problems": null
+ },
+ {
   "id": 1608,
   "type": "Div2",
   "name": "Codeforces Round #758 (Div.1 + Div. 2)",

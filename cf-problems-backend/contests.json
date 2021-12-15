@@ -1,36 +1,78 @@
 [
  {
+  "id": 1618,
+  "type": "Div3",
+  "name": "Codeforces Round #760 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Polycarp and Sums of Subsequences"
+   },
+   {
+    "index": "B",
+    "name": "Missing Bigram"
+   },
+   {
+    "index": "C",
+    "name": "Paint the Array"
+   },
+   {
+    "index": "D",
+    "name": "Array and Operations"
+   },
+   {
+    "index": "E",
+    "name": "Singers' Tour"
+   },
+   {
+    "index": "F",
+    "name": "Reverse"
+   },
+   {
+    "index": "G",
+    "name": "Trader Problem"
+   }
+  ]
+ },
+ {
   "id": 1585,
   "type": "Other",
   "name": "Technocup 2022 - Elimination Round 3",
   "problems": [
    {
     "index": "A",
-    "name": "Life of a Flower"
+    "name": "Life of a Flower",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array Eversion"
+    "name": "Array Eversion",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Minimize Distance"
+    "name": "Minimize Distance",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Yet Another Sorting Problem"
+    "name": "Yet Another Sorting Problem",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Frequency Queries"
+    "name": "Frequency Queries",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Non-equal Neighbours"
+    "name": "Non-equal Neighbours",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Poachers"
+    "name": "Poachers",
+    "rating": 2500
    }
   ]
  },
@@ -41,27 +83,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Life of a Flower"
+    "name": "Life of a Flower",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array Eversion"
+    "name": "Array Eversion",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Minimize Distance"
+    "name": "Minimize Distance",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Yet Another Sorting Problem"
+    "name": "Yet Another Sorting Problem",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Frequency Queries"
+    "name": "Frequency Queries",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Non-equal Neighbours"
+    "name": "Non-equal Neighbours",
+    "rating": 2400
    }
   ]
  },
@@ -78,31 +126,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Find Array"
+    "name": "Find Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Build the Permutation"
+    "name": "Build the Permutation",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Game Master"
+    "name": "Game Master",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Dominoes"
+    "name": "Dominoes",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "The Cells on the Paper"
+    "name": "The Cells on the Paper",
+    "rating": 2800
    },
    {
     "index": "F",
-    "name": "MEX counting"
+    "name": "MEX counting",
+    "rating": 3200
    },
    {
     "index": "G",
-    "name": "Alphabetic Tree"
+    "name": "Alphabetic Tree",
+    "rating": 3500
    }
   ]
  },
@@ -113,27 +168,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Long Comparison"
+    "name": "Long Comparison",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Absent Remainder"
+    "name": "Absent Remainder",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Poisoned Dagger"
+    "name": "Poisoned Dagger",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "MEX Sequences"
+    "name": "MEX Sequences",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Crazy Robot"
+    "name": "Crazy Robot",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Tree Coloring"
+    "name": "Tree Coloring",
+    "rating": 2600
    }
   ]
  },

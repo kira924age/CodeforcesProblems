@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Polycarp and Sums of Subsequences"
+    "name": "Polycarp and Sums of Subsequences",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Missing Bigram"
+    "name": "Missing Bigram",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Paint the Array"
+    "name": "Paint the Array",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Array and Operations"
+    "name": "Array and Operations",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Singers' Tour"
+    "name": "Singers' Tour",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "Reverse"
+    "name": "Reverse",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Trader Problem"
+    "name": "Trader Problem",
+    "rating": 2200
    }
   ]
  },

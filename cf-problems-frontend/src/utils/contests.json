@@ -1,5 +1,36 @@
 [
  {
+  "id": 1617,
+  "type": "Div2",
+  "name": "Codeforces Round #761 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Forbidden Subsequence"
+   },
+   {
+    "index": "B",
+    "name": "GCD Problem"
+   },
+   {
+    "index": "C",
+    "name": "Paprika and Permutation"
+   },
+   {
+    "index": "D1",
+    "name": "Too Many Impostors (easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Too Many Impostors (hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Christmas Chocolates"
+   }
+  ]
+ },
+ {
   "id": 1618,
   "type": "Div3",
   "name": "Codeforces Round #760 (Div. 3)",

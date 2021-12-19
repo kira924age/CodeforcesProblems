@@ -1,5 +1,40 @@
 [
  {
+  "id": 1620,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 119 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Equal or Not Equal"
+   },
+   {
+    "index": "B",
+    "name": "Triangles on a Rectangle"
+   },
+   {
+    "index": "C",
+    "name": "BA-String"
+   },
+   {
+    "index": "D",
+    "name": "Exact Change"
+   },
+   {
+    "index": "E",
+    "name": "Replace the Numbers"
+   },
+   {
+    "index": "F",
+    "name": "Bipartite Array"
+   },
+   {
+    "index": "G",
+    "name": "Subsequences Galore"
+   }
+  ]
+ },
+ {
   "id": 1617,
   "type": "Div2",
   "name": "Codeforces Round #761 (Div. 2)",

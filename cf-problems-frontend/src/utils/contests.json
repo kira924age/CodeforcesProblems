@@ -1,36 +1,82 @@
 [
  {
+  "id": 1619,
+  "type": "Div3",
+  "name": "Codeforces Round #762 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Square String?"
+   },
+   {
+    "index": "B",
+    "name": "Squares and Cubes"
+   },
+   {
+    "index": "C",
+    "name": "Wrong Addition"
+   },
+   {
+    "index": "D",
+    "name": "New Year's Problem"
+   },
+   {
+    "index": "E",
+    "name": "MEX and Increments"
+   },
+   {
+    "index": "F",
+    "name": "Let's Play the Hat?"
+   },
+   {
+    "index": "G",
+    "name": "Unusual Minesweeper"
+   },
+   {
+    "index": "H",
+    "name": "Permutation and Queries"
+   }
+  ]
+ },
+ {
   "id": 1620,
   "type": "Educational",
   "name": "Educational Codeforces Round 119 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Equal or Not Equal"
+    "name": "Equal or Not Equal",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Triangles on a Rectangle"
+    "name": "Triangles on a Rectangle",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "BA-String"
+    "name": "BA-String",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Exact Change"
+    "name": "Exact Change",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Replace the Numbers"
+    "name": "Replace the Numbers",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Bipartite Array"
+    "name": "Bipartite Array",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Subsequences Galore"
+    "name": "Subsequences Galore",
+    "rating": 2400
    }
   ]
  },

@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Square String?"
+    "name": "Square String?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Squares and Cubes"
+    "name": "Squares and Cubes",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Wrong Addition"
+    "name": "Wrong Addition",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "New Year's Problem"
+    "name": "New Year's Problem",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "MEX and Increments"
+    "name": "MEX and Increments",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "Let's Play the Hat?"
+    "name": "Let's Play the Hat?",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Unusual Minesweeper"
+    "name": "Unusual Minesweeper",
+    "rating": 2000
    },
    {
     "index": "H",
-    "name": "Permutation and Queries"
+    "name": "Permutation and Queries",
+    "rating": 2400
    }
   ]
  },
@@ -87,11 +95,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Forbidden Subsequence"
+    "name": "Forbidden Subsequence",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "GCD Problem"
+    "name": "GCD Problem",
+    "rating": 900
    },
    {
     "index": "C",

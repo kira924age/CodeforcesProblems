@@ -1,5 +1,44 @@
 [
  {
+  "id": 1615,
+  "type": "Global",
+  "name": "Codeforces Global Round 18",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Closing The Gap"
+   },
+   {
+    "index": "B",
+    "name": "And It's Non-Zero"
+   },
+   {
+    "index": "C",
+    "name": "Menorah"
+   },
+   {
+    "index": "D",
+    "name": "X(or)-mas Tree"
+   },
+   {
+    "index": "E",
+    "name": "Purple Crayon"
+   },
+   {
+    "index": "F",
+    "name": "LEGOndary Grandmaster"
+   },
+   {
+    "index": "G",
+    "name": "Maximum Adjacent Pairs"
+   },
+   {
+    "index": "H",
+    "name": "Reindeer Games"
+   }
+  ]
+ },
+ {
   "id": 1619,
   "type": "Div3",
   "name": "Codeforces Round #762 (Div. 3)",

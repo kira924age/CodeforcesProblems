@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Closing The Gap"
+    "name": "Closing The Gap",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "And It's Non-Zero"
+    "name": "And It's Non-Zero",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Menorah"
+    "name": "Menorah",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "X(or)-mas Tree"
+    "name": "X(or)-mas Tree",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Purple Crayon"
+    "name": "Purple Crayon",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "LEGOndary Grandmaster"
+    "name": "LEGOndary Grandmaster",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Maximum Adjacent Pairs"
+    "name": "Maximum Adjacent Pairs",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "Reindeer Games"
+    "name": "Reindeer Games",
+    "rating": 3000
    }
   ]
  },

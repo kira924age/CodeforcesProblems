@@ -1,5 +1,36 @@
 [
  {
+  "id": 1622,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 120 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Construct a Rectangle"
+   },
+   {
+    "index": "B",
+    "name": "Berland Music"
+   },
+   {
+    "index": "C",
+    "name": "Set or Decrease"
+   },
+   {
+    "index": "D",
+    "name": "Shuffle"
+   },
+   {
+    "index": "E",
+    "name": "Math Test"
+   },
+   {
+    "index": "F",
+    "name": "Quadratic Set"
+   }
+  ]
+ },
+ {
   "id": 1615,
   "type": "Global",
   "name": "Codeforces Global Round 18",

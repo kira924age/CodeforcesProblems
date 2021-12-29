@@ -1,5 +1,32 @@
 [
  {
+  "id": 1623,
+  "type": "Div2",
+  "name": "Codeforces Round #763 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Robot Cleaner"
+   },
+   {
+    "index": "B",
+    "name": "Game on Ranges"
+   },
+   {
+    "index": "C",
+    "name": "Balanced Stone Heaps"
+   },
+   {
+    "index": "D",
+    "name": "Robot Cleaner Revisit"
+   },
+   {
+    "index": "E",
+    "name": "Middle Duplication"
+   }
+  ]
+ },
+ {
   "id": 1622,
   "type": "Educational",
   "name": "Educational Codeforces Round 120 (Rated for Div. 2)",

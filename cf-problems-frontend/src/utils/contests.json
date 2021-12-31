@@ -1,28 +1,80 @@
 [
  {
+  "id": 1616,
+  "type": "Other",
+  "name": "Good Bye 2021: 2022 is NEAR",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Integer Diversity",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Mirror in the String",
+    "rating": 1100
+   },
+   {
+    "index": "C",
+    "name": "Representative Edges",
+    "rating": 1500
+   },
+   {
+    "index": "D",
+    "name": "Keep the Average High",
+    "rating": 2000
+   },
+   {
+    "index": "E",
+    "name": "Lexicographically Small Enough",
+    "rating": 2200
+   },
+   {
+    "index": "F",
+    "name": "Tricolor Triangles",
+    "rating": 2900
+   },
+   {
+    "index": "G",
+    "name": "Just Add an Edge",
+    "rating": 3500
+   },
+   {
+    "index": "H",
+    "name": "Keep XOR Low",
+    "rating": 3000
+   }
+  ]
+ },
+ {
   "id": 1623,
   "type": "Div2",
   "name": "Codeforces Round #763 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Robot Cleaner"
+    "name": "Robot Cleaner",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Game on Ranges"
+    "name": "Game on Ranges",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Balanced Stone Heaps"
+    "name": "Balanced Stone Heaps",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Robot Cleaner Revisit"
+    "name": "Robot Cleaner Revisit",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Middle Duplication"
+    "name": "Middle Duplication",
+    "rating": 2500
    }
   ]
  },
@@ -33,27 +85,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Construct a Rectangle"
+    "name": "Construct a Rectangle",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Berland Music"
+    "name": "Berland Music",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Set or Decrease"
+    "name": "Set or Decrease",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Shuffle"
+    "name": "Shuffle",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Math Test"
+    "name": "Math Test",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Quadratic Set"
+    "name": "Quadratic Set",
+    "rating": 2900
    }
   ]
  },

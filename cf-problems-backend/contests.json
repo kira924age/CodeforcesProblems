@@ -1,5 +1,48 @@
 [
  {
+  "id": 1621,
+  "type": "Other",
+  "name": "Hello 2022",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Stable Arrangement of Rooks"
+   },
+   {
+    "index": "B",
+    "name": "Integers Shop"
+   },
+   {
+    "index": "C",
+    "name": "Hidden Permutations"
+   },
+   {
+    "index": "D",
+    "name": "The Winter Hike"
+   },
+   {
+    "index": "E",
+    "name": "New School"
+   },
+   {
+    "index": "F",
+    "name": "Strange Instructions"
+   },
+   {
+    "index": "G",
+    "name": "Weighted Increasing Subsequences"
+   },
+   {
+    "index": "H",
+    "name": "Trains and Airplanes"
+   },
+   {
+    "index": "I",
+    "name": "Two Sequences"
+   }
+  ]
+ },
+ {
   "id": 1616,
   "type": "Other",
   "name": "Good Bye 2021: 2022 is NEAR",

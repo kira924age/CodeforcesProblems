@@ -1,44 +1,59 @@
 [
  {
+  "id": 1625,
+  "type": "Div2",
+  "name": "Codeforces Round #764 (Div. 2)",
+  "problems": null
+ },
+ {
   "id": 1621,
   "type": "Other",
   "name": "Hello 2022",
   "problems": [
    {
     "index": "A",
-    "name": "Stable Arrangement of Rooks"
+    "name": "Stable Arrangement of Rooks",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Integers Shop"
+    "name": "Integers Shop",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "Hidden Permutations"
+    "name": "Hidden Permutations",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "The Winter Hike"
+    "name": "The Winter Hike",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "New School"
+    "name": "New School",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Strange Instructions"
+    "name": "Strange Instructions",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Weighted Increasing Subsequences"
+    "name": "Weighted Increasing Subsequences",
+    "rating": 3200
    },
    {
     "index": "H",
-    "name": "Trains and Airplanes"
+    "name": "Trains and Airplanes",
+    "rating": 3500
    },
    {
     "index": "I",
-    "name": "Two Sequences"
+    "name": "Two Sequences",
+    "rating": 3500
    }
   ]
  },

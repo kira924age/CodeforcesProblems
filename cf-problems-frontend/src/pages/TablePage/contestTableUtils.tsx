@@ -84,7 +84,7 @@ const PREFIX = "https://codeforces.com/contest/";
 export const makeContestTable = (
   problemData: object[],
   isShowDifficulty: boolean,
-  acList: Map<string, boolean>
+  submissions: Map<string, boolean>
 ) => {
   return problemData.map((x: any) => {
     let obj: any = {};
@@ -98,7 +98,7 @@ export const makeContestTable = (
 
     if (problems !== null) {
       problems.forEach((e: any) => {
-        const t = acList!.get(String(x.id) + String(e.index));
+        const t = submissions!.get(String(x.id) + String(e.index));
         isOk = isOk && (t === undefined ? false : true);
 
         let cnt = mp.get(e.index[0]);
@@ -111,7 +111,9 @@ export const makeContestTable = (
       });
     }
 
-    const contestClassName = isOk ? "cell-element OK" : "cell-element";
+    const contestClassName = isOk
+      ? "cell-element cell-height-1 OK"
+      : "cell-element cell-height-1";
 
     obj["name"] = (
       <div className={contestClassName}>
@@ -136,15 +138,14 @@ export const makeContestTable = (
       const problemId: string = e.index;
       const problemName: string = e.name;
 
-      let isOk: boolean = true;
-      const tmp = acList!.get(contestId + problemId);
-      isOk = isOk && (tmp === undefined ? false : true);
+      const tmp = submissions!.get(contestId + problemId);
 
-      let classOK = "cell-element OK-" + String(mp.get(e.index[0]));
-      let classNA = "cell-element NA-" + String(mp.get(e.index[0]));
-      // let classNG = "cell-element NG" + "-" + String(mp.get(e.index[0]));
+      let className: string =
+        "cell-element cell-height-" + String(mp.get(e.index[0]));
 
-      const className = isOk ? classOK : classNA;
+      if (tmp !== undefined) {
+        className += " " + (tmp ? "OK" : "NG");
+      }
 
       obj[problemId[0]] = (
         <>

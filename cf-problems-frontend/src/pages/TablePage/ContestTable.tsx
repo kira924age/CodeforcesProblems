@@ -23,13 +23,13 @@ interface ContestTableProps {
 
 const ContestTable: React.FC<ContestTableProps> = (props) => {
   const [isFetchFailue, setIsFetchFailue] = React.useState(false);
-  const [acList, setAcList] = React.useState(new Map());
+  const [submissions, setSubmissions] = React.useState(new Map());
 
   React.useEffect(() => {
     let isMounted = true;
     if (props.userId === undefined || props.userId === "") {
       if (isMounted) {
-        setAcList(new Map());
+        setSubmissions(new Map());
       }
       return;
     }
@@ -42,10 +42,10 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       if (isMounted) {
         if (userSubmission === null) {
           setIsFetchFailue(true);
-          setAcList(new Map());
+          setSubmissions(new Map());
         } else {
           setIsFetchFailue(false);
-          setAcList(userSubmission);
+          setSubmissions(userSubmission);
         }
       }
     };
@@ -67,7 +67,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
   let contestTable = makeContestTable(
     problemData,
     props.isShowDifficulty,
-    acList
+    submissions
   );
 
   const columns = makeContestColumns(props.name);

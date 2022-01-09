@@ -1,10 +1,5 @@
-name: GitHub Actions
-on: 
-  pull_request:
-    branches:
-      - main
-    types: [closed]
-
+name: Regular Crawl
+on:
   schedule:
     - cron: '0 0 * * *' # Once per day at midnight
 

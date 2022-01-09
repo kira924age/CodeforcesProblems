@@ -99,7 +99,7 @@ export const makeContestTable = (
     if (problems !== null) {
       problems.forEach((e: any) => {
         const t = submissions!.get(String(x.id) + String(e.index));
-        isOk = isOk && (t === undefined ? false : true);
+        isOk = isOk && (t === undefined ? false : t);
 
         let cnt = mp.get(e.index[0]);
         if (cnt === undefined) {

@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+
+jobs:
+  frontend_test:
+    name: Run frontend tests
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.17]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+      - name: install dependency
+        run: yarn
+        working-directory: ${{ github.workspace }}/cf-problems-frontend
+      - name: build React App
+        run: yarn build
+        working-directory: ${{ github.workspace }}/cf-problems-frontend
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

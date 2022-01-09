@@ -49,17 +49,12 @@ const fetchUserSubmissions = async (url: string): Promise<any> => {
   let tmp: any = [];
   let isOk = true;
   await fetch(url)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.json();
-    })
+    .then((res) => res.json())
     .then((x) => {
-      tmp = x.result;
+      tmp = x.result.filter((x: any) => x.verdict === "OK");
     })
     .catch((error) => {
-      console.error("Error: ", error.message);
+      console.log("Error: ", error.message);
       isOk = false;
     });
 
@@ -67,16 +62,9 @@ const fetchUserSubmissions = async (url: string): Promise<any> => {
     return null;
   }
   let newMap: Map<string, boolean> = new Map();
-
   tmp.forEach((x: any) => {
     let t = String(x.problem.contestId) + x.problem.index;
-
-    if (newMap.has(t)) {
-      const prev = newMap.get(t);
-      newMap.set(t, prev || x.verdict === "OK");
-    } else {
-      newMap.set(t, x.verdict === "OK");
-    }
+    newMap.set(t, true);
   });
 
   return newMap;

@@ -1,6 +1,8 @@
 name: GitHub Actions
 on: 
   push:
+    branch:
+      - main
   schedule:
     - cron: '0 0 * * *' # Once per day at midnight
 

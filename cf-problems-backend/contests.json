@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Plus One on the Subset"
+    "name": "Plus One on the Subset",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Make AP"
+    "name": "Make AP",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Division by Two and Permutation"
+    "name": "Division by Two and Permutation",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Palindromes Coloring"
+    "name": "Palindromes Coloring",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Masha-forgetful"
+    "name": "Masha-forgetful",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Interacdive Problem"
+    "name": "Interacdive Problem",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "MinOr Tree"
+    "name": "MinOr Tree",
+    "rating": 1900
    }
   ]
  },

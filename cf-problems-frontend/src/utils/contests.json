@@ -44,8 +44,33 @@
  {
   "id": 1625,
   "type": "Div2",
-  "name": "Codeforces Round #764 (Div. 2)",
-  "problems": null
+  "name": "Codeforces Round #765 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Ancient Civilization"
+   },
+   {
+    "index": "B",
+    "name": "Elementary Particles"
+   },
+   {
+    "index": "C",
+    "name": "Road Optimization"
+   },
+   {
+    "index": "D",
+    "name": "Binary Spiders"
+   },
+   {
+    "index": "E1",
+    "name": "Cats on the Upgrade (easy version)"
+   },
+   {
+    "index": "E2",
+    "name": "Cats on the Upgrade (hard version)"
+   }
+  ]
  },
  {
   "id": 1621,

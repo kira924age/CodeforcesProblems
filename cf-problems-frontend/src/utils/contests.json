@@ -1,5 +1,36 @@
 [
  {
+  "id": 1626,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 121 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Equidistant Letters"
+   },
+   {
+    "index": "B",
+    "name": "Minor Reduction"
+   },
+   {
+    "index": "C",
+    "name": "Monsters And Spells"
+   },
+   {
+    "index": "D",
+    "name": "Martial Arts Tournament"
+   },
+   {
+    "index": "E",
+    "name": "Black and White Tree"
+   },
+   {
+    "index": "F",
+    "name": "A Random Code Problem"
+   }
+  ]
+ },
+ {
   "id": 1627,
   "type": "Div2",
   "name": "Codeforces Round #766 (Div. 2)",

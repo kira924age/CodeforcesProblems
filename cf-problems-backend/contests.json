@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Equidistant Letters"
+    "name": "Equidistant Letters",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Minor Reduction"
+    "name": "Minor Reduction",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Monsters And Spells"
+    "name": "Monsters And Spells",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Martial Arts Tournament"
+    "name": "Martial Arts Tournament",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Black and White Tree"
+    "name": "Black and White Tree",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "A Random Code Problem"
+    "name": "A Random Code Problem",
+    "rating": 2800
    }
   ]
  },
@@ -37,27 +43,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Not Shading"
+    "name": "Not Shading",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Not Sitting"
+    "name": "Not Sitting",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Not Assigning"
+    "name": "Not Assigning",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Not Adding"
+    "name": "Not Adding",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Not Escaping"
+    "name": "Not Escaping",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Not Splitting"
+    "name": "Not Splitting",
+    "rating": 2700
    }
   ]
  },

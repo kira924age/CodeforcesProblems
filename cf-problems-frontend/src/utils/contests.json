@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Meximum Array"
+    "name": "Meximum Array",
+    "rating": 1400
    },
    {
     "index": "B",
-    "name": "Peculiar Movie Preferences"
+    "name": "Peculiar Movie Preferences",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Grid Xor"
+    "name": "Grid Xor",
+    "rating": 2300
    },
    {
     "index": "D1",
-    "name": "Game on Sum (Easy Version)"
+    "name": "Game on Sum (Easy Version)",
+    "rating": 2100
    },
    {
     "index": "D2",
-    "name": "Game on Sum (Hard Version)"
+    "name": "Game on Sum (Hard Version)",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Groceries in Meteor Town"
+    "name": "Groceries in Meteor Town",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Spaceship Crisis Management"
+    "name": "Spaceship Crisis Management",
+    "rating": 3500
    }
   ]
  },
@@ -49,23 +56,28 @@
    },
    {
     "index": "C",
-    "name": "Meximum Array"
+    "name": "Meximum Array",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Peculiar Movie Preferences"
+    "name": "Peculiar Movie Preferences",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Grid Xor"
+    "name": "Grid Xor",
+    "rating": 2300
    },
    {
     "index": "F1",
-    "name": "Game on Sum (Easy Version)"
+    "name": "Game on Sum (Easy Version)",
+    "rating": 2100
    },
    {
     "index": "F2",
-    "name": "Game on Sum (Hard Version)"
+    "name": "Game on Sum (Hard Version)",
+    "rating": 2400
    }
   ]
  },

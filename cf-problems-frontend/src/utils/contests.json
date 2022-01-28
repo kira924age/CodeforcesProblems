@@ -1,5 +1,67 @@
 [
  {
+  "id": 1630,
+  "type": "Div1",
+  "name": "Codeforces Round #768 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "And Matching"
+   },
+   {
+    "index": "B",
+    "name": "Range and Partition"
+   },
+   {
+    "index": "C",
+    "name": "Paint the Middle"
+   },
+   {
+    "index": "D",
+    "name": "Flipping Range"
+   },
+   {
+    "index": "E",
+    "name": "Expected Components"
+   },
+   {
+    "index": "F",
+    "name": "Making It Bipartite"
+   }
+  ]
+ },
+ {
+  "id": 1631,
+  "type": "Div2",
+  "name": "Codeforces Round #768 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Min Max Swap"
+   },
+   {
+    "index": "B",
+    "name": "Fun with Even Subarrays"
+   },
+   {
+    "index": "C",
+    "name": "And Matching"
+   },
+   {
+    "index": "D",
+    "name": "Range and Partition"
+   },
+   {
+    "index": "E",
+    "name": "Paint the Middle"
+   },
+   {
+    "index": "F",
+    "name": "Flipping Range"
+   }
+  ]
+ },
+ {
   "id": 1628,
   "type": "Div1",
   "name": "Codeforces Round #767 (Div. 1)",

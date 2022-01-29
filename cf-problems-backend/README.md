@@ -7,7 +7,7 @@
 ## Install Dependency
 
 ```
-$ go get github.com/gocolly/colly
+$ go install
 ```
 
 ## Build
@@ -15,3 +15,4 @@ $ go get github.com/gocolly/colly
 ```
 $ go build -o main *.go
 ```
+

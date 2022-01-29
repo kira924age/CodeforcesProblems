@@ -31,7 +31,7 @@ func regularCrawl() {
 
 		for _, contest := range contests {
 			var contestPhase = contest.Phase
-			var contestID = contest.ID
+			var contestId = contest.Id
 			var contestName = contest.Name
 
 			if contestPhase != "FINISHED" {
@@ -50,7 +50,7 @@ func regularCrawl() {
 
 			// wait 5 second
 			time.Sleep(5000 * time.Millisecond)
-			updateContest(contestID, contestType, contestName)
+			updateContest(contestId, contestType, contestName)
 		}
 	})
 

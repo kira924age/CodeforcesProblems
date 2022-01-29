@@ -15,7 +15,7 @@ type Problem struct {
 }
 
 type ProblemWithId struct {
-	ContestID int    `json:"contestId"`
+	ContestId int    `json:"contestId"`
 	Index     string `json:"index"`
 	Name      string `json:"name"`
 	Rating    int    `json:"rating,omitempty"`
@@ -26,7 +26,7 @@ type ProblemSet struct {
 	Result struct {
 		Problems          []ProblemWithId `json:"problems"`
 		ProblemStatistics []struct {
-			ContestID   int    `json:"contestId"`
+			ContestId   int    `json:"contestId"`
 			Index       string `json:"index"`
 			SolvedCount int    `json:"solvedCount"`
 		} `json:"problemStatistics"`
@@ -51,7 +51,7 @@ func getProblems() map[int][]Problem {
 
 		for i := len(response.Result.Problems) - 1; i >= 0; i-- {
 			problem := response.Result.Problems[i]
-			res[problem.ContestID] = append(res[problem.ContestID], Problem{problem.Index, problem.Name, problem.Rating})
+			res[problem.ContestId] = append(res[problem.ContestId], Problem{problem.Index, problem.Name, problem.Rating})
 		}
 
 		fmt.Println("Visited", r.Request.URL)

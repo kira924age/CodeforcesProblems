@@ -37,9 +37,9 @@ func getDifficulty(URL string) int {
 	return res
 }
 
-func crawlContest(contestID int, problems []Problem) []Problem {
+func crawlContest(contestId int, problems []Problem) []Problem {
 	res := problems
-	contestURL := "https://codeforces.com/contest/" + fmt.Sprint(contestID)
+	contestURL := "https://codeforces.com/contest/" + fmt.Sprint(contestId)
 
 	// Instantiate default collector
 	c := colly.NewCollector()
@@ -76,10 +76,10 @@ func crawlContest(contestID int, problems []Problem) []Problem {
 
 	// Before making a request print "Visiting ..."
 	c.OnRequest(func(r *colly.Request) {
-		fmt.Println("Visiting", r.URL.String())
+		fmt.Println("Visiting ...", r.URL.String())
 	})
 
-	// Start scraping on https://hackerspaces.org
+	// Start scraping on https://codeforces.com/contest/{contestId}
 	c.Visit(contestURL)
 
 	return res

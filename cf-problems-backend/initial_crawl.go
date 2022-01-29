@@ -11,7 +11,7 @@ import (
 )
 
 type Contest struct {
-	ID               int    `json:"id"`
+	Id               int    `json:"id"`
 	Name             string `json:"name"`
 	Type             string `json:"type"`
 	Phase            string `json:"phase"`
@@ -25,7 +25,7 @@ type ContestList struct {
 }
 
 type FormatedContest struct {
-	ID       int       `json:"id"`
+	Id       int       `json:"id"`
 	Type     string    `json:"type"`
 	Name     string    `json:"name"`
 	Problems []Problem `json:"problems"`
@@ -59,7 +59,7 @@ func initialCrawl() {
 		contests := make([]FormatedContest, 0)
 		for _, contest := range response.Result {
 			var contestPhase = contest.Phase
-			var contestID = contest.ID
+			var contestId = contest.Id
 
 			if contestPhase != "FINISHED" {
 				continue
@@ -69,9 +69,9 @@ func initialCrawl() {
 
 			// wait 5 seconds
 			time.Sleep(5000 * time.Millisecond)
-			problems[contestID] = crawlContest(contestID, problems[contestID])
+			problems[contestId] = crawlContest(contestId, problems[contestId])
 
-			contests = append(contests, FormatedContest{contestID, contestType, contest.Name, problems[contest.ID]})
+			contests = append(contests, FormatedContest{contestId, contestType, contest.Name, problems[contest.Id]})
 		}
 
 		// json, err := json.MarshalIndent(contests, "", "    ")

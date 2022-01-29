@@ -11,8 +11,8 @@ import (
 	"github.com/gocolly/colly"
 )
 
-func updateContest(contestID int, contestType string, contestName string) {
-	contestURL := "https://codeforces.com/contest/" + fmt.Sprint(contestID)
+func updateContest(contestId int, contestType string, contestName string) {
+	contestURL := "https://codeforces.com/contest/" + fmt.Sprint(contestId)
 
 	jsonFile, err := os.Open("./contests.json")
 
@@ -33,7 +33,7 @@ func updateContest(contestID int, contestType string, contestName string) {
 
 	idx := -1
 	for i := 0; i < len(contests); i++ {
-		if contests[i].ID == contestID {
+		if contests[i].Id == contestId {
 			idx = i
 			break
 		}
@@ -73,7 +73,7 @@ func updateContest(contestID int, contestType string, contestName string) {
 
 	c.Visit(contestURL)
 
-	add := FormatedContest{ID: contestID, Type: contestType, Name: contestName, Problems: ps}
+	add := FormatedContest{Id: contestId, Type: contestType, Name: contestName, Problems: ps}
 	if idx != -1 {
 		prev := contests[idx]
 		if len(add.Problems) <= len(prev.Problems) {
@@ -94,7 +94,6 @@ func updateContest(contestID int, contestType string, contestName string) {
 	}
 
 	json, err := json.MarshalIndent(contests, "", " ")
-	// json, err := json.Marshal(contests)
 	if err != nil {
 		log.Fatal(err)
 	}

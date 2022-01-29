@@ -21,12 +21,12 @@ h6 {
 table {
   color: #c9d1d9;
   background: #090c10;
-  border: none;
+  border: none !important;
   border-radius: 0px;
 }
 
 .ant-table.ant-table-bordered > .ant-table-container {
-  border: none;
+  border: none !important;
 }
 
 .ant-table.ant-table-bordered
@@ -42,7 +42,7 @@ table {
 .ant-table.ant-table-bordered
   > .ant-table-container
   > .ant-table-content
-  > table
+  > table 
   > thead
   > tr
   > th {

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1633,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 122 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Div. 7"
+   },
+   {
+    "index": "B",
+    "name": "Minority"
+   },
+   {
+    "index": "C",
+    "name": "Kill the Monster"
+   },
+   {
+    "index": "D",
+    "name": "Make Them Equal"
+   },
+   {
+    "index": "E",
+    "name": "Spanning Tree Queries"
+   },
+   {
+    "index": "F",
+    "name": "Perfect Matching"
+   }
+  ]
+ },
+ {
   "id": 1632,
   "type": "Div2",
   "name": "Codeforces Round #769 (Div. 2)",

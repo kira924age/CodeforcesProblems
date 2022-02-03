@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Div. 7"
+    "name": "Div. 7",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Minority"
+    "name": "Minority",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Kill the Monster"
+    "name": "Kill the Monster",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Make Them Equal"
+    "name": "Make Them Equal",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Spanning Tree Queries"
+    "name": "Spanning Tree Queries",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Perfect Matching"
+    "name": "Perfect Matching",
+    "rating": 2800
    }
   ]
  },
@@ -37,27 +43,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "ABC"
+    "name": "ABC",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Roof Construction"
+    "name": "Roof Construction",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Strange Test"
+    "name": "Strange Test",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "New Year Concert"
+    "name": "New Year Concert",
+    "rating": 2000
    },
    {
     "index": "E1",
-    "name": "Distance Tree (easy version)"
+    "name": "Distance Tree (easy version)",
+    "rating": 2400
    },
    {
     "index": "E2",
-    "name": "Distance Tree (hard version)"
+    "name": "Distance Tree (hard version)",
+    "rating": 2700
    }
   ]
  },
@@ -172,11 +184,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Download More RAM"
+    "name": "Download More RAM",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "GCD Arrays"
+    "name": "GCD Arrays",
+    "rating": 800
    },
    {
     "index": "C",

@@ -80,27 +80,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "And Matching"
+    "name": "And Matching",
+    "rating": 1500
    },
    {
     "index": "B",
-    "name": "Range and Partition"
+    "name": "Range and Partition",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "Paint the Middle"
+    "name": "Paint the Middle",
+    "rating": 2200
    },
    {
     "index": "D",
-    "name": "Flipping Range"
+    "name": "Flipping Range",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Expected Components"
+    "name": "Expected Components",
+    "rating": 2900
    },
    {
     "index": "F",
-    "name": "Making It Bipartite"
+    "name": "Making It Bipartite",
+    "rating": 3400
    }
   ]
  },
@@ -111,27 +117,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Min Max Swap"
+    "name": "Min Max Swap",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Fun with Even Subarrays"
+    "name": "Fun with Even Subarrays",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "And Matching"
+    "name": "And Matching",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Range and Partition"
+    "name": "Range and Partition",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Paint the Middle"
+    "name": "Paint the Middle",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Flipping Range"
+    "name": "Flipping Range",
+    "rating": 2400
    }
   ]
  },

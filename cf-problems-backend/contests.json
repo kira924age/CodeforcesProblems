@@ -1,5 +1,56 @@
 [
  {
+  "id": 1639,
+  "type": "Other",
+  "name": "Pinely Treasure Hunt Contest",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "B",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "C",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "D",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "E",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "F",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "G",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "H",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "I",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "J",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "K",
+    "name": "Treasure Hunt"
+   }
+  ]
+ },
+ {
   "id": 1633,
   "type": "Educational",
   "name": "Educational Codeforces Round 122 (Rated for Div. 2)",

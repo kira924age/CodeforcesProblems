@@ -63,7 +63,7 @@ function calcFillRatio(difficulty: number): number {
   let fillRatio: number = 0;
 
   if (difficulty < 1200) {
-    fillRatio = difficulty / 1200;
+    fillRatio = (difficulty - 800) / 400;
   } else if (difficulty < 1400) {
     fillRatio = 1 - (1400 - difficulty) / 200;
   } else if (difficulty < 1600) {

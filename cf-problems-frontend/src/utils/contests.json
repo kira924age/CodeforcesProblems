@@ -1,5 +1,44 @@
 [
  {
+  "id": 1637,
+  "type": "Global",
+  "name": "Codeforces Global Round 19",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sorting Parts"
+   },
+   {
+    "index": "B",
+    "name": "MEX and Array"
+   },
+   {
+    "index": "C",
+    "name": "Andrew and Stones"
+   },
+   {
+    "index": "D",
+    "name": "Yet Another Minimization Problem"
+   },
+   {
+    "index": "E",
+    "name": "Best Pair"
+   },
+   {
+    "index": "F",
+    "name": "Towers"
+   },
+   {
+    "index": "G",
+    "name": "Birthday"
+   },
+   {
+    "index": "H",
+    "name": "Minimize Inversions Number"
+   }
+  ]
+ },
+ {
   "id": 1634,
   "type": "Div2",
   "name": "Codeforces Round #770 (Div. 2)",

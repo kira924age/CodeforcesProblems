@@ -1,5 +1,36 @@
 [
  {
+  "id": 1638,
+  "type": "Div2",
+  "name": "Codeforces Round #771 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Reverse"
+   },
+   {
+    "index": "B",
+    "name": "Odd Swap Sort"
+   },
+   {
+    "index": "C",
+    "name": "Inversion Graph"
+   },
+   {
+    "index": "D",
+    "name": "Big Brush"
+   },
+   {
+    "index": "E",
+    "name": "Colorful Operations"
+   },
+   {
+    "index": "F",
+    "name": "Two Posters"
+   }
+  ]
+ },
+ {
   "id": 1637,
   "type": "Global",
   "name": "Codeforces Global Round 19",
@@ -42,7 +73,38 @@
   "id": 1634,
   "type": "Div2",
   "name": "Codeforces Round #770 (Div. 2)",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Reverse and Concatenate",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Fortune Telling",
+    "rating": 1400
+   },
+   {
+    "index": "C",
+    "name": "OKEA",
+    "rating": 1000
+   },
+   {
+    "index": "D",
+    "name": "Finding Zero",
+    "rating": 2000
+   },
+   {
+    "index": "E",
+    "name": "Fair Share",
+    "rating": 2400
+   },
+   {
+    "index": "F",
+    "name": "Fibonacci Additions",
+    "rating": 2700
+   }
+  ]
  },
  {
   "id": 1639,

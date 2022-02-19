@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Reverse"
+    "name": "Reverse",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Odd Swap Sort"
+    "name": "Odd Swap Sort",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Inversion Graph"
+    "name": "Inversion Graph",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Big Brush"
+    "name": "Big Brush",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Colorful Operations"
+    "name": "Colorful Operations",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Two Posters"
+    "name": "Two Posters",
+    "rating": 3200
    }
   ]
  },
@@ -37,35 +43,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sorting Parts"
+    "name": "Sorting Parts",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "MEX and Array"
+    "name": "MEX and Array",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Andrew and Stones"
+    "name": "Andrew and Stones",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Yet Another Minimization Problem"
+    "name": "Yet Another Minimization Problem",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Best Pair"
+    "name": "Best Pair",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Towers"
+    "name": "Towers",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Birthday"
+    "name": "Birthday",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Minimize Inversions Number"
+    "name": "Minimize Inversions Number",
+    "rating": 3500
    }
   ]
  },

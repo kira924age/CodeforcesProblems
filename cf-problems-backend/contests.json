@@ -1,32 +1,69 @@
 [
  {
+  "id": 1644,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 123 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Doors and Keys"
+   },
+   {
+    "index": "B",
+    "name": "Anti-Fibonacci Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Increase Subarray Sums"
+   },
+   {
+    "index": "D",
+    "name": "Cross Coloring"
+   },
+   {
+    "index": "E",
+    "name": "Expand the Path"
+   },
+   {
+    "index": "F",
+    "name": "Basis"
+   }
+  ]
+ },
+ {
   "id": 1635,
   "type": "Div2",
   "name": "Codeforces Round #772 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Min Or Sum"
+    "name": "Min Or Sum",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Avoid Local Maximums"
+    "name": "Avoid Local Maximums",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Differential Sorting"
+    "name": "Differential Sorting",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Infinite Set"
+    "name": "Infinite Set",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Cars"
+    "name": "Cars",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Closest Pair"
+    "name": "Closest Pair",
+    "rating": 2800
    }
   ]
  },

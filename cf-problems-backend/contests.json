@@ -1,5 +1,67 @@
 [
  {
+  "id": 1641,
+  "type": "Div1",
+  "name": "Codeforces Round #773 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Great Sequence"
+   },
+   {
+    "index": "B",
+    "name": "Repetitions Decoding"
+   },
+   {
+    "index": "C",
+    "name": "Anonymity Is Important"
+   },
+   {
+    "index": "D",
+    "name": "Two Arrays"
+   },
+   {
+    "index": "E",
+    "name": "Special Positions"
+   },
+   {
+    "index": "F",
+    "name": "Covering Circle"
+   }
+  ]
+ },
+ {
+  "id": 1642,
+  "type": "Div2",
+  "name": "Codeforces Round #773 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Hard Way"
+   },
+   {
+    "index": "B",
+    "name": "Power Walking"
+   },
+   {
+    "index": "C",
+    "name": "Great Sequence"
+   },
+   {
+    "index": "D",
+    "name": "Repetitions Decoding"
+   },
+   {
+    "index": "E",
+    "name": "Anonymity Is Important"
+   },
+   {
+    "index": "F",
+    "name": "Two Arrays"
+   }
+  ]
+ },
+ {
   "id": 1644,
   "type": "Educational",
   "name": "Educational Codeforces Round 123 (Rated for Div. 2)",

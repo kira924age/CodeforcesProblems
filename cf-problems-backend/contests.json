@@ -1,5 +1,44 @@
 [
  {
+  "id": 1645,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Practice 9",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Spy Detected!"
+   },
+   {
+    "index": "B",
+    "name": "Repeating Cipher"
+   },
+   {
+    "index": "C",
+    "name": "Teams Forming"
+   },
+   {
+    "index": "D",
+    "name": "Two Shuffled Sequences"
+   },
+   {
+    "index": "E",
+    "name": "Powers Of Two"
+   },
+   {
+    "index": "F",
+    "name": "Boxers"
+   },
+   {
+    "index": "G",
+    "name": "Median String"
+   },
+   {
+    "index": "H",
+    "name": "Two Merged Sequences"
+   }
+  ]
+ },
+ {
   "id": 1641,
   "type": "Div1",
   "name": "Codeforces Round #773 (Div. 1)",

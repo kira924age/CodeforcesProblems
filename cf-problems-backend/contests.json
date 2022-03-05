@@ -1,5 +1,42 @@
 [
  {
+  "id": 1646,
+  "type": "Div2",
+  "name": "Codeforces Round #774 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Square Counting",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Quality vs Quantity",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Factorials and Powers of Two",
+    "rating": 1500
+   },
+   {
+    "index": "D",
+    "name": "Weight the Tree",
+    "rating": 2000
+   },
+   {
+    "index": "E",
+    "name": "Power Board",
+    "rating": 2200
+   },
+   {
+    "index": "F",
+    "name": "Playing Around the Table",
+    "rating": 2900
+   }
+  ]
+ },
+ {
   "id": 1645,
   "type": "Kotlin",
   "name": "Kotlin Heroes: Practice 9",
@@ -45,27 +82,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Great Sequence"
+    "name": "Great Sequence",
+    "rating": 1200
    },
    {
     "index": "B",
-    "name": "Repetitions Decoding"
+    "name": "Repetitions Decoding",
+    "rating": 2000
    },
    {
     "index": "C",
-    "name": "Anonymity Is Important"
+    "name": "Anonymity Is Important",
+    "rating": 2200
    },
    {
     "index": "D",
-    "name": "Two Arrays"
+    "name": "Two Arrays",
+    "rating": 2700
    },
    {
     "index": "E",
-    "name": "Special Positions"
+    "name": "Special Positions",
+    "rating": 3300
    },
    {
     "index": "F",
-    "name": "Covering Circle"
+    "name": "Covering Circle",
+    "rating": 3500
    }
   ]
  },
@@ -76,27 +119,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Hard Way"
+    "name": "Hard Way",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Power Walking"
+    "name": "Power Walking",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Great Sequence"
+    "name": "Great Sequence",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Repetitions Decoding"
+    "name": "Repetitions Decoding",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Anonymity Is Important"
+    "name": "Anonymity Is Important",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Two Arrays"
+    "name": "Two Arrays",
+    "rating": 2700
    }
   ]
  },
@@ -107,27 +156,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Doors and Keys"
+    "name": "Doors and Keys",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Anti-Fibonacci Permutation"
+    "name": "Anti-Fibonacci Permutation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Increase Subarray Sums"
+    "name": "Increase Subarray Sums",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Cross Coloring"
+    "name": "Cross Coloring",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Expand the Path"
+    "name": "Expand the Path",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Basis"
+    "name": "Basis",
+    "rating": 2900
    }
   ]
  },

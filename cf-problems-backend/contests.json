@@ -1,5 +1,67 @@
 [
  {
+  "id": 1648,
+  "type": "Div1",
+  "name": "Codeforces Round #775 (Div. 1, based on Moscow Open Olympiad in Informatics)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Weird Sum"
+   },
+   {
+    "index": "B",
+    "name": "Integral Array"
+   },
+   {
+    "index": "C",
+    "name": "Tyler and Strings"
+   },
+   {
+    "index": "D",
+    "name": "Serious Business"
+   },
+   {
+    "index": "E",
+    "name": "Air Reform"
+   },
+   {
+    "index": "F",
+    "name": "Two Avenues"
+   }
+  ]
+ },
+ {
+  "id": 1649,
+  "type": "Div2",
+  "name": "Codeforces Round #775 (Div. 2, based on Moscow Open Olympiad in Informatics)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Game"
+   },
+   {
+    "index": "B",
+    "name": "Game of Ball Passing"
+   },
+   {
+    "index": "C",
+    "name": "Weird Sum"
+   },
+   {
+    "index": "D",
+    "name": "Integral Array"
+   },
+   {
+    "index": "E",
+    "name": "Tyler and Strings"
+   },
+   {
+    "index": "F",
+    "name": "Serious Business"
+   }
+  ]
+ },
+ {
   "id": 1646,
   "type": "Div2",
   "name": "Codeforces Round #774 (Div. 2)",

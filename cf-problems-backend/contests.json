@@ -1,5 +1,40 @@
 [
  {
+  "id": 1650,
+  "type": "Div3",
+  "name": "Codeforces Round #776 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Deletions of Two Adjacent Letters"
+   },
+   {
+    "index": "B",
+    "name": "DIV + MOD"
+   },
+   {
+    "index": "C",
+    "name": "Weight of the System of Nested Segments"
+   },
+   {
+    "index": "D",
+    "name": "Twist the Permutation"
+   },
+   {
+    "index": "E",
+    "name": "Rescheduling the Exam"
+   },
+   {
+    "index": "F",
+    "name": "Vitaly and Advanced Useless Algorithms"
+   },
+   {
+    "index": "G",
+    "name": "Counting Shortcuts"
+   }
+  ]
+ },
+ {
   "id": 1648,
   "type": "Div1",
   "name": "Codeforces Round #775 (Div. 1, based on Moscow Open Olympiad in Informatics)",

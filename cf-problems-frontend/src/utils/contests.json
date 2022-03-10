@@ -41,27 +41,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Weird Sum"
+    "name": "Weird Sum",
+    "rating": 1400
    },
    {
     "index": "B",
-    "name": "Integral Array"
+    "name": "Integral Array",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "Tyler and Strings"
+    "name": "Tyler and Strings",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "Serious Business"
+    "name": "Serious Business",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Air Reform"
+    "name": "Air Reform",
+    "rating": 3200
    },
    {
     "index": "F",
-    "name": "Two Avenues"
+    "name": "Two Avenues",
+    "rating": 3500
    }
   ]
  },
@@ -80,19 +86,23 @@
    },
    {
     "index": "C",
-    "name": "Weird Sum"
+    "name": "Weird Sum",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Integral Array"
+    "name": "Integral Array",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Tyler and Strings"
+    "name": "Tyler and Strings",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Serious Business"
+    "name": "Serious Business",
+    "rating": 2800
    }
   ]
  },

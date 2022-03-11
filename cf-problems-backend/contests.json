@@ -1,36 +1,74 @@
 [
  {
+  "id": 1651,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 124 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Playoff"
+   },
+   {
+    "index": "B",
+    "name": "Prove Him Wrong"
+   },
+   {
+    "index": "C",
+    "name": "Fault-tolerant Network"
+   },
+   {
+    "index": "D",
+    "name": "Nearest Excluded Points"
+   },
+   {
+    "index": "E",
+    "name": "Sum of Matchings"
+   },
+   {
+    "index": "F",
+    "name": "Tower Defense"
+   }
+  ]
+ },
+ {
   "id": 1650,
   "type": "Div3",
   "name": "Codeforces Round #776 (Div. 3)",
   "problems": [
    {
     "index": "A",
-    "name": "Deletions of Two Adjacent Letters"
+    "name": "Deletions of Two Adjacent Letters",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "DIV + MOD"
+    "name": "DIV + MOD",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Weight of the System of Nested Segments"
+    "name": "Weight of the System of Nested Segments",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Twist the Permutation"
+    "name": "Twist the Permutation",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Rescheduling the Exam"
+    "name": "Rescheduling the Exam",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Vitaly and Advanced Useless Algorithms"
+    "name": "Vitaly and Advanced Useless Algorithms",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "Counting Shortcuts"
+    "name": "Counting Shortcuts",
+    "rating": 2100
    }
   ]
  },
@@ -78,11 +116,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Game"
+    "name": "Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Game of Ball Passing"
+    "name": "Game of Ball Passing",
+    "rating": 1300
    },
    {
     "index": "C",

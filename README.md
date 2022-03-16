@@ -9,6 +9,8 @@ This application uses [Codeforces API](https://codeforces.com/apiHelp).
 
 ## Contribution
 
+* [Contribution Guide](./docs/CONTRIBUTING.md)
+
 ### Found a Bug?
 
 If you found a bug in the source code, you can help us by submitting an issue to our GitHub Repository.

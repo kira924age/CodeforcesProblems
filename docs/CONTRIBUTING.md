@@ -12,6 +12,8 @@ Otherwise, please try the following steps.
 
 * Ref: [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
+[Fork button](../images/fork_button.png)
+
 This will create a new copy of our repository under your GitHub user account with a URL like:
 
 ```

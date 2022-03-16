@@ -12,7 +12,7 @@ Otherwise, please try the following steps.
 
 * Ref: [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
-[Fork button](../images/fork_button.png)
+![Fork button](../images/fork_button.png)
 
 This will create a new copy of our repository under your GitHub user account with a URL like:
 
@@ -29,7 +29,7 @@ Open your terminal on your local computer, and clone your fork repository by fol
 ```
 $ git clone git@github.com:YOUR-USERNAME/CodeforcesProblems.git
 // or
-$ git clone https://github.com/YOUR-USERNAME/CodeforcesPropblems
+$ git clone https://github.com/YOUR-USERNAME/CodeforcesProblems
 ```
 
 2. Make new branch on your fork repository
@@ -53,8 +53,8 @@ $ git push origin your-branch-name
 
 5. Make a Pull Request
 
-Access your fork repository URL (https://github.com/YOUR_USERNAME/CodeforcesProblems/pulls) and make Pull Request to main barnch.
+Access your fork repository URL (`https://github.com/YOUR_USERNAME/CodeforcesProblems/pulls`) and make Pull Request to main branch.
 
-* [Create PullRequest](../images/pull_request.png)
-* [Comparing changes](../images/comparing_change.png)
+![Create PullRequest](../images/pull_request.png)
+![Comparing changes](../images/comparing_change.png)
 

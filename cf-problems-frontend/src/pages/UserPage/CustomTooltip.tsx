@@ -51,11 +51,11 @@ export const CustomTooltip: React.FunctionComponent<CustomTooltipProps> = (
           <span className="recharts-tooltip-item-name">count</span>
           <span className="recharts-tooltip-item-separator"> : </span>
           <span className="recharts-tooltip-item-value">
-            {props.payload.reduce(
+            {props.payload?.reduce(
               (acc: number, entry: DailyEffortTooltipPayload) =>
                 acc + entry.value,
               0
-            )}
+            ) ?? 0}
           </span>
         </li>
       </ul>

@@ -15,7 +15,7 @@ const App: React.FunctionComponent = () => (
             render={({ match }): React.ReactElement => {
               // @ts-ignore
               const params: { userIds?: string } = match.params;
-              const userId = params.userIds === undefined ? "" : params.userIds;
+              const userId: string = params.userIds ?? "";
               return <TablePage userId={userId} />;
             }}
           />
@@ -24,7 +24,7 @@ const App: React.FunctionComponent = () => (
             render={({ match }): React.ReactElement => {
               // @ts-ignore
               const params: { userIds?: string } = match.params;
-              const userId = params.userIds === undefined ? "" : params.userIds;
+              const userId: string = params.userIds ?? "";
               return <User userId={userId} />;
             }}
           />

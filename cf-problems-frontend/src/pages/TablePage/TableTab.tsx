@@ -5,9 +5,9 @@ import { Radio, Switch } from "antd";
 import ContestTable from "./ContestTable";
 import { useLocalStorage } from "../../utils/localStorage";
 
-interface Props {
-  userId: string | undefined;
-}
+type Props = {
+  userId: string;
+};
 
 const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
   const [contest, setContest] = useLocalStorage(

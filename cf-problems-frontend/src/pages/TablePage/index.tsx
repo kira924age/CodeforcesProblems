@@ -1,20 +1,20 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 
-import TableTabButtons from "./TableTab";
+import TableTab from "./TableTab";
 
-interface Props {
-  userId: string | undefined;
-}
+type Props = {
+  userId: string;
+};
 
 const TablePage: React.FunctionComponent<Props> = (props: Props) => {
   return (
-    <>
+    <React.Fragment>
       <Header userId={props.userId} location="table" />
       <div className="Main">
-        <TableTabButtons userId={props.userId} />
+        <TableTab userId={props.userId} />
       </div>
-    </>
+    </React.Fragment>
   );
 };
 

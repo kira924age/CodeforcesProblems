@@ -37,27 +37,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Playoff"
+    "name": "Playoff",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Prove Him Wrong"
+    "name": "Prove Him Wrong",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Fault-tolerant Network"
+    "name": "Fault-tolerant Network",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Nearest Excluded Points"
+    "name": "Nearest Excluded Points",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Sum of Matchings"
+    "name": "Sum of Matchings",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Tower Defense"
+    "name": "Tower Defense",
+    "rating": 3000
    }
   ]
  },

@@ -1,5 +1,94 @@
 [
  {
+  "id": 1654,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round #778 (Div. 1 + Div. 2, based on Technocup 2022 Final Round)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Maximum Cake Tastiness",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Prefix Removals",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Alice and the Cake",
+    "rating": 1400
+   },
+   {
+    "index": "D",
+    "name": "Potion Brewing Class",
+    "rating": 2100
+   },
+   {
+    "index": "E",
+    "name": "Arithmetic Operations",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Minimal String Xoration",
+    "rating": 2800
+   },
+   {
+    "index": "G",
+    "name": "Snowy Mountain",
+    "rating": 2900
+   },
+   {
+    "index": "H",
+    "name": "Three Minimums",
+    "rating": 3500
+   }
+  ]
+ },
+ {
+  "id": 1652,
+  "type": "Other",
+  "name": "Технокубок 2022 - Финал",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Maximum Cake Tastiness",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Prefix Removals",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Alice and the Cake",
+    "rating": 1400
+   },
+   {
+    "index": "D",
+    "name": "Potion Brewing Class",
+    "rating": 2100
+   },
+   {
+    "index": "E",
+    "name": "Arithmetic Operations",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Minimal String Xoration",
+    "rating": 2800
+   },
+   {
+    "index": "G",
+    "name": "Snowy Mountain",
+    "rating": 2900
+   }
+  ]
+ },
+ {
   "id": 1647,
   "type": "Div2",
   "name": "Codeforces Round #777 (Div. 2)",

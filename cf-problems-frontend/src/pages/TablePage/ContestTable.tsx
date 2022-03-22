@@ -7,6 +7,8 @@ import {
   filterProblems,
 } from "./contestTableUtils";
 
+import { useLocalStorage } from "../../utils/localStorage";
+
 import {
   cachedUserSubmissions,
   cachedContestArray,
@@ -24,6 +26,7 @@ interface ContestTableProps {
 const ContestTable: React.FC<ContestTableProps> = (props) => {
   const [isFetchFailure, setIsFetchFailure] = React.useState(false);
   const [submissions, setSubmissions] = React.useState(new Map());
+  const [pageSize, setPageSize] = useLocalStorage("pageSize", 50);
 
   React.useEffect(() => {
     let isMounted = true;
@@ -78,8 +81,11 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       {isFetchFailure && <ErrorMessage />}
       <Table
         pagination={{
-          defaultPageSize: 50,
-          pageSizeOptions: ["10", "20", "50", "100"],
+          defaultPageSize: pageSize,
+          pageSizeOptions: ["10", "20", "50", "100", "150"],
+          onChange: (page, pageSize) => {
+            setPageSize(pageSize);
+          },
         }}
         bordered
         className="ant-contest-table"

@@ -22,7 +22,7 @@ interface ContestTableProps {
 }
 
 const ContestTable: React.FC<ContestTableProps> = (props) => {
-  const [isFetchFailue, setIsFetchFailue] = React.useState(false);
+  const [isFetchFailure, setIsFetchFailure] = React.useState(false);
   const [submissions, setSubmissions] = React.useState(new Map());
 
   React.useEffect(() => {
@@ -41,10 +41,10 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
 
       if (isMounted) {
         if (userSubmission === null) {
-          setIsFetchFailue(true);
+          setIsFetchFailure(true);
           setSubmissions(new Map());
         } else {
-          setIsFetchFailue(false);
+          setIsFetchFailure(false);
           setSubmissions(userSubmission);
         }
       }
@@ -75,7 +75,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
   return (
     <React.Fragment>
       <h2>{props.name}</h2>
-      {isFetchFailue && <ErrorMessage />}
+      {isFetchFailure && <ErrorMessage />}
       <Table
         pagination={{
           defaultPageSize: 50,

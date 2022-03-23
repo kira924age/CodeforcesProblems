@@ -1,5 +1,36 @@
 [
  {
+  "id": 1657,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 125 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Integer Moves"
+   },
+   {
+    "index": "B",
+    "name": "XY Sequence"
+   },
+   {
+    "index": "C",
+    "name": "Bracket Sequence Deletion"
+   },
+   {
+    "index": "D",
+    "name": "For Gamers. By Gamers."
+   },
+   {
+    "index": "E",
+    "name": "Star MST"
+   },
+   {
+    "index": "F",
+    "name": "Words on Tree"
+   }
+  ]
+ },
+ {
   "id": 1654,
   "type": "Div1 + Div2",
   "name": "Codeforces Round #778 (Div. 1 + Div. 2, based on Technocup 2022 Final Round)",
@@ -95,27 +126,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Madoka and Math Dad"
+    "name": "Madoka and Math Dad",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Madoka and the Elegant Gift"
+    "name": "Madoka and the Elegant Gift",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Madoka and Childish Pranks"
+    "name": "Madoka and Childish Pranks",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Madoka and the Best School in Russia"
+    "name": "Madoka and the Best School in Russia",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Madoka and the Sixth-graders"
+    "name": "Madoka and the Sixth-graders",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Madoka and Laziness"
+    "name": "Madoka and Laziness",
+    "rating": 3100
    }
   ]
  },

@@ -1,32 +1,81 @@
 [
  {
+  "id": 1656,
+  "type": "Div1 + Div2",
+  "name": "CodeTON Round 1 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Good Pairs"
+   },
+   {
+    "index": "B",
+    "name": "Subtract Operation"
+   },
+   {
+    "index": "C",
+    "name": "Make Equal With Mod"
+   },
+   {
+    "index": "D",
+    "name": "K-good"
+   },
+   {
+    "index": "E",
+    "name": "Equal Tree Sums"
+   },
+   {
+    "index": "F",
+    "name": "Parametric MST"
+   },
+   {
+    "index": "G",
+    "name": "Cycle Palindrome"
+   },
+   {
+    "index": "H",
+    "name": "Equal LCM Subsets"
+   },
+   {
+    "index": "I",
+    "name": "Neighbour Ordering"
+   }
+  ]
+ },
+ {
   "id": 1657,
   "type": "Educational",
   "name": "Educational Codeforces Round 125 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Integer Moves"
+    "name": "Integer Moves",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "XY Sequence"
+    "name": "XY Sequence",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Bracket Sequence Deletion"
+    "name": "Bracket Sequence Deletion",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "For Gamers. By Gamers."
+    "name": "For Gamers. By Gamers.",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Star MST"
+    "name": "Star MST",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Words on Tree"
+    "name": "Words on Tree",
+    "rating": 2600
    }
   ]
  },

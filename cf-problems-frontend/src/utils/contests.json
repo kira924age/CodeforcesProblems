@@ -1,5 +1,40 @@
 [
  {
+  "id": 1658,
+  "type": "Div2",
+  "name": "Codeforces Round #779 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Marin and Photoshoot"
+   },
+   {
+    "index": "B",
+    "name": "Marin and Anti-coprime Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Shinju and the Lost Permutation"
+   },
+   {
+    "index": "D1",
+    "name": "388535 (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "388535 (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Gojou and Matrix Game"
+   },
+   {
+    "index": "F",
+    "name": "Juju and Binary String"
+   }
+  ]
+ },
+ {
   "id": 1656,
   "type": "Div1 + Div2",
   "name": "CodeTON Round 1 (Div. 1 + Div. 2, Rated, Prizes!)",

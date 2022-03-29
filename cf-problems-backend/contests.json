@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Marin and Photoshoot"
+    "name": "Marin and Photoshoot",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Marin and Anti-coprime Permutation"
+    "name": "Marin and Anti-coprime Permutation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Shinju and the Lost Permutation"
+    "name": "Shinju and the Lost Permutation",
+    "rating": 1700
    },
    {
     "index": "D1",
-    "name": "388535 (Easy Version)"
+    "name": "388535 (Easy Version)",
+    "rating": 1600
    },
    {
     "index": "D2",
-    "name": "388535 (Hard Version)"
+    "name": "388535 (Hard Version)",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Gojou and Matrix Game"
+    "name": "Gojou and Matrix Game",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Juju and Binary String"
+    "name": "Juju and Binary String",
+    "rating": 2700
    }
   ]
  },

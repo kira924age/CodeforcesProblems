@@ -48,39 +48,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Good Pairs"
+    "name": "Good Pairs",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Subtract Operation"
+    "name": "Subtract Operation",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Make Equal With Mod"
+    "name": "Make Equal With Mod",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "K-good"
+    "name": "K-good",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Equal Tree Sums"
+    "name": "Equal Tree Sums",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Parametric MST"
+    "name": "Parametric MST",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Cycle Palindrome"
+    "name": "Cycle Palindrome",
+    "rating": 3200
    },
    {
     "index": "H",
-    "name": "Equal LCM Subsets"
+    "name": "Equal LCM Subsets",
+    "rating": 3200
    },
    {
     "index": "I",
-    "name": "Neighbour Ordering"
+    "name": "Neighbour Ordering",
+    "rating": 1800
    }
   ]
  },

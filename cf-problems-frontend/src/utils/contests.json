@@ -1,5 +1,40 @@
 [
  {
+  "id": 1660,
+  "type": "Div3",
+  "name": "Codeforces Round #780 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Vasya and Coins"
+   },
+   {
+    "index": "B",
+    "name": "Vlad and Candies"
+   },
+   {
+    "index": "C",
+    "name": "Get an Even String"
+   },
+   {
+    "index": "D",
+    "name": "Maximum Product Strikes Back"
+   },
+   {
+    "index": "E",
+    "name": "Matrix and Shifts"
+   },
+   {
+    "index": "F1",
+    "name": "Promising String (easy version)"
+   },
+   {
+    "index": "F2",
+    "name": "Promising String (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1658,
   "type": "Div2",
   "name": "Codeforces Round #779 (Div. 2)",

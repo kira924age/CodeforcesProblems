@@ -1,36 +1,82 @@
 [
  {
+  "id": 1663,
+  "type": "Other",
+  "name": "April Fools Day Contest 2022",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Who Tested?"
+   },
+   {
+    "index": "B",
+    "name": "Mike's Sequence"
+   },
+   {
+    "index": "C",
+    "name": "Pōja Verdon"
+   },
+   {
+    "index": "D",
+    "name": "Is it rated - 3"
+   },
+   {
+    "index": "E",
+    "name": "Are You Safe?"
+   },
+   {
+    "index": "F",
+    "name": "In Every Generation..."
+   },
+   {
+    "index": "G",
+    "name": "Six Characters"
+   },
+   {
+    "index": "H",
+    "name": "Cross-Language Program"
+   }
+  ]
+ },
+ {
   "id": 1660,
   "type": "Div3",
   "name": "Codeforces Round #780 (Div. 3)",
   "problems": [
    {
     "index": "A",
-    "name": "Vasya and Coins"
+    "name": "Vasya and Coins",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Vlad and Candies"
+    "name": "Vlad and Candies",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Get an Even String"
+    "name": "Get an Even String",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Maximum Product Strikes Back"
+    "name": "Maximum Product Strikes Back",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Matrix and Shifts"
+    "name": "Matrix and Shifts",
+    "rating": 1600
    },
    {
     "index": "F1",
-    "name": "Promising String (easy version)"
+    "name": "Promising String (easy version)",
+    "rating": 1700
    },
    {
     "index": "F2",
-    "name": "Promising String (hard version)"
+    "name": "Promising String (hard version)",
+    "rating": 2100
    }
   ]
  },

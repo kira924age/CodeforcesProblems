@@ -1,5 +1,32 @@
 [
  {
+  "id": 1665,
+  "type": "Div2",
+  "name": "Codeforces Round #781 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "GCD vs LCM"
+   },
+   {
+    "index": "B",
+    "name": "Array Cloning Technique"
+   },
+   {
+    "index": "C",
+    "name": "Tree Infection"
+   },
+   {
+    "index": "D",
+    "name": "GCD Guess"
+   },
+   {
+    "index": "E",
+    "name": "MinimizOR"
+   }
+  ]
+ },
+ {
   "id": 1663,
   "type": "Other",
   "name": "April Fools Day Contest 2022",

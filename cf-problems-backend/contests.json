@@ -1,5 +1,36 @@
 [
  {
+  "id": 1661,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 126 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Array Balancing"
+   },
+   {
+    "index": "B",
+    "name": "Getting Zero"
+   },
+   {
+    "index": "C",
+    "name": "Water the Trees"
+   },
+   {
+    "index": "D",
+    "name": "Progressions Covering"
+   },
+   {
+    "index": "E",
+    "name": "Narrow Components"
+   },
+   {
+    "index": "F",
+    "name": "Teleporters"
+   }
+  ]
+ },
+ {
   "id": 1665,
   "type": "Div2",
   "name": "Codeforces Round #781 (Div. 2)",

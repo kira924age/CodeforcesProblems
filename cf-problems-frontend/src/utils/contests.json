@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Array Balancing"
+    "name": "Array Balancing",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Getting Zero"
+    "name": "Getting Zero",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Water the Trees"
+    "name": "Water the Trees",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Progressions Covering"
+    "name": "Progressions Covering",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Narrow Components"
+    "name": "Narrow Components",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Teleporters"
+    "name": "Teleporters",
+    "rating": 2600
    }
   ]
  },
@@ -37,23 +43,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "GCD vs LCM"
+    "name": "GCD vs LCM",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array Cloning Technique"
+    "name": "Array Cloning Technique",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Tree Infection"
+    "name": "Tree Infection",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "GCD Guess"
+    "name": "GCD Guess",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "MinimizOR"
+    "name": "MinimizOR",
+    "rating": 2500
    }
   ]
  },

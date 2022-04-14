@@ -1,5 +1,52 @@
 [
  {
+  "id": 1666,
+  "type": "ICPC",
+  "name": "2021-2022 ICPC, NERC, Northern Eurasia Onsite (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Admissible Map"
+   },
+   {
+    "index": "B",
+    "name": "Budget Distribution"
+   },
+   {
+    "index": "C",
+    "name": "Connect the Points"
+   },
+   {
+    "index": "D",
+    "name": "Deletive Editing"
+   },
+   {
+    "index": "E",
+    "name": "Even Split"
+   },
+   {
+    "index": "F",
+    "name": "Fancy Stack"
+   },
+   {
+    "index": "I",
+    "name": "Interactive Treasure Hunt"
+   },
+   {
+    "index": "J",
+    "name": "Job Lookup"
+   },
+   {
+    "index": "K",
+    "name": "Kingdom Partition"
+   },
+   {
+    "index": "L",
+    "name": "Labyrinth"
+   }
+  ]
+ },
+ {
   "id": 1661,
   "type": "Educational",
   "name": "Educational Codeforces Round 126 (Rated for Div. 2)",

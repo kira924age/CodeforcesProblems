@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Admissible Map"
+    "name": "Admissible Map",
+    "rating": 3300
    },
    {
     "index": "B",
-    "name": "Budget Distribution"
+    "name": "Budget Distribution",
+    "rating": 3300
    },
    {
     "index": "C",
-    "name": "Connect the Points"
+    "name": "Connect the Points",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Deletive Editing"
+    "name": "Deletive Editing",
+    "rating": 900
    },
    {
     "index": "E",
-    "name": "Even Split"
+    "name": "Even Split",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Fancy Stack"
+    "name": "Fancy Stack",
+    "rating": 2200
    },
    {
     "index": "I",
-    "name": "Interactive Treasure Hunt"
+    "name": "Interactive Treasure Hunt",
+    "rating": 2200
    },
    {
     "index": "J",
-    "name": "Job Lookup"
+    "name": "Job Lookup",
+    "rating": 2100
    },
    {
     "index": "K",

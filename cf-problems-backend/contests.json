@@ -1,5 +1,36 @@
 [
  {
+  "id": 1659,
+  "type": "Div2",
+  "name": "Codeforces Round #782 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Red Versus Blue"
+   },
+   {
+    "index": "B",
+    "name": "Bit Flipping"
+   },
+   {
+    "index": "C",
+    "name": "Line Empire"
+   },
+   {
+    "index": "D",
+    "name": "Reverse Sort Sum"
+   },
+   {
+    "index": "E",
+    "name": "AND-MEX Walk"
+   },
+   {
+    "index": "F",
+    "name": "Tree and Permutation Game"
+   }
+  ]
+ },
+ {
   "id": 1666,
   "type": "ICPC",
   "name": "2021-2022 ICPC, NERC, Northern Eurasia Onsite (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
@@ -36,13 +67,11 @@
    },
    {
     "index": "I",
-    "name": "Interactive Treasure Hunt",
-    "rating": 2200
+    "name": "Interactive Treasure Hunt"
    },
    {
     "index": "J",
-    "name": "Job Lookup",
-    "rating": 2100
+    "name": "Job Lookup"
    },
    {
     "index": "K",

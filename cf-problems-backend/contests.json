@@ -67,7 +67,8 @@
    },
    {
     "index": "I",
-    "name": "Interactive Treasure Hunt"
+    "name": "Interactive Treasure Hunt",
+    "rating": 2200
    },
    {
     "index": "J",
@@ -75,7 +76,8 @@
    },
    {
     "index": "K",
-    "name": "Kingdom Partition"
+    "name": "Kingdom Partition",
+    "rating": 3200
    },
    {
     "index": "L",

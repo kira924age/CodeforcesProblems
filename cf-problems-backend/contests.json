@@ -1,5 +1,42 @@
 [
  {
+  "id": 1667,
+  "type": "Div1",
+  "name": "Codeforces Round #783 (Div. 1)",
+  "problems": null
+ },
+ {
+  "id": 1668,
+  "type": "Div2",
+  "name": "Codeforces Round #783 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Direction Change"
+   },
+   {
+    "index": "B",
+    "name": "Social Distance"
+   },
+   {
+    "index": "C",
+    "name": "Make it Increasing"
+   },
+   {
+    "index": "D",
+    "name": "Optimal Partition"
+   },
+   {
+    "index": "E",
+    "name": "Half Queen Cover"
+   },
+   {
+    "index": "F",
+    "name": "Edge Elimination"
+   }
+  ]
+ },
+ {
   "id": 1659,
   "type": "Div2",
   "name": "Codeforces Round #782 (Div. 2)",
@@ -72,16 +109,17 @@
    },
    {
     "index": "J",
-    "name": "Job Lookup"
+    "name": "Job Lookup",
+    "rating": 2100
    },
    {
     "index": "K",
-    "name": "Kingdom Partition",
-    "rating": 3200
+    "name": "Kingdom Partition"
    },
    {
     "index": "L",
-    "name": "Labyrinth"
+    "name": "Labyrinth",
+    "rating": 1800
    }
   ]
  },

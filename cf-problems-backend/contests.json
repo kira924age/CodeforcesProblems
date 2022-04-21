@@ -3,7 +3,38 @@
   "id": 1667,
   "type": "Div1",
   "name": "Codeforces Round #783 (Div. 1)",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Make it Increasing",
+    "rating": 1300
+   },
+   {
+    "index": "B",
+    "name": "Optimal Partition",
+    "rating": 2100
+   },
+   {
+    "index": "C",
+    "name": "Half Queen Cover",
+    "rating": 2400
+   },
+   {
+    "index": "D",
+    "name": "Edge Elimination",
+    "rating": 2900
+   },
+   {
+    "index": "E",
+    "name": "Centroid Probabilities",
+    "rating": 3000
+   },
+   {
+    "index": "F",
+    "name": "Yin Yang",
+    "rating": 3500
+   }
+  ]
  },
  {
   "id": 1668,
@@ -20,11 +51,13 @@
    },
    {
     "index": "C",
-    "name": "Make it Increasing"
+    "name": "Make it Increasing",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Optimal Partition"
+    "name": "Optimal Partition",
+    "rating": 2100
    },
    {
     "index": "E",
@@ -43,11 +76,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Red Versus Blue"
+    "name": "Red Versus Blue",
+    "rating": 1000
    },
    {
     "index": "B",
-    "name": "Bit Flipping"
+    "name": "Bit Flipping",
+    "rating": 1300
    },
    {
     "index": "C",
@@ -59,11 +94,13 @@
    },
    {
     "index": "E",
-    "name": "AND-MEX Walk"
+    "name": "AND-MEX Walk",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Tree and Permutation Game"
+    "name": "Tree and Permutation Game",
+    "rating": 3000
    }
   ]
  },
@@ -118,8 +155,7 @@
    },
    {
     "index": "L",
-    "name": "Labyrinth",
-    "rating": 1800
+    "name": "Labyrinth"
    }
   ]
  },

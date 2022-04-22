@@ -1,5 +1,44 @@
 [
  {
+  "id": 1669,
+  "type": "Div4",
+  "name": "Codeforces Round #784 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Division?"
+   },
+   {
+    "index": "B",
+    "name": "Triple"
+   },
+   {
+    "index": "C",
+    "name": "Odd/Even Increments"
+   },
+   {
+    "index": "D",
+    "name": "Colorful Stamp"
+   },
+   {
+    "index": "E",
+    "name": "2-Letter Strings"
+   },
+   {
+    "index": "F",
+    "name": "Eating Candies"
+   },
+   {
+    "index": "G",
+    "name": "Fall Down"
+   },
+   {
+    "index": "H",
+    "name": "Maximal AND"
+   }
+  ]
+ },
+ {
   "id": 1667,
   "type": "Div1",
   "name": "Codeforces Round #783 (Div. 1)",
@@ -47,7 +86,8 @@
    },
    {
     "index": "B",
-    "name": "Social Distance"
+    "name": "Social Distance",
+    "rating": 900
    },
    {
     "index": "C",
@@ -56,16 +96,17 @@
    },
    {
     "index": "D",
-    "name": "Optimal Partition",
-    "rating": 2100
+    "name": "Optimal Partition"
    },
    {
     "index": "E",
-    "name": "Half Queen Cover"
+    "name": "Half Queen Cover",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Edge Elimination"
+    "name": "Edge Elimination",
+    "rating": 2900
    }
   ]
  },
@@ -86,7 +127,8 @@
    },
    {
     "index": "C",
-    "name": "Line Empire"
+    "name": "Line Empire",
+    "rating": 1500
    },
    {
     "index": "D",
@@ -155,7 +197,8 @@
    },
    {
     "index": "L",
-    "name": "Labyrinth"
+    "name": "Labyrinth",
+    "rating": 1800
    }
   ]
  },

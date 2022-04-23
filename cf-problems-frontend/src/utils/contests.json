@@ -1,40 +1,79 @@
 [
  {
+  "id": 1671,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 127 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "String Building"
+   },
+   {
+    "index": "B",
+    "name": "Consecutive Points Segment"
+   },
+   {
+    "index": "C",
+    "name": "Dolce Vita"
+   },
+   {
+    "index": "D",
+    "name": "Insert a Progression"
+   },
+   {
+    "index": "E",
+    "name": "Preorder"
+   },
+   {
+    "index": "F",
+    "name": "Permutation Counting"
+   }
+  ]
+ },
+ {
   "id": 1669,
   "type": "Div4",
   "name": "Codeforces Round #784 (Div. 4)",
   "problems": [
    {
     "index": "A",
-    "name": "Division?"
+    "name": "Division?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Triple"
+    "name": "Triple",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Odd/Even Increments"
+    "name": "Odd/Even Increments",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Colorful Stamp"
+    "name": "Colorful Stamp",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "2-Letter Strings"
+    "name": "2-Letter Strings",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "Eating Candies"
+    "name": "Eating Candies",
+    "rating": 1100
    },
    {
     "index": "G",
-    "name": "Fall Down"
+    "name": "Fall Down",
+    "rating": 1200
    },
    {
     "index": "H",
-    "name": "Maximal AND"
+    "name": "Maximal AND",
+    "rating": 1300
    }
   ]
  },
@@ -86,13 +125,11 @@
    },
    {
     "index": "B",
-    "name": "Social Distance",
-    "rating": 900
+    "name": "Social Distance"
    },
    {
     "index": "C",
-    "name": "Make it Increasing",
-    "rating": 1300
+    "name": "Make it Increasing"
    },
    {
     "index": "D",
@@ -100,13 +137,11 @@
    },
    {
     "index": "E",
-    "name": "Half Queen Cover",
-    "rating": 2400
+    "name": "Half Queen Cover"
    },
    {
     "index": "F",
-    "name": "Edge Elimination",
-    "rating": 2900
+    "name": "Edge Elimination"
    }
   ]
  },
@@ -117,18 +152,15 @@
   "problems": [
    {
     "index": "A",
-    "name": "Red Versus Blue",
-    "rating": 1000
+    "name": "Red Versus Blue"
    },
    {
     "index": "B",
-    "name": "Bit Flipping",
-    "rating": 1300
+    "name": "Bit Flipping"
    },
    {
     "index": "C",
-    "name": "Line Empire",
-    "rating": 1500
+    "name": "Line Empire"
    },
    {
     "index": "D",
@@ -136,13 +168,11 @@
    },
    {
     "index": "E",
-    "name": "AND-MEX Walk",
-    "rating": 2200
+    "name": "AND-MEX Walk"
    },
    {
     "index": "F",
-    "name": "Tree and Permutation Game",
-    "rating": 3000
+    "name": "Tree and Permutation Game"
    }
   ]
  },
@@ -183,13 +213,11 @@
    },
    {
     "index": "I",
-    "name": "Interactive Treasure Hunt",
-    "rating": 2200
+    "name": "Interactive Treasure Hunt"
    },
    {
     "index": "J",
-    "name": "Job Lookup",
-    "rating": 2100
+    "name": "Job Lookup"
    },
    {
     "index": "K",
@@ -197,8 +225,7 @@
    },
    {
     "index": "L",
-    "name": "Labyrinth",
-    "rating": 1800
+    "name": "Labyrinth"
    }
   ]
  },

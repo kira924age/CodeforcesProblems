@@ -1,5 +1,52 @@
 [
  {
+  "id": 1672,
+  "type": "Global",
+  "name": "Codeforces Global Round 20",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Log Chopping"
+   },
+   {
+    "index": "B",
+    "name": "I love AAAB"
+   },
+   {
+    "index": "C",
+    "name": "Unequal Array"
+   },
+   {
+    "index": "D",
+    "name": "Cyclic Rotation"
+   },
+   {
+    "index": "E",
+    "name": "notepad.exe"
+   },
+   {
+    "index": "F1",
+    "name": "Array Shuffling"
+   },
+   {
+    "index": "F2",
+    "name": "Checker for Array Shuffling"
+   },
+   {
+    "index": "G",
+    "name": "Cross Xor"
+   },
+   {
+    "index": "H",
+    "name": "Zigu Zagu"
+   },
+   {
+    "index": "I",
+    "name": "PermutationForces"
+   }
+  ]
+ },
+ {
   "id": 1671,
   "type": "Educational",
   "name": "Educational Codeforces Round 127 (Rated for Div. 2)",
@@ -121,27 +168,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Direction Change"
+    "name": "Direction Change",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Social Distance"
+    "name": "Social Distance",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Make it Increasing"
+    "name": "Make it Increasing",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Optimal Partition"
+    "name": "Optimal Partition",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Half Queen Cover"
+    "name": "Half Queen Cover",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Edge Elimination"
+    "name": "Edge Elimination",
+    "rating": 2900
    }
   ]
  },
@@ -152,27 +205,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Red Versus Blue"
+    "name": "Red Versus Blue",
+    "rating": 1000
    },
    {
     "index": "B",
-    "name": "Bit Flipping"
+    "name": "Bit Flipping",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Line Empire"
+    "name": "Line Empire",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Reverse Sort Sum"
+    "name": "Reverse Sort Sum",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "AND-MEX Walk"
+    "name": "AND-MEX Walk",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Tree and Permutation Game"
+    "name": "Tree and Permutation Game",
+    "rating": 3000
    }
   ]
  },
@@ -213,11 +272,13 @@
    },
    {
     "index": "I",
-    "name": "Interactive Treasure Hunt"
+    "name": "Interactive Treasure Hunt",
+    "rating": 2200
    },
    {
     "index": "J",
-    "name": "Job Lookup"
+    "name": "Job Lookup",
+    "rating": 2100
    },
    {
     "index": "K",

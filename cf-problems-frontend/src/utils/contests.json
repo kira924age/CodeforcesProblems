@@ -1,48 +1,125 @@
 [
  {
+  "id": 1662,
+  "type": "ICPC",
+  "name": "SWERC 2021-2022 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Organizing SWERC"
+   },
+   {
+    "index": "B",
+    "name": "Toys"
+   },
+   {
+    "index": "C",
+    "name": "European Trip"
+   },
+   {
+    "index": "D",
+    "name": "Evolution of Weasels"
+   },
+   {
+    "index": "E",
+    "name": "Round Table"
+   },
+   {
+    "index": "F",
+    "name": "Antennas"
+   },
+   {
+    "index": "G",
+    "name": "Gastronomic Event"
+   },
+   {
+    "index": "H",
+    "name": "Boundary"
+   },
+   {
+    "index": "I",
+    "name": "Ice Cream Shop"
+   },
+   {
+    "index": "J",
+    "name": "Training Camp"
+   },
+   {
+    "index": "K",
+    "name": "Pandemic Restrictions"
+   },
+   {
+    "index": "L",
+    "name": "Il Derby della Madonnina"
+   },
+   {
+    "index": "M",
+    "name": "Bottle Arrangements"
+   },
+   {
+    "index": "N",
+    "name": "Drone Photo"
+   },
+   {
+    "index": "O",
+    "name": "Circular Maze"
+   }
+  ]
+ },
+ {
   "id": 1672,
   "type": "Global",
   "name": "Codeforces Global Round 20",
   "problems": [
    {
     "index": "A",
-    "name": "Log Chopping"
+    "name": "Log Chopping",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "I love AAAB"
+    "name": "I love AAAB",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Unequal Array"
+    "name": "Unequal Array",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Cyclic Rotation"
+    "name": "Cyclic Rotation",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "notepad.exe"
+    "name": "notepad.exe",
+    "rating": 2200
    },
    {
     "index": "F1",
-    "name": "Array Shuffling"
+    "name": "Array Shuffling",
+    "rating": 2000
    },
    {
     "index": "F2",
-    "name": "Checker for Array Shuffling"
+    "name": "Checker for Array Shuffling",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Cross Xor"
+    "name": "Cross Xor",
+    "rating": 3200
    },
    {
     "index": "H",
-    "name": "Zigu Zagu"
+    "name": "Zigu Zagu",
+    "rating": 2700
    },
    {
     "index": "I",
-    "name": "PermutationForces"
+    "name": "PermutationForces",
+    "rating": 3000
    }
   ]
  },
@@ -53,27 +130,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "String Building"
+    "name": "String Building",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Consecutive Points Segment"
+    "name": "Consecutive Points Segment",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Dolce Vita"
+    "name": "Dolce Vita",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Insert a Progression"
+    "name": "Insert a Progression",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Preorder"
+    "name": "Preorder",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Permutation Counting"
+    "name": "Permutation Counting",
+    "rating": 2700
    }
   ]
  },

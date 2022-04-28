@@ -359,18 +359,15 @@
    },
    {
     "index": "J",
-    "name": "Job Lookup",
-    "rating": 2100
+    "name": "Job Lookup"
    },
    {
     "index": "K",
-    "name": "Kingdom Partition",
-    "rating": 3200
+    "name": "Kingdom Partition"
    },
    {
     "index": "L",
-    "name": "Labyrinth",
-    "rating": 1800
+    "name": "Labyrinth"
    }
   ]
  },

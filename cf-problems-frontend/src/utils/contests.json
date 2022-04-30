@@ -355,7 +355,8 @@
    },
    {
     "index": "I",
-    "name": "Interactive Treasure Hunt"
+    "name": "Interactive Treasure Hunt",
+    "rating": 2200
    },
    {
     "index": "J",
@@ -367,7 +368,8 @@
    },
    {
     "index": "L",
-    "name": "Labyrinth"
+    "name": "Labyrinth",
+    "rating": 1800
    }
   ]
  },

@@ -2,6 +2,7 @@ name: Regular Crawl
 on:
   schedule:
     - cron: '0 0 * * *' # Once per day at midnight
+  workflow_dispatch:
 
 jobs:
   Crawl-Codeforces:

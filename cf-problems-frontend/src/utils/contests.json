@@ -1,15 +1,136 @@
 [
  {
+  "id": 1674,
+  "type": "Div3",
+  "name": "Codeforces Round #786 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Number Transformation"
+   },
+   {
+    "index": "B",
+    "name": "Dictionary"
+   },
+   {
+    "index": "C",
+    "name": "Infinite Replacement"
+   },
+   {
+    "index": "D",
+    "name": "A-B-C Sort"
+   },
+   {
+    "index": "E",
+    "name": "Breaking the Wall"
+   },
+   {
+    "index": "F",
+    "name": "Desktop Rearrangement"
+   },
+   {
+    "index": "G",
+    "name": "Remove Directed Edges"
+   }
+  ]
+ },
+ {
   "id": 1673,
   "type": "Div2",
   "name": "Codeforces Round #785 (Div. 2)",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Subtle Substring Subtraction"
+   },
+   {
+    "index": "B",
+    "name": "A Perfectly Balanced String?"
+   },
+   {
+    "index": "C",
+    "name": "Palindrome Basis"
+   },
+   {
+    "index": "D",
+    "name": "Lost Arithmetic Progression"
+   },
+   {
+    "index": "E",
+    "name": "Power or XOR?"
+   },
+   {
+    "index": "F",
+    "name": "Anti-Theft Road Planning"
+   }
+  ]
  },
  {
   "id": 1662,
   "type": "ICPC",
   "name": "SWERC 2021-2022 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Organizing SWERC"
+   },
+   {
+    "index": "B",
+    "name": "Toys"
+   },
+   {
+    "index": "C",
+    "name": "European Trip"
+   },
+   {
+    "index": "D",
+    "name": "Evolution of Weasels"
+   },
+   {
+    "index": "E",
+    "name": "Round Table"
+   },
+   {
+    "index": "F",
+    "name": "Antennas"
+   },
+   {
+    "index": "G",
+    "name": "Gastronomic Event"
+   },
+   {
+    "index": "H",
+    "name": "Boundary"
+   },
+   {
+    "index": "I",
+    "name": "Ice Cream Shop"
+   },
+   {
+    "index": "J",
+    "name": "Training Camp"
+   },
+   {
+    "index": "K",
+    "name": "Pandemic Restrictions"
+   },
+   {
+    "index": "L",
+    "name": "Il Derby della Madonnina"
+   },
+   {
+    "index": "M",
+    "name": "Bottle Arrangements"
+   },
+   {
+    "index": "N",
+    "name": "Drone Photo"
+   },
+   {
+    "index": "O",
+    "name": "Circular Maze"
+   }
+  ]
  },
  {
   "id": 1672,
@@ -267,7 +388,56 @@
   "id": 1666,
   "type": "ICPC",
   "name": "2021-2022 ICPC, NERC, Northern Eurasia Onsite (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
-  "problems": null
+  "problems": [
+   {
+    "index": "A",
+    "name": "Admissible Map",
+    "rating": 3300
+   },
+   {
+    "index": "B",
+    "name": "Budget Distribution",
+    "rating": 3300
+   },
+   {
+    "index": "C",
+    "name": "Connect the Points",
+    "rating": 1800
+   },
+   {
+    "index": "D",
+    "name": "Deletive Editing",
+    "rating": 900
+   },
+   {
+    "index": "E",
+    "name": "Even Split",
+    "rating": 2500
+   },
+   {
+    "index": "F",
+    "name": "Fancy Stack",
+    "rating": 2200
+   },
+   {
+    "index": "I",
+    "name": "Interactive Treasure Hunt",
+    "rating": 2200
+   },
+   {
+    "index": "J",
+    "name": "Job Lookup"
+   },
+   {
+    "index": "K",
+    "name": "Kingdom Partition"
+   },
+   {
+    "index": "L",
+    "name": "Labyrinth",
+    "rating": 1800
+   }
+  ]
  },
  {
   "id": 1661,

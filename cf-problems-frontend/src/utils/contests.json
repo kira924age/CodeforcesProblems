@@ -430,12 +430,12 @@
    },
    {
     "index": "K",
-    "name": "Kingdom Partition"
+    "name": "Kingdom Partition",
+    "rating": 3200
    },
    {
     "index": "L",
-    "name": "Labyrinth",
-    "rating": 1800
+    "name": "Labyrinth"
    }
   ]
  },

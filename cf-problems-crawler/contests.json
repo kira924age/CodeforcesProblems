@@ -3,226 +3,31 @@
   "id": 1670,
   "type": "Div2",
   "name": "Codeforces Round #788 (Div. 2)",
-  "problems": [
-   {
-    "index": "A",
-    "name": "Prof. Slim",
-    "rating": 800
-   },
-   {
-    "index": "B",
-    "name": "Dorms War",
-    "rating": 1100
-   },
-   {
-    "index": "C",
-    "name": "Where is the Pizza?",
-    "rating": 1400
-   },
-   {
-    "index": "D",
-    "name": "Very Suspicious",
-    "rating": 1700
-   },
-   {
-    "index": "E",
-    "name": "Hemose on the Tree",
-    "rating": 2200
-   },
-   {
-    "index": "F",
-    "name": "Jee, You See?",
-    "rating": 2400
-   }
-  ]
+  "problems": null
  },
  {
   "id": 1675,
   "type": "Div3",
   "name": "Codeforces Round #787 (Div. 3)",
-  "problems": [
-   {
-    "index": "A",
-    "name": "Food for Animals",
-    "rating": 800
-   },
-   {
-    "index": "B",
-    "name": "Make It Increasing",
-    "rating": 900
-   },
-   {
-    "index": "C",
-    "name": "Detective Task",
-    "rating": 1100
-   },
-   {
-    "index": "D",
-    "name": "Vertical Paths",
-    "rating": 1300
-   },
-   {
-    "index": "E",
-    "name": "Replace With the Previous, Minimize",
-    "rating": 1500
-   },
-   {
-    "index": "F",
-    "name": "Vlad and Unfinished Business",
-    "rating": 1800
-   },
-   {
-    "index": "G",
-    "name": "Sorting Pancakes",
-    "rating": 2300
-   }
-  ]
+  "problems": null
  },
  {
   "id": 1674,
   "type": "Div3",
   "name": "Codeforces Round #786 (Div. 3)",
-  "problems": [
-   {
-    "index": "A",
-    "name": "Number Transformation",
-    "rating": 800
-   },
-   {
-    "index": "B",
-    "name": "Dictionary",
-    "rating": 800
-   },
-   {
-    "index": "C",
-    "name": "Infinite Replacement",
-    "rating": 1000
-   },
-   {
-    "index": "D",
-    "name": "A-B-C Sort",
-    "rating": 1200
-   },
-   {
-    "index": "E",
-    "name": "Breaking the Wall",
-    "rating": 2000
-   },
-   {
-    "index": "F",
-    "name": "Desktop Rearrangement",
-    "rating": 1800
-   },
-   {
-    "index": "G",
-    "name": "Remove Directed Edges",
-    "rating": 2000
-   }
-  ]
+  "problems": null
  },
  {
   "id": 1673,
   "type": "Div2",
   "name": "Codeforces Round #785 (Div. 2)",
-  "problems": [
-   {
-    "index": "A",
-    "name": "Subtle Substring Subtraction",
-    "rating": 800
-   },
-   {
-    "index": "B",
-    "name": "A Perfectly Balanced String?",
-    "rating": 1100
-   },
-   {
-    "index": "C",
-    "name": "Palindrome Basis",
-    "rating": 1500
-   },
-   {
-    "index": "D",
-    "name": "Lost Arithmetic Progression",
-    "rating": 1900
-   },
-   {
-    "index": "E",
-    "name": "Power or XOR?",
-    "rating": 2500
-   },
-   {
-    "index": "F",
-    "name": "Anti-Theft Road Planning",
-    "rating": 2400
-   }
-  ]
+  "problems": null
  },
  {
   "id": 1662,
   "type": "ICPC",
   "name": "SWERC 2021-2022 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
-  "problems": [
-   {
-    "index": "A",
-    "name": "Organizing SWERC"
-   },
-   {
-    "index": "B",
-    "name": "Toys"
-   },
-   {
-    "index": "C",
-    "name": "European Trip"
-   },
-   {
-    "index": "D",
-    "name": "Evolution of Weasels"
-   },
-   {
-    "index": "E",
-    "name": "Round Table"
-   },
-   {
-    "index": "F",
-    "name": "Antennas"
-   },
-   {
-    "index": "G",
-    "name": "Gastronomic Event"
-   },
-   {
-    "index": "H",
-    "name": "Boundary"
-   },
-   {
-    "index": "I",
-    "name": "Ice Cream Shop"
-   },
-   {
-    "index": "J",
-    "name": "Training Camp"
-   },
-   {
-    "index": "K",
-    "name": "Pandemic Restrictions"
-   },
-   {
-    "index": "L",
-    "name": "Il Derby della Madonnina"
-   },
-   {
-    "index": "M",
-    "name": "Bottle Arrangements"
-   },
-   {
-    "index": "N",
-    "name": "Drone Photo"
-   },
-   {
-    "index": "O",
-    "name": "Circular Maze"
-   }
-  ]
+  "problems": null
  },
  {
   "id": 1672,
@@ -480,68 +285,7 @@
   "id": 1666,
   "type": "ICPC",
   "name": "2021-2022 ICPC, NERC, Northern Eurasia Onsite (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
-  "problems": [
-   {
-    "index": "A",
-    "name": "Admissible Map",
-    "rating": "3300"
-   },
-   {
-    "index": "B",
-    "name": "Budget Distribution",
-    "rating": "3300"
-   },
-   {
-    "index": "C",
-    "name": "Connect the Points",
-    "rating": "1800"
-   },
-   {
-    "index": "D",
-    "name": "Deletive Editing",
-    "rating": "900"
-   },
-   {
-    "index": "E",
-    "name": "Even Split",
-    "rating": "2500"
-   },
-   {
-    "index": "F",
-    "name": "Fancy Stack",
-    "rating": "2200"
-   },
-   {
-    "index": "G",
-    "name": "Global Warming",
-    "rating": 3100
-   },
-   {
-    "index": "H",
-    "name": "Heroes of Might",
-    "rating": 3500
-   },
-   {
-    "index": "I",
-    "name": "Interactive Treasure Hunt",
-    "rating": "2200"
-   },
-   {
-    "index": "J",
-    "name": "Job Lookup",
-    "rating": "2100"
-   },
-   {
-    "index": "K",
-    "name": "Kingdom Partition",
-    "rating": "3200"
-   },
-   {
-    "index": "L",
-    "name": "Labyrinth",
-    "rating": "1800"
-   }
-  ]
+  "problems": null
  },
  {
   "id": 1661,
@@ -627,7 +371,7 @@
    },
    {
     "index": "C",
-    "name": "P\u014dja Verdon"
+    "name": "Pōja Verdon"
    },
    {
     "index": "D",
@@ -874,7 +618,7 @@
  {
   "id": 1652,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2022 - \u0424\u0438\u043d\u0430\u043b",
+  "name": "Технокубок 2022 - Финал",
   "problems": [
    {
     "index": "A",
@@ -2349,7 +2093,7 @@
  {
   "id": 1597,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2022 - \u041e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 3",
+  "name": "Технокубок 2022 - Ознакомительный Раунд 3",
   "problems": null
  },
  {
@@ -2775,7 +2519,7 @@
  {
   "id": 1596,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2022 - \u041e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 2",
+  "name": "Технокубок 2022 - Ознакомительный Раунд 2",
   "problems": null
  },
  {
@@ -3196,7 +2940,7 @@
  {
   "id": 1595,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2022 - \u041e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 1",
+  "name": "Технокубок 2022 - Ознакомительный Раунд 1",
   "problems": null
  },
  {
@@ -5606,39 +5350,39 @@
  {
   "id": 1531,
   "type": "Other",
-  "name": "VK Cup 2021 - \u041a\u0432\u0430\u043b\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f (Engine)",
+  "name": "VK Cup 2021 - Квалификация (Engine)",
   "problems": [
    {
     "index": "A",
-    "name": "\u0417\u0438\u043d\u0433\u0435\u0440 | color"
+    "name": "Зингер | color"
    },
    {
     "index": "B1",
-    "name": "\u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433"
+    "name": "Мониторинг"
    },
    {
     "index": "B2",
-    "name": "\u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433"
+    "name": "Мониторинг"
    },
    {
     "index": "C",
-    "name": "\u0421\u0438\u043c\u043c\u0435\u0442\u0440\u0438\u0447\u043d\u044b\u0439 \u0430\u043c\u0444\u0438\u0442\u0435\u0430\u0442\u0440"
+    "name": "Симметричный амфитеатр"
    },
    {
     "index": "D",
-    "name": "\u0420\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u0443\u0435\u043c \u0417\u0438\u043d\u0433\u0435\u0440 | color"
+    "name": "Редактируем Зингер | color"
    },
    {
     "index": "E1",
-    "name": "\u0421\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u0441\u043b\u0438\u044f\u043d\u0438\u0435\u043c"
+    "name": "Сортировка слиянием"
    },
    {
     "index": "E2",
-    "name": "\u0421\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u0441\u043b\u0438\u044f\u043d\u0438\u0435\u043c"
+    "name": "Сортировка слиянием"
    },
    {
     "index": "E3",
-    "name": "\u0421\u043e\u0440\u0442\u0438\u0440\u043e\u0432\u043a\u0430 \u0441\u043b\u0438\u044f\u043d\u0438\u0435\u043c"
+    "name": "Сортировка слиянием"
    }
   ]
  },
@@ -6307,7 +6051,7 @@
   "problems": [
    {
     "index": "A",
-    "name": " D\u00e9j\u00e0 Vu",
+    "name": " Déjà Vu",
     "rating": 800
    },
    {
@@ -6545,7 +6289,7 @@
  {
   "id": 1482,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2021 - \u0424\u0438\u043d\u0430\u043b",
+  "name": "Технокубок 2021 - Финал",
   "problems": [
    {
     "index": "A",
@@ -9440,7 +9184,7 @@
    },
    {
     "index": "C",
-    "name": "Du\u0161an's Railway",
+    "name": "Dušan's Railway",
     "rating": 3500
    },
    {
@@ -9527,7 +9271,7 @@
    },
    {
     "index": "C",
-    "name": "Du\u0161an's Railway",
+    "name": "Dušan's Railway",
     "rating": 3500
    },
    {
@@ -9841,12 +9585,12 @@
    },
    {
     "index": "C1",
-    "name": "Pok\u00e9mon Army (easy version)",
+    "name": "Pokémon Army (easy version)",
     "rating": 1300
    },
    {
     "index": "C2",
-    "name": "Pok\u00e9mon Army (hard version)",
+    "name": "Pokémon Army (hard version)",
     "rating": 2100
    },
    {
@@ -11355,7 +11099,7 @@
    },
    {
     "index": "A5",
-    "name": "Distinguish Rz(\u03b8) from Ry(\u03b8)"
+    "name": "Distinguish Rz(θ) from Ry(θ)"
    },
    {
     "index": "A6",
@@ -11556,7 +11300,7 @@
    },
    {
     "index": "A4",
-    "name": "Distinguish I \u2297 X from CNOT"
+    "name": "Distinguish I ⊗ X from CNOT"
    },
    {
     "index": "A5",
@@ -11572,7 +11316,7 @@
    },
    {
     "index": "C",
-    "name": "Prepare state |01\u27e9 + |10\u27e9 + |11\u27e9"
+    "name": "Prepare state |01⟩ + |10⟩ + |11⟩"
    },
    {
     "index": "D1",
@@ -12270,7 +12014,7 @@
    },
    {
     "index": "D",
-    "name": "R\u00e9sum\u00e9 Review",
+    "name": "Résumé Review",
     "rating": 2700
    },
    {
@@ -12317,7 +12061,7 @@
    },
    {
     "index": "F",
-    "name": "R\u00e9sum\u00e9 Review",
+    "name": "Résumé Review",
     "rating": 2700
    }
   ]
@@ -12756,7 +12500,7 @@
    },
    {
     "index": "D",
-    "name": "Challenges in school \u211641",
+    "name": "Challenges in school №41",
     "rating": 2100
    },
    {
@@ -13398,7 +13142,7 @@
  {
   "id": 1319,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2020 - \u0424\u0438\u043d\u0430\u043b",
+  "name": "Технокубок 2020 - Финал",
   "problems": [
    {
     "index": "A",
@@ -15013,30 +14757,30 @@
  {
   "id": 1273,
   "type": "Other",
-  "name": "VK Cup 2019 - \u041a\u0432\u0430\u043b\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f (Design)",
+  "name": "VK Cup 2019 - Квалификация (Design)",
   "problems": [
    {
     "index": "A",
-    "name": "\u0422\u0438\u043f\u043e\u0433\u0440\u0430\u0444\u0438\u043a\u0430, \u0432\u0451\u0440\u0441\u0442\u043a\u0430 \u0438 \u0446\u0432\u0435\u0442\u0430"
+    "name": "Типографика, вёрстка и цвета"
    },
    {
     "index": "B",
-    "name": "\u041e\u0431\u0449\u0438\u0435 \u0437\u043d\u0430\u043d\u0438\u044f"
+    "name": "Общие знания"
    },
    {
     "index": "C",
-    "name": "\u0418\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b-1"
+    "name": "Интерфейсы-1"
    },
    {
     "index": "D",
-    "name": "\u0418\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u044b-2"
+    "name": "Интерфейсы-2"
    }
   ]
  },
  {
   "id": 1274,
   "type": "Other",
-  "name": "VK Cup 2019 - \u041a\u0432\u0430\u043b\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f (Mobile)",
+  "name": "VK Cup 2019 - Квалификация (Mobile)",
   "problems": [
    {
     "index": "A",
@@ -15051,11 +14795,11 @@
  {
   "id": 1275,
   "type": "Other",
-  "name": "VK Cup 2019 - \u041a\u0432\u0430\u043b\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f (Engine)",
+  "name": "VK Cup 2019 - Квалификация (Engine)",
   "problems": [
    {
     "index": "A",
-    "name": "\u0421\u043a\u0440\u044b\u0442\u044b\u0439 \u0434\u0440\u0443\u0433"
+    "name": "Скрытый друг"
    },
    {
     "index": "B",
@@ -15063,7 +14807,7 @@
    },
    {
     "index": "C",
-    "name": "#define \u0417\u0430\u0434\u0430\u0447\u0430 B ..."
+    "name": "#define Задача B ..."
    },
    {
     "index": "D",
@@ -15071,19 +14815,19 @@
    },
    {
     "index": "E1",
-    "name": "\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c\u043d\u0430\u044f \u0441\u0443\u043c\u043c\u0430"
+    "name": "Контрольная сумма"
    },
    {
     "index": "E2",
-    "name": "\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c\u043d\u0430\u044f \u0441\u0443\u043c\u043c\u0430"
+    "name": "Контрольная сумма"
    },
    {
     "index": "E3",
-    "name": "\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u044c\u043d\u0430\u044f \u0441\u0443\u043c\u043c\u0430"
+    "name": "Контрольная сумма"
    },
    {
     "index": "F",
-    "name": "\u0428\u0430\u0440\u0434\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u043e\u0441\u0442\u043e\u0432"
+    "name": "Шардирование постов"
    }
   ]
  },
@@ -15198,7 +14942,7 @@
    },
    {
     "index": "F",
-    "name": "Foolpr\u00fcf Security",
+    "name": "Foolprüf Security",
     "rating": 2600
    },
    {
@@ -19454,7 +19198,7 @@
    },
    {
     "index": "C",
-    "name": "Tree Generator\u2122",
+    "name": "Tree Generator™",
     "rating": 2700
    },
    {
@@ -19496,7 +19240,7 @@
    },
    {
     "index": "E",
-    "name": "Tree Generator\u2122",
+    "name": "Tree Generator™",
     "rating": 2700
    }
   ]
@@ -20427,7 +20171,7 @@
   "problems": [
    {
     "index": "A1",
-    "name": "Generate state |00\u27e9 + |01\u27e9 + |10\u27e9"
+    "name": "Generate state |00⟩ + |01⟩ + |10⟩"
    },
    {
     "index": "A2",
@@ -21276,7 +21020,7 @@
    },
    {
     "index": "F",
-    "name": "\u0416-function",
+    "name": "Ж-function",
     "rating": 3500
    }
   ]
@@ -26903,7 +26647,7 @@
  {
   "id": 944,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2018 - \u0424\u0438\u043d\u0430\u043b (\u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043e\u043d\u0441\u0430\u0439\u0442-\u0444\u0438\u043d\u0430\u043b\u0438\u0441\u0442\u043e\u0432)",
+  "name": "Технокубок 2018 - Финал (только для онсайт-финалистов)",
   "problems": [
    {
     "index": "A",
@@ -26945,26 +26689,26 @@
  {
   "id": 929,
   "type": "Other",
-  "name": "VK Cup 2018 - \u041a\u0432\u0430\u043b\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f 2",
+  "name": "VK Cup 2018 - Квалификация 2",
   "problems": [
    {
     "index": "A",
-    "name": "\u041f\u0440\u043e\u043a\u0430\u0442 \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u043e\u0432",
+    "name": "Прокат велосипедов",
     "rating": 1400
    },
    {
     "index": "B",
-    "name": "\u041c\u0435\u0441\u0442\u0430 \u0432 \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0435",
+    "name": "Места в самолёте",
     "rating": 1300
    },
    {
     "index": "C",
-    "name": "\u041a\u0440\u0430\u0441\u0438\u0432\u0430\u044f \u043a\u043e\u043c\u0430\u043d\u0434\u0430",
+    "name": "Красивая команда",
     "rating": 1700
    },
    {
     "index": "D",
-    "name": "\u041f\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u043d\u044b\u0435 \u0432\u0440\u0430\u0442\u0430",
+    "name": "Пограничные врата",
     "rating": 2400
    }
   ]
@@ -27036,7 +26780,7 @@
  {
   "id": 928,
   "type": "Other",
-  "name": "VK Cup 2018 - \u041a\u0432\u0430\u043b\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f 1",
+  "name": "VK Cup 2018 - Квалификация 1",
   "problems": [
    {
     "index": "A",
@@ -27905,7 +27649,7 @@
  {
   "id": 904,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2018 - \u041e\u0442\u0431\u043e\u0440\u043e\u0447\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 4",
+  "name": "Технокубок 2018 - Отборочный Раунд 4",
   "problems": [
    {
     "index": "A",
@@ -28474,7 +28218,7 @@
  {
   "id": 886,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2018 - \u041e\u0442\u0431\u043e\u0440\u043e\u0447\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 3",
+  "name": "Технокубок 2018 - Отборочный Раунд 3",
   "problems": [
    {
     "index": "A",
@@ -29506,7 +29250,7 @@
  {
   "id": 858,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2018 - \u041e\u0442\u0431\u043e\u0440\u043e\u0447\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 1",
+  "name": "Технокубок 2018 - Отборочный Раунд 1",
   "problems": [
    {
     "index": "A",
@@ -31177,7 +30921,7 @@
   "problems": [
    {
     "index": "A",
-    "name": "Straight <<A>>",
+    "name": "Straight \u003c\u003cA\u003e\u003e",
     "rating": 900
    },
    {
@@ -32389,7 +32133,7 @@
  {
   "id": 780,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2017 - \u0424\u0438\u043d\u0430\u043b (\u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043e\u043d\u0441\u0430\u0439\u0442-\u0444\u0438\u043d\u0430\u043b\u0438\u0441\u0442\u043e\u0432)",
+  "name": "Технокубок 2017 - Финал (только для онсайт-финалистов)",
   "problems": [
    {
     "index": "A",
@@ -33299,16 +33043,16 @@
  {
   "id": 751,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2017 - \u041e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 3",
+  "name": "Технокубок 2017 - Ознакомительный Раунд 3",
   "problems": [
    {
     "index": "A",
-    "name": "\u041e\u0446\u0435\u043d\u043a\u0438 \u0412\u0430\u0441\u0438",
+    "name": "Оценки Васи",
     "rating": 800
    },
    {
     "index": "B",
-    "name": "\u041f\u0443\u0442\u044c \u041f\u043e\u043b\u0438\u043a\u0430\u0440\u043f\u0430",
+    "name": "Путь Поликарпа",
     "rating": 1200
    }
   ]
@@ -33537,17 +33281,17 @@
    },
    {
     "index": "C",
-    "name": "Arpa\u2019s overnight party and Mehrdad\u2019s silent entering",
+    "name": "Arpa’s overnight party and Mehrdad’s silent entering",
     "rating": 2600
    },
    {
     "index": "D",
-    "name": "Arpa\u2019s letter-marked tree and Mehrdad\u2019s Dokhtar-kosh paths",
+    "name": "Arpa’s letter-marked tree and Mehrdad’s Dokhtar-kosh paths",
     "rating": 2900
    },
    {
     "index": "E",
-    "name": "Arpa\u2019s abnormal DNA and Mehrdad\u2019s deep interest",
+    "name": "Arpa’s abnormal DNA and Mehrdad’s deep interest",
     "rating": 3400
    }
   ]
@@ -33559,12 +33303,12 @@
   "problems": [
    {
     "index": "A",
-    "name": "Arpa\u2019s hard exam and Mehrdad\u2019s naive cheat",
+    "name": "Arpa’s hard exam and Mehrdad’s naive cheat",
     "rating": 1000
    },
    {
     "index": "B",
-    "name": "Arpa\u2019s obvious problem and Mehrdad\u2019s terrible solution",
+    "name": "Arpa’s obvious problem and Mehrdad’s terrible solution",
     "rating": 1500
    },
    {
@@ -33579,7 +33323,7 @@
    },
    {
     "index": "E",
-    "name": "Arpa\u2019s overnight party and Mehrdad\u2019s silent entering",
+    "name": "Arpa’s overnight party and Mehrdad’s silent entering",
     "rating": 2600
    }
   ]
@@ -34496,7 +34240,7 @@
    },
    {
     "index": "B",
-    "name": "R3D3\u2019s Summer Adventure",
+    "name": "R3D3’s Summer Adventure",
     "rating": 2700
    },
    {
@@ -34506,7 +34250,7 @@
    },
    {
     "index": "D",
-    "name": "Dexterina\u2019s Lab",
+    "name": "Dexterina’s Lab",
     "rating": 1900
    },
    {
@@ -36642,31 +36386,31 @@
  {
   "id": 649,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2016 - \u041e\u0442\u0431\u043e\u0440\u043e\u0447\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 2",
+  "name": "Технокубок 2016 - Отборочный Раунд 2",
   "problems": [
    {
     "index": "A",
-    "name": "\u041b\u044e\u0431\u0438\u043c\u044b\u0435 \u0447\u0438\u0441\u043b\u0430 \u041f\u043e\u043b\u0438\u043a\u0430\u0440\u043f\u0430",
+    "name": "Любимые числа Поликарпа",
     "rating": 1000
    },
    {
     "index": "B",
-    "name": "\u042d\u0442\u0430\u0436\u0438",
+    "name": "Этажи",
     "rating": 1400
    },
    {
     "index": "C",
-    "name": "\u041f\u0435\u0447\u0430\u0442\u044c \u0443\u0441\u043b\u043e\u0432\u0438\u0439",
+    "name": "Печать условий",
     "rating": 1500
    },
    {
     "index": "D",
-    "name": "\u0414\u0435\u0444\u0440\u0430\u0433\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u044f \u043f\u0430\u043c\u044f\u0442\u0438",
+    "name": "Дефрагментация памяти",
     "rating": 1600
    },
    {
     "index": "E",
-    "name": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441",
+    "name": "Автобус",
     "rating": 2100
    }
   ]
@@ -36711,16 +36455,16 @@
  {
   "id": 647,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2016 - \u041e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 2",
+  "name": "Технокубок 2016 - Ознакомительный Раунд 2",
   "problems": [
    {
     "index": "A",
-    "name": "\u041e\u0446\u0435\u043d\u043a\u0438 \u0412\u0430\u0441\u0438",
+    "name": "Оценки Васи",
     "rating": 800
    },
    {
     "index": "B",
-    "name": "\u0417\u0432\u0451\u0437\u0434\u043d\u043e\u0435 \u043d\u0435\u0431\u043e",
+    "name": "Звёздное небо",
     "rating": 1200
    }
   ]
@@ -36728,31 +36472,31 @@
  {
   "id": 648,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2016 - \u041e\u0442\u0431\u043e\u0440\u043e\u0447\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 1",
+  "name": "Технокубок 2016 - Отборочный Раунд 1",
   "problems": [
    {
     "index": "A",
-    "name": "\u041d\u0430\u0438\u0431\u043e\u043b\u044c\u0448\u0438\u0439 \u043f\u043e\u0434\u044a\u0435\u043c",
+    "name": "Наибольший подъем",
     "rating": 900
    },
    {
     "index": "B",
-    "name": "\u0421\u043e\u0431\u0435\u0440\u0438 \u0441\u0442\u043e\u043b",
+    "name": "Собери стол",
     "rating": 800
    },
    {
     "index": "C",
-    "name": "\u041f\u0443\u0442\u044c \u0420\u043e\u0431\u043e\u0442\u0430",
+    "name": "Путь Робота",
     "rating": 1100
    },
    {
     "index": "D",
-    "name": "\u0421\u043e\u0431\u0430\u0447\u043a\u0438 \u0438 \u043c\u0438\u0441\u043a\u0438",
+    "name": "Собачки и миски",
     "rating": 1900
    },
    {
     "index": "E",
-    "name": "\u0421\u043e\u0431\u0435\u0440\u0438 \u0447\u0438\u0441\u043b\u043e",
+    "name": "Собери число",
     "rating": 2300
    }
   ]
@@ -36760,16 +36504,16 @@
  {
   "id": 646,
   "type": "Other",
-  "name": "\u0422\u0435\u0445\u043d\u043e\u043a\u0443\u0431\u043e\u043a 2016 - \u041e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0420\u0430\u0443\u043d\u0434 1",
+  "name": "Технокубок 2016 - Ознакомительный Раунд 1",
   "problems": [
    {
     "index": "A",
-    "name": "\u0422\u0440\u0438 \u0431\u0440\u0430\u0442\u0430",
+    "name": "Три брата",
     "rating": 800
    },
    {
     "index": "B",
-    "name": "\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f",
+    "name": "Ошибка передачи сообщения",
     "rating": 1500
    }
   ]
@@ -37274,12 +37018,12 @@
   "problems": [
    {
     "index": "A",
-    "name": "Far Relative\u2019s Birthday Cake",
+    "name": "Far Relative’s Birthday Cake",
     "rating": 800
    },
    {
     "index": "B",
-    "name": "Far Relative\u2019s Problem",
+    "name": "Far Relative’s Problem",
     "rating": 1100
    },
    {
@@ -37726,7 +37470,7 @@
    },
    {
     "index": "B",
-    "name": "Grandfather Dovlet\u2019s calculator",
+    "name": "Grandfather Dovlet’s calculator",
     "rating": 1000
    },
    {
@@ -38071,12 +37815,12 @@
   "problems": [
    {
     "index": "A",
-    "name": "\u0424\u043b\u0435\u0448-\u043a\u0430\u0440\u0442\u044b",
+    "name": "Флеш-карты",
     "rating": 800
    },
    {
     "index": "B",
-    "name": "\u041a\u043d\u0438\u0433\u0430 - \u043b\u0443\u0447\u0448\u0438\u0439 \u043f\u043e\u0434\u0430\u0440\u043e\u043a",
+    "name": "Книга - лучший подарок",
     "rating": 1100
    },
    {
@@ -38283,7 +38027,7 @@
    },
    {
     "index": "C",
-    "name": "Kleof\u00e1\u0161 and the n-thlon",
+    "name": "Kleofáš and the n-thlon",
     "rating": 2300
    },
    {
@@ -38325,7 +38069,7 @@
    },
    {
     "index": "E",
-    "name": "Kleof\u00e1\u0161 and the n-thlon",
+    "name": "Kleofáš and the n-thlon",
     "rating": 2300
    }
   ]
@@ -40087,7 +39831,7 @@
  {
   "id": 541,
   "type": "Other",
-  "name": "VK Cup 2015 - \u0420\u0430\u0443\u043d\u0434 3",
+  "name": "VK Cup 2015 - Раунд 3",
   "problems": [
    {
     "index": "A",
@@ -40641,12 +40385,12 @@
   "problems": [
    {
     "index": "A",
-    "name": "\u0412\u043e\u0437\u043c\u043e\u0436\u043d\u043e, \u0432\u044b \u0437\u043d\u0430\u0435\u0442\u0435 \u044d\u0442\u0438\u0445 \u043b\u044e\u0434\u0435\u0439?",
+    "name": "Возможно, вы знаете этих людей?",
     "rating": 1600
    },
    {
     "index": "B",
-    "name": "\u0424\u043e\u0442\u043e \u043d\u0430 \u043f\u0430\u043c\u044f\u0442\u044c - 2 (round version)",
+    "name": "Фото на память - 2 (round version)",
     "rating": 1700
    },
    {
@@ -40993,7 +40737,7 @@
   "problems": [
    {
     "index": "A",
-    "name": "Chewba\u0441ca and Number",
+    "name": "Chewbaсca and Number",
     "rating": 1200
    },
    {
@@ -43705,7 +43449,7 @@
    },
    {
     "index": "D",
-    "name": "Match & Catch",
+    "name": "Match \u0026 Catch",
     "rating": 2200
    },
    {
@@ -55916,7 +55660,7 @@
    },
    {
     "index": "E",
-    "name": "Vacuum \u0421leaner",
+    "name": "Vacuum Сleaner",
     "rating": 2700
    }
   ]

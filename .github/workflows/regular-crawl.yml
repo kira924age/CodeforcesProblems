@@ -40,7 +40,7 @@ jobs:
 
     - name: copy contests.json
       run: cp contests.json ../cf-problems-frontend/src/utils
-      working-directory: ${{ github.workspace }}/cf-problems-cf-problems-crawler
+      working-directory: ${{ github.workspace }}/cf-problems-crawler
 
     - name: git setting
       run: |

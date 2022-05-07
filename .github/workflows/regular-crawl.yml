@@ -19,7 +19,7 @@ jobs:
     - name: install chrome and run
       run: |
         curl -O https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-        sudo dpkg -i google-chrome*.dev
+        sudo dpkg -i ./google-chrome-stable_current_amd64.deb
         google-chrome-stable --headless --disable-gpu
 
     - name: make venv

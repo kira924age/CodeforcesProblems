@@ -33,7 +33,7 @@ export const makeContestColumns = (contest: string) => {
       columnNum = 9;
       break;
     case "Div. 1 + Div. 2 Contests":
-      columnNum = 8;
+      columnNum = 9;
       break;
     case "Div. 1 Contests":
       columnNum = 7;
@@ -48,7 +48,7 @@ export const makeContestColumns = (contest: string) => {
       columnNum = 8;
       break;
     case "ICPC":
-      columnNum = 14;
+      columnNum = 15;
       break;
     case "Kotlin Heroes":
       columnNum = 10;
@@ -60,7 +60,7 @@ export const makeContestColumns = (contest: string) => {
       columnNum = 15;
       break;
     case "All Contests":
-      columnNum = 14;
+      columnNum = 15;
       break;
   }
 

@@ -1,5 +1,48 @@
 [
  {
+  "id": 1676,
+  "type": "Div4",
+  "name": "Codeforces Round #790 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Lucky?"
+   },
+   {
+    "index": "B",
+    "name": "Equal Candies"
+   },
+   {
+    "index": "C",
+    "name": "Most Similar Words"
+   },
+   {
+    "index": "D",
+    "name": "X-Sum"
+   },
+   {
+    "index": "E",
+    "name": "Eating Queries"
+   },
+   {
+    "index": "F",
+    "name": "Longest Strike"
+   },
+   {
+    "index": "G",
+    "name": "White-Black Balanced Subtrees"
+   },
+   {
+    "index": "H1",
+    "name": "Maximum Crossings (Easy Version)"
+   },
+   {
+    "index": "H2",
+    "name": "Maximum Crossings (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1677,
   "type": "Div1",
   "name": "Codeforces Round #789 (Div. 1)",

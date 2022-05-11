@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Lucky?"
+    "name": "Lucky?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Equal Candies"
+    "name": "Equal Candies",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Most Similar Words"
+    "name": "Most Similar Words",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "X-Sum"
+    "name": "X-Sum",
+    "rating": 1000
    },
    {
     "index": "E",
-    "name": "Eating Queries"
+    "name": "Eating Queries",
+    "rating": 1100
    },
    {
     "index": "F",
-    "name": "Longest Strike"
+    "name": "Longest Strike",
+    "rating": 1300
    },
    {
     "index": "G",
-    "name": "White-Black Balanced Subtrees"
+    "name": "White-Black Balanced Subtrees",
+    "rating": 1300
    },
    {
     "index": "H1",
-    "name": "Maximum Crossings (Easy Version)"
+    "name": "Maximum Crossings (Easy Version)",
+    "rating": 1400
    },
    {
     "index": "H2",
-    "name": "Maximum Crossings (Hard Version)"
+    "name": "Maximum Crossings (Hard Version)",
+    "rating": 1500
    }
   ]
  },
@@ -49,27 +58,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Tokitsukaze and Strange Inequality"
+    "name": "Tokitsukaze and Strange Inequality",
+    "rating": 1600
    },
    {
     "index": "B",
-    "name": "Tokitsukaze and Meeting"
+    "name": "Tokitsukaze and Meeting",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Tokitsukaze and Two Colorful Tapes"
+    "name": "Tokitsukaze and Two Colorful Tapes",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "Tokitsukaze and Permutations"
+    "name": "Tokitsukaze and Permutations",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Tokitsukaze and Beautiful Subsegments"
+    "name": "Tokitsukaze and Beautiful Subsegments",
+    "rating": 2900
    },
    {
     "index": "F",
-    "name": "Tokitsukaze and Gems"
+    "name": "Tokitsukaze and Gems",
+    "rating": 3500
    }
   ]
  },
@@ -80,31 +95,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Tokitsukaze and All Zero Sequence"
+    "name": "Tokitsukaze and All Zero Sequence",
+    "rating": 800
    },
    {
     "index": "B1",
-    "name": "Tokitsukaze and Good 01-String (easy version)"
+    "name": "Tokitsukaze and Good 01-String (easy version)",
+    "rating": 800
    },
    {
     "index": "B2",
-    "name": "Tokitsukaze and Good 01-String (hard version)"
+    "name": "Tokitsukaze and Good 01-String (hard version)",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "Tokitsukaze and Strange Inequality"
+    "name": "Tokitsukaze and Strange Inequality",
+    "rating": "1600"
    },
    {
     "index": "D",
-    "name": "Tokitsukaze and Meeting"
+    "name": "Tokitsukaze and Meeting",
+    "rating": "1700"
    },
    {
     "index": "E",
-    "name": "Tokitsukaze and Two Colorful Tapes"
+    "name": "Tokitsukaze and Two Colorful Tapes",
+    "rating": "1900"
    },
    {
     "index": "F",
-    "name": "Tokitsukaze and Permutations"
+    "name": "Tokitsukaze and Permutations",
+    "rating": "2500"
    }
   ]
  },

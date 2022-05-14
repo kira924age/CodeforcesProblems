@@ -1,5 +1,36 @@
 [
  {
+  "id": 1680,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 128 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Minimums and Maximums"
+   },
+   {
+    "index": "B",
+    "name": "Robots"
+   },
+   {
+    "index": "C",
+    "name": "Binary String"
+   },
+   {
+    "index": "D",
+    "name": "Dog Walking"
+   },
+   {
+    "index": "E",
+    "name": "Moving Chips"
+   },
+   {
+    "index": "F",
+    "name": "Lenient Vertex Cover"
+   }
+  ]
+ },
+ {
   "id": 1676,
   "type": "Div4",
   "name": "Codeforces Round #790 (Div. 4)",

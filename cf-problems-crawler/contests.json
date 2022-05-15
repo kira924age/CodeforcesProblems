@@ -1,5 +1,36 @@
 [
  {
+  "id": 1679,
+  "type": "Div2",
+  "name": "Codeforces Round #791 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "AvtoBus"
+   },
+   {
+    "index": "B",
+    "name": "Stone Age Problem"
+   },
+   {
+    "index": "C",
+    "name": "Rooks Defenders"
+   },
+   {
+    "index": "D",
+    "name": "Toss a Coin to Your Graph..."
+   },
+   {
+    "index": "E",
+    "name": "Typical Party in Dorm"
+   },
+   {
+    "index": "F",
+    "name": "Formalism for Formalism"
+   }
+  ]
+ },
+ {
   "id": 1680,
   "type": "Educational",
   "name": "Educational Codeforces Round 128 (Rated for Div. 2)",

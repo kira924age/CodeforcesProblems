@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "AvtoBus"
+    "name": "AvtoBus",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Stone Age Problem"
+    "name": "Stone Age Problem",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Rooks Defenders"
+    "name": "Rooks Defenders",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Toss a Coin to Your Graph..."
+    "name": "Toss a Coin to Your Graph...",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Typical Party in Dorm"
+    "name": "Typical Party in Dorm",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Formalism for Formalism"
+    "name": "Formalism for Formalism",
+    "rating": 2600
    }
   ]
  },

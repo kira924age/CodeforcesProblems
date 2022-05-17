@@ -43,27 +43,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Minimums and Maximums"
+    "name": "Minimums and Maximums",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Robots"
+    "name": "Robots",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Binary String"
+    "name": "Binary String",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Dog Walking"
+    "name": "Dog Walking",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Moving Chips"
+    "name": "Moving Chips",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Lenient Vertex Cover"
+    "name": "Lenient Vertex Cover",
+    "rating": 2600
    }
   ]
  },

@@ -1,5 +1,52 @@
 [
  {
+  "id": 1684,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round #792 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Digit Minimization",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Z mod X = C",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Column Swapping",
+    "rating": 1400
+   },
+   {
+    "index": "D",
+    "name": "Traps",
+    "rating": 1700
+   },
+   {
+    "index": "E",
+    "name": "MEX vs DIFF",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Diverse Segments",
+    "rating": 2600
+   },
+   {
+    "index": "G",
+    "name": "Euclid Guess",
+    "rating": 2800
+   },
+   {
+    "index": "H",
+    "name": "Hard Cut",
+    "rating": 3400
+   }
+  ]
+ },
+ {
   "id": 1679,
   "type": "Div2",
   "name": "Codeforces Round #791 (Div. 2)",

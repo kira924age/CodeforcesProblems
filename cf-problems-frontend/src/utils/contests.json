@@ -1,5 +1,36 @@
 [
  {
+  "id": 1682,
+  "type": "Div2",
+  "name": "Codeforces Round #793 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Palindromic Indices"
+   },
+   {
+    "index": "B",
+    "name": "AND Sorting"
+   },
+   {
+    "index": "C",
+    "name": "LIS or Reverse LIS?"
+   },
+   {
+    "index": "D",
+    "name": "Circular Spanning Tree"
+   },
+   {
+    "index": "E",
+    "name": "Unordered Swaps"
+   },
+   {
+    "index": "F",
+    "name": "MCMF?"
+   }
+  ]
+ },
+ {
   "id": 1684,
   "type": "Div1 + Div2",
   "name": "Codeforces Round #792 (Div. 1 + Div. 2)",

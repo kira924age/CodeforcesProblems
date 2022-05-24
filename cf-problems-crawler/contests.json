@@ -1,5 +1,36 @@
 [
  {
+  "id": 1681,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 129 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Game with Cards"
+   },
+   {
+    "index": "B",
+    "name": "Card Trick"
+   },
+   {
+    "index": "C",
+    "name": "Double Sort"
+   },
+   {
+    "index": "D",
+    "name": "Required Length"
+   },
+   {
+    "index": "E",
+    "name": "Labyrinth Adventures"
+   },
+   {
+    "index": "F",
+    "name": "Unique Occurrences"
+   }
+  ]
+ },
+ {
   "id": 1682,
   "type": "Div2",
   "name": "Codeforces Round #793 (Div. 2)",

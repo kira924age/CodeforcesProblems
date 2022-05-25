@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Game with Cards"
+    "name": "Game with Cards",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Card Trick"
+    "name": "Card Trick",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Double Sort"
+    "name": "Double Sort",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Required Length"
+    "name": "Required Length",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Labyrinth Adventures"
+    "name": "Labyrinth Adventures",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Unique Occurrences"
+    "name": "Unique Occurrences",
+    "rating": 2300
    }
   ]
  },

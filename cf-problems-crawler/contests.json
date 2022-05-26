@@ -1,5 +1,67 @@
 [
  {
+  "id": 1685,
+  "type": "Div1",
+  "name": "Codeforces Round #794 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Circular Local MiniMax"
+   },
+   {
+    "index": "B",
+    "name": "Linguistics"
+   },
+   {
+    "index": "C",
+    "name": "Bring Balance"
+   },
+   {
+    "index": "D1",
+    "name": "Permutation Weight (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Permutation Weight (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "The Ultimate LIS Problem"
+   }
+  ]
+ },
+ {
+  "id": 1686,
+  "type": "Div2",
+  "name": "Codeforces Round #794 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Everything Everywhere All But One"
+   },
+   {
+    "index": "B",
+    "name": "Odd Subarrays"
+   },
+   {
+    "index": "C",
+    "name": "Circular Local MiniMax"
+   },
+   {
+    "index": "D",
+    "name": "Linguistics"
+   },
+   {
+    "index": "E",
+    "name": "Bring Balance"
+   },
+   {
+    "index": "F",
+    "name": "Permutation Weight (Easy Version)"
+   }
+  ]
+ },
+ {
   "id": 1681,
   "type": "Educational",
   "name": "Educational Codeforces Round 129 (Rated for Div. 2)",

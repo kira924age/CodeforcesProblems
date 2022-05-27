@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Circular Local MiniMax"
+    "name": "Circular Local MiniMax",
+    "rating": 1100
    },
    {
     "index": "B",
-    "name": "Linguistics"
+    "name": "Linguistics",
+    "rating": 2000
    },
    {
     "index": "C",
-    "name": "Bring Balance"
+    "name": "Bring Balance",
+    "rating": 2600
    },
    {
     "index": "D1",
-    "name": "Permutation Weight (Easy Version)"
+    "name": "Permutation Weight (Easy Version)",
+    "rating": 2800
    },
    {
     "index": "D2",
-    "name": "Permutation Weight (Hard Version)"
+    "name": "Permutation Weight (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "E",
-    "name": "The Ultimate LIS Problem"
+    "name": "The Ultimate LIS Problem",
+    "rating": 3500
    }
   ]
  },
@@ -45,19 +51,23 @@
    },
    {
     "index": "C",
-    "name": "Circular Local MiniMax"
+    "name": "Circular Local MiniMax",
+    "rating": "1100"
    },
    {
     "index": "D",
-    "name": "Linguistics"
+    "name": "Linguistics",
+    "rating": "2000"
    },
    {
     "index": "E",
-    "name": "Bring Balance"
+    "name": "Bring Balance",
+    "rating": "2600"
    },
    {
     "index": "F",
-    "name": "Permutation Weight (Easy Version)"
+    "name": "Permutation Weight (Easy Version)",
+    "rating": "2800"
    }
   ]
  },

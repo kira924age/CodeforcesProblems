@@ -43,11 +43,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Everything Everywhere All But One"
+    "name": "Everything Everywhere All But One",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Odd Subarrays"
+    "name": "Odd Subarrays",
+    "rating": 800
    },
    {
     "index": "C",
@@ -115,27 +117,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Palindromic Indices"
+    "name": "Palindromic Indices",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "AND Sorting"
+    "name": "AND Sorting",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "LIS or Reverse LIS?"
+    "name": "LIS or Reverse LIS?",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Circular Spanning Tree"
+    "name": "Circular Spanning Tree",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Unordered Swaps"
+    "name": "Unordered Swaps",
+    "rating": 2700
    },
    {
     "index": "F",
-    "name": "MCMF?"
+    "name": "MCMF?",
+    "rating": 2700
    }
   ]
  },

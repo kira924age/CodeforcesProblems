@@ -1,32 +1,100 @@
 [
  {
+  "id": 1687,
+  "type": "Div1",
+  "name": "Codeforces Round #796 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Enchanted Forest"
+   },
+   {
+    "index": "B",
+    "name": "Railway System"
+   },
+   {
+    "index": "C",
+    "name": "Sanae and Giant Robot"
+   },
+   {
+    "index": "D",
+    "name": "Cute number"
+   },
+   {
+    "index": "E",
+    "name": "Become Big For Me"
+   },
+   {
+    "index": "F",
+    "name": "Koishi's Unconscious Permutation"
+   }
+  ]
+ },
+ {
+  "id": 1688,
+  "type": "Div2",
+  "name": "Codeforces Round #796 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cirno's Perfect Bitmasks Classroom"
+   },
+   {
+    "index": "B",
+    "name": "Patchouli's Magical Talisman"
+   },
+   {
+    "index": "C",
+    "name": "Manipulating History"
+   },
+   {
+    "index": "D",
+    "name": "The Enchanted Forest"
+   },
+   {
+    "index": "E",
+    "name": "Railway System"
+   },
+   {
+    "index": "F",
+    "name": "Sanae and Giant Robot"
+   }
+  ]
+ },
+ {
   "id": 1691,
   "type": "Div2",
   "name": "CodeCraft-22 and Codeforces Round #795 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Beat The Odds"
+    "name": "Beat The Odds",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Shoe Shuffling"
+    "name": "Shoe Shuffling",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Sum of Substrings"
+    "name": "Sum of Substrings",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Max GEQ Sum"
+    "name": "Max GEQ Sum",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Number of Groups"
+    "name": "Number of Groups",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "K-Set Tree"
+    "name": "K-Set Tree",
+    "rating": 2500
    }
   ]
  },

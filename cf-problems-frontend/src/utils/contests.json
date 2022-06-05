@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Enchanted Forest"
+    "name": "The Enchanted Forest",
+    "rating": 1600
    },
    {
     "index": "B",
-    "name": "Railway System"
+    "name": "Railway System",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Sanae and Giant Robot"
+    "name": "Sanae and Giant Robot",
+    "rating": 2500
    },
    {
     "index": "D",
-    "name": "Cute number"
+    "name": "Cute number",
+    "rating": 2900
    },
    {
     "index": "E",
-    "name": "Become Big For Me"
+    "name": "Become Big For Me",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "Koishi's Unconscious Permutation"
+    "name": "Koishi's Unconscious Permutation",
+    "rating": 3500
    }
   ]
  },
@@ -37,27 +43,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Cirno's Perfect Bitmasks Classroom"
+    "name": "Cirno's Perfect Bitmasks Classroom",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Patchouli's Magical Talisman"
+    "name": "Patchouli's Magical Talisman",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Manipulating History"
+    "name": "Manipulating History",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "The Enchanted Forest"
+    "name": "The Enchanted Forest",
+    "rating": "1600"
    },
    {
     "index": "E",
-    "name": "Railway System"
+    "name": "Railway System",
+    "rating": "1700"
    },
    {
     "index": "F",
-    "name": "Sanae and Giant Robot"
+    "name": "Sanae and Giant Robot",
+    "rating": "2500"
    }
   ]
  },

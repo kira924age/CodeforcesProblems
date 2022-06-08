@@ -1,5 +1,40 @@
 [
  {
+  "id": 1690,
+  "type": "Div3",
+  "name": "Codeforces Round #797 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Print a Pedestal (Codeforces logo?)"
+   },
+   {
+    "index": "B",
+    "name": "Array Decrements"
+   },
+   {
+    "index": "C",
+    "name": "Restoring the Duration of Tasks"
+   },
+   {
+    "index": "D",
+    "name": "Black and White Stripe"
+   },
+   {
+    "index": "E",
+    "name": "Price Maximization"
+   },
+   {
+    "index": "F",
+    "name": "Shifting String"
+   },
+   {
+    "index": "G",
+    "name": "Count the Trains"
+   }
+  ]
+ },
+ {
   "id": 1687,
   "type": "Div1",
   "name": "Codeforces Round #796 (Div. 1)",

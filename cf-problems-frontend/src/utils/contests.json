@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Print a Pedestal (Codeforces logo?)"
+    "name": "Print a Pedestal (Codeforces logo?)",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array Decrements"
+    "name": "Array Decrements",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Restoring the Duration of Tasks"
+    "name": "Restoring the Duration of Tasks",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Black and White Stripe"
+    "name": "Black and White Stripe",
+    "rating": 1000
    },
    {
     "index": "E",
-    "name": "Price Maximization"
+    "name": "Price Maximization",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Shifting String"
+    "name": "Shifting String",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Count the Trains"
+    "name": "Count the Trains",
+    "rating": 2000
    }
   ]
  },

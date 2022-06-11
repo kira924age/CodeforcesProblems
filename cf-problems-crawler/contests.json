@@ -1,5 +1,32 @@
 [
  {
+  "id": 1689,
+  "type": "Div2",
+  "name": "Codeforces Round #798 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Lex String"
+   },
+   {
+    "index": "B",
+    "name": "Mystic Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Infected Tree"
+   },
+   {
+    "index": "D",
+    "name": "Lena and Matrix"
+   },
+   {
+    "index": "E",
+    "name": "ANDfinity"
+   }
+  ]
+ },
+ {
   "id": 1690,
   "type": "Div3",
   "name": "Codeforces Round #797 (Div. 3)",

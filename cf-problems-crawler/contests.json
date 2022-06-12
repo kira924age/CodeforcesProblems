@@ -6,23 +6,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "Lex String"
+    "name": "Lex String",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Mystic Permutation"
+    "name": "Mystic Permutation",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Infected Tree"
+    "name": "Infected Tree",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Lena and Matrix"
+    "name": "Lena and Matrix",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "ANDfinity"
+    "name": "ANDfinity",
+    "rating": 2500
    }
   ]
  },

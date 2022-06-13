@@ -1,5 +1,36 @@
 [
  {
+  "id": 1697,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 130 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Parkway Walk"
+   },
+   {
+    "index": "B",
+    "name": "Promo"
+   },
+   {
+    "index": "C",
+    "name": "awoo's Favorite Problem"
+   },
+   {
+    "index": "D",
+    "name": "Guess The String"
+   },
+   {
+    "index": "E",
+    "name": "Coloring"
+   },
+   {
+    "index": "F",
+    "name": "Too Many Constraints"
+   }
+  ]
+ },
+ {
   "id": 1689,
   "type": "Div2",
   "name": "Codeforces Round #798 (Div. 2)",

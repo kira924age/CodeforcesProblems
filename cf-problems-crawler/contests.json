@@ -45,27 +45,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Parkway Walk"
+    "name": "Parkway Walk",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Promo"
+    "name": "Promo",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "awoo's Favorite Problem"
+    "name": "awoo's Favorite Problem",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Guess The String"
+    "name": "Guess The String",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Coloring"
+    "name": "Coloring",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Too Many Constraints"
+    "name": "Too Many Constraints",
+    "rating": 2800
    }
   ]
  },

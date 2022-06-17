@@ -1,40 +1,122 @@
 [
  {
+  "id": 1693,
+  "type": "Div1",
+  "name": "Codeforces Round #800 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Directional Increase",
+    "rating": 1300
+   },
+   {
+    "index": "B",
+    "name": "Fake Plastic Trees",
+    "rating": 1700
+   },
+   {
+    "index": "C",
+    "name": "Keshi in Search of AmShZ",
+    "rating": 2300
+   },
+   {
+    "index": "D",
+    "name": "Decinc Dividing",
+    "rating": 2800
+   },
+   {
+    "index": "E",
+    "name": "Outermost Maximums",
+    "rating": 3400
+   },
+   {
+    "index": "F",
+    "name": "I Might Be Wrong",
+    "rating": 3400
+   }
+  ]
+ },
+ {
+  "id": 1694,
+  "type": "Div2",
+  "name": "Codeforces Round #800 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Creep",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Paranoid String",
+    "rating": 1200
+   },
+   {
+    "index": "C",
+    "name": "Directional Increase",
+    "rating": "1300"
+   },
+   {
+    "index": "D",
+    "name": "Fake Plastic Trees",
+    "rating": "1700"
+   },
+   {
+    "index": "E",
+    "name": "Keshi in Search of AmShZ",
+    "rating": "2300"
+   },
+   {
+    "index": "F",
+    "name": "Decinc Dividing",
+    "rating": "2800"
+   }
+  ]
+ },
+ {
   "id": 1692,
   "type": "Div4",
   "name": "Codeforces Round #799 (Div. 4)",
   "problems": [
    {
     "index": "A",
-    "name": "Marathon"
+    "name": "Marathon",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "All Distinct"
+    "name": "All Distinct",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Where's the Bishop?"
+    "name": "Where's the Bishop?",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "The Clock"
+    "name": "The Clock",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Binary Deque"
+    "name": "Binary Deque",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "3SUM"
+    "name": "3SUM",
+    "rating": 1300
    },
    {
     "index": "G",
-    "name": "2^Sort"
+    "name": "2^Sort",
+    "rating": 1400
    },
    {
     "index": "H",
-    "name": "Gambling"
+    "name": "Gambling",
+    "rating": 1700
    }
   ]
  },

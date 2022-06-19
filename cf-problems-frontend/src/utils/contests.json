@@ -1,5 +1,36 @@
 [
  {
+  "id": 1695,
+  "type": "Div2",
+  "name": "Codeforces Round #801 (Div. 2) and EPIC Institute of Technology Round",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Subrectangle Guess"
+   },
+   {
+    "index": "B",
+    "name": "Circle Game"
+   },
+   {
+    "index": "C",
+    "name": "Zero Path"
+   },
+   {
+    "index": "D1",
+    "name": "Tree Queries (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Tree Queries (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Ambiguous Dominoes"
+   }
+  ]
+ },
+ {
   "id": 1693,
   "type": "Div1",
   "name": "Codeforces Round #800 (Div. 1)",

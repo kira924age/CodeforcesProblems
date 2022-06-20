@@ -1,5 +1,42 @@
 [
  {
+  "id": 1700,
+  "type": "Div2",
+  "name": "Codeforces Round #802 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Optimal Path",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Palindromic Numbers",
+    "rating": 1100
+   },
+   {
+    "index": "C",
+    "name": "Helping the Nature",
+    "rating": 1700
+   },
+   {
+    "index": "D",
+    "name": "River Locks",
+    "rating": 1900
+   },
+   {
+    "index": "E",
+    "name": "Serega the Pirate",
+    "rating": 2600
+   },
+   {
+    "index": "F",
+    "name": "Puzzle",
+    "rating": 2600
+   }
+  ]
+ },
+ {
   "id": 1695,
   "type": "Div2",
   "name": "Codeforces Round #801 (Div. 2) and EPIC Institute of Technology Round",

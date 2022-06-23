@@ -43,27 +43,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Subrectangle Guess"
+    "name": "Subrectangle Guess",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Circle Game"
+    "name": "Circle Game",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Zero Path"
+    "name": "Zero Path",
+    "rating": 1700
    },
    {
     "index": "D1",
-    "name": "Tree Queries (Easy Version)"
+    "name": "Tree Queries (Easy Version)",
+    "rating": 2200
    },
    {
     "index": "D2",
-    "name": "Tree Queries (Hard Version)"
+    "name": "Tree Queries (Hard Version)",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Ambiguous Dominoes"
+    "name": "Ambiguous Dominoes",
+    "rating": 2700
    }
   ]
  },

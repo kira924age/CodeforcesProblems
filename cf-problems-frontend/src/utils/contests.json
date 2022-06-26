@@ -1,5 +1,44 @@
 [
  {
+  "id": 1696,
+  "type": "Global",
+  "name": "Codeforces Global Round 21",
+  "problems": [
+   {
+    "index": "A",
+    "name": "NIT orz!"
+   },
+   {
+    "index": "B",
+    "name": "NIT Destroys the Universe"
+   },
+   {
+    "index": "C",
+    "name": "Fishingprince Plays With Array"
+   },
+   {
+    "index": "D",
+    "name": "Permutation Graph"
+   },
+   {
+    "index": "E",
+    "name": "Placing Jinas"
+   },
+   {
+    "index": "F",
+    "name": "Tree Recovery"
+   },
+   {
+    "index": "G",
+    "name": "Fishingprince Plays With Array Again"
+   },
+   {
+    "index": "H",
+    "name": "Maximum Product?"
+   }
+  ]
+ },
+ {
   "id": 1700,
   "type": "Div2",
   "name": "Codeforces Round #802 (Div. 2)",

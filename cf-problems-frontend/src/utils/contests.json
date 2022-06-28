@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "NIT orz!"
+    "name": "NIT orz!",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "NIT Destroys the Universe"
+    "name": "NIT Destroys the Universe",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Fishingprince Plays With Array"
+    "name": "Fishingprince Plays With Array",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Permutation Graph"
+    "name": "Permutation Graph",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Placing Jinas"
+    "name": "Placing Jinas",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Tree Recovery"
+    "name": "Tree Recovery",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Fishingprince Plays With Array Again"
+    "name": "Fishingprince Plays With Array Again",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "Maximum Product?"
+    "name": "Maximum Product?",
+    "rating": 3500
    }
   ]
  },

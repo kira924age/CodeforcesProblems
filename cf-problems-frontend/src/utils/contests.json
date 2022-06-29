@@ -1,5 +1,40 @@
 [
  {
+  "id": 1698,
+  "type": "Div2",
+  "name": "Codeforces Round #803 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "XOR Mixup"
+   },
+   {
+    "index": "B",
+    "name": "Rising Sand"
+   },
+   {
+    "index": "C",
+    "name": "3SUM Closure"
+   },
+   {
+    "index": "D",
+    "name": "Fixed Point Guessing"
+   },
+   {
+    "index": "E",
+    "name": "PermutationForces II"
+   },
+   {
+    "index": "F",
+    "name": "Equal Reversal"
+   },
+   {
+    "index": "G",
+    "name": "Long Binary String"
+   }
+  ]
+ },
+ {
   "id": 1696,
   "type": "Global",
   "name": "Codeforces Global Round 21",

@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "XOR Mixup"
+    "name": "XOR Mixup",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Rising Sand"
+    "name": "Rising Sand",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "3SUM Closure"
+    "name": "3SUM Closure",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Fixed Point Guessing"
+    "name": "Fixed Point Guessing",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "PermutationForces II"
+    "name": "PermutationForces II",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Equal Reversal"
+    "name": "Equal Reversal",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Long Binary String"
+    "name": "Long Binary String",
+    "rating": 2900
    }
   ]
  },

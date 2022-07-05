@@ -1,5 +1,32 @@
 [
  {
+  "id": 1699,
+  "type": "Div2",
+  "name": "Codeforces Round #804 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Third Three Number Problem"
+   },
+   {
+    "index": "B",
+    "name": "Almost Ternary Matrix"
+   },
+   {
+    "index": "C",
+    "name": "The Third Problem"
+   },
+   {
+    "index": "D",
+    "name": "Almost Triple Deletions"
+   },
+   {
+    "index": "E",
+    "name": "Three Days Grace"
+   }
+  ]
+ },
+ {
   "id": 1698,
   "type": "Div2",
   "name": "Codeforces Round #803 (Div. 2)",

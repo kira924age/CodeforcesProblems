@@ -6,23 +6,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Third Three Number Problem"
+    "name": "The Third Three Number Problem",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Almost Ternary Matrix"
+    "name": "Almost Ternary Matrix",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "The Third Problem"
+    "name": "The Third Problem",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Almost Triple Deletions"
+    "name": "Almost Triple Deletions",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Three Days Grace"
+    "name": "Three Days Grace",
+    "rating": 2600
    }
   ]
  },

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1701,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 131 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Grass Field"
+   },
+   {
+    "index": "B",
+    "name": "Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Schedule Management"
+   },
+   {
+    "index": "D",
+    "name": "Permutation Restoration"
+   },
+   {
+    "index": "E",
+    "name": "Text Editor"
+   },
+   {
+    "index": "F",
+    "name": "Points"
+   }
+  ]
+ },
+ {
   "id": 1699,
   "type": "Div2",
   "name": "Codeforces Round #804 (Div. 2)",

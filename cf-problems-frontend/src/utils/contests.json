@@ -1,5 +1,44 @@
 [
  {
+  "id": 1702,
+  "type": "Div3",
+  "name": "Codeforces Round #805 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Round Down the Price"
+   },
+   {
+    "index": "B",
+    "name": "Polycarp Writes a String from Memory"
+   },
+   {
+    "index": "C",
+    "name": "Train and Queries"
+   },
+   {
+    "index": "D",
+    "name": "Not a Cheap String"
+   },
+   {
+    "index": "E",
+    "name": "Split Into Two Sets"
+   },
+   {
+    "index": "F",
+    "name": "Equate Multisets"
+   },
+   {
+    "index": "G1",
+    "name": "Passable Paths (easy version)"
+   },
+   {
+    "index": "G2",
+    "name": "Passable Paths (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1701,
   "type": "Educational",
   "name": "Educational Codeforces Round 131 (Rated for Div. 2)",

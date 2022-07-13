@@ -1,40 +1,83 @@
 [
  {
+  "id": 1703,
+  "type": "Div4",
+  "name": "Codeforces Round #806 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "YES or YES?"
+   },
+   {
+    "index": "B",
+    "name": "ICPC Balloons"
+   },
+   {
+    "index": "C",
+    "name": "Cypher"
+   },
+   {
+    "index": "D",
+    "name": "Double Strings"
+   },
+   {
+    "index": "E",
+    "name": "Mirror Grid"
+   },
+   {
+    "index": "F",
+    "name": "Yet Another Problem About Pairs Satisfying an Inequality"
+   },
+   {
+    "index": "G",
+    "name": "Good Key, Bad Key"
+   }
+  ]
+ },
+ {
   "id": 1702,
   "type": "Div3",
   "name": "Codeforces Round #805 (Div. 3)",
   "problems": [
    {
     "index": "A",
-    "name": "Round Down the Price"
+    "name": "Round Down the Price",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Polycarp Writes a String from Memory"
+    "name": "Polycarp Writes a String from Memory",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Train and Queries"
+    "name": "Train and Queries",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Not a Cheap String"
+    "name": "Not a Cheap String",
+    "rating": 1000
    },
    {
     "index": "E",
-    "name": "Split Into Two Sets"
+    "name": "Split Into Two Sets",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Equate Multisets"
+    "name": "Equate Multisets",
+    "rating": 1700
    },
    {
     "index": "G1",
-    "name": "Passable Paths (easy version)"
+    "name": "Passable Paths (easy version)",
+    "rating": 1900
    },
    {
     "index": "G2",
-    "name": "Passable Paths (hard version)"
+    "name": "Passable Paths (hard version)",
+    "rating": 2000
    }
   ]
  },
@@ -45,27 +88,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Grass Field"
+    "name": "Grass Field",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Permutation"
+    "name": "Permutation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Schedule Management"
+    "name": "Schedule Management",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Permutation Restoration"
+    "name": "Permutation Restoration",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Text Editor"
+    "name": "Text Editor",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Points"
+    "name": "Points",
+    "rating": 2500
    }
   ]
  },

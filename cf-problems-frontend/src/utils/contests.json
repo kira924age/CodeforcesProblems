@@ -1,5 +1,67 @@
 [
  {
+  "id": 1707,
+  "type": "Div1",
+  "name": "Codeforces Round #808 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Doremy's IQ"
+   },
+   {
+    "index": "B",
+    "name": "Difference Array"
+   },
+   {
+    "index": "C",
+    "name": "DFS Trees"
+   },
+   {
+    "index": "D",
+    "name": "Partial Virtual Trees"
+   },
+   {
+    "index": "E",
+    "name": "Replace"
+   },
+   {
+    "index": "F",
+    "name": "Bugaboo"
+   }
+  ]
+ },
+ {
+  "id": 1708,
+  "type": "Div2",
+  "name": "Codeforces Round #808 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Difference Operations"
+   },
+   {
+    "index": "B",
+    "name": "Difference of GCDs"
+   },
+   {
+    "index": "C",
+    "name": "Doremy's IQ"
+   },
+   {
+    "index": "D",
+    "name": "Difference Array"
+   },
+   {
+    "index": "E",
+    "name": "DFS Trees"
+   },
+   {
+    "index": "F",
+    "name": "Partial Virtual Trees"
+   }
+  ]
+ },
+ {
   "id": 1705,
   "type": "Div2",
   "name": "Codeforces Round #807 (Div. 2)",

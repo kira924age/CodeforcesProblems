@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Another String Minimization Problem"
+    "name": "Another String Minimization Problem",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Making Towers"
+    "name": "Making Towers",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Qpwoeirut And The City"
+    "name": "Qpwoeirut And The City",
+    "rating": 1400
    },
    {
     "index": "D1",
-    "name": "Chopping Carrots (Easy Version)"
+    "name": "Chopping Carrots (Easy Version)",
+    "rating": 1700
    },
    {
     "index": "D2",
-    "name": "Chopping Carrots (Hard Version)"
+    "name": "Chopping Carrots (Hard Version)",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Qpwoeirut and Vertices"
+    "name": "Qpwoeirut and Vertices",
+    "rating": 2300
    }
   ]
  },
@@ -37,27 +43,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Doremy's IQ"
+    "name": "Doremy's IQ",
+    "rating": 1600
    },
    {
     "index": "B",
-    "name": "Difference Array"
+    "name": "Difference Array",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "DFS Trees"
+    "name": "DFS Trees",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Partial Virtual Trees"
+    "name": "Partial Virtual Trees",
+    "rating": 3000
    },
    {
     "index": "E",
-    "name": "Replace"
+    "name": "Replace",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "Bugaboo"
+    "name": "Bugaboo",
+    "rating": 3500
    }
   ]
  },
@@ -68,27 +80,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Difference Operations"
+    "name": "Difference Operations",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Difference of GCDs"
+    "name": "Difference of GCDs",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Doremy's IQ"
+    "name": "Doremy's IQ",
+    "rating": "1600"
    },
    {
     "index": "D",
-    "name": "Difference Array"
+    "name": "Difference Array",
+    "rating": "1900"
    },
    {
     "index": "E",
-    "name": "DFS Trees"
+    "name": "DFS Trees",
+    "rating": "2400"
    },
    {
     "index": "F",
-    "name": "Partial Virtual Trees"
+    "name": "Partial Virtual Trees",
+    "rating": "3000"
    }
   ]
  },
@@ -99,27 +117,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Mark the Photographer"
+    "name": "Mark the Photographer",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Mark the Dust Sweeper"
+    "name": "Mark the Dust Sweeper",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Mark and His Unfinished Essay"
+    "name": "Mark and His Unfinished Essay",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Mark and Lightbulbs"
+    "name": "Mark and Lightbulbs",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Mark and Professor Koro"
+    "name": "Mark and Professor Koro",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Mark and the Online Exam"
+    "name": "Mark and the Online Exam",
+    "rating": 2900
    }
   ]
  },
@@ -130,31 +154,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "YES or YES?"
+    "name": "YES or YES?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "ICPC Balloons"
+    "name": "ICPC Balloons",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Cypher"
+    "name": "Cypher",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Double Strings"
+    "name": "Double Strings",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Mirror Grid"
+    "name": "Mirror Grid",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "Yet Another Problem About Pairs Satisfying an Inequality"
+    "name": "Yet Another Problem About Pairs Satisfying an Inequality",
+    "rating": 1300
    },
    {
     "index": "G",
-    "name": "Good Key, Bad Key"
+    "name": "Good Key, Bad Key",
+    "rating": 1600
    }
   ]
  },

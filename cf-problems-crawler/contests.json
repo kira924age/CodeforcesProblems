@@ -1,5 +1,36 @@
 [
  {
+  "id": 1709,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 132 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Three Doors"
+   },
+   {
+    "index": "B",
+    "name": "Also Try Minecraft"
+   },
+   {
+    "index": "C",
+    "name": "Recover an RBS"
+   },
+   {
+    "index": "D",
+    "name": "Rorororobot"
+   },
+   {
+    "index": "E",
+    "name": "XOR Tree"
+   },
+   {
+    "index": "F",
+    "name": "Multiset of Strings"
+   }
+  ]
+ },
+ {
   "id": 1706,
   "type": "Div2",
   "name": "Codeforces Round #809 (Div. 2)",

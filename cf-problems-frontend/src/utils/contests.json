@@ -1,5 +1,59 @@
 [
  {
+  "id": 1710,
+  "type": "Div1",
+  "name": "Codeforces Round #810 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Color the Picture"
+   },
+   {
+    "index": "B",
+    "name": "Rain"
+   },
+   {
+    "index": "C",
+    "name": "XOR Triangle"
+   },
+   {
+    "index": "D",
+    "name": "Recover the Tree"
+   },
+   {
+    "index": "E",
+    "name": "Two Arrays"
+   }
+  ]
+ },
+ {
+  "id": 1711,
+  "type": "Div2",
+  "name": "Codeforces Round #810 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Perfect Permutation"
+   },
+   {
+    "index": "B",
+    "name": "Party"
+   },
+   {
+    "index": "C",
+    "name": "Color the Picture"
+   },
+   {
+    "index": "D",
+    "name": "Rain"
+   },
+   {
+    "index": "E",
+    "name": "XOR Triangle"
+   }
+  ]
+ },
+ {
   "id": 1709,
   "type": "Educational",
   "name": "Educational Codeforces Round 132 (Rated for Div. 2)",

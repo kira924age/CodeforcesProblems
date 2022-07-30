@@ -6,23 +6,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "Color the Picture"
+    "name": "Color the Picture",
+    "rating": 1500
    },
    {
     "index": "B",
-    "name": "Rain"
+    "name": "Rain",
+    "rating": 2100
    },
    {
     "index": "C",
-    "name": "XOR Triangle"
+    "name": "XOR Triangle",
+    "rating": 2500
    },
    {
     "index": "D",
-    "name": "Recover the Tree"
+    "name": "Recover the Tree",
+    "rating": 3400
    },
    {
     "index": "E",
-    "name": "Two Arrays"
+    "name": "Two Arrays",
+    "rating": 2400
    }
   ]
  },
@@ -33,23 +38,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "Perfect Permutation"
+    "name": "Perfect Permutation",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Party"
+    "name": "Party",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Color the Picture"
+    "name": "Color the Picture",
+    "rating": "1500"
    },
    {
     "index": "D",
-    "name": "Rain"
+    "name": "Rain",
+    "rating": "2100"
    },
    {
     "index": "E",
-    "name": "XOR Triangle"
+    "name": "XOR Triangle",
+    "rating": "2500"
    }
   ]
  },
@@ -60,27 +70,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Three Doors"
+    "name": "Three Doors",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Also Try Minecraft"
+    "name": "Also Try Minecraft",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Recover an RBS"
+    "name": "Recover an RBS",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Rorororobot"
+    "name": "Rorororobot",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "XOR Tree"
+    "name": "XOR Tree",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Multiset of Strings"
+    "name": "Multiset of Strings",
+    "rating": 2500
    }
   ]
  },

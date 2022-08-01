@@ -1,5 +1,48 @@
 [
  {
+  "id": 1704,
+  "type": "Div1 + Div2",
+  "name": "CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Two 0-1 Sequences"
+   },
+   {
+    "index": "B",
+    "name": "Luke is a Foodie"
+   },
+   {
+    "index": "C",
+    "name": "Virus"
+   },
+   {
+    "index": "D",
+    "name": "Magical Array"
+   },
+   {
+    "index": "E",
+    "name": "Count Seconds"
+   },
+   {
+    "index": "F",
+    "name": "Colouring Game"
+   },
+   {
+    "index": "G",
+    "name": "Mio and Lucky Array"
+   },
+   {
+    "index": "H1",
+    "name": "Game of AI (easy version)"
+   },
+   {
+    "index": "H2",
+    "name": "Game of AI (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1710,
   "type": "Div1",
   "name": "Codeforces Round #810 (Div. 1)",

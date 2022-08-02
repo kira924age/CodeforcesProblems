@@ -1,5 +1,40 @@
 [
  {
+  "id": 1714,
+  "type": "Div3",
+  "name": "Codeforces Round #811 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Everyone Loves to Sleep"
+   },
+   {
+    "index": "B",
+    "name": "Remove Prefix"
+   },
+   {
+    "index": "C",
+    "name": "Minimum Varied Number"
+   },
+   {
+    "index": "D",
+    "name": "Color with Occurrences"
+   },
+   {
+    "index": "E",
+    "name": "Add Modulo 10"
+   },
+   {
+    "index": "F",
+    "name": "Build a Tree and That Is It"
+   },
+   {
+    "index": "G",
+    "name": "Path Prefixes"
+   }
+  ]
+ },
+ {
   "id": 1704,
   "type": "Div1 + Div2",
   "name": "CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)",

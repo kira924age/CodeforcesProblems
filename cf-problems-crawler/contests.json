@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Everyone Loves to Sleep"
+    "name": "Everyone Loves to Sleep",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Remove Prefix"
+    "name": "Remove Prefix",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Minimum Varied Number"
+    "name": "Minimum Varied Number",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Color with Occurrences"
+    "name": "Color with Occurrences",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Add Modulo 10"
+    "name": "Add Modulo 10",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Build a Tree and That Is It"
+    "name": "Build a Tree and That Is It",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Path Prefixes"
+    "name": "Path Prefixes",
+    "rating": 1700
    }
   ]
  },

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1716,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 133 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "2-3 Moves"
+   },
+   {
+    "index": "B",
+    "name": "Permutation Chain"
+   },
+   {
+    "index": "C",
+    "name": "Robot in a Hallway"
+   },
+   {
+    "index": "D",
+    "name": "Chip Move"
+   },
+   {
+    "index": "E",
+    "name": "Swap and Maximum Block"
+   },
+   {
+    "index": "F",
+    "name": "Bags with Balls"
+   }
+  ]
+ },
+ {
   "id": 1714,
   "type": "Div3",
   "name": "Codeforces Round #811 (Div. 3)",

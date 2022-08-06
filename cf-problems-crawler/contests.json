@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "2-3 Moves"
+    "name": "2-3 Moves",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Permutation Chain"
+    "name": "Permutation Chain",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Robot in a Hallway"
+    "name": "Robot in a Hallway",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Chip Move"
+    "name": "Chip Move",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Swap and Maximum Block"
+    "name": "Swap and Maximum Block",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Bags with Balls"
+    "name": "Bags with Balls",
+    "rating": 2500
    }
   ]
  },

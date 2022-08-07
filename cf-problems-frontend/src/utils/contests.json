@@ -1,5 +1,42 @@
 [
  {
+  "id": 1713,
+  "type": "Div2",
+  "name": "Codeforces Round #812 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Traveling Salesman Problem",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Optimal Reduction",
+    "rating": 1000
+   },
+   {
+    "index": "C",
+    "name": "Build Permutation",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Tournament Countdown",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Cross Swapping",
+    "rating": 2400
+   },
+   {
+    "index": "F",
+    "name": "Lost Array",
+    "rating": 2900
+   }
+  ]
+ },
+ {
   "id": 1716,
   "type": "Educational",
   "name": "Educational Codeforces Round 133 (Rated for Div. 2)",

@@ -122,39 +122,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Two 0-1 Sequences"
+    "name": "Two 0-1 Sequences",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Luke is a Foodie"
+    "name": "Luke is a Foodie",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Virus"
+    "name": "Virus",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Magical Array"
+    "name": "Magical Array",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Count Seconds"
+    "name": "Count Seconds",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Colouring Game"
+    "name": "Colouring Game",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Mio and Lucky Array"
+    "name": "Mio and Lucky Array",
+    "rating": 3500
    },
    {
     "index": "H1",
-    "name": "Game of AI (easy version)"
+    "name": "Game of AI (easy version)",
+    "rating": 3200
    },
    {
     "index": "H2",
-    "name": "Game of AI (hard version)"
+    "name": "Game of AI (hard version)",
+    "rating": 3500
    }
   ]
  },

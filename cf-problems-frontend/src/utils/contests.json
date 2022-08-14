@@ -1,5 +1,40 @@
 [
  {
+  "id": 1712,
+  "type": "Div2",
+  "name": "Codeforces Round #813 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Wonderful Permutation"
+   },
+   {
+    "index": "B",
+    "name": "Woeful Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Sort Zero"
+   },
+   {
+    "index": "D",
+    "name": "Empty Graph"
+   },
+   {
+    "index": "E1",
+    "name": "LCM Sum (easy version)"
+   },
+   {
+    "index": "E2",
+    "name": "LCM Sum (hard version)"
+   },
+   {
+    "index": "F",
+    "name": "Triameter"
+   }
+  ]
+ },
+ {
   "id": 1713,
   "type": "Div2",
   "name": "Codeforces Round #812 (Div. 2)",

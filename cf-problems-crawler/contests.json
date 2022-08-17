@@ -1,36 +1,113 @@
 [
  {
+  "id": 1718,
+  "type": "Div1",
+  "name": "Codeforces Round #814 (Div. 1)",
+  "problems": [
+   {
+    "index": "A1",
+    "name": "Burenka and Traditions (easy version)"
+   },
+   {
+    "index": "A2",
+    "name": "Burenka and Traditions (hard version)"
+   },
+   {
+    "index": "B",
+    "name": "Fibonacci Strings"
+   },
+   {
+    "index": "C",
+    "name": "Tonya and Burenka-179"
+   },
+   {
+    "index": "D",
+    "name": "Permutation for Burenka"
+   },
+   {
+    "index": "E",
+    "name": "Impressionism"
+   },
+   {
+    "index": "F",
+    "name": "Burenka, an Array and Queries"
+   }
+  ]
+ },
+ {
+  "id": 1719,
+  "type": "Div2",
+  "name": "Codeforces Round #814 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Chip Game"
+   },
+   {
+    "index": "B",
+    "name": "Mathematical Circus"
+   },
+   {
+    "index": "C",
+    "name": "Fighting Tournament"
+   },
+   {
+    "index": "D1",
+    "name": "Burenka and Traditions (easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Burenka and Traditions (hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Fibonacci Strings"
+   },
+   {
+    "index": "F",
+    "name": "Tonya and Burenka-179"
+   }
+  ]
+ },
+ {
   "id": 1712,
   "type": "Div2",
   "name": "Codeforces Round #813 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Wonderful Permutation"
+    "name": "Wonderful Permutation",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Woeful Permutation"
+    "name": "Woeful Permutation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Sort Zero"
+    "name": "Sort Zero",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Empty Graph"
+    "name": "Empty Graph",
+    "rating": 2000
    },
    {
     "index": "E1",
-    "name": "LCM Sum (easy version)"
+    "name": "LCM Sum (easy version)",
+    "rating": 2300
    },
    {
     "index": "E2",
-    "name": "LCM Sum (hard version)"
+    "name": "LCM Sum (hard version)",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Triameter"
+    "name": "Triameter",
+    "rating": 3200
    }
   ]
  },

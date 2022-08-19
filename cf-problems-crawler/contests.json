@@ -1,5 +1,36 @@
 [
  {
+  "id": 1720,
+  "type": "Div2",
+  "name": "Codeforces Round #815 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Burenka Plays with Fractions"
+   },
+   {
+    "index": "B",
+    "name": "Interesting Sum"
+   },
+   {
+    "index": "C",
+    "name": "Corners"
+   },
+   {
+    "index": "D1",
+    "name": "Xor-Subsequence (easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Xor-Subsequence (hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Misha and Paintings"
+   }
+  ]
+ },
+ {
   "id": 1718,
   "type": "Div1",
   "name": "Codeforces Round #814 (Div. 1)",

@@ -37,27 +37,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Burenka Plays with Fractions"
+    "name": "Burenka Plays with Fractions",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Interesting Sum"
+    "name": "Interesting Sum",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Corners"
+    "name": "Corners",
+    "rating": 1200
    },
    {
     "index": "D1",
-    "name": "Xor-Subsequence (easy version)"
+    "name": "Xor-Subsequence (easy version)",
+    "rating": 1800
    },
    {
     "index": "D2",
-    "name": "Xor-Subsequence (hard version)"
+    "name": "Xor-Subsequence (hard version)",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Misha and Paintings"
+    "name": "Misha and Paintings",
+    "rating": 2700
    }
   ]
  },

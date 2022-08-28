@@ -1,32 +1,69 @@
 [
  {
+  "id": 1721,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 134 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Image"
+   },
+   {
+    "index": "B",
+    "name": "Deadly Laser"
+   },
+   {
+    "index": "C",
+    "name": "Min-Max Array Transformation"
+   },
+   {
+    "index": "D",
+    "name": "Maximum AND"
+   },
+   {
+    "index": "E",
+    "name": "Prefix Function Queries"
+   },
+   {
+    "index": "F",
+    "name": "Matching Reduction"
+   }
+  ]
+ },
+ {
   "id": 1715,
   "type": "Div2",
   "name": "Codeforces Round #816 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Crossmarket"
+    "name": "Crossmarket",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Beautiful Array"
+    "name": "Beautiful Array",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Monoblock"
+    "name": "Monoblock",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "2+ doors"
+    "name": "2+ doors",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Long Way Home"
+    "name": "Long Way Home",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Crop Squares"
+    "name": "Crop Squares",
+    "rating": 2700
    }
   ]
  },

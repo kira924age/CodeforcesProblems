@@ -1,32 +1,73 @@
 [
  {
+  "id": 1722,
+  "type": "Div4",
+  "name": "Codeforces Round #817 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Spell Check"
+   },
+   {
+    "index": "B",
+    "name": "Colourblindness"
+   },
+   {
+    "index": "C",
+    "name": "Word Game"
+   },
+   {
+    "index": "D",
+    "name": "Line"
+   },
+   {
+    "index": "E",
+    "name": "Counting Rectangles"
+   },
+   {
+    "index": "F",
+    "name": "L-shapes"
+   },
+   {
+    "index": "G",
+    "name": "Even-Odd XOR"
+   }
+  ]
+ },
+ {
   "id": 1721,
   "type": "Educational",
   "name": "Educational Codeforces Round 134 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Image"
+    "name": "Image",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Deadly Laser"
+    "name": "Deadly Laser",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Min-Max Array Transformation"
+    "name": "Min-Max Array Transformation",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Maximum AND"
+    "name": "Maximum AND",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Prefix Function Queries"
+    "name": "Prefix Function Queries",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Matching Reduction"
+    "name": "Matching Reduction",
+    "rating": 2800
    }
   ]
  },

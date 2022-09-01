@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Spell Check"
+    "name": "Spell Check",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Colourblindness"
+    "name": "Colourblindness",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Word Game"
+    "name": "Word Game",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Line"
+    "name": "Line",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Counting Rectangles"
+    "name": "Counting Rectangles",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "L-shapes"
+    "name": "L-shapes",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Even-Odd XOR"
+    "name": "Even-Odd XOR",
+    "rating": 1500
    }
   ]
  },

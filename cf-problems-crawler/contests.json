@@ -1,5 +1,42 @@
 [
  {
+  "id": 1717,
+  "type": "Div2",
+  "name": "Codeforces Round #818 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Madoka and Strange Thoughts",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Madoka and Underground Competitions",
+    "rating": 1100
+   },
+   {
+    "index": "C",
+    "name": "Madoka and Formal Statement",
+    "rating": 1300
+   },
+   {
+    "index": "D",
+    "name": "Madoka and The Corruption Scheme",
+    "rating": 1900
+   },
+   {
+    "index": "E",
+    "name": "Madoka and The Best University",
+    "rating": 2200
+   },
+   {
+    "index": "F",
+    "name": "Madoka and The First Session",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1722,
   "type": "Div4",
   "name": "Codeforces Round #817 (Div. 4)",

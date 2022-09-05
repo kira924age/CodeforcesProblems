@@ -1,5 +1,64 @@
 [
  {
+  "id": 1725,
+  "type": "ICPC",
+  "name": "COMPFEST 14 - Preliminary Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Accumulation of Dominoes"
+   },
+   {
+    "index": "B",
+    "name": "Basketball Together"
+   },
+   {
+    "index": "C",
+    "name": "Circular Mirror"
+   },
+   {
+    "index": "D",
+    "name": "Deducing Sortability"
+   },
+   {
+    "index": "E",
+    "name": "Electrical Efficiency"
+   },
+   {
+    "index": "F",
+    "name": "Field Photography"
+   },
+   {
+    "index": "G",
+    "name": "Garage"
+   },
+   {
+    "index": "H",
+    "name": "Hot Black Hot White"
+   },
+   {
+    "index": "I",
+    "name": "Imitating the Key Tree"
+   },
+   {
+    "index": "J",
+    "name": "Journey"
+   },
+   {
+    "index": "K",
+    "name": "Kingdom of Criticism"
+   },
+   {
+    "index": "L",
+    "name": "Lemper Cooking Competition"
+   },
+   {
+    "index": "M",
+    "name": "Moving Both Hands"
+   }
+  ]
+ },
+ {
   "id": 1717,
   "type": "Div2",
   "name": "Codeforces Round #818 (Div. 2)",

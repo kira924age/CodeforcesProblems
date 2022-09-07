@@ -1,5 +1,44 @@
 [
  {
+  "id": 1726,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Mainak and Array"
+   },
+   {
+    "index": "B",
+    "name": "Mainak and Interesting Sequence"
+   },
+   {
+    "index": "C",
+    "name": "Jatayu's Balanced Bracket Sequence"
+   },
+   {
+    "index": "D",
+    "name": "Edge Split"
+   },
+   {
+    "index": "E",
+    "name": "Almost Perfect"
+   },
+   {
+    "index": "F",
+    "name": "Late For Work"
+   },
+   {
+    "index": "G",
+    "name": "A Certain Magical Party"
+   },
+   {
+    "index": "H",
+    "name": "Mainak and the Bleeding Polygon"
+   }
+  ]
+ },
+ {
   "id": 1725,
   "type": "ICPC",
   "name": "COMPFEST 14 - Preliminary Online Mirror (Unrated, ICPC Rules, Teams Preferred)",

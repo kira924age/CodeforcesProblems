@@ -1,40 +1,83 @@
 [
  {
+  "id": 1728,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 135 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Colored Balls: Revisited"
+   },
+   {
+    "index": "B",
+    "name": "Best Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Digital Logarithm"
+   },
+   {
+    "index": "D",
+    "name": "Letter Picking"
+   },
+   {
+    "index": "E",
+    "name": "Red-Black Pepper"
+   },
+   {
+    "index": "F",
+    "name": "Fishermen"
+   },
+   {
+    "index": "G",
+    "name": "Illumination"
+   }
+  ]
+ },
+ {
   "id": 1726,
   "type": "Div1 + Div2",
   "name": "Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022",
   "problems": [
    {
     "index": "A",
-    "name": "Mainak and Array"
+    "name": "Mainak and Array",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Mainak and Interesting Sequence"
+    "name": "Mainak and Interesting Sequence",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Jatayu's Balanced Bracket Sequence"
+    "name": "Jatayu's Balanced Bracket Sequence",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Edge Split"
+    "name": "Edge Split",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Almost Perfect"
+    "name": "Almost Perfect",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Late For Work"
+    "name": "Late For Work (submissions are not allowed)",
+    "rating": 2900
    },
    {
     "index": "G",
-    "name": "A Certain Magical Party"
+    "name": "A Certain Magical Party",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "Mainak and the Bleeding Polygon"
+    "name": "Mainak and the Bleeding Polygon",
+    "rating": 3500
    }
   ]
  },
@@ -45,55 +88,68 @@
   "problems": [
    {
     "index": "A",
-    "name": "Accumulation of Dominoes"
+    "name": "Accumulation of Dominoes",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Basketball Together"
+    "name": "Basketball Together",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Circular Mirror"
+    "name": "Circular Mirror",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Deducing Sortability"
+    "name": "Deducing Sortability",
+    "rating": 2900
    },
    {
     "index": "E",
-    "name": "Electrical Efficiency"
+    "name": "Electrical Efficiency",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Field Photography"
+    "name": "Field Photography",
+    "rating": 2100
    },
    {
     "index": "G",
-    "name": "Garage"
+    "name": "Garage",
+    "rating": 1500
    },
    {
     "index": "H",
-    "name": "Hot Black Hot White"
+    "name": "Hot Black Hot White",
+    "rating": 1800
    },
    {
     "index": "I",
-    "name": "Imitating the Key Tree"
+    "name": "Imitating the Key Tree",
+    "rating": 2800
    },
    {
     "index": "J",
-    "name": "Journey"
+    "name": "Journey",
+    "rating": 2500
    },
    {
     "index": "K",
-    "name": "Kingdom of Criticism"
+    "name": "Kingdom of Criticism",
+    "rating": 2500
    },
    {
     "index": "L",
-    "name": "Lemper Cooking Competition"
+    "name": "Lemper Cooking Competition",
+    "rating": 2400
    },
    {
     "index": "M",
-    "name": "Moving Both Hands"
+    "name": "Moving Both Hands",
+    "rating": 1800
    }
   ]
  },

@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Colored Balls: Revisited"
+    "name": "Colored Balls: Revisited",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Best Permutation"
+    "name": "Best Permutation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Digital Logarithm"
+    "name": "Digital Logarithm",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Letter Picking"
+    "name": "Letter Picking",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Red-Black Pepper"
+    "name": "Red-Black Pepper",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Fishermen"
+    "name": "Fishermen",
+    "rating": 3100
    },
    {
     "index": "G",
-    "name": "Illumination"
+    "name": "Illumination",
+    "rating": 2700
    }
   ]
  },

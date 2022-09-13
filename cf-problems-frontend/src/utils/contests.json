@@ -1,5 +1,40 @@
 [
  {
+  "id": 1729,
+  "type": "Div3",
+  "name": "Codeforces Round #820 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Two Elevators"
+   },
+   {
+    "index": "B",
+    "name": "Decode String"
+   },
+   {
+    "index": "C",
+    "name": "Jumping on Tiles"
+   },
+   {
+    "index": "D",
+    "name": "Friends and the Restaurant"
+   },
+   {
+    "index": "E",
+    "name": "Guess the Cycle Size"
+   },
+   {
+    "index": "F",
+    "name": "Kirei and the Linear Function"
+   },
+   {
+    "index": "G",
+    "name": "Cut Substrings"
+   }
+  ]
+ },
+ {
   "id": 1728,
   "type": "Educational",
   "name": "Educational Codeforces Round 135 (Rated for Div. 2)",

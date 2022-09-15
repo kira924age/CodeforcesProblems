@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Two Elevators"
+    "name": "Two Elevators",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Decode String"
+    "name": "Decode String",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Jumping on Tiles"
+    "name": "Jumping on Tiles",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Friends and the Restaurant"
+    "name": "Friends and the Restaurant",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Guess the Cycle Size"
+    "name": "Guess the Cycle Size",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Kirei and the Linear Function"
+    "name": "Kirei and the Linear Function",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Cut Substrings"
+    "name": "Cut Substrings",
+    "rating": 2100
    }
   ]
  },

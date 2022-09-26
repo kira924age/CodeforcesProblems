@@ -1,5 +1,73 @@
 [
  {
+  "id": 1730,
+  "type": "Div2",
+  "name": "Codeforces Round #823 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Planets",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Meeting on the Line",
+    "rating": 1600
+   },
+   {
+    "index": "C",
+    "name": "Minimum Notation",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Prefixes and Suffixes",
+    "rating": 2200
+   },
+   {
+    "index": "E",
+    "name": "Maximums and Minimums",
+    "rating": 2700
+   },
+   {
+    "index": "F",
+    "name": "Almost Sorted",
+    "rating": 2700
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks"
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant"
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples"
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape"
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence"
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones"
+   }
+  ]
+ },
+ {
   "id": 1734,
   "type": "Div2",
   "name": "Codeforces Round #822 (Div. 2)",

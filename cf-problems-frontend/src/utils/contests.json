@@ -1,5 +1,42 @@
 [
  {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1730,
   "type": "Div2",
   "name": "Codeforces Round #823 (Div. 2)",
@@ -111,27 +148,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Consecutive Sum"
+    "name": "Consecutive Sum",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Rule of League"
+    "name": "Rule of League",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Parity Shuffle Sorting"
+    "name": "Parity Shuffle Sorting",
+    "rating": 1300
    },
    {
     "index": "D1",
-    "name": "Zero-One (Easy Version)"
+    "name": "Zero-One (Easy Version)",
+    "rating": 1400
    },
    {
     "index": "D2",
-    "name": "Zero-One (Hard Version)"
+    "name": "Zero-One (Hard Version)",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Conveyor"
+    "name": "Conveyor",
+    "rating": 2700
    }
   ]
  },

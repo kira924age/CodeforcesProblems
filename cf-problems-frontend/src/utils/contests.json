@@ -1,5 +1,99 @@
 [
  {
+  "id": 1739,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 136 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Immobile Knight"
+   },
+   {
+    "index": "B",
+    "name": "Array Recovery"
+   },
+   {
+    "index": "C",
+    "name": "Card Game"
+   },
+   {
+    "index": "D",
+    "name": "Reset K Edges"
+   },
+   {
+    "index": "E",
+    "name": "Cleaning Robot"
+   },
+   {
+    "index": "F",
+    "name": "Keyboard Design"
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
+  "id": 1723,
+  "type": "ICPC",
+  "name": "ICPC 2022 Online Challenge powered by HUAWEI - Problem 1",
+  "problems": [
+   {
+    "index": "GP1",
+    "name": "Optimal Graph Partition for Fast Routing (GP1)"
+   },
+   {
+    "index": "GP2",
+    "name": "Optimal Graph Partition for Fast Routing (GP2)"
+   }
+  ]
+ },
+ {
+  "id": 1724,
+  "type": "ICPC",
+  "name": "ICPC 2022 Online Challenge powered by HUAWEI - Problem 2",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Topology-Aware VM Placement"
+   }
+  ]
+ },
+ {
   "id": 1734,
   "type": "Div2",
   "name": "Codeforces Round #822 (Div. 2)",

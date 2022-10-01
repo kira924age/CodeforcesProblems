@@ -1,5 +1,81 @@
 [
  {
+  "id": 1738,
+  "type": "Global",
+  "name": "Codeforces Global Round 22",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Glory Addicts"
+   },
+   {
+    "index": "B",
+    "name": "Prefix Sum Addicts"
+   },
+   {
+    "index": "C",
+    "name": "Even Number Addicts"
+   },
+   {
+    "index": "D",
+    "name": "Permutation Addicts"
+   },
+   {
+    "index": "E",
+    "name": "Balance Addicts"
+   },
+   {
+    "index": "F",
+    "name": "Connectivity Addicts"
+   },
+   {
+    "index": "G",
+    "name": "Anti-Increasing Addicts"
+   },
+   {
+    "index": "H",
+    "name": "Palindrome Addicts"
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1739,
   "type": "Educational",
   "name": "Educational Codeforces Round 136 (Rated for Div. 2)",

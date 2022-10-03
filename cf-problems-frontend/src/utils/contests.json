@@ -1,5 +1,73 @@
 [
  {
+  "id": 1735,
+  "type": "Div2",
+  "name": "Codeforces Round #824 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Working Week"
+   },
+   {
+    "index": "B",
+    "name": "Tea with Tangerines"
+   },
+   {
+    "index": "C",
+    "name": "Phase Shift"
+   },
+   {
+    "index": "D",
+    "name": "Meta-set"
+   },
+   {
+    "index": "E",
+    "name": "House Planning"
+   },
+   {
+    "index": "F",
+    "name": "Pebbles and Beads"
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1734,
   "type": "Div2",
   "name": "Codeforces Round #822 (Div. 2)",

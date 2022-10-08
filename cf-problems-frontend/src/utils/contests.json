@@ -1,5 +1,77 @@
 [
  {
+  "id": 1737,
+  "type": "Other",
+  "name": "Dytechlab Cup 2022",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Ela Sorting Books"
+   },
+   {
+    "index": "B",
+    "name": "Ela's Fitness and the Luxury Number"
+   },
+   {
+    "index": "C",
+    "name": "Ela and Crickets"
+   },
+   {
+    "index": "D",
+    "name": "Ela and the Wiring Wizard"
+   },
+   {
+    "index": "E",
+    "name": "Ela Goes Hiking"
+   },
+   {
+    "index": "F",
+    "name": "Ela and Prime GCD"
+   },
+   {
+    "index": "G",
+    "name": "Ela Takes Dancing Class"
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1734,
   "type": "Div2",
   "name": "Codeforces Round #822 (Div. 2)",

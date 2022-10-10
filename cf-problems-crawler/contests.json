@@ -37,37 +37,81 @@
   ]
  },
  {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1737,
   "type": "Other",
   "name": "Dytechlab Cup 2022",
   "problems": [
    {
     "index": "A",
-    "name": "Ela Sorting Books"
+    "name": "Ela Sorting Books",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Ela's Fitness and the Luxury Number"
+    "name": "Ela's Fitness and the Luxury Number",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Ela and Crickets"
+    "name": "Ela and Crickets",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Ela and the Wiring Wizard"
+    "name": "Ela and the Wiring Wizard",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Ela Goes Hiking"
+    "name": "Ela Goes Hiking",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Ela and Prime GCD"
+    "name": "Ela and Prime GCD",
+    "rating": 3300
    },
    {
     "index": "G",
-    "name": "Ela Takes Dancing Class"
+    "name": "Ela Takes Dancing Class",
+    "rating": 3500
    }
   ]
  },
@@ -458,27 +502,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Immobile Knight"
+    "name": "Immobile Knight",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array Recovery"
+    "name": "Array Recovery",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Card Game"
+    "name": "Card Game",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Reset K Edges"
+    "name": "Reset K Edges",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Cleaning Robot"
+    "name": "Cleaning Robot",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Keyboard Design"
+    "name": "Keyboard Design",
+    "rating": 2600
    }
   ]
  },

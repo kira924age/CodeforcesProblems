@@ -1,5 +1,73 @@
 [
  {
+  "id": 1736,
+  "type": "Div2",
+  "name": "Codeforces Round #825 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Make A Equal to B"
+   },
+   {
+    "index": "B",
+    "name": "Playing with GCD"
+   },
+   {
+    "index": "C1",
+    "name": "Good Subarrays (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Good Subarrays (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Equal Binary Subsequences"
+   },
+   {
+    "index": "E",
+    "name": "Swap and Take"
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1734,
   "type": "Div2",
   "name": "Codeforces Round #822 (Div. 2)",

@@ -1,5 +1,77 @@
 [
  {
+  "id": 1742,
+  "type": "Div4",
+  "name": "Codeforces Round #827 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sum"
+   },
+   {
+    "index": "B",
+    "name": "Increasing"
+   },
+   {
+    "index": "C",
+    "name": "Stripes"
+   },
+   {
+    "index": "D",
+    "name": "Coprime"
+   },
+   {
+    "index": "E",
+    "name": "Scuza"
+   },
+   {
+    "index": "F",
+    "name": "Smaller"
+   },
+   {
+    "index": "G",
+    "name": "Orray"
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1734,
   "type": "Div2",
   "name": "Codeforces Round #822 (Div. 2)",

@@ -1,36 +1,80 @@
 [
  {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1742,
   "type": "Div4",
   "name": "Codeforces Round #827 (Div. 4)",
   "problems": [
    {
     "index": "A",
-    "name": "Sum"
+    "name": "Sum",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Increasing"
+    "name": "Increasing",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Stripes"
+    "name": "Stripes",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "Coprime"
+    "name": "Coprime",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Scuza"
+    "name": "Scuza",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "Smaller"
+    "name": "Smaller",
+    "rating": 1500
    },
    {
     "index": "G",
-    "name": "Orray"
+    "name": "Orray",
+    "rating": 1500
    }
   ]
  },
@@ -115,31 +159,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Compare T-Shirt Sizes"
+    "name": "Compare T-Shirt Sizes",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Funny Permutation"
+    "name": "Funny Permutation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Minimize the Thickness"
+    "name": "Minimize the Thickness",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Masha and a Beautiful Tree"
+    "name": "Masha and a Beautiful Tree",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Sending a Sequence Over the Network"
+    "name": "Sending a Sequence Over the Network",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Multi-Colored Segments"
+    "name": "Multi-Colored Segments",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Kirill and Company"
+    "name": "Kirill and Company",
+    "rating": 2200
    }
   ]
  },

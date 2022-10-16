@@ -1,5 +1,81 @@
 [
  {
+  "id": 1746,
+  "type": "Global",
+  "name": "Codeforces Global Round 23",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Maxmina"
+   },
+   {
+    "index": "B",
+    "name": "Rebellion"
+   },
+   {
+    "index": "C",
+    "name": "Permutation Operations"
+   },
+   {
+    "index": "D",
+    "name": "Paths on the Tree"
+   },
+   {
+    "index": "E1",
+    "name": "Joking (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Joking (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Kazaee"
+   },
+   {
+    "index": "G",
+    "name": "Olympiad Training"
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1734,
   "type": "Div2",
   "name": "Codeforces Round #822 (Div. 2)",

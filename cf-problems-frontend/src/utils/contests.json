@@ -1,40 +1,120 @@
 [
  {
+  "id": 1744,
+  "type": "Div3",
+  "name": "Codeforces Round  #828 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Number Replacement"
+   },
+   {
+    "index": "B",
+    "name": "Even-Odd Increments"
+   },
+   {
+    "index": "C",
+    "name": "Traffic Light"
+   },
+   {
+    "index": "D",
+    "name": "Divisibility by 2^n"
+   },
+   {
+    "index": "E1",
+    "name": "Divisible Numbers (easy version)"
+   },
+   {
+    "index": "E2",
+    "name": "Divisible Numbers (hard version)"
+   },
+   {
+    "index": "F",
+    "name": "MEX vs MED"
+   }
+  ]
+ },
+ {
+  "id": 1734,
+  "type": "Div2",
+  "name": "Codeforces Round #822 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape",
+    "rating": 1800
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence",
+    "rating": 2100
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1746,
   "type": "Global",
   "name": "Codeforces Global Round 23",
   "problems": [
    {
     "index": "A",
-    "name": "Maxmina"
+    "name": "Maxmina",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Rebellion"
+    "name": "Rebellion",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Permutation Operations"
+    "name": "Permutation Operations",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Paths on the Tree"
+    "name": "Paths on the Tree",
+    "rating": 1900
    },
    {
     "index": "E1",
-    "name": "Joking (Easy Version)"
+    "name": "Joking (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "E2",
-    "name": "Joking (Hard Version)"
+    "name": "Joking (Hard Version)",
+    "rating": 3200
    },
    {
     "index": "F",
-    "name": "Kazaee"
+    "name": "Kazaee",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Olympiad Training"
+    "name": "Olympiad Training",
+    "rating": 3500
    }
   ]
  },

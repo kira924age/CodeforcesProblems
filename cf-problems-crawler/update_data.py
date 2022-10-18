@@ -16,7 +16,7 @@ def update_contest(contest_id, contest_type, contest_name, problem_list,
         rating = get_problem_rating(contest_id, index, name, problem_url,
                                     problem_list, driver)
 
-        if rating != None:
+        if not rating:
             problems[key] = {"index": index, "name": name, "rating": rating}
         else:
             problems[key] = {"index": index, "name": name}
@@ -36,15 +36,15 @@ def update_contest(contest_id, contest_type, contest_name, problem_list,
 
     if idx != -1:
         prev_contest = contest_json[idx]
-        if prev_contest["problems"] is None:
+        if not prev_contest["problems"]:
             contest_json[idx] = add
         elif len(add["problems"]) > len(prev_contest["problems"]):
-            contest_json = [add] + contest_json
+            contest_json[idx] = add
         elif len(add["problems"]) == len(prev_contest["problems"]):
             for i, (prev_problem, add_problem) in enumerate(
                     zip(prev_contest["problems"], add["problems"])):
 
-                if prev_problem != None and "rating" in prev_problem:
+                if (prev_problem is not None) and "rating" in prev_problem:
                     continue
 
                 contest_json[idx]["problems"][i] = add_problem

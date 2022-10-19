@@ -475,7 +475,32 @@
   "id": 1734,
   "type": "Div2",
   "name": "Codeforces Round #822 (Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Select Three Sticks"
+   },
+   {
+    "index": "B",
+    "name": "Bright, Nice, Brilliant"
+   },
+   {
+    "index": "C",
+    "name": "Removing Smallest Multiples"
+   },
+   {
+    "index": "D",
+    "name": "Slime Escape"
+   },
+   {
+    "index": "E",
+    "name": "Rectangular Congruence"
+   },
+   {
+    "index": "F",
+    "name": "Zeros and Ones"
+   }
+  ]
  },
  {
   "id": 1733,

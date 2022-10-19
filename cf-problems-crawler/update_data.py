@@ -17,9 +17,9 @@ def update_contest(contest_id, contest_type, contest_name, problem_list,
                                     problem_list, driver)
 
         if not rating:
-            problems[key] = {"index": index, "name": name, "rating": rating}
-        else:
             problems[key] = {"index": index, "name": name}
+        else:
+            problems[key] = {"index": index, "name": name, "rating": rating}
 
     contest_json = read_contest_json()
     idx = -1

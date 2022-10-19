@@ -221,27 +221,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Make A Equal to B"
+    "name": "Make A Equal to B",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Playing with GCD"
+    "name": "Playing with GCD",
+    "rating": 1200
    },
    {
     "index": "C1",
-    "name": "Good Subarrays (Easy Version)"
+    "name": "Good Subarrays (Easy Version)",
+    "rating": 1300
    },
    {
     "index": "C2",
-    "name": "Good Subarrays (Hard Version)"
+    "name": "Good Subarrays (Hard Version)",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Equal Binary Subsequences"
+    "name": "Equal Binary Subsequences",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Swap and Take"
+    "name": "Swap and Take",
+    "rating": 2600
    }
   ]
  },
@@ -478,27 +484,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Select Three Sticks"
+    "name": "Select Three Sticks",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Bright, Nice, Brilliant"
+    "name": "Bright, Nice, Brilliant",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Removing Smallest Multiples"
+    "name": "Removing Smallest Multiples",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Slime Escape"
+    "name": "Slime Escape",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Rectangular Congruence"
+    "name": "Rectangular Congruence",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Zeros and Ones"
+    "name": "Zeros and Ones",
+    "rating": 2500
    }
   ]
  },

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1749,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 138 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cowardly Rooks"
+   },
+   {
+    "index": "B",
+    "name": "Death's Blessing"
+   },
+   {
+    "index": "C",
+    "name": "Number Game"
+   },
+   {
+    "index": "D",
+    "name": "Counting Arrays"
+   },
+   {
+    "index": "E",
+    "name": "Cactus Wall"
+   },
+   {
+    "index": "F",
+    "name": "Distance to the Path"
+   }
+  ]
+ },
+ {
   "id": 1743,
   "type": "Educational",
   "name": "Educational Codeforces Round 137 (Rated for Div. 2)",

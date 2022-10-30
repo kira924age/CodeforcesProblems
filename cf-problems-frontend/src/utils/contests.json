@@ -1,5 +1,57 @@
 [
  {
+  "id": 1740,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round #831 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Factorise N+M",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Jumbo Extra Cheese 2",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Bricks and Bags",
+    "rating": 1400
+   },
+   {
+    "index": "D",
+    "name": "Knowledge Cards",
+    "rating": 1500
+   },
+   {
+    "index": "E",
+    "name": "Hanging Hearts",
+    "rating": 1800
+   },
+   {
+    "index": "F",
+    "name": "Conditional Mix",
+    "rating": 2600
+   },
+   {
+    "index": "G",
+    "name": "Dangerous Laser Power",
+    "rating": 3100
+   },
+   {
+    "index": "H",
+    "name": "MEX Tree Manipulation",
+    "rating": 3300
+   },
+   {
+    "index": "I",
+    "name": "Arranging Crystal Balls",
+    "rating": 3500
+   }
+  ]
+ },
+ {
   "id": 1732,
   "type": "Div2",
   "name": "Codeforces Round #830 (Div. 2)",

@@ -6,23 +6,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "Two Groups"
+    "name": "Two Groups",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "BAN BAN"
+    "name": "BAN BAN",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Swap Game"
+    "name": "Swap Game",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Yet Another Problem"
+    "name": "Yet Another Problem",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "List Generation"
+    "name": "List Generation",
+    "rating": 2900
    }
   ]
  },

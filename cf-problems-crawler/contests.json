@@ -1,5 +1,44 @@
 [
  {
+  "id": 1750,
+  "type": "Div1 + Div2",
+  "name": "CodeTON Round 3 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Indirect Sort"
+   },
+   {
+    "index": "B",
+    "name": "Maximum Substring"
+   },
+   {
+    "index": "C",
+    "name": "Complementary XOR"
+   },
+   {
+    "index": "D",
+    "name": "Count GCD"
+   },
+   {
+    "index": "E",
+    "name": "Bracket Cost"
+   },
+   {
+    "index": "F",
+    "name": "Majority"
+   },
+   {
+    "index": "G",
+    "name": "Doping"
+   },
+   {
+    "index": "H",
+    "name": "BinaryStringForces"
+   }
+  ]
+ },
+ {
   "id": 1747,
   "type": "Div2",
   "name": "Codeforces Round #832 (Div. 2)",

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1755,
+  "type": "Other",
+  "name": "Ecnerwala vs Errichto Kotlin Match",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Elections"
+   },
+   {
+    "index": "B",
+    "name": "Make it Divisible by 25"
+   },
+   {
+    "index": "C",
+    "name": "Save More Mice"
+   },
+   {
+    "index": "D",
+    "name": "Gardener and Tree"
+   },
+   {
+    "index": "E",
+    "name": "Sleeping Schedule"
+   },
+   {
+    "index": "F",
+    "name": "Half of Same"
+   }
+  ]
+ },
+ {
   "id": 1750,
   "type": "Div1 + Div2",
   "name": "CodeTON Round 3 (Div. 1 + Div. 2, Rated, Prizes!)",

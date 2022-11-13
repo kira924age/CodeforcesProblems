@@ -1,5 +1,42 @@
 [
  {
+  "id": 1748,
+  "type": "Div2",
+  "name": "Codeforces Round #833 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Ultimate Square",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Diverse Substrings",
+    "rating": 1400
+   },
+   {
+    "index": "C",
+    "name": "Zero-Sum Prefixes",
+    "rating": 1600
+   },
+   {
+    "index": "D",
+    "name": "ConstructOR",
+    "rating": 2100
+   },
+   {
+    "index": "E",
+    "name": "Yet Another Array Counting Problem",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Circular Xor Reversal",
+    "rating": 3000
+   }
+  ]
+ },
+ {
   "id": 1755,
   "type": "Other",
   "name": "Ecnerwala vs Errichto Kotlin Match",
@@ -37,35 +74,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Indirect Sort"
+    "name": "Indirect Sort",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Maximum Substring"
+    "name": "Maximum Substring",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Complementary XOR"
+    "name": "Complementary XOR",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Count GCD"
+    "name": "Count GCD",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Bracket Cost"
+    "name": "Bracket Cost",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Majority"
+    "name": "Majority",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Doping"
+    "name": "Doping",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "BinaryStringForces"
+    "name": "BinaryStringForces",
+    "rating": 3500
    }
   ]
  },

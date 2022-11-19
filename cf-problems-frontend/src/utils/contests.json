@@ -1,5 +1,40 @@
 [
  {
+  "id": 1759,
+  "type": "Div3",
+  "name": "Codeforces Round  #834 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Yes-Yes?"
+   },
+   {
+    "index": "B",
+    "name": "Lost Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Thermostat"
+   },
+   {
+    "index": "D",
+    "name": "Make It Round"
+   },
+   {
+    "index": "E",
+    "name": "The Humanoid"
+   },
+   {
+    "index": "F",
+    "name": "All Possible Digits"
+   },
+   {
+    "index": "G",
+    "name": "Restore the Permutation"
+   }
+  ]
+ },
+ {
   "id": 1748,
   "type": "Div2",
   "name": "Codeforces Round #833 (Div. 2)",

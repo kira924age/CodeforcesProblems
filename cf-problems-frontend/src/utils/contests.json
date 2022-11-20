@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Yes-Yes?"
+    "name": "Yes-Yes?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Lost Permutation"
+    "name": "Lost Permutation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Thermostat"
+    "name": "Thermostat",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Make It Round"
+    "name": "Make It Round",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "The Humanoid"
+    "name": "The Humanoid",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "All Possible Digits"
+    "name": "All Possible Digits",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Restore the Permutation"
+    "name": "Restore the Permutation",
+    "rating": 1900
    }
   ]
  },

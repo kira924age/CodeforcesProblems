@@ -1,40 +1,83 @@
 [
  {
+  "id": 1760,
+  "type": "Div4",
+  "name": "Codeforces Round #835 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Medium Number"
+   },
+   {
+    "index": "B",
+    "name": "Atilla's Favorite Problem"
+   },
+   {
+    "index": "C",
+    "name": "Advantage"
+   },
+   {
+    "index": "D",
+    "name": "Challenging Valleys"
+   },
+   {
+    "index": "E",
+    "name": "Binary Inversions"
+   },
+   {
+    "index": "F",
+    "name": "Quests"
+   },
+   {
+    "index": "G",
+    "name": "SlavicG's Favorite Problem"
+   }
+  ]
+ },
+ {
   "id": 1761,
   "type": "Div1 + Div2",
   "name": "Pinely Round 1 (Div. 1 + Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Two Permutations"
+    "name": "Two Permutations",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Elimination of a Ring"
+    "name": "Elimination of a Ring",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Set Construction"
+    "name": "Set Construction",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Carry Bit"
+    "name": "Carry Bit",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Make It Connected"
+    "name": "Make It Connected",
+    "rating": 2400
    },
    {
     "index": "F1",
-    "name": "Anti-median (Easy Version)"
+    "name": "Anti-median (Easy Version)",
+    "rating": 3100
    },
    {
     "index": "F2",
-    "name": "Anti-median (Hard Version)"
+    "name": "Anti-median (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "G",
-    "name": "Centroid Guess"
+    "name": "Centroid Guess",
+    "rating": 3500
    }
   ]
  },

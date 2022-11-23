@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Medium Number"
+    "name": "Medium Number",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Atilla's Favorite Problem"
+    "name": "Atilla's Favorite Problem",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Advantage"
+    "name": "Advantage",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Challenging Valleys"
+    "name": "Challenging Valleys",
+    "rating": 1000
    },
    {
     "index": "E",
-    "name": "Binary Inversions"
+    "name": "Binary Inversions",
+    "rating": 1100
    },
    {
     "index": "F",
-    "name": "Quests"
+    "name": "Quests",
+    "rating": 1500
    },
    {
     "index": "G",
-    "name": "SlavicG's Favorite Problem"
+    "name": "SlavicG's Favorite Problem",
+    "rating": 1700
    }
   ]
  },

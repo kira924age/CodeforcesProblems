@@ -1,5 +1,52 @@
 [
  {
+  "id": 1764,
+  "type": "Global",
+  "name": "Codeforces Global Round 24",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Doremy's Paint"
+   },
+   {
+    "index": "B",
+    "name": "Doremy's Perfect Math Class"
+   },
+   {
+    "index": "C",
+    "name": "Doremy's City Construction"
+   },
+   {
+    "index": "D",
+    "name": "Doremy's Pegging Game"
+   },
+   {
+    "index": "E",
+    "name": "Doremy's Number Line"
+   },
+   {
+    "index": "F",
+    "name": "Doremy's Experimental Tree"
+   },
+   {
+    "index": "G1",
+    "name": "Doremy's Perfect DS Class (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Doremy's Perfect DS Class (Medium Version)"
+   },
+   {
+    "index": "G3",
+    "name": "Doremy's Perfect DS Class (Hard Version)"
+   },
+   {
+    "index": "H",
+    "name": "Doremy's Paint 2"
+   }
+  ]
+ },
+ {
   "id": 1758,
   "type": "Div2",
   "name": "Codeforces Round #836 (Div. 2)",

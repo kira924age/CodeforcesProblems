@@ -1,48 +1,135 @@
 [
  {
+  "id": 1765,
+  "type": "ICPC",
+  "name": "2022-2023 ICPC, NERC, Southern and Volga Russian Regional Contest (Online Mirror, ICPC Rules, Preferably Teams)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Access Levels",
+    "rating": 2400
+   },
+   {
+    "index": "B",
+    "name": "Broken Keyboard",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Card Guessing",
+    "rating": 2600
+   },
+   {
+    "index": "D",
+    "name": "Watch the Videos",
+    "rating": 1700
+   },
+   {
+    "index": "E",
+    "name": "Exchange",
+    "rating": 1000
+   },
+   {
+    "index": "F",
+    "name": "Chemistry Lab",
+    "rating": 2200
+   },
+   {
+    "index": "G",
+    "name": "Guess the String",
+    "rating": 2600
+   },
+   {
+    "index": "H",
+    "name": "Hospital Queue",
+    "rating": 2200
+   },
+   {
+    "index": "I",
+    "name": "Infinite Chess",
+    "rating": 2800
+   },
+   {
+    "index": "J",
+    "name": "Hero to Zero",
+    "rating": 2900
+   },
+   {
+    "index": "K",
+    "name": "Torus Path",
+    "rating": 1500
+   },
+   {
+    "index": "L",
+    "name": "Project Manager",
+    "rating": 2400
+   },
+   {
+    "index": "M",
+    "name": "Minimum LCM",
+    "rating": 1000
+   },
+   {
+    "index": "N",
+    "name": "Number Reduction",
+    "rating": 1500
+   }
+  ]
+ },
+ {
   "id": 1764,
   "type": "Global",
   "name": "Codeforces Global Round 24",
   "problems": [
    {
     "index": "A",
-    "name": "Doremy's Paint"
+    "name": "Doremy's Paint",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Doremy's Perfect Math Class"
+    "name": "Doremy's Perfect Math Class",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Doremy's City Construction"
+    "name": "Doremy's City Construction",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Doremy's Pegging Game"
+    "name": "Doremy's Pegging Game",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Doremy's Number Line"
+    "name": "Doremy's Number Line",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Doremy's Experimental Tree"
+    "name": "Doremy's Experimental Tree",
+    "rating": 2500
    },
    {
     "index": "G1",
-    "name": "Doremy's Perfect DS Class (Easy Version)"
+    "name": "Doremy's Perfect DS Class (Easy Version)",
+    "rating": 2900
    },
    {
     "index": "G2",
-    "name": "Doremy's Perfect DS Class (Medium Version)"
+    "name": "Doremy's Perfect DS Class (Medium Version)",
+    "rating": 3000
    },
    {
     "index": "G3",
-    "name": "Doremy's Perfect DS Class (Hard Version)"
+    "name": "Doremy's Perfect DS Class (Hard Version)",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "Doremy's Paint 2"
+    "name": "Doremy's Paint 2",
+    "rating": 3400
    }
   ]
  },
@@ -53,27 +140,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "SSeeeeiinngg DDoouubbllee"
+    "name": "SSeeeeiinngg DDoouubbllee",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "XOR = Average"
+    "name": "XOR = Average",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Almost All Multiples"
+    "name": "Almost All Multiples",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Range = \u221aSum"
+    "name": "Range = \u221aSum",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Tick, Tock"
+    "name": "Tick, Tock",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Decent Division"
+    "name": "Decent Division",
+    "rating": 3000
    }
   ]
  },

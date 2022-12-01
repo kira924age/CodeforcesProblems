@@ -1,5 +1,27 @@
 [
  {
+  "id": 1751,
+  "type": "ICPC",
+  "name": "45th ICPC World Finals Challenge powered by Huawei - Problem 2",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Task Scheduling and Data Assignment"
+   }
+  ]
+ },
+ {
+  "id": 1752,
+  "type": "ICPC",
+  "name": "45th ICPC World Finals Challenge powered by Huawei - Problem 1",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Parameterized Branch Instruction Stream Generation"
+   }
+  ]
+ },
+ {
   "id": 1765,
   "type": "ICPC",
   "name": "2022-2023 ICPC, NERC, Southern and Volga Russian Regional Contest (Online Mirror, ICPC Rules, Preferably Teams)",

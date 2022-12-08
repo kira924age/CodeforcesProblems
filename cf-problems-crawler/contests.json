@@ -1,5 +1,60 @@
 [
  {
+  "id": 1773,
+  "type": "ICPC",
+  "name": "2022-2023 ICPC, NERC, Northern Eurasia Onsite (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Amazing Trick"
+   },
+   {
+    "index": "B",
+    "name": "BinCoin"
+   },
+   {
+    "index": "C",
+    "name": "Cactus Meets Torus"
+   },
+   {
+    "index": "D",
+    "name": "Dominoes"
+   },
+   {
+    "index": "E",
+    "name": "Easy Assembly"
+   },
+   {
+    "index": "F",
+    "name": "Football"
+   },
+   {
+    "index": "G",
+    "name": "Game of Questions"
+   },
+   {
+    "index": "H",
+    "name": "Hot and Cold"
+   },
+   {
+    "index": "I",
+    "name": "Interactive Factorial Guessing"
+   },
+   {
+    "index": "J",
+    "name": "Jumbled Trees"
+   },
+   {
+    "index": "K",
+    "name": "King's Puzzle"
+   },
+   {
+    "index": "L",
+    "name": "Lisa's Sequences"
+   }
+  ]
+ },
+ {
   "id": 1751,
   "type": "ICPC",
   "name": "45th ICPC World Finals Challenge powered by Huawei - Problem 2",

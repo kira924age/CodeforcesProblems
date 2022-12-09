@@ -6,51 +6,63 @@
   "problems": [
    {
     "index": "A",
-    "name": "Amazing Trick"
+    "name": "Amazing Trick",
+    "rating": 1900
    },
    {
     "index": "B",
-    "name": "BinCoin"
+    "name": "BinCoin",
+    "rating": 2200
    },
    {
     "index": "C",
-    "name": "Cactus Meets Torus"
+    "name": "Cactus Meets Torus",
+    "rating": 3500
    },
    {
     "index": "D",
-    "name": "Dominoes"
+    "name": "Dominoes",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Easy Assembly"
+    "name": "Easy Assembly",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Football"
+    "name": "Football",
+    "rating": 800
    },
    {
     "index": "G",
-    "name": "Game of Questions"
+    "name": "Game of Questions",
+    "rating": 2800
    },
    {
     "index": "H",
-    "name": "Hot and Cold"
+    "name": "Hot and Cold",
+    "rating": 2600
    },
    {
     "index": "I",
-    "name": "Interactive Factorial Guessing"
+    "name": "Interactive Factorial Guessing",
+    "rating": 2500
    },
    {
     "index": "J",
-    "name": "Jumbled Trees"
+    "name": "Jumbled Trees",
+    "rating": 2900
    },
    {
     "index": "K",
-    "name": "King's Puzzle"
+    "name": "King's Puzzle",
+    "rating": 1900
    },
    {
     "index": "L",
-    "name": "Lisa's Sequences"
+    "name": "Lisa's Sequences",
+    "rating": 3500
    }
   ]
  },

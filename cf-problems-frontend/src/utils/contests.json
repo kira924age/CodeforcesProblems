@@ -1,5 +1,36 @@
 [
  {
+  "id": 1766,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 139 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Extremely Round"
+   },
+   {
+    "index": "B",
+    "name": "Notepad#"
+   },
+   {
+    "index": "C",
+    "name": "Hamiltonian Wall"
+   },
+   {
+    "index": "D",
+    "name": "Lucky Chains"
+   },
+   {
+    "index": "E",
+    "name": "Decomposition"
+   },
+   {
+    "index": "F",
+    "name": "MCF"
+   }
+  ]
+ },
+ {
   "id": 1771,
   "type": "Div2",
   "name": "Codeforces Round #837 (Div. 2)",

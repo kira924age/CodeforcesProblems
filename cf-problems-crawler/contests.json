@@ -1,5 +1,40 @@
 [
  {
+  "id": 1762,
+  "type": "Div2",
+  "name": "Codeforces Round #838 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Divide and Conquer"
+   },
+   {
+    "index": "B",
+    "name": "Make Array Good"
+   },
+   {
+    "index": "C",
+    "name": "Binary Strings are Fun"
+   },
+   {
+    "index": "D",
+    "name": "GCD Queries"
+   },
+   {
+    "index": "E",
+    "name": "Tree Sum"
+   },
+   {
+    "index": "F",
+    "name": "Good Pairs"
+   },
+   {
+    "index": "G",
+    "name": "Unequal Adjacent Elements"
+   }
+  ]
+ },
+ {
   "id": 1766,
   "type": "Educational",
   "name": "Educational Codeforces Round 139 (Rated for Div. 2)",

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1767,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 140 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cut the Triangle"
+   },
+   {
+    "index": "B",
+    "name": "Block Towers"
+   },
+   {
+    "index": "C",
+    "name": "Count Binary Strings"
+   },
+   {
+    "index": "D",
+    "name": "Playoff"
+   },
+   {
+    "index": "E",
+    "name": "Algebra Flash"
+   },
+   {
+    "index": "F",
+    "name": "Two Subtrees"
+   }
+  ]
+ },
+ {
   "id": 1762,
   "type": "Div2",
   "name": "Codeforces Round #838 (Div. 2)",

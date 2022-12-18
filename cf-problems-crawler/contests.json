@@ -1,5 +1,48 @@
 [
  {
+  "id": 1774,
+  "type": "Div1 + Div2",
+  "name": "Polynomial Round 2022 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Add Plus Minus Sign"
+   },
+   {
+    "index": "B",
+    "name": "Coloring"
+   },
+   {
+    "index": "C",
+    "name": "Ice and Fire"
+   },
+   {
+    "index": "D",
+    "name": "Same Count One"
+   },
+   {
+    "index": "E",
+    "name": "Two Chess Pieces"
+   },
+   {
+    "index": "F1",
+    "name": "Magician and Pigs (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Magician and Pigs (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Segment Covering"
+   },
+   {
+    "index": "H",
+    "name": "Maximum Permutation"
+   }
+  ]
+ },
+ {
   "id": 1767,
   "type": "Educational",
   "name": "Educational Codeforces Round 140 (Rated for Div. 2)",

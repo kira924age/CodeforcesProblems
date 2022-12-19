@@ -1,44 +1,94 @@
 [
  {
+  "id": 1772,
+  "type": "Div3",
+  "name": "Codeforces Round #839 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "A+B?"
+   },
+   {
+    "index": "B",
+    "name": "Matrix Rotation"
+   },
+   {
+    "index": "C",
+    "name": "Different Differences"
+   },
+   {
+    "index": "D",
+    "name": "Absolute Sorting"
+   },
+   {
+    "index": "E",
+    "name": "Permutation Game"
+   },
+   {
+    "index": "F",
+    "name": "Copy of a Copy of a Copy"
+   },
+   {
+    "index": "G",
+    "name": "Gaining Rating"
+   }
+  ]
+ },
+ {
+  "id": 1769,
+  "type": "Other",
+  "name": "VK Cup 2022 - \u041a\u0432\u0430\u043b\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f (Engine)",
+  "problems": []
+ },
+ {
   "id": 1774,
   "type": "Div1 + Div2",
   "name": "Polynomial Round 2022 (Div. 1 + Div. 2, Rated, Prizes!)",
   "problems": [
    {
     "index": "A",
-    "name": "Add Plus Minus Sign"
+    "name": "Add Plus Minus Sign",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Coloring"
+    "name": "Coloring",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "Ice and Fire"
+    "name": "Ice and Fire",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Same Count One"
+    "name": "Same Count One",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Two Chess Pieces"
+    "name": "Two Chess Pieces",
+    "rating": 1900
    },
    {
     "index": "F1",
-    "name": "Magician and Pigs (Easy Version)"
+    "name": "Magician and Pigs (Easy Version)",
+    "rating": 2400
    },
    {
     "index": "F2",
-    "name": "Magician and Pigs (Hard Version)"
+    "name": "Magician and Pigs (Hard Version)",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Segment Covering"
+    "name": "Segment Covering",
+    "rating": 3200
    },
    {
     "index": "H",
-    "name": "Maximum Permutation"
+    "name": "Maximum Permutation",
+    "rating": 3500
    }
   ]
  },
@@ -49,27 +99,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Cut the Triangle"
+    "name": "Cut the Triangle",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Block Towers"
+    "name": "Block Towers",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Count Binary Strings"
+    "name": "Count Binary Strings",
+    "rating": 2100
    },
    {
     "index": "D",
-    "name": "Playoff"
+    "name": "Playoff",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Algebra Flash"
+    "name": "Algebra Flash",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Two Subtrees"
+    "name": "Two Subtrees",
+    "rating": 3100
    }
   ]
  },
@@ -80,31 +136,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Divide and Conquer"
+    "name": "Divide and Conquer",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Make Array Good"
+    "name": "Make Array Good",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Binary Strings are Fun"
+    "name": "Binary Strings are Fun",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "GCD Queries"
+    "name": "GCD Queries",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Tree Sum"
+    "name": "Tree Sum",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Good Pairs"
+    "name": "Good Pairs",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Unequal Adjacent Elements"
+    "name": "Unequal Adjacent Elements",
+    "rating": 3100
    }
   ]
  },
@@ -115,27 +178,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Extremely Round"
+    "name": "Extremely Round",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Notepad#"
+    "name": "Notepad#",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Hamiltonian Wall"
+    "name": "Hamiltonian Wall",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Lucky Chains"
+    "name": "Lucky Chains",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Decomposition"
+    "name": "Decomposition",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "MCF"
+    "name": "MCF",
+    "rating": 2800
    }
   ]
  },
@@ -146,27 +215,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Hossam and Combinatorics"
+    "name": "Hossam and Combinatorics",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Hossam and Friends"
+    "name": "Hossam and Friends",
+    "rating": 1400
    },
    {
     "index": "C",
-    "name": "Hossam and Trainees"
+    "name": "Hossam and Trainees",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Hossam and (sub-)palindromic tree"
+    "name": "Hossam and (sub-)palindromic tree",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Hossam and a Letter"
+    "name": "Hossam and a Letter",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Hossam and Range Minimum Query"
+    "name": "Hossam and Range Minimum Query",
+    "rating": 2500
    }
   ]
  },

@@ -37,31 +37,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "A+B?"
+    "name": "A+B?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Matrix Rotation"
+    "name": "Matrix Rotation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Different Differences"
+    "name": "Different Differences",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Absolute Sorting"
+    "name": "Absolute Sorting",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Permutation Game"
+    "name": "Permutation Game",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "Copy of a Copy of a Copy"
+    "name": "Copy of a Copy of a Copy",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Gaining Rating"
+    "name": "Gaining Rating",
+    "rating": 2200
    }
   ]
  },
@@ -72,35 +79,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "\u0423\u0437\u043a\u0430\u044f \u0434\u043e\u0440\u043e\u0433\u0430"
+    "name": "\u0423\u0437\u043a\u0430\u044f \u0434\u043e\u0440\u043e\u0433\u0430",
+    "rating": 800
    },
    {
     "index": "B1",
-    "name": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u043e\u0432 I"
+    "name": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u043e\u0432 I",
+    "rating": 1000
    },
    {
     "index": "B2",
-    "name": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u043e\u0432 II"
+    "name": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0444\u0430\u0439\u043b\u043e\u0432 II",
+    "rating": 1400
    },
    {
     "index": "C1",
-    "name": "\u041f\u043e\u0434\u043a\u0440\u0443\u0442\u043a\u0430 I"
+    "name": "\u041f\u043e\u0434\u043a\u0440\u0443\u0442\u043a\u0430 I",
+    "rating": 1200
    },
    {
     "index": "C2",
-    "name": "\u041f\u043e\u0434\u043a\u0440\u0443\u0442\u043a\u0430 II"
+    "name": "\u041f\u043e\u0434\u043a\u0440\u0443\u0442\u043a\u0430 II",
+    "rating": 1300
    },
    {
     "index": "D1",
-    "name": "\u0418\u0433\u0440\u0430 \u0432 \u0414\u0435\u0432\u044f\u0442\u043a\u0443 I"
+    "name": "\u0418\u0433\u0440\u0430 \u0432 \u0414\u0435\u0432\u044f\u0442\u043a\u0443 I",
+    "rating": 1800
    },
    {
     "index": "D2",
-    "name": "\u0418\u0433\u0440\u0430 \u0432 \u0414\u0435\u0432\u044f\u0442\u043a\u0443 II"
+    "name": "\u0418\u0433\u0440\u0430 \u0432 \u0414\u0435\u0432\u044f\u0442\u043a\u0443 II",
+    "rating": 2200
    },
    {
     "index": "D3",
-    "name": "\u0418\u0433\u0440\u0430 \u0432 \u0414\u0435\u0432\u044f\u0442\u043a\u0443 III"
+    "name": "\u0418\u0433\u0440\u0430 \u0432 \u0414\u0435\u0432\u044f\u0442\u043a\u0443 III",
+    "rating": 2300
    }
   ]
  },

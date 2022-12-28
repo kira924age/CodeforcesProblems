@@ -1,5 +1,36 @@
 [
  {
+  "id": 1731,
+  "type": "Div2",
+  "name": "Codeforces Round #841 (Div. 2) and Divide by Zero 2022",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Joey Takes Money"
+   },
+   {
+    "index": "B",
+    "name": "Kill Demodogs"
+   },
+   {
+    "index": "C",
+    "name": "Even Subarrays"
+   },
+   {
+    "index": "D",
+    "name": "Valiant's New Map"
+   },
+   {
+    "index": "E",
+    "name": "Graph Cost"
+   },
+   {
+    "index": "F",
+    "name": "Function Sum"
+   }
+  ]
+ },
+ {
   "id": 1763,
   "type": "Div2",
   "name": "Codeforces Round #840 (Div. 2) and Enigma 2022 - Cybros LNMIIT",

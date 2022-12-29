@@ -37,27 +37,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Absolute Maximization"
+    "name": "Absolute Maximization",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Incinerate"
+    "name": "Incinerate",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Another Array Problem"
+    "name": "Another Array Problem",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Valid Bitonic Permutations"
+    "name": "Valid Bitonic Permutations",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Node Pairs"
+    "name": "Node Pairs",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Edge Queries"
+    "name": "Edge Queries",
+    "rating": 3000
    }
   ]
  },

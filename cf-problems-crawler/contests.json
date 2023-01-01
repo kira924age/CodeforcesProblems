@@ -1,5 +1,44 @@
 [
  {
+  "id": 1770,
+  "type": "Other",
+  "name": "Good Bye 2022: 2023 is NEAR",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Koxia and Whiteboards"
+   },
+   {
+    "index": "B",
+    "name": "Koxia and Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Koxia and Number Theory"
+   },
+   {
+    "index": "D",
+    "name": "Koxia and Game"
+   },
+   {
+    "index": "E",
+    "name": "Koxia and Tree"
+   },
+   {
+    "index": "F",
+    "name": "Koxia and Sequence"
+   },
+   {
+    "index": "G",
+    "name": "Koxia and Bracket"
+   },
+   {
+    "index": "H",
+    "name": "Koxia, Mahiru and Winter Festival"
+   }
+  ]
+ },
+ {
   "id": 1731,
   "type": "Div2",
   "name": "Codeforces Round #841 (Div. 2) and Divide by Zero 2022",

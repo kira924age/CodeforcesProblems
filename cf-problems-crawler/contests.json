@@ -1,5 +1,44 @@
 [
  {
+  "id": 1779,
+  "type": "Other",
+  "name": "Hello 2023",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Hall of Fame"
+   },
+   {
+    "index": "B",
+    "name": "MKnez's ConstructiveForces Task"
+   },
+   {
+    "index": "C",
+    "name": "Least Prefix Sum"
+   },
+   {
+    "index": "D",
+    "name": "Boris and His Amazing Haircut"
+   },
+   {
+    "index": "E",
+    "name": "Anya's Simultaneous Exhibition"
+   },
+   {
+    "index": "F",
+    "name": "Xorcerer's Stones"
+   },
+   {
+    "index": "G",
+    "name": "The Game of the Century"
+   },
+   {
+    "index": "H",
+    "name": "Olympic Team Building"
+   }
+  ]
+ },
+ {
   "id": 1770,
   "type": "Other",
   "name": "Good Bye 2022: 2023 is NEAR",

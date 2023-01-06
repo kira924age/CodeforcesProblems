@@ -1,5 +1,36 @@
 [
  {
+  "id": 1768,
+  "type": "Div2",
+  "name": "Codeforces Round #842 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Greatest Convex"
+   },
+   {
+    "index": "B",
+    "name": "Quick Sort"
+   },
+   {
+    "index": "C",
+    "name": "Elemental Decompress"
+   },
+   {
+    "index": "D",
+    "name": "Lucky Permutation"
+   },
+   {
+    "index": "E",
+    "name": "Partial Sorting"
+   },
+   {
+    "index": "F",
+    "name": "Wonderful Jump"
+   }
+  ]
+ },
+ {
   "id": 1779,
   "type": "Other",
   "name": "Hello 2023",

@@ -115,27 +115,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Joey Takes Money"
+    "name": "Joey Takes Money",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Kill Demodogs"
+    "name": "Kill Demodogs",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Even Subarrays"
+    "name": "Even Subarrays",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Valiant's New Map"
+    "name": "Valiant's New Map",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Graph Cost"
+    "name": "Graph Cost",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Function Sum"
+    "name": "Function Sum",
+    "rating": 2500
    }
   ]
  },

@@ -1,5 +1,40 @@
 [
  {
+  "id": 1783,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 141 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Make it Beautiful"
+   },
+   {
+    "index": "B",
+    "name": "Matrix of Differences"
+   },
+   {
+    "index": "C",
+    "name": "Yet Another Tournament"
+   },
+   {
+    "index": "D",
+    "name": "Different Arrays"
+   },
+   {
+    "index": "E",
+    "name": "Game of the Year"
+   },
+   {
+    "index": "F",
+    "name": "Double Sort II"
+   },
+   {
+    "index": "G",
+    "name": "Weighed Tree Radius"
+   }
+  ]
+ },
+ {
   "id": 1768,
   "type": "Div2",
   "name": "Codeforces Round #842 (Div. 2)",

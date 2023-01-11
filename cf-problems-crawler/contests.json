@@ -1,5 +1,40 @@
 [
  {
+  "id": 1775,
+  "type": "Div2",
+  "name": "Codeforces Round #843 (Div. 2)",
+  "problems": [
+   {
+    "index": "A1",
+    "name": "Gardener and the Capybaras (easy version)"
+   },
+   {
+    "index": "A2",
+    "name": "Gardener and the Capybaras (hard version)"
+   },
+   {
+    "index": "B",
+    "name": "Gardener and the Array"
+   },
+   {
+    "index": "C",
+    "name": "Interesting Sequence"
+   },
+   {
+    "index": "D",
+    "name": "Friendly Spiders"
+   },
+   {
+    "index": "E",
+    "name": "The Human Equation"
+   },
+   {
+    "index": "F",
+    "name": "Laboratory on Pluto"
+   }
+  ]
+ },
+ {
   "id": 1783,
   "type": "Educational",
   "name": "Educational Codeforces Round 141 (Rated for Div. 2)",

@@ -1,36 +1,129 @@
 [
  {
+  "id": 1781,
+  "type": "Other",
+  "name": "VK Cup 2022 - \u041e\u0442\u0431\u043e\u0440\u043e\u0447\u043d\u044b\u0439 \u0440\u0430\u0443\u043d\u0434 (Engine)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Parallel Projection"
+   },
+   {
+    "index": "B",
+    "name": "Going to the Cinema"
+   },
+   {
+    "index": "C",
+    "name": "Equal Frequencies"
+   },
+   {
+    "index": "D",
+    "name": "Many Perfect Squares"
+   },
+   {
+    "index": "E",
+    "name": "Rectangle Shrinking"
+   },
+   {
+    "index": "F",
+    "name": "Bracket Insertion"
+   },
+   {
+    "index": "G",
+    "name": "Diverse Coloring"
+   },
+   {
+    "index": "H1",
+    "name": "Window Signals (easy version)"
+   },
+   {
+    "index": "H2",
+    "name": "Window Signals (hard version)"
+   }
+  ]
+ },
+ {
+  "id": 1782,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round #844 (Div. 1 + Div. 2, based on VK Cup 2022 - Elimination Round)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Parallel Projection"
+   },
+   {
+    "index": "B",
+    "name": "Going to the Cinema"
+   },
+   {
+    "index": "C",
+    "name": "Equal Frequencies"
+   },
+   {
+    "index": "D",
+    "name": "Many Perfect Squares"
+   },
+   {
+    "index": "E",
+    "name": "Rectangle Shrinking"
+   },
+   {
+    "index": "F",
+    "name": "Bracket Insertion"
+   },
+   {
+    "index": "G",
+    "name": "Diverse Coloring"
+   },
+   {
+    "index": "H1",
+    "name": "Window Signals (easy version)"
+   },
+   {
+    "index": "H2",
+    "name": "Window Signals (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1775,
   "type": "Div2",
   "name": "Codeforces Round #843 (Div. 2)",
   "problems": [
    {
     "index": "A1",
-    "name": "Gardener and the Capybaras (easy version)"
+    "name": "Gardener and the Capybaras (easy version)",
+    "rating": 800
    },
    {
     "index": "A2",
-    "name": "Gardener and the Capybaras (hard version)"
+    "name": "Gardener and the Capybaras (hard version)",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Gardener and the Array"
+    "name": "Gardener and the Array",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Interesting Sequence"
+    "name": "Interesting Sequence",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Friendly Spiders"
+    "name": "Friendly Spiders",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "The Human Equation"
+    "name": "The Human Equation",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Laboratory on Pluto"
+    "name": "Laboratory on Pluto",
+    "rating": 2500
    }
   ]
  },
@@ -41,31 +134,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Make it Beautiful"
+    "name": "Make it Beautiful",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Matrix of Differences"
+    "name": "Matrix of Differences",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Yet Another Tournament"
+    "name": "Yet Another Tournament",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Different Arrays"
+    "name": "Different Arrays",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Game of the Year"
+    "name": "Game of the Year",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Double Sort II"
+    "name": "Double Sort II",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Weighed Tree Radius"
+    "name": "Weighed Tree Radius",
+    "rating": 2800
    }
   ]
  },
@@ -76,27 +176,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Greatest Convex"
+    "name": "Greatest Convex",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Quick Sort"
+    "name": "Quick Sort",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Elemental Decompress"
+    "name": "Elemental Decompress",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Lucky Permutation"
+    "name": "Lucky Permutation",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Partial Sorting"
+    "name": "Partial Sorting",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Wonderful Jump"
+    "name": "Wonderful Jump",
+    "rating": 2900
    }
   ]
  },
@@ -107,35 +213,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Hall of Fame"
+    "name": "Hall of Fame",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "MKnez's ConstructiveForces Task"
+    "name": "MKnez's ConstructiveForces Task",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Least Prefix Sum"
+    "name": "Least Prefix Sum",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Boris and His Amazing Haircut"
+    "name": "Boris and His Amazing Haircut",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Anya's Simultaneous Exhibition"
+    "name": "Anya's Simultaneous Exhibition",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Xorcerer's Stones"
+    "name": "Xorcerer's Stones",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "The Game of the Century"
+    "name": "The Game of the Century",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Olympic Team Building"
+    "name": "Olympic Team Building",
+    "rating": 3500
    }
   ]
  },
@@ -146,35 +260,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Koxia and Whiteboards"
+    "name": "Koxia and Whiteboards",
+    "rating": 1000
    },
    {
     "index": "B",
-    "name": "Koxia and Permutation"
+    "name": "Koxia and Permutation",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Koxia and Number Theory"
+    "name": "Koxia and Number Theory",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Koxia and Game"
+    "name": "Koxia and Game",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Koxia and Tree"
+    "name": "Koxia and Tree",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Koxia and Sequence"
+    "name": "Koxia and Sequence",
+    "rating": 3100
    },
    {
     "index": "G",
-    "name": "Koxia and Bracket"
+    "name": "Koxia and Bracket",
+    "rating": 3400
    },
    {
     "index": "H",
-    "name": "Koxia, Mahiru and Winter Festival"
+    "name": "Koxia, Mahiru and Winter Festival",
+    "rating": 3500
    }
   ]
  },

@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Parallel Projection"
+    "name": "Parallel Projection",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Going to the Cinema"
+    "name": "Going to the Cinema",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Equal Frequencies"
+    "name": "Equal Frequencies",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Many Perfect Squares"
+    "name": "Many Perfect Squares",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Rectangle Shrinking"
+    "name": "Rectangle Shrinking",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Bracket Insertion"
+    "name": "Bracket Insertion",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Diverse Coloring"
+    "name": "Diverse Coloring",
+    "rating": 3200
    },
    {
     "index": "H1",
-    "name": "Window Signals (easy version)"
+    "name": "Window Signals (easy version)",
+    "rating": 3200
    },
    {
     "index": "H2",
-    "name": "Window Signals (hard version)"
+    "name": "Window Signals (hard version)",
+    "rating": 3500
    }
   ]
  },
@@ -49,39 +58,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Parallel Projection"
+    "name": "Parallel Projection",
+    "rating": "800"
    },
    {
     "index": "B",
-    "name": "Going to the Cinema"
+    "name": "Going to the Cinema",
+    "rating": "1000"
    },
    {
     "index": "C",
-    "name": "Equal Frequencies"
+    "name": "Equal Frequencies",
+    "rating": "1600"
    },
    {
     "index": "D",
-    "name": "Many Perfect Squares"
+    "name": "Many Perfect Squares",
+    "rating": "1800"
    },
    {
     "index": "E",
-    "name": "Rectangle Shrinking"
+    "name": "Rectangle Shrinking",
+    "rating": "2300"
    },
    {
     "index": "F",
-    "name": "Bracket Insertion"
+    "name": "Bracket Insertion",
+    "rating": "2700"
    },
    {
     "index": "G",
-    "name": "Diverse Coloring"
+    "name": "Diverse Coloring",
+    "rating": "3200"
    },
    {
     "index": "H1",
-    "name": "Window Signals (easy version)"
+    "name": "Window Signals (easy version)",
+    "rating": "3200"
    },
    {
     "index": "H2",
-    "name": "Window Signals (hard version)"
+    "name": "Window Signals (hard version)",
+    "rating": "3500"
    }
   ]
  },

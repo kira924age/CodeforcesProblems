@@ -1,5 +1,40 @@
 [
  {
+  "id": 1792,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 142 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "GamingForces"
+   },
+   {
+    "index": "B",
+    "name": "Stand-up Comedian"
+   },
+   {
+    "index": "C",
+    "name": "Min Max Sort"
+   },
+   {
+    "index": "D",
+    "name": "Fixed Prefix Permutations"
+   },
+   {
+    "index": "E",
+    "name": "Divisors and Table"
+   },
+   {
+    "index": "F1",
+    "name": "Graph Coloring (easy version)"
+   },
+   {
+    "index": "F2",
+    "name": "Graph Coloring (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1777,
   "type": "Div2",
   "name": "Codeforces Round #845 (Div. 2) and ByteRace 2023",

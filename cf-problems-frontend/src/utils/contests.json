@@ -1,5 +1,36 @@
 [
  {
+  "id": 1780,
+  "type": "Div2",
+  "name": "Codeforces Round #846 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Hayato and School"
+   },
+   {
+    "index": "B",
+    "name": "GCD Partition"
+   },
+   {
+    "index": "D",
+    "name": "Bit Guessing Game"
+   },
+   {
+    "index": "E",
+    "name": "Josuke and Complete Graph"
+   },
+   {
+    "index": "F",
+    "name": "Three Chairs"
+   },
+   {
+    "index": "G",
+    "name": "Delicious Dessert"
+   }
+  ]
+ },
+ {
   "id": 1792,
   "type": "Educational",
   "name": "Educational Codeforces Round 142 (Rated for Div. 2)",

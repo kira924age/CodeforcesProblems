@@ -1,5 +1,40 @@
 [
  {
+  "id": 1790,
+  "type": "Div3",
+  "name": "Codeforces Round #847 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Polycarp and the Day of Pi"
+   },
+   {
+    "index": "B",
+    "name": "Taisia and Dice"
+   },
+   {
+    "index": "C",
+    "name": "Premutation"
+   },
+   {
+    "index": "D",
+    "name": "Matryoshkas"
+   },
+   {
+    "index": "E",
+    "name": "Vlad and a Pair of Numbers"
+   },
+   {
+    "index": "F",
+    "name": "Timofey and Black-White Tree"
+   },
+   {
+    "index": "G",
+    "name": "Tokens on Graph"
+   }
+  ]
+ },
+ {
   "id": 1780,
   "type": "Div2",
   "name": "Codeforces Round #846 (Div. 2)",

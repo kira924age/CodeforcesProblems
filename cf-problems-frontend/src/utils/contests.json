@@ -1,5 +1,48 @@
 [
  {
+  "id": 1787,
+  "type": "Div1 + Div2",
+  "name": "TypeDB Forces 2023 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Exponential Equation"
+   },
+   {
+    "index": "B",
+    "name": "Number Factorization"
+   },
+   {
+    "index": "C",
+    "name": "Remove the Bracket"
+   },
+   {
+    "index": "D",
+    "name": "Game on Axis"
+   },
+   {
+    "index": "E",
+    "name": "The Harmonization of XOR"
+   },
+   {
+    "index": "F",
+    "name": "Inverse Transformation"
+   },
+   {
+    "index": "G",
+    "name": "Colorful Tree Again"
+   },
+   {
+    "index": "H",
+    "name": "Codeforces Scoreboard"
+   },
+   {
+    "index": "I",
+    "name": "Treasure Hunt"
+   }
+  ]
+ },
+ {
   "id": 1790,
   "type": "Div3",
   "name": "Codeforces Round #847 (Div. 3)",

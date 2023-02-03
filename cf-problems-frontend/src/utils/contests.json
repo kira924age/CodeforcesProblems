@@ -37,39 +37,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Exponential Equation"
+    "name": "Exponential Equation",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Number Factorization"
+    "name": "Number Factorization",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Remove the Bracket"
+    "name": "Remove the Bracket",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Game on Axis"
+    "name": "Game on Axis",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "The Harmonization of XOR"
+    "name": "The Harmonization of XOR",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Inverse Transformation"
+    "name": "Inverse Transformation",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Colorful Tree Again"
+    "name": "Colorful Tree Again",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Codeforces Scoreboard"
+    "name": "Codeforces Scoreboard",
+    "rating": 3300
    },
    {
     "index": "I",
-    "name": "Treasure Hunt"
+    "name": "Treasure Hunt",
+    "rating": 3400
    }
   ]
  },

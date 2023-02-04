@@ -1,5 +1,44 @@
 [
  {
+  "id": 1791,
+  "type": "Div4",
+  "name": "Codeforces Round #849 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Codeforces Checking"
+   },
+   {
+    "index": "B",
+    "name": "Following Directions"
+   },
+   {
+    "index": "C",
+    "name": "Prepend and Append"
+   },
+   {
+    "index": "D",
+    "name": "Distinct Split"
+   },
+   {
+    "index": "E",
+    "name": "Negatives and Positives"
+   },
+   {
+    "index": "F",
+    "name": "Range Update Point Query"
+   },
+   {
+    "index": "G1",
+    "name": "Teleporters (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Teleporters (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1778,
   "type": "Div2",
   "name": "Codeforces Round #848 (Div. 2)",

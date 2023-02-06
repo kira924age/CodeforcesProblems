@@ -1,40 +1,145 @@
 [
  {
+  "id": 1784,
+  "type": "Other",
+  "name": "VK Cup 2022 - \u0424\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0430\u0443\u043d\u0434 (Engine)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Monsters (easy version)"
+   },
+   {
+    "index": "B",
+    "name": "Letter Exchange"
+   },
+   {
+    "index": "C",
+    "name": "Monsters (hard version)"
+   },
+   {
+    "index": "D",
+    "name": "Wooden Spoon"
+   },
+   {
+    "index": "E",
+    "name": "Infinite Game"
+   },
+   {
+    "index": "F",
+    "name": "Minimums or Medians"
+   }
+  ]
+ },
+ {
+  "id": 1785,
+  "type": "Div1",
+  "name": "Codeforces Round #850 (Div. 1, based on VK Cup 2022 - Final Round)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Monsters (easy version)"
+   },
+   {
+    "index": "B",
+    "name": "Letter Exchange"
+   },
+   {
+    "index": "C",
+    "name": "Monsters (hard version)"
+   },
+   {
+    "index": "D",
+    "name": "Wooden Spoon"
+   },
+   {
+    "index": "E",
+    "name": "Infinite Game"
+   },
+   {
+    "index": "F",
+    "name": "Minimums or Medians"
+   }
+  ]
+ },
+ {
+  "id": 1786,
+  "type": "Div2",
+  "name": "Codeforces Round #850 (Div. 2, based on VK Cup 2022 - Final Round)",
+  "problems": [
+   {
+    "index": "A1",
+    "name": "Non-alternating Deck (easy version)"
+   },
+   {
+    "index": "A2",
+    "name": "Alternating Deck (hard version)"
+   },
+   {
+    "index": "B",
+    "name": "Cake Assembly Line"
+   },
+   {
+    "index": "C",
+    "name": "Monsters (easy version)"
+   },
+   {
+    "index": "D",
+    "name": "Letter Exchange"
+   },
+   {
+    "index": "E",
+    "name": "Monsters (hard version)"
+   },
+   {
+    "index": "F",
+    "name": "Wooden Spoon"
+   }
+  ]
+ },
+ {
   "id": 1791,
   "type": "Div4",
   "name": "Codeforces Round #849 (Div. 4)",
   "problems": [
    {
     "index": "A",
-    "name": "Codeforces Checking"
+    "name": "Codeforces Checking",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Following Directions"
+    "name": "Following Directions",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Prepend and Append"
+    "name": "Prepend and Append",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Distinct Split"
+    "name": "Distinct Split",
+    "rating": 1000
    },
    {
     "index": "E",
-    "name": "Negatives and Positives"
+    "name": "Negatives and Positives",
+    "rating": 1100
    },
    {
     "index": "F",
-    "name": "Range Update Point Query"
+    "name": "Range Update Point Query",
+    "rating": 1500
    },
    {
     "index": "G1",
-    "name": "Teleporters (Easy Version)"
+    "name": "Teleporters (Easy Version)",
+    "rating": 1100
    },
    {
     "index": "G2",
-    "name": "Teleporters (Hard Version)"
+    "name": "Teleporters (Hard Version)",
+    "rating": 1900
    }
   ]
  },
@@ -128,31 +233,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Polycarp and the Day of Pi"
+    "name": "Polycarp and the Day of Pi",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Taisia and Dice"
+    "name": "Taisia and Dice",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Premutation"
+    "name": "Premutation",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Matryoshkas"
+    "name": "Matryoshkas",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Vlad and a Pair of Numbers"
+    "name": "Vlad and a Pair of Numbers",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Timofey and Black-White Tree"
+    "name": "Timofey and Black-White Tree",
+    "rating": 2100
    },
    {
     "index": "G",
-    "name": "Tokens on Graph"
+    "name": "Tokens on Graph",
+    "rating": 2300
    }
   ]
  },
@@ -194,31 +306,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "GamingForces"
+    "name": "GamingForces",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Stand-up Comedian"
+    "name": "Stand-up Comedian",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Min Max Sort"
+    "name": "Min Max Sort",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Fixed Prefix Permutations"
+    "name": "Fixed Prefix Permutations",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Divisors and Table"
+    "name": "Divisors and Table",
+    "rating": 2400
    },
    {
     "index": "F1",
-    "name": "Graph Coloring (easy version)"
+    "name": "Graph Coloring (easy version)",
+    "rating": 2700
    },
    {
     "index": "F2",
-    "name": "Graph Coloring (hard version)"
+    "name": "Graph Coloring (hard version)",
+    "rating": 2900
    }
   ]
  },

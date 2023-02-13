@@ -1,5 +1,36 @@
 [
  {
+  "id": 1793,
+  "type": "Div2",
+  "name": "Codeforces Round #852 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Yet Another Promotion"
+   },
+   {
+    "index": "B",
+    "name": "Fedya and Array"
+   },
+   {
+    "index": "C",
+    "name": "Dora and Search"
+   },
+   {
+    "index": "D",
+    "name": "Moscow Gorillas"
+   },
+   {
+    "index": "E",
+    "name": "Velepin and Marketing"
+   },
+   {
+    "index": "F",
+    "name": "Rebrending"
+   }
+  ]
+ },
+ {
   "id": 1788,
   "type": "Div2",
   "name": "Codeforces Round #851 (Div. 2)",

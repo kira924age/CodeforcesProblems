@@ -1,32 +1,73 @@
 [
  {
+  "id": 1795,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 143 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Two Towers"
+   },
+   {
+    "index": "B",
+    "name": "Ideal Point"
+   },
+   {
+    "index": "C",
+    "name": "Tea Tasting"
+   },
+   {
+    "index": "D",
+    "name": "Triangle Coloring"
+   },
+   {
+    "index": "E",
+    "name": "Explosions?"
+   },
+   {
+    "index": "F",
+    "name": "Blocking Chips"
+   },
+   {
+    "index": "G",
+    "name": "Removal Sequences"
+   }
+  ]
+ },
+ {
   "id": 1793,
   "type": "Div2",
   "name": "Codeforces Round #852 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Yet Another Promotion"
+    "name": "Yet Another Promotion",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Fedya and Array"
+    "name": "Fedya and Array",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Dora and Search"
+    "name": "Dora and Search",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Moscow Gorillas"
+    "name": "Moscow Gorillas",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Velepin and Marketing"
+    "name": "Velepin and Marketing",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Rebrending"
+    "name": "Rebrending",
+    "rating": 2200
    }
   ]
  },
@@ -37,27 +78,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "One and Two"
+    "name": "One and Two",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Sum of Two Numbers"
+    "name": "Sum of Two Numbers",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Matching Numbers"
+    "name": "Matching Numbers",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Moving Dots"
+    "name": "Moving Dots",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Sum Over Zero"
+    "name": "Sum Over Zero",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "XOR, Tree, and Queries"
+    "name": "XOR, Tree, and Queries",
+    "rating": 2500
    }
   ]
  },
@@ -68,27 +115,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Monsters (easy version)"
+    "name": "Monsters (easy version)",
+    "rating": 1000
    },
    {
     "index": "B",
-    "name": "Letter Exchange"
+    "name": "Letter Exchange",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Monsters (hard version)"
+    "name": "Monsters (hard version)",
+    "rating": 2200
    },
    {
     "index": "D",
-    "name": "Wooden Spoon"
+    "name": "Wooden Spoon",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Infinite Game"
+    "name": "Infinite Game",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Minimums or Medians"
+    "name": "Minimums or Medians",
+    "rating": 3400
    }
   ]
  },
@@ -99,27 +152,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Monsters (easy version)"
+    "name": "Monsters (easy version)",
+    "rating": "1000"
    },
    {
     "index": "B",
-    "name": "Letter Exchange"
+    "name": "Letter Exchange",
+    "rating": "1900"
    },
    {
     "index": "C",
-    "name": "Monsters (hard version)"
+    "name": "Monsters (hard version)",
+    "rating": "2200"
    },
    {
     "index": "D",
-    "name": "Wooden Spoon"
+    "name": "Wooden Spoon",
+    "rating": "2400"
    },
    {
     "index": "E",
-    "name": "Infinite Game"
+    "name": "Infinite Game",
+    "rating": "3100"
    },
    {
     "index": "F",
-    "name": "Minimums or Medians"
+    "name": "Minimums or Medians",
+    "rating": "3400"
    }
   ]
  },
@@ -130,31 +189,38 @@
   "problems": [
    {
     "index": "A1",
-    "name": "Non-alternating Deck (easy version)"
+    "name": "Non-alternating Deck (easy version)",
+    "rating": 800
    },
    {
     "index": "A2",
-    "name": "Alternating Deck (hard version)"
+    "name": "Alternating Deck (hard version)",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Cake Assembly Line"
+    "name": "Cake Assembly Line",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Monsters (easy version)"
+    "name": "Monsters (easy version)",
+    "rating": "1000"
    },
    {
     "index": "D",
-    "name": "Letter Exchange"
+    "name": "Letter Exchange",
+    "rating": "1900"
    },
    {
     "index": "E",
-    "name": "Monsters (hard version)"
+    "name": "Monsters (hard version)",
+    "rating": "2200"
    },
    {
     "index": "F",
-    "name": "Wooden Spoon"
+    "name": "Wooden Spoon",
+    "rating": "2400"
    }
   ]
  },
@@ -212,27 +278,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Flip Flop Sum"
+    "name": "Flip Flop Sum",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "The Forbidden Permutation"
+    "name": "The Forbidden Permutation",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Flexible String"
+    "name": "Flexible String",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Flexible String Revisit"
+    "name": "Flexible String Revisit",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "The Tree Has Fallen!"
+    "name": "The Tree Has Fallen!",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Maximizing Root"
+    "name": "Maximizing Root",
+    "rating": 2600
    }
   ]
  },
@@ -337,27 +409,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Hayato and School"
+    "name": "Hayato and School",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "GCD Partition"
+    "name": "GCD Partition",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Bit Guessing Game"
+    "name": "Bit Guessing Game",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Josuke and Complete Graph"
+    "name": "Josuke and Complete Graph",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Three Chairs"
+    "name": "Three Chairs",
+    "rating": 2300
    },
    {
     "index": "G",
-    "name": "Delicious Dessert"
+    "name": "Delicious Dessert",
+    "rating": 2400
    }
   ]
  },
@@ -410,27 +488,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Everybody Likes Good Arrays!"
+    "name": "Everybody Likes Good Arrays!",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Emordnilap"
+    "name": "Emordnilap",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Quiz Master"
+    "name": "Quiz Master",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Score of a Tree"
+    "name": "Score of a Tree",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Edge Reverse"
+    "name": "Edge Reverse",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Comfortably Numb"
+    "name": "Comfortably Numb",
+    "rating": 2400
    }
   ]
  },

@@ -1,5 +1,68 @@
 [
  {
+  "id": 1776,
+  "type": "ICPC",
+  "name": "SWERC 2022-2023 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Walking Boy"
+   },
+   {
+    "index": "B",
+    "name": "Vittorio Plays with LEGO Bricks"
+   },
+   {
+    "index": "C",
+    "name": "Library game"
+   },
+   {
+    "index": "D",
+    "name": "Teamwork"
+   },
+   {
+    "index": "E",
+    "name": "Crossing the Railways"
+   },
+   {
+    "index": "F",
+    "name": "Train Splitting"
+   },
+   {
+    "index": "G",
+    "name": "Another Wine Tasting Event"
+   },
+   {
+    "index": "H",
+    "name": "Beppa and SwerChat"
+   },
+   {
+    "index": "I",
+    "name": "Spinach Pizza"
+   },
+   {
+    "index": "J",
+    "name": "Italian Data Centers"
+   },
+   {
+    "index": "K",
+    "name": "Uniform Chemistry"
+   },
+   {
+    "index": "L",
+    "name": "Controllers"
+   },
+   {
+    "index": "M",
+    "name": "Parmigiana With Seafood"
+   },
+   {
+    "index": "N",
+    "name": "Count Permutations"
+   }
+  ]
+ },
+ {
   "id": 1795,
   "type": "Educational",
   "name": "Educational Codeforces Round 143 (Rated for Div. 2)",

@@ -6,59 +6,73 @@
   "problems": [
    {
     "index": "A",
-    "name": "Walking Boy"
+    "name": "Walking Boy",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Vittorio Plays with LEGO Bricks"
+    "name": "Vittorio Plays with LEGO Bricks",
+    "rating": 2200
    },
    {
     "index": "C",
-    "name": "Library game"
+    "name": "Library game",
+    "rating": 2500
    },
    {
     "index": "D",
-    "name": "Teamwork"
+    "name": "Teamwork",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Crossing the Railways"
+    "name": "Crossing the Railways",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "Train Splitting"
+    "name": "Train Splitting",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Another Wine Tasting Event"
+    "name": "Another Wine Tasting Event",
+    "rating": 2100
    },
    {
     "index": "H",
-    "name": "Beppa and SwerChat"
+    "name": "Beppa and SwerChat",
+    "rating": 1300
    },
    {
     "index": "I",
-    "name": "Spinach Pizza"
+    "name": "Spinach Pizza",
+    "rating": 2500
    },
    {
     "index": "J",
-    "name": "Italian Data Centers"
+    "name": "Italian Data Centers",
+    "rating": 2500
    },
    {
     "index": "K",
-    "name": "Uniform Chemistry"
+    "name": "Uniform Chemistry",
+    "rating": 3200
    },
    {
     "index": "L",
-    "name": "Controllers"
+    "name": "Controllers",
+    "rating": 1500
    },
    {
     "index": "M",
-    "name": "Parmigiana With Seafood"
+    "name": "Parmigiana With Seafood",
+    "rating": 3000
    },
    {
     "index": "N",
-    "name": "Count Permutations"
+    "name": "Count Permutations",
+    "rating": 3500
    }
   ]
  },
@@ -69,31 +83,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Two Towers"
+    "name": "Two Towers",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Ideal Point"
+    "name": "Ideal Point",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Tea Tasting"
+    "name": "Tea Tasting",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Triangle Coloring"
+    "name": "Triangle Coloring",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Explosions?"
+    "name": "Explosions?",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Blocking Chips"
+    "name": "Blocking Chips",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Removal Sequences"
+    "name": "Removal Sequences",
+    "rating": 2700
    }
   ]
  },

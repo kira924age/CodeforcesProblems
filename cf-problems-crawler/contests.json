@@ -1,5 +1,36 @@
 [
  {
+  "id": 1789,
+  "type": "Div2",
+  "name": "Codeforces Round #853 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Serval and Mocha's Array"
+   },
+   {
+    "index": "B",
+    "name": "Serval and Inversion Magic"
+   },
+   {
+    "index": "C",
+    "name": "Serval and Toxel's Arrays"
+   },
+   {
+    "index": "D",
+    "name": "Serval and Shift-Shift-Shift"
+   },
+   {
+    "index": "E",
+    "name": "Serval and Music Game"
+   },
+   {
+    "index": "F",
+    "name": "Serval and Brain Power"
+   }
+  ]
+ },
+ {
   "id": 1776,
   "type": "ICPC",
   "name": "SWERC 2022-2023 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",

@@ -1,5 +1,48 @@
 [
  {
+  "id": 1799,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round #854 by cybercats (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Recent Actions"
+   },
+   {
+    "index": "B",
+    "name": "Equalize by Divide"
+   },
+   {
+    "index": "C",
+    "name": "Double Lexicographically Minimum"
+   },
+   {
+    "index": "D1",
+    "name": "Hot Start Up (easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Hot Start Up (hard version)"
+   },
+   {
+    "index": "E",
+    "name": "City Union"
+   },
+   {
+    "index": "F",
+    "name": "Halve or Subtract"
+   },
+   {
+    "index": "G",
+    "name": "Count Voting"
+   },
+   {
+    "index": "H",
+    "name": "Tree Cutting"
+   }
+  ]
+ },
+ {
   "id": 1789,
   "type": "Div2",
   "name": "Codeforces Round #853 (Div. 2)",

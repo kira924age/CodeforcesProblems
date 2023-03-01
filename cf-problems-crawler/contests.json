@@ -1,5 +1,36 @@
 [
  {
+  "id": 1796,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 144 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Typical Interview Problem"
+   },
+   {
+    "index": "B",
+    "name": "Asterisk-Minor Template"
+   },
+   {
+    "index": "C",
+    "name": "Maximum Set"
+   },
+   {
+    "index": "D",
+    "name": "Maximum Subarray"
+   },
+   {
+    "index": "E",
+    "name": "Colored Subgraphs"
+   },
+   {
+    "index": "F",
+    "name": "Strange Triples"
+   }
+  ]
+ },
+ {
   "id": 1799,
   "type": "Div1 + Div2",
   "name": "Codeforces Round #854 by cybercats (Div. 1 + Div. 2)",

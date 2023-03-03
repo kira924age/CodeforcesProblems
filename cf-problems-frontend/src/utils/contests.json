@@ -1,32 +1,81 @@
 [
  {
+  "id": 1800,
+  "type": "Div3",
+  "name": "Codeforces Round #855 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Is It a Cat?"
+   },
+   {
+    "index": "B",
+    "name": "Count the Number of Pairs"
+   },
+   {
+    "index": "C1",
+    "name": "Powering the Hero (easy version)"
+   },
+   {
+    "index": "C2",
+    "name": "Powering the Hero (hard version)"
+   },
+   {
+    "index": "D",
+    "name": "Remove Two Letters"
+   },
+   {
+    "index": "E1",
+    "name": "Unforgivable Curse (easy version)"
+   },
+   {
+    "index": "E2",
+    "name": "Unforgivable Curse (hard version)"
+   },
+   {
+    "index": "F",
+    "name": "Dasha and Nightmares"
+   },
+   {
+    "index": "G",
+    "name": "Symmetree"
+   }
+  ]
+ },
+ {
   "id": 1796,
   "type": "Educational",
   "name": "Educational Codeforces Round 144 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Typical Interview Problem"
+    "name": "Typical Interview Problem",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Asterisk-Minor Template"
+    "name": "Asterisk-Minor Template",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Maximum Set"
+    "name": "Maximum Set",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Maximum Subarray"
+    "name": "Maximum Subarray",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Colored Subgraphs"
+    "name": "Colored Subgraphs",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Strange Triples"
+    "name": "Strange Triples",
+    "rating": 2900
    }
   ]
  },
@@ -80,27 +129,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Serval and Mocha's Array"
+    "name": "Serval and Mocha's Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Serval and Inversion Magic"
+    "name": "Serval and Inversion Magic",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Serval and Toxel's Arrays"
+    "name": "Serval and Toxel's Arrays",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Serval and Shift-Shift-Shift"
+    "name": "Serval and Shift-Shift-Shift",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Serval and Music Game"
+    "name": "Serval and Music Game",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Serval and Brain Power"
+    "name": "Serval and Brain Power",
+    "rating": 2700
    }
   ]
  },

@@ -1,5 +1,32 @@
 [
  {
+  "id": 1794,
+  "type": "Div2",
+  "name": "Codeforces Round 856 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Prefix and Suffix Array"
+   },
+   {
+    "index": "B",
+    "name": "Not Dividing"
+   },
+   {
+    "index": "C",
+    "name": "Scoring Subsequences"
+   },
+   {
+    "index": "D",
+    "name": "Counting Factorizations"
+   },
+   {
+    "index": "E",
+    "name": "Labeling the Tree with Distances"
+   }
+  ]
+ },
+ {
   "id": 1800,
   "type": "Div3",
   "name": "Codeforces Round #855 (Div. 3)",

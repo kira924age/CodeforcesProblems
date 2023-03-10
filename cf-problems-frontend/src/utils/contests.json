@@ -1,5 +1,75 @@
 [
  {
+  "id": 1801,
+  "type": "Div1",
+  "name": "Codeforces Round 857 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Very Beautiful Blanket"
+   },
+   {
+    "index": "B",
+    "name": "Buying gifts"
+   },
+   {
+    "index": "C",
+    "name": "Music Festival"
+   },
+   {
+    "index": "D",
+    "name": "The way home"
+   },
+   {
+    "index": "E",
+    "name": "Gasoline prices"
+   },
+   {
+    "index": "F",
+    "name": "Another n-dimensional chocolate bar"
+   },
+   {
+    "index": "G",
+    "name": "A task for substrings"
+   }
+  ]
+ },
+ {
+  "id": 1802,
+  "type": "Div2",
+  "name": "Codeforces Round 857 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Likes"
+   },
+   {
+    "index": "B",
+    "name": "Settlement of Guinea Pigs"
+   },
+   {
+    "index": "C",
+    "name": "The Very Beautiful Blanket"
+   },
+   {
+    "index": "D",
+    "name": "Buying gifts"
+   },
+   {
+    "index": "E",
+    "name": "Music Festival"
+   },
+   {
+    "index": "F",
+    "name": "The way home"
+   },
+   {
+    "index": "G",
+    "name": "Gasoline prices"
+   }
+  ]
+ },
+ {
   "id": 1794,
   "type": "Div2",
   "name": "Codeforces Round 856 (Div. 2)",

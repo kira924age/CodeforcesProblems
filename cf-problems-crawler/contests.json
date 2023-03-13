@@ -1,5 +1,44 @@
 [
  {
+  "id": 1804,
+  "type": "Div1 + Div2",
+  "name": "Nebius Welcome Round (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Lame King"
+   },
+   {
+    "index": "B",
+    "name": "Vaccination"
+   },
+   {
+    "index": "C",
+    "name": "Pull Your Luck"
+   },
+   {
+    "index": "D",
+    "name": "Accommodation"
+   },
+   {
+    "index": "E",
+    "name": "Routing"
+   },
+   {
+    "index": "F",
+    "name": "Approximate Diameter"
+   },
+   {
+    "index": "G",
+    "name": "Flow Control"
+   },
+   {
+    "index": "H",
+    "name": "Code Lock"
+   }
+  ]
+ },
+ {
   "id": 1801,
   "type": "Div1",
   "name": "Codeforces Round 857 (Div. 1)",

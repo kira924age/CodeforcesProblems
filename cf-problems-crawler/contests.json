@@ -45,31 +45,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Very Beautiful Blanket"
+    "name": "The Very Beautiful Blanket",
+    "rating": 1600
    },
    {
     "index": "B",
-    "name": "Buying gifts"
+    "name": "Buying gifts",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "Music Festival"
+    "name": "Music Festival",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "The way home"
+    "name": "The way home",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Gasoline prices"
+    "name": "Gasoline prices",
+    "rating": 3000
    },
    {
     "index": "F",
-    "name": "Another n-dimensional chocolate bar"
+    "name": "Another n-dimensional chocolate bar",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "A task for substrings"
+    "name": "A task for substrings",
+    "rating": 3400
    }
   ]
  },
@@ -80,31 +87,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Likes"
+    "name": "Likes",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Settlement of Guinea Pigs"
+    "name": "Settlement of Guinea Pigs",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "The Very Beautiful Blanket"
+    "name": "The Very Beautiful Blanket",
+    "rating": "1600"
    },
    {
     "index": "D",
-    "name": "Buying gifts"
+    "name": "Buying gifts",
+    "rating": "1800"
    },
    {
     "index": "E",
-    "name": "Music Festival"
+    "name": "Music Festival",
+    "rating": "1900"
    },
    {
     "index": "F",
-    "name": "The way home"
+    "name": "The way home",
+    "rating": "2100"
    },
    {
     "index": "G",
-    "name": "Gasoline prices"
+    "name": "Gasoline prices",
+    "rating": "3000"
    }
   ]
  },
@@ -115,23 +129,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "Prefix and Suffix Array"
+    "name": "Prefix and Suffix Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Not Dividing"
+    "name": "Not Dividing",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Scoring Subsequences"
+    "name": "Scoring Subsequences",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Counting Factorizations"
+    "name": "Counting Factorizations",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Labeling the Tree with Distances"
+    "name": "Labeling the Tree with Distances",
+    "rating": 2400
    }
   ]
  },
@@ -142,39 +161,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Is It a Cat?"
+    "name": "Is It a Cat?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Count the Number of Pairs"
+    "name": "Count the Number of Pairs",
+    "rating": 1000
    },
    {
     "index": "C1",
-    "name": "Powering the Hero (easy version)"
+    "name": "Powering the Hero (easy version)",
+    "rating": 1000
    },
    {
     "index": "C2",
-    "name": "Powering the Hero (hard version)"
+    "name": "Powering the Hero (hard version)",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Remove Two Letters"
+    "name": "Remove Two Letters",
+    "rating": 1200
    },
    {
     "index": "E1",
-    "name": "Unforgivable Curse (easy version)"
+    "name": "Unforgivable Curse (easy version)",
+    "rating": 1400
    },
    {
     "index": "E2",
-    "name": "Unforgivable Curse (hard version)"
+    "name": "Unforgivable Curse (hard version)",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Dasha and Nightmares"
+    "name": "Dasha and Nightmares",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Symmetree"
+    "name": "Symmetree",
+    "rating": 2200
    }
   ]
  },
@@ -222,39 +250,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Recent Actions"
+    "name": "Recent Actions",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Equalize by Divide"
+    "name": "Equalize by Divide",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Double Lexicographically Minimum"
+    "name": "Double Lexicographically Minimum",
+    "rating": 1700
    },
    {
     "index": "D1",
-    "name": "Hot Start Up (easy version)"
+    "name": "Hot Start Up (easy version)",
+    "rating": 1900
    },
    {
     "index": "D2",
-    "name": "Hot Start Up (hard version)"
+    "name": "Hot Start Up (hard version)",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "City Union"
+    "name": "City Union",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Halve or Subtract"
+    "name": "Halve or Subtract",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Count Voting"
+    "name": "Count Voting",
+    "rating": 2600
    },
    {
     "index": "H",
-    "name": "Tree Cutting"
+    "name": "Tree Cutting",
+    "rating": 3200
    }
   ]
  },

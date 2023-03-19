@@ -1,40 +1,83 @@
 [
  {
+  "id": 1806,
+  "type": "Div2",
+  "name": "Codeforces Round 858 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Walking Master"
+   },
+   {
+    "index": "B",
+    "name": "Mex Master"
+   },
+   {
+    "index": "C",
+    "name": "Sequence Master"
+   },
+   {
+    "index": "D",
+    "name": "DSU Master"
+   },
+   {
+    "index": "E",
+    "name": "Tree Master"
+   },
+   {
+    "index": "F1",
+    "name": "GCD Master (easy version)"
+   },
+   {
+    "index": "F2",
+    "name": "GCD Master (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1804,
   "type": "Div1 + Div2",
   "name": "Nebius Welcome Round (Div. 1 + Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Lame King"
+    "name": "Lame King",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Vaccination"
+    "name": "Vaccination",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Pull Your Luck"
+    "name": "Pull Your Luck",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Accommodation"
+    "name": "Accommodation",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Routing"
+    "name": "Routing",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Approximate Diameter"
+    "name": "Approximate Diameter",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Flow Control"
+    "name": "Flow Control",
+    "rating": 3500
    },
    {
     "index": "H",
-    "name": "Code Lock"
+    "name": "Code Lock",
+    "rating": 3300
    }
   ]
  },

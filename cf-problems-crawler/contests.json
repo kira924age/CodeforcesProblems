@@ -1,36 +1,82 @@
 [
  {
+  "id": 1807,
+  "type": "Div4",
+  "name": "Codeforces Round 859 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Plus or Minus"
+   },
+   {
+    "index": "B",
+    "name": "Grab the Candies"
+   },
+   {
+    "index": "C",
+    "name": "Find and Replace"
+   },
+   {
+    "index": "D",
+    "name": "Odd Queries"
+   },
+   {
+    "index": "E",
+    "name": "Interview"
+   },
+   {
+    "index": "F",
+    "name": "Bouncy Ball"
+   },
+   {
+    "index": "G1",
+    "name": "Subsequence Addition (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Subsequence Addition (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1806,
   "type": "Div2",
   "name": "Codeforces Round 858 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Walking Master"
+    "name": "Walking Master",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Mex Master"
+    "name": "Mex Master",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Sequence Master"
+    "name": "Sequence Master",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "DSU Master"
+    "name": "DSU Master",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Tree Master"
+    "name": "Tree Master",
+    "rating": 2200
    },
    {
     "index": "F1",
-    "name": "GCD Master (easy version)"
+    "name": "GCD Master (easy version)",
+    "rating": 2900
    },
    {
     "index": "F2",
-    "name": "GCD Master (hard version)"
+    "name": "GCD Master (hard version)",
+    "rating": 2900
    }
   ]
  },

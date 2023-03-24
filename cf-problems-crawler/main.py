@@ -41,8 +41,8 @@ def main():
         now_unix_time = time.time()
         passed_time_seconds = now_unix_time - contest["startTimeSeconds"]
 
-        # look only within 4 weeks
-        if passed_time_seconds > 60 * 60 * 24 * 7 * 4:
+        # look only within 8 weeks
+        if passed_time_seconds > 60 * 60 * 24 * 7 * 8:
             continue
 
         if contest["phase"] != "FINISHED":

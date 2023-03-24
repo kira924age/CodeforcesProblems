@@ -1,5 +1,40 @@
 [
  {
+  "id": 1809,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 145 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Garland"
+   },
+   {
+    "index": "B",
+    "name": "Points on Plane"
+   },
+   {
+    "index": "C",
+    "name": "Sum on Subarrays"
+   },
+   {
+    "index": "D",
+    "name": "Binary String Sorting"
+   },
+   {
+    "index": "E",
+    "name": "Two Tanks"
+   },
+   {
+    "index": "F",
+    "name": "Traveling in Berland"
+   },
+   {
+    "index": "G",
+    "name": "Prediction"
+   }
+  ]
+ },
+ {
   "id": 1807,
   "type": "Div4",
   "name": "Codeforces Round 859 (Div. 4)",

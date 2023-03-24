@@ -22,4 +22,7 @@ jobs:
       - name: build React App
         run: yarn build
         working-directory: ${{ github.workspace }}/cf-problems-frontend
+        with:
+          node-version: ${{ matrix.version }}
+
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

@@ -14,15 +14,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          node-version: ${{ matrix.node-version }}
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
       - name: install dependency
         run: yarn
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: build React App
         run: yarn build
         working-directory: ${{ github.workspace }}/cf-problems-frontend
-        with:
-          node-version: ${{ matrix.version }}
-
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Garland"
+    "name": "Garland",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Points on Plane"
+    "name": "Points on Plane",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Sum on Subarrays"
+    "name": "Sum on Subarrays",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Binary String Sorting"
+    "name": "Binary String Sorting",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Two Tanks"
+    "name": "Two Tanks",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Traveling in Berland"
+    "name": "Traveling in Berland",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Prediction"
+    "name": "Prediction",
+    "rating": 2800
    }
   ]
  },
@@ -41,35 +48,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Plus or Minus"
+    "name": "Plus or Minus",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Grab the Candies"
+    "name": "Grab the Candies",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Find and Replace"
+    "name": "Find and Replace",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Odd Queries"
+    "name": "Odd Queries",
+    "rating": 900
    },
    {
     "index": "E",
-    "name": "Interview"
+    "name": "Interview",
+    "rating": 1300
    },
    {
     "index": "F",
-    "name": "Bouncy Ball"
+    "name": "Bouncy Ball",
+    "rating": 1700
    },
    {
     "index": "G1",
-    "name": "Subsequence Addition (Easy Version)"
+    "name": "Subsequence Addition (Easy Version)",
+    "rating": 1100
    },
    {
     "index": "G2",
-    "name": "Subsequence Addition (Hard Version)"
+    "name": "Subsequence Addition (Hard Version)",
+    "rating": 1100
    }
   ]
  },

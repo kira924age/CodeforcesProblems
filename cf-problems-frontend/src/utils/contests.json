@@ -1,5 +1,36 @@
 [
  {
+  "id": 1798,
+  "type": "Div2",
+  "name": "Codeforces Round 860 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Showstopper"
+   },
+   {
+    "index": "B",
+    "name": "Three Sevens"
+   },
+   {
+    "index": "C",
+    "name": "Candy Store"
+   },
+   {
+    "index": "D",
+    "name": "Shocking Arrangement"
+   },
+   {
+    "index": "E",
+    "name": "Multitest Generator"
+   },
+   {
+    "index": "F",
+    "name": "Gifts from Grandfather Ahmed"
+   }
+  ]
+ },
+ {
   "id": 1809,
   "type": "Educational",
   "name": "Educational Codeforces Round 145 (Rated for Div. 2)",

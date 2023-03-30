@@ -1,5 +1,40 @@
 [
  {
+  "id": 1808,
+  "type": "Div2",
+  "name": "Codeforces Round 861 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Lucky Numbers"
+   },
+   {
+    "index": "B",
+    "name": "Playing in a Casino"
+   },
+   {
+    "index": "C",
+    "name": "Unlucky Numbers"
+   },
+   {
+    "index": "D",
+    "name": "Petya, Petya, Petr, and Palindromes"
+   },
+   {
+    "index": "E1",
+    "name": "Minibuses on Venus (easy version)"
+   },
+   {
+    "index": "E2",
+    "name": "Minibuses on Venus (medium version)"
+   },
+   {
+    "index": "E3",
+    "name": "Minibuses on Venus (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1798,
   "type": "Div2",
   "name": "Codeforces Round 860 (Div. 2)",

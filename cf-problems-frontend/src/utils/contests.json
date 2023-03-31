@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Lucky Numbers"
+    "name": "Lucky Numbers",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Playing in a Casino"
+    "name": "Playing in a Casino",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Unlucky Numbers"
+    "name": "Unlucky Numbers",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "Petya, Petya, Petr, and Palindromes"
+    "name": "Petya, Petya, Petr, and Palindromes",
+    "rating": 2100
    },
    {
     "index": "E1",
-    "name": "Minibuses on Venus (easy version)"
+    "name": "Minibuses on Venus (easy version)",
+    "rating": 2200
    },
    {
     "index": "E2",
-    "name": "Minibuses on Venus (medium version)"
+    "name": "Minibuses on Venus (medium version)",
+    "rating": 2500
    },
    {
     "index": "E3",
-    "name": "Minibuses on Venus (hard version)"
+    "name": "Minibuses on Venus (hard version)",
+    "rating": 2800
    }
   ]
  },
@@ -41,27 +48,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Showstopper"
+    "name": "Showstopper",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Three Sevens"
+    "name": "Three Sevens",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Candy Store"
+    "name": "Candy Store",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Shocking Arrangement"
+    "name": "Shocking Arrangement",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Multitest Generator"
+    "name": "Multitest Generator",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Gifts from Grandfather Ahmed"
+    "name": "Gifts from Grandfather Ahmed",
+    "rating": 2500
    }
   ]
  },

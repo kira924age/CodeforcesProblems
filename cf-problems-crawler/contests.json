@@ -1,5 +1,44 @@
 [
  {
+  "id": 1810,
+  "type": "Div1 + Div2",
+  "name": "CodeTON Round 4 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Beautiful Sequence"
+   },
+   {
+    "index": "B",
+    "name": "Candies"
+   },
+   {
+    "index": "C",
+    "name": "Make It Permutation"
+   },
+   {
+    "index": "D",
+    "name": "Climbing the Tree"
+   },
+   {
+    "index": "E",
+    "name": "Monsters"
+   },
+   {
+    "index": "F",
+    "name": "M-tree"
+   },
+   {
+    "index": "G",
+    "name": "The Maximum Prefix"
+   },
+   {
+    "index": "H",
+    "name": "Last Number"
+   }
+  ]
+ },
+ {
   "id": 1808,
   "type": "Div2",
   "name": "Codeforces Round 861 (Div. 2)",

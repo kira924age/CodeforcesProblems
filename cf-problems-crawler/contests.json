@@ -1,5 +1,40 @@
 [
  {
+  "id": 1805,
+  "type": "Div2",
+  "name": "Codeforces Round 862 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "We Need the Zero"
+   },
+   {
+    "index": "B",
+    "name": "The String Has a Target"
+   },
+   {
+    "index": "C",
+    "name": "Place for a Selfie"
+   },
+   {
+    "index": "D",
+    "name": "A Wide, Wide Graph"
+   },
+   {
+    "index": "E",
+    "name": "There Should Be a Lot of Maximums"
+   },
+   {
+    "index": "F1",
+    "name": "Survival of the Weakest (easy version)"
+   },
+   {
+    "index": "F2",
+    "name": "Survival of the Weakest (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1812,
   "type": "Other",
   "name": "April Fools Day Contest 2023",

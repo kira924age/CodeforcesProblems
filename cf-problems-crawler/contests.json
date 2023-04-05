@@ -1,5 +1,44 @@
 [
  {
+  "id": 1811,
+  "type": "Div3",
+  "name": "Codeforces Round 863 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Insert Digit"
+   },
+   {
+    "index": "B",
+    "name": "Conveyor Belts"
+   },
+   {
+    "index": "C",
+    "name": "Restore the Array"
+   },
+   {
+    "index": "D",
+    "name": "Umka and a Long Flight"
+   },
+   {
+    "index": "E",
+    "name": "Living Sequence"
+   },
+   {
+    "index": "F",
+    "name": "Is It Flower?"
+   },
+   {
+    "index": "G1",
+    "name": "Vlad and the Nice Paths (easy version)"
+   },
+   {
+    "index": "G2",
+    "name": "Vlad and the Nice Paths (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1805,
   "type": "Div2",
   "name": "Codeforces Round 862 (Div. 2)",

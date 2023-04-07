@@ -1,5 +1,36 @@
 [
  {
+  "id": 1814,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 146 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Coins"
+   },
+   {
+    "index": "B",
+    "name": "Long Legs"
+   },
+   {
+    "index": "C",
+    "name": "Search in Parallel"
+   },
+   {
+    "index": "D",
+    "name": "Balancing Weapons"
+   },
+   {
+    "index": "E",
+    "name": "Chain Chips"
+   },
+   {
+    "index": "F",
+    "name": "Communication Towers"
+   }
+  ]
+ },
+ {
   "id": 1811,
   "type": "Div3",
   "name": "Codeforces Round 863 (Div. 3)",

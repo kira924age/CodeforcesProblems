@@ -37,35 +37,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Insert Digit"
+    "name": "Insert Digit",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Conveyor Belts"
+    "name": "Conveyor Belts",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Restore the Array"
+    "name": "Restore the Array",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Umka and a Long Flight"
+    "name": "Umka and a Long Flight",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Living Sequence"
+    "name": "Living Sequence",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Is It Flower?"
+    "name": "Is It Flower?",
+    "rating": 2100
    },
    {
     "index": "G1",
-    "name": "Vlad and the Nice Paths (easy version)"
+    "name": "Vlad and the Nice Paths (easy version)",
+    "rating": 2100
    },
    {
     "index": "G2",
-    "name": "Vlad and the Nice Paths (hard version)"
+    "name": "Vlad and the Nice Paths (hard version)",
+    "rating": 2200
    }
   ]
  },

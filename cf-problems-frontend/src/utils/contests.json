@@ -1,5 +1,36 @@
 [
  {
+  "id": 1797,
+  "type": "Div2",
+  "name": "Codeforces Round 864 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Li Hua and Maze"
+   },
+   {
+    "index": "B",
+    "name": "Li Hua and Pattern"
+   },
+   {
+    "index": "C",
+    "name": "Li Hua and Chess"
+   },
+   {
+    "index": "D",
+    "name": "Li Hua and Tree"
+   },
+   {
+    "index": "E",
+    "name": "Li Hua and Array"
+   },
+   {
+    "index": "F",
+    "name": "Li Hua and Path"
+   }
+  ]
+ },
+ {
   "id": 1814,
   "type": "Educational",
   "name": "Educational Codeforces Round 146 (Rated for Div. 2)",

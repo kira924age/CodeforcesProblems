@@ -1,5 +1,79 @@
 [
  {
+  "id": 1815,
+  "type": "Div1",
+  "name": "Codeforces Round 865 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Ian and Array Sorting",
+    "rating": 1300
+   },
+   {
+    "index": "B",
+    "name": "Sum Graph",
+    "rating": 2000
+   },
+   {
+    "index": "C",
+    "name": "Between",
+    "rating": 2200
+   },
+   {
+    "index": "D",
+    "name": "XOR Counting",
+    "rating": 2600
+   },
+   {
+    "index": "E",
+    "name": "Bosco and Particle",
+    "rating": 3100
+   },
+   {
+    "index": "F",
+    "name": "OH NO1 (-2-3-4)",
+    "rating": 3500
+   }
+  ]
+ },
+ {
+  "id": 1816,
+  "type": "Div2",
+  "name": "Codeforces Round 865 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Ian Visits Mary",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Grid Reconstruction",
+    "rating": 1000
+   },
+   {
+    "index": "C",
+    "name": "Ian and Array Sorting",
+    "rating": "1300"
+   },
+   {
+    "index": "D",
+    "name": "Sum Graph",
+    "rating": "2000"
+   },
+   {
+    "index": "E",
+    "name": "Between",
+    "rating": "2200"
+   },
+   {
+    "index": "F",
+    "name": "XOR Counting",
+    "rating": "2600"
+   }
+  ]
+ },
+ {
   "id": 1797,
   "type": "Div2",
   "name": "Codeforces Round 864 (Div. 2)",
@@ -37,27 +111,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Coins"
+    "name": "Coins",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Long Legs"
+    "name": "Long Legs",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Search in Parallel"
+    "name": "Search in Parallel",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Balancing Weapons"
+    "name": "Balancing Weapons",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Chain Chips"
+    "name": "Chain Chips",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Communication Towers"
+    "name": "Communication Towers",
+    "rating": 2700
    }
   ]
  },

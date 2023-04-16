@@ -1,5 +1,67 @@
 [
  {
+  "id": 1819,
+  "type": "Div1",
+  "name": "Codeforces Round 866 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Constructive Problem"
+   },
+   {
+    "index": "B",
+    "name": "The Butcher"
+   },
+   {
+    "index": "C",
+    "name": "The Fox and the Complete Tree Traversal"
+   },
+   {
+    "index": "D",
+    "name": "Misha and Apples"
+   },
+   {
+    "index": "E",
+    "name": "Roads in E City"
+   },
+   {
+    "index": "F",
+    "name": "Willy-nilly, Crack, Into Release!"
+   }
+  ]
+ },
+ {
+  "id": 1820,
+  "type": "Div2",
+  "name": "Codeforces Round 866 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Yura's New Name"
+   },
+   {
+    "index": "B",
+    "name": "JoJo's Incredible Adventures"
+   },
+   {
+    "index": "C",
+    "name": "Constructive Problem"
+   },
+   {
+    "index": "D",
+    "name": "The Butcher"
+   },
+   {
+    "index": "E",
+    "name": "The Fox and the Complete Tree Traversal"
+   },
+   {
+    "index": "F",
+    "name": "Misha and Apples"
+   }
+  ]
+ },
+ {
   "id": 1815,
   "type": "Div1",
   "name": "Codeforces Round 865 (Div. 1)",

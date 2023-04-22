@@ -1,32 +1,69 @@
 [
  {
+  "id": 1821,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 147 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Matching"
+   },
+   {
+    "index": "B",
+    "name": "Sort the Subarray"
+   },
+   {
+    "index": "C",
+    "name": "Tear It Apart"
+   },
+   {
+    "index": "D",
+    "name": "Black Cells"
+   },
+   {
+    "index": "E",
+    "name": "Rearrange Brackets"
+   },
+   {
+    "index": "F",
+    "name": "Timber"
+   }
+  ]
+ },
+ {
   "id": 1819,
   "type": "Div1",
   "name": "Codeforces Round 866 (Div. 1)",
   "problems": [
    {
     "index": "A",
-    "name": "Constructive Problem"
+    "name": "Constructive Problem",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "The Butcher"
+    "name": "The Butcher",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "The Fox and the Complete Tree Traversal"
+    "name": "The Fox and the Complete Tree Traversal",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Misha and Apples"
+    "name": "Misha and Apples",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Roads in E City"
+    "name": "Roads in E City",
+    "rating": 3200
    },
    {
     "index": "F",
-    "name": "Willy-nilly, Crack, Into Release!"
+    "name": "Willy-nilly, Crack, Into Release!",
+    "rating": 3500
    }
   ]
  },
@@ -37,27 +74,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Yura's New Name"
+    "name": "Yura's New Name",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "JoJo's Incredible Adventures"
+    "name": "JoJo's Incredible Adventures",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Constructive Problem"
+    "name": "Constructive Problem",
+    "rating": "1300"
    },
    {
     "index": "D",
-    "name": "The Butcher"
+    "name": "The Butcher",
+    "rating": "1900"
    },
    {
     "index": "E",
-    "name": "The Fox and the Complete Tree Traversal"
+    "name": "The Fox and the Complete Tree Traversal",
+    "rating": "2400"
    },
    {
     "index": "F",
-    "name": "Misha and Apples"
+    "name": "Misha and Apples",
+    "rating": "2800"
    }
   ]
  },
@@ -257,31 +300,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "We Need the Zero"
+    "name": "We Need the Zero",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "The String Has a Target"
+    "name": "The String Has a Target",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Place for a Selfie"
+    "name": "Place for a Selfie",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "A Wide, Wide Graph"
+    "name": "A Wide, Wide Graph",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "There Should Be a Lot of Maximums"
+    "name": "There Should Be a Lot of Maximums",
+    "rating": 2300
    },
    {
     "index": "F1",
-    "name": "Survival of the Weakest (easy version)"
+    "name": "Survival of the Weakest (easy version)",
+    "rating": 2600
    },
    {
     "index": "F2",
-    "name": "Survival of the Weakest (hard version)"
+    "name": "Survival of the Weakest (hard version)",
+    "rating": 3100
    }
   ]
  },

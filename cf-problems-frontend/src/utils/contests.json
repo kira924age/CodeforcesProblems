@@ -1,5 +1,44 @@
 [
  {
+  "id": 1822,
+  "type": "Div3",
+  "name": "Codeforces Round 867 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "TubeTube Feed"
+   },
+   {
+    "index": "B",
+    "name": "Karina and Array"
+   },
+   {
+    "index": "C",
+    "name": "Bun Lover"
+   },
+   {
+    "index": "D",
+    "name": "Super-Permutation"
+   },
+   {
+    "index": "E",
+    "name": "Making Anti-Palindromes"
+   },
+   {
+    "index": "F",
+    "name": "Gardening Friends"
+   },
+   {
+    "index": "G1",
+    "name": "Magic Triples (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Magic Triples (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1821,
   "type": "Educational",
   "name": "Educational Codeforces Round 147 (Rated for Div. 2)",

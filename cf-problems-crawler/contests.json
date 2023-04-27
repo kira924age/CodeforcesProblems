@@ -224,27 +224,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Li Hua and Maze"
+    "name": "Li Hua and Maze",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Li Hua and Pattern"
+    "name": "Li Hua and Pattern",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Li Hua and Chess"
+    "name": "Li Hua and Chess",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Li Hua and Tree"
+    "name": "Li Hua and Tree",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Li Hua and Array"
+    "name": "Li Hua and Array",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Li Hua and Path"
+    "name": "Li Hua and Path",
+    "rating": 3000
    }
   ]
  },

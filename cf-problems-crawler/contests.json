@@ -1,5 +1,47 @@
 [
  {
+  "id": 1823,
+  "type": "Div2",
+  "name": "Codeforces Round 868 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "A-characteristic"
+   },
+   {
+    "index": "B",
+    "name": "Sort with Step"
+   },
+   {
+    "index": "C",
+    "name": "Strongly Composite"
+   },
+   {
+    "index": "D",
+    "name": "Unique Palindromes"
+   },
+   {
+    "index": "E",
+    "name": "Removing Graph"
+   },
+   {
+    "index": "F",
+    "name": "Random Walk"
+   }
+  ]
+ },
+ {
+  "id": 1813,
+  "type": "ICPC",
+  "name": "ICPC 2023 Online Spring Challenge powered by Huawei",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Buffer Sharing in Multi-tenant Database Environment"
+   }
+  ]
+ },
+ {
   "id": 1822,
   "type": "Div3",
   "name": "Codeforces Round 867 (Div. 3)",

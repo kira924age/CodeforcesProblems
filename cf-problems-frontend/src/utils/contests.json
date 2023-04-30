@@ -1,5 +1,67 @@
 [
  {
+  "id": 1817,
+  "type": "Div1",
+  "name": "Codeforces Round 869 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Almost Increasing Subsequence"
+   },
+   {
+    "index": "B",
+    "name": "Fish Graph"
+   },
+   {
+    "index": "C",
+    "name": "Similar Polynomials"
+   },
+   {
+    "index": "D",
+    "name": "Toy Machine"
+   },
+   {
+    "index": "E",
+    "name": "Half-sum"
+   },
+   {
+    "index": "F",
+    "name": "Entangled Substrings"
+   }
+  ]
+ },
+ {
+  "id": 1818,
+  "type": "Div2",
+  "name": "Codeforces Round 869 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Politics"
+   },
+   {
+    "index": "B",
+    "name": "Indivisible"
+   },
+   {
+    "index": "C",
+    "name": "Almost Increasing Subsequence"
+   },
+   {
+    "index": "D",
+    "name": "Fish Graph"
+   },
+   {
+    "index": "E",
+    "name": "Similar Polynomials"
+   },
+   {
+    "index": "F",
+    "name": "Toy Machine"
+   }
+  ]
+ },
+ {
   "id": 1823,
   "type": "Div2",
   "name": "Codeforces Round 868 (Div. 2)",

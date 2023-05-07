@@ -1,5 +1,44 @@
 [
  {
+  "id": 1829,
+  "type": "Div4",
+  "name": "Codeforces Round 871 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Love Story"
+   },
+   {
+    "index": "B",
+    "name": "Blank Space"
+   },
+   {
+    "index": "C",
+    "name": "Mr. Perfectly Fine"
+   },
+   {
+    "index": "D",
+    "name": "Gold Rush"
+   },
+   {
+    "index": "E",
+    "name": "The Lakes"
+   },
+   {
+    "index": "F",
+    "name": "Forever Winter"
+   },
+   {
+    "index": "G",
+    "name": "Hits Different"
+   },
+   {
+    "index": "H",
+    "name": "Don't Blame Me"
+   }
+  ]
+ },
+ {
   "id": 1826,
   "type": "Div2",
   "name": "Codeforces Round 870 (Div. 2)",

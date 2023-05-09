@@ -1,5 +1,67 @@
 [
  {
+  "id": 1824,
+  "type": "Div1",
+  "name": "Codeforces Round 872 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "LuoTianyi and the Show"
+   },
+   {
+    "index": "B1",
+    "name": "LuoTianyi and the Floating Islands (Easy Version)"
+   },
+   {
+    "index": "B2",
+    "name": "LuoTianyi and the Floating Islands (Hard Version)"
+   },
+   {
+    "index": "C",
+    "name": "LuoTianyi and XOR-Tree"
+   },
+   {
+    "index": "D",
+    "name": "LuoTianyi and the Function"
+   },
+   {
+    "index": "E",
+    "name": "LuoTianyi and Cartridge"
+   }
+  ]
+ },
+ {
+  "id": 1825,
+  "type": "Div2",
+  "name": "Codeforces Round 872 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "LuoTianyi and the Palindrome String"
+   },
+   {
+    "index": "B",
+    "name": "LuoTianyi and the Table"
+   },
+   {
+    "index": "C",
+    "name": "LuoTianyi and the Show"
+   },
+   {
+    "index": "D1",
+    "name": "LuoTianyi and the Floating Islands (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "LuoTianyi and the Floating Islands (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "LuoTianyi and XOR-Tree"
+   }
+  ]
+ },
+ {
   "id": 1829,
   "type": "Div4",
   "name": "Codeforces Round 871 (Div. 4)",

@@ -1,5 +1,40 @@
 [
  {
+  "id": 1832,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 148 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "New Palindrome"
+   },
+   {
+    "index": "B",
+    "name": "Maximum Sum"
+   },
+   {
+    "index": "C",
+    "name": "Contrast Value"
+   },
+   {
+    "index": "D1",
+    "name": "Red-Blue Operations (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Red-Blue Operations (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Combinatorics Problem"
+   },
+   {
+    "index": "F",
+    "name": "Zombies"
+   }
+  ]
+ },
+ {
   "id": 1824,
   "type": "Div1",
   "name": "Codeforces Round 872 (Div. 1)",

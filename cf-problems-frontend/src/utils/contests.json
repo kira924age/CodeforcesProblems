@@ -1,5 +1,75 @@
 [
  {
+  "id": 1827,
+  "type": "Div1",
+  "name": "Codeforces Round 873 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Counting Orders"
+   },
+   {
+    "index": "B1",
+    "name": "Range Sorting (Easy Version)"
+   },
+   {
+    "index": "B2",
+    "name": "Range Sorting (Hard Version)"
+   },
+   {
+    "index": "C",
+    "name": "Palindrome Partition"
+   },
+   {
+    "index": "D",
+    "name": "Two Centroids"
+   },
+   {
+    "index": "E",
+    "name": "Bus Routes"
+   },
+   {
+    "index": "F",
+    "name": "Copium Permutation"
+   }
+  ]
+ },
+ {
+  "id": 1828,
+  "type": "Div2",
+  "name": "Codeforces Round 873 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Divisible Array"
+   },
+   {
+    "index": "B",
+    "name": "Permutation Swap"
+   },
+   {
+    "index": "C",
+    "name": "Counting Orders"
+   },
+   {
+    "index": "D1",
+    "name": "Range Sorting (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Range Sorting (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Palindrome Partition"
+   },
+   {
+    "index": "F",
+    "name": "Two Centroids"
+   }
+  ]
+ },
+ {
   "id": 1832,
   "type": "Educational",
   "name": "Educational Codeforces Round 148 (Rated for Div. 2)",

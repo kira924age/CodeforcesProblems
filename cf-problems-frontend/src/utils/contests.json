@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Counting Orders"
+    "name": "Counting Orders",
+    "rating": 1100
    },
    {
     "index": "B1",
-    "name": "Range Sorting (Easy Version)"
+    "name": "Range Sorting (Easy Version)",
+    "rating": 2000
    },
    {
     "index": "B2",
-    "name": "Range Sorting (Hard Version)"
+    "name": "Range Sorting (Hard Version)",
+    "rating": 2400
    },
    {
     "index": "C",
-    "name": "Palindrome Partition"
+    "name": "Palindrome Partition",
+    "rating": 2600
    },
    {
     "index": "D",
-    "name": "Two Centroids"
+    "name": "Two Centroids",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Bus Routes"
+    "name": "Bus Routes",
+    "rating": 3400
    },
    {
     "index": "F",
-    "name": "Copium Permutation"
+    "name": "Copium Permutation",
+    "rating": 3500
    }
   ]
  },
@@ -41,31 +48,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Divisible Array"
+    "name": "Divisible Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Permutation Swap"
+    "name": "Permutation Swap",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Counting Orders"
+    "name": "Counting Orders",
+    "rating": "1100"
    },
    {
     "index": "D1",
-    "name": "Range Sorting (Easy Version)"
+    "name": "Range Sorting (Easy Version)",
+    "rating": "2000"
    },
    {
     "index": "D2",
-    "name": "Range Sorting (Hard Version)"
+    "name": "Range Sorting (Hard Version)",
+    "rating": "2400"
    },
    {
     "index": "E",
-    "name": "Palindrome Partition"
+    "name": "Palindrome Partition",
+    "rating": "2600"
    },
    {
     "index": "F",
-    "name": "Two Centroids"
+    "name": "Two Centroids",
+    "rating": "2800"
    }
   ]
  },
@@ -76,31 +90,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "New Palindrome"
+    "name": "New Palindrome",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Maximum Sum"
+    "name": "Maximum Sum",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Contrast Value"
+    "name": "Contrast Value",
+    "rating": 1200
    },
    {
     "index": "D1",
-    "name": "Red-Blue Operations (Easy Version)"
+    "name": "Red-Blue Operations (Easy Version)",
+    "rating": 2100
    },
    {
     "index": "D2",
-    "name": "Red-Blue Operations (Hard Version)"
+    "name": "Red-Blue Operations (Hard Version)",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Combinatorics Problem"
+    "name": "Combinatorics Problem",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Zombies"
+    "name": "Zombies",
+    "rating": 3200
    }
   ]
  },
@@ -111,27 +132,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "LuoTianyi and the Show"
+    "name": "LuoTianyi and the Show",
+    "rating": 1400
    },
    {
     "index": "B1",
-    "name": "LuoTianyi and the Floating Islands (Easy Version)"
+    "name": "LuoTianyi and the Floating Islands (Easy Version)",
+    "rating": 1800
    },
    {
     "index": "B2",
-    "name": "LuoTianyi and the Floating Islands (Hard Version)"
+    "name": "LuoTianyi and the Floating Islands (Hard Version)",
+    "rating": 2300
    },
    {
     "index": "C",
-    "name": "LuoTianyi and XOR-Tree"
+    "name": "LuoTianyi and XOR-Tree",
+    "rating": 2500
    },
    {
     "index": "D",
-    "name": "LuoTianyi and the Function"
+    "name": "LuoTianyi and the Function",
+    "rating": 3000
    },
    {
     "index": "E",
-    "name": "LuoTianyi and Cartridge"
+    "name": "LuoTianyi and Cartridge",
+    "rating": 3500
    }
   ]
  },
@@ -142,27 +169,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "LuoTianyi and the Palindrome String"
+    "name": "LuoTianyi and the Palindrome String",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "LuoTianyi and the Table"
+    "name": "LuoTianyi and the Table",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "LuoTianyi and the Show"
+    "name": "LuoTianyi and the Show",
+    "rating": "1400"
    },
    {
     "index": "D1",
-    "name": "LuoTianyi and the Floating Islands (Easy Version)"
+    "name": "LuoTianyi and the Floating Islands (Easy Version)",
+    "rating": "1800"
    },
    {
     "index": "D2",
-    "name": "LuoTianyi and the Floating Islands (Hard Version)"
+    "name": "LuoTianyi and the Floating Islands (Hard Version)",
+    "rating": "2300"
    },
    {
     "index": "E",
-    "name": "LuoTianyi and XOR-Tree"
+    "name": "LuoTianyi and XOR-Tree",
+    "rating": "2500"
    }
   ]
  },
@@ -173,35 +206,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Love Story"
+    "name": "Love Story",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Blank Space"
+    "name": "Blank Space",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Mr. Perfectly Fine"
+    "name": "Mr. Perfectly Fine",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Gold Rush"
+    "name": "Gold Rush",
+    "rating": 1000
    },
    {
     "index": "E",
-    "name": "The Lakes"
+    "name": "The Lakes",
+    "rating": 1100
    },
    {
     "index": "F",
-    "name": "Forever Winter"
+    "name": "Forever Winter",
+    "rating": 1300
    },
    {
     "index": "G",
-    "name": "Hits Different"
+    "name": "Hits Different",
+    "rating": 1600
    },
    {
     "index": "H",
-    "name": "Don't Blame Me"
+    "name": "Don't Blame Me",
+    "rating": 1700
    }
   ]
  },
@@ -212,27 +253,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Trust Nobody"
+    "name": "Trust Nobody",
+    "rating": 1200
    },
    {
     "index": "B",
-    "name": "Lunatic Never Content"
+    "name": "Lunatic Never Content",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Dreaming of Freedom"
+    "name": "Dreaming of Freedom",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Running Miles"
+    "name": "Running Miles",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Walk the Runway"
+    "name": "Walk the Runway",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Fading into Fog"
+    "name": "Fading into Fog",
+    "rating": 2800
    }
   ]
  },

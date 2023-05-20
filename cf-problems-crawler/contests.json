@@ -1,5 +1,40 @@
 [
  {
+  "id": 1833,
+  "type": "Div3",
+  "name": "Codeforces Round 874 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Musical Puzzle"
+   },
+   {
+    "index": "B",
+    "name": "Restore the Weather"
+   },
+   {
+    "index": "C",
+    "name": "Vlad Building Beautiful Array"
+   },
+   {
+    "index": "D",
+    "name": "Flipper"
+   },
+   {
+    "index": "E",
+    "name": "Round Dance"
+   },
+   {
+    "index": "F",
+    "name": "Ira and Flamenco"
+   },
+   {
+    "index": "G",
+    "name": "Ksyusha and Chinchilla"
+   }
+  ]
+ },
+ {
   "id": 1827,
   "type": "Div1",
   "name": "Codeforces Round 873 (Div. 1)",

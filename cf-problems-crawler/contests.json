@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Musical Puzzle"
+    "name": "Musical Puzzle",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Restore the Weather"
+    "name": "Restore the Weather",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Vlad Building Beautiful Array"
+    "name": "Vlad Building Beautiful Array",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Flipper"
+    "name": "Flipper",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Round Dance"
+    "name": "Round Dance",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Ira and Flamenco"
+    "name": "Ira and Flamenco",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Ksyusha and Chinchilla"
+    "name": "Ksyusha and Chinchilla",
+    "rating": 1800
    }
   ]
  },

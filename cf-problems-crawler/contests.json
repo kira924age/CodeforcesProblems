@@ -1,5 +1,36 @@
 [
  {
+  "id": 1837,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 149 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Grasshopper on a Line"
+   },
+   {
+    "index": "B",
+    "name": "Comparison String"
+   },
+   {
+    "index": "C",
+    "name": "Best Binary String"
+   },
+   {
+    "index": "D",
+    "name": "Bracket Coloring"
+   },
+   {
+    "index": "E",
+    "name": "Playoff Fixing"
+   },
+   {
+    "index": "F",
+    "name": "Editorial for Two"
+   }
+  ]
+ },
+ {
   "id": 1833,
   "type": "Div3",
   "name": "Codeforces Round 874 (Div. 3)",

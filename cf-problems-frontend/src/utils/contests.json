@@ -1,5 +1,67 @@
 [
  {
+  "id": 1830,
+  "type": "Div1",
+  "name": "Codeforces Round 875 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Copil Copac Draws Trees"
+   },
+   {
+    "index": "B",
+    "name": "The BOSS Can Count Pairs"
+   },
+   {
+    "index": "C",
+    "name": "Hyperregular Bracket Strings"
+   },
+   {
+    "index": "D",
+    "name": "Mex Tree"
+   },
+   {
+    "index": "E",
+    "name": "Bully Sort"
+   },
+   {
+    "index": "F",
+    "name": "The Third Grace"
+   }
+  ]
+ },
+ {
+  "id": 1831,
+  "type": "Div2",
+  "name": "Codeforces Round 875 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Twin Permutations"
+   },
+   {
+    "index": "B",
+    "name": "Array merging"
+   },
+   {
+    "index": "C",
+    "name": "Copil Copac Draws Trees"
+   },
+   {
+    "index": "D",
+    "name": "The BOSS Can Count Pairs"
+   },
+   {
+    "index": "E",
+    "name": "Hyperregular Bracket Strings"
+   },
+   {
+    "index": "F",
+    "name": "Mex Tree"
+   }
+  ]
+ },
+ {
   "id": 1837,
   "type": "Educational",
   "name": "Educational Codeforces Round 149 (Rated for Div. 2)",

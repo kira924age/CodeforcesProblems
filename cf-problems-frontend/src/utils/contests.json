@@ -1,5 +1,32 @@
 [
  {
+  "id": 1839,
+  "type": "Div2",
+  "name": "Codeforces Round 876 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Good Array"
+   },
+   {
+    "index": "B",
+    "name": "Lamps"
+   },
+   {
+    "index": "C",
+    "name": "Insert Zero and Invert Prefix"
+   },
+   {
+    "index": "D",
+    "name": "Ball Sorting"
+   },
+   {
+    "index": "E",
+    "name": "Decreasing Game"
+   }
+  ]
+ },
+ {
   "id": 1830,
   "type": "Div1",
   "name": "Codeforces Round 875 (Div. 1)",

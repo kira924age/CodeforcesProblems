@@ -64,27 +64,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Copil Copac Draws Trees"
+    "name": "Copil Copac Draws Trees",
+    "rating": 1400
    },
    {
     "index": "B",
-    "name": "The BOSS Can Count Pairs"
+    "name": "The BOSS Can Count Pairs",
+    "rating": 2000
    },
    {
     "index": "C",
-    "name": "Hyperregular Bracket Strings"
+    "name": "Hyperregular Bracket Strings",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Mex Tree"
+    "name": "Mex Tree",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Bully Sort"
+    "name": "Bully Sort",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "The Third Grace"
+    "name": "The Third Grace",
+    "rating": 3200
    }
   ]
  },
@@ -95,27 +101,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Twin Permutations"
+    "name": "Twin Permutations",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array merging"
+    "name": "Array merging",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Copil Copac Draws Trees"
+    "name": "Copil Copac Draws Trees",
+    "rating": "1400"
    },
    {
     "index": "D",
-    "name": "The BOSS Can Count Pairs"
+    "name": "The BOSS Can Count Pairs",
+    "rating": "2000"
    },
    {
     "index": "E",
-    "name": "Hyperregular Bracket Strings"
+    "name": "Hyperregular Bracket Strings",
+    "rating": "2400"
    },
    {
     "index": "F",
-    "name": "Mex Tree"
+    "name": "Mex Tree",
+    "rating": "2800"
    }
   ]
  },

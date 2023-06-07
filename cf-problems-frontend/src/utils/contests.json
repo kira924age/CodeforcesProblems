@@ -1,5 +1,44 @@
 [
  {
+  "id": 1840,
+  "type": "Div3",
+  "name": "Codeforces Round 878 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cipher Shifer"
+   },
+   {
+    "index": "B",
+    "name": "Binary Cafe"
+   },
+   {
+    "index": "C",
+    "name": "Ski Resort"
+   },
+   {
+    "index": "D",
+    "name": "Wooden Toy Festival"
+   },
+   {
+    "index": "E",
+    "name": "Character Blocking"
+   },
+   {
+    "index": "F",
+    "name": "Railguns"
+   },
+   {
+    "index": "G1",
+    "name": "In Search of Truth (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "In Search of Truth (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1838,
   "type": "Div2",
   "name": "Codeforces Round 877 (Div. 2)",

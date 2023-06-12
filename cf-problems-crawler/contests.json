@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Cipher Shifer"
+    "name": "Cipher Shifer",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Binary Cafe"
+    "name": "Binary Cafe",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Ski Resort"
+    "name": "Ski Resort",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Wooden Toy Festival"
+    "name": "Wooden Toy Festival",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Character Blocking"
+    "name": "Character Blocking",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Railguns"
+    "name": "Railguns",
+    "rating": 2200
    },
    {
     "index": "G1",
-    "name": "In Search of Truth (Easy Version)"
+    "name": "In Search of Truth (Easy Version)",
+    "rating": 2200
    },
    {
     "index": "G2",
-    "name": "In Search of Truth (Hard Version)"
+    "name": "In Search of Truth (Hard Version)",
+    "rating": 2500
    }
   ]
  },
@@ -45,27 +53,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Blackboard List"
+    "name": "Blackboard List",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Minimize Permutation Subarrays"
+    "name": "Minimize Permutation Subarrays",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "No Prime Differences"
+    "name": "No Prime Differences",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Bracket Walk"
+    "name": "Bracket Walk",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Count Supersequences"
+    "name": "Count Supersequences",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Stuck Conveyor"
+    "name": "Stuck Conveyor",
+    "rating": 3000
    }
   ]
  },
@@ -76,23 +90,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Good Array"
+    "name": "The Good Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Lamps"
+    "name": "Lamps",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Insert Zero and Invert Prefix"
+    "name": "Insert Zero and Invert Prefix",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Ball Sorting"
+    "name": "Ball Sorting",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Decreasing Game"
+    "name": "Decreasing Game",
+    "rating": 2400
    }
   ]
  },
@@ -177,27 +196,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Grasshopper on a Line"
+    "name": "Grasshopper on a Line",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Comparison String"
+    "name": "Comparison String",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Best Binary String"
+    "name": "Best Binary String",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Bracket Coloring"
+    "name": "Bracket Coloring",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Playoff Fixing"
+    "name": "Playoff Fixing",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Editorial for Two"
+    "name": "Editorial for Two",
+    "rating": 2400
    }
   ]
  },

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1841,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 150 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Game with Board"
+   },
+   {
+    "index": "B",
+    "name": "Keep it Beautiful"
+   },
+   {
+    "index": "C",
+    "name": "Ranom Numbers"
+   },
+   {
+    "index": "D",
+    "name": "Pairs of Segments"
+   },
+   {
+    "index": "E",
+    "name": "Fill the Matrix"
+   },
+   {
+    "index": "F",
+    "name": "Monocarp and a Strategic Game"
+   }
+  ]
+ },
+ {
   "id": 1840,
   "type": "Div3",
   "name": "Codeforces Round 878 (Div. 3)",

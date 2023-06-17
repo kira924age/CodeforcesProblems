@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Game with Board"
+    "name": "Game with Board",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Keep it Beautiful"
+    "name": "Keep it Beautiful",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Ranom Numbers"
+    "name": "Ranom Numbers",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Pairs of Segments"
+    "name": "Pairs of Segments",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Fill the Matrix"
+    "name": "Fill the Matrix",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Monocarp and a Strategic Game"
+    "name": "Monocarp and a Strategic Game",
+    "rating": 2700
    }
   ]
  },

@@ -1,5 +1,151 @@
 [
  {
+  "id": 1843,
+  "type": "Div3",
+  "name": "Codeforces Round 881 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sasha and Array Coloring"
+   },
+   {
+    "index": "B",
+    "name": "Long Long"
+   },
+   {
+    "index": "C",
+    "name": "Sum in Binary Tree"
+   },
+   {
+    "index": "D",
+    "name": "Apple Tree"
+   },
+   {
+    "index": "E",
+    "name": "Tracking Segments"
+   },
+   {
+    "index": "F1",
+    "name": "Omsk Metro (simple version)"
+   },
+   {
+    "index": "F2",
+    "name": "Omsk Metro (hard version)"
+   }
+  ]
+ },
+ {
+  "id": 1835,
+  "type": "Div1",
+  "name": "Codeforces Round 880 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "k-th equality",
+    "rating": 1700
+   },
+   {
+    "index": "B",
+    "name": "Lottery",
+    "rating": 2500
+   },
+   {
+    "index": "C",
+    "name": "Twin Clusters",
+    "rating": 2600
+   },
+   {
+    "index": "D",
+    "name": "Doctor's Brown Hypothesis",
+    "rating": 2900
+   },
+   {
+    "index": "E",
+    "name": "Old Mobile",
+    "rating": 3500
+   },
+   {
+    "index": "F",
+    "name": "Good Graph",
+    "rating": 3500
+   }
+  ]
+ },
+ {
+  "id": 1836,
+  "type": "Div2",
+  "name": "Codeforces Round 880 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Destroyer",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Astrophysicists",
+    "rating": 1100
+   },
+   {
+    "index": "C",
+    "name": "k-th equality",
+    "rating": "1700"
+   },
+   {
+    "index": "D",
+    "name": "Lottery",
+    "rating": "2500"
+   },
+   {
+    "index": "E",
+    "name": "Twin Clusters",
+    "rating": "2600"
+   },
+   {
+    "index": "F",
+    "name": "Doctor's Brown Hypothesis",
+    "rating": "2900"
+   }
+  ]
+ },
+ {
+  "id": 1834,
+  "type": "Div2",
+  "name": "Codeforces Round 879 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Unit Array",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Maximum Strength",
+    "rating": 1000
+   },
+   {
+    "index": "C",
+    "name": "Game with Reversing",
+    "rating": 1200
+   },
+   {
+    "index": "D",
+    "name": "Survey in Class",
+    "rating": 1900
+   },
+   {
+    "index": "E",
+    "name": "MEX of LCM",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Typewriter",
+    "rating": 2500
+   }
+  ]
+ },
+ {
   "id": 1841,
   "type": "Educational",
   "name": "Educational Codeforces Round 150 (Rated for Div. 2)",

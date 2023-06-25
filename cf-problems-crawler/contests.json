@@ -1,5 +1,48 @@
 [
  {
+  "id": 1842,
+  "type": "Div1 + Div2",
+  "name": "CodeTON Round 5 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Tenzing and Tsondu"
+   },
+   {
+    "index": "B",
+    "name": "Tenzing and Books"
+   },
+   {
+    "index": "C",
+    "name": "Tenzing and Balls"
+   },
+   {
+    "index": "D",
+    "name": "Tenzing and His Animal Friends"
+   },
+   {
+    "index": "E",
+    "name": "Tenzing and Triangle"
+   },
+   {
+    "index": "F",
+    "name": "Tenzing and Tree"
+   },
+   {
+    "index": "G",
+    "name": "Tenzing and Random Operations"
+   },
+   {
+    "index": "H",
+    "name": "Tenzing and Random Real Numbers"
+   },
+   {
+    "index": "I",
+    "name": "Tenzing and Necklace"
+   }
+  ]
+ },
+ {
   "id": 1843,
   "type": "Div3",
   "name": "Codeforces Round 881 (Div. 3)",

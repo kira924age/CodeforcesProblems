@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Tenzing and Tsondu"
+    "name": "Tenzing and Tsondu",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Tenzing and Books"
+    "name": "Tenzing and Books",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Tenzing and Balls"
+    "name": "Tenzing and Balls",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Tenzing and His Animal Friends"
+    "name": "Tenzing and His Animal Friends",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Tenzing and Triangle"
+    "name": "Tenzing and Triangle",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Tenzing and Tree"
+    "name": "Tenzing and Tree",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Tenzing and Random Operations"
+    "name": "Tenzing and Random Operations",
+    "rating": 2800
    },
    {
     "index": "H",
-    "name": "Tenzing and Random Real Numbers"
+    "name": "Tenzing and Random Real Numbers",
+    "rating": 3000
    },
    {
     "index": "I",
-    "name": "Tenzing and Necklace"
+    "name": "Tenzing and Necklace",
+    "rating": 3500
    }
   ]
  },
@@ -49,31 +58,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sasha and Array Coloring"
+    "name": "Sasha and Array Coloring",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Long Long"
+    "name": "Long Long",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Sum in Binary Tree"
+    "name": "Sum in Binary Tree",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Apple Tree"
+    "name": "Apple Tree",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Tracking Segments"
+    "name": "Tracking Segments",
+    "rating": 1600
    },
    {
     "index": "F1",
-    "name": "Omsk Metro (simple version)"
+    "name": "Omsk Metro (simple version)",
+    "rating": 1800
    },
    {
     "index": "F2",
-    "name": "Omsk Metro (hard version)"
+    "name": "Omsk Metro (hard version)",
+    "rating": 2300
    }
   ]
  },

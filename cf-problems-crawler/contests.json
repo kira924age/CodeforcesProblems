@@ -1,5 +1,36 @@
 [
  {
+  "id": 1845,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 151 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Forbidden Integer"
+   },
+   {
+    "index": "B",
+    "name": "Come Together"
+   },
+   {
+    "index": "C",
+    "name": "Strong Password"
+   },
+   {
+    "index": "D",
+    "name": "Rating System"
+   },
+   {
+    "index": "E",
+    "name": "Boxes and Balls"
+   },
+   {
+    "index": "F",
+    "name": "Swimmers in the Pool"
+   }
+  ]
+ },
+ {
   "id": 1842,
   "type": "Div1 + Div2",
   "name": "CodeTON Round 5 (Div. 1 + Div. 2, Rated, Prizes!)",

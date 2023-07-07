@@ -1,32 +1,69 @@
 [
  {
+  "id": 1847,
+  "type": "Div2",
+  "name": "Codeforces Round 882 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Man who became a God"
+   },
+   {
+    "index": "B",
+    "name": "Hamon Odyssey"
+   },
+   {
+    "index": "C",
+    "name": "Vampiric Powers, anyone?"
+   },
+   {
+    "index": "D",
+    "name": "Professor Higashikata"
+   },
+   {
+    "index": "E",
+    "name": "Triangle Platinum?"
+   },
+   {
+    "index": "F",
+    "name": "The Boss's Identity"
+   }
+  ]
+ },
+ {
   "id": 1845,
   "type": "Educational",
   "name": "Educational Codeforces Round 151 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Forbidden Integer"
+    "name": "Forbidden Integer",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Come Together"
+    "name": "Come Together",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Strong Password"
+    "name": "Strong Password",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Rating System"
+    "name": "Rating System",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Boxes and Balls"
+    "name": "Boxes and Balls",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Swimmers in the Pool"
+    "name": "Swimmers in the Pool",
+    "rating": 2800
    }
   ]
  },

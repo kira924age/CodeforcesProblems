@@ -1,5 +1,44 @@
 [
  {
+  "id": 1846,
+  "type": "Div3",
+  "name": "Codeforces Round 883 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Rudolph and Cut the Rope"
+   },
+   {
+    "index": "B",
+    "name": "Rudolph and Tic-Tac-Toe"
+   },
+   {
+    "index": "C",
+    "name": "Rudolf and the Another Competition"
+   },
+   {
+    "index": "D",
+    "name": "Rudolph and Christmas Tree"
+   },
+   {
+    "index": "E1",
+    "name": "Rudolf and Snowflakes (simple version)"
+   },
+   {
+    "index": "E2",
+    "name": "Rudolf and Snowflakes (hard version)"
+   },
+   {
+    "index": "F",
+    "name": "Rudolph and Mimic"
+   },
+   {
+    "index": "G",
+    "name": "Rudolf and CodeVid-23"
+   }
+  ]
+ },
+ {
   "id": 1847,
   "type": "Div2",
   "name": "Codeforces Round 882 (Div. 2)",

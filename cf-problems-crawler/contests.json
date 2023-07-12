@@ -1,5 +1,48 @@
 [
  {
+  "id": 1844,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round  884 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Subtraction Game"
+   },
+   {
+    "index": "B",
+    "name": "Permutations & Primes"
+   },
+   {
+    "index": "C",
+    "name": "Particles"
+   },
+   {
+    "index": "D",
+    "name": "Row Major"
+   },
+   {
+    "index": "E",
+    "name": "Great Grids"
+   },
+   {
+    "index": "F1",
+    "name": "Min Cost Permutation (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Min Cost Permutation (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Tree Weights"
+   },
+   {
+    "index": "H",
+    "name": "Multiple of Three Cycles"
+   }
+  ]
+ },
+ {
   "id": 1846,
   "type": "Div3",
   "name": "Codeforces Round 883 (Div. 3)",

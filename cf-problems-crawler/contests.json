@@ -1,5 +1,36 @@
 [
  {
+  "id": 1848,
+  "type": "Div2",
+  "name": "Codeforces Round 885 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Vika and Her Friends"
+   },
+   {
+    "index": "B",
+    "name": "Vika and the Bridge"
+   },
+   {
+    "index": "C",
+    "name": "Vika and Price Tags"
+   },
+   {
+    "index": "D",
+    "name": "Vika and Bonuses"
+   },
+   {
+    "index": "E",
+    "name": "Vika and Stone Skipping"
+   },
+   {
+    "index": "F",
+    "name": "Vika and Wiki"
+   }
+  ]
+ },
+ {
   "id": 1844,
   "type": "Div1 + Div2",
   "name": "Codeforces Round  884 (Div. 1 + Div. 2)",
@@ -49,35 +80,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Rudolph and Cut the Rope"
+    "name": "Rudolph and Cut the Rope",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Rudolph and Tic-Tac-Toe"
+    "name": "Rudolph and Tic-Tac-Toe",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Rudolf and the Another Competition"
+    "name": "Rudolf and the Another Competition",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Rudolph and Christmas Tree"
+    "name": "Rudolph and Christmas Tree",
+    "rating": 1200
    },
    {
     "index": "E1",
-    "name": "Rudolf and Snowflakes (simple version)"
+    "name": "Rudolf and Snowflakes (simple version)",
+    "rating": 1300
    },
    {
     "index": "E2",
-    "name": "Rudolf and Snowflakes (hard version)"
+    "name": "Rudolf and Snowflakes (hard version)",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Rudolph and Mimic"
+    "name": "Rudolph and Mimic",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Rudolf and CodeVid-23"
+    "name": "Rudolf and CodeVid-23",
+    "rating": 1900
    }
   ]
  },
@@ -88,27 +127,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Man who became a God"
+    "name": "The Man who became a God",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Hamon Odyssey"
+    "name": "Hamon Odyssey",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Vampiric Powers, anyone?"
+    "name": "Vampiric Powers, anyone?",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Professor Higashikata"
+    "name": "Professor Higashikata",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Triangle Platinum?"
+    "name": "Triangle Platinum?",
+    "rating": 2900
    },
    {
     "index": "F",
-    "name": "The Boss's Identity"
+    "name": "The Boss's Identity",
+    "rating": 2500
    }
   ]
  },

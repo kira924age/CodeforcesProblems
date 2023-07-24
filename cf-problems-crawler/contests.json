@@ -1,5 +1,67 @@
 [
  {
+  "id": 1852,
+  "type": "Div1",
+  "name": "Codeforces Round 887 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Ntarsis' Set"
+   },
+   {
+    "index": "B",
+    "name": "Imbalanced Arrays"
+   },
+   {
+    "index": "C",
+    "name": "Ina of the Mountain"
+   },
+   {
+    "index": "D",
+    "name": "Miriany and Matchstick"
+   },
+   {
+    "index": "E",
+    "name": "Rivalries"
+   },
+   {
+    "index": "F",
+    "name": "Panda Meetups"
+   }
+  ]
+ },
+ {
+  "id": 1853,
+  "type": "Div2",
+  "name": "Codeforces Round 887 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Desorting"
+   },
+   {
+    "index": "B",
+    "name": "Fibonaccharsis"
+   },
+   {
+    "index": "C",
+    "name": "Ntarsis' Set"
+   },
+   {
+    "index": "D",
+    "name": "Imbalanced Arrays"
+   },
+   {
+    "index": "E",
+    "name": "Ina of the Mountain"
+   },
+   {
+    "index": "F",
+    "name": "Miriany and Matchstick"
+   }
+  ]
+ },
+ {
   "id": 1850,
   "type": "Div4",
   "name": "Codeforces Round 886 (Div. 4)",

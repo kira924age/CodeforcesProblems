@@ -1,5 +1,40 @@
 [
  {
+  "id": 1851,
+  "type": "Div3",
+  "name": "Codeforces Round 888 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Escalator Conversations"
+   },
+   {
+    "index": "B",
+    "name": "Parity Sort"
+   },
+   {
+    "index": "C",
+    "name": "Tiles Comeback"
+   },
+   {
+    "index": "D",
+    "name": "Prefix Permutation Sums"
+   },
+   {
+    "index": "E",
+    "name": "Nastya and Potions"
+   },
+   {
+    "index": "F",
+    "name": "Lisa and the Martians"
+   },
+   {
+    "index": "G",
+    "name": "Vlad and the Mountains"
+   }
+  ]
+ },
+ {
   "id": 1852,
   "type": "Div1",
   "name": "Codeforces Round 887 (Div. 1)",

@@ -41,27 +41,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Ntarsis' Set"
+    "name": "Ntarsis' Set",
+    "rating": 1800
    },
    {
     "index": "B",
-    "name": "Imbalanced Arrays"
+    "name": "Imbalanced Arrays",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "Ina of the Mountain"
+    "name": "Ina of the Mountain",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Miriany and Matchstick"
+    "name": "Miriany and Matchstick",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Rivalries"
+    "name": "Rivalries",
+    "rating": 3400
    },
    {
     "index": "F",
-    "name": "Panda Meetups"
+    "name": "Panda Meetups",
+    "rating": 3500
    }
   ]
  },
@@ -72,27 +78,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Desorting"
+    "name": "Desorting",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Fibonaccharsis"
+    "name": "Fibonaccharsis",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Ntarsis' Set"
+    "name": "Ntarsis' Set",
+    "rating": "1800"
    },
    {
     "index": "D",
-    "name": "Imbalanced Arrays"
+    "name": "Imbalanced Arrays",
+    "rating": "1800"
    },
    {
     "index": "E",
-    "name": "Ina of the Mountain"
+    "name": "Ina of the Mountain",
+    "rating": "2400"
    },
    {
     "index": "F",
-    "name": "Miriany and Matchstick"
+    "name": "Miriany and Matchstick",
+    "rating": "2800"
    }
   ]
  },
@@ -103,35 +115,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "To My Critics"
+    "name": "To My Critics",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Ten Words of Wisdom"
+    "name": "Ten Words of Wisdom",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Word on the Paper"
+    "name": "Word on the Paper",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Balanced Round"
+    "name": "Balanced Round",
+    "rating": 900
    },
    {
     "index": "E",
-    "name": "Cardboard for Pictures"
+    "name": "Cardboard for Pictures",
+    "rating": 1100
    },
    {
     "index": "F",
-    "name": "We Were Both Children"
+    "name": "We Were Both Children",
+    "rating": 1300
    },
    {
     "index": "G",
-    "name": "The Morning Star"
+    "name": "The Morning Star",
+    "rating": 1500
    },
    {
     "index": "H",
-    "name": "The Third Letter"
+    "name": "The Third Letter",
+    "rating": 1700
    }
   ]
  },

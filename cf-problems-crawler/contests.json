@@ -1,5 +1,75 @@
 [
  {
+  "id": 1854,
+  "type": "Div1",
+  "name": "Codeforces Round 889 (Div. 1)",
+  "problems": [
+   {
+    "index": "A1",
+    "name": "Dual (Easy Version)"
+   },
+   {
+    "index": "A2",
+    "name": "Dual (Hard Version)"
+   },
+   {
+    "index": "B",
+    "name": "Earn or Unlock"
+   },
+   {
+    "index": "C",
+    "name": "Expected Destruction"
+   },
+   {
+    "index": "D",
+    "name": "Michael and Hotel"
+   },
+   {
+    "index": "E",
+    "name": "Game Bundles"
+   },
+   {
+    "index": "F",
+    "name": "Mark and Spaceship"
+   }
+  ]
+ },
+ {
+  "id": 1855,
+  "type": "Div2",
+  "name": "Codeforces Round 889 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Dalton the Teacher"
+   },
+   {
+    "index": "B",
+    "name": "Longest Divisors Interval"
+   },
+   {
+    "index": "C1",
+    "name": "Dual (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Dual (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Earn or Unlock"
+   },
+   {
+    "index": "E",
+    "name": "Expected Destruction"
+   },
+   {
+    "index": "F",
+    "name": "Michael and Hotel"
+   }
+  ]
+ },
+ {
   "id": 1849,
   "type": "Educational",
   "name": "Educational Codeforces Round 152 (Rated for Div. 2)",

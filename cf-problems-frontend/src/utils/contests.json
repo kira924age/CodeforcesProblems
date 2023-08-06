@@ -1,5 +1,36 @@
 [
  {
+  "id": 1856,
+  "type": "Div2",
+  "name": "Codeforces Round 890 (Div. 2) supported by Constructor Institute",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Tales of a Sort"
+   },
+   {
+    "index": "B",
+    "name": "Good Arrays"
+   },
+   {
+    "index": "C",
+    "name": "To Become Max"
+   },
+   {
+    "index": "D",
+    "name": "More Wrong"
+   },
+   {
+    "index": "E1",
+    "name": "PermuTree (easy version)"
+   },
+   {
+    "index": "E2",
+    "name": "PermuTree (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1854,
   "type": "Div1",
   "name": "Codeforces Round 889 (Div. 1)",

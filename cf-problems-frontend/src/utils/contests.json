@@ -1,5 +1,40 @@
 [
  {
+  "id": 1857,
+  "type": "Div3",
+  "name": "Codeforces Round 891 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Array Coloring"
+   },
+   {
+    "index": "B",
+    "name": "Maximum Rounding"
+   },
+   {
+    "index": "C",
+    "name": "Assembly via Minimums"
+   },
+   {
+    "index": "D",
+    "name": "Strong Vertices"
+   },
+   {
+    "index": "E",
+    "name": "Power of Points"
+   },
+   {
+    "index": "F",
+    "name": "Sum and Product"
+   },
+   {
+    "index": "G",
+    "name": "Counting Graphs"
+   }
+  ]
+ },
+ {
   "id": 1856,
   "type": "Div2",
   "name": "Codeforces Round 890 (Div. 2) supported by Constructor Institute",

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1859,
+  "type": "Div2",
+  "name": "Codeforces Round 892 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "United We Stand"
+   },
+   {
+    "index": "B",
+    "name": "Olya and Game with Arrays"
+   },
+   {
+    "index": "C",
+    "name": "Another Permutation Problem"
+   },
+   {
+    "index": "D",
+    "name": "Andrey and Escape from Capygrad"
+   },
+   {
+    "index": "E",
+    "name": "Maximum Monogonosity"
+   },
+   {
+    "index": "F",
+    "name": "Teleportation in Byteland"
+   }
+  ]
+ },
+ {
   "id": 1857,
   "type": "Div3",
   "name": "Codeforces Round 891 (Div. 3)",

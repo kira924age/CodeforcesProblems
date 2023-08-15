@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "United We Stand"
+    "name": "United We Stand",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Olya and Game with Arrays"
+    "name": "Olya and Game with Arrays",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Another Permutation Problem"
+    "name": "Another Permutation Problem",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Andrey and Escape from Capygrad"
+    "name": "Andrey and Escape from Capygrad",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Maximum Monogonosity"
+    "name": "Maximum Monogonosity",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Teleportation in Byteland"
+    "name": "Teleportation in Byteland",
+    "rating": 3200
    }
   ]
  },
@@ -37,31 +43,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Array Coloring"
+    "name": "Array Coloring",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Maximum Rounding"
+    "name": "Maximum Rounding",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Assembly via Minimums"
+    "name": "Assembly via Minimums",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Strong Vertices"
+    "name": "Strong Vertices",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Power of Points"
+    "name": "Power of Points",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Sum and Product"
+    "name": "Sum and Product",
+    "rating": 1600
    },
    {
     "index": "G",
-    "name": "Counting Graphs"
+    "name": "Counting Graphs",
+    "rating": 2000
    }
   ]
  },
@@ -72,27 +85,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Tales of a Sort"
+    "name": "Tales of a Sort",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Good Arrays"
+    "name": "Good Arrays",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "To Become Max"
+    "name": "To Become Max",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "More Wrong"
+    "name": "More Wrong",
+    "rating": 2100
    },
    {
     "index": "E1",
-    "name": "PermuTree (easy version)"
+    "name": "PermuTree (easy version)",
+    "rating": 1800
    },
    {
     "index": "E2",
-    "name": "PermuTree (hard version)"
+    "name": "PermuTree (hard version)",
+    "rating": 2700
    }
   ]
  },
@@ -103,31 +122,38 @@
   "problems": [
    {
     "index": "A1",
-    "name": "Dual (Easy Version)"
+    "name": "Dual (Easy Version)",
+    "rating": 1400
    },
    {
     "index": "A2",
-    "name": "Dual (Hard Version)"
+    "name": "Dual (Hard Version)",
+    "rating": 1900
    },
    {
     "index": "B",
-    "name": "Earn or Unlock"
+    "name": "Earn or Unlock",
+    "rating": 2200
    },
    {
     "index": "C",
-    "name": "Expected Destruction"
+    "name": "Expected Destruction",
+    "rating": 2500
    },
    {
     "index": "D",
-    "name": "Michael and Hotel"
+    "name": "Michael and Hotel",
+    "rating": 3000
    },
    {
     "index": "E",
-    "name": "Game Bundles"
+    "name": "Game Bundles",
+    "rating": 3000
    },
    {
     "index": "F",
-    "name": "Mark and Spaceship"
+    "name": "Mark and Spaceship",
+    "rating": 3500
    }
   ]
  },
@@ -138,31 +164,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Dalton the Teacher"
+    "name": "Dalton the Teacher",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Longest Divisors Interval"
+    "name": "Longest Divisors Interval",
+    "rating": 900
    },
    {
     "index": "C1",
-    "name": "Dual (Easy Version)"
+    "name": "Dual (Easy Version)",
+    "rating": "1400"
    },
    {
     "index": "C2",
-    "name": "Dual (Hard Version)"
+    "name": "Dual (Hard Version)",
+    "rating": "1900"
    },
    {
     "index": "D",
-    "name": "Earn or Unlock"
+    "name": "Earn or Unlock",
+    "rating": "2200"
    },
    {
     "index": "E",
-    "name": "Expected Destruction"
+    "name": "Expected Destruction",
+    "rating": "2500"
    },
    {
     "index": "F",
-    "name": "Michael and Hotel"
+    "name": "Michael and Hotel",
+    "rating": "3000"
    }
   ]
  },
@@ -173,27 +206,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Morning Sandwich"
+    "name": "Morning Sandwich",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Monsters"
+    "name": "Monsters",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Binary String Copying"
+    "name": "Binary String Copying",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Array Painting"
+    "name": "Array Painting",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Max to the Right of Min"
+    "name": "Max to the Right of Min",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "XOR Partition"
+    "name": "XOR Partition",
+    "rating": 2700
    }
   ]
  },
@@ -204,31 +243,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Escalator Conversations"
+    "name": "Escalator Conversations",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Parity Sort"
+    "name": "Parity Sort",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Tiles Comeback"
+    "name": "Tiles Comeback",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Prefix Permutation Sums"
+    "name": "Prefix Permutation Sums",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Nastya and Potions"
+    "name": "Nastya and Potions",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Lisa and the Martians"
+    "name": "Lisa and the Martians",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Vlad and the Mountains"
+    "name": "Vlad and the Mountains",
+    "rating": 2000
    }
   ]
  },

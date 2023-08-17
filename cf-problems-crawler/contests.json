@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Buttons"
+    "name": "Buttons",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "The Walkway"
+    "name": "The Walkway",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "Yet Another Permutation Problem"
+    "name": "Yet Another Permutation Problem",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Trees and Segments"
+    "name": "Trees and Segments",
+    "rating": 2200
    },
    {
     "index": "E1",
-    "name": "Rollbacks (Easy Version)"
+    "name": "Rollbacks (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "E2",
-    "name": "Rollbacks (Hard Version)"
+    "name": "Rollbacks (Hard Version)",
+    "rating": 2600
    }
   ]
  },

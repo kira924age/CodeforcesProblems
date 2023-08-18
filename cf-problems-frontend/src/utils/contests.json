@@ -1,5 +1,36 @@
 [
  {
+  "id": 1860,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 153 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Not a Substring"
+   },
+   {
+    "index": "B",
+    "name": "Fancy Coins"
+   },
+   {
+    "index": "C",
+    "name": "Game on Permutation"
+   },
+   {
+    "index": "D",
+    "name": "Balanced String"
+   },
+   {
+    "index": "E",
+    "name": "Fast Travel Text Editor"
+   },
+   {
+    "index": "F",
+    "name": "Evaluate RBS"
+   }
+  ]
+ },
+ {
   "id": 1858,
   "type": "Div2",
   "name": "Codeforces Round 893 (Div. 2)",

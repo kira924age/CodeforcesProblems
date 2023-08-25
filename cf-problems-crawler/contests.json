@@ -1,5 +1,40 @@
 [
  {
+  "id": 1862,
+  "type": "Div3",
+  "name": "Codeforces Round 894 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Gift Carpet"
+   },
+   {
+    "index": "B",
+    "name": "Sequence Game"
+   },
+   {
+    "index": "C",
+    "name": "Flower City Fence"
+   },
+   {
+    "index": "D",
+    "name": "Ice Cream Balls"
+   },
+   {
+    "index": "E",
+    "name": "Kolya and Movie Theatre"
+   },
+   {
+    "index": "F",
+    "name": "Magic Will Save the World"
+   },
+   {
+    "index": "G",
+    "name": "The Great Equalizer"
+   }
+  ]
+ },
+ {
   "id": 1860,
   "type": "Educational",
   "name": "Educational Codeforces Round 153 (Rated for Div. 2)",

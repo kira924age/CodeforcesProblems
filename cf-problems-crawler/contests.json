@@ -1,5 +1,48 @@
 [
  {
+  "id": 1864,
+  "type": "Div1 + Div2",
+  "name": "Harbour.Space Scholarship Contest 2023-2024 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Increasing and Decreasing"
+   },
+   {
+    "index": "B",
+    "name": "Swap and Reverse"
+   },
+   {
+    "index": "C",
+    "name": "Divisor Chain"
+   },
+   {
+    "index": "D",
+    "name": "Matrix Cascade"
+   },
+   {
+    "index": "E",
+    "name": "Guess Game"
+   },
+   {
+    "index": "F",
+    "name": "Exotic Queries"
+   },
+   {
+    "index": "G",
+    "name": "Magic Square"
+   },
+   {
+    "index": "H",
+    "name": "Asterism Stream"
+   },
+   {
+    "index": "I",
+    "name": "Future Dominators"
+   }
+  ]
+ },
+ {
   "id": 1862,
   "type": "Div3",
   "name": "Codeforces Round 894 (Div. 3)",

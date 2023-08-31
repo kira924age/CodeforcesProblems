@@ -1,5 +1,48 @@
 [
  {
+  "id": 1863,
+  "type": "Div1 + Div2",
+  "name": "Pinely Round 2 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Channel"
+   },
+   {
+    "index": "B",
+    "name": "Split Sort"
+   },
+   {
+    "index": "C",
+    "name": "MEX Repetition"
+   },
+   {
+    "index": "D",
+    "name": "Two-Colored Dominoes"
+   },
+   {
+    "index": "E",
+    "name": "Speedrun"
+   },
+   {
+    "index": "F",
+    "name": "Divide, XOR, and Conquer"
+   },
+   {
+    "index": "G",
+    "name": "Swaps"
+   },
+   {
+    "index": "H",
+    "name": "Goldberg Machine 3"
+   },
+   {
+    "index": "I",
+    "name": "Redundant Routes"
+   }
+  ]
+ },
+ {
   "id": 1864,
   "type": "Div1 + Div2",
   "name": "Harbour.Space Scholarship Contest 2023-2024 (Div. 1 + Div. 2)",

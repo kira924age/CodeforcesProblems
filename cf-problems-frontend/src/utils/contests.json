@@ -1,5 +1,36 @@
 [
  {
+  "id": 1861,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 154 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Prime Deletion"
+   },
+   {
+    "index": "B",
+    "name": "Two Binary Strings"
+   },
+   {
+    "index": "C",
+    "name": "Queries for the Array"
+   },
+   {
+    "index": "D",
+    "name": "Sorting By Multiplication"
+   },
+   {
+    "index": "E",
+    "name": "Non-Intersecting Subpermutations"
+   },
+   {
+    "index": "F",
+    "name": "Four Suits"
+   }
+  ]
+ },
+ {
   "id": 1863,
   "type": "Div1 + Div2",
   "name": "Pinely Round 2 (Div. 1 + Div. 2)",

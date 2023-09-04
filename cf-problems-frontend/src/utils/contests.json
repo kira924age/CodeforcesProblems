@@ -1,5 +1,64 @@
 [
  {
+  "id": 1866,
+  "type": "ICPC",
+  "name": "COMPFEST 15 - Preliminary Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Ambitious Kid"
+   },
+   {
+    "index": "B",
+    "name": "Battling with Numbers"
+   },
+   {
+    "index": "C",
+    "name": "Completely Searching for Inversions"
+   },
+   {
+    "index": "D",
+    "name": "Digital Wallet"
+   },
+   {
+    "index": "E",
+    "name": "Elevators of Tamem"
+   },
+   {
+    "index": "F",
+    "name": "Freak Joker Process"
+   },
+   {
+    "index": "G",
+    "name": "Grouped Carriages"
+   },
+   {
+    "index": "H",
+    "name": "Happy Sets"
+   },
+   {
+    "index": "I",
+    "name": "Imagination Castle"
+   },
+   {
+    "index": "J",
+    "name": "Jackets and Packets"
+   },
+   {
+    "index": "K",
+    "name": "Keen Tree Calculation"
+   },
+   {
+    "index": "L",
+    "name": "Lihmuf Balling"
+   },
+   {
+    "index": "M",
+    "name": "Mighty Rock Tower"
+   }
+  ]
+ },
+ {
   "id": 1861,
   "type": "Educational",
   "name": "Educational Codeforces Round 154 (Rated for Div. 2)",

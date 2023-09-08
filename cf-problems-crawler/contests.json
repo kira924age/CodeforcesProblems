@@ -1,5 +1,40 @@
 [
  {
+  "id": 1872,
+  "type": "Div3",
+  "name": "Codeforces Round 895 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Two Vessels"
+   },
+   {
+    "index": "B",
+    "name": "The Corridor or There and Back Again"
+   },
+   {
+    "index": "C",
+    "name": "Non-coprime Split"
+   },
+   {
+    "index": "D",
+    "name": "Plus Minus Permutation"
+   },
+   {
+    "index": "E",
+    "name": "Data Structures Fan"
+   },
+   {
+    "index": "F",
+    "name": "Selling a Menagerie"
+   },
+   {
+    "index": "G",
+    "name": "Replace With Product"
+   }
+  ]
+ },
+ {
   "id": 1866,
   "type": "ICPC",
   "name": "COMPFEST 15 - Preliminary Online Mirror (Unrated, ICPC Rules, Teams Preferred)",

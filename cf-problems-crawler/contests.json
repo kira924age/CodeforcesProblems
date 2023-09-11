@@ -1,5 +1,75 @@
 [
  {
+  "id": 1868,
+  "type": "Div1",
+  "name": "Codeforces Round 896 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Fill in the Matrix"
+   },
+   {
+    "index": "B1",
+    "name": "Candy Party (Easy Version)"
+   },
+   {
+    "index": "B2",
+    "name": "Candy Party (Hard Version)"
+   },
+   {
+    "index": "C",
+    "name": "Travel Plan"
+   },
+   {
+    "index": "D",
+    "name": "Flower-like Pseudotree"
+   },
+   {
+    "index": "E",
+    "name": "Min-Sum-Max"
+   },
+   {
+    "index": "F",
+    "name": "LIS?"
+   }
+  ]
+ },
+ {
+  "id": 1869,
+  "type": "Div2",
+  "name": "Codeforces Round 896 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Make It Zero"
+   },
+   {
+    "index": "B",
+    "name": "2D Traveling"
+   },
+   {
+    "index": "C",
+    "name": "Fill in the Matrix"
+   },
+   {
+    "index": "D1",
+    "name": "Candy Party (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Candy Party (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Travel Plan"
+   },
+   {
+    "index": "F",
+    "name": "Flower-like Pseudotree"
+   }
+  ]
+ },
+ {
   "id": 1872,
   "type": "Div3",
   "name": "Codeforces Round 895 (Div. 3)",

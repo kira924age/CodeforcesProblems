@@ -1,5 +1,40 @@
 [
  {
+  "id": 1867,
+  "type": "Div2",
+  "name": "Codeforces Round 897 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "green_gold_dog, array and permutation"
+   },
+   {
+    "index": "B",
+    "name": "XOR Palindromes"
+   },
+   {
+    "index": "C",
+    "name": "Salyg1n and the MEX Game"
+   },
+   {
+    "index": "D",
+    "name": "Cyclic Operations"
+   },
+   {
+    "index": "E1",
+    "name": "Salyg1n and Array (simple version)"
+   },
+   {
+    "index": "E2",
+    "name": "Salyg1n and Array (hard version)"
+   },
+   {
+    "index": "F",
+    "name": "Most Different Tree"
+   }
+  ]
+ },
+ {
   "id": 1868,
   "type": "Div1",
   "name": "Codeforces Round 896 (Div. 1)",

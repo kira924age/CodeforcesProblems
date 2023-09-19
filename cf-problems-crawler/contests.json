@@ -1,5 +1,44 @@
 [
  {
+  "id": 1870,
+  "type": "Div1 + Div2",
+  "name": "CodeTON Round 6 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "MEXanized Array"
+   },
+   {
+    "index": "B",
+    "name": "Friendly Arrays"
+   },
+   {
+    "index": "C",
+    "name": "Colorful Table"
+   },
+   {
+    "index": "D",
+    "name": "Prefix Purchase"
+   },
+   {
+    "index": "E",
+    "name": "Another MEX Problem"
+   },
+   {
+    "index": "F",
+    "name": "Lazy Numbers"
+   },
+   {
+    "index": "G",
+    "name": "MEXanization"
+   },
+   {
+    "index": "H",
+    "name": "Standard Graph Problem"
+   }
+  ]
+ },
+ {
   "id": 1867,
   "type": "Div2",
   "name": "Codeforces Round 897 (Div. 2)",

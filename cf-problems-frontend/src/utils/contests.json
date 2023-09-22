@@ -1,5 +1,44 @@
 [
  {
+  "id": 1873,
+  "type": "Div4",
+  "name": "Codeforces Round 898 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Short Sort"
+   },
+   {
+    "index": "B",
+    "name": "Good Kid"
+   },
+   {
+    "index": "C",
+    "name": "Target Practice"
+   },
+   {
+    "index": "D",
+    "name": "1D Eraser"
+   },
+   {
+    "index": "E",
+    "name": "Building an Aquarium"
+   },
+   {
+    "index": "F",
+    "name": "Money Trees"
+   },
+   {
+    "index": "G",
+    "name": "ABBC or BACB"
+   },
+   {
+    "index": "H",
+    "name": "Mad City"
+   }
+  ]
+ },
+ {
   "id": 1870,
   "type": "Div1 + Div2",
   "name": "CodeTON Round 6 (Div. 1 + Div. 2, Rated, Prizes!)",

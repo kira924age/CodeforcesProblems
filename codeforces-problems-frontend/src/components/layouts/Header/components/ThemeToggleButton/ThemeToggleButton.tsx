@@ -1,6 +1,7 @@
 import React from "react";
 import Toggle from "react-toggle";
 import clsx from "clsx";
+import { useTheme } from "../../../../../features/theme/hooks/useTheme";
 
 import styles from "./ThemeToggleButton.module.scss";
 
@@ -9,10 +10,18 @@ type Props = {
 };
 
 export const ThemeToggleButton: React.FC<Props> = ({ className }: Props) => {
+  const [theme, setTheme] = useTheme();
+  const [isDarkMode, setIsDarkMode] = React.useState(theme === "dark");
+  const toggleDarkMode = () => {
+    setTheme(isDarkMode ? "light" : "dark");
+    setIsDarkMode(!isDarkMode);
+  };
+
   return (
     <div className={clsx(styles["theme-toggle-button"], className)}>
       <Toggle
-        defaultChecked={true}
+        defaultChecked={isDarkMode}
+        onChange={toggleDarkMode}
         icons={{
           checked: <span className={styles["toggle-icon"]}>🌜</span>,
           unchecked: <span className={styles["toggle-icon"]}>🌞</span>,

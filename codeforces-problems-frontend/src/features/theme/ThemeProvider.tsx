@@ -5,7 +5,7 @@ import { useLocalStorage } from "../../hooks/localStorage";
 
 export const ThemeContext = React.createContext<"light" | "dark">("light");
 export const SetThemeContext = React.createContext<
-  Dispatch<SetStateAction<string>>
+  Dispatch<SetStateAction<"light" | "dark">>
 >(() => undefined);
 
 type Props = {

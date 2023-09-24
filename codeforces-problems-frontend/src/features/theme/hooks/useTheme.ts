@@ -3,13 +3,9 @@ import React from "react";
 import { ThemeContext, SetThemeContext } from "../ThemeProvider";
 
 export const useTheme = () => {
-  const theme = React.useContext(ThemeContext);
-  const setTheme = React.useContext(SetThemeContext);
+  return React.useContext(ThemeContext);
+};
 
-  const providerValue = React.useMemo(
-    () => [theme, setTheme],
-    [theme, setTheme],
-  );
-
-  return providerValue;
+export const useSetTheme = () => {
+  return React.useContext(SetThemeContext);
 };

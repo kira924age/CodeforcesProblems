@@ -1,7 +1,10 @@
 import React from "react";
 import Toggle from "react-toggle";
 import clsx from "clsx";
-import { useTheme } from "../../../../../features/theme/hooks/useTheme";
+import {
+  useTheme,
+  useSetTheme,
+} from "../../../../../features/theme/hooks/useTheme";
 
 import styles from "./ThemeToggleButton.module.scss";
 
@@ -10,7 +13,8 @@ type Props = {
 };
 
 export const ThemeToggleButton: React.FC<Props> = ({ className }: Props) => {
-  const [theme, setTheme] = useTheme();
+  const theme = useTheme();
+  const setTheme = useSetTheme();
   const [isDarkMode, setIsDarkMode] = React.useState(theme === "dark");
   const toggleDarkMode = () => {
     setTheme(isDarkMode ? "light" : "dark");

@@ -12,13 +12,6 @@ type Props = {
   children: React.ReactNode;
 };
 
-// export const useTheme = () => {
-//   const [theme, setTheme] = React.useContext(ThemeContext);
-//   const providerValue = React.useMemo(() => [theme, setTheme], [theme, setTheme]);
-//
-//   return providerValue;
-// }
-
 export const ThemeProvider: React.FC<Props> = ({ children }: Props) => {
   const [theme, setTheme] = useLocalStorage<string>("theme", "light");
 
@@ -29,7 +22,6 @@ export const ThemeProvider: React.FC<Props> = ({ children }: Props) => {
           <Helmet>
             <html className={`theme-${theme}`} />
           </Helmet>
-
           {children}
         </SetThemeContext.Provider>
       </ThemeContext.Provider>

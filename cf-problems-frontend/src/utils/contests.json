@@ -1,5 +1,36 @@
 [
  {
+  "id": 1879,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 155 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Rigged!"
+   },
+   {
+    "index": "B",
+    "name": "Chips on the Board"
+   },
+   {
+    "index": "C",
+    "name": "Make it Alternating"
+   },
+   {
+    "index": "D",
+    "name": "Sum of XOR Functions"
+   },
+   {
+    "index": "E",
+    "name": "Interactive Game with Coloring"
+   },
+   {
+    "index": "F",
+    "name": "Last Man Standing"
+   }
+  ]
+ },
+ {
   "id": 1873,
   "type": "Div4",
   "name": "Codeforces Round 898 (Div. 4)",

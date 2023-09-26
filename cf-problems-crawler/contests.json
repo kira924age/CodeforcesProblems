@@ -1,32 +1,69 @@
 [
  {
+  "id": 1882,
+  "type": "Div2",
+  "name": "Codeforces Round 899 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Increasing Sequence"
+   },
+   {
+    "index": "B",
+    "name": "Sets and Union"
+   },
+   {
+    "index": "C",
+    "name": "Card Game"
+   },
+   {
+    "index": "D",
+    "name": "Tree XOR"
+   },
+   {
+    "index": "E1",
+    "name": "Two Permutations (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Two Permutations (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1879,
   "type": "Educational",
   "name": "Educational Codeforces Round 155 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Rigged!"
+    "name": "Rigged!",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Chips on the Board"
+    "name": "Chips on the Board",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Make it Alternating"
+    "name": "Make it Alternating",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Sum of XOR Functions"
+    "name": "Sum of XOR Functions",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Interactive Game with Coloring"
+    "name": "Interactive Game with Coloring",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Last Man Standing"
+    "name": "Last Man Standing",
+    "rating": 2800
    }
   ]
  },
@@ -37,35 +74,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Short Sort"
+    "name": "Short Sort",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Good Kid"
+    "name": "Good Kid",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Target Practice"
+    "name": "Target Practice",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "1D Eraser"
+    "name": "1D Eraser",
+    "rating": 800
    },
    {
     "index": "E",
-    "name": "Building an Aquarium"
+    "name": "Building an Aquarium",
+    "rating": 1100
    },
    {
     "index": "F",
-    "name": "Money Trees"
+    "name": "Money Trees",
+    "rating": 1300
    },
    {
     "index": "G",
-    "name": "ABBC or BACB"
+    "name": "ABBC or BACB",
+    "rating": 1500
    },
    {
     "index": "H",
-    "name": "Mad City"
+    "name": "Mad City",
+    "rating": 1700
    }
   ]
  },
@@ -76,35 +121,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "MEXanized Array"
+    "name": "MEXanized Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Friendly Arrays"
+    "name": "Friendly Arrays",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Colorful Table"
+    "name": "Colorful Table",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Prefix Purchase"
+    "name": "Prefix Purchase",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Another MEX Problem"
+    "name": "Another MEX Problem",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Lazy Numbers"
+    "name": "Lazy Numbers",
+    "rating": 2900
    },
    {
     "index": "G",
-    "name": "MEXanization"
+    "name": "MEXanization",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "Standard Graph Problem"
+    "name": "Standard Graph Problem",
+    "rating": 3500
    }
   ]
  },
@@ -115,31 +168,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "green_gold_dog, array and permutation"
+    "name": "green_gold_dog, array and permutation",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "XOR Palindromes"
+    "name": "XOR Palindromes",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Salyg1n and the MEX Game"
+    "name": "Salyg1n and the MEX Game",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Cyclic Operations"
+    "name": "Cyclic Operations",
+    "rating": 1800
    },
    {
     "index": "E1",
-    "name": "Salyg1n and Array (simple version)"
+    "name": "Salyg1n and Array (simple version)",
+    "rating": 2000
    },
    {
     "index": "E2",
-    "name": "Salyg1n and Array (hard version)"
+    "name": "Salyg1n and Array (hard version)",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Most Different Tree"
+    "name": "Most Different Tree",
+    "rating": 2700
    }
   ]
  },
@@ -150,31 +210,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Fill in the Matrix"
+    "name": "Fill in the Matrix",
+    "rating": 1300
    },
    {
     "index": "B1",
-    "name": "Candy Party (Easy Version)"
+    "name": "Candy Party (Easy Version)",
+    "rating": 1700
    },
    {
     "index": "B2",
-    "name": "Candy Party (Hard Version)"
+    "name": "Candy Party (Hard Version)",
+    "rating": 2100
    },
    {
     "index": "C",
-    "name": "Travel Plan"
+    "name": "Travel Plan",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Flower-like Pseudotree"
+    "name": "Flower-like Pseudotree",
+    "rating": 3000
    },
    {
     "index": "E",
-    "name": "Min-Sum-Max"
+    "name": "Min-Sum-Max",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "LIS?"
+    "name": "LIS?",
+    "rating": 3500
    }
   ]
  },
@@ -185,31 +252,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Make It Zero"
+    "name": "Make It Zero",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "2D Traveling"
+    "name": "2D Traveling",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Fill in the Matrix"
+    "name": "Fill in the Matrix",
+    "rating": "1300"
    },
    {
     "index": "D1",
-    "name": "Candy Party (Easy Version)"
+    "name": "Candy Party (Easy Version)",
+    "rating": "1700"
    },
    {
     "index": "D2",
-    "name": "Candy Party (Hard Version)"
+    "name": "Candy Party (Hard Version)",
+    "rating": "2100"
    },
    {
     "index": "E",
-    "name": "Travel Plan"
+    "name": "Travel Plan",
+    "rating": "2400"
    },
    {
     "index": "F",
-    "name": "Flower-like Pseudotree"
+    "name": "Flower-like Pseudotree",
+    "rating": "3000"
    }
   ]
  },
@@ -220,31 +294,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Two Vessels"
+    "name": "Two Vessels",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "The Corridor or There and Back Again"
+    "name": "The Corridor or There and Back Again",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Non-coprime Split"
+    "name": "Non-coprime Split",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Plus Minus Permutation"
+    "name": "Plus Minus Permutation",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Data Structures Fan"
+    "name": "Data Structures Fan",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Selling a Menagerie"
+    "name": "Selling a Menagerie",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Replace With Product"
+    "name": "Replace With Product",
+    "rating": 2000
    }
   ]
  },
@@ -255,55 +336,68 @@
   "problems": [
    {
     "index": "A",
-    "name": "Ambitious Kid"
+    "name": "Ambitious Kid",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Battling with Numbers"
+    "name": "Battling with Numbers",
+    "rating": 1400
    },
    {
     "index": "C",
-    "name": "Completely Searching for Inversions"
+    "name": "Completely Searching for Inversions",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "Digital Wallet"
+    "name": "Digital Wallet",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Elevators of Tamem"
+    "name": "Elevators of Tamem",
+    "rating": 2700
    },
    {
     "index": "F",
-    "name": "Freak Joker Process"
+    "name": "Freak Joker Process",
+    "rating": 3100
    },
    {
     "index": "G",
-    "name": "Grouped Carriages"
+    "name": "Grouped Carriages",
+    "rating": 2100
    },
    {
     "index": "H",
-    "name": "Happy Sets"
+    "name": "Happy Sets",
+    "rating": 2100
    },
    {
     "index": "I",
-    "name": "Imagination Castle"
+    "name": "Imagination Castle",
+    "rating": 2300
    },
    {
     "index": "J",
-    "name": "Jackets and Packets"
+    "name": "Jackets and Packets",
+    "rating": 2800
    },
    {
     "index": "K",
-    "name": "Keen Tree Calculation"
+    "name": "Keen Tree Calculation",
+    "rating": 2500
    },
    {
     "index": "L",
-    "name": "Lihmuf Balling"
+    "name": "Lihmuf Balling",
+    "rating": 2400
    },
    {
     "index": "M",
-    "name": "Mighty Rock Tower"
+    "name": "Mighty Rock Tower",
+    "rating": 2400
    }
   ]
  },
@@ -314,27 +408,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Prime Deletion"
+    "name": "Prime Deletion",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Two Binary Strings"
+    "name": "Two Binary Strings",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Queries for the Array"
+    "name": "Queries for the Array",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Sorting By Multiplication"
+    "name": "Sorting By Multiplication",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Non-Intersecting Subpermutations"
+    "name": "Non-Intersecting Subpermutations",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Four Suits"
+    "name": "Four Suits",
+    "rating": 3200
    }
   ]
  },
@@ -345,39 +445,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Channel"
+    "name": "Channel",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Split Sort"
+    "name": "Split Sort",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "MEX Repetition"
+    "name": "MEX Repetition",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Two-Colored Dominoes"
+    "name": "Two-Colored Dominoes",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Speedrun"
+    "name": "Speedrun",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Divide, XOR, and Conquer"
+    "name": "Divide, XOR, and Conquer",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Swaps"
+    "name": "Swaps",
+    "rating": 2800
    },
    {
     "index": "H",
-    "name": "Goldberg Machine 3"
+    "name": "Goldberg Machine 3",
+    "rating": 3500
    },
    {
     "index": "I",
-    "name": "Redundant Routes"
+    "name": "Redundant Routes",
+    "rating": 3500
    }
   ]
  },
@@ -388,39 +497,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Increasing and Decreasing"
+    "name": "Increasing and Decreasing",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Swap and Reverse"
+    "name": "Swap and Reverse",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Divisor Chain"
+    "name": "Divisor Chain",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Matrix Cascade"
+    "name": "Matrix Cascade",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Guess Game"
+    "name": "Guess Game",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Exotic Queries"
+    "name": "Exotic Queries",
+    "rating": 2300
    },
    {
     "index": "G",
-    "name": "Magic Square"
+    "name": "Magic Square",
+    "rating": 3100
    },
    {
     "index": "H",
-    "name": "Asterism Stream"
+    "name": "Asterism Stream",
+    "rating": 3200
    },
    {
     "index": "I",
-    "name": "Future Dominators"
+    "name": "Future Dominators",
+    "rating": 3500
    }
   ]
  },
@@ -431,31 +549,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Gift Carpet"
+    "name": "Gift Carpet",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Sequence Game"
+    "name": "Sequence Game",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Flower City Fence"
+    "name": "Flower City Fence",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Ice Cream Balls"
+    "name": "Ice Cream Balls",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Kolya and Movie Theatre"
+    "name": "Kolya and Movie Theatre",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Magic Will Save the World"
+    "name": "Magic Will Save the World",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "The Great Equalizer"
+    "name": "The Great Equalizer",
+    "rating": 2000
    }
   ]
  },
@@ -466,27 +591,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Not a Substring"
+    "name": "Not a Substring",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Fancy Coins"
+    "name": "Fancy Coins",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Game on Permutation"
+    "name": "Game on Permutation",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Balanced String"
+    "name": "Balanced String",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Fast Travel Text Editor"
+    "name": "Fast Travel Text Editor",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Evaluate RBS"
+    "name": "Evaluate RBS",
+    "rating": 2900
    }
   ]
  },

@@ -1,5 +1,40 @@
 [
  {
+  "id": 1878,
+  "type": "Div3",
+  "name": "Codeforces Round 900 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "How Much Does Daytona Cost?"
+   },
+   {
+    "index": "B",
+    "name": "Aleksa and Stack"
+   },
+   {
+    "index": "C",
+    "name": "Vasilije in Cacak"
+   },
+   {
+    "index": "D",
+    "name": "Reverse Madness"
+   },
+   {
+    "index": "E",
+    "name": "Iva & Pav"
+   },
+   {
+    "index": "F",
+    "name": "Vasilije Loves Number Theory"
+   },
+   {
+    "index": "G",
+    "name": "wxhtzdy ORO Tree"
+   }
+  ]
+ },
+ {
   "id": 1882,
   "type": "Div2",
   "name": "Codeforces Round 899 (Div. 2)",

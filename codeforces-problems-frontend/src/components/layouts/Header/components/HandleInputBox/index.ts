@@ -1,1 +1,1 @@
-export * from "./HandleInputBox"
+export * from "./HandleInputBox";

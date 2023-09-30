@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #161b22;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 56px;
+  width: 100%;
+
+  .site-name {
+    display: flex;
+    color: #f0f6fc;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+    height: 100%;
+    align-items: center;
+  }
+
+  .theme-toggle-button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 20px;
+  }
+}

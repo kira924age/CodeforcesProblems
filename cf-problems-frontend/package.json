@@ -1,6 +1,6 @@
 {
-  "name": "cf-problems-frontend",
-  "version": "0.0.0",
+  "name": "codeforces-problems-frontend",
+  "version": "0.0.1",
   "private": true,
   "main": "index.js",
   "homepage": "./",

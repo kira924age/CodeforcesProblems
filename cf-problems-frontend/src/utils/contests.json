@@ -1,5 +1,75 @@
 [
  {
+  "id": 1876,
+  "type": "Div1",
+  "name": "Codeforces Round 902 (Div. 1, based on COMPFEST 15 - Final Round)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Helmets in Night Light"
+   },
+   {
+    "index": "B",
+    "name": "Effects of Anti Pimples"
+   },
+   {
+    "index": "C",
+    "name": "Autosynthesis"
+   },
+   {
+    "index": "D",
+    "name": "Lexichromatography"
+   },
+   {
+    "index": "E",
+    "name": "Ball-Stackable"
+   },
+   {
+    "index": "F",
+    "name": "Indefinite Clownfish"
+   },
+   {
+    "index": "G",
+    "name": "Clubstep"
+   }
+  ]
+ },
+ {
+  "id": 1877,
+  "type": "Div2",
+  "name": "Codeforces Round 902 (Div. 2, based on COMPFEST 15 - Final Round)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Goals of Victory"
+   },
+   {
+    "index": "B",
+    "name": "Helmets in Night Light"
+   },
+   {
+    "index": "C",
+    "name": "Joyboard"
+   },
+   {
+    "index": "D",
+    "name": "Effects of Anti Pimples"
+   },
+   {
+    "index": "E",
+    "name": "Autosynthesis"
+   },
+   {
+    "index": "F",
+    "name": "Lexichromatography"
+   },
+   {
+    "index": "G",
+    "name": "Ball-Stackable"
+   }
+  ]
+ },
+ {
   "id": 1874,
   "type": "Div1",
   "name": "Codeforces Round 901 (Div. 1)",

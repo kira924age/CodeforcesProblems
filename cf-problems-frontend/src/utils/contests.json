@@ -1,5 +1,36 @@
 [
  {
+  "id": 1886,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 156 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sum of Three"
+   },
+   {
+    "index": "B",
+    "name": "Fear of the Dark"
+   },
+   {
+    "index": "C",
+    "name": "Decreasing String"
+   },
+   {
+    "index": "D",
+    "name": "Monocarp and the Set"
+   },
+   {
+    "index": "E",
+    "name": "I Wanna be the Team Leader"
+   },
+   {
+    "index": "F",
+    "name": "Diamond Theft"
+   }
+  ]
+ },
+ {
   "id": 1876,
   "type": "Div1",
   "name": "Codeforces Round 902 (Div. 1, based on COMPFEST 15 - Final Round)",

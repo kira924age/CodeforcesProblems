@@ -1,5 +1,40 @@
 [
  {
+  "id": 1881,
+  "type": "Div3",
+  "name": "Codeforces Round 903 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Don't Try to Count"
+   },
+   {
+    "index": "B",
+    "name": "Three Threadlets"
+   },
+   {
+    "index": "C",
+    "name": "Perfect Square"
+   },
+   {
+    "index": "D",
+    "name": "Divide and Equalize"
+   },
+   {
+    "index": "E",
+    "name": "Block Sequence"
+   },
+   {
+    "index": "F",
+    "name": "Minimum Maximum Distance"
+   },
+   {
+    "index": "G",
+    "name": "Anya and the Mysterious String"
+   }
+  ]
+ },
+ {
   "id": 1886,
   "type": "Educational",
   "name": "Educational Codeforces Round 156 (Rated for Div. 2)",

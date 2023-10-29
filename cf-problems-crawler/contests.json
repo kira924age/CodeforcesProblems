@@ -1,5 +1,75 @@
 [
  {
+  "id": 1889,
+  "type": "Div1",
+  "name": "Codeforces Round 906 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Qingshan Loves Strings 2"
+   },
+   {
+    "index": "B",
+    "name": "Doremy's Connecting Plan"
+   },
+   {
+    "index": "C1",
+    "name": "Doremy's Drying Plan (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Doremy's Drying Plan (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Game of Stacks"
+   },
+   {
+    "index": "E",
+    "name": "Doremy's Swapping Trees"
+   },
+   {
+    "index": "F",
+    "name": "Doremy's Average Tree"
+   }
+  ]
+ },
+ {
+  "id": 1890,
+  "type": "Div2",
+  "name": "Codeforces Round 906 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Doremy's Paint 3"
+   },
+   {
+    "index": "B",
+    "name": "Qingshan Loves Strings"
+   },
+   {
+    "index": "C",
+    "name": "Qingshan Loves Strings 2"
+   },
+   {
+    "index": "D",
+    "name": "Doremy's Connecting Plan"
+   },
+   {
+    "index": "E1",
+    "name": "Doremy's Drying Plan (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Doremy's Drying Plan (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Game of Stacks"
+   }
+  ]
+ },
+ {
   "id": 1887,
   "type": "Div1",
   "name": "Codeforces Round 905 (Div. 1)",

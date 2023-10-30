@@ -17,7 +17,7 @@ interface ThemeProviderProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 export const ThemeProvider: React.FC<ThemeProviderProps> = (
-  props: ThemeProviderProps
+  props: ThemeProviderProps,
 ) => {
   const [themeId, setThemeId] = useLocalStorage<string>("theme", "light");
 

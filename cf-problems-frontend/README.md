@@ -1,24 +1,20 @@
 # cf-problems-frontend
 
-## Prerequisites
-
-* Yarn
-
 ## Install required packages
 
 ```
-$ yarn
+$ npm ci
 ```
 
 ## Start the web application on your local machine
 
 ```
-$ yarn start
+$ npm run start
 ```
 
 ## Create a production build
 
 ```
-$ yarn build
+$ npm run build
 ```
 

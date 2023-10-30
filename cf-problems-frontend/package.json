@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "./",
   "dependencies": {
-    "@ant-design/icons": "^4.5.0",
+    "@ant-design/icons": "^5.2.6",
     "@nivo/calendar": "^0.67.0",
     "@nivo/core": "^0.67.0",
     "@testing-library/jest-dom": "^5.11.4",
@@ -19,7 +19,7 @@
     "@types/react-helmet": "^6.1.0",
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
-    "antd": "^4.16.6",
+    "antd": "^4.24.14",
     "react": "^17.0.1",
     "react-collapse": "^5.1.0",
     "react-dom": "^17.0.1",

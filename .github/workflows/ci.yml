@@ -21,9 +21,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: install dependency
-        run: yarn
+        run: npm ci
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: build React App
-        run: yarn build
+        run: npm run build
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."

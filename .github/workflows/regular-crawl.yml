@@ -79,10 +79,10 @@ jobs:
           git config user.email action@github.com
           git pull
       - name: install dependency
-        run: yarn
+        run: npm ci
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: build React App
-        run: yarn build
+        run: npm run build
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: git commit
         run: |

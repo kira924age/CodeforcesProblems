@@ -1,40 +1,20 @@
 import React from "react";
-import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import ThemeProvider from "./components/ThemeProvider";
 import TablePage from "./pages/TablePage/index";
 import User from "./pages/UserPage/index";
 
-const App: React.FunctionComponent = () => (
-  <ThemeProvider>
-    <HashRouter>
-      <div className="App">
-        <Switch>
-          <Route
-            path="/table/:userIds([a-zA-Z0-9_.-]*)"
-            render={({ match }): React.ReactElement => {
-              // @ts-ignore
-              const params: { userIds?: string } = match.params;
-              const userId: string = params.userIds ?? "";
-              return <TablePage userId={userId} />;
-            }}
-          />
-          <Route
-            path="/user/:userIds([a-zA-Z0-9_.-]*)"
-            render={({ match }): React.ReactElement => {
-              // @ts-ignore
-              const params: { userIds?: string } = match.params;
-              const userId: string = params.userIds ?? "";
-              return <User userId={userId} />;
-            }}
-          />
+const router = createBrowserRouter([
+  { path: "/", element: <TablePage /> },
+  { path: "/table", element: <TablePage /> },
+  { path: "table/:userId", element: <TablePage /> },
+  { path: "user/:userId", element: <User /> },
+]);
 
-          {/*Default Path*/}
-          <Redirect path="/" to="/table/" />
-        </Switch>
-      </div>
-    </HashRouter>
-  </ThemeProvider>
+const App: React.FunctionComponent = () => (
+  <div className="App">
+    <RouterProvider router={router} />
+  </div>
 );
 
 export default App;

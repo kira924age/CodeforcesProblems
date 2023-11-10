@@ -34,6 +34,11 @@ jobs:
     - name: remove old chromedriver
       run: sudo apt remove chromedriver
 
+    - name: show chrome & driver version
+      run: |
+        google-chrome-stable --version
+        chromedriver --version
+
     - name: install python packages
       run: |
         pip install chromedriver-binary

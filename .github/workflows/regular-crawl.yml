@@ -31,6 +31,9 @@ jobs:
       run: source venv/bin/activate
       working-directory: ${{ github.workspace }}/cf-problems-crawler
 
+    - name: remove old chromedriver
+      run: sudo apt remove chromedriver
+
     - name: install python packages
       run: |
         pip install chromedriver-binary

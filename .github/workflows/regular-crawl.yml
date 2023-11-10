@@ -33,7 +33,7 @@ jobs:
 
     - name: install python packages
       run: |
-        pip install chromedriver-binary==$(google-chrome-stable --version | grep -o "[0-9.]*")
+        pip install chromedriver-binary
         pip install -r requirements.txt
       working-directory: ${{ github.workspace }}/cf-problems-crawler
 

@@ -1,32 +1,144 @@
 [
  {
+  "id": 1893,
+  "type": "Div1",
+  "name": "Codeforces Round 908 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Anonymous Informant",
+    "rating": 1400
+   },
+   {
+    "index": "B",
+    "name": "Neutral Tonality",
+    "rating": 1700
+   },
+   {
+    "index": "C",
+    "name": "Freedom of Choice",
+    "rating": 2000
+   },
+   {
+    "index": "D",
+    "name": "Colorful Constructive",
+    "rating": 2600
+   },
+   {
+    "index": "E",
+    "name": "Cacti Symphony",
+    "rating": 3500
+   }
+  ]
+ },
+ {
+  "id": 1894,
+  "type": "Div2",
+  "name": "Codeforces Round 908 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Secret Sport",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Two Out of Three",
+    "rating": 1000
+   },
+   {
+    "index": "C",
+    "name": "Anonymous Informant",
+    "rating": "1400"
+   },
+   {
+    "index": "D",
+    "name": "Neutral Tonality",
+    "rating": "1700"
+   },
+   {
+    "index": "E",
+    "name": "Freedom of Choice",
+    "rating": "2000"
+   }
+  ]
+ },
+ {
+  "id": 1895,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 157 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Treasure Chest",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Points and Minimum Distance",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Torn Lucky Ticket",
+    "rating": 1400
+   },
+   {
+    "index": "D",
+    "name": "XOR Construction",
+    "rating": 1900
+   },
+   {
+    "index": "E",
+    "name": "Infinite Card Game",
+    "rating": 2300
+   },
+   {
+    "index": "F",
+    "name": "Fancy Arrays",
+    "rating": 2600
+   },
+   {
+    "index": "G",
+    "name": "Two Characters, Two Colors",
+    "rating": 3100
+   }
+  ]
+ },
+ {
   "id": 1891,
   "type": "Div2",
   "name": "Codeforces Round 907 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Sorting with Twos"
+    "name": "Sorting with Twos",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Deja Vu"
+    "name": "Deja Vu",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Smilo and Monsters"
+    "name": "Smilo and Monsters",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Suspicious logarithms"
+    "name": "Suspicious logarithms",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Brukhovich and Exams"
+    "name": "Brukhovich and Exams",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "A Growing Tree"
+    "name": "A Growing Tree",
+    "rating": 2000
    }
   ]
  },
@@ -37,31 +149,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Qingshan Loves Strings 2"
+    "name": "Qingshan Loves Strings 2",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Doremy's Connecting Plan"
+    "name": "Doremy's Connecting Plan",
+    "rating": 1700
    },
    {
     "index": "C1",
-    "name": "Doremy's Drying Plan (Easy Version)"
+    "name": "Doremy's Drying Plan (Easy Version)",
+    "rating": 2000
    },
    {
     "index": "C2",
-    "name": "Doremy's Drying Plan (Hard Version)"
+    "name": "Doremy's Drying Plan (Hard Version)",
+    "rating": 2600
    },
    {
     "index": "D",
-    "name": "Game of Stacks"
+    "name": "Game of Stacks",
+    "rating": 3000
    },
    {
     "index": "E",
-    "name": "Doremy's Swapping Trees"
+    "name": "Doremy's Swapping Trees",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "Doremy's Average Tree"
+    "name": "Doremy's Average Tree",
+    "rating": 3500
    }
   ]
  },
@@ -72,31 +191,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Doremy's Paint 3"
+    "name": "Doremy's Paint 3",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Qingshan Loves Strings"
+    "name": "Qingshan Loves Strings",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Qingshan Loves Strings 2"
+    "name": "Qingshan Loves Strings 2",
+    "rating": "1300"
    },
    {
     "index": "D",
-    "name": "Doremy's Connecting Plan"
+    "name": "Doremy's Connecting Plan",
+    "rating": "1700"
    },
    {
     "index": "E1",
-    "name": "Doremy's Drying Plan (Easy Version)"
+    "name": "Doremy's Drying Plan (Easy Version)",
+    "rating": "2000"
    },
    {
     "index": "E2",
-    "name": "Doremy's Drying Plan (Hard Version)"
+    "name": "Doremy's Drying Plan (Hard Version)",
+    "rating": "2600"
    },
    {
     "index": "F",
-    "name": "Game of Stacks"
+    "name": "Game of Stacks",
+    "rating": "3000"
    }
   ]
  },
@@ -107,31 +233,38 @@
   "problems": [
    {
     "index": "A1",
-    "name": "Dances (Easy version)"
+    "name": "Dances (Easy version)",
+    "rating": "1400"
    },
    {
     "index": "A2",
-    "name": "Dances (Hard Version)"
+    "name": "Dances (Hard Version)",
+    "rating": "1900"
    },
    {
     "index": "B",
-    "name": "Time Travel"
+    "name": "Time Travel",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Minimum Array"
+    "name": "Minimum Array",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Split"
+    "name": "Split",
+    "rating": 2700
    },
    {
     "index": "E",
-    "name": "Good Colorings"
+    "name": "Good Colorings",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Minimum Segments"
+    "name": "Minimum Segments",
+    "rating": 3400
    }
   ]
  },
@@ -142,31 +275,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Chemistry"
+    "name": "Chemistry",
+    "rating": "900"
    },
    {
     "index": "B",
-    "name": "Raspberries"
+    "name": "Raspberries",
+    "rating": "1000"
    },
    {
     "index": "C",
-    "name": "You Are So Beautiful"
+    "name": "You Are So Beautiful",
+    "rating": "1400"
    },
    {
     "index": "D1",
-    "name": "Dances (Easy version)"
+    "name": "Dances (Easy version)",
+    "rating": "1400"
    },
    {
     "index": "D2",
-    "name": "Dances (Hard Version)"
+    "name": "Dances (Hard Version)",
+    "rating": "1900"
    },
    {
     "index": "E",
-    "name": "Time Travel"
+    "name": "Time Travel",
+    "rating": "1900"
    },
    {
     "index": "F",
-    "name": "Minimum Array"
+    "name": "Minimum Array",
+    "rating": "2400"
    }
   ]
  },
@@ -177,35 +317,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Morning"
+    "name": "Morning",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Chemistry"
+    "name": "Chemistry",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Raspberries"
+    "name": "Raspberries",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "In Love"
+    "name": "In Love",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Look Back"
+    "name": "Look Back",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "You Are So Beautiful"
+    "name": "You Are So Beautiful",
+    "rating": 1400
    },
    {
     "index": "G1",
-    "name": "Dances (Easy version)"
+    "name": "Dances (Easy version)",
+    "rating": 1400
    },
    {
     "index": "G2",
-    "name": "Dances (Hard Version)"
+    "name": "Dances (Hard Version)",
+    "rating": 1900
    }
   ]
  },
@@ -216,23 +364,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "Simple Design"
+    "name": "Simple Design",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Haunted House"
+    "name": "Haunted House",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Medium Design"
+    "name": "Medium Design",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Counting Rhyme"
+    "name": "Counting Rhyme",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Hard Design"
+    "name": "Hard Design",
+    "rating": 2800
    }
   ]
  },
@@ -243,31 +396,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Don't Try to Count"
+    "name": "Don't Try to Count",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Three Threadlets"
+    "name": "Three Threadlets",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Perfect Square"
+    "name": "Perfect Square",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Divide and Equalize"
+    "name": "Divide and Equalize",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Block Sequence"
+    "name": "Block Sequence",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Minimum Maximum Distance"
+    "name": "Minimum Maximum Distance",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Anya and the Mysterious String"
+    "name": "Anya and the Mysterious String",
+    "rating": 2000
    }
   ]
  },
@@ -278,27 +438,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sum of Three"
+    "name": "Sum of Three",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Fear of the Dark"
+    "name": "Fear of the Dark",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Decreasing String"
+    "name": "Decreasing String",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Monocarp and the Set"
+    "name": "Monocarp and the Set",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "I Wanna be the Team Leader"
+    "name": "I Wanna be the Team Leader",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Diamond Theft"
+    "name": "Diamond Theft",
+    "rating": 3300
    }
   ]
  },
@@ -309,31 +475,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Helmets in Night Light"
+    "name": "Helmets in Night Light",
+    "rating": 1000
    },
    {
     "index": "B",
-    "name": "Effects of Anti Pimples"
+    "name": "Effects of Anti Pimples",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "Autosynthesis"
+    "name": "Autosynthesis",
+    "rating": 2100
    },
    {
     "index": "D",
-    "name": "Lexichromatography"
+    "name": "Lexichromatography",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Ball-Stackable"
+    "name": "Ball-Stackable",
+    "rating": 3300
    },
    {
     "index": "F",
-    "name": "Indefinite Clownfish"
+    "name": "Indefinite Clownfish",
+    "rating": 3500
    },
    {
     "index": "G",
-    "name": "Clubstep"
+    "name": "Clubstep",
+    "rating": 3500
    }
   ]
  },
@@ -344,31 +517,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Goals of Victory"
+    "name": "Goals of Victory",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Helmets in Night Light"
+    "name": "Helmets in Night Light",
+    "rating": "1000"
    },
    {
     "index": "C",
-    "name": "Joyboard"
+    "name": "Joyboard",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Effects of Anti Pimples"
+    "name": "Effects of Anti Pimples",
+    "rating": "1500"
    },
    {
     "index": "E",
-    "name": "Autosynthesis"
+    "name": "Autosynthesis",
+    "rating": "2100"
    },
    {
     "index": "F",
-    "name": "Lexichromatography"
+    "name": "Lexichromatography",
+    "rating": "2500"
    },
    {
     "index": "G",
-    "name": "Ball-Stackable"
+    "name": "Ball-Stackable",
+    "rating": "3300"
    }
   ]
  },
@@ -379,31 +559,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Jellyfish and Game"
+    "name": "Jellyfish and Game",
+    "rating": 1200
    },
    {
     "index": "B",
-    "name": "Jellyfish and Math"
+    "name": "Jellyfish and Math",
+    "rating": 2400
    },
    {
     "index": "C",
-    "name": "Jellyfish and EVA"
+    "name": "Jellyfish and EVA",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Jellyfish and Miku"
+    "name": "Jellyfish and Miku",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Jellyfish and Hack"
+    "name": "Jellyfish and Hack",
+    "rating": 3000
    },
    {
     "index": "F",
-    "name": "Jellyfish and OEIS"
+    "name": "Jellyfish and OEIS",
+    "rating": 3500
    },
    {
     "index": "G",
-    "name": "Jellyfish and Inscryption"
+    "name": "Jellyfish and Inscryption",
+    "rating": 3500
    }
   ]
  },
@@ -414,31 +601,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Jellyfish and Undertale"
+    "name": "Jellyfish and Undertale",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Jellyfish and Game"
+    "name": "Jellyfish and Game",
+    "rating": "1200"
    },
    {
     "index": "C",
-    "name": "Jellyfish and Green Apple"
+    "name": "Jellyfish and Green Apple",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Jellyfish and Mex"
+    "name": "Jellyfish and Mex",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Jellyfish and Math"
+    "name": "Jellyfish and Math",
+    "rating": "2400"
    },
    {
     "index": "F",
-    "name": "Jellyfish and EVA"
+    "name": "Jellyfish and EVA",
+    "rating": "2300"
    },
    {
     "index": "G",
-    "name": "Jellyfish and Miku"
+    "name": "Jellyfish and Miku",
+    "rating": "2800"
    }
   ]
  },
@@ -449,31 +643,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "How Much Does Daytona Cost?"
+    "name": "How Much Does Daytona Cost?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Aleksa and Stack"
+    "name": "Aleksa and Stack",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Vasilije in Cacak"
+    "name": "Vasilije in Cacak",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "Reverse Madness"
+    "name": "Reverse Madness",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Iva & Pav"
+    "name": "Iva & Pav",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Vasilije Loves Number Theory"
+    "name": "Vasilije Loves Number Theory",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "wxhtzdy ORO Tree"
+    "name": "wxhtzdy ORO Tree",
+    "rating": 2300
    }
   ]
  },
@@ -484,27 +685,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Increasing Sequence"
+    "name": "Increasing Sequence",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Sets and Union"
+    "name": "Sets and Union",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Card Game"
+    "name": "Card Game",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Tree XOR"
+    "name": "Tree XOR",
+    "rating": 1900
    },
    {
     "index": "E1",
-    "name": "Two Permutations (Easy Version)"
+    "name": "Two Permutations (Easy Version)",
+    "rating": 2400
    },
    {
     "index": "E2",
-    "name": "Two Permutations (Hard Version)"
+    "name": "Two Permutations (Hard Version)",
+    "rating": 3100
    }
   ]
  },

@@ -31,18 +31,8 @@ jobs:
       run: source venv/bin/activate
       working-directory: ${{ github.workspace }}/cf-problems-crawler
 
-    - name: remove old chromedriver
-      run: sudo apt remove chromedriver
-
-    - name: show chrome & driver version
-      run: |
-        google-chrome-stable --version
-        chromedriver --version
-
     - name: install python packages
-      run: |
-        pip install chromedriver-binary
-        pip install -r requirements.txt
+      run: pip install -r requirements.txt
       working-directory: ${{ github.workspace }}/cf-problems-crawler
 
     - name: run script

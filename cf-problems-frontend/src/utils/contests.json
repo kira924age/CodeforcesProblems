@@ -1,5 +1,40 @@
 [
  {
+  "id": 1899,
+  "type": "Div3",
+  "name": "Codeforces Round 909 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Game with Integers"
+   },
+   {
+    "index": "B",
+    "name": "250 Thousand Tons of TNT"
+   },
+   {
+    "index": "C",
+    "name": "Yarik and Array"
+   },
+   {
+    "index": "D",
+    "name": "Yarik and Musical Notes"
+   },
+   {
+    "index": "E",
+    "name": "Queue Sort"
+   },
+   {
+    "index": "F",
+    "name": "Alex's whims"
+   },
+   {
+    "index": "G",
+    "name": "Unusual Entertainment"
+   }
+  ]
+ },
+ {
   "id": 1893,
   "type": "Div1",
   "name": "Codeforces Round 908 (Div. 1)",

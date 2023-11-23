@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Milica and String"
+    "name": "Milica and String",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Milena and Admirer"
+    "name": "Milena and Admirer",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "Colorful Grid"
+    "name": "Colorful Grid",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Absolute Beauty"
+    "name": "Absolute Beauty",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Sofia and Strings"
+    "name": "Sofia and Strings",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Vova Escapes the Matrix"
+    "name": "Vova Escapes the Matrix",
+    "rating": 2600
    }
   ]
  },
@@ -37,31 +43,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Game with Integers"
+    "name": "Game with Integers",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "250 Thousand Tons of TNT"
+    "name": "250 Thousand Tons of TNT",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Yarik and Array"
+    "name": "Yarik and Array",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Yarik and Musical Notes"
+    "name": "Yarik and Musical Notes",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Queue Sort"
+    "name": "Queue Sort",
+    "rating": 1300
    },
    {
     "index": "F",
-    "name": "Alex's whims"
+    "name": "Alex's whims",
+    "rating": 1600
    },
    {
     "index": "G",
-    "name": "Unusual Entertainment"
+    "name": "Unusual Entertainment",
+    "rating": 1900
    }
   ]
  },

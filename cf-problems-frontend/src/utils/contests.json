@@ -1,5 +1,36 @@
 [
  {
+  "id": 1901,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 158 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Line Trip"
+   },
+   {
+    "index": "B",
+    "name": "Chip and Ribbon"
+   },
+   {
+    "index": "C",
+    "name": "Add, Divide and Floor"
+   },
+   {
+    "index": "D",
+    "name": "Yet Another Monster Fight"
+   },
+   {
+    "index": "E",
+    "name": "Compressed Tree"
+   },
+   {
+    "index": "F",
+    "name": "Landscaping"
+   }
+  ]
+ },
+ {
   "id": 1898,
   "type": "Div2",
   "name": "Codeforces Round 910 (Div. 2)",

@@ -1,32 +1,81 @@
 [
  {
+  "id": 1896,
+  "type": "Div1 + Div2",
+  "name": "CodeTON Round 7 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Jagged Swaps"
+   },
+   {
+    "index": "B",
+    "name": "AB Flipping"
+   },
+   {
+    "index": "C",
+    "name": "Matching Arrays"
+   },
+   {
+    "index": "D",
+    "name": "Ones and Twos"
+   },
+   {
+    "index": "E",
+    "name": "Permutation Sorting"
+   },
+   {
+    "index": "F",
+    "name": "Bracket Xoring"
+   },
+   {
+    "index": "G",
+    "name": "Pepe Racing"
+   },
+   {
+    "index": "H1",
+    "name": "Cyclic Hamming (Easy Version)"
+   },
+   {
+    "index": "H2",
+    "name": "Cyclic Hamming (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1901,
   "type": "Educational",
   "name": "Educational Codeforces Round 158 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Line Trip"
+    "name": "Line Trip",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Chip and Ribbon"
+    "name": "Chip and Ribbon",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Add, Divide and Floor"
+    "name": "Add, Divide and Floor",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Yet Another Monster Fight"
+    "name": "Yet Another Monster Fight",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Compressed Tree"
+    "name": "Compressed Tree",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Landscaping"
+    "name": "Landscaping",
+    "rating": 2900
    }
   ]
  },

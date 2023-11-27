@@ -1,5 +1,36 @@
 [
  {
+  "id": 1900,
+  "type": "Div2",
+  "name": "Codeforces Round 911 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cover in Water"
+   },
+   {
+    "index": "B",
+    "name": "Laura and Operations"
+   },
+   {
+    "index": "C",
+    "name": "Anji's Binary Tree"
+   },
+   {
+    "index": "D",
+    "name": "Small GCD"
+   },
+   {
+    "index": "E",
+    "name": "Transitive Graph"
+   },
+   {
+    "index": "F",
+    "name": "Local Deletions"
+   }
+  ]
+ },
+ {
   "id": 1896,
   "type": "Div1 + Div2",
   "name": "CodeTON Round 7 (Div. 1 + Div. 2, Rated, Prizes!)",

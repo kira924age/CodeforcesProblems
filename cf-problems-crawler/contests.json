@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Cover in Water"
+    "name": "Cover in Water",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Laura and Operations"
+    "name": "Laura and Operations",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Anji's Binary Tree"
+    "name": "Anji's Binary Tree",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Small GCD"
+    "name": "Small GCD",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Transitive Graph"
+    "name": "Transitive Graph",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Local Deletions"
+    "name": "Local Deletions",
+    "rating": 2800
    }
   ]
  },
@@ -37,39 +43,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Jagged Swaps"
+    "name": "Jagged Swaps",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "AB Flipping"
+    "name": "AB Flipping",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Matching Arrays"
+    "name": "Matching Arrays",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Ones and Twos"
+    "name": "Ones and Twos",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Permutation Sorting"
+    "name": "Permutation Sorting",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Bracket Xoring"
+    "name": "Bracket Xoring",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Pepe Racing"
+    "name": "Pepe Racing",
+    "rating": 3200
    },
    {
     "index": "H1",
-    "name": "Cyclic Hamming (Easy Version)"
+    "name": "Cyclic Hamming (Easy Version)",
+    "rating": 3400
    },
    {
     "index": "H2",
-    "name": "Cyclic Hamming (Hard Version)"
+    "name": "Cyclic Hamming (Hard Version)",
+    "rating": 3500
    }
   ]
  },

@@ -1,5 +1,40 @@
 [
  {
+  "id": 1903,
+  "type": "Div2",
+  "name": "Codeforces Round 912 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Halloumi Boxes"
+   },
+   {
+    "index": "B",
+    "name": "StORage room"
+   },
+   {
+    "index": "C",
+    "name": "Theofanis' Nightmare"
+   },
+   {
+    "index": "D1",
+    "name": "Maximum And Queries (easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Maximum And Queries (hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Geo Game"
+   },
+   {
+    "index": "F",
+    "name": "Babysitting"
+   }
+  ]
+ },
+ {
   "id": 1900,
   "type": "Div2",
   "name": "Codeforces Round 911 (Div. 2)",

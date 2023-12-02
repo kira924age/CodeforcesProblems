@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Halloumi Boxes"
+    "name": "Halloumi Boxes",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "StORage room"
+    "name": "StORage room",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Theofanis' Nightmare"
+    "name": "Theofanis' Nightmare",
+    "rating": 1400
    },
    {
     "index": "D1",
-    "name": "Maximum And Queries (easy version)"
+    "name": "Maximum And Queries (easy version)",
+    "rating": 1700
    },
    {
     "index": "D2",
-    "name": "Maximum And Queries (hard version)"
+    "name": "Maximum And Queries (hard version)",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Geo Game"
+    "name": "Geo Game",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Babysitting"
+    "name": "Babysitting",
+    "rating": 2500
    }
   ]
  },

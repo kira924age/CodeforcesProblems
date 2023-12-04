@@ -1,5 +1,95 @@
 [
  {
+  "id": 1902,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 159 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Binary Imbalance"
+   },
+   {
+    "index": "B",
+    "name": "Getting Points"
+   },
+   {
+    "index": "C",
+    "name": "Insert and Equalize"
+   },
+   {
+    "index": "D",
+    "name": "Robot Queries"
+   },
+   {
+    "index": "E",
+    "name": "Collapsing Strings"
+   },
+   {
+    "index": "F",
+    "name": "Trees and XOR Queries Again"
+   }
+  ]
+ },
+ {
+  "id": 1906,
+  "type": "ICPC",
+  "name": "2023-2024 ICPC, Asia Jakarta Regional Contest (Online Mirror, Unrated, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Easy As ABC"
+   },
+   {
+    "index": "B",
+    "name": "Button Pressing"
+   },
+   {
+    "index": "C",
+    "name": "Cursed Game"
+   },
+   {
+    "index": "D",
+    "name": "Spaceship Exploration"
+   },
+   {
+    "index": "E",
+    "name": "Merge Not Sort"
+   },
+   {
+    "index": "F",
+    "name": "Maximize The Value"
+   },
+   {
+    "index": "G",
+    "name": "Grid Game 2"
+   },
+   {
+    "index": "H",
+    "name": "Twin Friends"
+   },
+   {
+    "index": "I",
+    "name": "Contingency Plan 2"
+   },
+   {
+    "index": "J",
+    "name": "Count BFS Graph"
+   },
+   {
+    "index": "K",
+    "name": "Deck-Building Game"
+   },
+   {
+    "index": "L",
+    "name": "Palindromic Parentheses"
+   },
+   {
+    "index": "M",
+    "name": "Triangle Construction"
+   }
+  ]
+ },
+ {
   "id": 1903,
   "type": "Div2",
   "name": "Codeforces Round 912 (Div. 2)",

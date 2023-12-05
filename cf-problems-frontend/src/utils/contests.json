@@ -1,5 +1,16 @@
 [
  {
+  "id": 1885,
+  "type": "ICPC",
+  "name": "ICPC 2023 Online Challenge powered by Huawei",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Deterministic Scheduling for Extended Reality over 5G and Beyond"
+   }
+  ]
+ },
+ {
   "id": 1902,
   "type": "Educational",
   "name": "Educational Codeforces Round 159 (Rated for Div. 2)",

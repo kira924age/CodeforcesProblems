@@ -70,7 +70,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
   let contestTable = makeContestTable(
     problemData,
     props.isShowDifficulty,
-    submissions
+    submissions,
   );
 
   const columns = makeContestColumns(props.name);

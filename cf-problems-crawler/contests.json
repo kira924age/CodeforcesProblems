@@ -1,5 +1,40 @@
 [
  {
+  "id": 1907,
+  "type": "Div3",
+  "name": "Codeforces Round 913 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Rook"
+   },
+   {
+    "index": "B",
+    "name": "YetnotherrokenKeoard"
+   },
+   {
+    "index": "C",
+    "name": "Removal of Unattractive Pairs"
+   },
+   {
+    "index": "D",
+    "name": "Jumping Through Segments"
+   },
+   {
+    "index": "E",
+    "name": "Good Triples"
+   },
+   {
+    "index": "F",
+    "name": "Shift and Reverse"
+   },
+   {
+    "index": "G",
+    "name": "Lights"
+   }
+  ]
+ },
+ {
   "id": 1885,
   "type": "ICPC",
   "name": "ICPC 2023 Online Challenge powered by Huawei",

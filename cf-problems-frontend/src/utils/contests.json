@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Rook"
+    "name": "Rook",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "YetnotherrokenKeoard"
+    "name": "YetnotherrokenKeoard",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Removal of Unattractive Pairs"
+    "name": "Removal of Unattractive Pairs",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Jumping Through Segments"
+    "name": "Jumping Through Segments",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Good Triples"
+    "name": "Good Triples",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Shift and Reverse"
+    "name": "Shift and Reverse",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Lights"
+    "name": "Lights",
+    "rating": 2200
    }
   ]
  },
@@ -52,27 +59,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Binary Imbalance"
+    "name": "Binary Imbalance",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Getting Points"
+    "name": "Getting Points",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Insert and Equalize"
+    "name": "Insert and Equalize",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Robot Queries"
+    "name": "Robot Queries",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Collapsing Strings"
+    "name": "Collapsing Strings",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Trees and XOR Queries Again"
+    "name": "Trees and XOR Queries Again",
+    "rating": 2400
    }
   ]
  },
@@ -83,55 +96,68 @@
   "problems": [
    {
     "index": "A",
-    "name": "Easy As ABC"
+    "name": "Easy As ABC",
+    "rating": 1000
    },
    {
     "index": "B",
-    "name": "Button Pressing"
+    "name": "Button Pressing",
+    "rating": 2600
    },
    {
     "index": "C",
-    "name": "Cursed Game"
+    "name": "Cursed Game",
+    "rating": 3000
    },
    {
     "index": "D",
-    "name": "Spaceship Exploration"
+    "name": "Spaceship Exploration",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Merge Not Sort"
+    "name": "Merge Not Sort",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Maximize The Value"
+    "name": "Maximize The Value",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Grid Game 2"
+    "name": "Grid Game 2",
+    "rating": 2900
    },
    {
     "index": "H",
-    "name": "Twin Friends"
+    "name": "Twin Friends",
+    "rating": 2200
    },
    {
     "index": "I",
-    "name": "Contingency Plan 2"
+    "name": "Contingency Plan 2",
+    "rating": 2900
    },
    {
     "index": "J",
-    "name": "Count BFS Graph"
+    "name": "Count BFS Graph",
+    "rating": 2100
    },
    {
     "index": "K",
-    "name": "Deck-Building Game"
+    "name": "Deck-Building Game",
+    "rating": 2500
    },
    {
     "index": "L",
-    "name": "Palindromic Parentheses"
+    "name": "Palindromic Parentheses",
+    "rating": 2500
    },
    {
     "index": "M",
-    "name": "Triangle Construction"
+    "name": "Triangle Construction",
+    "rating": 1700
    }
   ]
  },

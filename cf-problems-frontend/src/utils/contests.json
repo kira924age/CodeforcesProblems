@@ -1,5 +1,40 @@
 [
  {
+  "id": 1904,
+  "type": "Div2",
+  "name": "Codeforces Round 914 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Forked!"
+   },
+   {
+    "index": "B",
+    "name": "Collecting Game"
+   },
+   {
+    "index": "C",
+    "name": "Array Game"
+   },
+   {
+    "index": "D1",
+    "name": "Set To Max (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Set To Max (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Tree Queries"
+   },
+   {
+    "index": "F",
+    "name": "Beautiful Tree"
+   }
+  ]
+ },
+ {
   "id": 1907,
   "type": "Div3",
   "name": "Codeforces Round 913 (Div. 3)",

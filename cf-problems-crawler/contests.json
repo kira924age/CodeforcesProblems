@@ -1,5 +1,91 @@
 [
  {
+  "id": 1910,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Episode 9 (Unrated, T-Shirts + Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Username"
+   },
+   {
+    "index": "B",
+    "name": "Security Guard"
+   },
+   {
+    "index": "C",
+    "name": "Poisonous Swamp"
+   },
+   {
+    "index": "D",
+    "name": "Remove and Add"
+   },
+   {
+    "index": "E",
+    "name": "Maximum Sum Subarrays"
+   },
+   {
+    "index": "F",
+    "name": "Build Railway Stations"
+   },
+   {
+    "index": "G",
+    "name": "Pool Records"
+   },
+   {
+    "index": "H",
+    "name": "Sum of Digits of Sums"
+   },
+   {
+    "index": "I",
+    "name": "Inverse Problem"
+   },
+   {
+    "index": "J",
+    "name": "Two Colors"
+   }
+  ]
+ },
+ {
+  "id": 1911,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Practice 9 (release 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Spy Detected!"
+   },
+   {
+    "index": "B",
+    "name": "Repeating Cipher"
+   },
+   {
+    "index": "C",
+    "name": "Teams Forming"
+   },
+   {
+    "index": "D",
+    "name": "Two Shuffled Sequences"
+   },
+   {
+    "index": "E",
+    "name": "Powers Of Two"
+   },
+   {
+    "index": "F",
+    "name": "Boxers"
+   },
+   {
+    "index": "G",
+    "name": "Median String"
+   },
+   {
+    "index": "H",
+    "name": "Two Merged Sequences"
+   }
+  ]
+ },
+ {
   "id": 1904,
   "type": "Div2",
   "name": "Codeforces Round 914 (Div. 2)",

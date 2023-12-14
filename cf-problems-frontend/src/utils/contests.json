@@ -1,48 +1,125 @@
 [
  {
+  "id": 1912,
+  "type": "ICPC",
+  "name": "2023-2024 ICPC, NERC, Northern Eurasia Onsite (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Accumulator Apex",
+    "rating": 1800
+   },
+   {
+    "index": "B",
+    "name": "Blueprint for Seating",
+    "rating": 2000
+   },
+   {
+    "index": "C",
+    "name": "Cactus Transformation",
+    "rating": 3300
+   },
+   {
+    "index": "D",
+    "name": "Divisibility Test",
+    "rating": 1900
+   },
+   {
+    "index": "E",
+    "name": "Evaluate It and Back Again",
+    "rating": 2200
+   },
+   {
+    "index": "F",
+    "name": "Fugitive Frenzy",
+    "rating": 3100
+   },
+   {
+    "index": "G",
+    "name": "Great City Saint Petersburg",
+    "rating": 2400
+   },
+   {
+    "index": "H",
+    "name": "Hypercatapult Commute",
+    "rating": 2400
+   },
+   {
+    "index": "I",
+    "name": "Innovative Washing Machine",
+    "rating": 3300
+   },
+   {
+    "index": "J",
+    "name": "Joy of Pok\u00e9mon Observation",
+    "rating": 2300
+   },
+   {
+    "index": "K",
+    "name": "Kim's Quest",
+    "rating": 1800
+   },
+   {
+    "index": "L",
+    "name": "LOL Lovers",
+    "rating": 800
+   }
+  ]
+ },
+ {
   "id": 1910,
   "type": "Kotlin",
   "name": "Kotlin Heroes: Episode 9 (Unrated, T-Shirts + Prizes!)",
   "problems": [
    {
     "index": "A",
-    "name": "Username"
+    "name": "Username",
+    "rating": 1100
    },
    {
     "index": "B",
-    "name": "Security Guard"
+    "name": "Security Guard",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Poisonous Swamp"
+    "name": "Poisonous Swamp",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Remove and Add"
+    "name": "Remove and Add",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Maximum Sum Subarrays"
+    "name": "Maximum Sum Subarrays",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Build Railway Stations"
+    "name": "Build Railway Stations",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Pool Records"
+    "name": "Pool Records",
+    "rating": 2700
    },
    {
     "index": "H",
-    "name": "Sum of Digits of Sums"
+    "name": "Sum of Digits of Sums",
+    "rating": 2400
    },
    {
     "index": "I",
-    "name": "Inverse Problem"
+    "name": "Inverse Problem",
+    "rating": 2700
    },
    {
     "index": "J",
-    "name": "Two Colors"
+    "name": "Two Colors",
+    "rating": 2900
    }
   ]
  },

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1905,
+  "type": "Div2",
+  "name": "Codeforces Round 915 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Constructive Problems"
+   },
+   {
+    "index": "B",
+    "name": "Begginer's Zelda"
+   },
+   {
+    "index": "C",
+    "name": "Largest Subsequence"
+   },
+   {
+    "index": "D",
+    "name": "Cyclic MEX"
+   },
+   {
+    "index": "E",
+    "name": "One-X"
+   },
+   {
+    "index": "F",
+    "name": "Field Should Not Be Empty"
+   }
+  ]
+ },
+ {
   "id": 1912,
   "type": "ICPC",
   "name": "2023-2024 ICPC, NERC, Northern Eurasia Onsite (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",

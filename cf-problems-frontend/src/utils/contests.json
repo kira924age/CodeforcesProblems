@@ -1,5 +1,36 @@
 [
  {
+  "id": 1913,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 160 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Rating Increase"
+   },
+   {
+    "index": "B",
+    "name": "Swap and Delete"
+   },
+   {
+    "index": "C",
+    "name": "Game with Multiset"
+   },
+   {
+    "index": "D",
+    "name": "Array Collapse"
+   },
+   {
+    "index": "E",
+    "name": "Matrix Problem"
+   },
+   {
+    "index": "F",
+    "name": "Palindromic Problem"
+   }
+  ]
+ },
+ {
   "id": 1905,
   "type": "Div2",
   "name": "Codeforces Round 915 (Div. 2)",

@@ -1,5 +1,48 @@
 [
  {
+  "id": 1914,
+  "type": "Div3",
+  "name": "Codeforces Round 916 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Problemsolving Log"
+   },
+   {
+    "index": "B",
+    "name": "Preparing for the Contest"
+   },
+   {
+    "index": "C",
+    "name": "Quests"
+   },
+   {
+    "index": "D",
+    "name": "Three Activities"
+   },
+   {
+    "index": "E1",
+    "name": "Game with Marbles (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Game with Marbles (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Programming Competition"
+   },
+   {
+    "index": "G1",
+    "name": "Light Bulbs (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Light Bulbs (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1913,
   "type": "Educational",
   "name": "Educational Codeforces Round 160 (Rated for Div. 2)",

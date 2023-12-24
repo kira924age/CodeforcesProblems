@@ -1,5 +1,52 @@
 [
  {
+  "id": 1909,
+  "type": "Div1 + Div2",
+  "name": "Pinely Round 3 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Distinct Buttons"
+   },
+   {
+    "index": "B",
+    "name": "Make Almost Equal With Mod"
+   },
+   {
+    "index": "C",
+    "name": "Heavy Intervals"
+   },
+   {
+    "index": "D",
+    "name": "Split Plus K"
+   },
+   {
+    "index": "E",
+    "name": "Multiple Lamps"
+   },
+   {
+    "index": "F1",
+    "name": "Small Permutation Problem (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Small Permutation Problem (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Pumping Lemma"
+   },
+   {
+    "index": "H",
+    "name": "Parallel Swaps Sort"
+   },
+   {
+    "index": "I",
+    "name": "Short Permutation Problem"
+   }
+  ]
+ },
+ {
   "id": 1914,
   "type": "Div3",
   "name": "Codeforces Round 916 (Div. 3)",

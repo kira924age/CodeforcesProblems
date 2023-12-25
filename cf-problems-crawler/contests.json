@@ -1,5 +1,36 @@
 [
  {
+  "id": 1917,
+  "type": "Div2",
+  "name": "Codeforces Round 917 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Least Product"
+   },
+   {
+    "index": "B",
+    "name": "Erase First or Second Letter"
+   },
+   {
+    "index": "C",
+    "name": "Watering an Array"
+   },
+   {
+    "index": "D",
+    "name": "Yet Another Inversions Problem"
+   },
+   {
+    "index": "E",
+    "name": "Construct Matrix"
+   },
+   {
+    "index": "F",
+    "name": "Construct Tree"
+   }
+  ]
+ },
+ {
   "id": 1909,
   "type": "Div1 + Div2",
   "name": "Pinely Round 3 (Div. 1 + Div. 2)",

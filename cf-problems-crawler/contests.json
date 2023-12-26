@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Least Product"
+    "name": "Least Product",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Erase First or Second Letter"
+    "name": "Erase First or Second Letter",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Watering an Array"
+    "name": "Watering an Array",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Yet Another Inversions Problem"
+    "name": "Yet Another Inversions Problem",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Construct Matrix"
+    "name": "Construct Matrix",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Construct Tree"
+    "name": "Construct Tree",
+    "rating": 2500
    }
   ]
  },
@@ -37,43 +43,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Distinct Buttons"
+    "name": "Distinct Buttons",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Make Almost Equal With Mod"
+    "name": "Make Almost Equal With Mod",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Heavy Intervals"
+    "name": "Heavy Intervals",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Split Plus K"
+    "name": "Split Plus K",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Multiple Lamps"
+    "name": "Multiple Lamps",
+    "rating": 2400
    },
    {
     "index": "F1",
-    "name": "Small Permutation Problem (Easy Version)"
+    "name": "Small Permutation Problem (Easy Version)",
+    "rating": 2200
    },
    {
     "index": "F2",
-    "name": "Small Permutation Problem (Hard Version)"
+    "name": "Small Permutation Problem (Hard Version)",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Pumping Lemma"
+    "name": "Pumping Lemma",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Parallel Swaps Sort"
+    "name": "Parallel Swaps Sort",
+    "rating": 3500
    },
    {
     "index": "I",
-    "name": "Short Permutation Problem"
+    "name": "Short Permutation Problem",
+    "rating": 3500
    }
   ]
  },
@@ -84,39 +100,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Problemsolving Log"
+    "name": "Problemsolving Log",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Preparing for the Contest"
+    "name": "Preparing for the Contest",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Quests"
+    "name": "Quests",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Three Activities"
+    "name": "Three Activities",
+    "rating": 1200
    },
    {
     "index": "E1",
-    "name": "Game with Marbles (Easy Version)"
+    "name": "Game with Marbles (Easy Version)",
+    "rating": 1400
    },
    {
     "index": "E2",
-    "name": "Game with Marbles (Hard Version)"
+    "name": "Game with Marbles (Hard Version)",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Programming Competition"
+    "name": "Programming Competition",
+    "rating": 1900
    },
    {
     "index": "G1",
-    "name": "Light Bulbs (Easy Version)"
+    "name": "Light Bulbs (Easy Version)",
+    "rating": 2100
    },
    {
     "index": "G2",
-    "name": "Light Bulbs (Hard Version)"
+    "name": "Light Bulbs (Hard Version)",
+    "rating": 2300
    }
   ]
  },
@@ -127,27 +152,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Rating Increase"
+    "name": "Rating Increase",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Swap and Delete"
+    "name": "Swap and Delete",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Game with Multiset"
+    "name": "Game with Multiset",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Array Collapse"
+    "name": "Array Collapse",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Matrix Problem"
+    "name": "Matrix Problem",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Palindromic Problem"
+    "name": "Palindromic Problem",
+    "rating": 2800
    }
   ]
  },
@@ -158,27 +189,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Constructive Problems"
+    "name": "Constructive Problems",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Begginer's Zelda"
+    "name": "Begginer's Zelda",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Largest Subsequence"
+    "name": "Largest Subsequence",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Cyclic MEX"
+    "name": "Cyclic MEX",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "One-X"
+    "name": "One-X",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Field Should Not Be Empty"
+    "name": "Field Should Not Be Empty",
+    "rating": 2600
    }
   ]
  },
@@ -352,31 +389,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Forked!"
+    "name": "Forked!",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Collecting Game"
+    "name": "Collecting Game",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Array Game"
+    "name": "Array Game",
+    "rating": 1400
    },
    {
     "index": "D1",
-    "name": "Set To Max (Easy Version)"
+    "name": "Set To Max (Easy Version)",
+    "rating": 1600
    },
    {
     "index": "D2",
-    "name": "Set To Max (Hard Version)"
+    "name": "Set To Max (Hard Version)",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Tree Queries"
+    "name": "Tree Queries",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Beautiful Tree"
+    "name": "Beautiful Tree",
+    "rating": 2800
    }
   ]
  },

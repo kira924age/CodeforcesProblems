@@ -1,5 +1,48 @@
 [
  {
+  "id": 1916,
+  "type": "Other",
+  "name": "Good Bye 2023",
+  "problems": [
+   {
+    "index": "A",
+    "name": "2023"
+   },
+   {
+    "index": "B",
+    "name": "Two Divisors"
+   },
+   {
+    "index": "C",
+    "name": "Training Before the Olympiad"
+   },
+   {
+    "index": "D",
+    "name": "Mathematical Problem"
+   },
+   {
+    "index": "E",
+    "name": "Happy Life in University"
+   },
+   {
+    "index": "F",
+    "name": "Group Division"
+   },
+   {
+    "index": "G",
+    "name": "Optimizations From Chelsu"
+   },
+   {
+    "index": "H1",
+    "name": "Matrix Rank (Easy Version)"
+   },
+   {
+    "index": "H2",
+    "name": "Matrix Rank (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1915,
   "type": "Div4",
   "name": "Codeforces Round 918 (Div. 4)",

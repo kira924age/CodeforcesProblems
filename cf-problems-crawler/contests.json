@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "2023"
+    "name": "2023",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Two Divisors"
+    "name": "Two Divisors",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Training Before the Olympiad"
+    "name": "Training Before the Olympiad",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Mathematical Problem"
+    "name": "Mathematical Problem",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Happy Life in University"
+    "name": "Happy Life in University",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Group Division"
+    "name": "Group Division",
+    "rating": 2900
    },
    {
     "index": "G",
-    "name": "Optimizations From Chelsu"
+    "name": "Optimizations From Chelsu",
+    "rating": 3500
    },
    {
     "index": "H1",
-    "name": "Matrix Rank (Easy Version)"
+    "name": "Matrix Rank (Easy Version)",
+    "rating": 2700
    },
    {
     "index": "H2",
-    "name": "Matrix Rank (Hard Version)"
+    "name": "Matrix Rank (Hard Version)",
+    "rating": 2700
    }
   ]
  },

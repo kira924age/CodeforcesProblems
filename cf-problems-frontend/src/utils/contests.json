@@ -58,31 +58,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Odd One Out"
+    "name": "Odd One Out",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Not Quite Latin Square"
+    "name": "Not Quite Latin Square",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Can I Square?"
+    "name": "Can I Square?",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Unnatural Language Processing"
+    "name": "Unnatural Language Processing",
+    "rating": 900
    },
    {
     "index": "E",
-    "name": "Romantic Glasses"
+    "name": "Romantic Glasses",
+    "rating": 1300
    },
    {
     "index": "F",
-    "name": "Greetings"
+    "name": "Greetings",
+    "rating": 1500
    },
    {
     "index": "G",
-    "name": "Bicycles"
+    "name": "Bicycles",
+    "rating": 1800
    }
   ]
  },

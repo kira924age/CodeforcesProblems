@@ -1,5 +1,57 @@
 [
  {
+  "id": 1919,
+  "type": "Other",
+  "name": "Hello 2024",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Wallet Exchange",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Plus-Minus Split",
+    "rating": 800
+   },
+   {
+    "index": "C",
+    "name": "Grouping Increases",
+    "rating": 1400
+   },
+   {
+    "index": "D",
+    "name": "01 Tree",
+    "rating": 2100
+   },
+   {
+    "index": "E",
+    "name": "Counting Prefixes",
+    "rating": 2600
+   },
+   {
+    "index": "F1",
+    "name": "Wine Factory (Easy Version)",
+    "rating": 2300
+   },
+   {
+    "index": "F2",
+    "name": "Wine Factory (Hard Version)",
+    "rating": 2800
+   },
+   {
+    "index": "G",
+    "name": "Tree LGM",
+    "rating": 3500
+   },
+   {
+    "index": "H",
+    "name": "Tree Diameter",
+    "rating": 3500
+   }
+  ]
+ },
+ {
   "id": 1916,
   "type": "Other",
   "name": "Good Bye 2023",

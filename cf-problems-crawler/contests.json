@@ -1,5 +1,40 @@
 [
  {
+  "id": 1920,
+  "type": "Div2",
+  "name": "Codeforces Round 919 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Satisfying Constraints"
+   },
+   {
+    "index": "B",
+    "name": "Summation Game"
+   },
+   {
+    "index": "C",
+    "name": "Partitioning the Array"
+   },
+   {
+    "index": "D",
+    "name": "Array Repetition"
+   },
+   {
+    "index": "E",
+    "name": "Counting Binary Strings"
+   },
+   {
+    "index": "F1",
+    "name": "Smooth Sailing (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Smooth Sailing (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1919,
   "type": "Other",
   "name": "Hello 2024",

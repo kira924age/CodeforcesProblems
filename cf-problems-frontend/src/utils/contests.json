@@ -1,36 +1,78 @@
 [
  {
+  "id": 1921,
+  "type": "Div3",
+  "name": "Codeforces Round 920 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Square"
+   },
+   {
+    "index": "B",
+    "name": "Arranging Cats"
+   },
+   {
+    "index": "C",
+    "name": "Sending Messages"
+   },
+   {
+    "index": "D",
+    "name": "Very Different Array"
+   },
+   {
+    "index": "E",
+    "name": "Eat the Chip"
+   },
+   {
+    "index": "F",
+    "name": "Sum of Progression"
+   },
+   {
+    "index": "G",
+    "name": "Mischievous Shooter"
+   }
+  ]
+ },
+ {
   "id": 1920,
   "type": "Div2",
   "name": "Codeforces Round 919 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Satisfying Constraints"
+    "name": "Satisfying Constraints",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Summation Game"
+    "name": "Summation Game",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Partitioning the Array"
+    "name": "Partitioning the Array",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Array Repetition"
+    "name": "Array Repetition",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Counting Binary Strings"
+    "name": "Counting Binary Strings",
+    "rating": 2100
    },
    {
     "index": "F1",
-    "name": "Smooth Sailing (Easy Version)"
+    "name": "Smooth Sailing (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "F2",
-    "name": "Smooth Sailing (Hard Version)"
+    "name": "Smooth Sailing (Hard Version)",
+    "rating": 3000
    }
   ]
  },

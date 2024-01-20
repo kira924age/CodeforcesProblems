@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Tricky Template"
+    "name": "Tricky Template",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Forming Triangles"
+    "name": "Forming Triangles",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Closest Cities"
+    "name": "Closest Cities",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Berserk Monsters"
+    "name": "Berserk Monsters",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Increasing Subsequences"
+    "name": "Increasing Subsequences",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Replace on Segment"
+    "name": "Replace on Segment",
+    "rating": 2500
    }
   ]
  },
@@ -37,31 +43,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Square"
+    "name": "Square",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Arranging Cats"
+    "name": "Arranging Cats",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Sending Messages"
+    "name": "Sending Messages",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "Very Different Array"
+    "name": "Very Different Array",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Eat the Chip"
+    "name": "Eat the Chip",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Sum of Progression"
+    "name": "Sum of Progression",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Mischievous Shooter"
+    "name": "Mischievous Shooter",
+    "rating": 2200
    }
   ]
  },

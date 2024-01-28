@@ -1,5 +1,67 @@
 [
  {
+  "id": 1924,
+  "type": "Div1",
+  "name": "Codeforces Round 921 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Did We Get Everything Covered?"
+   },
+   {
+    "index": "B",
+    "name": "Space Harbour"
+   },
+   {
+    "index": "C",
+    "name": "Fractal Origami"
+   },
+   {
+    "index": "D",
+    "name": "Balanced Subsequences"
+   },
+   {
+    "index": "E",
+    "name": "Paper Cutting Again"
+   },
+   {
+    "index": "F",
+    "name": "Anti-Proxy Attendance"
+   }
+  ]
+ },
+ {
+  "id": 1925,
+  "type": "Div2",
+  "name": "Codeforces Round 921 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "We Got Everything Covered!"
+   },
+   {
+    "index": "B",
+    "name": "A Balanced Problemset?"
+   },
+   {
+    "index": "C",
+    "name": "Did We Get Everything Covered?"
+   },
+   {
+    "index": "D",
+    "name": "Good Trip"
+   },
+   {
+    "index": "E",
+    "name": "Space Harbour"
+   },
+   {
+    "index": "F",
+    "name": "Fractal Origami"
+   }
+  ]
+ },
+ {
   "id": 1922,
   "type": "Educational",
   "name": "Educational Codeforces Round 161 (Rated for Div. 2)",

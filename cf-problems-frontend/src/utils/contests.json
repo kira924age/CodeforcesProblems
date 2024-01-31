@@ -1,5 +1,40 @@
 [
  {
+  "id": 1918,
+  "type": "Div2",
+  "name": "Codeforces Round 922 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Brick Wall"
+   },
+   {
+    "index": "B",
+    "name": "Minimize Inversions"
+   },
+   {
+    "index": "C",
+    "name": "XOR-distance"
+   },
+   {
+    "index": "D",
+    "name": "Blocking Elements"
+   },
+   {
+    "index": "E",
+    "name": "ace5 and Task Order"
+   },
+   {
+    "index": "F",
+    "name": "Caterpillar on a Tree"
+   },
+   {
+    "index": "G",
+    "name": "Permutation of Given"
+   }
+  ]
+ },
+ {
   "id": 1924,
   "type": "Div1",
   "name": "Codeforces Round 921 (Div. 1)",

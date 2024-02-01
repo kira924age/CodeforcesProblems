@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Brick Wall"
+    "name": "Brick Wall",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Minimize Inversions"
+    "name": "Minimize Inversions",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "XOR-distance"
+    "name": "XOR-distance",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Blocking Elements"
+    "name": "Blocking Elements",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "ace5 and Task Order"
+    "name": "ace5 and Task Order",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Caterpillar on a Tree"
+    "name": "Caterpillar on a Tree",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Permutation of Given"
+    "name": "Permutation of Given",
+    "rating": 2700
    }
   ]
  },
@@ -41,27 +48,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Did We Get Everything Covered?"
+    "name": "Did We Get Everything Covered?",
+    "rating": 1500
    },
    {
     "index": "B",
-    "name": "Space Harbour"
+    "name": "Space Harbour",
+    "rating": 2100
    },
    {
     "index": "C",
-    "name": "Fractal Origami"
+    "name": "Fractal Origami",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Balanced Subsequences"
+    "name": "Balanced Subsequences",
+    "rating": 2700
    },
    {
     "index": "E",
-    "name": "Paper Cutting Again"
+    "name": "Paper Cutting Again",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Anti-Proxy Attendance"
+    "name": "Anti-Proxy Attendance",
+    "rating": 3500
    }
   ]
  },
@@ -72,27 +85,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "We Got Everything Covered!"
+    "name": "We Got Everything Covered!",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "A Balanced Problemset?"
+    "name": "A Balanced Problemset?",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Did We Get Everything Covered?"
+    "name": "Did We Get Everything Covered?",
+    "rating": "1500"
    },
    {
     "index": "D",
-    "name": "Good Trip"
+    "name": "Good Trip",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Space Harbour"
+    "name": "Space Harbour",
+    "rating": "2100"
    },
    {
     "index": "F",
-    "name": "Fractal Origami"
+    "name": "Fractal Origami",
+    "rating": "2400"
    }
   ]
  },

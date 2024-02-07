@@ -1,5 +1,40 @@
 [
  {
+  "id": 1927,
+  "type": "Div3",
+  "name": "Codeforces Round 923 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Make it White"
+   },
+   {
+    "index": "B",
+    "name": "Following the String"
+   },
+   {
+    "index": "C",
+    "name": "Choose the Different Ones!"
+   },
+   {
+    "index": "D",
+    "name": "Find the Different Ones!"
+   },
+   {
+    "index": "E",
+    "name": "Klever Permutation"
+   },
+   {
+    "index": "F",
+    "name": "Microcycle"
+   },
+   {
+    "index": "G",
+    "name": "Paint Charges"
+   }
+  ]
+ },
+ {
   "id": 1918,
   "type": "Div2",
   "name": "Codeforces Round 922 (Div. 2)",

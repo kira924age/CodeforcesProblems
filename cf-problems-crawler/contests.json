@@ -1,5 +1,40 @@
 [
  {
+  "id": 1931,
+  "type": "Div3",
+  "name": "Codeforces Round 925 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Recovering a Small String"
+   },
+   {
+    "index": "B",
+    "name": "Make Equal"
+   },
+   {
+    "index": "C",
+    "name": "Make Equal Again"
+   },
+   {
+    "index": "D",
+    "name": "Divisible Pairs"
+   },
+   {
+    "index": "E",
+    "name": "Anna and the Valentine's Day Gift"
+   },
+   {
+    "index": "F",
+    "name": "Chat Screenshots"
+   },
+   {
+    "index": "G",
+    "name": "One-Dimensional Puzzle"
+   }
+  ]
+ },
+ {
   "id": 1928,
   "type": "Div2",
   "name": "Codeforces Round 924 (Div. 2)",

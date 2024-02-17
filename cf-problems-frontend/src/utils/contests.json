@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sasha and the Beautiful Array"
+    "name": "Sasha and the Beautiful Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Sasha and the Drawing"
+    "name": "Sasha and the Drawing",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Sasha and the Casino"
+    "name": "Sasha and the Casino",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Sasha and a Walk in the City"
+    "name": "Sasha and a Walk in the City",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Sasha and the Happy Tree Cutting"
+    "name": "Sasha and the Happy Tree Cutting",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Sasha and the Wedding Binary Search Tree"
+    "name": "Sasha and the Wedding Binary Search Tree",
+    "rating": 2300
    }
   ]
  },
@@ -37,31 +43,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Recovering a Small String"
+    "name": "Recovering a Small String",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Make Equal"
+    "name": "Make Equal",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Make Equal Again"
+    "name": "Make Equal Again",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Divisible Pairs"
+    "name": "Divisible Pairs",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Anna and the Valentine's Day Gift"
+    "name": "Anna and the Valentine's Day Gift",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Chat Screenshots"
+    "name": "Chat Screenshots",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "One-Dimensional Puzzle"
+    "name": "One-Dimensional Puzzle",
+    "rating": 2000
    }
   ]
  },
@@ -72,27 +85,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Rectangle Cutting"
+    "name": "Rectangle Cutting",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Equalize"
+    "name": "Equalize",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Physical Education Lesson"
+    "name": "Physical Education Lesson",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Lonely Mountain Dungeons"
+    "name": "Lonely Mountain Dungeons",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Modular Sequence"
+    "name": "Modular Sequence",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Digital Patterns"
+    "name": "Digital Patterns",
+    "rating": 2900
    }
   ]
  },
@@ -103,31 +122,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Make it White"
+    "name": "Make it White",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Following the String"
+    "name": "Following the String",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Choose the Different Ones!"
+    "name": "Choose the Different Ones!",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Find the Different Ones!"
+    "name": "Find the Different Ones!",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Klever Permutation"
+    "name": "Klever Permutation",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Microcycle"
+    "name": "Microcycle",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Paint Charges"
+    "name": "Paint Charges",
+    "rating": 2300
    }
   ]
  },

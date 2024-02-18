@@ -1,5 +1,52 @@
 [
  {
+  "id": 1930,
+  "type": "Other",
+  "name": "think-cell Round 1",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Maximise The Score"
+   },
+   {
+    "index": "B",
+    "name": "Permutation Printing"
+   },
+   {
+    "index": "C",
+    "name": "Lexicographically Largest"
+   },
+   {
+    "index": "D1",
+    "name": "Sum over all Substrings (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Sum over all Substrings (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "2..3...4.... Wonderful! Wonderful!"
+   },
+   {
+    "index": "F",
+    "name": "Maximize the Difference"
+   },
+   {
+    "index": "G",
+    "name": "Prefix Max Set Counting"
+   },
+   {
+    "index": "H",
+    "name": "Interactive Mex Tree"
+   },
+   {
+    "index": "I",
+    "name": "Counting Is Fun"
+   }
+  ]
+ },
+ {
   "id": 1929,
   "type": "Div2",
   "name": "Codeforces Round 926 (Div. 2)",

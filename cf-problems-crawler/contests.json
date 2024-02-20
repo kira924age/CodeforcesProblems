@@ -1,5 +1,75 @@
 [
  {
+  "id": 1926,
+  "type": "Div4",
+  "name": "Codeforces Round 928 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Vlad and the Best of Five"
+   },
+   {
+    "index": "B",
+    "name": "Vlad and Shapes"
+   },
+   {
+    "index": "C",
+    "name": "Vlad and a Sum of Sum of Digits"
+   },
+   {
+    "index": "D",
+    "name": "Vlad and Division"
+   },
+   {
+    "index": "E",
+    "name": "Vlad and an Odd Ordering"
+   },
+   {
+    "index": "F",
+    "name": "Vlad and Avoiding X"
+   },
+   {
+    "index": "G",
+    "name": "Vlad and Trouble at MIT"
+   }
+  ]
+ },
+ {
+  "id": 1932,
+  "type": "Div3",
+  "name": "Codeforces Round 927 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Thorns and Coins"
+   },
+   {
+    "index": "B",
+    "name": "Chaya Calendar"
+   },
+   {
+    "index": "C",
+    "name": "LR-remainders"
+   },
+   {
+    "index": "D",
+    "name": "Card Game"
+   },
+   {
+    "index": "E",
+    "name": "Final Countdown"
+   },
+   {
+    "index": "F",
+    "name": "Feed Cats"
+   },
+   {
+    "index": "G",
+    "name": "Moving Platforms"
+   }
+  ]
+ },
+ {
   "id": 1930,
   "type": "Other",
   "name": "think-cell Round 1",

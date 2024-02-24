@@ -1,5 +1,36 @@
 [
  {
+  "id": 1923,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 162 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Moving Chips"
+   },
+   {
+    "index": "B",
+    "name": "Monsters Attack!"
+   },
+   {
+    "index": "C",
+    "name": "Find B"
+   },
+   {
+    "index": "D",
+    "name": "Slimes"
+   },
+   {
+    "index": "E",
+    "name": "Count Paths"
+   },
+   {
+    "index": "F",
+    "name": "Shrink-Reverse"
+   }
+  ]
+ },
+ {
   "id": 1926,
   "type": "Div4",
   "name": "Codeforces Round 928 (Div. 4)",

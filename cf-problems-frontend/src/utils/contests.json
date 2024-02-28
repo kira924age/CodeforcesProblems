@@ -1,5 +1,40 @@
 [
  {
+  "id": 1933,
+  "type": "Div3",
+  "name": "Codeforces Round 929 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Turtle Puzzle: Rearrange and Negate"
+   },
+   {
+    "index": "B",
+    "name": "Turtle Math: Fast Three Task"
+   },
+   {
+    "index": "C",
+    "name": "Turtle Fingers: Count the Values of k"
+   },
+   {
+    "index": "D",
+    "name": "Turtle Tenacity: Continual Mods"
+   },
+   {
+    "index": "E",
+    "name": "Turtle vs. Rabbit Race: Optimal Trainings"
+   },
+   {
+    "index": "F",
+    "name": "Turtle Mission: Robot and the Earthquake"
+   },
+   {
+    "index": "G",
+    "name": "Turtle Magic: Royal Turtle Shell Pattern"
+   }
+  ]
+ },
+ {
   "id": 1923,
   "type": "Educational",
   "name": "Educational Codeforces Round 162 (Rated for Div. 2)",

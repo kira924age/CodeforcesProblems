@@ -1,5 +1,67 @@
 [
  {
+  "id": 1936,
+  "type": "Div1",
+  "name": "Codeforces Round 930 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Bitwise Operation Wizard"
+   },
+   {
+    "index": "B",
+    "name": "Pinball"
+   },
+   {
+    "index": "C",
+    "name": "Pok\u00e9mon Arena"
+   },
+   {
+    "index": "D",
+    "name": "Bitwise Paradox"
+   },
+   {
+    "index": "E",
+    "name": "Yet Yet Another Permutation Problem"
+   },
+   {
+    "index": "F",
+    "name": "Grand Finale: Circles"
+   }
+  ]
+ },
+ {
+  "id": 1937,
+  "type": "Div2",
+  "name": "Codeforces Round 930 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Shuffle Party"
+   },
+   {
+    "index": "B",
+    "name": "Binary Path"
+   },
+   {
+    "index": "C",
+    "name": "Bitwise Operation Wizard"
+   },
+   {
+    "index": "D",
+    "name": "Pinball"
+   },
+   {
+    "index": "E",
+    "name": "Pok\u00e9mon Arena"
+   },
+   {
+    "index": "F",
+    "name": "Bitwise Paradox"
+   }
+  ]
+ },
+ {
   "id": 1933,
   "type": "Div3",
   "name": "Codeforces Round 929 (Div. 3)",

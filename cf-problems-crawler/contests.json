@@ -1,5 +1,64 @@
 [
  {
+  "id": 1938,
+  "type": "ICPC",
+  "name": "2024 ICPC Asia Pacific Championship - Online Mirror (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Antiparticle Antiphysics"
+   },
+   {
+    "index": "B",
+    "name": "Attraction Score"
+   },
+   {
+    "index": "C",
+    "name": "Bit Counting Sequence"
+   },
+   {
+    "index": "D",
+    "name": "B\u00e1nh B\u00f2"
+   },
+   {
+    "index": "E",
+    "name": "Duplicates"
+   },
+   {
+    "index": "F",
+    "name": "Forming Groups"
+   },
+   {
+    "index": "G",
+    "name": "Personality Test"
+   },
+   {
+    "index": "H",
+    "name": "Pho Restaurant"
+   },
+   {
+    "index": "I",
+    "name": "Symmetric Boundary"
+   },
+   {
+    "index": "J",
+    "name": "There and Back Again"
+   },
+   {
+    "index": "K",
+    "name": "Tree Quiz"
+   },
+   {
+    "index": "L",
+    "name": "XOR Operations"
+   },
+   {
+    "index": "M",
+    "name": "Zig-zag"
+   }
+  ]
+ },
+ {
   "id": 1934,
   "type": "Div2",
   "name": "Codeforces Round 931 (Div. 2)",

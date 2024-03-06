@@ -1,5 +1,36 @@
 [
  {
+  "id": 1935,
+  "type": "Div2",
+  "name": "Codeforces Round 932 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Entertainment in MAC"
+   },
+   {
+    "index": "B",
+    "name": "Informatics in MAC"
+   },
+   {
+    "index": "C",
+    "name": "Messenger in MAC"
+   },
+   {
+    "index": "D",
+    "name": "Exam in MAC"
+   },
+   {
+    "index": "E",
+    "name": "Distance Learning Courses in MAC"
+   },
+   {
+    "index": "F",
+    "name": "Andrey's Tree"
+   }
+  ]
+ },
+ {
   "id": 1938,
   "type": "ICPC",
   "name": "2024 ICPC Asia Pacific Championship - Online Mirror (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",

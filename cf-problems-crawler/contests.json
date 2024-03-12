@@ -1,5 +1,40 @@
 [
  {
+  "id": 1941,
+  "type": "Div3",
+  "name": "Codeforces Round 933 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Rudolf and the Ticket"
+   },
+   {
+    "index": "B",
+    "name": "Rudolf and 121"
+   },
+   {
+    "index": "C",
+    "name": "Rudolf and the Ugly String"
+   },
+   {
+    "index": "D",
+    "name": "Rudolf and the Ball Game"
+   },
+   {
+    "index": "E",
+    "name": "Rudolf and k Bridges"
+   },
+   {
+    "index": "F",
+    "name": "Rudolf and Imbalance"
+   },
+   {
+    "index": "G",
+    "name": "Rudolf and Subway"
+   }
+  ]
+ },
+ {
   "id": 1940,
   "type": "Other",
   "name": "XVIII Open Olympiad in Informatics - Final Stage, Day 2 (Unrated, Online Mirror, IOI rules)",

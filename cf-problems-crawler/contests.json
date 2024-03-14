@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Rudolf and the Ticket"
+    "name": "Rudolf and the Ticket",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Rudolf and 121"
+    "name": "Rudolf and 121",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Rudolf and the Ugly String"
+    "name": "Rudolf and the Ugly String",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "Rudolf and the Ball Game"
+    "name": "Rudolf and the Ball Game",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Rudolf and k Bridges"
+    "name": "Rudolf and k Bridges",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Rudolf and Imbalance"
+    "name": "Rudolf and Imbalance",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Rudolf and Subway"
+    "name": "Rudolf and Subway",
+    "rating": 2000
    }
   ]
  },
@@ -87,27 +94,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Entertainment in MAC"
+    "name": "Entertainment in MAC",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Informatics in MAC"
+    "name": "Informatics in MAC",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Messenger in MAC"
+    "name": "Messenger in MAC",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Exam in MAC"
+    "name": "Exam in MAC",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Distance Learning Courses in MAC"
+    "name": "Distance Learning Courses in MAC",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Andrey's Tree"
+    "name": "Andrey's Tree",
+    "rating": 2800
    }
   ]
  },
@@ -118,55 +131,68 @@
   "problems": [
    {
     "index": "A",
-    "name": "Antiparticle Antiphysics"
+    "name": "Antiparticle Antiphysics",
+    "rating": 3500
    },
    {
     "index": "B",
-    "name": "Attraction Score"
+    "name": "Attraction Score",
+    "rating": 3000
    },
    {
     "index": "C",
-    "name": "Bit Counting Sequence"
+    "name": "Bit Counting Sequence",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "B\u00e1nh B\u00f2"
+    "name": "B\u00e1nh B\u00f2",
+    "rating": 3300
    },
    {
     "index": "E",
-    "name": "Duplicates"
+    "name": "Duplicates",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Forming Groups"
+    "name": "Forming Groups",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Personality Test"
+    "name": "Personality Test",
+    "rating": 2300
    },
    {
     "index": "H",
-    "name": "Pho Restaurant"
+    "name": "Pho Restaurant",
+    "rating": 1600
    },
    {
     "index": "I",
-    "name": "Symmetric Boundary"
+    "name": "Symmetric Boundary",
+    "rating": 2800
    },
    {
     "index": "J",
-    "name": "There and Back Again"
+    "name": "There and Back Again",
+    "rating": 2100
    },
    {
     "index": "K",
-    "name": "Tree Quiz"
+    "name": "Tree Quiz",
+    "rating": 2400
    },
    {
     "index": "L",
-    "name": "XOR Operations"
+    "name": "XOR Operations",
+    "rating": 2800
    },
    {
     "index": "M",
-    "name": "Zig-zag"
+    "name": "Zig-zag",
+    "rating": 3500
    }
   ]
  },
@@ -177,27 +203,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Too Min Too Max"
+    "name": "Too Min Too Max",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Yet Another Coin Problem"
+    "name": "Yet Another Coin Problem",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Find a Mine"
+    "name": "Find a Mine",
+    "rating": 1700
    },
    {
     "index": "D1",
-    "name": "XOR Break --- Solo Version"
+    "name": "XOR Break --- Solo Version",
+    "rating": 2100
    },
    {
     "index": "D2",
-    "name": "XOR Break --- Game Version"
+    "name": "XOR Break --- Game Version",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Weird LCM Operations"
+    "name": "Weird LCM Operations",
+    "rating": 3000
    }
   ]
  },
@@ -208,27 +240,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Bitwise Operation Wizard"
+    "name": "Bitwise Operation Wizard",
+    "rating": 1700
    },
    {
     "index": "B",
-    "name": "Pinball"
+    "name": "Pinball",
+    "rating": 2000
    },
    {
     "index": "C",
-    "name": "Pok\u00e9mon Arena"
+    "name": "Pok\u00e9mon Arena",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Bitwise Paradox"
+    "name": "Bitwise Paradox",
+    "rating": 3100
    },
    {
     "index": "E",
-    "name": "Yet Yet Another Permutation Problem"
+    "name": "Yet Yet Another Permutation Problem",
+    "rating": 3400
    },
    {
     "index": "F",
-    "name": "Grand Finale: Circles"
+    "name": "Grand Finale: Circles",
+    "rating": 3300
    }
   ]
  },
@@ -239,27 +277,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Shuffle Party"
+    "name": "Shuffle Party",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Binary Path"
+    "name": "Binary Path",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Bitwise Operation Wizard"
+    "name": "Bitwise Operation Wizard",
+    "rating": "1700"
    },
    {
     "index": "D",
-    "name": "Pinball"
+    "name": "Pinball",
+    "rating": "2000"
    },
    {
     "index": "E",
-    "name": "Pok\u00e9mon Arena"
+    "name": "Pok\u00e9mon Arena",
+    "rating": "2400"
    },
    {
     "index": "F",
-    "name": "Bitwise Paradox"
+    "name": "Bitwise Paradox",
+    "rating": "3100"
    }
   ]
  },
@@ -270,31 +314,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Turtle Puzzle: Rearrange and Negate"
+    "name": "Turtle Puzzle: Rearrange and Negate",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Turtle Math: Fast Three Task"
+    "name": "Turtle Math: Fast Three Task",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Turtle Fingers: Count the Values of k"
+    "name": "Turtle Fingers: Count the Values of k",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Turtle Tenacity: Continual Mods"
+    "name": "Turtle Tenacity: Continual Mods",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Turtle vs. Rabbit Race: Optimal Trainings"
+    "name": "Turtle vs. Rabbit Race: Optimal Trainings",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Turtle Mission: Robot and the Earthquake"
+    "name": "Turtle Mission: Robot and the Earthquake",
+    "rating": 2100
    },
    {
     "index": "G",
-    "name": "Turtle Magic: Royal Turtle Shell Pattern"
+    "name": "Turtle Magic: Royal Turtle Shell Pattern",
+    "rating": 2300
    }
   ]
  },
@@ -305,27 +356,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Moving Chips"
+    "name": "Moving Chips",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Monsters Attack!"
+    "name": "Monsters Attack!",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Find B"
+    "name": "Find B",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Slimes"
+    "name": "Slimes",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Count Paths"
+    "name": "Count Paths",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Shrink-Reverse"
+    "name": "Shrink-Reverse",
+    "rating": 2800
    }
   ]
  },
@@ -336,31 +393,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Vlad and the Best of Five"
+    "name": "Vlad and the Best of Five",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Vlad and Shapes"
+    "name": "Vlad and Shapes",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Vlad and a Sum of Sum of Digits"
+    "name": "Vlad and a Sum of Sum of Digits",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Vlad and Division"
+    "name": "Vlad and Division",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Vlad and an Odd Ordering"
+    "name": "Vlad and an Odd Ordering",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Vlad and Avoiding X"
+    "name": "Vlad and Avoiding X",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "Vlad and Trouble at MIT"
+    "name": "Vlad and Trouble at MIT",
+    "rating": 1900
    }
   ]
  },
@@ -371,31 +435,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Thorns and Coins"
+    "name": "Thorns and Coins",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Chaya Calendar"
+    "name": "Chaya Calendar",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "LR-remainders"
+    "name": "LR-remainders",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Card Game"
+    "name": "Card Game",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Final Countdown"
+    "name": "Final Countdown",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Feed Cats"
+    "name": "Feed Cats",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Moving Platforms"
+    "name": "Moving Platforms",
+    "rating": 2300
    }
   ]
  },
@@ -406,43 +477,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Maximise The Score"
+    "name": "Maximise The Score",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Permutation Printing"
+    "name": "Permutation Printing",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Lexicographically Largest"
+    "name": "Lexicographically Largest",
+    "rating": 1700
    },
    {
     "index": "D1",
-    "name": "Sum over all Substrings (Easy Version)"
+    "name": "Sum over all Substrings (Easy Version)",
+    "rating": 1800
    },
    {
     "index": "D2",
-    "name": "Sum over all Substrings (Hard Version)"
+    "name": "Sum over all Substrings (Hard Version)",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "2..3...4.... Wonderful! Wonderful!"
+    "name": "2..3...4.... Wonderful! Wonderful!",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Maximize the Difference"
+    "name": "Maximize the Difference",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Prefix Max Set Counting"
+    "name": "Prefix Max Set Counting",
+    "rating": 3100
    },
    {
     "index": "H",
-    "name": "Interactive Mex Tree"
+    "name": "Interactive Mex Tree",
+    "rating": 3300
    },
    {
     "index": "I",
-    "name": "Counting Is Fun"
+    "name": "Counting Is Fun",
+    "rating": 3500
    }
   ]
  },

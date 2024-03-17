@@ -1,5 +1,79 @@
 [
  {
+  "id": 1943,
+  "type": "Div1",
+  "name": "Codeforces Round 934 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "MEX Game 1"
+   },
+   {
+    "index": "B",
+    "name": "Non-Palindromic Substring"
+   },
+   {
+    "index": "C",
+    "name": "Tree Compass"
+   },
+   {
+    "index": "D1",
+    "name": "Counting Is Fun (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Counting Is Fun (Hard Version)"
+   },
+   {
+    "index": "E1",
+    "name": "MEX Game 2 (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "MEX Game 2 (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Minimum Hamming Distance"
+   }
+  ]
+ },
+ {
+  "id": 1944,
+  "type": "Div2",
+  "name": "Codeforces Round 934 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Destroying Bridges"
+   },
+   {
+    "index": "B",
+    "name": "Equal XOR"
+   },
+   {
+    "index": "C",
+    "name": "MEX Game 1"
+   },
+   {
+    "index": "D",
+    "name": "Non-Palindromic Substring"
+   },
+   {
+    "index": "E",
+    "name": "Tree Compass"
+   },
+   {
+    "index": "F1",
+    "name": "Counting Is Fun (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Counting Is Fun (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1948,
   "type": "Educational",
   "name": "Educational Codeforces Round 163 (Rated for Div. 2)",

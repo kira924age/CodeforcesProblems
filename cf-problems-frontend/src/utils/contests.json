@@ -1,5 +1,44 @@
 [
  {
+  "id": 1945,
+  "type": "Div3",
+  "name": "Codeforces Round 935 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Setting up Camp"
+   },
+   {
+    "index": "B",
+    "name": "Fireworks"
+   },
+   {
+    "index": "C",
+    "name": "Left and Right Houses"
+   },
+   {
+    "index": "D",
+    "name": "Seraphim the Owl"
+   },
+   {
+    "index": "E",
+    "name": "Binary Search"
+   },
+   {
+    "index": "F",
+    "name": "Kirill and Mushrooms"
+   },
+   {
+    "index": "G",
+    "name": "Cook and Porridge"
+   },
+   {
+    "index": "H",
+    "name": "GCD is Greater"
+   }
+  ]
+ },
+ {
   "id": 1943,
   "type": "Div1",
   "name": "Codeforces Round 934 (Div. 1)",

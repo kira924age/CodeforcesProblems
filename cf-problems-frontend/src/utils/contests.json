@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Median of an Array"
+    "name": "Median of an Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Maximum Sum"
+    "name": "Maximum Sum",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Tree Cutting"
+    "name": "Tree Cutting",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Birthday Gift"
+    "name": "Birthday Gift",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Girl Permutation"
+    "name": "Girl Permutation",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Nobody is needed"
+    "name": "Nobody is needed",
+    "rating": 2500
    }
   ]
  },
@@ -37,35 +43,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Setting up Camp"
+    "name": "Setting up Camp",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Fireworks"
+    "name": "Fireworks",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Left and Right Houses"
+    "name": "Left and Right Houses",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Seraphim the Owl"
+    "name": "Seraphim the Owl",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Binary Search"
+    "name": "Binary Search",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "Kirill and Mushrooms"
+    "name": "Kirill and Mushrooms",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Cook and Porridge"
+    "name": "Cook and Porridge",
+    "rating": 2500
    },
    {
     "index": "H",
-    "name": "GCD is Greater"
+    "name": "GCD is Greater",
+    "rating": 2600
    }
   ]
  },
@@ -76,35 +90,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "MEX Game 1"
+    "name": "MEX Game 1",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Non-Palindromic Substring"
+    "name": "Non-Palindromic Substring",
+    "rating": 2000
    },
    {
     "index": "C",
-    "name": "Tree Compass"
+    "name": "Tree Compass",
+    "rating": 2300
    },
    {
     "index": "D1",
-    "name": "Counting Is Fun (Easy Version)"
+    "name": "Counting Is Fun (Easy Version)",
+    "rating": 2400
    },
    {
     "index": "D2",
-    "name": "Counting Is Fun (Hard Version)"
+    "name": "Counting Is Fun (Hard Version)",
+    "rating": 2800
    },
    {
     "index": "E1",
-    "name": "MEX Game 2 (Easy Version)"
+    "name": "MEX Game 2 (Easy Version)",
+    "rating": 2900
    },
    {
     "index": "E2",
-    "name": "MEX Game 2 (Hard Version)"
+    "name": "MEX Game 2 (Hard Version)",
+    "rating": 3300
    },
    {
     "index": "F",
-    "name": "Minimum Hamming Distance"
+    "name": "Minimum Hamming Distance",
+    "rating": 3500
    }
   ]
  },
@@ -115,31 +137,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Destroying Bridges"
+    "name": "Destroying Bridges",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Equal XOR"
+    "name": "Equal XOR",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "MEX Game 1"
+    "name": "MEX Game 1",
+    "rating": "1300"
    },
    {
     "index": "D",
-    "name": "Non-Palindromic Substring"
+    "name": "Non-Palindromic Substring",
+    "rating": "2000"
    },
    {
     "index": "E",
-    "name": "Tree Compass"
+    "name": "Tree Compass",
+    "rating": "2300"
    },
    {
     "index": "F1",
-    "name": "Counting Is Fun (Easy Version)"
+    "name": "Counting Is Fun (Easy Version)",
+    "rating": "2400"
    },
    {
     "index": "F2",
-    "name": "Counting Is Fun (Hard Version)"
+    "name": "Counting Is Fun (Hard Version)",
+    "rating": "2800"
    }
   ]
  },
@@ -150,31 +179,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Special Characters"
+    "name": "Special Characters",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array Fix"
+    "name": "Array Fix",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Arrow Path"
+    "name": "Arrow Path",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Tandem Repeats?"
+    "name": "Tandem Repeats?",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Clique Partition"
+    "name": "Clique Partition",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Rare Coins"
+    "name": "Rare Coins",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "MST with Matching"
+    "name": "MST with Matching",
+    "rating": 3100
    }
   ]
  },

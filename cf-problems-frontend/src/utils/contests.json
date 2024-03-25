@@ -1,5 +1,56 @@
 [
  {
+  "id": 1949,
+  "type": "ICPC",
+  "name": "European Championship 2024 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Grove"
+   },
+   {
+    "index": "B",
+    "name": "Charming Meals"
+   },
+   {
+    "index": "C",
+    "name": "Annual Ants' Gathering"
+   },
+   {
+    "index": "D",
+    "name": "Funny or Scary?"
+   },
+   {
+    "index": "E",
+    "name": "Damage per Second"
+   },
+   {
+    "index": "F",
+    "name": "Dating"
+   },
+   {
+    "index": "G",
+    "name": "Scooter"
+   },
+   {
+    "index": "H",
+    "name": "Division Avoidance"
+   },
+   {
+    "index": "I",
+    "name": "Disks"
+   },
+   {
+    "index": "J",
+    "name": "Amanda the Amoeba"
+   },
+   {
+    "index": "K",
+    "name": "Make Triangle"
+   }
+  ]
+ },
+ {
   "id": 1946,
   "type": "Div2",
   "name": "Codeforces Round 936 (Div. 2)",

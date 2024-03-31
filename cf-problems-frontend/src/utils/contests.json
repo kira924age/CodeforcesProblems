@@ -1,5 +1,48 @@
 [
  {
+  "id": 1942,
+  "type": "Div1 + Div2",
+  "name": "CodeTON Round 8 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Farmer John's Challenge"
+   },
+   {
+    "index": "B",
+    "name": "Bessie and MEX"
+   },
+   {
+    "index": "C1",
+    "name": "Bessie's Birthday Cake (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Bessie's Birthday Cake (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Learning to Paint"
+   },
+   {
+    "index": "E",
+    "name": "Farm Game"
+   },
+   {
+    "index": "F",
+    "name": "Farmer John's Favorite Function"
+   },
+   {
+    "index": "G",
+    "name": "Bessie and Cards"
+   },
+   {
+    "index": "H",
+    "name": "Farmer John's Favorite Intern"
+   }
+  ]
+ },
+ {
   "id": 1950,
   "type": "Div4",
   "name": "Codeforces Round 937 (Div. 4)",

@@ -1,5 +1,52 @@
 [
  {
+  "id": 1952,
+  "type": "Other",
+  "name": "April Fools Day Contest 2024",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Are You a Robot, Again?"
+   },
+   {
+    "index": "B",
+    "name": "Is it stated?"
+   },
+   {
+    "index": "C",
+    "name": "They Have Fooled"
+   },
+   {
+    "index": "D",
+    "name": "Are You a Procrastinator?"
+   },
+   {
+    "index": "E",
+    "name": "Sweep Line"
+   },
+   {
+    "index": "F",
+    "name": "Grid"
+   },
+   {
+    "index": "G",
+    "name": "Mathematician Takeover"
+   },
+   {
+    "index": "H",
+    "name": "Palindrome"
+   },
+   {
+    "index": "I",
+    "name": "Dark Matter"
+   },
+   {
+    "index": "J",
+    "name": "Help, what does it mean to be \"Based\""
+   }
+  ]
+ },
+ {
   "id": 1942,
   "type": "Div1 + Div2",
   "name": "CodeTON Round 8 (Div. 1 + Div. 2, Rated, Prizes!)",

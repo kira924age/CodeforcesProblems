@@ -1,5 +1,48 @@
 [
  {
+  "id": 1951,
+  "type": "Global",
+  "name": "Codeforces Global Round 25",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Dual Trigger"
+   },
+   {
+    "index": "B",
+    "name": "Battle Cows"
+   },
+   {
+    "index": "C",
+    "name": "Ticket Hoarding"
+   },
+   {
+    "index": "D",
+    "name": "Buying Jewels"
+   },
+   {
+    "index": "E",
+    "name": "No Palindromes"
+   },
+   {
+    "index": "F",
+    "name": "Inversion Composition"
+   },
+   {
+    "index": "G",
+    "name": "Clacking Balls"
+   },
+   {
+    "index": "H",
+    "name": "Thanos Snap"
+   },
+   {
+    "index": "I",
+    "name": "Growing Trees"
+   }
+  ]
+ },
+ {
   "id": 1952,
   "type": "Other",
   "name": "April Fools Day Contest 2024",

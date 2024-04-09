@@ -1,5 +1,44 @@
 [
  {
+  "id": 1955,
+  "type": "Div3",
+  "name": "Codeforces Round 938 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Yogurt Sale"
+   },
+   {
+    "index": "B",
+    "name": "Progressive Square"
+   },
+   {
+    "index": "C",
+    "name": "Inhabitant of the Deep Sea"
+   },
+   {
+    "index": "D",
+    "name": "Inaccurate Subsequence Search"
+   },
+   {
+    "index": "E",
+    "name": "Long Inversions"
+   },
+   {
+    "index": "F",
+    "name": "Unfair Game"
+   },
+   {
+    "index": "G",
+    "name": "GCD on a grid"
+   },
+   {
+    "index": "H",
+    "name": "The Most Reckless Defense"
+   }
+  ]
+ },
+ {
   "id": 1951,
   "type": "Global",
   "name": "Codeforces Global Round 25",

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1954,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 164 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Painting the Ribbon"
+   },
+   {
+    "index": "B",
+    "name": "Make It Ugly"
+   },
+   {
+    "index": "C",
+    "name": "Long Multiplication"
+   },
+   {
+    "index": "D",
+    "name": "Colored Balls"
+   },
+   {
+    "index": "E",
+    "name": "Chain Reaction"
+   },
+   {
+    "index": "F",
+    "name": "Unique Strings"
+   }
+  ]
+ },
+ {
   "id": 1955,
   "type": "Div3",
   "name": "Codeforces Round 938 (Div. 3)",

@@ -1,5 +1,40 @@
 [
  {
+  "id": 1956,
+  "type": "Div2",
+  "name": "Codeforces Round 939 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Nene's Game"
+   },
+   {
+    "index": "B",
+    "name": "Nene and the Card Game"
+   },
+   {
+    "index": "C",
+    "name": "Nene's Magical Matrix"
+   },
+   {
+    "index": "D",
+    "name": "Nene and the Mex Operator"
+   },
+   {
+    "index": "E1",
+    "name": "Nene vs. Monsters (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Nene vs. Monsters (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Nene and the Passing Game"
+   }
+  ]
+ },
+ {
   "id": 1954,
   "type": "Educational",
   "name": "Educational Codeforces Round 164 (Rated for Div. 2)",

@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Nene's Game"
+    "name": "Nene's Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Nene and the Card Game"
+    "name": "Nene and the Card Game",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Nene's Magical Matrix"
+    "name": "Nene's Magical Matrix",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Nene and the Mex Operator"
+    "name": "Nene and the Mex Operator",
+    "rating": 2000
    },
    {
     "index": "E1",
-    "name": "Nene vs. Monsters (Easy Version)"
+    "name": "Nene vs. Monsters (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "E2",
-    "name": "Nene vs. Monsters (Hard Version)"
+    "name": "Nene vs. Monsters (Hard Version)",
+    "rating": 2700
    },
    {
     "index": "F",
-    "name": "Nene and the Passing Game"
+    "name": "Nene and the Passing Game",
+    "rating": 3000
    }
   ]
  },
@@ -41,27 +48,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Painting the Ribbon"
+    "name": "Painting the Ribbon",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Make It Ugly"
+    "name": "Make It Ugly",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Long Multiplication"
+    "name": "Long Multiplication",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Colored Balls"
+    "name": "Colored Balls",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Chain Reaction"
+    "name": "Chain Reaction",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Unique Strings"
+    "name": "Unique Strings",
+    "rating": 3100
    }
   ]
  },
@@ -72,35 +85,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Yogurt Sale"
+    "name": "Yogurt Sale",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Progressive Square"
+    "name": "Progressive Square",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Inhabitant of the Deep Sea"
+    "name": "Inhabitant of the Deep Sea",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Inaccurate Subsequence Search"
+    "name": "Inaccurate Subsequence Search",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Long Inversions"
+    "name": "Long Inversions",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "Unfair Game"
+    "name": "Unfair Game",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "GCD on a grid"
+    "name": "GCD on a grid",
+    "rating": 1900
    },
    {
     "index": "H",
-    "name": "The Most Reckless Defense"
+    "name": "The Most Reckless Defense",
+    "rating": 2300
    }
   ]
  },
@@ -111,39 +132,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Dual Trigger"
+    "name": "Dual Trigger",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Battle Cows"
+    "name": "Battle Cows",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Ticket Hoarding"
+    "name": "Ticket Hoarding",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Buying Jewels"
+    "name": "Buying Jewels",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "No Palindromes"
+    "name": "No Palindromes",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Inversion Composition"
+    "name": "Inversion Composition",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Clacking Balls"
+    "name": "Clacking Balls",
+    "rating": 3100
    },
    {
     "index": "H",
-    "name": "Thanos Snap"
+    "name": "Thanos Snap",
+    "rating": 3200
    },
    {
     "index": "I",
-    "name": "Growing Trees"
+    "name": "Growing Trees",
+    "rating": 3200
    }
   ]
  },
@@ -201,39 +231,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Farmer John's Challenge"
+    "name": "Farmer John's Challenge",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Bessie and MEX"
+    "name": "Bessie and MEX",
+    "rating": 1100
    },
    {
     "index": "C1",
-    "name": "Bessie's Birthday Cake (Easy Version)"
+    "name": "Bessie's Birthday Cake (Easy Version)",
+    "rating": 1300
    },
    {
     "index": "C2",
-    "name": "Bessie's Birthday Cake (Hard Version)"
+    "name": "Bessie's Birthday Cake (Hard Version)",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Learning to Paint"
+    "name": "Learning to Paint",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Farm Game"
+    "name": "Farm Game",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Farmer John's Favorite Function"
+    "name": "Farmer John's Favorite Function",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Bessie and Cards"
+    "name": "Bessie and Cards",
+    "rating": 2800
    },
    {
     "index": "H",
-    "name": "Farmer John's Favorite Intern"
+    "name": "Farmer John's Favorite Intern",
+    "rating": 3500
    }
   ]
  },
@@ -244,31 +283,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Stair, Peak, or Neither?"
+    "name": "Stair, Peak, or Neither?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Upscaling"
+    "name": "Upscaling",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Clock Conversion"
+    "name": "Clock Conversion",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Product of Binary Decimals"
+    "name": "Product of Binary Decimals",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Nearly Shortest Repeating Substring"
+    "name": "Nearly Shortest Repeating Substring",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "0, 1, 2, Tree!"
+    "name": "0, 1, 2, Tree!",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Shuffling Songs"
+    "name": "Shuffling Songs",
+    "rating": 1900
    }
   ]
  },

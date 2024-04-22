@@ -1,5 +1,40 @@
 [
  {
+  "id": 1957,
+  "type": "Div2",
+  "name": "Codeforces Round 940 (Div. 2) and CodeCraft-23",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Stickogon"
+   },
+   {
+    "index": "B",
+    "name": "A BIT of a Construction"
+   },
+   {
+    "index": "C",
+    "name": "How Does the Rook Move?"
+   },
+   {
+    "index": "D",
+    "name": "A BIT of an Inequality"
+   },
+   {
+    "index": "E",
+    "name": "Carousel of Combinations"
+   },
+   {
+    "index": "F1",
+    "name": "Frequency Mismatch (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Frequency Mismatch (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1956,
   "type": "Div2",
   "name": "Codeforces Round 939 (Div. 2)",

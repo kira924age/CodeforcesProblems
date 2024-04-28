@@ -1,5 +1,67 @@
 [
  {
+  "id": 1965,
+  "type": "Div1",
+  "name": "Codeforces Round 941 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Everything Nim"
+   },
+   {
+    "index": "B",
+    "name": "Missing Subsequence Sum"
+   },
+   {
+    "index": "C",
+    "name": "Folding Strip"
+   },
+   {
+    "index": "D",
+    "name": "Missing Subarray Sum"
+   },
+   {
+    "index": "E",
+    "name": "Connected Cubes"
+   },
+   {
+    "index": "F",
+    "name": "Conference"
+   }
+  ]
+ },
+ {
+  "id": 1966,
+  "type": "Div2",
+  "name": "Codeforces Round 941 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Card Exchange"
+   },
+   {
+    "index": "B",
+    "name": "Rectangle Filling"
+   },
+   {
+    "index": "C",
+    "name": "Everything Nim"
+   },
+   {
+    "index": "D",
+    "name": "Missing Subsequence Sum"
+   },
+   {
+    "index": "E",
+    "name": "Folding Strip"
+   },
+   {
+    "index": "F",
+    "name": "Missing Subarray Sum"
+   }
+  ]
+ },
+ {
   "id": 1957,
   "type": "Div2",
   "name": "Codeforces Round 940 (Div. 2) and CodeCraft-23",

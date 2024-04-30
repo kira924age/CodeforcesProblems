@@ -1,5 +1,36 @@
 [
  {
+  "id": 1969,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 165 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Two Friends"
+   },
+   {
+    "index": "B",
+    "name": "Shifts and Sorting"
+   },
+   {
+    "index": "C",
+    "name": "Minimizing the Sum"
+   },
+   {
+    "index": "D",
+    "name": "Shop Game"
+   },
+   {
+    "index": "E",
+    "name": "Unique Array"
+   },
+   {
+    "index": "F",
+    "name": "Card Pairing"
+   }
+  ]
+ },
+ {
   "id": 1965,
   "type": "Div1",
   "name": "Codeforces Round 941 (Div. 1)",

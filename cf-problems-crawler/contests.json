@@ -1,5 +1,79 @@
 [
  {
+  "id": 1967,
+  "type": "Div1",
+  "name": "Codeforces Round 942 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Permutation Counting"
+   },
+   {
+    "index": "B1",
+    "name": "Reverse Card (Easy Version)"
+   },
+   {
+    "index": "B2",
+    "name": "Reverse Card (Hard Version)"
+   },
+   {
+    "index": "C",
+    "name": "Fenwick Tree"
+   },
+   {
+    "index": "D",
+    "name": "Long Way to be Non-decreasing"
+   },
+   {
+    "index": "E1",
+    "name": "Again Counting Arrays (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Again Counting Arrays (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Next and Prev"
+   }
+  ]
+ },
+ {
+  "id": 1972,
+  "type": "Div2",
+  "name": "Codeforces Round 942 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Contest Proposal"
+   },
+   {
+    "index": "B",
+    "name": "Coin Games"
+   },
+   {
+    "index": "C",
+    "name": "Permutation Counting"
+   },
+   {
+    "index": "D1",
+    "name": "Reverse Card (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Reverse Card (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Fenwick Tree"
+   },
+   {
+    "index": "F",
+    "name": "Long Way to be Non-decreasing"
+   }
+  ]
+ },
+ {
   "id": 1969,
   "type": "Educational",
   "name": "Educational Codeforces Round 165 (Rated for Div. 2)",

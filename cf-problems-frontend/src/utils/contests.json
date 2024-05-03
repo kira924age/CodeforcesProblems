@@ -1,5 +1,44 @@
 [
  {
+  "id": 1968,
+  "type": "Div3",
+  "name": "Codeforces Round 943 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Maximize?"
+   },
+   {
+    "index": "B",
+    "name": "Prefiquence"
+   },
+   {
+    "index": "C",
+    "name": "Assembly via Remainders"
+   },
+   {
+    "index": "D",
+    "name": "Permutation Game"
+   },
+   {
+    "index": "E",
+    "name": "Cells Arrangement"
+   },
+   {
+    "index": "F",
+    "name": "Equal XOR Segments"
+   },
+   {
+    "index": "G1",
+    "name": "Division + LCP (easy version)"
+   },
+   {
+    "index": "G2",
+    "name": "Division + LCP (hard version)"
+   }
+  ]
+ },
+ {
   "id": 1967,
   "type": "Div1",
   "name": "Codeforces Round 942 (Div. 1)",

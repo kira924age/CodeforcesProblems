@@ -150,27 +150,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Everything Nim"
+    "name": "Everything Nim",
+    "rating": 1400
    },
    {
     "index": "B",
-    "name": "Missing Subsequence Sum"
+    "name": "Missing Subsequence Sum",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "Folding Strip"
+    "name": "Folding Strip",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Missing Subarray Sum"
+    "name": "Missing Subarray Sum",
+    "rating": 2900
    },
    {
     "index": "E",
-    "name": "Connected Cubes"
+    "name": "Connected Cubes",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Conference"
+    "name": "Conference",
+    "rating": 3300
    }
   ]
  },
@@ -181,27 +187,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Card Exchange"
+    "name": "Card Exchange",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Rectangle Filling"
+    "name": "Rectangle Filling",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Everything Nim"
+    "name": "Everything Nim",
+    "rating": "1400"
    },
    {
     "index": "D",
-    "name": "Missing Subsequence Sum"
+    "name": "Missing Subsequence Sum",
+    "rating": "1800"
    },
    {
     "index": "E",
-    "name": "Folding Strip"
+    "name": "Folding Strip",
+    "rating": "2300"
    },
    {
     "index": "F",
-    "name": "Missing Subarray Sum"
+    "name": "Missing Subarray Sum",
+    "rating": "2900"
    }
   ]
  },
@@ -212,31 +224,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Stickogon"
+    "name": "Stickogon",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "A BIT of a Construction"
+    "name": "A BIT of a Construction",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "How Does the Rook Move?"
+    "name": "How Does the Rook Move?",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "A BIT of an Inequality"
+    "name": "A BIT of an Inequality",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Carousel of Combinations"
+    "name": "Carousel of Combinations",
+    "rating": 2400
    },
    {
     "index": "F1",
-    "name": "Frequency Mismatch (Easy Version)"
+    "name": "Frequency Mismatch (Easy Version)",
+    "rating": 2600
    },
    {
     "index": "F2",
-    "name": "Frequency Mismatch (Hard Version)"
+    "name": "Frequency Mismatch (Hard Version)",
+    "rating": 2700
    }
   ]
  },
@@ -566,47 +585,58 @@
   "problems": [
    {
     "index": "A",
-    "name": "Grove"
+    "name": "Grove",
+    "rating": 3300
    },
    {
     "index": "B",
-    "name": "Charming Meals"
+    "name": "Charming Meals",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "Annual Ants' Gathering"
+    "name": "Annual Ants' Gathering",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "Funny or Scary?"
+    "name": "Funny or Scary?",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Damage per Second"
+    "name": "Damage per Second",
+    "rating": 2900
    },
    {
     "index": "F",
-    "name": "Dating"
+    "name": "Dating",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "Scooter"
+    "name": "Scooter",
+    "rating": 2300
    },
    {
     "index": "H",
-    "name": "Division Avoidance"
+    "name": "Division Avoidance",
+    "rating": 3100
    },
    {
     "index": "I",
-    "name": "Disks"
+    "name": "Disks",
+    "rating": 1800
    },
    {
     "index": "J",
-    "name": "Amanda the Amoeba"
+    "name": "Amanda the Amoeba",
+    "rating": 2600
    },
    {
     "index": "K",
-    "name": "Make Triangle"
+    "name": "Make Triangle",
+    "rating": 2800
    }
   ]
  },

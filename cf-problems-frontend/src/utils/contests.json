@@ -1,5 +1,96 @@
 [
  {
+  "id": 1970,
+  "type": "Other",
+  "name": "Helvetic Coding Contest 2024 online mirror (teams allowed, unrated)",
+  "problems": [
+   {
+    "index": "A1",
+    "name": "Balanced Shuffle (Easy)"
+   },
+   {
+    "index": "A2",
+    "name": "Balanced Unshuffle (Medium)"
+   },
+   {
+    "index": "A3",
+    "name": "Balanced Unshuffle (Hard)"
+   },
+   {
+    "index": "B1",
+    "name": "Exact Neighbours (Easy)"
+   },
+   {
+    "index": "B2",
+    "name": "Exact Neighbours (Medium)"
+   },
+   {
+    "index": "B3",
+    "name": "Exact Neighbours (Hard)"
+   },
+   {
+    "index": "C1",
+    "name": "Game on Tree (Easy)"
+   },
+   {
+    "index": "C2",
+    "name": "Game on Tree (Medium)"
+   },
+   {
+    "index": "C3",
+    "name": "Game on Tree (Hard)"
+   },
+   {
+    "index": "D1",
+    "name": "Arithmancy (Easy)"
+   },
+   {
+    "index": "D2",
+    "name": "Arithmancy (Medium)"
+   },
+   {
+    "index": "D3",
+    "name": "Arithmancy (Hard)"
+   },
+   {
+    "index": "E1",
+    "name": "Trails (Easy)"
+   },
+   {
+    "index": "E2",
+    "name": "Trails (Medium)"
+   },
+   {
+    "index": "E3",
+    "name": "Trails (Hard)"
+   },
+   {
+    "index": "F1",
+    "name": "Playing Quidditch (Easy)"
+   },
+   {
+    "index": "F2",
+    "name": "Playing Quidditch (Medium)"
+   },
+   {
+    "index": "F3",
+    "name": "Playing Quidditch (Hard)"
+   },
+   {
+    "index": "G1",
+    "name": "Min-Fund Prison (Easy)"
+   },
+   {
+    "index": "G2",
+    "name": "Min-Fund Prison (Medium)"
+   },
+   {
+    "index": "G3",
+    "name": "Min-Fund Prison (Hard)"
+   }
+  ]
+ },
+ {
   "id": 1968,
   "type": "Div3",
   "name": "Codeforces Round 943 (Div. 3)",

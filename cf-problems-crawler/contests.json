@@ -210,27 +210,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Two Friends"
+    "name": "Two Friends",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Shifts and Sorting"
+    "name": "Shifts and Sorting",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Minimizing the Sum"
+    "name": "Minimizing the Sum",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Shop Game"
+    "name": "Shop Game",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Unique Array"
+    "name": "Unique Array",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Card Pairing"
+    "name": "Card Pairing",
+    "rating": 3000
    }
   ]
  },

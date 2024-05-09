@@ -97,35 +97,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Maximize?"
+    "name": "Maximize?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Prefiquence"
+    "name": "Prefiquence",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Assembly via Remainders"
+    "name": "Assembly via Remainders",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Permutation Game"
+    "name": "Permutation Game",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Cells Arrangement"
+    "name": "Cells Arrangement",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Equal XOR Segments"
+    "name": "Equal XOR Segments",
+    "rating": 1800
    },
    {
     "index": "G1",
-    "name": "Division + LCP (easy version)"
+    "name": "Division + LCP (easy version)",
+    "rating": 1900
    },
    {
     "index": "G2",
-    "name": "Division + LCP (hard version)"
+    "name": "Division + LCP (hard version)",
+    "rating": 2200
    }
   ]
  },
@@ -136,35 +144,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Permutation Counting"
+    "name": "Permutation Counting",
+    "rating": 1400
    },
    {
     "index": "B1",
-    "name": "Reverse Card (Easy Version)"
+    "name": "Reverse Card (Easy Version)",
+    "rating": 1400
    },
    {
     "index": "B2",
-    "name": "Reverse Card (Hard Version)"
+    "name": "Reverse Card (Hard Version)",
+    "rating": 2200
    },
    {
     "index": "C",
-    "name": "Fenwick Tree"
+    "name": "Fenwick Tree",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Long Way to be Non-decreasing"
+    "name": "Long Way to be Non-decreasing",
+    "rating": 2800
    },
    {
     "index": "E1",
-    "name": "Again Counting Arrays (Easy Version)"
+    "name": "Again Counting Arrays (Easy Version)",
+    "rating": 3100
    },
    {
     "index": "E2",
-    "name": "Again Counting Arrays (Hard Version)"
+    "name": "Again Counting Arrays (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "Next and Prev"
+    "name": "Next and Prev",
+    "rating": 3200
    }
   ]
  },
@@ -175,31 +191,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Contest Proposal"
+    "name": "Contest Proposal",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Coin Games"
+    "name": "Coin Games",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Permutation Counting"
+    "name": "Permutation Counting",
+    "rating": "1400"
    },
    {
     "index": "D1",
-    "name": "Reverse Card (Easy Version)"
+    "name": "Reverse Card (Easy Version)",
+    "rating": "1400"
    },
    {
     "index": "D2",
-    "name": "Reverse Card (Hard Version)"
+    "name": "Reverse Card (Hard Version)",
+    "rating": "2200"
    },
    {
     "index": "E",
-    "name": "Fenwick Tree"
+    "name": "Fenwick Tree",
+    "rating": "2300"
    },
    {
     "index": "F",
-    "name": "Long Way to be Non-decreasing"
+    "name": "Long Way to be Non-decreasing",
+    "rating": "2800"
    }
   ]
  },

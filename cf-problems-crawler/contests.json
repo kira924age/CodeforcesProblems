@@ -1,92 +1,152 @@
 [
  {
+  "id": 1971,
+  "type": "Div4",
+  "name": "Codeforces Round 944 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "My First Sorting Problem"
+   },
+   {
+    "index": "B",
+    "name": "Different String"
+   },
+   {
+    "index": "C",
+    "name": "Clock and Strings"
+   },
+   {
+    "index": "D",
+    "name": "Binary Cut"
+   },
+   {
+    "index": "E",
+    "name": "Find the Car"
+   },
+   {
+    "index": "F",
+    "name": "Circle Perimeter"
+   },
+   {
+    "index": "G",
+    "name": "XOUR"
+   },
+   {
+    "index": "H",
+    "name": "\u00b11"
+   }
+  ]
+ },
+ {
   "id": 1970,
   "type": "Other",
   "name": "Helvetic Coding Contest 2024 online mirror (teams allowed, unrated)",
   "problems": [
    {
     "index": "A1",
-    "name": "Balanced Shuffle (Easy)"
+    "name": "Balanced Shuffle (Easy)",
+    "rating": 1000
    },
    {
     "index": "A2",
-    "name": "Balanced Unshuffle (Medium)"
+    "name": "Balanced Unshuffle (Medium)",
+    "rating": 2400
    },
    {
     "index": "A3",
-    "name": "Balanced Unshuffle (Hard)"
+    "name": "Balanced Unshuffle (Hard)",
+    "rating": 2400
    },
    {
     "index": "B1",
-    "name": "Exact Neighbours (Easy)"
+    "name": "Exact Neighbours (Easy)",
+    "rating": 1900
    },
    {
     "index": "B2",
-    "name": "Exact Neighbours (Medium)"
+    "name": "Exact Neighbours (Medium)",
+    "rating": 2100
    },
    {
     "index": "B3",
-    "name": "Exact Neighbours (Hard)"
+    "name": "Exact Neighbours (Hard)",
+    "rating": 2300
    },
    {
     "index": "C1",
-    "name": "Game on Tree (Easy)"
+    "name": "Game on Tree (Easy)",
+    "rating": 1400
    },
    {
     "index": "C2",
-    "name": "Game on Tree (Medium)"
+    "name": "Game on Tree (Medium)",
+    "rating": 1700
    },
    {
     "index": "C3",
-    "name": "Game on Tree (Hard)"
+    "name": "Game on Tree (Hard)",
+    "rating": 1900
    },
    {
     "index": "D1",
-    "name": "Arithmancy (Easy)"
+    "name": "Arithmancy (Easy)",
+    "rating": 2100
    },
    {
     "index": "D2",
-    "name": "Arithmancy (Medium)"
+    "name": "Arithmancy (Medium)",
+    "rating": 2600
    },
    {
     "index": "D3",
-    "name": "Arithmancy (Hard)"
+    "name": "Arithmancy (Hard)",
+    "rating": 3100
    },
    {
     "index": "E1",
-    "name": "Trails (Easy)"
+    "name": "Trails (Easy)",
+    "rating": 1800
    },
    {
     "index": "E2",
-    "name": "Trails (Medium)"
+    "name": "Trails (Medium)",
+    "rating": 2000
    },
    {
     "index": "E3",
-    "name": "Trails (Hard)"
+    "name": "Trails (Hard)",
+    "rating": 2200
    },
    {
     "index": "F1",
-    "name": "Playing Quidditch (Easy)"
+    "name": "Playing Quidditch (Easy)",
+    "rating": 2300
    },
    {
     "index": "F2",
-    "name": "Playing Quidditch (Medium)"
+    "name": "Playing Quidditch (Medium)",
+    "rating": 2300
    },
    {
     "index": "F3",
-    "name": "Playing Quidditch (Hard)"
+    "name": "Playing Quidditch (Hard)",
+    "rating": 2300
    },
    {
     "index": "G1",
-    "name": "Min-Fund Prison (Easy)"
+    "name": "Min-Fund Prison (Easy)",
+    "rating": 1900
    },
    {
     "index": "G2",
-    "name": "Min-Fund Prison (Medium)"
+    "name": "Min-Fund Prison (Medium)",
+    "rating": 2200
    },
    {
     "index": "G3",
-    "name": "Min-Fund Prison (Hard)"
+    "name": "Min-Fund Prison (Hard)",
+    "rating": 2400
    }
   ]
  },

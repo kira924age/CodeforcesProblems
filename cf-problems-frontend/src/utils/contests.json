@@ -1,5 +1,40 @@
 [
  {
+  "id": 1974,
+  "type": "Div3",
+  "name": "Codeforces Round 946 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Phone Desktop"
+   },
+   {
+    "index": "B",
+    "name": "Symmetric Encoding"
+   },
+   {
+    "index": "C",
+    "name": "Beautiful Triple Pairs"
+   },
+   {
+    "index": "D",
+    "name": "Ingenuity-2"
+   },
+   {
+    "index": "E",
+    "name": "Money Buys Happiness"
+   },
+   {
+    "index": "F",
+    "name": "Cutting Game"
+   },
+   {
+    "index": "G",
+    "name": "Money Buys Less Happiness Now"
+   }
+  ]
+ },
+ {
   "id": 1973,
   "type": "Div2",
   "name": "Codeforces Round 945 (Div. 2)",

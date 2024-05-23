@@ -41,27 +41,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Chess For Three"
+    "name": "Chess For Three",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Cat, Fox and the Lonely Array"
+    "name": "Cat, Fox and the Lonely Array",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Cat, Fox and Double Maximum"
+    "name": "Cat, Fox and Double Maximum",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Cat, Fox and Maximum Array Split"
+    "name": "Cat, Fox and Maximum Array Split",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Cat, Fox and Swaps"
+    "name": "Cat, Fox and Swaps",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Maximum GCD Sum Queries"
+    "name": "Maximum GCD Sum Queries",
+    "rating": 3100
    }
   ]
  },

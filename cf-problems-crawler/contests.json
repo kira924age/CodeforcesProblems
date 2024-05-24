@@ -1,5 +1,16 @@
 [
  {
+  "id": 1953,
+  "type": "ICPC",
+  "name": "2023 Post World Finals Online ICPC Challenge powered by Huawei",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Accuracy-Preserving Summation Algorithm"
+   }
+  ]
+ },
+ {
   "id": 1974,
   "type": "Div3",
   "name": "Codeforces Round 946 (Div. 3)",

@@ -1,5 +1,48 @@
 [
  {
+  "id": 1975,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round 947 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Bazoka and Mocha's Array"
+   },
+   {
+    "index": "B",
+    "name": "378QAQ and Mocha's Array"
+   },
+   {
+    "index": "C",
+    "name": "Chamo and Mocha's Array"
+   },
+   {
+    "index": "D",
+    "name": "Paint the Tree"
+   },
+   {
+    "index": "E",
+    "name": "Chain Queries"
+   },
+   {
+    "index": "F",
+    "name": "Set"
+   },
+   {
+    "index": "G",
+    "name": "Zimpha Fan Club"
+   },
+   {
+    "index": "H",
+    "name": "378QAQ and Core"
+   },
+   {
+    "index": "I",
+    "name": "Mind Bloom"
+   }
+  ]
+ },
+ {
   "id": 1953,
   "type": "ICPC",
   "name": "2023 Post World Finals Online ICPC Challenge powered by Huawei",
@@ -17,31 +60,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Phone Desktop"
+    "name": "Phone Desktop",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Symmetric Encoding"
+    "name": "Symmetric Encoding",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Beautiful Triple Pairs"
+    "name": "Beautiful Triple Pairs",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Ingenuity-2"
+    "name": "Ingenuity-2",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Money Buys Happiness"
+    "name": "Money Buys Happiness",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Cutting Game"
+    "name": "Cutting Game",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Money Buys Less Happiness Now"
+    "name": "Money Buys Less Happiness Now",
+    "rating": 2000
    }
   ]
  },

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1981,
+  "type": "Div2",
+  "name": "Codeforces Round 949 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Turtle and Piggy Are Playing a Game"
+   },
+   {
+    "index": "B",
+    "name": "Turtle and an Infinite Sequence"
+   },
+   {
+    "index": "C",
+    "name": "Turtle and an Incomplete Sequence"
+   },
+   {
+    "index": "D",
+    "name": "Turtle and Multiplication"
+   },
+   {
+    "index": "E",
+    "name": "Turtle and Intersected Segments"
+   },
+   {
+    "index": "F",
+    "name": "Turtle and Paths on a Tree"
+   }
+  ]
+ },
+ {
   "id": 1976,
   "type": "Educational",
   "name": "Educational Codeforces Round 166 (Rated for Div. 2)",
@@ -37,23 +68,28 @@
   "problems": [
    {
     "index": "A",
-    "name": "Little Nikita"
+    "name": "Little Nikita",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Binary Colouring"
+    "name": "Binary Colouring",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Nikita and LCM"
+    "name": "Nikita and LCM",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "XORificator"
+    "name": "XORificator",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Tensor"
+    "name": "Tensor",
+    "rating": 2600
    }
   ]
  },
@@ -64,39 +100,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Bazoka and Mocha's Array"
+    "name": "Bazoka and Mocha's Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "378QAQ and Mocha's Array"
+    "name": "378QAQ and Mocha's Array",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Chamo and Mocha's Array"
+    "name": "Chamo and Mocha's Array",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Paint the Tree"
+    "name": "Paint the Tree",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Chain Queries"
+    "name": "Chain Queries",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Set"
+    "name": "Set",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Zimpha Fan Club"
+    "name": "Zimpha Fan Club",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "378QAQ and Core"
+    "name": "378QAQ and Core",
+    "rating": 3500
    },
    {
     "index": "I",
-    "name": "Mind Bloom"
+    "name": "Mind Bloom",
+    "rating": 3500
    }
   ]
  },

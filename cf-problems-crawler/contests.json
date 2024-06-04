@@ -1,5 +1,44 @@
 [
  {
+  "id": 1980,
+  "type": "Div3",
+  "name": "Codeforces Round 950 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Problem Generator"
+   },
+   {
+    "index": "B",
+    "name": "Choosing Cubes"
+   },
+   {
+    "index": "C",
+    "name": "Sofia and the Lost Operations"
+   },
+   {
+    "index": "D",
+    "name": "GCD-sequence"
+   },
+   {
+    "index": "E",
+    "name": "Permutation of Rows and Columns"
+   },
+   {
+    "index": "F1",
+    "name": "Field Division (easy version)"
+   },
+   {
+    "index": "F2",
+    "name": "Field Division (hard version)"
+   },
+   {
+    "index": "G",
+    "name": "Yasya and the Mysterious Tree"
+   }
+  ]
+ },
+ {
   "id": 1981,
   "type": "Div2",
   "name": "Codeforces Round 949 (Div. 2)",

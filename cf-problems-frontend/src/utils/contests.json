@@ -1,5 +1,36 @@
 [
  {
+  "id": 1979,
+  "type": "Div2",
+  "name": "Codeforces Round 951 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Guess the Maximum"
+   },
+   {
+    "index": "B",
+    "name": "XOR Sequences"
+   },
+   {
+    "index": "C",
+    "name": "Earning on Bets"
+   },
+   {
+    "index": "D",
+    "name": "Fixing a Binary String"
+   },
+   {
+    "index": "E",
+    "name": "Manhattan Triangle"
+   },
+   {
+    "index": "F",
+    "name": "Kostyanych's Theorem"
+   }
+  ]
+ },
+ {
   "id": 1980,
   "type": "Div3",
   "name": "Codeforces Round 950 (Div. 3)",

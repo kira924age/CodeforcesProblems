@@ -1,32 +1,81 @@
 [
  {
+  "id": 1984,
+  "type": "Global",
+  "name": "Codeforces Global Round 26",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Strange Splitting"
+   },
+   {
+    "index": "B",
+    "name": "Large Addition"
+   },
+   {
+    "index": "C1",
+    "name": "Magnitude (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Magnitude (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "''a'' String Problem"
+   },
+   {
+    "index": "E",
+    "name": "Shuffle"
+   },
+   {
+    "index": "F",
+    "name": "Reconstruction"
+   },
+   {
+    "index": "G",
+    "name": "Magic Trick II"
+   },
+   {
+    "index": "H",
+    "name": "Tower Capturing"
+   }
+  ]
+ },
+ {
   "id": 1979,
   "type": "Div2",
   "name": "Codeforces Round 951 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Guess the Maximum"
+    "name": "Guess the Maximum",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "XOR Sequences"
+    "name": "XOR Sequences",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Earning on Bets"
+    "name": "Earning on Bets",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Fixing a Binary String"
+    "name": "Fixing a Binary String",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Manhattan Triangle"
+    "name": "Manhattan Triangle",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Kostyanych's Theorem"
+    "name": "Kostyanych's Theorem",
+    "rating": 2900
    }
   ]
  },
@@ -37,35 +86,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Problem Generator"
+    "name": "Problem Generator",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Choosing Cubes"
+    "name": "Choosing Cubes",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Sofia and the Lost Operations"
+    "name": "Sofia and the Lost Operations",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "GCD-sequence"
+    "name": "GCD-sequence",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Permutation of Rows and Columns"
+    "name": "Permutation of Rows and Columns",
+    "rating": 1600
    },
    {
     "index": "F1",
-    "name": "Field Division (easy version)"
+    "name": "Field Division (easy version)",
+    "rating": 1900
    },
    {
     "index": "F2",
-    "name": "Field Division (hard version)"
+    "name": "Field Division (hard version)",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Yasya and the Mysterious Tree"
+    "name": "Yasya and the Mysterious Tree",
+    "rating": 2300
    }
   ]
  },
@@ -76,27 +133,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Turtle and Piggy Are Playing a Game"
+    "name": "Turtle and Piggy Are Playing a Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Turtle and an Infinite Sequence"
+    "name": "Turtle and an Infinite Sequence",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Turtle and an Incomplete Sequence"
+    "name": "Turtle and an Incomplete Sequence",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Turtle and Multiplication"
+    "name": "Turtle and Multiplication",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Turtle and Intersected Segments"
+    "name": "Turtle and Intersected Segments",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Turtle and Paths on a Tree"
+    "name": "Turtle and Paths on a Tree",
+    "rating": 3000
    }
   ]
  },
@@ -107,27 +170,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Verify Password"
+    "name": "Verify Password",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Increase/Decrease/Copy"
+    "name": "Increase/Decrease/Copy",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Job Interview"
+    "name": "Job Interview",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Invertible Bracket Sequences"
+    "name": "Invertible Bracket Sequences",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Splittable Permutations"
+    "name": "Splittable Permutations",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Remove Bridges"
+    "name": "Remove Bridges",
+    "rating": 2800
    }
   ]
  },

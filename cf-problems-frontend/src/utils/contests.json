@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Strange Splitting"
+    "name": "Strange Splitting",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Large Addition"
+    "name": "Large Addition",
+    "rating": 1100
    },
    {
     "index": "C1",
-    "name": "Magnitude (Easy Version)"
+    "name": "Magnitude (Easy Version)",
+    "rating": 1300
    },
    {
     "index": "C2",
-    "name": "Magnitude (Hard Version)"
+    "name": "Magnitude (Hard Version)",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "''a'' String Problem"
+    "name": "''a'' String Problem",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Shuffle"
+    "name": "Shuffle",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Reconstruction"
+    "name": "Reconstruction",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Magic Trick II"
+    "name": "Magic Trick II",
+    "rating": 3200
    },
    {
     "index": "H",
-    "name": "Tower Capturing"
+    "name": "Tower Capturing",
+    "rating": 3300
    }
   ]
  },

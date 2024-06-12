@@ -1,5 +1,48 @@
 [
  {
+  "id": 1985,
+  "type": "Div4",
+  "name": "Codeforces Round 952 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Creating Words"
+   },
+   {
+    "index": "B",
+    "name": "Maximum Multiple Sum"
+   },
+   {
+    "index": "C",
+    "name": "Good Prefixes"
+   },
+   {
+    "index": "D",
+    "name": "Manhattan Circle"
+   },
+   {
+    "index": "E",
+    "name": "Secret Box"
+   },
+   {
+    "index": "F",
+    "name": "Final Boss"
+   },
+   {
+    "index": "G",
+    "name": "D-Function"
+   },
+   {
+    "index": "H1",
+    "name": "Maximize the Largest Component (Easy Version)"
+   },
+   {
+    "index": "H2",
+    "name": "Maximize the Largest Component (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1984,
   "type": "Global",
   "name": "Codeforces Global Round 26",

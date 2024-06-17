@@ -1,5 +1,36 @@
 [
  {
+  "id": 1978,
+  "type": "Div2",
+  "name": "Codeforces Round 953 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Alice and Books"
+   },
+   {
+    "index": "B",
+    "name": "New Bakery"
+   },
+   {
+    "index": "C",
+    "name": "Manhattan Permutations"
+   },
+   {
+    "index": "D",
+    "name": "Elections"
+   },
+   {
+    "index": "E",
+    "name": "Computing Machine"
+   },
+   {
+    "index": "F",
+    "name": "Large Graph"
+   }
+  ]
+ },
+ {
   "id": 1985,
   "type": "Div4",
   "name": "Codeforces Round 952 (Div. 4)",

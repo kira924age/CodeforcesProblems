@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Alice and Books"
+    "name": "Alice and Books",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "New Bakery"
+    "name": "New Bakery",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Manhattan Permutations"
+    "name": "Manhattan Permutations",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Elections"
+    "name": "Elections",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Computing Machine"
+    "name": "Computing Machine",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Large Graph"
+    "name": "Large Graph",
+    "rating": 2400
    }
   ]
  },
@@ -37,39 +43,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Creating Words"
+    "name": "Creating Words",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Maximum Multiple Sum"
+    "name": "Maximum Multiple Sum",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Good Prefixes"
+    "name": "Good Prefixes",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Manhattan Circle"
+    "name": "Manhattan Circle",
+    "rating": 900
    },
    {
     "index": "E",
-    "name": "Secret Box"
+    "name": "Secret Box",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "Final Boss"
+    "name": "Final Boss",
+    "rating": 1500
    },
    {
     "index": "G",
-    "name": "D-Function"
+    "name": "D-Function",
+    "rating": 1600
    },
    {
     "index": "H1",
-    "name": "Maximize the Largest Component (Easy Version)"
+    "name": "Maximize the Largest Component (Easy Version)",
+    "rating": 1700
    },
    {
     "index": "H2",
-    "name": "Maximize the Largest Component (Hard Version)"
+    "name": "Maximize the Largest Component (Hard Version)",
+    "rating": 2200
    }
   ]
  },

@@ -1,5 +1,44 @@
 [
  {
+  "id": 1986,
+  "type": "Div3",
+  "name": "Codeforces Round 954 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "X Axis"
+   },
+   {
+    "index": "B",
+    "name": "Matrix Stabilization"
+   },
+   {
+    "index": "C",
+    "name": "Update Queries"
+   },
+   {
+    "index": "D",
+    "name": "Mathematical Problem"
+   },
+   {
+    "index": "E",
+    "name": "Beautiful Array"
+   },
+   {
+    "index": "F",
+    "name": "Non-academic Problem"
+   },
+   {
+    "index": "G1",
+    "name": "Permutation Problem (Simple Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Permutation Problem (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1978,
   "type": "Div2",
   "name": "Codeforces Round 953 (Div. 2)",

@@ -1,5 +1,36 @@
 [
  {
+  "id": 1982,
+  "type": "Div2",
+  "name": "Codeforces Round 955 (Div. 2, with prizes from NEAR!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Soccer"
+   },
+   {
+    "index": "B",
+    "name": "Collatz Conjecture"
+   },
+   {
+    "index": "C",
+    "name": "Boring Day"
+   },
+   {
+    "index": "D",
+    "name": "Beauty of the mountains"
+   },
+   {
+    "index": "E",
+    "name": "Number of k-good subarrays"
+   },
+   {
+    "index": "F",
+    "name": "Sorting Problem Again"
+   }
+  ]
+ },
+ {
   "id": 1986,
   "type": "Div3",
   "name": "Codeforces Round 954 (Div. 3)",

@@ -1,32 +1,69 @@
 [
  {
+  "id": 1989,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 167 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Catch the Coin"
+   },
+   {
+    "index": "B",
+    "name": "Substring and Subsequence"
+   },
+   {
+    "index": "C",
+    "name": "Two Movies"
+   },
+   {
+    "index": "D",
+    "name": "Smithing Skill"
+   },
+   {
+    "index": "E",
+    "name": "Distance to Different"
+   },
+   {
+    "index": "F",
+    "name": "Simultaneous Coloring"
+   }
+  ]
+ },
+ {
   "id": 1982,
   "type": "Div2",
   "name": "Codeforces Round 955 (Div. 2, with prizes from NEAR!)",
   "problems": [
    {
     "index": "A",
-    "name": "Soccer"
+    "name": "Soccer",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Collatz Conjecture"
+    "name": "Collatz Conjecture",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Boring Day"
+    "name": "Boring Day",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Beauty of the mountains"
+    "name": "Beauty of the mountains",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Number of k-good subarrays"
+    "name": "Number of k-good subarrays",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Sorting Problem Again"
+    "name": "Sorting Problem Again",
+    "rating": 2600
    }
   ]
  },
@@ -37,35 +74,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "X Axis"
+    "name": "X Axis",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Matrix Stabilization"
+    "name": "Matrix Stabilization",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Update Queries"
+    "name": "Update Queries",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Mathematical Problem"
+    "name": "Mathematical Problem",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Beautiful Array"
+    "name": "Beautiful Array",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "Non-academic Problem"
+    "name": "Non-academic Problem",
+    "rating": 1900
    },
    {
     "index": "G1",
-    "name": "Permutation Problem (Simple Version)"
+    "name": "Permutation Problem (Simple Version)",
+    "rating": 2200
    },
    {
     "index": "G2",
-    "name": "Permutation Problem (Hard Version)"
+    "name": "Permutation Problem (Hard Version)",
+    "rating": 2500
    }
   ]
  },

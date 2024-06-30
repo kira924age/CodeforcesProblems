@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Catch the Coin"
+    "name": "Catch the Coin",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Substring and Subsequence"
+    "name": "Substring and Subsequence",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Two Movies"
+    "name": "Two Movies",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Smithing Skill"
+    "name": "Smithing Skill",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Distance to Different"
+    "name": "Distance to Different",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Simultaneous Coloring"
+    "name": "Simultaneous Coloring",
+    "rating": 3000
    }
   ]
  },

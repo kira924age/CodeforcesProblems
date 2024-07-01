@@ -1,5 +1,52 @@
 [
  {
+  "id": 1987,
+  "type": "Div1 + Div2",
+  "name": "EPIC Institute of Technology Round Summer 2024 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Upload More RAM"
+   },
+   {
+    "index": "B",
+    "name": "K-Sort"
+   },
+   {
+    "index": "C",
+    "name": "Basil's Garden"
+   },
+   {
+    "index": "D",
+    "name": "World is Mine"
+   },
+   {
+    "index": "E",
+    "name": "Wonderful Tree!"
+   },
+   {
+    "index": "F1",
+    "name": "Interesting Problem (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Interesting Problem (Hard Version)"
+   },
+   {
+    "index": "G1",
+    "name": "Spinning Round (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Spinning Round (Hard Version)"
+   },
+   {
+    "index": "H",
+    "name": "Fumo Temple"
+   }
+  ]
+ },
+ {
   "id": 1989,
   "type": "Educational",
   "name": "Educational Codeforces Round 167 (Rated for Div. 2)",

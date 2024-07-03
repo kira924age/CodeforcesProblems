@@ -6,43 +6,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Upload More RAM"
+    "name": "Upload More RAM",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "K-Sort"
+    "name": "K-Sort",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Basil's Garden"
+    "name": "Basil's Garden",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "World is Mine"
+    "name": "World is Mine",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Wonderful Tree!"
+    "name": "Wonderful Tree!",
+    "rating": 2000
    },
    {
     "index": "F1",
-    "name": "Interesting Problem (Easy Version)"
+    "name": "Interesting Problem (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "F2",
-    "name": "Interesting Problem (Hard Version)"
+    "name": "Interesting Problem (Hard Version)",
+    "rating": 2600
    },
    {
     "index": "G1",
-    "name": "Spinning Round (Easy Version)"
+    "name": "Spinning Round (Easy Version)",
+    "rating": 2900
    },
    {
     "index": "G2",
-    "name": "Spinning Round (Hard Version)"
+    "name": "Spinning Round (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "H",
-    "name": "Fumo Temple"
+    "name": "Fumo Temple",
+    "rating": 3500
    }
   ]
  },

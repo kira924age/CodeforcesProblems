@@ -1,5 +1,40 @@
 [
  {
+  "id": 1992,
+  "type": "Div3",
+  "name": "Codeforces Round 957 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Only Pluses"
+   },
+   {
+    "index": "B",
+    "name": "Angry Monk"
+   },
+   {
+    "index": "C",
+    "name": "Gorilla and Permutation"
+   },
+   {
+    "index": "D",
+    "name": "Test of Love"
+   },
+   {
+    "index": "E",
+    "name": "Novice's Mistake"
+   },
+   {
+    "index": "F",
+    "name": "Valuable Cards"
+   },
+   {
+    "index": "G",
+    "name": "Ultra-Meow"
+   }
+  ]
+ },
+ {
   "id": 1983,
   "type": "Div2",
   "name": "Codeforces Round #956 (Div. 2) and ByteRace 2024",

@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Only Pluses"
+    "name": "Only Pluses",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Angry Monk"
+    "name": "Angry Monk",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Gorilla and Permutation"
+    "name": "Gorilla and Permutation",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "Test of Love"
+    "name": "Test of Love",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Novice's Mistake"
+    "name": "Novice's Mistake",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "Valuable Cards"
+    "name": "Valuable Cards",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Ultra-Meow"
+    "name": "Ultra-Meow",
+    "rating": 2000
    }
   ]
  },
@@ -41,31 +48,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Array Divisibility"
+    "name": "Array Divisibility",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Corner Twist"
+    "name": "Corner Twist",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Have Your Cake and Eat It Too"
+    "name": "Have Your Cake and Eat It Too",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Swap Dilemma"
+    "name": "Swap Dilemma",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "I Love Balls"
+    "name": "I Love Balls",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "array-value"
+    "name": "array-value",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Your Loss"
+    "name": "Your Loss",
+    "rating": 3000
    }
   ]
  },

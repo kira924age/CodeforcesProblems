@@ -1,5 +1,36 @@
 [
  {
+  "id": 1988,
+  "type": "Div2",
+  "name": "Codeforces Round 958 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Split the Multiset"
+   },
+   {
+    "index": "B",
+    "name": "Make Majority"
+   },
+   {
+    "index": "C",
+    "name": "Increasing Sequence with Fixed OR"
+   },
+   {
+    "index": "D",
+    "name": "The Omnipotent Monster Killer"
+   },
+   {
+    "index": "E",
+    "name": "Range Minimum Sum"
+   },
+   {
+    "index": "F",
+    "name": "Heartbeat"
+   }
+  ]
+ },
+ {
   "id": 1992,
   "type": "Div3",
   "name": "Codeforces Round 957 (Div. 3)",

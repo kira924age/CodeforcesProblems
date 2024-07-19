@@ -1,5 +1,44 @@
 [
  {
+  "id": 1994,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Round 959 sponsored by NEAR (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Diverse Game"
+   },
+   {
+    "index": "B",
+    "name": "Fun Game"
+   },
+   {
+    "index": "C",
+    "name": "Hungry Games"
+   },
+   {
+    "index": "D",
+    "name": "Funny Game"
+   },
+   {
+    "index": "E",
+    "name": "Wooden Game"
+   },
+   {
+    "index": "F",
+    "name": "Stardew Valley"
+   },
+   {
+    "index": "G",
+    "name": "Minecraft"
+   },
+   {
+    "index": "H",
+    "name": "Fortnite"
+   }
+  ]
+ },
+ {
   "id": 1988,
   "type": "Div2",
   "name": "Codeforces Round 958 (Div. 2)",

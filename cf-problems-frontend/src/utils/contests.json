@@ -1,5 +1,40 @@
 [
  {
+  "id": 1990,
+  "type": "Div2",
+  "name": "Codeforces Round 960 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Submission Bait"
+   },
+   {
+    "index": "B",
+    "name": "Array Craft"
+   },
+   {
+    "index": "C",
+    "name": "Mad MAD Sum"
+   },
+   {
+    "index": "D",
+    "name": "Grid Puzzle"
+   },
+   {
+    "index": "E1",
+    "name": "Catch the Mole(Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Catch the Mole(Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Polygonal Segments"
+   }
+  ]
+ },
+ {
   "id": 1994,
   "type": "Div1 + Div2",
   "name": "Codeforces Round 959 sponsored by NEAR (Div. 1 + Div. 2)",
@@ -45,27 +80,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Split the Multiset"
+    "name": "Split the Multiset",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Make Majority"
+    "name": "Make Majority",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Increasing Sequence with Fixed OR"
+    "name": "Increasing Sequence with Fixed OR",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "The Omnipotent Monster Killer"
+    "name": "The Omnipotent Monster Killer",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Range Minimum Sum"
+    "name": "Range Minimum Sum",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Heartbeat"
+    "name": "Heartbeat",
+    "rating": 3000
    }
   ]
  },

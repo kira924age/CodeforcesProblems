@@ -1,36 +1,194 @@
 [
  {
+  "id": 1997,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 168 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Strong Password"
+   },
+   {
+    "index": "B",
+    "name": "Make Three Regions"
+   },
+   {
+    "index": "C",
+    "name": "Even Positions"
+   },
+   {
+    "index": "D",
+    "name": "Maximize the Root"
+   },
+   {
+    "index": "E",
+    "name": "Level Up"
+   },
+   {
+    "index": "F",
+    "name": "Chips on a Line"
+   }
+  ]
+ },
+ {
+  "id": 1991,
+  "type": "Div1 + Div2",
+  "name": "Pinely Round 4 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Maximize the Last Element"
+   },
+   {
+    "index": "B",
+    "name": "AND Reconstruction"
+   },
+   {
+    "index": "C",
+    "name": "Absolute Zero"
+   },
+   {
+    "index": "D",
+    "name": "Prime XOR Coloring"
+   },
+   {
+    "index": "E",
+    "name": "Coloring Game"
+   },
+   {
+    "index": "F",
+    "name": "Triangle Formation"
+   },
+   {
+    "index": "G",
+    "name": "Grid Reset"
+   },
+   {
+    "index": "H",
+    "name": "Prime Split Game"
+   },
+   {
+    "index": "I",
+    "name": "Grid Game"
+   }
+  ]
+ },
+ {
+  "id": 1996,
+  "type": "Div3",
+  "name": "Codeforces Round 962 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Legs"
+   },
+   {
+    "index": "B",
+    "name": "Scale"
+   },
+   {
+    "index": "C",
+    "name": "Sort"
+   },
+   {
+    "index": "D",
+    "name": "Fun"
+   },
+   {
+    "index": "E",
+    "name": "Decode"
+   },
+   {
+    "index": "F",
+    "name": "Bomb"
+   },
+   {
+    "index": "G",
+    "name": "Penacony"
+   }
+  ]
+ },
+ {
+  "id": 1995,
+  "type": "Div2",
+  "name": "Codeforces Round 961 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Diagonals",
+    "rating": 800
+   },
+   {
+    "index": "B1",
+    "name": "Bouquet (Easy Version)",
+    "rating": 1100
+   },
+   {
+    "index": "B2",
+    "name": "Bouquet (Hard Version)",
+    "rating": 1700
+   },
+   {
+    "index": "C",
+    "name": "Squaring",
+    "rating": 1800
+   },
+   {
+    "index": "D",
+    "name": "Cases",
+    "rating": 2300
+   },
+   {
+    "index": "E1",
+    "name": "Let Me Teach You a Lesson (Easy Version)",
+    "rating": 2700
+   },
+   {
+    "index": "E2",
+    "name": "Let Me Teach You a Lesson (Hard Version)",
+    "rating": 2900
+   }
+  ]
+ },
+ {
   "id": 1990,
   "type": "Div2",
   "name": "Codeforces Round 960 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Submission Bait"
+    "name": "Submission Bait",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Array Craft"
+    "name": "Array Craft",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Mad MAD Sum"
+    "name": "Mad MAD Sum",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Grid Puzzle"
+    "name": "Grid Puzzle",
+    "rating": 1800
    },
    {
     "index": "E1",
-    "name": "Catch the Mole(Easy Version)"
+    "name": "Catch the Mole(Easy Version)",
+    "rating": 2500
    },
    {
     "index": "E2",
-    "name": "Catch the Mole(Hard Version)"
+    "name": "Catch the Mole(Hard Version)",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Polygonal Segments"
+    "name": "Polygonal Segments",
+    "rating": 2800
    }
   ]
  },
@@ -41,35 +199,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Diverse Game"
+    "name": "Diverse Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Fun Game"
+    "name": "Fun Game",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Hungry Games"
+    "name": "Hungry Games",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Funny Game"
+    "name": "Funny Game",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Wooden Game"
+    "name": "Wooden Game",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Stardew Valley"
+    "name": "Stardew Valley",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Minecraft"
+    "name": "Minecraft",
+    "rating": 2600
    },
    {
     "index": "H",
-    "name": "Fortnite"
+    "name": "Fortnite",
+    "rating": 3500
    }
   ]
  },

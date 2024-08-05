@@ -1,5 +1,40 @@
 [
  {
+  "id": 1993,
+  "type": "Div2",
+  "name": "Codeforces Round 963 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Question Marks"
+   },
+   {
+    "index": "B",
+    "name": "Parity and Sum"
+   },
+   {
+    "index": "C",
+    "name": "Light Switches"
+   },
+   {
+    "index": "D",
+    "name": "Med-imize"
+   },
+   {
+    "index": "E",
+    "name": "Xor-Grid Problem"
+   },
+   {
+    "index": "F1",
+    "name": "Dyn-scripted Robot (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Dyn-scripted Robot (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 1997,
   "type": "Educational",
   "name": "Educational Codeforces Round 168 (Rated for Div. 2)",

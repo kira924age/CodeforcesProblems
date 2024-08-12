@@ -1,5 +1,11 @@
 [
  {
+  "id": 2002,
+  "type": "Div1 + Div2",
+  "name": "EPIC Institute of Technology Round August 2024 (Div. 1 + Div. 2)",
+  "problems": []
+ },
+ {
   "id": 1998,
   "type": "Div2",
   "name": "Codeforces Round 965 (Div. 2)",

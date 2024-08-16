@@ -3,25 +3,153 @@
   "id": 2004,
   "type": "Educational",
   "name": "Educational Codeforces Round 169 (Rated for Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Closest Point"
+   },
+   {
+    "index": "B",
+    "name": "Game with Doors"
+   },
+   {
+    "index": "C",
+    "name": "Splitting Items"
+   },
+   {
+    "index": "D",
+    "name": "Colored Portals"
+   },
+   {
+    "index": "E",
+    "name": "Not a Nim Problem"
+   },
+   {
+    "index": "F",
+    "name": "Make a Palindrome"
+   },
+   {
+    "index": "G",
+    "name": "Substring Compression"
+   }
+  ]
  },
  {
   "id": 2000,
   "type": "Div3",
   "name": "Codeforces Round 966 (Div. 3)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Primary Task"
+   },
+   {
+    "index": "B",
+    "name": "Seating in a Bus"
+   },
+   {
+    "index": "C",
+    "name": "Numeric String Template"
+   },
+   {
+    "index": "D",
+    "name": "Right Left Wrong"
+   },
+   {
+    "index": "E",
+    "name": "Photoshoot for Gorillas"
+   },
+   {
+    "index": "F",
+    "name": "Color Rows and Columns"
+   },
+   {
+    "index": "G",
+    "name": "Call During the Journey"
+   },
+   {
+    "index": "H",
+    "name": "Ksyusha and the Loaded Set"
+   }
+  ]
  },
  {
   "id": 2002,
   "type": "Div1 + Div2",
   "name": "EPIC Institute of Technology Round August 2024 (Div. 1 + Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Distanced Coloring"
+   },
+   {
+    "index": "B",
+    "name": "Removals Game"
+   },
+   {
+    "index": "C",
+    "name": "Black Circles"
+   },
+   {
+    "index": "D1",
+    "name": "DFS Checker (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "DFS Checker (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Cosmic Rays"
+   },
+   {
+    "index": "F1",
+    "name": "Court Blue (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Court Blue (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Lattice Optimizing"
+   },
+   {
+    "index": "H",
+    "name": "Counting 101"
+   }
+  ]
  },
  {
   "id": 1998,
   "type": "Div2",
   "name": "Codeforces Round 965 (Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Find K Distinct Points with Fixed Center"
+   },
+   {
+    "index": "B",
+    "name": "Minimize Equal Sum Subarrays"
+   },
+   {
+    "index": "C",
+    "name": "Perform Operations to Maximize Score"
+   },
+   {
+    "index": "D",
+    "name": "Determine Winning Islands in Race"
+   },
+   {
+    "index": "E1",
+    "name": "Eliminating Balls With Merging (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Eliminating Balls With Merging (Hard Version)"
+   }
+  ]
  },
  {
   "id": 1999,

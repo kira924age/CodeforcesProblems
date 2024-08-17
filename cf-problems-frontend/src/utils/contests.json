@@ -80,43 +80,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Distanced Coloring"
+    "name": "Distanced Coloring",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Removals Game"
+    "name": "Removals Game",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Black Circles"
+    "name": "Black Circles",
+    "rating": 1200
    },
    {
     "index": "D1",
-    "name": "DFS Checker (Easy Version)"
+    "name": "DFS Checker (Easy Version)",
+    "rating": 1900
    },
    {
     "index": "D2",
-    "name": "DFS Checker (Hard Version)"
+    "name": "DFS Checker (Hard Version)",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Cosmic Rays"
+    "name": "Cosmic Rays",
+    "rating": 2300
    },
    {
     "index": "F1",
-    "name": "Court Blue (Easy Version)"
+    "name": "Court Blue (Easy Version)",
+    "rating": 2600
    },
    {
     "index": "F2",
-    "name": "Court Blue (Hard Version)"
+    "name": "Court Blue (Hard Version)",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Lattice Optimizing"
+    "name": "Lattice Optimizing",
+    "rating": 3400
    },
    {
     "index": "H",
-    "name": "Counting 101"
+    "name": "Counting 101",
+    "rating": 3500
    }
   ]
  },
@@ -127,27 +137,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Find K Distinct Points with Fixed Center"
+    "name": "Find K Distinct Points with Fixed Center",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Minimize Equal Sum Subarrays"
+    "name": "Minimize Equal Sum Subarrays",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Perform Operations to Maximize Score"
+    "name": "Perform Operations to Maximize Score",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "Determine Winning Islands in Race"
+    "name": "Determine Winning Islands in Race",
+    "rating": 2100
    },
    {
     "index": "E1",
-    "name": "Eliminating Balls With Merging (Easy Version)"
+    "name": "Eliminating Balls With Merging (Easy Version)",
+    "rating": 2200
    },
    {
     "index": "E2",
-    "name": "Eliminating Balls With Merging (Hard Version)"
+    "name": "Eliminating Balls With Merging (Hard Version)",
+    "rating": 2500
    }
   ]
  },
@@ -158,35 +174,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "A+B Again?"
+    "name": "A+B Again?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Card Game"
+    "name": "Card Game",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Showering"
+    "name": "Showering",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Slavic's Exam"
+    "name": "Slavic's Exam",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Triple Operations"
+    "name": "Triple Operations",
+    "rating": 1300
    },
    {
     "index": "F",
-    "name": "Expected Median"
+    "name": "Expected Median",
+    "rating": 1500
    },
    {
     "index": "G1",
-    "name": "Ruler (easy version)"
+    "name": "Ruler (easy version)",
+    "rating": 1500
    },
    {
     "index": "G2",
-    "name": "Ruler (hard version)"
+    "name": "Ruler (hard version)",
+    "rating": 1700
    }
   ]
  },
@@ -197,31 +221,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Question Marks"
+    "name": "Question Marks",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Parity and Sum"
+    "name": "Parity and Sum",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Light Switches"
+    "name": "Light Switches",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Med-imize"
+    "name": "Med-imize",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Xor-Grid Problem"
+    "name": "Xor-Grid Problem",
+    "rating": 2700
    },
    {
     "index": "F1",
-    "name": "Dyn-scripted Robot (Easy Version)"
+    "name": "Dyn-scripted Robot (Easy Version)",
+    "rating": 2400
    },
    {
     "index": "F2",
-    "name": "Dyn-scripted Robot (Hard Version)"
+    "name": "Dyn-scripted Robot (Hard Version)",
+    "rating": 2800
    }
   ]
  },
@@ -232,27 +263,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Strong Password"
+    "name": "Strong Password",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Make Three Regions"
+    "name": "Make Three Regions",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Even Positions"
+    "name": "Even Positions",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Maximize the Root"
+    "name": "Maximize the Root",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Level Up"
+    "name": "Level Up",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Chips on a Line"
+    "name": "Chips on a Line",
+    "rating": 2700
    }
   ]
  },
@@ -263,39 +300,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Maximize the Last Element"
+    "name": "Maximize the Last Element",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "AND Reconstruction"
+    "name": "AND Reconstruction",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Absolute Zero"
+    "name": "Absolute Zero",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Prime XOR Coloring"
+    "name": "Prime XOR Coloring",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Coloring Game"
+    "name": "Coloring Game",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Triangle Formation"
+    "name": "Triangle Formation",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "Grid Reset"
+    "name": "Grid Reset",
+    "rating": 2700
    },
    {
     "index": "H",
-    "name": "Prime Split Game"
+    "name": "Prime Split Game",
+    "rating": 3300
    },
    {
     "index": "I",
-    "name": "Grid Game"
+    "name": "Grid Game",
+    "rating": 3500
    }
   ]
  },
@@ -306,31 +352,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Legs"
+    "name": "Legs",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Scale"
+    "name": "Scale",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Sort"
+    "name": "Sort",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Fun"
+    "name": "Fun",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Decode"
+    "name": "Decode",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Bomb"
+    "name": "Bomb",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Penacony"
+    "name": "Penacony",
+    "rating": 2200
    }
   ]
  },

@@ -41,35 +41,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Primary Task"
+    "name": "Primary Task",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Seating in a Bus"
+    "name": "Seating in a Bus",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Numeric String Template"
+    "name": "Numeric String Template",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Right Left Wrong"
+    "name": "Right Left Wrong",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Photoshoot for Gorillas"
+    "name": "Photoshoot for Gorillas",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Color Rows and Columns"
+    "name": "Color Rows and Columns",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Call During the Journey"
+    "name": "Call During the Journey",
+    "rating": 2100
    },
    {
     "index": "H",
-    "name": "Ksyusha and the Loaded Set"
+    "name": "Ksyusha and the Loaded Set",
+    "rating": 2200
    }
   ]
  },

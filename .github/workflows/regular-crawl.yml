@@ -16,14 +16,9 @@ jobs:
         python-version: '3.x'
         architecture: 'x64'
 
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y dbus-x11 upower
-    - name: start DBus service
-      run: |
-        sudo systemctl start dbus
-        sudo systemctl start upower
+    - name: Set up DBus
+      run : eval $(dbus-launch --sh-syntax)
+
     - name: install chrome and run
       run: |
         curl -O https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb

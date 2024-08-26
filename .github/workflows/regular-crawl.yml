@@ -16,12 +16,20 @@ jobs:
         python-version: '3.x'
         architecture: 'x64'
 
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y dus-x11 upower
+    - name: start DBus service
+      run: |
+        sudo systemctl start dbus
+        sudo systemctl start upower
     - name: install chrome and run
       run: |
         curl -O https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
         sudo dpkg -i ./google-chrome-stable_current_amd64.deb
         rm google-chrome-stable_current_amd64.deb
-        google-chrome-stable --headless --disable-gpu --no-sandbox
+        google-chrome-stable --headless --disable-gpu
 
     - name: make venv
       run: python -m venv venv

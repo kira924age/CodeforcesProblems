@@ -1,32 +1,77 @@
 [
  {
+  "id": 2003,
+  "type": "Div2",
+  "name": "Codeforces Round 968 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Turtle and Good Strings"
+   },
+   {
+    "index": "B",
+    "name": "Turtle and Piggy Are Playing a Game 2"
+   },
+   {
+    "index": "C",
+    "name": "Turtle and Good Pairs"
+   },
+   {
+    "index": "D1",
+    "name": "Turtle and a MEX Problem (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Turtle and a MEX Problem (Hard Version)"
+   },
+   {
+    "index": "E1",
+    "name": "Turtle and Inversions (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Turtle and Inversions (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Turtle and Three Sequences"
+   }
+  ]
+ },
+ {
   "id": 2001,
   "type": "Div2",
   "name": "Codeforces Round 967 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Make All Equal"
+    "name": "Make All Equal",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Generate Permutation"
+    "name": "Generate Permutation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Guess The Tree"
+    "name": "Guess The Tree",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Longest Max Min Subsequence"
+    "name": "Longest Max Min Subsequence",
+    "rating": 1900
    },
    {
     "index": "E1",
-    "name": "Deterministic Heap (Easy Version)"
+    "name": "Deterministic Heap (Easy Version)",
+    "rating": 2400
    },
    {
     "index": "E2",
-    "name": "Deterministic Heap (Hard Version)"
+    "name": "Deterministic Heap (Hard Version)",
+    "rating": 2900
    }
   ]
  },
@@ -37,31 +82,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Closest Point"
+    "name": "Closest Point",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Game with Doors"
+    "name": "Game with Doors",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Splitting Items"
+    "name": "Splitting Items",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Colored Portals"
+    "name": "Colored Portals",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Not a Nim Problem"
+    "name": "Not a Nim Problem",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Make a Palindrome"
+    "name": "Make a Palindrome",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Substring Compression"
+    "name": "Substring Compression",
+    "rating": 3200
    }
   ]
  },

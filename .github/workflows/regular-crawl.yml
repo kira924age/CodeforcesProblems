@@ -16,14 +16,8 @@ jobs:
         python-version: '3.x'
         architecture: 'x64'
 
-    - name: Set up DBus
-      run : eval $(dbus-launch --sh-syntax)
-
-    - name: install chrome and run
+    - name: Run Google Chrome Headless
       run: |
-        curl -O https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-        sudo dpkg -i ./google-chrome-stable_current_amd64.deb
-        rm google-chrome-stable_current_amd64.deb
         google-chrome-stable --headless --disable-gpu
 
     - name: make venv

@@ -3,7 +3,9 @@ import time
 import undetected_chromedriver as uc
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+# from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.os_manager import (ChromeType,
+                                               OperationSystemManager)
 
 from get_data import get_contests, get_problems
 from update_data import update_contest
@@ -11,33 +13,19 @@ from utils import classify_contest_type
 
 
 def get_driver():
-    # options = webdriver.ChromeOptions()
-    # options.add_argument(
-    #     "--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1"
-    # )
-    # options.add_argument("--headless")
-    # options.add_argument("start-maximized")
-    # options.add_argument("enable-automation")
-    # options.add_argument("--no-sandbox")
-    # options.add_argument("--disable-dev-shm-usage")
-    # options.add_argument("--disable-infobars")
-    # options.add_argument("--disable-gpu")
-    # options.add_argument("--disable-browser-side-navigation")
-    # options.add_argument("--no-proxy-server")
-
-    # driver_path = ChromeDriverManager().install()
-    # driver = webdriver.Chrome(
-    #     service=Service(executable_path=driver_path), options=options
-    # )
-
     options = uc.ChromeOptions()
     options.headless = True
     options.add_argument(
         "--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0 Mobile/14C92 Safari/602.1"
     )
 
+    chrome_version = OperationSystemManager().get_browser_version_from_os(
+        ChromeType.GOOGLE
+    )
+    version_main = int(chrome_version.split(".")[0])
+
     # initialize the undetected Chrome driver with specified options
-    driver = uc.Chrome(use_subprocess=True, options=options)
+    driver = uc.Chrome(use_subprocess=True, options=options, version_main=version_main)
     driver.implicitly_wait(10)
 
     return driver
@@ -45,7 +33,6 @@ def get_driver():
 
 def main():
     driver = get_driver()
-    # driver = webdriver.Chrome()
 
     contests = get_contests()
     problem_list = get_problems()

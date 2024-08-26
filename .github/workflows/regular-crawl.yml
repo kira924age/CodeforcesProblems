@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y dus-x11 upower
+        sudo apt-get install -y dbus-x11 upower
     - name: start DBus service
       run: |
         sudo systemctl start dbus

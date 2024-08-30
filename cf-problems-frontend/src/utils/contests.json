@@ -1,5 +1,94 @@
 [
  {
+  "id": 2006,
+  "type": "Div1",
+  "name": "Codeforces Round 969 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Iris and Game on the Tree"
+   },
+   {
+    "index": "B",
+    "name": "Iris and the Tree"
+   },
+   {
+    "index": "C",
+    "name": "Eri and Expanded Sets"
+   },
+   {
+    "index": "D",
+    "name": "Iris and Adjacent Products"
+   },
+   {
+    "index": "E",
+    "name": "Iris's Full Binary Tree"
+   },
+   {
+    "index": "F",
+    "name": "Dora's Paint"
+   }
+  ]
+ },
+ {
+  "id": 2007,
+  "type": "Div2",
+  "name": "Codeforces Round 969 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Dora's Set"
+   },
+   {
+    "index": "B",
+    "name": "Index and Maximum Value"
+   },
+   {
+    "index": "C",
+    "name": "Dora and C++"
+   },
+   {
+    "index": "D",
+    "name": "Iris and Game on the Tree"
+   },
+   {
+    "index": "E",
+    "name": "Iris and the Tree"
+   },
+   {
+    "index": "F",
+    "name": "Eri and Expanded Sets"
+   }
+  ]
+ },
+ {
+  "id": 2010,
+  "type": "Div3",
+  "name": "Testing Round 19 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Alternating Sum of Numbers",
+    "rating": 800
+   },
+   {
+    "index": "B",
+    "name": "Three Brothers",
+    "rating": 800
+   },
+   {
+    "index": "C1",
+    "name": "Message Transmission Error (easy version)",
+    "rating": 1400
+   },
+   {
+    "index": "C2",
+    "name": "Message Transmission Error (hard version)",
+    "rating": 1700
+   }
+  ]
+ },
+ {
   "id": 2003,
   "type": "Div2",
   "name": "Codeforces Round 968 (Div. 2)",

@@ -1,5 +1,44 @@
 [
  {
+  "id": 2008,
+  "type": "Div3",
+  "name": "Codeforces Round 970 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sakurako's Exam"
+   },
+   {
+    "index": "B",
+    "name": "Square or Not"
+   },
+   {
+    "index": "C",
+    "name": "Longest Good Array"
+   },
+   {
+    "index": "D",
+    "name": "Sakurako's Hobby"
+   },
+   {
+    "index": "E",
+    "name": "Alternating String"
+   },
+   {
+    "index": "F",
+    "name": "Sakurako's Box"
+   },
+   {
+    "index": "G",
+    "name": "Sakurako's Task"
+   },
+   {
+    "index": "H",
+    "name": "Sakurako's Test"
+   }
+  ]
+ },
+ {
   "id": 2006,
   "type": "Div1",
   "name": "Codeforces Round 969 (Div. 1)",

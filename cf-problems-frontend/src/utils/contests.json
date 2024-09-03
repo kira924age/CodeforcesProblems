@@ -134,35 +134,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Turtle and Good Strings"
+    "name": "Turtle and Good Strings",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Turtle and Piggy Are Playing a Game 2"
+    "name": "Turtle and Piggy Are Playing a Game 2",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Turtle and Good Pairs"
+    "name": "Turtle and Good Pairs",
+    "rating": 1200
    },
    {
     "index": "D1",
-    "name": "Turtle and a MEX Problem (Easy Version)"
+    "name": "Turtle and a MEX Problem (Easy Version)",
+    "rating": 1500
    },
    {
     "index": "D2",
-    "name": "Turtle and a MEX Problem (Hard Version)"
+    "name": "Turtle and a MEX Problem (Hard Version)",
+    "rating": 2100
    },
    {
     "index": "E1",
-    "name": "Turtle and Inversions (Easy Version)"
+    "name": "Turtle and Inversions (Easy Version)",
+    "rating": 2600
    },
    {
     "index": "E2",
-    "name": "Turtle and Inversions (Hard Version)"
+    "name": "Turtle and Inversions (Hard Version)",
+    "rating": 2700
    },
    {
     "index": "F",
-    "name": "Turtle and Three Sequences"
+    "name": "Turtle and Three Sequences",
+    "rating": 2800
    }
   ]
  },

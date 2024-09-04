@@ -1,5 +1,48 @@
 [
  {
+  "id": 2009,
+  "type": "Div4",
+  "name": "Codeforces Round 971 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Minimize!"
+   },
+   {
+    "index": "B",
+    "name": "osu!mania"
+   },
+   {
+    "index": "C",
+    "name": "The Legend of Freya the Frog"
+   },
+   {
+    "index": "D",
+    "name": "Satyam and Counting"
+   },
+   {
+    "index": "E",
+    "name": "Klee's SUPER DUPER LARGE Array!!!"
+   },
+   {
+    "index": "F",
+    "name": "Firefly's Queries"
+   },
+   {
+    "index": "G1",
+    "name": "Yunli's Subarray Queries (easy version)"
+   },
+   {
+    "index": "G2",
+    "name": "Yunli's Subarray Queries (hard version)"
+   },
+   {
+    "index": "G3",
+    "name": "Yunli's Subarray Queries (extreme version)"
+   }
+  ]
+ },
+ {
   "id": 2008,
   "type": "Div3",
   "name": "Codeforces Round 970 (Div. 3)",

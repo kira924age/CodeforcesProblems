@@ -88,27 +88,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Iris and Game on the Tree"
+    "name": "Iris and Game on the Tree",
+    "rating": 1700
    },
    {
     "index": "B",
-    "name": "Iris and the Tree"
+    "name": "Iris and the Tree",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "Eri and Expanded Sets"
+    "name": "Eri and Expanded Sets",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Iris and Adjacent Products"
+    "name": "Iris and Adjacent Products",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Iris's Full Binary Tree"
+    "name": "Iris's Full Binary Tree",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Dora's Paint"
+    "name": "Dora's Paint",
+    "rating": 3500
    }
   ]
  },
@@ -119,15 +125,18 @@
   "problems": [
    {
     "index": "A",
-    "name": "Dora's Set"
+    "name": "Dora's Set",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Index and Maximum Value"
+    "name": "Index and Maximum Value",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Dora and C++"
+    "name": "Dora and C++",
+    "rating": 1500
    },
    {
     "index": "D",

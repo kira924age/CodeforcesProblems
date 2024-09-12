@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Minimize!"
+    "name": "Minimize!",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "osu!mania"
+    "name": "osu!mania",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "The Legend of Freya the Frog"
+    "name": "The Legend of Freya the Frog",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Satyam and Counting"
+    "name": "Satyam and Counting",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Klee's SUPER DUPER LARGE Array!!!"
+    "name": "Klee's SUPER DUPER LARGE Array!!!",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Firefly's Queries"
+    "name": "Firefly's Queries",
+    "rating": 1700
    },
    {
     "index": "G1",
-    "name": "Yunli's Subarray Queries (easy version)"
+    "name": "Yunli's Subarray Queries (easy version)",
+    "rating": 1900
    },
    {
     "index": "G2",
-    "name": "Yunli's Subarray Queries (hard version)"
+    "name": "Yunli's Subarray Queries (hard version)",
+    "rating": 2200
    },
    {
     "index": "G3",
-    "name": "Yunli's Subarray Queries (extreme version)"
+    "name": "Yunli's Subarray Queries (extreme version)",
+    "rating": 2700
    }
   ]
  },
@@ -49,35 +58,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sakurako's Exam"
+    "name": "Sakurako's Exam",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Square or Not"
+    "name": "Square or Not",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Longest Good Array"
+    "name": "Longest Good Array",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Sakurako's Hobby"
+    "name": "Sakurako's Hobby",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Alternating String"
+    "name": "Alternating String",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Sakurako's Box"
+    "name": "Sakurako's Box",
+    "rating": 1400
    },
    {
     "index": "G",
-    "name": "Sakurako's Task"
+    "name": "Sakurako's Task",
+    "rating": 1800
    },
    {
     "index": "H",
-    "name": "Sakurako's Test"
+    "name": "Sakurako's Test",
+    "rating": 2100
    }
   ]
  },

@@ -1,5 +1,40 @@
 [
  {
+  "id": 2005,
+  "type": "Div2",
+  "name": "Codeforces Round 972 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Simple Palindrome"
+   },
+   {
+    "index": "B1",
+    "name": "The Strict Teacher (Easy Version)"
+   },
+   {
+    "index": "B2",
+    "name": "The Strict Teacher (Hard Version)"
+   },
+   {
+    "index": "C",
+    "name": "Lazy Narek"
+   },
+   {
+    "index": "D",
+    "name": "Alter the GCD"
+   },
+   {
+    "index": "E1",
+    "name": "Subtangle Game (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Subtangle Game (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2009,
   "type": "Div4",
   "name": "Codeforces Round 971 (Div. 4)",

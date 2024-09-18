@@ -1,5 +1,44 @@
 [
  {
+  "id": 2017,
+  "type": "ICPC",
+  "name": "2024 ICPC World Finals: JetBrains Tech Trek",
+  "problems": [
+   {
+    "index": "A",
+    "name": "My First Sorting Problem"
+   },
+   {
+    "index": "B",
+    "name": "Square or Not"
+   },
+   {
+    "index": "C",
+    "name": "Make Equal Again"
+   },
+   {
+    "index": "D",
+    "name": "Forming Triangles"
+   },
+   {
+    "index": "E",
+    "name": "Decreasing String"
+   },
+   {
+    "index": "F",
+    "name": "Colored Portals"
+   },
+   {
+    "index": "G",
+    "name": "Berserk Monsters"
+   },
+   {
+    "index": "H",
+    "name": "Replace on Segment"
+   }
+  ]
+ },
+ {
   "id": 2005,
   "type": "Div2",
   "name": "Codeforces Round 972 (Div. 2)",

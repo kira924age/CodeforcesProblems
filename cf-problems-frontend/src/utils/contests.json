@@ -1,5 +1,40 @@
 [
  {
+  "id": 2013,
+  "type": "Div2",
+  "name": "Codeforces Round 973 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Zhan's Blender"
+   },
+   {
+    "index": "B",
+    "name": "Battle for Survive"
+   },
+   {
+    "index": "C",
+    "name": "Password Cracking"
+   },
+   {
+    "index": "D",
+    "name": "Minimize the Difference"
+   },
+   {
+    "index": "E",
+    "name": "Prefix GCD"
+   },
+   {
+    "index": "F1",
+    "name": "Game in Tree (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Game in Tree (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2017,
   "type": "ICPC",
   "name": "2024 ICPC World Finals: JetBrains Tech Trek",

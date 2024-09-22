@@ -1,5 +1,44 @@
 [
  {
+  "id": 2014,
+  "type": "Div3",
+  "name": "Codeforces Round 974 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Robin Helps"
+   },
+   {
+    "index": "B",
+    "name": "Robin Hood and the Major Oak"
+   },
+   {
+    "index": "C",
+    "name": "Robin Hood in Town"
+   },
+   {
+    "index": "D",
+    "name": "Robert Hood and Mrs Hood"
+   },
+   {
+    "index": "E",
+    "name": "Rendez-vous de Marian et Robin"
+   },
+   {
+    "index": "F",
+    "name": "Sheriff's Defense"
+   },
+   {
+    "index": "G",
+    "name": "Milky Days"
+   },
+   {
+    "index": "H",
+    "name": "Robin Hood Archery"
+   }
+  ]
+ },
+ {
   "id": 2013,
   "type": "Div2",
   "name": "Codeforces Round 973 (Div. 2)",

@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Robin Helps"
+    "name": "Robin Helps",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Robin Hood and the Major Oak"
+    "name": "Robin Hood and the Major Oak",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Robin Hood in Town"
+    "name": "Robin Hood in Town",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Robert Hood and Mrs Hood"
+    "name": "Robert Hood and Mrs Hood",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Rendez-vous de Marian et Robin"
+    "name": "Rendez-vous de Marian et Robin",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Sheriff's Defense"
+    "name": "Sheriff's Defense",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Milky Days"
+    "name": "Milky Days",
+    "rating": 2200
    },
    {
     "index": "H",
-    "name": "Robin Hood Archery"
+    "name": "Robin Hood Archery",
+    "rating": 1900
    }
   ]
  },
@@ -45,31 +53,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Zhan's Blender"
+    "name": "Zhan's Blender",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Battle for Survive"
+    "name": "Battle for Survive",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Password Cracking"
+    "name": "Password Cracking",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Minimize the Difference"
+    "name": "Minimize the Difference",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Prefix GCD"
+    "name": "Prefix GCD",
+    "rating": 2200
    },
    {
     "index": "F1",
-    "name": "Game in Tree (Easy Version)"
+    "name": "Game in Tree (Easy Version)",
+    "rating": 2700
    },
    {
     "index": "F2",
-    "name": "Game in Tree (Hard Version)"
+    "name": "Game in Tree (Hard Version)",
+    "rating": 3500
    }
   ]
  },

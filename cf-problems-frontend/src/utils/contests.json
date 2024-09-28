@@ -1,5 +1,79 @@
 [
  {
+  "id": 2018,
+  "type": "Div1",
+  "name": "Codeforces Round 975 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cards Partition"
+   },
+   {
+    "index": "B",
+    "name": "Speedbreaker"
+   },
+   {
+    "index": "C",
+    "name": "Tree Pruning"
+   },
+   {
+    "index": "D",
+    "name": "Max Plus Min Plus Size"
+   },
+   {
+    "index": "E1",
+    "name": "Complex Segments (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Complex Segments (Hard Version)"
+   },
+   {
+    "index": "F1",
+    "name": "Speedbreaker Counting (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Speedbreaker Counting (Medium Version)"
+   },
+   {
+    "index": "F3",
+    "name": "Speedbreaker Counting (Hard Version)"
+   }
+  ]
+ },
+ {
+  "id": 2019,
+  "type": "Div2",
+  "name": "Codeforces Round 975 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Max Plus Size"
+   },
+   {
+    "index": "B",
+    "name": "All Pairs Segments"
+   },
+   {
+    "index": "C",
+    "name": "Cards Partition"
+   },
+   {
+    "index": "D",
+    "name": "Speedbreaker"
+   },
+   {
+    "index": "E",
+    "name": "Tree Pruning"
+   },
+   {
+    "index": "F",
+    "name": "Max Plus Min Plus Size"
+   }
+  ]
+ },
+ {
   "id": 2014,
   "type": "Div3",
   "name": "Codeforces Round 974 (Div. 3)",
@@ -134,31 +208,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Simple Palindrome"
+    "name": "Simple Palindrome",
+    "rating": 900
    },
    {
     "index": "B1",
-    "name": "The Strict Teacher (Easy Version)"
+    "name": "The Strict Teacher (Easy Version)",
+    "rating": 1000
    },
    {
     "index": "B2",
-    "name": "The Strict Teacher (Hard Version)"
+    "name": "The Strict Teacher (Hard Version)",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Lazy Narek"
+    "name": "Lazy Narek",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Alter the GCD"
+    "name": "Alter the GCD",
+    "rating": 2400
    },
    {
     "index": "E1",
-    "name": "Subtangle Game (Easy Version)"
+    "name": "Subtangle Game (Easy Version)",
+    "rating": 2100
    },
    {
     "index": "E2",
-    "name": "Subtangle Game (Hard Version)"
+    "name": "Subtangle Game (Hard Version)",
+    "rating": 2500
    }
   ]
  },

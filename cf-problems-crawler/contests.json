@@ -1,5 +1,36 @@
 [
  {
+  "id": 2020,
+  "type": "Div2",
+  "name": "Codeforces Round 976 (Div. 2) and Divide By Zero 9.0",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Find Minimum Operations"
+   },
+   {
+    "index": "B",
+    "name": "Brightness Begins"
+   },
+   {
+    "index": "C",
+    "name": "Bitwise Balancing"
+   },
+   {
+    "index": "D",
+    "name": "Connect the Dots"
+   },
+   {
+    "index": "E",
+    "name": "Expected Power"
+   },
+   {
+    "index": "F",
+    "name": "Count Leaves"
+   }
+  ]
+ },
+ {
   "id": 2018,
   "type": "Div1",
   "name": "Codeforces Round 975 (Div. 1)",

@@ -1,5 +1,87 @@
 [
  {
+  "id": 2011,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Episode 11",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Problem Solving"
+   },
+   {
+    "index": "B",
+    "name": "Shuffle"
+   },
+   {
+    "index": "C",
+    "name": "Split the Expression"
+   },
+   {
+    "index": "D",
+    "name": "Among Wolves"
+   },
+   {
+    "index": "E",
+    "name": "Rock-Paper-Scissors Bot"
+   },
+   {
+    "index": "F",
+    "name": "Good Subarray"
+   },
+   {
+    "index": "G",
+    "name": "Removal of a Permutation"
+   },
+   {
+    "index": "H",
+    "name": "Strange Matrix"
+   },
+   {
+    "index": "I",
+    "name": "Stack and Queue"
+   }
+  ]
+ },
+ {
+  "id": 2012,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Practice 11",
+  "problems": [
+   {
+    "index": "A",
+    "name": "My First Sorting Problem"
+   },
+   {
+    "index": "B",
+    "name": "Square or Not"
+   },
+   {
+    "index": "C",
+    "name": "Make Equal Again"
+   },
+   {
+    "index": "D",
+    "name": "Forming Triangles"
+   },
+   {
+    "index": "E",
+    "name": "Decreasing String"
+   },
+   {
+    "index": "F",
+    "name": "Colored Portals"
+   },
+   {
+    "index": "G",
+    "name": "Berserk Monsters"
+   },
+   {
+    "index": "H",
+    "name": "Replace on Segment"
+   }
+  ]
+ },
+ {
   "id": 2020,
   "type": "Div2",
   "name": "Codeforces Round 976 (Div. 2) and Divide By Zero 9.0",

@@ -119,39 +119,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Cards Partition"
+    "name": "Cards Partition",
+    "rating": 1600
    },
    {
     "index": "B",
-    "name": "Speedbreaker"
+    "name": "Speedbreaker",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Tree Pruning"
+    "name": "Tree Pruning",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Max Plus Min Plus Size"
+    "name": "Max Plus Min Plus Size",
+    "rating": 2200
    },
    {
     "index": "E1",
-    "name": "Complex Segments (Easy Version)"
+    "name": "Complex Segments (Easy Version)",
+    "rating": 3300
    },
    {
     "index": "E2",
-    "name": "Complex Segments (Hard Version)"
+    "name": "Complex Segments (Hard Version)",
+    "rating": 3400
    },
    {
     "index": "F1",
-    "name": "Speedbreaker Counting (Easy Version)"
+    "name": "Speedbreaker Counting (Easy Version)",
+    "rating": 2900
    },
    {
     "index": "F2",
-    "name": "Speedbreaker Counting (Medium Version)"
+    "name": "Speedbreaker Counting (Medium Version)",
+    "rating": 3000
    },
    {
     "index": "F3",
-    "name": "Speedbreaker Counting (Hard Version)"
+    "name": "Speedbreaker Counting (Hard Version)",
+    "rating": 3100
    }
   ]
  },
@@ -162,11 +171,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Max Plus Size"
+    "name": "Max Plus Size",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "All Pairs Segments"
+    "name": "All Pairs Segments",
+    "rating": 1200
    },
    {
     "index": "C",

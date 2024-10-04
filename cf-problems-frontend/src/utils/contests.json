@@ -88,27 +88,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Find Minimum Operations"
+    "name": "Find Minimum Operations",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Brightness Begins"
+    "name": "Brightness Begins",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Bitwise Balancing"
+    "name": "Bitwise Balancing",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Connect the Dots"
+    "name": "Connect the Dots",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Expected Power"
+    "name": "Expected Power",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Count Leaves"
+    "name": "Count Leaves",
+    "rating": 2900
    }
   ]
  },

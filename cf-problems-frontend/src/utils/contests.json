@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Meaning Mean"
+    "name": "Meaning Mean",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Maximize Mex"
+    "name": "Maximize Mex",
+    "rating": 1200
    },
    {
     "index": "C1",
-    "name": "Adjust The Presentation (Easy Version)"
+    "name": "Adjust The Presentation (Easy Version)",
+    "rating": 1300
    },
    {
     "index": "C2",
-    "name": "Adjust The Presentation (Hard Version)"
+    "name": "Adjust The Presentation (Hard Version)",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "Boss, Thirsty"
+    "name": "Boss, Thirsty",
+    "rating": 2500
    },
    {
     "index": "E1",
-    "name": "Digital Village (Easy Version)"
+    "name": "Digital Village (Easy Version)",
+    "rating": 2300
    },
    {
     "index": "E2",
-    "name": "Digital Village (Hard Version)"
+    "name": "Digital Village (Hard Version)",
+    "rating": 2500
    },
    {
     "index": "E3",
-    "name": "Digital Village (Extreme Version)"
+    "name": "Digital Village (Extreme Version)",
+    "rating": 2800
    }
   ]
  },

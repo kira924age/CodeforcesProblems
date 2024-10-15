@@ -1,5 +1,40 @@
 [
  {
+  "id": 2025,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 170 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Two Screens"
+   },
+   {
+    "index": "B",
+    "name": "Binomial Coefficients, Kind Of"
+   },
+   {
+    "index": "C",
+    "name": "New Game"
+   },
+   {
+    "index": "D",
+    "name": "Attribute Checks"
+   },
+   {
+    "index": "E",
+    "name": "Card Game"
+   },
+   {
+    "index": "F",
+    "name": "Choose Your Queries"
+   },
+   {
+    "index": "G",
+    "name": "Variable Damage"
+   }
+  ]
+ },
+ {
   "id": 2022,
   "type": "Div2",
   "name": "Codeforces Round 978 (Div. 2)",

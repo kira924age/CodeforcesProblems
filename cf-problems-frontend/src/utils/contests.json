@@ -1,5 +1,44 @@
 [
  {
+  "id": 2030,
+  "type": "Div2",
+  "name": "Codeforces Round 979 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "A Gift From Orangutan"
+   },
+   {
+    "index": "B",
+    "name": "Minimise Oneness"
+   },
+   {
+    "index": "C",
+    "name": "A TRUE Battle"
+   },
+   {
+    "index": "D",
+    "name": "QED's Favorite Permutation"
+   },
+   {
+    "index": "E",
+    "name": "MEXimize the Score"
+   },
+   {
+    "index": "F",
+    "name": "Orangutan Approved Subarrays"
+   },
+   {
+    "index": "G1",
+    "name": "The Destruction of the Universe (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "The Destruction of the Universe (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2025,
   "type": "Educational",
   "name": "Educational Codeforces Round 170 (Rated for Div. 2)",

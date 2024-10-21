@@ -1,5 +1,67 @@
 [
  {
+  "id": 2023,
+  "type": "Div1",
+  "name": "Codeforces Round 980 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Concatenation of Arrays"
+   },
+   {
+    "index": "B",
+    "name": "Skipping"
+   },
+   {
+    "index": "C",
+    "name": "C+K+S"
+   },
+   {
+    "index": "D",
+    "name": "Many Games"
+   },
+   {
+    "index": "E",
+    "name": "Tree of Life"
+   },
+   {
+    "index": "F",
+    "name": "Hills and Pits"
+   }
+  ]
+ },
+ {
+  "id": 2024,
+  "type": "Div2",
+  "name": "Codeforces Round 980 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Profitable Interest Rate"
+   },
+   {
+    "index": "B",
+    "name": "Buying Lemonade"
+   },
+   {
+    "index": "C",
+    "name": "Concatenation of Arrays"
+   },
+   {
+    "index": "D",
+    "name": "Skipping"
+   },
+   {
+    "index": "E",
+    "name": "C+K+S"
+   },
+   {
+    "index": "F",
+    "name": "Many Games"
+   }
+  ]
+ },
+ {
   "id": 2030,
   "type": "Div2",
   "name": "Codeforces Round 979 (Div. 2)",

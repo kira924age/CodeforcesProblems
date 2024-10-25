@@ -1,5 +1,40 @@
 [
  {
+  "id": 2033,
+  "type": "Div3",
+  "name": "Codeforces Round 981 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sakurako and Kosuke"
+   },
+   {
+    "index": "B",
+    "name": "Sakurako and Water"
+   },
+   {
+    "index": "C",
+    "name": "Sakurako's Field Trip"
+   },
+   {
+    "index": "D",
+    "name": "Kousuke's Assignment"
+   },
+   {
+    "index": "E",
+    "name": "Sakurako, Kosuke, and the Permutation"
+   },
+   {
+    "index": "F",
+    "name": "Kosuke's Sloth"
+   },
+   {
+    "index": "G",
+    "name": "Sakurako and Chefir"
+   }
+  ]
+ },
+ {
   "id": 2023,
   "type": "Div1",
   "name": "Codeforces Round 980 (Div. 1)",
@@ -68,35 +103,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "A Gift From Orangutan"
+    "name": "A Gift From Orangutan",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Minimise Oneness"
+    "name": "Minimise Oneness",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "A TRUE Battle"
+    "name": "A TRUE Battle",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "QED's Favorite Permutation"
+    "name": "QED's Favorite Permutation",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "MEXimize the Score"
+    "name": "MEXimize the Score",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Orangutan Approved Subarrays"
+    "name": "Orangutan Approved Subarrays",
+    "rating": 2400
    },
    {
     "index": "G1",
-    "name": "The Destruction of the Universe (Easy Version)"
+    "name": "The Destruction of the Universe (Easy Version)",
+    "rating": 2900
    },
    {
     "index": "G2",
-    "name": "The Destruction of the Universe (Hard Version)"
+    "name": "The Destruction of the Universe (Hard Version)",
+    "rating": 3100
    }
   ]
  },
@@ -107,31 +150,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Two Screens"
+    "name": "Two Screens",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Binomial Coefficients, Kind Of"
+    "name": "Binomial Coefficients, Kind Of",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "New Game"
+    "name": "New Game",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Attribute Checks"
+    "name": "Attribute Checks",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Card Game"
+    "name": "Card Game",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Choose Your Queries"
+    "name": "Choose Your Queries",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Variable Damage"
+    "name": "Variable Damage",
+    "rating": 3000
    }
   ]
  },

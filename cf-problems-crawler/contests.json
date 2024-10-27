@@ -1,36 +1,78 @@
 [
  {
+  "id": 2027,
+  "type": "Div2",
+  "name": "Codeforces Round 982 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Rectangle Arrangement"
+   },
+   {
+    "index": "B",
+    "name": "Stalin Sort"
+   },
+   {
+    "index": "C",
+    "name": "Add Zeros"
+   },
+   {
+    "index": "D1",
+    "name": "The Endspeaker (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "The Endspeaker (Hard Version)"
+   },
+   {
+    "index": "E1",
+    "name": "Bit Game (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Bit Game (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2033,
   "type": "Div3",
   "name": "Codeforces Round 981 (Div. 3)",
   "problems": [
    {
     "index": "A",
-    "name": "Sakurako and Kosuke"
+    "name": "Sakurako and Kosuke",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Sakurako and Water"
+    "name": "Sakurako and Water",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Sakurako's Field Trip"
+    "name": "Sakurako's Field Trip",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Kousuke's Assignment"
+    "name": "Kousuke's Assignment",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Sakurako, Kosuke, and the Permutation"
+    "name": "Sakurako, Kosuke, and the Permutation",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Kosuke's Sloth"
+    "name": "Kosuke's Sloth",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Sakurako and Chefir"
+    "name": "Sakurako and Chefir",
+    "rating": 2200
    }
   ]
  },
@@ -41,27 +83,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Concatenation of Arrays"
+    "name": "Concatenation of Arrays",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Skipping"
+    "name": "Skipping",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "C+K+S"
+    "name": "C+K+S",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Many Games"
+    "name": "Many Games",
+    "rating": 2900
    },
    {
     "index": "E",
-    "name": "Tree of Life"
+    "name": "Tree of Life",
+    "rating": 3300
    },
    {
     "index": "F",
-    "name": "Hills and Pits"
+    "name": "Hills and Pits",
+    "rating": 3500
    }
   ]
  },
@@ -72,11 +120,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Profitable Interest Rate"
+    "name": "Profitable Interest Rate",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Buying Lemonade"
+    "name": "Buying Lemonade",
+    "rating": 1100
    },
    {
     "index": "C",
@@ -192,31 +242,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Bus to P\u00e9njamo"
+    "name": "Bus to P\u00e9njamo",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Kar Salesman"
+    "name": "Kar Salesman",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Gerrymandering"
+    "name": "Gerrymandering",
+    "rating": 1800
    },
    {
     "index": "D1",
-    "name": "Asesino (Easy Version)"
+    "name": "Asesino (Easy Version)",
+    "rating": 1900
    },
    {
     "index": "D2",
-    "name": "Asesino (Hard Version)"
+    "name": "Asesino (Hard Version)",
+    "rating": 2700
    },
    {
     "index": "E1",
-    "name": "Billetes MX (Easy Version)"
+    "name": "Billetes MX (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "E2",
-    "name": "Billetes MX (Hard Version)"
+    "name": "Billetes MX (Hard Version)",
+    "rating": 2600
    }
   ]
  },

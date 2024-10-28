@@ -1,5 +1,48 @@
 [
  {
+  "id": 2035,
+  "type": "Global",
+  "name": "Codeforces Global Round 27",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sliding"
+   },
+   {
+    "index": "B",
+    "name": "Everyone Loves Tres"
+   },
+   {
+    "index": "C",
+    "name": "Alya and Permutation"
+   },
+   {
+    "index": "D",
+    "name": "Yet Another Real Number Problem"
+   },
+   {
+    "index": "E",
+    "name": "Monster"
+   },
+   {
+    "index": "F",
+    "name": "Tree Operations"
+   },
+   {
+    "index": "G1",
+    "name": "Go Learn! (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Go Learn! (Hard Version)"
+   },
+   {
+    "index": "H",
+    "name": "Peak Productivity Forces"
+   }
+  ]
+ },
+ {
   "id": 2027,
   "type": "Div2",
   "name": "Codeforces Round 982 (Div. 2)",

@@ -1,5 +1,36 @@
 [
  {
+  "id": 2026,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 171 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Perpendicular Segments"
+   },
+   {
+    "index": "B",
+    "name": "Black Cells"
+   },
+   {
+    "index": "C",
+    "name": "Action Figures"
+   },
+   {
+    "index": "D",
+    "name": "Sums of Segments"
+   },
+   {
+    "index": "E",
+    "name": "Best Subsequence"
+   },
+   {
+    "index": "F",
+    "name": "Bermart Ice Cream"
+   }
+  ]
+ },
+ {
   "id": 2035,
   "type": "Global",
   "name": "Codeforces Global Round 27",

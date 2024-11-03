@@ -1,5 +1,40 @@
 [
  {
+  "id": 2036,
+  "type": "Div3",
+  "name": "Codeforces Round 984 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Quintomania"
+   },
+   {
+    "index": "B",
+    "name": "Startup"
+   },
+   {
+    "index": "C",
+    "name": "Anya and 1100"
+   },
+   {
+    "index": "D",
+    "name": "I Love 1543"
+   },
+   {
+    "index": "E",
+    "name": "Reverse the Rivers"
+   },
+   {
+    "index": "F",
+    "name": "XORificator 3000"
+   },
+   {
+    "index": "G",
+    "name": "Library of Magic"
+   }
+  ]
+ },
+ {
   "id": 2032,
   "type": "Div2",
   "name": "Codeforces Round 983 (Div. 2)",

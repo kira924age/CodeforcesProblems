@@ -103,39 +103,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sliding"
+    "name": "Sliding",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Everyone Loves Tres"
+    "name": "Everyone Loves Tres",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Alya and Permutation"
+    "name": "Alya and Permutation",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Yet Another Real Number Problem"
+    "name": "Yet Another Real Number Problem",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Monster"
+    "name": "Monster",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Tree Operations"
+    "name": "Tree Operations",
+    "rating": 2500
    },
    {
     "index": "G1",
-    "name": "Go Learn! (Easy Version)"
+    "name": "Go Learn! (Easy Version)",
+    "rating": 3300
    },
    {
     "index": "G2",
-    "name": "Go Learn! (Hard Version)"
+    "name": "Go Learn! (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "H",
-    "name": "Peak Productivity Forces"
+    "name": "Peak Productivity Forces",
+    "rating": 3500
    }
   ]
  },
@@ -146,31 +155,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Rectangle Arrangement"
+    "name": "Rectangle Arrangement",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Stalin Sort"
+    "name": "Stalin Sort",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Add Zeros"
+    "name": "Add Zeros",
+    "rating": 1500
    },
    {
     "index": "D1",
-    "name": "The Endspeaker (Easy Version)"
+    "name": "The Endspeaker (Easy Version)",
+    "rating": 1700
    },
    {
     "index": "D2",
-    "name": "The Endspeaker (Hard Version)"
+    "name": "The Endspeaker (Hard Version)",
+    "rating": 2200
    },
    {
     "index": "E1",
-    "name": "Bit Game (Easy Version)"
+    "name": "Bit Game (Easy Version)",
+    "rating": 2800
    },
    {
     "index": "E2",
-    "name": "Bit Game (Hard Version)"
+    "name": "Bit Game (Hard Version)",
+    "rating": 3100
    }
   ]
  },

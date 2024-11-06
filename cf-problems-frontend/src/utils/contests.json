@@ -72,27 +72,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Perpendicular Segments"
+    "name": "Perpendicular Segments",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Black Cells"
+    "name": "Black Cells",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Action Figures"
+    "name": "Action Figures",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Sums of Segments"
+    "name": "Sums of Segments",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Best Subsequence"
+    "name": "Best Subsequence",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Bermart Ice Cream"
+    "name": "Bermart Ice Cream",
+    "rating": 2700
    }
   ]
  },

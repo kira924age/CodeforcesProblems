@@ -41,27 +41,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Circuit"
+    "name": "Circuit",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Medians"
+    "name": "Medians",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Trinity"
+    "name": "Trinity",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Genokraken"
+    "name": "Genokraken",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Balanced"
+    "name": "Balanced",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Peanuts"
+    "name": "Peanuts",
+    "rating": 2700
    }
   ]
  },

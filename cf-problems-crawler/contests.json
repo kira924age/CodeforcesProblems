@@ -1,44 +1,84 @@
 [
  {
+  "id": 2028,
+  "type": "Div2",
+  "name": "Codeforces Round 986 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Alice's Adventures in ''Chess''"
+   },
+   {
+    "index": "B",
+    "name": "Alice's Adventures in Permuting"
+   },
+   {
+    "index": "C",
+    "name": "Alice's Adventures in Cutting Cake"
+   },
+   {
+    "index": "D",
+    "name": "Alice's Adventures in Cards"
+   },
+   {
+    "index": "E",
+    "name": "Alice's Adventures in the Rabbit Hole"
+   },
+   {
+    "index": "F",
+    "name": "Alice's Adventures in Addition"
+   }
+  ]
+ },
+ {
   "id": 2029,
   "type": "Other",
   "name": "Refact.ai Match 1 (Codeforces Round 985)",
   "problems": [
    {
     "index": "A",
-    "name": "Set"
+    "name": "Set",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Replacement"
+    "name": "Replacement",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "New Rating"
+    "name": "New Rating",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Cool Graph"
+    "name": "Cool Graph",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Common Generator"
+    "name": "Common Generator",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Palindrome Everywhere"
+    "name": "Palindrome Everywhere",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Balanced Problem"
+    "name": "Balanced Problem",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Message Spread"
+    "name": "Message Spread",
+    "rating": 3500
    },
    {
     "index": "I",
-    "name": "Variance Challenge"
+    "name": "Variance Challenge",
+    "rating": 3400
    }
   ]
  },
@@ -49,31 +89,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Quintomania"
+    "name": "Quintomania",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Startup"
+    "name": "Startup",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Anya and 1100"
+    "name": "Anya and 1100",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "I Love 1543"
+    "name": "I Love 1543",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Reverse the Rivers"
+    "name": "Reverse the Rivers",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "XORificator 3000"
+    "name": "XORificator 3000",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Library of Magic"
+    "name": "Library of Magic",
+    "rating": 2200
    }
   ]
  },

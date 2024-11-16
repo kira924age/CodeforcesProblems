@@ -1,32 +1,69 @@
 [
  {
+  "id": 2031,
+  "type": "Div2",
+  "name": "Codeforces Round 987 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Penchick and Modern Monument"
+   },
+   {
+    "index": "B",
+    "name": "Penchick and Satay Sticks"
+   },
+   {
+    "index": "C",
+    "name": "Penchick and BBQ Buns"
+   },
+   {
+    "index": "D",
+    "name": "Penchick and Desert Rabbit"
+   },
+   {
+    "index": "E",
+    "name": "Penchick and Chloe's Trees"
+   },
+   {
+    "index": "F",
+    "name": "Penchick and Even Medians"
+   }
+  ]
+ },
+ {
   "id": 2028,
   "type": "Div2",
   "name": "Codeforces Round 986 (Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Alice's Adventures in ''Chess''"
+    "name": "Alice's Adventures in ''Chess''",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Alice's Adventures in Permuting"
+    "name": "Alice's Adventures in Permuting",
+    "rating": 1400
    },
    {
     "index": "C",
-    "name": "Alice's Adventures in Cutting Cake"
+    "name": "Alice's Adventures in Cutting Cake",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Alice's Adventures in Cards"
+    "name": "Alice's Adventures in Cards",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Alice's Adventures in the Rabbit Hole"
+    "name": "Alice's Adventures in the Rabbit Hole",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Alice's Adventures in Addition"
+    "name": "Alice's Adventures in Addition",
+    "rating": 2700
    }
   ]
  },

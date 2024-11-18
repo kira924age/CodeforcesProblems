@@ -1,5 +1,40 @@
 [
  {
+  "id": 2037,
+  "type": "Div3",
+  "name": "Codeforces Round 988 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Twice"
+   },
+   {
+    "index": "B",
+    "name": "Intercepted Inputs"
+   },
+   {
+    "index": "C",
+    "name": "Superultra's Favorite Permutation"
+   },
+   {
+    "index": "D",
+    "name": "Sharky Surfing"
+   },
+   {
+    "index": "E",
+    "name": "Kachina's Favorite Binary String"
+   },
+   {
+    "index": "F",
+    "name": "Ardent Flames"
+   },
+   {
+    "index": "G",
+    "name": "Natlan Exploring"
+   }
+  ]
+ },
+ {
   "id": 2031,
   "type": "Div2",
   "name": "Codeforces Round 987 (Div. 2)",

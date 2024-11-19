@@ -1,36 +1,120 @@
 [
  {
+  "id": 2038,
+  "type": "ICPC",
+  "name": "2024-2025 ICPC, NERC, Southern and Volga Russian Regional Contest (Unrated, Online Mirror, ICPC Rules, Preferably Teams)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Bonus Project",
+    "rating": 1400
+   },
+   {
+    "index": "B",
+    "name": "Make It Equal",
+    "rating": 2100
+   },
+   {
+    "index": "C",
+    "name": "DIY",
+    "rating": 1400
+   },
+   {
+    "index": "D",
+    "name": "Divide OR Conquer",
+    "rating": 2400
+   },
+   {
+    "index": "E",
+    "name": "Barrels",
+    "rating": 2900
+   },
+   {
+    "index": "F",
+    "name": "Alternative Platforms",
+    "rating": 2500
+   },
+   {
+    "index": "G",
+    "name": "Guess One Character",
+    "rating": 1900
+   },
+   {
+    "index": "H",
+    "name": "Galactic Council",
+    "rating": 3000
+   },
+   {
+    "index": "I",
+    "name": "Polyathlon",
+    "rating": 2500
+   },
+   {
+    "index": "J",
+    "name": "Waiting for...",
+    "rating": 800
+   },
+   {
+    "index": "K",
+    "name": "Grid Walk",
+    "rating": 2100
+   },
+   {
+    "index": "L",
+    "name": "Bridge Renovation",
+    "rating": 1400
+   },
+   {
+    "index": "M",
+    "name": "Royal Flush",
+    "rating": 2800
+   },
+   {
+    "index": "N",
+    "name": "Fixing the Expression",
+    "rating": 800
+   }
+  ]
+ },
+ {
   "id": 2037,
   "type": "Div3",
   "name": "Codeforces Round 988 (Div. 3)",
   "problems": [
    {
     "index": "A",
-    "name": "Twice"
+    "name": "Twice",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Intercepted Inputs"
+    "name": "Intercepted Inputs",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Superultra's Favorite Permutation"
+    "name": "Superultra's Favorite Permutation",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Sharky Surfing"
+    "name": "Sharky Surfing",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Kachina's Favorite Binary String"
+    "name": "Kachina's Favorite Binary String",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Ardent Flames"
+    "name": "Ardent Flames",
+    "rating": 2100
    },
    {
     "index": "G",
-    "name": "Natlan Exploring"
+    "name": "Natlan Exploring",
+    "rating": 2000
    }
   ]
  },
@@ -41,27 +125,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Penchick and Modern Monument"
+    "name": "Penchick and Modern Monument",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Penchick and Satay Sticks"
+    "name": "Penchick and Satay Sticks",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Penchick and BBQ Buns"
+    "name": "Penchick and BBQ Buns",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Penchick and Desert Rabbit"
+    "name": "Penchick and Desert Rabbit",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Penchick and Chloe's Trees"
+    "name": "Penchick and Chloe's Trees",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Penchick and Even Medians"
+    "name": "Penchick and Even Medians",
+    "rating": 2800
    }
   ]
  },

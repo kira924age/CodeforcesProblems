@@ -1,5 +1,56 @@
 [
  {
+  "id": 2039,
+  "type": "Div1 + Div2",
+  "name": "CodeTON Round 9 (Div. 1 + Div. 2, Rated, Prizes!)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Shohag Loves Mod"
+   },
+   {
+    "index": "B",
+    "name": "Shohag Loves Strings"
+   },
+   {
+    "index": "C1",
+    "name": "Shohag Loves XOR (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Shohag Loves XOR (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Shohag Loves GCD"
+   },
+   {
+    "index": "E",
+    "name": "Shohag Loves Inversions"
+   },
+   {
+    "index": "F1",
+    "name": "Shohag Loves Counting (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Shohag Loves Counting (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Shohag Loves Pebae"
+   },
+   {
+    "index": "H1",
+    "name": "Cool Swap Walk (Easy Version)"
+   },
+   {
+    "index": "H2",
+    "name": "Cool Swap Walk (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2038,
   "type": "ICPC",
   "name": "2024-2025 ICPC, NERC, Southern and Volga Russian Regional Contest (Unrated, Online Mirror, ICPC Rules, Preferably Teams)",

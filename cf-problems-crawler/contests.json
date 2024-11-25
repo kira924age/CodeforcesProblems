@@ -1,5 +1,68 @@
 [
  {
+  "id": 2041,
+  "type": "ICPC",
+  "name": "2024 ICPC Asia Taichung Regional Contest (Unrated, Online Mirror, ICPC Rules, Preferably Teams)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Bento Box Adventure"
+   },
+   {
+    "index": "B",
+    "name": "Bowling Frame"
+   },
+   {
+    "index": "C",
+    "name": "Cube"
+   },
+   {
+    "index": "D",
+    "name": "Drunken Maze"
+   },
+   {
+    "index": "E",
+    "name": "Beautiful Array"
+   },
+   {
+    "index": "F",
+    "name": "Segmentation Folds"
+   },
+   {
+    "index": "G",
+    "name": "Grid Game"
+   },
+   {
+    "index": "H",
+    "name": "Sheet Music"
+   },
+   {
+    "index": "I",
+    "name": "Auto Complete"
+   },
+   {
+    "index": "J",
+    "name": "Bottle Arrangement"
+   },
+   {
+    "index": "K",
+    "name": "Trophic Balance Species"
+   },
+   {
+    "index": "L",
+    "name": "Building Castle"
+   },
+   {
+    "index": "M",
+    "name": "Selection Sort"
+   },
+   {
+    "index": "N",
+    "name": "Railway Construction"
+   }
+  ]
+ },
+ {
   "id": 2039,
   "type": "Div1 + Div2",
   "name": "CodeTON Round 9 (Div. 1 + Div. 2, Rated, Prizes!)",

@@ -6,59 +6,73 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Bento Box Adventure"
+    "name": "The Bento Box Adventure",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Bowling Frame"
+    "name": "Bowling Frame",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Cube"
+    "name": "Cube",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Drunken Maze"
+    "name": "Drunken Maze",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Beautiful Array"
+    "name": "Beautiful Array",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "Segmentation Folds"
+    "name": "Segmentation Folds",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Grid Game"
+    "name": "Grid Game",
+    "rating": 3100
    },
    {
     "index": "H",
-    "name": "Sheet Music"
+    "name": "Sheet Music",
+    "rating": 2300
    },
    {
     "index": "I",
-    "name": "Auto Complete"
+    "name": "Auto Complete",
+    "rating": 2300
    },
    {
     "index": "J",
-    "name": "Bottle Arrangement"
+    "name": "Bottle Arrangement",
+    "rating": 2700
    },
    {
     "index": "K",
-    "name": "Trophic Balance Species"
+    "name": "Trophic Balance Species",
+    "rating": 3100
    },
    {
     "index": "L",
-    "name": "Building Castle"
+    "name": "Building Castle",
+    "rating": 2900
    },
    {
     "index": "M",
-    "name": "Selection Sort"
+    "name": "Selection Sort",
+    "rating": 2000
    },
    {
     "index": "N",
-    "name": "Railway Construction"
+    "name": "Railway Construction",
+    "rating": 3300
    }
   ]
  },
@@ -69,47 +83,58 @@
   "problems": [
    {
     "index": "A",
-    "name": "Shohag Loves Mod"
+    "name": "Shohag Loves Mod",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Shohag Loves Strings"
+    "name": "Shohag Loves Strings",
+    "rating": 1000
    },
    {
     "index": "C1",
-    "name": "Shohag Loves XOR (Easy Version)"
+    "name": "Shohag Loves XOR (Easy Version)",
+    "rating": 1200
    },
    {
     "index": "C2",
-    "name": "Shohag Loves XOR (Hard Version)"
+    "name": "Shohag Loves XOR (Hard Version)",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Shohag Loves GCD"
+    "name": "Shohag Loves GCD",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Shohag Loves Inversions"
+    "name": "Shohag Loves Inversions",
+    "rating": 2200
    },
    {
     "index": "F1",
-    "name": "Shohag Loves Counting (Easy Version)"
+    "name": "Shohag Loves Counting (Easy Version)",
+    "rating": 2800
    },
    {
     "index": "F2",
-    "name": "Shohag Loves Counting (Hard Version)"
+    "name": "Shohag Loves Counting (Hard Version)",
+    "rating": 3200
    },
    {
     "index": "G",
-    "name": "Shohag Loves Pebae"
+    "name": "Shohag Loves Pebae",
+    "rating": 3500
    },
    {
     "index": "H1",
-    "name": "Cool Swap Walk (Easy Version)"
+    "name": "Cool Swap Walk (Easy Version)",
+    "rating": 3500
    },
    {
     "index": "H2",
-    "name": "Cool Swap Walk (Hard Version)"
+    "name": "Cool Swap Walk (Hard Version)",
+    "rating": 3500
    }
   ]
  },

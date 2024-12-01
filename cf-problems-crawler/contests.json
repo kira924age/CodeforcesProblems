@@ -1,5 +1,52 @@
 [
  {
+  "id": 2034,
+  "type": "Div1 + Div2",
+  "name": "Rayan Programming Contest 2024 - Selection (Codeforces Round 989, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "King Keykhosrow's Mystery"
+   },
+   {
+    "index": "B",
+    "name": "Rakhsh's Revival"
+   },
+   {
+    "index": "C",
+    "name": "Trapped in the Witch's Labyrinth"
+   },
+   {
+    "index": "D",
+    "name": "Darius' Wisdom"
+   },
+   {
+    "index": "E",
+    "name": "Permutations Harmony"
+   },
+   {
+    "index": "F1",
+    "name": "Khayyam's Royal Decree (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Khayyam's Royal Decree (Hard Version)"
+   },
+   {
+    "index": "G1",
+    "name": "Simurgh's Watch (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Simurgh's Watch (Hard Version)"
+   },
+   {
+    "index": "H",
+    "name": "Rayan vs. Rayaneh"
+   }
+  ]
+ },
+ {
   "id": 2041,
   "type": "ICPC",
   "name": "2024 ICPC Asia Taichung Regional Contest (Unrated, Online Mirror, ICPC Rules, Preferably Teams)",

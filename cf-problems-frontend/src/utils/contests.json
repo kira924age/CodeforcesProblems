@@ -1,5 +1,77 @@
 [
  {
+  "id": 2045,
+  "type": "ICPC",
+  "name": "2024-2025 ICPC Asia Jakarta Regional Contest (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Scrambled Scrabble",
+    "rating": 1700
+   },
+   {
+    "index": "B",
+    "name": "ICPC Square",
+    "rating": 2000
+   },
+   {
+    "index": "C",
+    "name": "Saraga",
+    "rating": 1400
+   },
+   {
+    "index": "D",
+    "name": "Aquatic Dragon",
+    "rating": 3500
+   },
+   {
+    "index": "E",
+    "name": "Narrower Passageway",
+    "rating": 2700
+   },
+   {
+    "index": "F",
+    "name": "Grid Game 3-angle",
+    "rating": 3000
+   },
+   {
+    "index": "G",
+    "name": "X Aura",
+    "rating": 2200
+   },
+   {
+    "index": "H",
+    "name": "Missing Separators",
+    "rating": 2200
+   },
+   {
+    "index": "I",
+    "name": "Microwavable Subsequence",
+    "rating": 2100
+   },
+   {
+    "index": "J",
+    "name": "Xorderable Array",
+    "rating": 2600
+   },
+   {
+    "index": "K",
+    "name": "GCDDCG",
+    "rating": 2900
+   },
+   {
+    "index": "L",
+    "name": "Buggy DFS",
+    "rating": 3000
+   },
+   {
+    "index": "M",
+    "name": "Mirror Maze",
+    "rating": 1800
+   }
+  ]
+ },
+ {
   "id": 2034,
   "type": "Div1 + Div2",
   "name": "Rayan Programming Contest 2024 - Selection (Codeforces Round 989, Div. 1 + Div. 2)",

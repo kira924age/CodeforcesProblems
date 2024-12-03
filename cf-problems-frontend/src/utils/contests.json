@@ -1,5 +1,36 @@
 [
  {
+  "id": 2042,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 172 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Greedy Monocarp"
+   },
+   {
+    "index": "B",
+    "name": "Game with Colored Marbles"
+   },
+   {
+    "index": "C",
+    "name": "Competitive Fishing"
+   },
+   {
+    "index": "D",
+    "name": "Recommendations"
+   },
+   {
+    "index": "E",
+    "name": "Vertex Pairs"
+   },
+   {
+    "index": "F",
+    "name": "Two Subarrays"
+   }
+  ]
+ },
+ {
   "id": 2045,
   "type": "ICPC",
   "name": "2024-2025 ICPC Asia Jakarta Regional Contest (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",

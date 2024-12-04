@@ -1,5 +1,75 @@
 [
  {
+  "id": 2046,
+  "type": "Div1",
+  "name": "Codeforces Round 990 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Swap Columns and Find a Path"
+   },
+   {
+    "index": "B",
+    "name": "Move Back at a Cost"
+   },
+   {
+    "index": "C",
+    "name": "Adventurers"
+   },
+   {
+    "index": "D",
+    "name": "For the Emperor!"
+   },
+   {
+    "index": "E1",
+    "name": "Cheops and a Contest (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Cheops and a Contest (Hard Version)"
+   },
+   {
+    "index": "F1",
+    "name": "Yandex Cuneiform (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Yandex Cuneiform (Hard Version)"
+   }
+  ]
+ },
+ {
+  "id": 2047,
+  "type": "Div2",
+  "name": "Codeforces Round 990 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Alyona and a Square Jigsaw Puzzle"
+   },
+   {
+    "index": "B",
+    "name": "Replace Character"
+   },
+   {
+    "index": "C",
+    "name": "Swap Columns and Find a Path"
+   },
+   {
+    "index": "D",
+    "name": "Move Back at a Cost"
+   },
+   {
+    "index": "E",
+    "name": "Adventurers"
+   },
+   {
+    "index": "F",
+    "name": "For the Emperor!"
+   }
+  ]
+ },
+ {
   "id": 2042,
   "type": "Educational",
   "name": "Educational Codeforces Round 172 (Rated for Div. 2)",

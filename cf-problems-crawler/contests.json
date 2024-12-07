@@ -41,35 +41,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Swap Columns and Find a Path"
+    "name": "Swap Columns and Find a Path",
+    "rating": 1200
    },
    {
     "index": "B",
-    "name": "Move Back at a Cost"
+    "name": "Move Back at a Cost",
+    "rating": 1600
    },
    {
     "index": "C",
-    "name": "Adventurers"
+    "name": "Adventurers",
+    "rating": 2100
    },
    {
     "index": "D",
-    "name": "For the Emperor!"
+    "name": "For the Emperor!",
+    "rating": 3100
    },
    {
     "index": "E1",
-    "name": "Cheops and a Contest (Easy Version)"
+    "name": "Cheops and a Contest (Easy Version)",
+    "rating": 2900
    },
    {
     "index": "E2",
-    "name": "Cheops and a Contest (Hard Version)"
+    "name": "Cheops and a Contest (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "F1",
-    "name": "Yandex Cuneiform (Easy Version)"
+    "name": "Yandex Cuneiform (Easy Version)",
+    "rating": 3300
    },
    {
     "index": "F2",
-    "name": "Yandex Cuneiform (Hard Version)"
+    "name": "Yandex Cuneiform (Hard Version)",
+    "rating": 3500
    }
   ]
  },
@@ -80,11 +88,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Alyona and a Square Jigsaw Puzzle"
+    "name": "Alyona and a Square Jigsaw Puzzle",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Replace Character"
+    "name": "Replace Character",
+    "rating": 900
    },
    {
     "index": "C",
@@ -111,27 +121,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Greedy Monocarp"
+    "name": "Greedy Monocarp",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Game with Colored Marbles"
+    "name": "Game with Colored Marbles",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Competitive Fishing"
+    "name": "Competitive Fishing",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Recommendations"
+    "name": "Recommendations",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Vertex Pairs"
+    "name": "Vertex Pairs",
+    "rating": 2900
    },
    {
     "index": "F",
-    "name": "Two Subarrays"
+    "name": "Two Subarrays",
+    "rating": 2600
    }
   ]
  },
@@ -214,43 +230,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "King Keykhosrow's Mystery"
+    "name": "King Keykhosrow's Mystery",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Rakhsh's Revival"
+    "name": "Rakhsh's Revival",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Trapped in the Witch's Labyrinth"
+    "name": "Trapped in the Witch's Labyrinth",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Darius' Wisdom"
+    "name": "Darius' Wisdom",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Permutations Harmony"
+    "name": "Permutations Harmony",
+    "rating": 2200
    },
    {
     "index": "F1",
-    "name": "Khayyam's Royal Decree (Easy Version)"
+    "name": "Khayyam's Royal Decree (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "F2",
-    "name": "Khayyam's Royal Decree (Hard Version)"
+    "name": "Khayyam's Royal Decree (Hard Version)",
+    "rating": 2800
    },
    {
     "index": "G1",
-    "name": "Simurgh's Watch (Easy Version)"
+    "name": "Simurgh's Watch (Easy Version)",
+    "rating": 3500
    },
    {
     "index": "G2",
-    "name": "Simurgh's Watch (Hard Version)"
+    "name": "Simurgh's Watch (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "H",
-    "name": "Rayan vs. Rayaneh"
+    "name": "Rayan vs. Rayaneh",
+    "rating": 3300
    }
   ]
  },

@@ -1,5 +1,17 @@
 [
  {
+  "id": 2044,
+  "type": "Div4",
+  "name": "Codeforces Round 993 (Div. 4)",
+  "problems": []
+ },
+ {
+  "id": 2052,
+  "type": "ICPC",
+  "name": "2024-2025 ICPC, NERC, Northern Eurasia Finals (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
+  "problems": []
+ },
+ {
   "id": 2040,
   "type": "Div2",
   "name": "Codeforces Round 992 (Div. 2)",

@@ -3,13 +3,116 @@
   "id": 2044,
   "type": "Div4",
   "name": "Codeforces Round 993 (Div. 4)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Easy Problem"
+   },
+   {
+    "index": "B",
+    "name": "Normal Problem"
+   },
+   {
+    "index": "C",
+    "name": "Hard Problem"
+   },
+   {
+    "index": "D",
+    "name": "Harder Problem"
+   },
+   {
+    "index": "E",
+    "name": "Insane Problem"
+   },
+   {
+    "index": "F",
+    "name": "Easy Demon Problem"
+   },
+   {
+    "index": "G1",
+    "name": "Medium Demon Problem (easy version)"
+   },
+   {
+    "index": "G2",
+    "name": "Medium Demon Problem (hard version)"
+   },
+   {
+    "index": "H",
+    "name": "Hard Demon Problem"
+   }
+  ]
  },
  {
   "id": 2052,
   "type": "ICPC",
   "name": "2024-2025 ICPC, NERC, Northern Eurasia Finals (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Adrenaline Rush",
+    "rating": 1600
+   },
+   {
+    "index": "B",
+    "name": "BitBitJump",
+    "rating": 2400
+   },
+   {
+    "index": "C",
+    "name": "Cactus without Bridges",
+    "rating": 3500
+   },
+   {
+    "index": "D",
+    "name": "DAG Serialization",
+    "rating": 2100
+   },
+   {
+    "index": "E",
+    "name": "Expression Correction",
+    "rating": 1900
+   },
+   {
+    "index": "F",
+    "name": "Fix Flooded Floor",
+    "rating": 1700
+   },
+   {
+    "index": "G",
+    "name": "Geometric Balance",
+    "rating": 2800
+   },
+   {
+    "index": "H",
+    "name": "Hunting Hoglins in Hogwarts",
+    "rating": 3500
+   },
+   {
+    "index": "I",
+    "name": "Incompetent Delivery Guy",
+    "rating": 2800
+   },
+   {
+    "index": "J",
+    "name": "Judicious Watching",
+    "rating": 2000
+   },
+   {
+    "index": "K",
+    "name": "Knowns and Unknowns",
+    "rating": 2800
+   },
+   {
+    "index": "L",
+    "name": "Legacy Screensaver",
+    "rating": 2900
+   },
+   {
+    "index": "M",
+    "name": "Managing Cluster",
+    "rating": 2700
+   }
+  ]
  },
  {
   "id": 2040,
@@ -18,27 +121,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Game of Division"
+    "name": "Game of Division",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Paint a Strip"
+    "name": "Paint a Strip",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Ordered Permutations"
+    "name": "Ordered Permutations",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Non Prime Tree"
+    "name": "Non Prime Tree",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Control of Randomness"
+    "name": "Control of Randomness",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Number of Cubes"
+    "name": "Number of Cubes",
+    "rating": 2700
    }
   ]
  },
@@ -49,31 +158,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Line Breaks"
+    "name": "Line Breaks",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Transfusion"
+    "name": "Transfusion",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Uninteresting Number"
+    "name": "Uninteresting Number",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Digital string maximization"
+    "name": "Digital string maximization",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Three Strings"
+    "name": "Three Strings",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Maximum modulo equality"
+    "name": "Maximum modulo equality",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Tree Destruction"
+    "name": "Tree Destruction",
+    "rating": 1900
    }
   ]
  },

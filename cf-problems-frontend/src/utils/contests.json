@@ -1,5 +1,52 @@
 [
  {
+  "id": 2048,
+  "type": "Global",
+  "name": "Codeforces Global Round 28",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Kevin and Combination Lock"
+   },
+   {
+    "index": "B",
+    "name": "Kevin and Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Kevin and Binary Strings"
+   },
+   {
+    "index": "D",
+    "name": "Kevin and Competition Memories"
+   },
+   {
+    "index": "E",
+    "name": "Kevin and Bipartite Graph"
+   },
+   {
+    "index": "F",
+    "name": "Kevin and Math Class"
+   },
+   {
+    "index": "G",
+    "name": "Kevin and Matrices"
+   },
+   {
+    "index": "H",
+    "name": "Kevin and Strange Operation"
+   },
+   {
+    "index": "I1",
+    "name": "Kevin and Puzzle (Easy Version)"
+   },
+   {
+    "index": "I2",
+    "name": "Kevin and Puzzle (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2044,
   "type": "Div4",
   "name": "Codeforces Round 993 (Div. 4)",

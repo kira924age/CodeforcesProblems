@@ -1,5 +1,36 @@
 [
  {
+  "id": 2049,
+  "type": "Div2",
+  "name": "Codeforces Round 994 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "MEX Destruction"
+   },
+   {
+    "index": "B",
+    "name": "pspspsps"
+   },
+   {
+    "index": "C",
+    "name": "MEX Cycle"
+   },
+   {
+    "index": "D",
+    "name": "Shift + Esc"
+   },
+   {
+    "index": "E",
+    "name": "Broken Queries"
+   },
+   {
+    "index": "F",
+    "name": "MEX OR Mania"
+   }
+  ]
+ },
+ {
   "id": 2048,
   "type": "Global",
   "name": "Codeforces Global Round 28",

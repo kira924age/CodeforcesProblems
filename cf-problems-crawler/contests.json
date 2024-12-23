@@ -1,5 +1,40 @@
 [
  {
+  "id": 2051,
+  "type": "Div3",
+  "name": "Codeforces Round 995 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Preparing for the Olympiad"
+   },
+   {
+    "index": "B",
+    "name": "Journey"
+   },
+   {
+    "index": "C",
+    "name": "Preparing for the Exam"
+   },
+   {
+    "index": "D",
+    "name": "Counting Pairs"
+   },
+   {
+    "index": "E",
+    "name": "Best Price"
+   },
+   {
+    "index": "F",
+    "name": "Joker"
+   },
+   {
+    "index": "G",
+    "name": "Snakes"
+   }
+  ]
+ },
+ {
   "id": 2049,
   "type": "Div2",
   "name": "Codeforces Round 994 (Div. 2)",

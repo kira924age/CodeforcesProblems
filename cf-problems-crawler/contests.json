@@ -1,5 +1,40 @@
 [
  {
+  "id": 2043,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 173 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Coin Transformation"
+   },
+   {
+    "index": "B",
+    "name": "Digits"
+   },
+   {
+    "index": "C",
+    "name": "Sums on Segments"
+   },
+   {
+    "index": "D",
+    "name": "Problem about GCD"
+   },
+   {
+    "index": "E",
+    "name": "Matrix Transformation"
+   },
+   {
+    "index": "F",
+    "name": "Nim"
+   },
+   {
+    "index": "G",
+    "name": "Problem with Queries"
+   }
+  ]
+ },
+ {
   "id": 2051,
   "type": "Div3",
   "name": "Codeforces Round 995 (Div. 3)",
@@ -72,43 +107,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Kevin and Combination Lock"
+    "name": "Kevin and Combination Lock",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Kevin and Permutation"
+    "name": "Kevin and Permutation",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Kevin and Binary Strings"
+    "name": "Kevin and Binary Strings",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Kevin and Competition Memories"
+    "name": "Kevin and Competition Memories",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Kevin and Bipartite Graph"
+    "name": "Kevin and Bipartite Graph",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Kevin and Math Class"
+    "name": "Kevin and Math Class",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Kevin and Matrices"
+    "name": "Kevin and Matrices",
+    "rating": 2800
    },
    {
     "index": "H",
-    "name": "Kevin and Strange Operation"
+    "name": "Kevin and Strange Operation",
+    "rating": 3100
    },
    {
     "index": "I1",
-    "name": "Kevin and Puzzle (Easy Version)"
+    "name": "Kevin and Puzzle (Easy Version)",
+    "rating": 3500
    },
    {
     "index": "I2",
-    "name": "Kevin and Puzzle (Hard Version)"
+    "name": "Kevin and Puzzle (Hard Version)",
+    "rating": 3500
    }
   ]
  },
@@ -119,39 +164,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Easy Problem"
+    "name": "Easy Problem",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Normal Problem"
+    "name": "Normal Problem",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Hard Problem"
+    "name": "Hard Problem",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Harder Problem"
+    "name": "Harder Problem",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Insane Problem"
+    "name": "Insane Problem",
+    "rating": 1300
    },
    {
     "index": "F",
-    "name": "Easy Demon Problem"
+    "name": "Easy Demon Problem",
+    "rating": 1900
    },
    {
     "index": "G1",
-    "name": "Medium Demon Problem (easy version)"
+    "name": "Medium Demon Problem (easy version)",
+    "rating": 1700
    },
    {
     "index": "G2",
-    "name": "Medium Demon Problem (hard version)"
+    "name": "Medium Demon Problem (hard version)",
+    "rating": 1900
    },
    {
     "index": "H",
-    "name": "Hard Demon Problem"
+    "name": "Hard Demon Problem",
+    "rating": 2100
    }
   ]
  },

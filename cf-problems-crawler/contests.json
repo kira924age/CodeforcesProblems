@@ -1,5 +1,52 @@
 [
  {
+  "id": 2053,
+  "type": "Other",
+  "name": "Good Bye 2024: 2025 is NEAR",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Tender Carpenter"
+   },
+   {
+    "index": "B",
+    "name": "Outstanding Impressionist"
+   },
+   {
+    "index": "C",
+    "name": "Bewitching Stargazer"
+   },
+   {
+    "index": "D",
+    "name": "Refined Product Optimality"
+   },
+   {
+    "index": "E",
+    "name": "Resourceful Caterpillar Sequence"
+   },
+   {
+    "index": "F",
+    "name": "Earnest Matrix Complement"
+   },
+   {
+    "index": "G",
+    "name": "Naive String Splits"
+   },
+   {
+    "index": "H",
+    "name": "Delicate Anti-monotonous Operations"
+   },
+   {
+    "index": "I1",
+    "name": "Affectionate Arrays (Easy Version)"
+   },
+   {
+    "index": "I2",
+    "name": "Affectionate Arrays (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2043,
   "type": "Educational",
   "name": "Educational Codeforces Round 173 (Rated for Div. 2)",

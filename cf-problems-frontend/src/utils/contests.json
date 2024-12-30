@@ -123,27 +123,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "MEX Destruction"
+    "name": "MEX Destruction",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "pspspsps"
+    "name": "pspspsps",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "MEX Cycle"
+    "name": "MEX Cycle",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Shift + Esc"
+    "name": "Shift + Esc",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Broken Queries"
+    "name": "Broken Queries",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "MEX OR Mania"
+    "name": "MEX OR Mania",
+    "rating": 2700
    }
   ]
  },

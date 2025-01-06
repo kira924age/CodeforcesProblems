@@ -3,7 +3,44 @@
   "id": 2057,
   "type": "Other",
   "name": "Hello 2025",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "MEX Table"
+   },
+   {
+    "index": "B",
+    "name": "Gorilla and the Exam"
+   },
+   {
+    "index": "C",
+    "name": "Trip to the Olympiad"
+   },
+   {
+    "index": "D",
+    "name": "Gifts Order"
+   },
+   {
+    "index": "E1",
+    "name": "Another Exercise on Graphs (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Another Exercise on Graphs (hard version)"
+   },
+   {
+    "index": "F",
+    "name": "Formation"
+   },
+   {
+    "index": "G",
+    "name": "Secret Message"
+   },
+   {
+    "index": "H",
+    "name": "Coffee Break"
+   }
+  ]
  },
  {
   "id": 2053,

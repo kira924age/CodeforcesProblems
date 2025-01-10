@@ -96,31 +96,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Coin Transformation"
+    "name": "Coin Transformation",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Digits"
+    "name": "Digits",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Sums on Segments"
+    "name": "Sums on Segments",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Problem about GCD"
+    "name": "Problem about GCD",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Matrix Transformation"
+    "name": "Matrix Transformation",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Nim"
+    "name": "Nim",
+    "rating": 2700
    },
    {
     "index": "G",
-    "name": "Problem with Queries"
+    "name": "Problem with Queries",
+    "rating": 3000
    }
   ]
  },
@@ -131,31 +138,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Preparing for the Olympiad"
+    "name": "Preparing for the Olympiad",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Journey"
+    "name": "Journey",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Preparing for the Exam"
+    "name": "Preparing for the Exam",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Counting Pairs"
+    "name": "Counting Pairs",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Best Price"
+    "name": "Best Price",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Joker"
+    "name": "Joker",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Snakes"
+    "name": "Snakes",
+    "rating": 2100
    }
   ]
  },

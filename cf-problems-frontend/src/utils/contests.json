@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "MEX Table"
+    "name": "MEX Table",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Gorilla and the Exam"
+    "name": "Gorilla and the Exam",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Trip to the Olympiad"
+    "name": "Trip to the Olympiad",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Gifts Order"
+    "name": "Gifts Order",
+    "rating": 2000
    },
    {
     "index": "E1",
-    "name": "Another Exercise on Graphs (Easy Version)"
+    "name": "Another Exercise on Graphs (Easy Version)",
+    "rating": 2300
    },
    {
     "index": "E2",
-    "name": "Another Exercise on Graphs (hard version)"
+    "name": "Another Exercise on Graphs (hard version)",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Formation"
+    "name": "Formation",
+    "rating": 3300
    },
    {
     "index": "G",
-    "name": "Secret Message"
+    "name": "Secret Message",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Coffee Break"
+    "name": "Coffee Break",
+    "rating": 3500
    }
   ]
  },
@@ -49,43 +58,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Tender Carpenter"
+    "name": "Tender Carpenter",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Outstanding Impressionist"
+    "name": "Outstanding Impressionist",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Bewitching Stargazer"
+    "name": "Bewitching Stargazer",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Refined Product Optimality"
+    "name": "Refined Product Optimality",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Resourceful Caterpillar Sequence"
+    "name": "Resourceful Caterpillar Sequence",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Earnest Matrix Complement"
+    "name": "Earnest Matrix Complement",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Naive String Splits"
+    "name": "Naive String Splits",
+    "rating": 3400
    },
    {
     "index": "H",
-    "name": "Delicate Anti-monotonous Operations"
+    "name": "Delicate Anti-monotonous Operations",
+    "rating": 3500
    },
    {
     "index": "I1",
-    "name": "Affectionate Arrays (Easy Version)"
+    "name": "Affectionate Arrays (Easy Version)",
+    "rating": 2800
    },
    {
     "index": "I2",
-    "name": "Affectionate Arrays (Hard Version)"
+    "name": "Affectionate Arrays (Hard Version)",
+    "rating": 3500
    }
   ]
  },

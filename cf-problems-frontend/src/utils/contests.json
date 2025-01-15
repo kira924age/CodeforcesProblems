@@ -1,5 +1,16 @@
 [
  {
+  "id": 2054,
+  "type": "Other",
+  "name": "MaraTON Challenge 1",
+  "problems": [
+   {
+    "index": "A",
+    "name": "TON Block Compression"
+   }
+  ]
+ },
+ {
   "id": 2055,
   "type": "Div2",
   "name": "Codeforces Round 996 (Div. 2)",

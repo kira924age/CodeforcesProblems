@@ -1,5 +1,40 @@
 [
  {
+  "id": 2056,
+  "type": "Div2",
+  "name": "Codeforces Round 997 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Shape Perimeter"
+   },
+   {
+    "index": "B",
+    "name": "Find the Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Palindromic Subsequences"
+   },
+   {
+    "index": "D",
+    "name": "Unique Median"
+   },
+   {
+    "index": "E",
+    "name": "Nested Segments"
+   },
+   {
+    "index": "F1",
+    "name": "Xor of Median (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Xor of Median (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2054,
   "type": "Other",
   "name": "MaraTON Challenge 1",

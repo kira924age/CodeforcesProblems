@@ -1,5 +1,56 @@
 [
  {
+  "id": 2061,
+  "type": "Div1 + Div2",
+  "name": "IAEPC Preliminary Contest (Codeforces Round 999, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Kevin and Arithmetic"
+   },
+   {
+    "index": "B",
+    "name": "Kevin and Geometry"
+   },
+   {
+    "index": "C",
+    "name": "Kevin and Puzzle"
+   },
+   {
+    "index": "D",
+    "name": "Kevin and Numbers"
+   },
+   {
+    "index": "E",
+    "name": "Kevin and And"
+   },
+   {
+    "index": "F1",
+    "name": "Kevin and Binary String (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Kevin and Binary String (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Kevin and Teams"
+   },
+   {
+    "index": "H1",
+    "name": "Kevin and Stones (Easy Version)"
+   },
+   {
+    "index": "H2",
+    "name": "Kevin and Stones (Hard Version)"
+   },
+   {
+    "index": "I",
+    "name": "Kevin and Nivek"
+   }
+  ]
+ },
+ {
   "id": 2060,
   "type": "Div3",
   "name": "Codeforces Round 998 (Div. 3)",

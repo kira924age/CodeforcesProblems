@@ -1,5 +1,48 @@
 [
  {
+  "id": 2062,
+  "type": "Div1 + Div2",
+  "name": "Ethflow Round 1 (Codeforces Round 1001, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "String"
+   },
+   {
+    "index": "B",
+    "name": "Clockwork"
+   },
+   {
+    "index": "C",
+    "name": "Cirno and Operations"
+   },
+   {
+    "index": "D",
+    "name": "Balanced Tree"
+   },
+   {
+    "index": "E1",
+    "name": "The Game (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "The Game (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Traveling Salescat"
+   },
+   {
+    "index": "G",
+    "name": "Permutation Factory"
+   },
+   {
+    "index": "H",
+    "name": "Galaxy Generator"
+   }
+  ]
+ },
+ {
   "id": 2063,
   "type": "Div2",
   "name": "Codeforces Round 1000 (Div. 2)",
@@ -41,47 +84,58 @@
   "problems": [
    {
     "index": "A",
-    "name": "Kevin and Arithmetic"
+    "name": "Kevin and Arithmetic",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Kevin and Geometry"
+    "name": "Kevin and Geometry",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Kevin and Puzzle"
+    "name": "Kevin and Puzzle",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Kevin and Numbers"
+    "name": "Kevin and Numbers",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Kevin and And"
+    "name": "Kevin and And",
+    "rating": 2000
    },
    {
     "index": "F1",
-    "name": "Kevin and Binary String (Easy Version)"
+    "name": "Kevin and Binary String (Easy Version)",
+    "rating": 2100
    },
    {
     "index": "F2",
-    "name": "Kevin and Binary String (Hard Version)"
+    "name": "Kevin and Binary String (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "G",
-    "name": "Kevin and Teams"
+    "name": "Kevin and Teams",
+    "rating": 2900
    },
    {
     "index": "H1",
-    "name": "Kevin and Stones (Easy Version)"
+    "name": "Kevin and Stones (Easy Version)",
+    "rating": 3500
    },
    {
     "index": "H2",
-    "name": "Kevin and Stones (Hard Version)"
+    "name": "Kevin and Stones (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "I",
-    "name": "Kevin and Nivek"
+    "name": "Kevin and Nivek",
+    "rating": 3500
    }
   ]
  },
@@ -92,31 +146,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Fibonacciness"
+    "name": "Fibonacciness",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Farmer John's Card Game"
+    "name": "Farmer John's Card Game",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Game of Mathletes"
+    "name": "Game of Mathletes",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "Subtract Min Sort"
+    "name": "Subtract Min Sort",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Graph Composition"
+    "name": "Graph Composition",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Multiplicative Arrays"
+    "name": "Multiplicative Arrays",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "Bugged Sort"
+    "name": "Bugged Sort",
+    "rating": 2400
    }
   ]
  },
@@ -127,31 +188,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Shape Perimeter"
+    "name": "Shape Perimeter",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Find the Permutation"
+    "name": "Find the Permutation",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Palindromic Subsequences"
+    "name": "Palindromic Subsequences",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Unique Median"
+    "name": "Unique Median",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Nested Segments"
+    "name": "Nested Segments",
+    "rating": 2500
    },
    {
     "index": "F1",
-    "name": "Xor of Median (Easy Version)"
+    "name": "Xor of Median (Easy Version)",
+    "rating": 2700
    },
    {
     "index": "F2",
-    "name": "Xor of Median (Hard Version)"
+    "name": "Xor of Median (Hard Version)",
+    "rating": 3000
    }
   ]
  },
@@ -173,27 +241,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Two Frogs"
+    "name": "Two Frogs",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Crafting"
+    "name": "Crafting",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "The Trail"
+    "name": "The Trail",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Scarecrow"
+    "name": "Scarecrow",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Haystacks"
+    "name": "Haystacks",
+    "rating": 2800
    },
    {
     "index": "F",
-    "name": "Cosmic Divide"
+    "name": "Cosmic Divide",
+    "rating": 3200
    }
   ]
  },

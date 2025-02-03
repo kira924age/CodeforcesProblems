@@ -1,44 +1,84 @@
 [
  {
+  "id": 2059,
+  "type": "Div2",
+  "name": "Codeforces Round 1002 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Milya and Two Arrays"
+   },
+   {
+    "index": "B",
+    "name": "Cost of the Array"
+   },
+   {
+    "index": "C",
+    "name": "Customer Service"
+   },
+   {
+    "index": "D",
+    "name": "Graph and Graph"
+   },
+   {
+    "index": "E1",
+    "name": "Stop Gaming (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Stop Gaming (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2062,
   "type": "Div1 + Div2",
   "name": "Ethflow Round 1 (Codeforces Round 1001, Div. 1 + Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "String"
+    "name": "String",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Clockwork"
+    "name": "Clockwork",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Cirno and Operations"
+    "name": "Cirno and Operations",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Balanced Tree"
+    "name": "Balanced Tree",
+    "rating": 2200
    },
    {
     "index": "E1",
-    "name": "The Game (Easy Version)"
+    "name": "The Game (Easy Version)",
+    "rating": 2000
    },
    {
     "index": "E2",
-    "name": "The Game (Hard Version)"
+    "name": "The Game (Hard Version)",
+    "rating": 3000
    },
    {
     "index": "F",
-    "name": "Traveling Salescat"
+    "name": "Traveling Salescat",
+    "rating": 2900
    },
    {
     "index": "G",
-    "name": "Permutation Factory"
+    "name": "Permutation Factory",
+    "rating": 3500
    },
    {
     "index": "H",
-    "name": "Galaxy Generator"
+    "name": "Galaxy Generator",
+    "rating": 3500
    }
   ]
  },
@@ -49,31 +89,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Minimal Coprime"
+    "name": "Minimal Coprime",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Subsequence Update"
+    "name": "Subsequence Update",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Remove Exactly Two"
+    "name": "Remove Exactly Two",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Game With Triangles"
+    "name": "Game With Triangles",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Triangle Tree"
+    "name": "Triangle Tree",
+    "rating": 2300
    },
    {
     "index": "F1",
-    "name": "Counting Is Not Fun (Easy Version)"
+    "name": "Counting Is Not Fun (Easy Version)",
+    "rating": 2400
    },
    {
     "index": "F2",
-    "name": "Counting Is Not Fun (Hard Version)"
+    "name": "Counting Is Not Fun (Hard Version)",
+    "rating": 2700
    }
   ]
  },

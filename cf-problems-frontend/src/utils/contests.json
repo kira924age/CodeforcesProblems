@@ -1,5 +1,48 @@
 [
  {
+  "id": 2065,
+  "type": "Div4",
+  "name": "Codeforces Round 1003 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Skibidus and Amog'u"
+   },
+   {
+    "index": "B",
+    "name": "Skibidus and Ohio"
+   },
+   {
+    "index": "C1",
+    "name": "Skibidus and Fanum Tax (easy version)"
+   },
+   {
+    "index": "C2",
+    "name": "Skibidus and Fanum Tax (hard version)"
+   },
+   {
+    "index": "D",
+    "name": "Skibidus and Sigma"
+   },
+   {
+    "index": "E",
+    "name": "Skibidus and Rizz"
+   },
+   {
+    "index": "F",
+    "name": "Skibidus and Slay"
+   },
+   {
+    "index": "G",
+    "name": "Skibidus and Capping"
+   },
+   {
+    "index": "H",
+    "name": "Bro Thinks He's Him"
+   }
+  ]
+ },
+ {
   "id": 2059,
   "type": "Div2",
   "name": "Codeforces Round 1002 (Div. 2)",

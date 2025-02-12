@@ -1,5 +1,75 @@
 [
  {
+  "id": 2066,
+  "type": "Div1",
+  "name": "Codeforces Round 1004 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Object Identification"
+   },
+   {
+    "index": "B",
+    "name": "White Magic"
+   },
+   {
+    "index": "C",
+    "name": "Bitwise Slides"
+   },
+   {
+    "index": "D1",
+    "name": "Club of Young Aircraft Builders (easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Club of Young Aircraft Builders (hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Tropical Season"
+   },
+   {
+    "index": "F",
+    "name": "Curse"
+   }
+  ]
+ },
+ {
+  "id": 2067,
+  "type": "Div2",
+  "name": "Codeforces Round 1004 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Adjacent Digit Sums"
+   },
+   {
+    "index": "B",
+    "name": "Two Large Bags"
+   },
+   {
+    "index": "C",
+    "name": "Devyatkino"
+   },
+   {
+    "index": "D",
+    "name": "Object Identification"
+   },
+   {
+    "index": "E",
+    "name": "White Magic"
+   },
+   {
+    "index": "F",
+    "name": "Bitwise Slides"
+   },
+   {
+    "index": "G",
+    "name": "Tropical Season"
+   }
+  ]
+ },
+ {
   "id": 2065,
   "type": "Div4",
   "name": "Codeforces Round 1003 (Div. 4)",

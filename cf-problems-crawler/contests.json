@@ -1,5 +1,36 @@
 [
  {
+  "id": 2064,
+  "type": "Div2",
+  "name": "Codeforces Round 1005 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Brogramming Contest"
+   },
+   {
+    "index": "B",
+    "name": "Variety is Discouraged"
+   },
+   {
+    "index": "C",
+    "name": "Remove the Ends"
+   },
+   {
+    "index": "D",
+    "name": "Eating"
+   },
+   {
+    "index": "E",
+    "name": "Mycraft Sand Sort"
+   },
+   {
+    "index": "F",
+    "name": "We Be Summing"
+   }
+  ]
+ },
+ {
   "id": 2066,
   "type": "Div1",
   "name": "Codeforces Round 1004 (Div. 1)",

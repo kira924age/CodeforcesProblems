@@ -1,5 +1,36 @@
 [
  {
+  "id": 2069,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 174 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Was there an Array?"
+   },
+   {
+    "index": "B",
+    "name": "Set of Strangers"
+   },
+   {
+    "index": "C",
+    "name": "Beautiful Sequence"
+   },
+   {
+    "index": "D",
+    "name": "Palindrome Shuffle"
+   },
+   {
+    "index": "E",
+    "name": "A, B, AB and BA"
+   },
+   {
+    "index": "F",
+    "name": "Graph Inclusion"
+   }
+  ]
+ },
+ {
   "id": 2064,
   "type": "Div2",
   "name": "Codeforces Round 1005 (Div. 2)",

@@ -181,27 +181,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Milya and Two Arrays"
+    "name": "Milya and Two Arrays",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Cost of the Array"
+    "name": "Cost of the Array",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Customer Service"
+    "name": "Customer Service",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Graph and Graph"
+    "name": "Graph and Graph",
+    "rating": 1900
    },
    {
     "index": "E1",
-    "name": "Stop Gaming (Easy Version)"
+    "name": "Stop Gaming (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "E2",
-    "name": "Stop Gaming (Hard Version)"
+    "name": "Stop Gaming (Hard Version)",
+    "rating": 2900
    }
   ]
  },

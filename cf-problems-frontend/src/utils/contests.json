@@ -1,32 +1,73 @@
 [
  {
+  "id": 2072,
+  "type": "Div3",
+  "name": "Codeforces Round 1006 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "New World, New Me, New Array"
+   },
+   {
+    "index": "B",
+    "name": "Having Been a Treasurer in the Past, I Help Goblins Deceive"
+   },
+   {
+    "index": "C",
+    "name": "Creating Keys for StORages Has Become My Main Skill"
+   },
+   {
+    "index": "D",
+    "name": "For Wizards, the Exam Is Easy, but I Couldn't Handle It"
+   },
+   {
+    "index": "E",
+    "name": "Do You Love Your Hero and His Two-Hit Multi-Target Attacks?"
+   },
+   {
+    "index": "F",
+    "name": "Goodbye, Banker Life"
+   },
+   {
+    "index": "G",
+    "name": "I've Been Flipping Numbers for 300 Years and Calculated the Sum"
+   }
+  ]
+ },
+ {
   "id": 2069,
   "type": "Educational",
   "name": "Educational Codeforces Round 174 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Was there an Array?"
+    "name": "Was there an Array?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Set of Strangers"
+    "name": "Set of Strangers",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Beautiful Sequence"
+    "name": "Beautiful Sequence",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Palindrome Shuffle"
+    "name": "Palindrome Shuffle",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "A, B, AB and BA"
+    "name": "A, B, AB and BA",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Graph Inclusion"
+    "name": "Graph Inclusion",
+    "rating": 2800
    }
   ]
  },
@@ -37,27 +78,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Brogramming Contest"
+    "name": "Brogramming Contest",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Variety is Discouraged"
+    "name": "Variety is Discouraged",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Remove the Ends"
+    "name": "Remove the Ends",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Eating"
+    "name": "Eating",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Mycraft Sand Sort"
+    "name": "Mycraft Sand Sort",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "We Be Summing"
+    "name": "We Be Summing",
+    "rating": 2600
    }
   ]
  },
@@ -68,31 +115,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Object Identification"
+    "name": "Object Identification",
+    "rating": 1400
    },
    {
     "index": "B",
-    "name": "White Magic"
+    "name": "White Magic",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Bitwise Slides"
+    "name": "Bitwise Slides",
+    "rating": 2300
    },
    {
     "index": "D1",
-    "name": "Club of Young Aircraft Builders (easy version)"
+    "name": "Club of Young Aircraft Builders (easy version)",
+    "rating": 2400
    },
    {
     "index": "D2",
-    "name": "Club of Young Aircraft Builders (hard version)"
+    "name": "Club of Young Aircraft Builders (hard version)",
+    "rating": 2900
    },
    {
     "index": "E",
-    "name": "Tropical Season"
+    "name": "Tropical Season",
+    "rating": 3300
    },
    {
     "index": "F",
-    "name": "Curse"
+    "name": "Curse",
+    "rating": 3300
    }
   ]
  },
@@ -103,15 +157,18 @@
   "problems": [
    {
     "index": "A",
-    "name": "Adjacent Digit Sums"
+    "name": "Adjacent Digit Sums",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Two Large Bags"
+    "name": "Two Large Bags",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Devyatkino"
+    "name": "Devyatkino",
+    "rating": 1500
    },
    {
     "index": "D",
@@ -138,39 +195,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Skibidus and Amog'u"
+    "name": "Skibidus and Amog'u",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Skibidus and Ohio"
+    "name": "Skibidus and Ohio",
+    "rating": 800
    },
    {
     "index": "C1",
-    "name": "Skibidus and Fanum Tax (easy version)"
+    "name": "Skibidus and Fanum Tax (easy version)",
+    "rating": 1100
    },
    {
     "index": "C2",
-    "name": "Skibidus and Fanum Tax (hard version)"
+    "name": "Skibidus and Fanum Tax (hard version)",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Skibidus and Sigma"
+    "name": "Skibidus and Sigma",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Skibidus and Rizz"
+    "name": "Skibidus and Rizz",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Skibidus and Slay"
+    "name": "Skibidus and Slay",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Skibidus and Capping"
+    "name": "Skibidus and Capping",
+    "rating": 1700
    },
    {
     "index": "H",
-    "name": "Bro Thinks He's Him"
+    "name": "Bro Thinks He's Him",
+    "rating": 2200
    }
   ]
  },

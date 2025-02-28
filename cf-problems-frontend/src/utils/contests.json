@@ -1,5 +1,36 @@
 [
  {
+  "id": 2070,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 175 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "FizzBuzz Remixed"
+   },
+   {
+    "index": "B",
+    "name": "Robot Program"
+   },
+   {
+    "index": "C",
+    "name": "Limited Repainting"
+   },
+   {
+    "index": "D",
+    "name": "Tree Jumps"
+   },
+   {
+    "index": "E",
+    "name": "Game with Binary String"
+   },
+   {
+    "index": "F",
+    "name": "Friends and Pizza"
+   }
+  ]
+ },
+ {
   "id": 2072,
   "type": "Div3",
   "name": "Codeforces Round 1006 (Div. 3)",

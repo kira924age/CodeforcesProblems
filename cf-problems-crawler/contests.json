@@ -1,5 +1,40 @@
 [
  {
+  "id": 2071,
+  "type": "Div2",
+  "name": "Codeforces Round 1007 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Play Never Ends"
+   },
+   {
+    "index": "B",
+    "name": "Perfecto"
+   },
+   {
+    "index": "C",
+    "name": "Trapmigiano Reggiano"
+   },
+   {
+    "index": "D1",
+    "name": "Infinite Sequence (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Infinite Sequence (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "LeaFall"
+   },
+   {
+    "index": "F",
+    "name": "Towering Arrays"
+   }
+  ]
+ },
+ {
   "id": 2070,
   "type": "Educational",
   "name": "Educational Codeforces Round 175 (Rated for Div. 2)",

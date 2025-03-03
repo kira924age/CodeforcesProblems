@@ -1,5 +1,56 @@
 [
  {
+  "id": 2068,
+  "type": "ICPC",
+  "name": "European Championship 2025 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Condorcet Elections"
+   },
+   {
+    "index": "B",
+    "name": "Urban Planning"
+   },
+   {
+    "index": "C",
+    "name": "Ads"
+   },
+   {
+    "index": "D",
+    "name": "Morse Code"
+   },
+   {
+    "index": "E",
+    "name": "Porto Vs. Benfica"
+   },
+   {
+    "index": "F",
+    "name": "Mascot Naming"
+   },
+   {
+    "index": "G",
+    "name": "A Very Long Hike"
+   },
+   {
+    "index": "H",
+    "name": "Statues"
+   },
+   {
+    "index": "I",
+    "name": "Pinball"
+   },
+   {
+    "index": "J",
+    "name": "The Ultimate Wine Tasting Event"
+   },
+   {
+    "index": "K",
+    "name": "Amusement Park Rides"
+   }
+  ]
+ },
+ {
   "id": 2073,
   "type": "ICPC",
   "name": "2025 ICPC Asia Pacific Championship - Online Mirror (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",

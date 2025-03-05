@@ -151,27 +151,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "FizzBuzz Remixed"
+    "name": "FizzBuzz Remixed",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Robot Program"
+    "name": "Robot Program",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Limited Repainting"
+    "name": "Limited Repainting",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Tree Jumps"
+    "name": "Tree Jumps",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Game with Binary String"
+    "name": "Game with Binary String",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Friends and Pizza"
+    "name": "Friends and Pizza",
+    "rating": 3000
    }
   ]
  },
@@ -182,31 +188,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "New World, New Me, New Array"
+    "name": "New World, New Me, New Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Having Been a Treasurer in the Past, I Help Goblins Deceive"
+    "name": "Having Been a Treasurer in the Past, I Help Goblins Deceive",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Creating Keys for StORages Has Become My Main Skill"
+    "name": "Creating Keys for StORages Has Become My Main Skill",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "For Wizards, the Exam Is Easy, but I Couldn't Handle It"
+    "name": "For Wizards, the Exam Is Easy, but I Couldn't Handle It",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Do You Love Your Hero and His Two-Hit Multi-Target Attacks?"
+    "name": "Do You Love Your Hero and His Two-Hit Multi-Target Attacks?",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Goodbye, Banker Life"
+    "name": "Goodbye, Banker Life",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "I've Been Flipping Numbers for 300 Years and Calculated the Sum"
+    "name": "I've Been Flipping Numbers for 300 Years and Calculated the Sum",
+    "rating": 2200
    }
   ]
  },

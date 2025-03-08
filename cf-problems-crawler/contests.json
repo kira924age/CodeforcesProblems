@@ -1,5 +1,28 @@
 [
  {
+  "id": 2079,
+  "type": "Other",
+  "name": "XIX Open Olympiad in Informatics - Final Stage, Day 1 (Unrated, Online Mirror, IOI rules)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Alice, Bob, And Two Arrays"
+   },
+   {
+    "index": "B",
+    "name": "Arithmetic Exercise"
+   },
+   {
+    "index": "C",
+    "name": "Dreaming Is Not Harmful"
+   },
+   {
+    "index": "D",
+    "name": "Cute Subsequences"
+   }
+  ]
+ },
+ {
   "id": 2068,
   "type": "ICPC",
   "name": "European Championship 2025 - Online Mirror (Unrated, ICPC Rules, Teams Preferred)",

@@ -1,5 +1,98 @@
 [
  {
+  "id": 2077,
+  "type": "Div1",
+  "name": "Codeforces Round 1008 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Breach of Faith"
+   },
+   {
+    "index": "B",
+    "name": "Finding OR Sum"
+   },
+   {
+    "index": "C",
+    "name": "Binary Subsequence Value Sum"
+   },
+   {
+    "index": "D",
+    "name": "Maximum Polygon"
+   },
+   {
+    "index": "E",
+    "name": "Another Folding Strip"
+   },
+   {
+    "index": "F",
+    "name": "AND x OR"
+   },
+   {
+    "index": "G",
+    "name": "RGB Walking"
+   }
+  ]
+ },
+ {
+  "id": 2078,
+  "type": "Div2",
+  "name": "Codeforces Round 1008 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Final Verdict"
+   },
+   {
+    "index": "B",
+    "name": "Vicious Labyrinth"
+   },
+   {
+    "index": "C",
+    "name": "Breach of Faith"
+   },
+   {
+    "index": "D",
+    "name": "Scammy Game Ad"
+   },
+   {
+    "index": "E",
+    "name": "Finding OR Sum"
+   },
+   {
+    "index": "F",
+    "name": "Binary Subsequence Value Sum"
+   },
+   {
+    "index": "G",
+    "name": "Another Folding Strip"
+   }
+  ]
+ },
+ {
+  "id": 2080,
+  "type": "Other",
+  "name": "XIX Open Olympiad in Informatics - Final Stage, Day 2 (Unrated, Online Mirror, IOI rules)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Strong Connectivity Strikes Back"
+   },
+   {
+    "index": "B",
+    "name": "Best Runner"
+   },
+   {
+    "index": "C",
+    "name": "Card Flip"
+   },
+   {
+    "index": "D",
+    "name": "Order Statistics"
+   }
+  ]
+ },
+ {
   "id": 2079,
   "type": "Other",
   "name": "XIX Open Olympiad in Informatics - Final Stage, Day 1 (Unrated, Online Mirror, IOI rules)",

@@ -1,5 +1,40 @@
 [
  {
+  "id": 2074,
+  "type": "Div3",
+  "name": "Codeforces Round 1009 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Draw a Square"
+   },
+   {
+    "index": "B",
+    "name": "The Third Side"
+   },
+   {
+    "index": "C",
+    "name": "XOR and Triangle"
+   },
+   {
+    "index": "D",
+    "name": "Counting Points"
+   },
+   {
+    "index": "E",
+    "name": "Empty Triangle"
+   },
+   {
+    "index": "F",
+    "name": "Counting Necessary Nodes"
+   },
+   {
+    "index": "G",
+    "name": "Game With Triangles: Season 2"
+   }
+  ]
+ },
+ {
   "id": 2077,
   "type": "Div1",
   "name": "Codeforces Round 1008 (Div. 1)",

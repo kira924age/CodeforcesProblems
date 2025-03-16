@@ -1,5 +1,75 @@
 [
  {
+  "id": 2081,
+  "type": "Div1",
+  "name": "Codeforces Round 1010 (Div. 1, Unrated)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Math Division"
+   },
+   {
+    "index": "B",
+    "name": "Balancing"
+   },
+   {
+    "index": "C",
+    "name": "Quaternary Matrix"
+   },
+   {
+    "index": "D",
+    "name": "MST in Modulo Graph"
+   },
+   {
+    "index": "E",
+    "name": "Quantifier"
+   },
+   {
+    "index": "F",
+    "name": "Hot Matrix"
+   },
+   {
+    "index": "G1",
+    "name": "Hard Formula"
+   },
+   {
+    "index": "G2",
+    "name": "Hard Formula (Hard Version)"
+   }
+  ]
+ },
+ {
+  "id": 2082,
+  "type": "Div2",
+  "name": "Codeforces Round 1010 (Div. 2, Unrated)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Binary Matrix"
+   },
+   {
+    "index": "B",
+    "name": "Floor or Ceil"
+   },
+   {
+    "index": "C",
+    "name": "Math Division"
+   },
+   {
+    "index": "D",
+    "name": "Balancing"
+   },
+   {
+    "index": "E",
+    "name": "Quaternary Matrix"
+   },
+   {
+    "index": "F",
+    "name": "MST in Modulo Graph"
+   }
+  ]
+ },
+ {
   "id": 2074,
   "type": "Div3",
   "name": "Codeforces Round 1009 (Div. 3)",

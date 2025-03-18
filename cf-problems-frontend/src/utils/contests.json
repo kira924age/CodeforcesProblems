@@ -1,5 +1,36 @@
 [
  {
+  "id": 2075,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 176 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "To Zero"
+   },
+   {
+    "index": "B",
+    "name": "Array Recoloring"
+   },
+   {
+    "index": "C",
+    "name": "Two Colors"
+   },
+   {
+    "index": "D",
+    "name": "Equalization"
+   },
+   {
+    "index": "E",
+    "name": "XOR Matrix"
+   },
+   {
+    "index": "F",
+    "name": "Beautiful Sequence Returns"
+   }
+  ]
+ },
+ {
   "id": 2081,
   "type": "Div1",
   "name": "Codeforces Round 1010 (Div. 1, Unrated)",

@@ -37,35 +37,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Math Division"
+    "name": "Math Division",
+    "rating": 1800
    },
    {
     "index": "B",
-    "name": "Balancing"
+    "name": "Balancing",
+    "rating": 2500
    },
    {
     "index": "C",
-    "name": "Quaternary Matrix"
+    "name": "Quaternary Matrix",
+    "rating": 2700
    },
    {
     "index": "D",
-    "name": "MST in Modulo Graph"
+    "name": "MST in Modulo Graph",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Quantifier"
+    "name": "Quantifier",
+    "rating": 3300
    },
    {
     "index": "F",
-    "name": "Hot Matrix"
+    "name": "Hot Matrix",
+    "rating": 3300
    },
    {
     "index": "G1",
-    "name": "Hard Formula"
+    "name": "Hard Formula",
+    "rating": 3100
    },
    {
     "index": "G2",
-    "name": "Hard Formula (Hard Version)"
+    "name": "Hard Formula (Hard Version)",
+    "rating": 3400
    }
   ]
  },
@@ -76,11 +84,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Binary Matrix"
+    "name": "Binary Matrix",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Floor or Ceil"
+    "name": "Floor or Ceil",
+    "rating": 1600
    },
    {
     "index": "C",
@@ -107,31 +117,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Draw a Square"
+    "name": "Draw a Square",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "The Third Side"
+    "name": "The Third Side",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "XOR and Triangle"
+    "name": "XOR and Triangle",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Counting Points"
+    "name": "Counting Points",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Empty Triangle"
+    "name": "Empty Triangle",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Counting Necessary Nodes"
+    "name": "Counting Necessary Nodes",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Game With Triangles: Season 2"
+    "name": "Game With Triangles: Season 2",
+    "rating": 2100
    }
   ]
  },
@@ -142,31 +159,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Breach of Faith"
+    "name": "Breach of Faith",
+    "rating": 1500
    },
    {
     "index": "B",
-    "name": "Finding OR Sum"
+    "name": "Finding OR Sum",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Binary Subsequence Value Sum"
+    "name": "Binary Subsequence Value Sum",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Maximum Polygon"
+    "name": "Maximum Polygon",
+    "rating": 3100
    },
    {
     "index": "E",
-    "name": "Another Folding Strip"
+    "name": "Another Folding Strip",
+    "rating": 2700
    },
    {
     "index": "F",
-    "name": "AND x OR"
+    "name": "AND x OR",
+    "rating": 3300
    },
    {
     "index": "G",
-    "name": "RGB Walking"
+    "name": "RGB Walking",
+    "rating": 3500
    }
   ]
  },
@@ -177,11 +201,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Final Verdict"
+    "name": "Final Verdict",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Vicious Labyrinth"
+    "name": "Vicious Labyrinth",
+    "rating": 1100
    },
    {
     "index": "C",
@@ -189,7 +215,8 @@
    },
    {
     "index": "D",
-    "name": "Scammy Game Ad"
+    "name": "Scammy Game Ad",
+    "rating": 1800
    },
    {
     "index": "E",
@@ -258,47 +285,58 @@
   "problems": [
    {
     "index": "A",
-    "name": "Condorcet Elections"
+    "name": "Condorcet Elections",
+    "rating": 2300
    },
    {
     "index": "B",
-    "name": "Urban Planning"
+    "name": "Urban Planning",
+    "rating": 3100
    },
    {
     "index": "C",
-    "name": "Ads"
+    "name": "Ads",
+    "rating": 2100
    },
    {
     "index": "D",
-    "name": "Morse Code"
+    "name": "Morse Code",
+    "rating": 3100
    },
    {
     "index": "E",
-    "name": "Porto Vs. Benfica"
+    "name": "Porto Vs. Benfica",
+    "rating": 2800
    },
    {
     "index": "F",
-    "name": "Mascot Naming"
+    "name": "Mascot Naming",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "A Very Long Hike"
+    "name": "A Very Long Hike",
+    "rating": 3500
    },
    {
     "index": "H",
-    "name": "Statues"
+    "name": "Statues",
+    "rating": 2700
    },
    {
     "index": "I",
-    "name": "Pinball"
+    "name": "Pinball",
+    "rating": 3500
    },
    {
     "index": "J",
-    "name": "The Ultimate Wine Tasting Event"
+    "name": "The Ultimate Wine Tasting Event",
+    "rating": 2000
    },
    {
     "index": "K",
-    "name": "Amusement Park Rides"
+    "name": "Amusement Park Rides",
+    "rating": 3000
    }
   ]
  },
@@ -309,55 +347,68 @@
   "problems": [
    {
     "index": "A",
-    "name": "Control Towers"
+    "name": "Control Towers",
+    "rating": 1900
    },
    {
     "index": "B",
-    "name": "Three-Dimensional Embedding"
+    "name": "Three-Dimensional Embedding",
+    "rating": 3500
    },
    {
     "index": "C",
-    "name": "Cactus Connectivity"
+    "name": "Cactus Connectivity",
+    "rating": 2700
    },
    {
     "index": "D",
-    "name": "Tower of Hanoi"
+    "name": "Tower of Hanoi",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Minus Operator"
+    "name": "Minus Operator",
+    "rating": 3300
    },
    {
     "index": "F",
-    "name": "Hold the Star"
+    "name": "Hold the Star",
+    "rating": 3500
    },
    {
     "index": "G",
-    "name": "Corrupted File"
+    "name": "Corrupted File",
+    "rating": 2200
    },
    {
     "index": "H",
-    "name": "Secret Lilies and Roses"
+    "name": "Secret Lilies and Roses",
+    "rating": 2700
    },
    {
     "index": "I",
-    "name": "Squares on Grid Lines"
+    "name": "Squares on Grid Lines",
+    "rating": 3100
    },
    {
     "index": "J",
-    "name": "Gathering Sharks"
+    "name": "Gathering Sharks",
+    "rating": 2000
    },
    {
     "index": "K",
-    "name": "Book Sorting"
+    "name": "Book Sorting",
+    "rating": 2900
    },
    {
     "index": "L",
-    "name": "Boarding Queue"
+    "name": "Boarding Queue",
+    "rating": 1300
    },
    {
     "index": "M",
-    "name": "Can You Reach There?"
+    "name": "Can You Reach There?",
+    "rating": 3300
    }
   ]
  },
@@ -368,31 +419,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Play Never Ends"
+    "name": "The Play Never Ends",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Perfecto"
+    "name": "Perfecto",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Trapmigiano Reggiano"
+    "name": "Trapmigiano Reggiano",
+    "rating": 1700
    },
    {
     "index": "D1",
-    "name": "Infinite Sequence (Easy Version)"
+    "name": "Infinite Sequence (Easy Version)",
+    "rating": 1800
    },
    {
     "index": "D2",
-    "name": "Infinite Sequence (Hard Version)"
+    "name": "Infinite Sequence (Hard Version)",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "LeaFall"
+    "name": "LeaFall",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Towering Arrays"
+    "name": "Towering Arrays",
+    "rating": 2700
    }
   ]
  },

@@ -1,5 +1,40 @@
 [
  {
+  "id": 2085,
+  "type": "Div2",
+  "name": "Codeforces Round 1011 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Serval and String Theory"
+   },
+   {
+    "index": "B",
+    "name": "Serval and Final MEX"
+   },
+   {
+    "index": "C",
+    "name": "Serval and The Formula"
+   },
+   {
+    "index": "D",
+    "name": "Serval and Kaitenzushi Buffet"
+   },
+   {
+    "index": "E",
+    "name": "Serval and Modulo"
+   },
+   {
+    "index": "F1",
+    "name": "Serval and Colorful Array (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Serval and Colorful Array (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2075,
   "type": "Educational",
   "name": "Educational Codeforces Round 176 (Rated for Div. 2)",

@@ -1,5 +1,79 @@
 [
  {
+  "id": 2089,
+  "type": "Div1",
+  "name": "Codeforces Round 1012 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Simple Permutation"
+   },
+   {
+    "index": "B1",
+    "name": "Canteen (Easy Version)"
+   },
+   {
+    "index": "B2",
+    "name": "Canteen (Hard Version)"
+   },
+   {
+    "index": "C1",
+    "name": "Key of Like (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Key of Like (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Conditional Operators"
+   },
+   {
+    "index": "E",
+    "name": "Black Cat Collapse"
+   }
+  ]
+ },
+ {
+  "id": 2090,
+  "type": "Div2",
+  "name": "Codeforces Round 1012 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Treasure Hunt"
+   },
+   {
+    "index": "B",
+    "name": "Pushing Balls"
+   },
+   {
+    "index": "C",
+    "name": "Dining Hall"
+   },
+   {
+    "index": "D",
+    "name": "Simple Permutation"
+   },
+   {
+    "index": "E1",
+    "name": "Canteen (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Canteen (Hard Version)"
+   },
+   {
+    "index": "F1",
+    "name": "Key of Like (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Key of Like (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2085,
   "type": "Div2",
   "name": "Codeforces Round 1011 (Div. 2)",

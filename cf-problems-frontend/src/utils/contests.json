@@ -41,31 +41,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Simple Permutation"
+    "name": "Simple Permutation",
+    "rating": 1700
    },
    {
     "index": "B1",
-    "name": "Canteen (Easy Version)"
+    "name": "Canteen (Easy Version)",
+    "rating": 1900
    },
    {
     "index": "B2",
-    "name": "Canteen (Hard Version)"
+    "name": "Canteen (Hard Version)",
+    "rating": 2300
    },
    {
     "index": "C1",
-    "name": "Key of Like (Easy Version)"
+    "name": "Key of Like (Easy Version)",
+    "rating": 2200
    },
    {
     "index": "C2",
-    "name": "Key of Like (Hard Version)"
+    "name": "Key of Like (Hard Version)",
+    "rating": 3100
    },
    {
     "index": "D",
-    "name": "Conditional Operators"
+    "name": "Conditional Operators",
+    "rating": 3200
    },
    {
     "index": "E",
-    "name": "Black Cat Collapse"
+    "name": "Black Cat Collapse",
+    "rating": 3500
    }
   ]
  },
@@ -115,31 +122,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Serval and String Theory"
+    "name": "Serval and String Theory",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Serval and Final MEX"
+    "name": "Serval and Final MEX",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Serval and The Formula"
+    "name": "Serval and The Formula",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Serval and Kaitenzushi Buffet"
+    "name": "Serval and Kaitenzushi Buffet",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Serval and Modulo"
+    "name": "Serval and Modulo",
+    "rating": 2200
    },
    {
     "index": "F1",
-    "name": "Serval and Colorful Array (Easy Version)"
+    "name": "Serval and Colorful Array (Easy Version)",
+    "rating": 2600
    },
    {
     "index": "F2",
-    "name": "Serval and Colorful Array (Hard Version)"
+    "name": "Serval and Colorful Array (Hard Version)",
+    "rating": 2900
    }
   ]
  },
@@ -150,27 +164,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "To Zero"
+    "name": "To Zero",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array Recoloring"
+    "name": "Array Recoloring",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Two Colors"
+    "name": "Two Colors",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Equalization"
+    "name": "Equalization",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "XOR Matrix"
+    "name": "XOR Matrix",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Beautiful Sequence Returns"
+    "name": "Beautiful Sequence Returns",
+    "rating": 3000
    }
   ]
  },
@@ -383,19 +403,23 @@
   "problems": [
    {
     "index": "A",
-    "name": "Strong Connectivity Strikes Back"
+    "name": "Strong Connectivity Strikes Back",
+    "rating": 3200
    },
    {
     "index": "B",
-    "name": "Best Runner"
+    "name": "Best Runner",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Card Flip"
+    "name": "Card Flip",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Order Statistics"
+    "name": "Order Statistics",
+    "rating": 3400
    }
   ]
  },
@@ -406,19 +430,23 @@
   "problems": [
    {
     "index": "A",
-    "name": "Alice, Bob, And Two Arrays"
+    "name": "Alice, Bob, And Two Arrays",
+    "rating": 3300
    },
    {
     "index": "B",
-    "name": "Arithmetic Exercise"
+    "name": "Arithmetic Exercise",
+    "rating": 2600
    },
    {
     "index": "C",
-    "name": "Dreaming Is Not Harmful"
+    "name": "Dreaming Is Not Harmful",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Cute Subsequences"
+    "name": "Cute Subsequences",
+    "rating": 1800
    }
   ]
  },

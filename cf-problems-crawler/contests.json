@@ -3,7 +3,32 @@
   "id": 2092,
   "type": "Div2",
   "name": "Codeforces Round 1014 (Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Kamilka and the Sheep"
+   },
+   {
+    "index": "B",
+    "name": "Lady Bug"
+   },
+   {
+    "index": "C",
+    "name": "Asuna and the Mosquitoes"
+   },
+   {
+    "index": "D",
+    "name": "Mishkin Energizer"
+   },
+   {
+    "index": "E",
+    "name": "She knows..."
+   },
+   {
+    "index": "F",
+    "name": "Andryusha and CCB"
+   }
+  ]
  },
  {
   "id": 2091,

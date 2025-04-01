@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Kamilka and the Sheep"
+    "name": "Kamilka and the Sheep",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Lady Bug"
+    "name": "Lady Bug",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Asuna and the Mosquitoes"
+    "name": "Asuna and the Mosquitoes",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Mishkin Energizer"
+    "name": "Mishkin Energizer",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "She knows..."
+    "name": "She knows...",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Andryusha and CCB"
+    "name": "Andryusha and CCB",
+    "rating": 2900
    }
   ]
  },
@@ -37,31 +43,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Olympiad Date"
+    "name": "Olympiad Date",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Team Training"
+    "name": "Team Training",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Combination Lock"
+    "name": "Combination Lock",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Place of the Olympiad"
+    "name": "Place of the Olympiad",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Interesting Ratio"
+    "name": "Interesting Ratio",
+    "rating": 1300
    },
    {
     "index": "F",
-    "name": "Igor and Mountain"
+    "name": "Igor and Mountain",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Gleb and Boating"
+    "name": "Gleb and Boating",
+    "rating": 2300
    }
   ]
  },
@@ -114,15 +127,18 @@
   "problems": [
    {
     "index": "A",
-    "name": "Treasure Hunt"
+    "name": "Treasure Hunt",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Pushing Balls"
+    "name": "Pushing Balls",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Dining Hall"
+    "name": "Dining Hall",
+    "rating": 1700
    },
    {
     "index": "D",

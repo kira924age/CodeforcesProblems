@@ -1,5 +1,52 @@
 [
  {
+  "id": 2095,
+  "type": "Other",
+  "name": "April Fools Day Contest 2025",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Piecing It Together"
+   },
+   {
+    "index": "B",
+    "name": "Plinko"
+   },
+   {
+    "index": "C",
+    "name": "Would It Be Unrated?"
+   },
+   {
+    "index": "D",
+    "name": "Where Am I?"
+   },
+   {
+    "index": "E",
+    "name": "Pair Count"
+   },
+   {
+    "index": "F",
+    "name": "\u2153 \u043ef \u0430 \u0420r\u043ebl\u0435m"
+   },
+   {
+    "index": "G",
+    "name": "Definitely a Geometry Problem"
+   },
+   {
+    "index": "H",
+    "name": "Blurry Vision"
+   },
+   {
+    "index": "I",
+    "name": "Mysterious Script"
+   },
+   {
+    "index": "J",
+    "name": "Premiere at a Wrong Time"
+   }
+  ]
+ },
+ {
   "id": 2092,
   "type": "Div2",
   "name": "Codeforces Round 1014 (Div. 2)",

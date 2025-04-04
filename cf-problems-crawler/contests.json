@@ -1,5 +1,36 @@
 [
  {
+  "id": 2086,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 177 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cloudberry Jam"
+   },
+   {
+    "index": "B",
+    "name": "Large Array and Segments"
+   },
+   {
+    "index": "C",
+    "name": "Disappearing Permutation"
+   },
+   {
+    "index": "D",
+    "name": "Even String"
+   },
+   {
+    "index": "E",
+    "name": "Zebra-like Numbers"
+   },
+   {
+    "index": "F",
+    "name": "Online Palindrome"
+   }
+  ]
+ },
+ {
   "id": 2095,
   "type": "Other",
   "name": "April Fools Day Contest 2025",

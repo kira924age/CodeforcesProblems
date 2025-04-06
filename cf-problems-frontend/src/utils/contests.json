@@ -1,5 +1,48 @@
 [
  {
+  "id": 2084,
+  "type": "Div1 + Div2",
+  "name": "Teza Round 1 (Codeforces Round 1015, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Max and Mod"
+   },
+   {
+    "index": "B",
+    "name": "MIN = GCD"
+   },
+   {
+    "index": "C",
+    "name": "You Soared Afar With Grace"
+   },
+   {
+    "index": "D",
+    "name": "Arcology On Permafrost"
+   },
+   {
+    "index": "E",
+    "name": "Blossom"
+   },
+   {
+    "index": "F",
+    "name": "Skyscape"
+   },
+   {
+    "index": "G1",
+    "name": "Wish Upon a Satellite (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Wish Upon a Satellite (Hard Version)"
+   },
+   {
+    "index": "H",
+    "name": "Turtle and Nediam 2"
+   }
+  ]
+ },
+ {
   "id": 2086,
   "type": "Educational",
   "name": "Educational Codeforces Round 177 (Rated for Div. 2)",

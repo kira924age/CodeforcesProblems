@@ -1,5 +1,83 @@
 [
  {
+  "id": 2087,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Episode 12",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Password Generator"
+   },
+   {
+    "index": "B",
+    "name": "Showmatch"
+   },
+   {
+    "index": "C",
+    "name": "Coin Game"
+   },
+   {
+    "index": "D",
+    "name": "Uppercase or Lowercase?"
+   },
+   {
+    "index": "E",
+    "name": "Color the Arrows"
+   },
+   {
+    "index": "F",
+    "name": "Weapon Upgrade"
+   },
+   {
+    "index": "G",
+    "name": "Esports in Berland"
+   },
+   {
+    "index": "H",
+    "name": "Nim with Special Numbers"
+   },
+   {
+    "index": "I",
+    "name": "Hamiltonian Partition"
+   }
+  ]
+ },
+ {
+  "id": 2088,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Practice 12",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Easy Problem"
+   },
+   {
+    "index": "B",
+    "name": "Having Been a Treasurer in the Past, I Help Goblins Deceive"
+   },
+   {
+    "index": "C",
+    "name": "Farmer John's Card Game"
+   },
+   {
+    "index": "D",
+    "name": "Counting Pairs"
+   },
+   {
+    "index": "E",
+    "name": "Doggo Recoloring"
+   },
+   {
+    "index": "F",
+    "name": "Kachina's Favorite Binary String"
+   },
+   {
+    "index": "G",
+    "name": "Ardent Flames"
+   }
+  ]
+ },
+ {
   "id": 2084,
   "type": "Div1 + Div2",
   "name": "Teza Round 1 (Codeforces Round 1015, Div. 1 + Div. 2)",

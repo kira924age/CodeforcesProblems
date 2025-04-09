@@ -1,5 +1,40 @@
 [
  {
+  "id": 2093,
+  "type": "Div3",
+  "name": "Codeforces Round 1016 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Ideal Generator"
+   },
+   {
+    "index": "B",
+    "name": "Expensive Number"
+   },
+   {
+    "index": "C",
+    "name": "Simple Repetition"
+   },
+   {
+    "index": "D",
+    "name": "Skibidi Table"
+   },
+   {
+    "index": "E",
+    "name": "Min Max MEX"
+   },
+   {
+    "index": "F",
+    "name": "Hackers and Neural Networks"
+   },
+   {
+    "index": "G",
+    "name": "Shorten the Array"
+   }
+  ]
+ },
+ {
   "id": 2087,
   "type": "Kotlin",
   "name": "Kotlin Heroes: Episode 12",

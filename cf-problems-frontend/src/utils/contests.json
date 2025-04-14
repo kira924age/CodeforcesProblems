@@ -1,5 +1,44 @@
 [
  {
+  "id": 2094,
+  "type": "Div4",
+  "name": "Codeforces Round 1017 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Trippi Troppi"
+   },
+   {
+    "index": "B",
+    "name": "Bobritto Bandito"
+   },
+   {
+    "index": "C",
+    "name": "Brr Brrr Patapim"
+   },
+   {
+    "index": "D",
+    "name": "Tung Tung Sahur"
+   },
+   {
+    "index": "E",
+    "name": "Boneca Ambalabu"
+   },
+   {
+    "index": "F",
+    "name": "Trulimero Trulicina"
+   },
+   {
+    "index": "G",
+    "name": "Chimpanzini Bananini"
+   },
+   {
+    "index": "H",
+    "name": "La Vaca Saturno Saturnita"
+   }
+  ]
+ },
+ {
   "id": 2093,
   "type": "Div3",
   "name": "Codeforces Round 1016 (Div. 3)",

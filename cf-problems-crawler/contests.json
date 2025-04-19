@@ -45,31 +45,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Ideal Generator"
+    "name": "Ideal Generator",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Expensive Number"
+    "name": "Expensive Number",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Simple Repetition"
+    "name": "Simple Repetition",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Skibidi Table"
+    "name": "Skibidi Table",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Min Max MEX"
+    "name": "Min Max MEX",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Hackers and Neural Networks"
+    "name": "Hackers and Neural Networks",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Shorten the Array"
+    "name": "Shorten the Array",
+    "rating": 1900
    }
   ]
  },
@@ -158,39 +165,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Max and Mod"
+    "name": "Max and Mod",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "MIN = GCD"
+    "name": "MIN = GCD",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "You Soared Afar With Grace"
+    "name": "You Soared Afar With Grace",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Arcology On Permafrost"
+    "name": "Arcology On Permafrost",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Blossom"
+    "name": "Blossom",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Skyscape"
+    "name": "Skyscape",
+    "rating": 2900
    },
    {
     "index": "G1",
-    "name": "Wish Upon a Satellite (Easy Version)"
+    "name": "Wish Upon a Satellite (Easy Version)",
+    "rating": 2600
    },
    {
     "index": "G2",
-    "name": "Wish Upon a Satellite (Hard Version)"
+    "name": "Wish Upon a Satellite (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "H",
-    "name": "Turtle and Nediam 2"
+    "name": "Turtle and Nediam 2",
+    "rating": 3500
    }
   ]
  },
@@ -201,27 +217,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Cloudberry Jam"
+    "name": "Cloudberry Jam",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Large Array and Segments"
+    "name": "Large Array and Segments",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Disappearing Permutation"
+    "name": "Disappearing Permutation",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Even String"
+    "name": "Even String",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Zebra-like Numbers"
+    "name": "Zebra-like Numbers",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Online Palindrome"
+    "name": "Online Palindrome",
+    "rating": 3000
    }
   ]
  },

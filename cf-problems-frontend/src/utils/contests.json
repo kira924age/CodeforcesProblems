@@ -1,5 +1,44 @@
 [
  {
+  "id": 2096,
+  "type": "Div1 + Div2",
+  "name": "Neowise Labs Contest 1 (Codeforces Round 1018, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Wonderful Sticks"
+   },
+   {
+    "index": "B",
+    "name": "Wonderful Gloves"
+   },
+   {
+    "index": "C",
+    "name": "Wonderful City"
+   },
+   {
+    "index": "D",
+    "name": "Wonderful Lightbulbs"
+   },
+   {
+    "index": "E",
+    "name": "Wonderful Teddy Bears"
+   },
+   {
+    "index": "F",
+    "name": "Wonderful Impostors"
+   },
+   {
+    "index": "G",
+    "name": "Wonderful Guessing Game"
+   },
+   {
+    "index": "H",
+    "name": "Wonderful XOR Problem"
+   }
+  ]
+ },
+ {
   "id": 2094,
   "type": "Div4",
   "name": "Codeforces Round 1017 (Div. 4)",

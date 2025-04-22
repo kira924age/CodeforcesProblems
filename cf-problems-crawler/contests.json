@@ -1,5 +1,36 @@
 [
  {
+  "id": 2103,
+  "type": "Div2",
+  "name": "Codeforces Round 1019 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Common Multiple"
+   },
+   {
+    "index": "B",
+    "name": "Binary Typewriter"
+   },
+   {
+    "index": "C",
+    "name": "Median Splits"
+   },
+   {
+    "index": "D",
+    "name": "Local Construction"
+   },
+   {
+    "index": "E",
+    "name": "Keep the Sum"
+   },
+   {
+    "index": "F",
+    "name": "Maximize Nor"
+   }
+  ]
+ },
+ {
   "id": 2096,
   "type": "Div1 + Div2",
   "name": "Neowise Labs Contest 1 (Codeforces Round 1018, Div. 1 + Div. 2)",

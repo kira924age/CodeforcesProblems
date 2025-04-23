@@ -37,35 +37,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Wonderful Sticks"
+    "name": "Wonderful Sticks",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Wonderful Gloves"
+    "name": "Wonderful Gloves",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Wonderful City"
+    "name": "Wonderful City",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Wonderful Lightbulbs"
+    "name": "Wonderful Lightbulbs",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Wonderful Teddy Bears"
+    "name": "Wonderful Teddy Bears",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Wonderful Impostors"
+    "name": "Wonderful Impostors",
+    "rating": 3100
    },
    {
     "index": "G",
-    "name": "Wonderful Guessing Game"
+    "name": "Wonderful Guessing Game",
+    "rating": 3200
    },
    {
     "index": "H",
-    "name": "Wonderful XOR Problem"
+    "name": "Wonderful XOR Problem",
+    "rating": 3200
    }
   ]
  },
@@ -76,35 +84,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Trippi Troppi"
+    "name": "Trippi Troppi",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Bobritto Bandito"
+    "name": "Bobritto Bandito",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Brr Brrr Patapim"
+    "name": "Brr Brrr Patapim",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "Tung Tung Sahur"
+    "name": "Tung Tung Sahur",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Boneca Ambalabu"
+    "name": "Boneca Ambalabu",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "Trulimero Trulicina"
+    "name": "Trulimero Trulicina",
+    "rating": 1600
    },
    {
     "index": "G",
-    "name": "Chimpanzini Bananini"
+    "name": "Chimpanzini Bananini",
+    "rating": 1700
    },
    {
     "index": "H",
-    "name": "La Vaca Saturno Saturnita"
+    "name": "La Vaca Saturno Saturnita",
+    "rating": 1900
    }
   ]
  },

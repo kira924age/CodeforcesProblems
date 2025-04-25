@@ -1,5 +1,44 @@
 [
  {
+  "id": 2106,
+  "type": "Div3",
+  "name": "Codeforces Round 1020 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Dr. TC"
+   },
+   {
+    "index": "B",
+    "name": "St. Chroma"
+   },
+   {
+    "index": "C",
+    "name": "Cherry Bomb"
+   },
+   {
+    "index": "D",
+    "name": "Flower Boy"
+   },
+   {
+    "index": "E",
+    "name": "Wolf"
+   },
+   {
+    "index": "F",
+    "name": "Goblin"
+   },
+   {
+    "index": "G1",
+    "name": "Baudelaire (easy version)"
+   },
+   {
+    "index": "G2",
+    "name": "Baudelaire (hard version)"
+   }
+  ]
+ },
+ {
   "id": 2103,
   "type": "Div2",
   "name": "Codeforces Round 1019 (Div. 2)",

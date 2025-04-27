@@ -1,5 +1,67 @@
 [
  {
+  "id": 2097,
+  "type": "Div1",
+  "name": "Codeforces Round 1021 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sports Betting"
+   },
+   {
+    "index": "B",
+    "name": "Baggage Claim"
+   },
+   {
+    "index": "C",
+    "name": "Bermuda Triangle"
+   },
+   {
+    "index": "D",
+    "name": "Homework"
+   },
+   {
+    "index": "E",
+    "name": "Clearing the Snowdrift"
+   },
+   {
+    "index": "F",
+    "name": "Lost Luggage"
+   }
+  ]
+ },
+ {
+  "id": 2098,
+  "type": "Div2",
+  "name": "Codeforces Round 1021 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Vadim's Collection"
+   },
+   {
+    "index": "B",
+    "name": "Sasha and the Apartment Purchase"
+   },
+   {
+    "index": "C",
+    "name": "Sports Betting"
+   },
+   {
+    "index": "D",
+    "name": "Baggage Claim"
+   },
+   {
+    "index": "E",
+    "name": "Bermuda Triangle"
+   },
+   {
+    "index": "F",
+    "name": "Homework"
+   }
+  ]
+ },
+ {
   "id": 2106,
   "type": "Div3",
   "name": "Codeforces Round 1020 (Div. 3)",

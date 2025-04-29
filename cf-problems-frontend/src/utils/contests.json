@@ -1,5 +1,67 @@
 [
  {
+  "id": 2104,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 178 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Three Decks"
+   },
+   {
+    "index": "B",
+    "name": "Move to the End"
+   },
+   {
+    "index": "C",
+    "name": "Card Game"
+   },
+   {
+    "index": "D",
+    "name": "Array and GCD"
+   },
+   {
+    "index": "E",
+    "name": "Unpleasant Strings"
+   },
+   {
+    "index": "F",
+    "name": "Numbers and Strings"
+   },
+   {
+    "index": "G",
+    "name": "Modulo 3"
+   }
+  ]
+ },
+ {
+  "id": 2105,
+  "type": "Other",
+  "name": "Tact Smart Battle 1",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Single-proposal Voting Contract"
+   },
+   {
+    "index": "B",
+    "name": "Master Contract for Multiple Voting Proposals"
+   },
+   {
+    "index": "C",
+    "name": "Scalable single-proposal Voting Contract"
+   },
+   {
+    "index": "D",
+    "name": "Master Contract for Multiple Voting Proposals + Refunds"
+   },
+   {
+    "index": "E",
+    "name": "Scalable Voting Contract + Refunds & gas management"
+   }
+  ]
+ },
+ {
   "id": 2097,
   "type": "Div1",
   "name": "Codeforces Round 1021 (Div. 1)",

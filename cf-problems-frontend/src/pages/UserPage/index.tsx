@@ -8,17 +8,13 @@ import Achievement from "./Achievement";
 import SubmissionListTable from "./SubmissionListTable";
 import Climbing from "./Climbing";
 import Heatmap from "./Heatmap";
-
+import { useParams } from "react-router-dom";
 import { makeSolvedHistory } from "./makeSolvedHistory";
 import { makeSubmissionHistory } from "./makeSubmissionHistory";
 import { fetchUserSubmission, makeAchievementData } from "./userUtils";
 import { cachedUserInfo } from "../../utils/TypedCachedApiClient";
 
-interface Props {
-  userId: string;
-}
-
-const User: React.FunctionComponent<Props> = (props: Props) => {
+const User: React.FunctionComponent = () => {
   const [isError, setIsError] = React.useState(false);
   const [isUserExist, setIsUserExist] = React.useState(false);
   const [isLoading, setIsLoading] = React.useState(true);
@@ -35,13 +31,16 @@ const User: React.FunctionComponent<Props> = (props: Props) => {
     submissionHistory: [] as any[],
   });
 
+  const params = useParams();
+  const userId: string = params.userId ?? "";
+
   React.useEffect(() => {
     setIsLoading(true);
     let isMounted = true;
 
     const getUserInfo = async (userId: string) => {
       const str = "https://codeforces.com/api/user.status?handle=";
-      const userInfo = await cachedUserInfo(props.userId);
+      const userInfo = await cachedUserInfo(userId);
 
       if (userInfo.isUserExist && userInfo.isError === false) {
         const submissions = await fetchUserSubmission(str + userId);
@@ -71,20 +70,20 @@ const User: React.FunctionComponent<Props> = (props: Props) => {
       }
     };
 
-    void getUserInfo(props.userId);
+    void getUserInfo(userId);
 
     return () => {
       isMounted = false;
     };
-  }, [props.userId]);
+  }, [userId]);
 
   const element =
     isUserExist && isError === false ? (
       <>
-        <UserNameLabel userId={props.userId} rating={userRating} />
+        <UserNameLabel userId={userId} rating={userRating} />
         <hr />
         <Achievement
-          userId={props.userId}
+          userId={userId}
           solvedCountAll={userInfo.solvedCountAll}
           solvedCountLastYear={userInfo.solvedCountLastYear}
           solvedCountLastMonth={userInfo.solvedCountLastMonth}
@@ -105,7 +104,7 @@ const User: React.FunctionComponent<Props> = (props: Props) => {
 
   return (
     <>
-      <Header userId={props.userId} location="user" />
+      <Header userId={userId} location="user" />
       <div className="Main">{a}</div>
     </>
   );

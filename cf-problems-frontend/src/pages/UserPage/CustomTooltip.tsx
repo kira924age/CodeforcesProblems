@@ -14,7 +14,7 @@ interface CustomTooltipProps {
 }
 
 export const CustomTooltip: React.FunctionComponent<CustomTooltipProps> = (
-  props
+  props,
 ) => {
   if (!props.active || props.payload === undefined) return null;
 
@@ -54,7 +54,7 @@ export const CustomTooltip: React.FunctionComponent<CustomTooltipProps> = (
             {props.payload?.reduce(
               (acc: number, entry: DailyEffortTooltipPayload) =>
                 acc + entry.value,
-              0
+              0,
             ) ?? 0}
           </span>
         </li>

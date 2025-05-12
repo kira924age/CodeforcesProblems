@@ -1,5 +1,67 @@
 [
  {
+  "id": 2101,
+  "type": "Div1",
+  "name": "Codeforces Round 1024 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Mex in the Grid"
+   },
+   {
+    "index": "B",
+    "name": "Quartet Swapping"
+   },
+   {
+    "index": "C",
+    "name": "23 Kingdom"
+   },
+   {
+    "index": "D",
+    "name": "Mani and Segments"
+   },
+   {
+    "index": "E",
+    "name": "Kia Bakes a Cake"
+   },
+   {
+    "index": "F",
+    "name": "Shoo Shatters the Sunshine"
+   }
+  ]
+ },
+ {
+  "id": 2102,
+  "type": "Div2",
+  "name": "Codeforces Round 1024 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Dinner Time"
+   },
+   {
+    "index": "B",
+    "name": "The Picky Cat"
+   },
+   {
+    "index": "C",
+    "name": "Mex in the Grid"
+   },
+   {
+    "index": "D",
+    "name": "Quartet Swapping"
+   },
+   {
+    "index": "E",
+    "name": "23 Kingdom"
+   },
+   {
+    "index": "F",
+    "name": "Mani and Segments"
+   }
+  ]
+ },
+ {
   "id": 2107,
   "type": "Div2",
   "name": "Codeforces Round 1023 (Div. 2)",

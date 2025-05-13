@@ -68,31 +68,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "LRC and VIP"
+    "name": "LRC and VIP",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Apples in Boxes"
+    "name": "Apples in Boxes",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Maximum Subarray Sum"
+    "name": "Maximum Subarray Sum",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Apple Tree Traversing"
+    "name": "Apple Tree Traversing",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Ain and Apple Tree"
+    "name": "Ain and Apple Tree",
+    "rating": 2600
    },
    {
     "index": "F1",
-    "name": "Cycling (Easy Version)"
+    "name": "Cycling (Easy Version)",
+    "rating": 2300
    },
    {
     "index": "F2",
-    "name": "Cycling (Hard Version)"
+    "name": "Cycling (Hard Version)",
+    "rating": 2800
    }
   ]
  },
@@ -103,27 +110,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Permutation Warm-Up"
+    "name": "Permutation Warm-Up",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "SUMdamental Decomposition"
+    "name": "SUMdamental Decomposition",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Neo's Escape"
+    "name": "Neo's Escape",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Needle in a Numstack"
+    "name": "Needle in a Numstack",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Spruce Dispute"
+    "name": "Spruce Dispute",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Fallen Towers"
+    "name": "Fallen Towers",
+    "rating": 2900
    }
   ]
  },
@@ -134,31 +147,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Three Decks"
+    "name": "Three Decks",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Move to the End"
+    "name": "Move to the End",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Card Game"
+    "name": "Card Game",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Array and GCD"
+    "name": "Array and GCD",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Unpleasant Strings"
+    "name": "Unpleasant Strings",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "Numbers and Strings"
+    "name": "Numbers and Strings",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Modulo 3"
+    "name": "Modulo 3",
+    "rating": 2700
    }
   ]
  },
@@ -196,27 +216,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sports Betting"
+    "name": "Sports Betting",
+    "rating": 1400
    },
    {
     "index": "B",
-    "name": "Baggage Claim"
+    "name": "Baggage Claim",
+    "rating": 2300
    },
    {
     "index": "C",
-    "name": "Bermuda Triangle"
+    "name": "Bermuda Triangle",
+    "rating": 2400
    },
    {
     "index": "D",
-    "name": "Homework"
+    "name": "Homework",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Clearing the Snowdrift"
+    "name": "Clearing the Snowdrift",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Lost Luggage"
+    "name": "Lost Luggage",
+    "rating": 3500
    }
   ]
  },
@@ -227,11 +253,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Vadim's Collection"
+    "name": "Vadim's Collection",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Sasha and the Apartment Purchase"
+    "name": "Sasha and the Apartment Purchase",
+    "rating": 1400
    },
    {
     "index": "C",
@@ -258,35 +286,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Dr. TC"
+    "name": "Dr. TC",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "St. Chroma"
+    "name": "St. Chroma",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Cherry Bomb"
+    "name": "Cherry Bomb",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Flower Boy"
+    "name": "Flower Boy",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Wolf"
+    "name": "Wolf",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Goblin"
+    "name": "Goblin",
+    "rating": 1900
    },
    {
     "index": "G1",
-    "name": "Baudelaire (easy version)"
+    "name": "Baudelaire (easy version)",
+    "rating": 2200
    },
    {
     "index": "G2",
-    "name": "Baudelaire (hard version)"
+    "name": "Baudelaire (hard version)",
+    "rating": 2500
    }
   ]
  },
@@ -297,27 +333,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Common Multiple"
+    "name": "Common Multiple",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Binary Typewriter"
+    "name": "Binary Typewriter",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Median Splits"
+    "name": "Median Splits",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Local Construction"
+    "name": "Local Construction",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Keep the Sum"
+    "name": "Keep the Sum",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Maximize Nor"
+    "name": "Maximize Nor",
+    "rating": 2600
    }
   ]
  },

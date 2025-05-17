@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Mex in the Grid"
+    "name": "Mex in the Grid",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Quartet Swapping"
+    "name": "Quartet Swapping",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "23 Kingdom"
+    "name": "23 Kingdom",
+    "rating": 2200
    },
    {
     "index": "D",
-    "name": "Mani and Segments"
+    "name": "Mani and Segments",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Kia Bakes a Cake"
+    "name": "Kia Bakes a Cake",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Shoo Shatters the Sunshine"
+    "name": "Shoo Shatters the Sunshine",
+    "rating": 3300
    }
   ]
  },
@@ -37,11 +43,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Dinner Time"
+    "name": "Dinner Time",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "The Picky Cat"
+    "name": "The Picky Cat",
+    "rating": 900
    },
    {
     "index": "C",

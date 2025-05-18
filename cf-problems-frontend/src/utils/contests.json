@@ -1,5 +1,44 @@
 [
  {
+  "id": 2109,
+  "type": "Div2",
+  "name": "Codeforces Round 1025 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "It's Time To Duel"
+   },
+   {
+    "index": "B",
+    "name": "Slice to Survive"
+   },
+   {
+    "index": "C1",
+    "name": "Hacking Numbers (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Hacking Numbers (Medium Version)"
+   },
+   {
+    "index": "C3",
+    "name": "Hacking Numbers (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "D/D/D"
+   },
+   {
+    "index": "E",
+    "name": "Binary String Wowee"
+   },
+   {
+    "index": "F",
+    "name": "Penguin Steps"
+   }
+  ]
+ },
+ {
   "id": 2101,
   "type": "Div1",
   "name": "Codeforces Round 1024 (Div. 1)",

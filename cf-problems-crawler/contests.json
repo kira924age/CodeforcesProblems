@@ -1,5 +1,40 @@
 [
  {
+  "id": 2114,
+  "type": "Div3",
+  "name": "Codeforces Round  1027 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Square Year"
+   },
+   {
+    "index": "B",
+    "name": "Not Quite a Palindromic String"
+   },
+   {
+    "index": "C",
+    "name": "Need More Arrays"
+   },
+   {
+    "index": "D",
+    "name": "Come a Little Closer"
+   },
+   {
+    "index": "E",
+    "name": "Kirei Attacks the Estate"
+   },
+   {
+    "index": "F",
+    "name": "Small Operations"
+   },
+   {
+    "index": "G",
+    "name": "Build an Array"
+   }
+  ]
+ },
+ {
   "id": 2110,
   "type": "Div2",
   "name": "Codeforces Round 1026 (Div. 2)",

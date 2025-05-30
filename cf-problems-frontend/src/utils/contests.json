@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Square Year"
+    "name": "Square Year",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Not Quite a Palindromic String"
+    "name": "Not Quite a Palindromic String",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Need More Arrays"
+    "name": "Need More Arrays",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Come a Little Closer"
+    "name": "Come a Little Closer",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Kirei Attacks the Estate"
+    "name": "Kirei Attacks the Estate",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Small Operations"
+    "name": "Small Operations",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Build an Array"
+    "name": "Build an Array",
+    "rating": 2200
    }
   ]
  },
@@ -41,27 +48,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Fashionable Array"
+    "name": "Fashionable Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Down with Brackets"
+    "name": "Down with Brackets",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Racing"
+    "name": "Racing",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Fewer Batteries"
+    "name": "Fewer Batteries",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Melody"
+    "name": "Melody",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Faculty"
+    "name": "Faculty",
+    "rating": 2400
    }
   ]
  },
@@ -72,35 +85,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "It's Time To Duel"
+    "name": "It's Time To Duel",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Slice to Survive"
+    "name": "Slice to Survive",
+    "rating": 1200
    },
    {
     "index": "C1",
-    "name": "Hacking Numbers (Easy Version)"
+    "name": "Hacking Numbers (Easy Version)",
+    "rating": 1500
    },
    {
     "index": "C2",
-    "name": "Hacking Numbers (Medium Version)"
+    "name": "Hacking Numbers (Medium Version)",
+    "rating": 1700
    },
    {
     "index": "C3",
-    "name": "Hacking Numbers (Hard Version)"
+    "name": "Hacking Numbers (Hard Version)",
+    "rating": 2600
    },
    {
     "index": "D",
-    "name": "D/D/D"
+    "name": "D/D/D",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Binary String Wowee"
+    "name": "Binary String Wowee",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Penguin Steps"
+    "name": "Penguin Steps",
+    "rating": 3000
    }
   ]
  },

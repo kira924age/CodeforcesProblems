@@ -1,5 +1,40 @@
 [
  {
+  "id": 2111,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 179 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Energy Crystals"
+   },
+   {
+    "index": "B",
+    "name": "Fibonacci Cubes"
+   },
+   {
+    "index": "C",
+    "name": "Equal Values"
+   },
+   {
+    "index": "D",
+    "name": "Creating a Schedule"
+   },
+   {
+    "index": "E",
+    "name": "Changing the String"
+   },
+   {
+    "index": "F",
+    "name": "Puzzle"
+   },
+   {
+    "index": "G",
+    "name": "Divisible Subarrays"
+   }
+  ]
+ },
+ {
   "id": 2115,
   "type": "Div1",
   "name": "Codeforces Round 1028 (Div. 1)",

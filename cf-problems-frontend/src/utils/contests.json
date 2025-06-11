@@ -45,31 +45,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Energy Crystals"
+    "name": "Energy Crystals",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Fibonacci Cubes"
+    "name": "Fibonacci Cubes",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Equal Values"
+    "name": "Equal Values",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Creating a Schedule"
+    "name": "Creating a Schedule",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Changing the String"
+    "name": "Changing the String",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Puzzle"
+    "name": "Puzzle",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Divisible Subarrays"
+    "name": "Divisible Subarrays",
+    "rating": 2900
    }
   ]
  },
@@ -80,31 +87,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Gellyfish and Flaming Peony"
+    "name": "Gellyfish and Flaming Peony",
+    "rating": 1500
    },
    {
     "index": "B",
-    "name": "Gellyfish and Camellia Japonica"
+    "name": "Gellyfish and Camellia Japonica",
+    "rating": 2100
    },
    {
     "index": "C",
-    "name": "Gellyfish and Eternal Violet"
+    "name": "Gellyfish and Eternal Violet",
+    "rating": 2700
    },
    {
     "index": "D",
-    "name": "Gellyfish and Forget-Me-Not"
+    "name": "Gellyfish and Forget-Me-Not",
+    "rating": 2900
    },
    {
     "index": "E",
-    "name": "Gellyfish and Mayflower"
+    "name": "Gellyfish and Mayflower",
+    "rating": 3500
    },
    {
     "index": "F1",
-    "name": "Gellyfish and Lycoris Radiata (Easy Version)"
+    "name": "Gellyfish and Lycoris Radiata (Easy Version)",
+    "rating": 3500
    },
    {
     "index": "F2",
-    "name": "Gellyfish and Lycoris Radiata (Hard Version)"
+    "name": "Gellyfish and Lycoris Radiata (Hard Version)",
+    "rating": 3500
    }
   ]
  },
@@ -115,11 +129,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Gellyfish and Tricolor Pansy"
+    "name": "Gellyfish and Tricolor Pansy",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Gellyfish and Baby's Breath"
+    "name": "Gellyfish and Baby's Breath",
+    "rating": 1300
    },
    {
     "index": "C",

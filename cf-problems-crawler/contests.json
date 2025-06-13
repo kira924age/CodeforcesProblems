@@ -1,5 +1,40 @@
 [
  {
+  "id": 2118,
+  "type": "Div2",
+  "name": "Codeforces Round 1030 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Equal Subsequences"
+   },
+   {
+    "index": "B",
+    "name": "Make It Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Make It Beautiful"
+   },
+   {
+    "index": "D1",
+    "name": "Red Light, Green Light (Easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Red Light, Green Light (Hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Grid Coloring"
+   },
+   {
+    "index": "F",
+    "name": "Shifts and Swaps"
+   }
+  ]
+ },
+ {
   "id": 2117,
   "type": "Div3",
   "name": "Codeforces Round 1029 (Div. 3)",

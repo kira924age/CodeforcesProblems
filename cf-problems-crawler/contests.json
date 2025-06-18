@@ -1,5 +1,44 @@
 [
  {
+  "id": 2121,
+  "type": "Div3",
+  "name": "Codeforces Round 1032 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Letter Home"
+   },
+   {
+    "index": "B",
+    "name": "Above the Clouds"
+   },
+   {
+    "index": "C",
+    "name": "Those Who Are With Us"
+   },
+   {
+    "index": "D",
+    "name": "1709"
+   },
+   {
+    "index": "E",
+    "name": "Sponsor of Your Problems"
+   },
+   {
+    "index": "F",
+    "name": "Yamakasi"
+   },
+   {
+    "index": "G",
+    "name": "Gangsta"
+   },
+   {
+    "index": "H",
+    "name": "Ice Baby"
+   }
+  ]
+ },
+ {
   "id": 2113,
   "type": "Div2",
   "name": "Codeforces Round 1031 (Div. 2)",
@@ -37,31 +76,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Equal Subsequences"
+    "name": "Equal Subsequences",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Make It Permutation"
+    "name": "Make It Permutation",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Make It Beautiful"
+    "name": "Make It Beautiful",
+    "rating": 1300
    },
    {
     "index": "D1",
-    "name": "Red Light, Green Light (Easy version)"
+    "name": "Red Light, Green Light (Easy version)",
+    "rating": 1700
    },
    {
     "index": "D2",
-    "name": "Red Light, Green Light (Hard version)"
+    "name": "Red Light, Green Light (Hard version)",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Grid Coloring"
+    "name": "Grid Coloring",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Shifts and Swaps"
+    "name": "Shifts and Swaps",
+    "rating": 3100
    }
   ]
  },
@@ -72,35 +118,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "False Alarm"
+    "name": "False Alarm",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Shrink"
+    "name": "Shrink",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Cool Partition"
+    "name": "Cool Partition",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Retaliation"
+    "name": "Retaliation",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Lost Soul"
+    "name": "Lost Soul",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Wildflower"
+    "name": "Wildflower",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Omg Graph"
+    "name": "Omg Graph",
+    "rating": 1900
    },
    {
     "index": "H",
-    "name": "Incessant Rain"
+    "name": "Incessant Rain",
+    "rating": 2500
    }
   ]
  },

@@ -45,27 +45,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Shashliks"
+    "name": "Shashliks",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Good Start"
+    "name": "Good Start",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Smilo and Minecraft"
+    "name": "Smilo and Minecraft",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Cheater"
+    "name": "Cheater",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "From Kazan with Love"
+    "name": "From Kazan with Love",
+    "rating": 2800
    },
    {
     "index": "F",
-    "name": "Two Arrays"
+    "name": "Two Arrays",
+    "rating": 2500
    }
   ]
  },

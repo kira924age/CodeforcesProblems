@@ -3,7 +3,36 @@
   "id": 2120,
   "type": "Div2",
   "name": "Codeforces Round 1033 (Div. 2) and CodeNite 2025",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Square of Rectangles"
+   },
+   {
+    "index": "B",
+    "name": "Square Pool"
+   },
+   {
+    "index": "C",
+    "name": "Divine Tree"
+   },
+   {
+    "index": "D",
+    "name": "Matrix game"
+   },
+   {
+    "index": "E",
+    "name": "Lanes of Cars"
+   },
+   {
+    "index": "F",
+    "name": "Superb Graphs"
+   },
+   {
+    "index": "G",
+    "name": "Eulerian Line Graph"
+   }
+  ]
  },
  {
   "id": 2121,

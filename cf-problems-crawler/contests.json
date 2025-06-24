@@ -1,5 +1,36 @@
 [
  {
+  "id": 2112,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 180 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Race"
+   },
+   {
+    "index": "B",
+    "name": "Shrinking Array"
+   },
+   {
+    "index": "C",
+    "name": "Coloring Game"
+   },
+   {
+    "index": "D",
+    "name": "Reachability and Tree"
+   },
+   {
+    "index": "E",
+    "name": "Tree Colorings"
+   },
+   {
+    "index": "F",
+    "name": "Variables and Operations"
+   }
+  ]
+ },
+ {
   "id": 2120,
   "type": "Div2",
   "name": "Codeforces Round 1033 (Div. 2) and CodeNite 2025",

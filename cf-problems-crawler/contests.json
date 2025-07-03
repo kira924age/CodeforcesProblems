@@ -3,7 +3,36 @@
   "id": 2123,
   "type": "Div3",
   "name": "Codeforces Round 1034 (Div. 3)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Blackboard Game"
+   },
+   {
+    "index": "B",
+    "name": "Tournament"
+   },
+   {
+    "index": "C",
+    "name": "Prefix Min and Suffix Max"
+   },
+   {
+    "index": "D",
+    "name": "Binary String Battle"
+   },
+   {
+    "index": "E",
+    "name": "MEX Count"
+   },
+   {
+    "index": "F",
+    "name": "Minimize Fixed Points"
+   },
+   {
+    "index": "G",
+    "name": "Modular Sorting"
+   }
+  ]
  },
  {
   "id": 2112,
@@ -12,27 +41,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Race"
+    "name": "Race",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Shrinking Array"
+    "name": "Shrinking Array",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Coloring Game"
+    "name": "Coloring Game",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Reachability and Tree"
+    "name": "Reachability and Tree",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Tree Colorings"
+    "name": "Tree Colorings",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Variables and Operations"
+    "name": "Variables and Operations",
+    "rating": 2800
    }
   ]
  },
@@ -43,31 +78,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Square of Rectangles"
+    "name": "Square of Rectangles",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Square Pool"
+    "name": "Square Pool",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Divine Tree"
+    "name": "Divine Tree",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Matrix game"
+    "name": "Matrix game",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Lanes of Cars"
+    "name": "Lanes of Cars",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Superb Graphs"
+    "name": "Superb Graphs",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Eulerian Line Graph"
+    "name": "Eulerian Line Graph",
+    "rating": 3000
    }
   ]
  },
@@ -78,35 +120,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Letter Home"
+    "name": "Letter Home",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Above the Clouds"
+    "name": "Above the Clouds",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Those Who Are With Us"
+    "name": "Those Who Are With Us",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "1709"
+    "name": "1709",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Sponsor of Your Problems"
+    "name": "Sponsor of Your Problems",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Yamakasi"
+    "name": "Yamakasi",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Gangsta"
+    "name": "Gangsta",
+    "rating": 1900
    },
    {
     "index": "H",
-    "name": "Ice Baby"
+    "name": "Ice Baby",
+    "rating": 2300
    }
   ]
  },

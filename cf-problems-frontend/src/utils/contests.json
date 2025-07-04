@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Blackboard Game"
+    "name": "Blackboard Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Tournament"
+    "name": "Tournament",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Prefix Min and Suffix Max"
+    "name": "Prefix Min and Suffix Max",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Binary String Battle"
+    "name": "Binary String Battle",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "MEX Count"
+    "name": "MEX Count",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Minimize Fixed Points"
+    "name": "Minimize Fixed Points",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Modular Sorting"
+    "name": "Modular Sorting",
+    "rating": 2100
    }
   ]
  },

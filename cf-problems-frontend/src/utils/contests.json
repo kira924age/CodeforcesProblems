@@ -1,5 +1,52 @@
 [
  {
+  "id": 2124,
+  "type": "Div1 + Div2",
+  "name": "EPIC Institute of Technology Round Summer 2025 (Codeforces Round 1036, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Deranged Deletions"
+   },
+   {
+    "index": "B",
+    "name": "Minimise Sum"
+   },
+   {
+    "index": "C",
+    "name": "Subset Multiplication"
+   },
+   {
+    "index": "D",
+    "name": "Make a Palindrome"
+   },
+   {
+    "index": "E",
+    "name": "Make it Zero"
+   },
+   {
+    "index": "F1",
+    "name": "Appending Permutations (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Appending Permutations (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Maximise Sum"
+   },
+   {
+    "index": "H",
+    "name": "Longest Good Subsequence"
+   },
+   {
+    "index": "I",
+    "name": "Lexicographic Partition"
+   }
+  ]
+ },
+ {
   "id": 2119,
   "type": "Div2",
   "name": "Codeforces Round 1035 (Div. 2)",

@@ -1,5 +1,44 @@
 [
  {
+  "id": 2126,
+  "type": "Div3",
+  "name": "Codeforces Round 1037 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Only One Digit"
+   },
+   {
+    "index": "B",
+    "name": "No Casino in the Mountains"
+   },
+   {
+    "index": "C",
+    "name": "I Will Definitely Make It"
+   },
+   {
+    "index": "D",
+    "name": "This Is the Last Time"
+   },
+   {
+    "index": "E",
+    "name": "G-C-D, Unlucky!"
+   },
+   {
+    "index": "F",
+    "name": "1-1-1, Free Tree!"
+   },
+   {
+    "index": "G1",
+    "name": "Big Wins! (easy version)"
+   },
+   {
+    "index": "G2",
+    "name": "Big Wins! (hard version)"
+   }
+  ]
+ },
+ {
   "id": 2124,
   "type": "Div1 + Div2",
   "name": "EPIC Institute of Technology Round Summer 2025 (Codeforces Round 1036, Div. 1 + Div. 2)",

@@ -1,5 +1,36 @@
 [
  {
+  "id": 2125,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 181 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Difficult Contest"
+   },
+   {
+    "index": "B",
+    "name": "Left and Down"
+   },
+   {
+    "index": "C",
+    "name": "Count Good Numbers"
+   },
+   {
+    "index": "D",
+    "name": "Segments Covering"
+   },
+   {
+    "index": "E",
+    "name": "Sets of Complementary Sums"
+   },
+   {
+    "index": "F",
+    "name": "Timofey and Docker"
+   }
+  ]
+ },
+ {
   "id": 2122,
   "type": "Div1 + Div2",
   "name": "Order Capital Round 1 (Codeforces Round 1038, Div. 1 + Div. 2)",

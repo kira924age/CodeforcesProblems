@@ -72,35 +72,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Only One Digit"
+    "name": "Only One Digit",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "No Casino in the Mountains"
+    "name": "No Casino in the Mountains",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "I Will Definitely Make It"
+    "name": "I Will Definitely Make It",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "This Is the Last Time"
+    "name": "This Is the Last Time",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "G-C-D, Unlucky!"
+    "name": "G-C-D, Unlucky!",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "1-1-1, Free Tree!"
+    "name": "1-1-1, Free Tree!",
+    "rating": 2000
    },
    {
     "index": "G1",
-    "name": "Big Wins! (easy version)"
+    "name": "Big Wins! (easy version)",
+    "rating": 2200
    },
    {
     "index": "G2",
-    "name": "Big Wins! (hard version)"
+    "name": "Big Wins! (hard version)",
+    "rating": 2400
    }
   ]
  },
@@ -111,43 +119,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Deranged Deletions"
+    "name": "Deranged Deletions",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Minimise Sum"
+    "name": "Minimise Sum",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Subset Multiplication"
+    "name": "Subset Multiplication",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Make a Palindrome"
+    "name": "Make a Palindrome",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Make it Zero"
+    "name": "Make it Zero",
+    "rating": 2100
    },
    {
     "index": "F1",
-    "name": "Appending Permutations (Easy Version)"
+    "name": "Appending Permutations (Easy Version)",
+    "rating": 2300
    },
    {
     "index": "F2",
-    "name": "Appending Permutations (Hard Version)"
+    "name": "Appending Permutations (Hard Version)",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Maximise Sum"
+    "name": "Maximise Sum",
+    "rating": 3200
    },
    {
     "index": "H",
-    "name": "Longest Good Subsequence"
+    "name": "Longest Good Subsequence",
+    "rating": 3400
    },
    {
     "index": "I",
-    "name": "Lexicographic Partition"
+    "name": "Lexicographic Partition",
+    "rating": 3500
    }
   ]
  },
@@ -158,27 +176,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Add or XOR"
+    "name": "Add or XOR",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Line Segments"
+    "name": "Line Segments",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "A Good Problem"
+    "name": "A Good Problem",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Token Removing"
+    "name": "Token Removing",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "And Constraint"
+    "name": "And Constraint",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Volcanic Eruptions"
+    "name": "Volcanic Eruptions",
+    "rating": 3300
    }
   ]
  },

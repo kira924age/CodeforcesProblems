@@ -1,44 +1,96 @@
 [
  {
+  "id": 2127,
+  "type": "Div1 + Div2",
+  "name": "Atto Round 1 (Codeforces Round 1041, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Mix Mex Max"
+   },
+   {
+    "index": "B",
+    "name": "Hamiiid, Haaamid... Hamid?"
+   },
+   {
+    "index": "C",
+    "name": "Trip Shopping"
+   },
+   {
+    "index": "D",
+    "name": "Root was Built by Love, Broken by Destiny"
+   },
+   {
+    "index": "E",
+    "name": "Ancient Tree"
+   },
+   {
+    "index": "F",
+    "name": "Hamed and AghaBalaSar"
+   },
+   {
+    "index": "G1",
+    "name": "Inter Active (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Inter Active (Hard Version)"
+   },
+   {
+    "index": "H",
+    "name": "23 Rises Again"
+   }
+  ]
+ },
+ {
   "id": 2129,
   "type": "Div1",
   "name": "Codeforces Round 1040 (Div. 1)",
   "problems": [
    {
     "index": "A",
-    "name": "Double Perspective"
+    "name": "Double Perspective",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Stay or Mirror"
+    "name": "Stay or Mirror",
+    "rating": 1600
    },
    {
     "index": "C1",
-    "name": "Interactive RBS (Easy Version)"
+    "name": "Interactive RBS (Easy Version)",
+    "rating": 1900
    },
    {
     "index": "C2",
-    "name": "Interactive RBS (Medium Version)"
+    "name": "Interactive RBS (Medium Version)",
+    "rating": 2000
    },
    {
     "index": "C3",
-    "name": "Interactive RBS (Hard Version)"
+    "name": "Interactive RBS (Hard Version)",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Permutation Blackhole"
+    "name": "Permutation Blackhole",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Induced Subgraph Queries"
+    "name": "Induced Subgraph Queries",
+    "rating": 3000
    },
    {
     "index": "F1",
-    "name": "Top-K Tracker (Easy Version)"
+    "name": "Top-K Tracker (Easy Version)",
+    "rating": 3500
    },
    {
     "index": "F2",
-    "name": "Top-K Tracker (Hard Version)"
+    "name": "Top-K Tracker (Hard Version)",
+    "rating": 3500
    }
   ]
  },
@@ -49,11 +101,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Submission is All You Need"
+    "name": "Submission is All You Need",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Pathless"
+    "name": "Pathless",
+    "rating": 1100
    },
    {
     "index": "C",
@@ -88,31 +142,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Recycling Center"
+    "name": "Recycling Center",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Deque Process"
+    "name": "Deque Process",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Leftmost Below"
+    "name": "Leftmost Below",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Sum of LDS"
+    "name": "Sum of LDS",
+    "rating": 1600
    },
    {
     "index": "E1",
-    "name": "Submedians (Easy Version)"
+    "name": "Submedians (Easy Version)",
+    "rating": 1900
    },
    {
     "index": "E2",
-    "name": "Submedians (Hard Version)"
+    "name": "Submedians (Hard Version)",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Strict Triangle"
+    "name": "Strict Triangle",
+    "rating": 3200
    }
   ]
  },
@@ -123,27 +184,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Difficult Contest"
+    "name": "Difficult Contest",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Left and Down"
+    "name": "Left and Down",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Count Good Numbers"
+    "name": "Count Good Numbers",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Segments Covering"
+    "name": "Segments Covering",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Sets of Complementary Sums"
+    "name": "Sets of Complementary Sums",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Timofey and Docker"
+    "name": "Timofey and Docker",
+    "rating": 3000
    }
   ]
  },
@@ -154,31 +221,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Greedy Grid"
+    "name": "Greedy Grid",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Pile Shuffling"
+    "name": "Pile Shuffling",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Manhattan Pairs"
+    "name": "Manhattan Pairs",
+    "rating": 1700
    },
    {
     "index": "D",
-    "name": "Traffic Lights"
+    "name": "Traffic Lights",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "Greedy Grid Counting"
+    "name": "Greedy Grid Counting",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Colorful Polygon"
+    "name": "Colorful Polygon",
+    "rating": 3400
    },
    {
     "index": "G",
-    "name": "Tree Parking"
+    "name": "Tree Parking",
+    "rating": 3300
    }
   ]
  },

@@ -1,5 +1,44 @@
 [
  {
+  "id": 2131,
+  "type": "Div3",
+  "name": "Codeforces Round 1042 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Lever"
+   },
+   {
+    "index": "B",
+    "name": "Alternating Series"
+   },
+   {
+    "index": "C",
+    "name": "Make it Equal"
+   },
+   {
+    "index": "D",
+    "name": "Arboris Contractio"
+   },
+   {
+    "index": "E",
+    "name": "Adjacent XOR"
+   },
+   {
+    "index": "F",
+    "name": "Unjust Binary Life"
+   },
+   {
+    "index": "G",
+    "name": "Wafu!"
+   },
+   {
+    "index": "H",
+    "name": "Sea, You & copriMe"
+   }
+  ]
+ },
+ {
   "id": 2127,
   "type": "Div1 + Div2",
   "name": "Atto Round 1 (Codeforces Round 1041, Div. 1 + Div. 2)",

@@ -45,39 +45,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Mix Mex Max"
+    "name": "Mix Mex Max",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Hamiiid, Haaamid... Hamid?"
+    "name": "Hamiiid, Haaamid... Hamid?",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Trip Shopping"
+    "name": "Trip Shopping",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Root was Built by Love, Broken by Destiny"
+    "name": "Root was Built by Love, Broken by Destiny",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Ancient Tree"
+    "name": "Ancient Tree",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Hamed and AghaBalaSar"
+    "name": "Hamed and AghaBalaSar",
+    "rating": 2800
    },
    {
     "index": "G1",
-    "name": "Inter Active (Easy Version)"
+    "name": "Inter Active (Easy Version)",
+    "rating": 3400
    },
    {
     "index": "G2",
-    "name": "Inter Active (Hard Version)"
+    "name": "Inter Active (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "H",
-    "name": "23 Rises Again"
+    "name": "23 Rises Again",
+    "rating": 3100
    }
   ]
  },

@@ -1,5 +1,44 @@
 [
  {
+  "id": 2132,
+  "type": "Div3",
+  "name": "Codeforces Round 1043 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Homework"
+   },
+   {
+    "index": "B",
+    "name": "The Secret Number"
+   },
+   {
+    "index": "C1",
+    "name": "The Cunning Seller (easy version)"
+   },
+   {
+    "index": "C2",
+    "name": "The Cunning Seller (hard version)"
+   },
+   {
+    "index": "D",
+    "name": "From 1 to Infinity"
+   },
+   {
+    "index": "E",
+    "name": "Arithmetics Competition"
+   },
+   {
+    "index": "F",
+    "name": "Rada and the Chamomile Valley"
+   },
+   {
+    "index": "G",
+    "name": "Famous Choreographer"
+   }
+  ]
+ },
+ {
   "id": 2131,
   "type": "Div3",
   "name": "Codeforces Round 1042 (Div. 3)",

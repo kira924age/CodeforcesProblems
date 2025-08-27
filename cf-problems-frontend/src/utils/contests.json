@@ -1,5 +1,36 @@
 [
  {
+  "id": 2134,
+  "type": "Div2",
+  "name": "Codeforces Round 1045 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Painting With Two Colors"
+   },
+   {
+    "index": "B",
+    "name": "Add 0 or K"
+   },
+   {
+    "index": "C",
+    "name": "Even Larger"
+   },
+   {
+    "index": "D",
+    "name": "Sliding Tree"
+   },
+   {
+    "index": "E",
+    "name": "Power Boxes"
+   },
+   {
+    "index": "F",
+    "name": "Permutation Oddness"
+   }
+  ]
+ },
+ {
   "id": 2133,
   "type": "Div2",
   "name": "Codeforces Round 1044 (Div. 2)",

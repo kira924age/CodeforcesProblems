@@ -68,35 +68,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Homework"
+    "name": "Homework",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "The Secret Number"
+    "name": "The Secret Number",
+    "rating": 900
    },
    {
     "index": "C1",
-    "name": "The Cunning Seller (easy version)"
+    "name": "The Cunning Seller (easy version)",
+    "rating": 1000
    },
    {
     "index": "C2",
-    "name": "The Cunning Seller (hard version)"
+    "name": "The Cunning Seller (hard version)",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "From 1 to Infinity"
+    "name": "From 1 to Infinity",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Arithmetics Competition"
+    "name": "Arithmetics Competition",
+    "rating": 1700
    },
    {
     "index": "F",
-    "name": "Rada and the Chamomile Valley"
+    "name": "Rada and the Chamomile Valley",
+    "rating": 2100
    },
    {
     "index": "G",
-    "name": "Famous Choreographer"
+    "name": "Famous Choreographer",
+    "rating": 2600
    }
   ]
  },
@@ -107,35 +115,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Lever"
+    "name": "Lever",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Alternating Series"
+    "name": "Alternating Series",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Make it Equal"
+    "name": "Make it Equal",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Arboris Contractio"
+    "name": "Arboris Contractio",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Adjacent XOR"
+    "name": "Adjacent XOR",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Unjust Binary Life"
+    "name": "Unjust Binary Life",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Wafu!"
+    "name": "Wafu!",
+    "rating": 2000
    },
    {
     "index": "H",
-    "name": "Sea, You & copriMe"
+    "name": "Sea, You & copriMe",
+    "rating": 2600
    }
   ]
  },

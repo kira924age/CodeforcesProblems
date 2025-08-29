@@ -1,5 +1,79 @@
 [
  {
+  "id": 2135,
+  "type": "Div1",
+  "name": "Codeforces Round 1046 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Against the Difference"
+   },
+   {
+    "index": "B",
+    "name": "For the Champion"
+   },
+   {
+    "index": "C",
+    "name": "By the Assignment"
+   },
+   {
+    "index": "D1",
+    "name": "From the Unknown (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "From the Unknown (Hard Version)"
+   },
+   {
+    "index": "E1",
+    "name": "Beyond the Palindrome (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Beyond the Palindrome (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "To the Infinity"
+   }
+  ]
+ },
+ {
+  "id": 2136,
+  "type": "Div2",
+  "name": "Codeforces Round 1046 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "In the Dream"
+   },
+   {
+    "index": "B",
+    "name": "Like the Bitset"
+   },
+   {
+    "index": "C",
+    "name": "Against the Difference"
+   },
+   {
+    "index": "D",
+    "name": "For the Champion"
+   },
+   {
+    "index": "E",
+    "name": "By the Assignment"
+   },
+   {
+    "index": "F1",
+    "name": "From the Unknown (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "From the Unknown (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2134,
   "type": "Div2",
   "name": "Codeforces Round 1045 (Div. 2)",

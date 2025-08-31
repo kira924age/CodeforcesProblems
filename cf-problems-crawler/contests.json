@@ -111,27 +111,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Redstone?"
+    "name": "Redstone?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Villagers"
+    "name": "Villagers",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "The Nether"
+    "name": "The Nether",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Chicken Jockey"
+    "name": "Chicken Jockey",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "I Yearned For The Mines"
+    "name": "I Yearned For The Mines",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Flint and Steel"
+    "name": "Flint and Steel",
+    "rating": 3000
    }
   ]
  },

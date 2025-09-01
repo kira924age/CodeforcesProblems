@@ -80,27 +80,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Painting With Two Colors"
+    "name": "Painting With Two Colors",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Add 0 or K"
+    "name": "Add 0 or K",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Even Larger"
+    "name": "Even Larger",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Sliding Tree"
+    "name": "Sliding Tree",
+    "rating": 2300
    },
    {
     "index": "E",
-    "name": "Power Boxes"
+    "name": "Power Boxes",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Permutation Oddness"
+    "name": "Permutation Oddness",
+    "rating": 2900
    }
   ]
  },

@@ -1,5 +1,40 @@
 [
  {
+  "id": 2137,
+  "type": "Div3",
+  "name": "Codeforces Round 1047 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Collatz Conjecture"
+   },
+   {
+    "index": "B",
+    "name": "Fun Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Maximum Even Sum"
+   },
+   {
+    "index": "D",
+    "name": "Replace with Occurrences"
+   },
+   {
+    "index": "E",
+    "name": "Mexification"
+   },
+   {
+    "index": "F",
+    "name": "Prefix Maximum Invariance"
+   },
+   {
+    "index": "G",
+    "name": "Cry Me a River"
+   }
+  ]
+ },
+ {
   "id": 2135,
   "type": "Div1",
   "name": "Codeforces Round 1046 (Div. 1)",

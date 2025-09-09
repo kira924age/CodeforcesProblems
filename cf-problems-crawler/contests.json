@@ -1,5 +1,79 @@
 [
  {
+  "id": 2138,
+  "type": "Div1",
+  "name": "Codeforces Round 1048 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cake Assignment"
+   },
+   {
+    "index": "B",
+    "name": "Antiamuny Wants to Learn Swap"
+   },
+   {
+    "index": "C1",
+    "name": "Maple and Tree Beauty (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Maple and Tree Beauty (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Antiamuny and Slider Movement"
+   },
+   {
+    "index": "E1",
+    "name": "Determinant Construction (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Determinant Construction (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Ode to the Bridge Builder"
+   }
+  ]
+ },
+ {
+  "id": 2139,
+  "type": "Div2",
+  "name": "Codeforces Round 1048 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Maple and Multiplication"
+   },
+   {
+    "index": "B",
+    "name": "Cake Collection"
+   },
+   {
+    "index": "C",
+    "name": "Cake Assignment"
+   },
+   {
+    "index": "D",
+    "name": "Antiamuny Wants to Learn Swap"
+   },
+   {
+    "index": "E1",
+    "name": "Maple and Tree Beauty (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Maple and Tree Beauty (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Antiamuny and Slider Movement"
+   }
+  ]
+ },
+ {
   "id": 2137,
   "type": "Div3",
   "name": "Codeforces Round 1047 (Div. 3)",

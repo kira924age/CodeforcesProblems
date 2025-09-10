@@ -1,5 +1,40 @@
 [
  {
+  "id": 2140,
+  "type": "Div2",
+  "name": "Codeforces Round 1049 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Shift Sort"
+   },
+   {
+    "index": "B",
+    "name": "Another Divisibility Problem"
+   },
+   {
+    "index": "C",
+    "name": "Ultimate Value"
+   },
+   {
+    "index": "D",
+    "name": "A Cruel Segment's Thesis"
+   },
+   {
+    "index": "E1",
+    "name": "Prime Gaming (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Prime Gaming (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Sum Minimisation"
+   }
+  ]
+ },
+ {
   "id": 2138,
   "type": "Div1",
   "name": "Codeforces Round 1048 (Div. 1)",

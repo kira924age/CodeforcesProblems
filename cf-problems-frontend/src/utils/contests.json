@@ -1,5 +1,87 @@
 [
  {
+  "id": 2141,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Episode 13",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Furniture Store"
+   },
+   {
+    "index": "B",
+    "name": "Games"
+   },
+   {
+    "index": "C",
+    "name": "Minimum on Subarrays"
+   },
+   {
+    "index": "D",
+    "name": "Avoid Minimums"
+   },
+   {
+    "index": "E",
+    "name": "Perfect Cut"
+   },
+   {
+    "index": "F",
+    "name": "Array Reduction"
+   },
+   {
+    "index": "G",
+    "name": "Good Robot Paths"
+   },
+   {
+    "index": "H",
+    "name": "Merging Vertices in a Graph"
+   },
+   {
+    "index": "I",
+    "name": "Color the Tree"
+   }
+  ]
+ },
+ {
+  "id": 2142,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Practice 13",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Spy Detected!"
+   },
+   {
+    "index": "B",
+    "name": "Dislike of Threes"
+   },
+   {
+    "index": "C",
+    "name": "YetnotherrokenKeoard"
+   },
+   {
+    "index": "D",
+    "name": "Removal of Unattractive Pairs"
+   },
+   {
+    "index": "E",
+    "name": "Iva & Pav"
+   },
+   {
+    "index": "F",
+    "name": "Permutation of Rows and Columns"
+   },
+   {
+    "index": "G",
+    "name": "Kachina's Favorite Binary String"
+   },
+   {
+    "index": "H",
+    "name": "Desktop Rearrangement"
+   }
+  ]
+ },
+ {
   "id": 2140,
   "type": "Div2",
   "name": "Codeforces Round 1049 (Div. 2)",

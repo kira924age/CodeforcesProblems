@@ -1,5 +1,40 @@
 [
  {
+  "id": 2148,
+  "type": "Div4",
+  "name": "Codeforces Round 1050 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sublime Sequence"
+   },
+   {
+    "index": "B",
+    "name": "Lasers"
+   },
+   {
+    "index": "C",
+    "name": "Pacer"
+   },
+   {
+    "index": "D",
+    "name": "Destruction of the Dandelion Fields"
+   },
+   {
+    "index": "E",
+    "name": "Split"
+   },
+   {
+    "index": "F",
+    "name": "Gravity Falls"
+   },
+   {
+    "index": "G",
+    "name": "Farmer John's Last Wish"
+   }
+  ]
+ },
+ {
   "id": 2141,
   "type": "Kotlin",
   "name": "Kotlin Heroes: Episode 13",

@@ -1,5 +1,40 @@
 [
  {
+  "id": 2144,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 182 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cut the Array"
+   },
+   {
+    "index": "B",
+    "name": "Maximum Cost Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Non-Descending Arrays"
+   },
+   {
+    "index": "D",
+    "name": "Price Tags"
+   },
+   {
+    "index": "E1",
+    "name": "Looking at Towers (easy version)"
+   },
+   {
+    "index": "E2",
+    "name": "Looking at Towers (difficult version)"
+   },
+   {
+    "index": "F",
+    "name": "Bracket Groups"
+   }
+  ]
+ },
+ {
   "id": 2148,
   "type": "Div4",
   "name": "Codeforces Round 1050 (Div. 4)",

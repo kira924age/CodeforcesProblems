@@ -41,31 +41,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sublime Sequence"
+    "name": "Sublime Sequence",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Lasers"
+    "name": "Lasers",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Pacer"
+    "name": "Pacer",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "Destruction of the Dandelion Fields"
+    "name": "Destruction of the Dandelion Fields",
+    "rating": 1000
    },
    {
     "index": "E",
-    "name": "Split"
+    "name": "Split",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "Gravity Falls"
+    "name": "Gravity Falls",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Farmer John's Last Wish"
+    "name": "Farmer John's Last Wish",
+    "rating": 1900
    }
   ]
  },
@@ -76,39 +83,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Furniture Store"
+    "name": "Furniture Store",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Games"
+    "name": "Games",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Minimum on Subarrays"
+    "name": "Minimum on Subarrays",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "Avoid Minimums"
+    "name": "Avoid Minimums",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Perfect Cut"
+    "name": "Perfect Cut",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Array Reduction"
+    "name": "Array Reduction",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "Good Robot Paths"
+    "name": "Good Robot Paths",
+    "rating": 2800
    },
    {
     "index": "H",
-    "name": "Merging Vertices in a Graph"
+    "name": "Merging Vertices in a Graph",
+    "rating": 2700
    },
    {
     "index": "I",
-    "name": "Color the Tree"
+    "name": "Color the Tree",
+    "rating": 3500
    }
   ]
  },
@@ -158,31 +174,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Shift Sort"
+    "name": "Shift Sort",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Another Divisibility Problem"
+    "name": "Another Divisibility Problem",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Ultimate Value"
+    "name": "Ultimate Value",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "A Cruel Segment's Thesis"
+    "name": "A Cruel Segment's Thesis",
+    "rating": 2000
    },
    {
     "index": "E1",
-    "name": "Prime Gaming (Easy Version)"
+    "name": "Prime Gaming (Easy Version)",
+    "rating": 2200
    },
    {
     "index": "E2",
-    "name": "Prime Gaming (Hard Version)"
+    "name": "Prime Gaming (Hard Version)",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Sum Minimisation"
+    "name": "Sum Minimisation",
+    "rating": 2900
    }
   ]
  },
@@ -193,35 +216,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Cake Assignment"
+    "name": "Cake Assignment",
+    "rating": 1100
    },
    {
     "index": "B",
-    "name": "Antiamuny Wants to Learn Swap"
+    "name": "Antiamuny Wants to Learn Swap",
+    "rating": 1900
    },
    {
     "index": "C1",
-    "name": "Maple and Tree Beauty (Easy Version)"
+    "name": "Maple and Tree Beauty (Easy Version)",
+    "rating": 1800
    },
    {
     "index": "C2",
-    "name": "Maple and Tree Beauty (Hard Version)"
+    "name": "Maple and Tree Beauty (Hard Version)",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Antiamuny and Slider Movement"
+    "name": "Antiamuny and Slider Movement",
+    "rating": 2600
    },
    {
     "index": "E1",
-    "name": "Determinant Construction (Easy Version)"
+    "name": "Determinant Construction (Easy Version)",
+    "rating": 3100
    },
    {
     "index": "E2",
-    "name": "Determinant Construction (Hard Version)"
+    "name": "Determinant Construction (Hard Version)",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Ode to the Bridge Builder"
+    "name": "Ode to the Bridge Builder",
+    "rating": 3500
    }
   ]
  },
@@ -232,11 +263,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Maple and Multiplication"
+    "name": "Maple and Multiplication",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Cake Collection"
+    "name": "Cake Collection",
+    "rating": 800
    },
    {
     "index": "C",
@@ -267,31 +300,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Collatz Conjecture"
+    "name": "Collatz Conjecture",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Fun Permutation"
+    "name": "Fun Permutation",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Maximum Even Sum"
+    "name": "Maximum Even Sum",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Replace with Occurrences"
+    "name": "Replace with Occurrences",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Mexification"
+    "name": "Mexification",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Prefix Maximum Invariance"
+    "name": "Prefix Maximum Invariance",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Cry Me a River"
+    "name": "Cry Me a River",
+    "rating": 2200
    }
   ]
  },
@@ -302,35 +342,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Against the Difference"
+    "name": "Against the Difference",
+    "rating": 1200
    },
    {
     "index": "B",
-    "name": "For the Champion"
+    "name": "For the Champion",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "By the Assignment"
+    "name": "By the Assignment",
+    "rating": 2000
    },
    {
     "index": "D1",
-    "name": "From the Unknown (Easy Version)"
+    "name": "From the Unknown (Easy Version)",
+    "rating": 2100
    },
    {
     "index": "D2",
-    "name": "From the Unknown (Hard Version)"
+    "name": "From the Unknown (Hard Version)",
+    "rating": 2500
    },
    {
     "index": "E1",
-    "name": "Beyond the Palindrome (Easy Version)"
+    "name": "Beyond the Palindrome (Easy Version)",
+    "rating": 3300
    },
    {
     "index": "E2",
-    "name": "Beyond the Palindrome (Hard Version)"
+    "name": "Beyond the Palindrome (Hard Version)",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "To the Infinity"
+    "name": "To the Infinity",
+    "rating": 3500
    }
   ]
  },
@@ -341,11 +389,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "In the Dream"
+    "name": "In the Dream",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Like the Bitset"
+    "name": "Like the Bitset",
+    "rating": 900
    },
    {
     "index": "C",

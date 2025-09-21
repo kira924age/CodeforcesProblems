@@ -1,5 +1,52 @@
 [
  {
+  "id": 2147,
+  "type": "Div1 + Div2",
+  "name": "Codeforces Global Round 29 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Shortest Increasing Path"
+   },
+   {
+    "index": "B",
+    "name": "Multiple Construction"
+   },
+   {
+    "index": "C",
+    "name": "Rabbits"
+   },
+   {
+    "index": "D",
+    "name": "Game on Array"
+   },
+   {
+    "index": "E",
+    "name": "Maximum OR Popcount"
+   },
+   {
+    "index": "F",
+    "name": "Exchange Queries"
+   },
+   {
+    "index": "G",
+    "name": "Modular Tetration"
+   },
+   {
+    "index": "H",
+    "name": "Maxflow GCD Coloring"
+   },
+   {
+    "index": "I1",
+    "name": "Longest Increasing Path (Easy Version)"
+   },
+   {
+    "index": "I2",
+    "name": "Longest Increasing Path (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2143,
   "type": "Div2",
   "name": "Codeforces Round 1051 (Div. 2)",

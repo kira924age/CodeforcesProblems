@@ -1,5 +1,40 @@
 [
  {
+  "id": 2146,
+  "type": "Div2",
+  "name": "Codeforces Round 1052 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Equal Occurrences"
+   },
+   {
+    "index": "B",
+    "name": "Merging the Sets"
+   },
+   {
+    "index": "C",
+    "name": "Wrong Binary Search"
+   },
+   {
+    "index": "D1",
+    "name": "Max Sum OR (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Max Sum OR (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Yet Another MEX Problem"
+   },
+   {
+    "index": "F",
+    "name": "Bubble Sort"
+   }
+  ]
+ },
+ {
   "id": 2147,
   "type": "Div1 + Div2",
   "name": "Codeforces Global Round 29 (Div. 1 + Div. 2)",

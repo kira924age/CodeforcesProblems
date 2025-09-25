@@ -1,5 +1,83 @@
 [
  {
+  "id": 2150,
+  "type": "Div1",
+  "name": "Codeforces Round 1053 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Incremental Path"
+   },
+   {
+    "index": "B",
+    "name": "Grid Counting"
+   },
+   {
+    "index": "C",
+    "name": "Limited Edition Shop"
+   },
+   {
+    "index": "D",
+    "name": "Attraction Theory"
+   },
+   {
+    "index": "E1",
+    "name": "Hidden Single (Version 1)"
+   },
+   {
+    "index": "E2",
+    "name": "Hidden Single (Version 2)"
+   },
+   {
+    "index": "F",
+    "name": "Cycle Closing"
+   },
+   {
+    "index": "G",
+    "name": "Counting Is Fun: The Finale"
+   }
+  ]
+ },
+ {
+  "id": 2151,
+  "type": "Div2",
+  "name": "Codeforces Round 1053 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Incremental Subarray"
+   },
+   {
+    "index": "B",
+    "name": "Incremental Path"
+   },
+   {
+    "index": "C",
+    "name": "Incremental Stay"
+   },
+   {
+    "index": "D",
+    "name": "Grid Counting"
+   },
+   {
+    "index": "E",
+    "name": "Limited Edition Shop"
+   },
+   {
+    "index": "F",
+    "name": "Attraction Theory"
+   },
+   {
+    "index": "G1",
+    "name": "Hidden Single (Version 1)"
+   },
+   {
+    "index": "G2",
+    "name": "Hidden Single (Version 2)"
+   }
+  ]
+ },
+ {
   "id": 2146,
   "type": "Div2",
   "name": "Codeforces Round 1052 (Div. 2)",

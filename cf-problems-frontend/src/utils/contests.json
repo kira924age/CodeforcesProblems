@@ -1,5 +1,40 @@
 [
  {
+  "id": 2149,
+  "type": "Div3",
+  "name": "Codeforces Round 1054 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Be Positive"
+   },
+   {
+    "index": "B",
+    "name": "Unconventional Pairs"
+   },
+   {
+    "index": "C",
+    "name": "MEX rose"
+   },
+   {
+    "index": "D",
+    "name": "A and B"
+   },
+   {
+    "index": "E",
+    "name": "Hidden Knowledge of the Ancients"
+   },
+   {
+    "index": "F",
+    "name": "Nezuko in the Clearing"
+   },
+   {
+    "index": "G",
+    "name": "Buratsuta 3"
+   }
+  ]
+ },
+ {
   "id": 2150,
   "type": "Div1",
   "name": "Codeforces Round 1053 (Div. 1)",

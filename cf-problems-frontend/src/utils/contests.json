@@ -1,36 +1,86 @@
 [
  {
+  "id": 2152,
+  "type": "Div1 + Div2",
+  "name": "Squarepoint Challenge (Codeforces Round 1055, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Increase or Smash"
+   },
+   {
+    "index": "B",
+    "name": "Catching the Krug"
+   },
+   {
+    "index": "C",
+    "name": "Triple Removal"
+   },
+   {
+    "index": "D",
+    "name": "Division Versus Addition"
+   },
+   {
+    "index": "E",
+    "name": "Monotone Subsequence"
+   },
+   {
+    "index": "F",
+    "name": "Triple Attack"
+   },
+   {
+    "index": "G",
+    "name": "Query Jungle"
+   },
+   {
+    "index": "H1",
+    "name": "Victorious Coloring (Easy Version)"
+   },
+   {
+    "index": "H2",
+    "name": "Victorious Coloring (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2149,
   "type": "Div3",
   "name": "Codeforces Round 1054 (Div. 3)",
   "problems": [
    {
     "index": "A",
-    "name": "Be Positive"
+    "name": "Be Positive",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Unconventional Pairs"
+    "name": "Unconventional Pairs",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "MEX rose"
+    "name": "MEX rose",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "A and B"
+    "name": "A and B",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Hidden Knowledge of the Ancients"
+    "name": "Hidden Knowledge of the Ancients",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Nezuko in the Clearing"
+    "name": "Nezuko in the Clearing",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Buratsuta 3"
+    "name": "Buratsuta 3",
+    "rating": 2100
    }
   ]
  },
@@ -41,35 +91,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Incremental Path"
+    "name": "Incremental Path",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Grid Counting"
+    "name": "Grid Counting",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Limited Edition Shop"
+    "name": "Limited Edition Shop",
+    "rating": 2100
    },
    {
     "index": "D",
-    "name": "Attraction Theory"
+    "name": "Attraction Theory",
+    "rating": 2700
    },
    {
     "index": "E1",
-    "name": "Hidden Single (Version 1)"
+    "name": "Hidden Single (Version 1)",
+    "rating": 2600
    },
    {
     "index": "E2",
-    "name": "Hidden Single (Version 2)"
+    "name": "Hidden Single (Version 2)",
+    "rating": 2800
    },
    {
     "index": "F",
-    "name": "Cycle Closing"
+    "name": "Cycle Closing",
+    "rating": 3000
    },
    {
     "index": "G",
-    "name": "Counting Is Fun: The Finale"
+    "name": "Counting Is Fun: The Finale",
+    "rating": 3500
    }
   ]
  },
@@ -80,7 +138,8 @@
   "problems": [
    {
     "index": "A",
-    "name": "Incremental Subarray"
+    "name": "Incremental Subarray",
+    "rating": 800
    },
    {
     "index": "B",
@@ -88,7 +147,8 @@
    },
    {
     "index": "C",
-    "name": "Incremental Stay"
+    "name": "Incremental Stay",
+    "rating": 1400
    },
    {
     "index": "D",
@@ -119,31 +179,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Equal Occurrences"
+    "name": "Equal Occurrences",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Merging the Sets"
+    "name": "Merging the Sets",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Wrong Binary Search"
+    "name": "Wrong Binary Search",
+    "rating": 1300
    },
    {
     "index": "D1",
-    "name": "Max Sum OR (Easy Version)"
+    "name": "Max Sum OR (Easy Version)",
+    "rating": 1500
    },
    {
     "index": "D2",
-    "name": "Max Sum OR (Hard Version)"
+    "name": "Max Sum OR (Hard Version)",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Yet Another MEX Problem"
+    "name": "Yet Another MEX Problem",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Bubble Sort"
+    "name": "Bubble Sort",
+    "rating": 2900
    }
   ]
  },
@@ -154,43 +221,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Shortest Increasing Path"
+    "name": "Shortest Increasing Path",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Multiple Construction"
+    "name": "Multiple Construction",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Rabbits"
+    "name": "Rabbits",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Game on Array"
+    "name": "Game on Array",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Maximum OR Popcount"
+    "name": "Maximum OR Popcount",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Exchange Queries"
+    "name": "Exchange Queries",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Modular Tetration"
+    "name": "Modular Tetration",
+    "rating": 3100
    },
    {
     "index": "H",
-    "name": "Maxflow GCD Coloring"
+    "name": "Maxflow GCD Coloring",
+    "rating": 3500
    },
    {
     "index": "I1",
-    "name": "Longest Increasing Path (Easy Version)"
+    "name": "Longest Increasing Path (Easy Version)",
+    "rating": 3300
    },
    {
     "index": "I2",
-    "name": "Longest Increasing Path (Hard Version)"
+    "name": "Longest Increasing Path (Hard Version)",
+    "rating": 3500
    }
   ]
  },
@@ -201,31 +278,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "All Lengths Subtraction"
+    "name": "All Lengths Subtraction",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Discounts"
+    "name": "Discounts",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Max Tree"
+    "name": "Max Tree",
+    "rating": 1300
    },
    {
     "index": "D1",
-    "name": "Inversion Graph Coloring (Easy Version)"
+    "name": "Inversion Graph Coloring (Easy Version)",
+    "rating": 1800
    },
    {
     "index": "D2",
-    "name": "Inversion Graph Coloring (Hard Version)"
+    "name": "Inversion Graph Coloring (Hard Version)",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Make Good"
+    "name": "Make Good",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Increasing Xor"
+    "name": "Increasing Xor",
+    "rating": 2700
    }
   ]
  },
@@ -236,31 +320,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Cut the Array"
+    "name": "Cut the Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Maximum Cost Permutation"
+    "name": "Maximum Cost Permutation",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Non-Descending Arrays"
+    "name": "Non-Descending Arrays",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Price Tags"
+    "name": "Price Tags",
+    "rating": 1800
    },
    {
     "index": "E1",
-    "name": "Looking at Towers (easy version)"
+    "name": "Looking at Towers (easy version)",
+    "rating": 2200
    },
    {
     "index": "E2",
-    "name": "Looking at Towers (difficult version)"
+    "name": "Looking at Towers (difficult version)",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Bracket Groups"
+    "name": "Bracket Groups",
+    "rating": 2700
    }
   ]
  },

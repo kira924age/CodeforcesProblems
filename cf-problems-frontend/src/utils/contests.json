@@ -1,5 +1,40 @@
 [
  {
+  "id": 2145,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 183 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Candies for Nephews"
+   },
+   {
+    "index": "B",
+    "name": "Deck of Cards"
+   },
+   {
+    "index": "C",
+    "name": "Monocarp's String"
+   },
+   {
+    "index": "D",
+    "name": "Inversion Value of a Permutation"
+   },
+   {
+    "index": "E",
+    "name": "Predicting Popularity"
+   },
+   {
+    "index": "F",
+    "name": "Long Journey"
+   },
+   {
+    "index": "G",
+    "name": "Cost of Coloring"
+   }
+  ]
+ },
+ {
   "id": 2155,
   "type": "Div2",
   "name": "Codeforces Round 1056 (Div. 2)",

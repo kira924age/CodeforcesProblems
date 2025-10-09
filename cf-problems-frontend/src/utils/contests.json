@@ -72,39 +72,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Increase or Smash"
+    "name": "Increase or Smash",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Catching the Krug"
+    "name": "Catching the Krug",
+    "rating": 1300
    },
    {
     "index": "C",
-    "name": "Triple Removal"
+    "name": "Triple Removal",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Division Versus Addition"
+    "name": "Division Versus Addition",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Monotone Subsequence"
+    "name": "Monotone Subsequence",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Triple Attack"
+    "name": "Triple Attack",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Query Jungle"
+    "name": "Query Jungle",
+    "rating": 2900
    },
    {
     "index": "H1",
-    "name": "Victorious Coloring (Easy Version)"
+    "name": "Victorious Coloring (Easy Version)",
+    "rating": 2900
    },
    {
     "index": "H2",
-    "name": "Victorious Coloring (Hard Version)"
+    "name": "Victorious Coloring (Hard Version)",
+    "rating": 3500
    }
   ]
  },

@@ -1,36 +1,74 @@
 [
  {
+  "id": 2153,
+  "type": "Div2",
+  "name": "Codeforces Round 1057 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Circle of Apple Trees"
+   },
+   {
+    "index": "B",
+    "name": "Bitwise Reversion"
+   },
+   {
+    "index": "C",
+    "name": "Symmetrical Polygons"
+   },
+   {
+    "index": "D",
+    "name": "Not Alone"
+   },
+   {
+    "index": "E",
+    "name": "Zero Trailing Factorial"
+   },
+   {
+    "index": "F",
+    "name": "Odd Queries on Odd Array"
+   }
+  ]
+ },
+ {
   "id": 2145,
   "type": "Educational",
   "name": "Educational Codeforces Round 183 (Rated for Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Candies for Nephews"
+    "name": "Candies for Nephews",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Deck of Cards"
+    "name": "Deck of Cards",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Monocarp's String"
+    "name": "Monocarp's String",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Inversion Value of a Permutation"
+    "name": "Inversion Value of a Permutation",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Predicting Popularity"
+    "name": "Predicting Popularity",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Long Journey"
+    "name": "Long Journey",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Cost of Coloring"
+    "name": "Cost of Coloring",
+    "rating": 2900
    }
   ]
  },
@@ -41,27 +79,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "El fucho"
+    "name": "El fucho",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Abraham's Great Escape"
+    "name": "Abraham's Great Escape",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "The Ancient Wizards' Capes"
+    "name": "The Ancient Wizards' Capes",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Batteries"
+    "name": "Batteries",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Mimo & Yuyu"
+    "name": "Mimo & Yuyu",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Juan's Colorful Tree"
+    "name": "Juan's Colorful Tree",
+    "rating": 2800
    }
   ]
  },

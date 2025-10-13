@@ -409,7 +409,7 @@
  },
  {
   "id": 2147,
-  "type": "Div1 + Div2",
+  "type": "Global",
   "name": "Codeforces Global Round 29 (Div. 1 + Div. 2)",
   "problems": [
    {

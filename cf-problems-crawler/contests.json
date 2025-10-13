@@ -1,5 +1,79 @@
 [
  {
+  "id": 2159,
+  "type": "Div1",
+  "name": "Codeforces Round 1058 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "MAD Interactive Problem"
+   },
+   {
+    "index": "B",
+    "name": "Rectangles"
+   },
+   {
+    "index": "C",
+    "name": "Twin Polynomials"
+   },
+   {
+    "index": "D1",
+    "name": "Inverse Minimum Partition (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Inverse Minimum Partition (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Super-Short-Polynomial-San"
+   },
+   {
+    "index": "F",
+    "name": "Grand Finale: Snakes"
+   }
+  ]
+ },
+ {
+  "id": 2160,
+  "type": "Div2",
+  "name": "Codeforces Round 1058 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "MEX Partition"
+   },
+   {
+    "index": "B",
+    "name": "Distinct Elements"
+   },
+   {
+    "index": "C",
+    "name": "Reverse XOR"
+   },
+   {
+    "index": "D",
+    "name": "MAD Interactive Problem"
+   },
+   {
+    "index": "E",
+    "name": "Rectangles"
+   },
+   {
+    "index": "F",
+    "name": "Twin Polynomials"
+   },
+   {
+    "index": "G1",
+    "name": "Inverse Minimum Partition (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Inverse Minimum Partition (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2153,
   "type": "Div2",
   "name": "Codeforces Round 1057 (Div. 2)",

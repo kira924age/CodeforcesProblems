@@ -5,12 +5,12 @@ def classify_contest_type(contest_name):
         res = "exclude"
     elif "Bubble Cup" in contest_name:
         res = "Other"
+    elif "Codeforces Global Round" in contest_name:
+        res = "Global"
     elif "Div. 1 + Div. 2" in contest_name:
         res = "Div1 + Div2"
     elif "Educational" in contest_name:
         res = "Educational"
-    elif "Codeforces Global Round" in contest_name:
-        res = "Global"
     elif "Div. 1" in contest_name:
         res = "Div1"
     elif "Div. 2" in contest_name:

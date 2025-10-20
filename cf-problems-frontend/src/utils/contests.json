@@ -1,5 +1,44 @@
 [
  {
+  "id": 2154,
+  "type": "Div2",
+  "name": "Codeforces Round 1060 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Notelock"
+   },
+   {
+    "index": "B",
+    "name": "Make it Zigzag"
+   },
+   {
+    "index": "C1",
+    "name": "No Cost Too Great (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "No Cost Too Great (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Catshock"
+   },
+   {
+    "index": "E",
+    "name": "No Mind To Think"
+   },
+   {
+    "index": "F1",
+    "name": "Bombing (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Bombing (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2162,
   "type": "Div3",
   "name": "Codeforces Round 1059 (Div. 3)",

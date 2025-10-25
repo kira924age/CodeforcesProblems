@@ -1,5 +1,40 @@
 [
  {
+  "id": 2156,
+  "type": "Div2",
+  "name": "Codeforces Round 1061 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Pizza Time"
+   },
+   {
+    "index": "B",
+    "name": "Strange Machine"
+   },
+   {
+    "index": "C",
+    "name": "Maximum GCD on Whiteboard"
+   },
+   {
+    "index": "D",
+    "name": "Find the Last Number"
+   },
+   {
+    "index": "E",
+    "name": "Best Time to Buy and Sell Stock"
+   },
+   {
+    "index": "F1",
+    "name": "Strange Operation (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Strange Operation (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2154,
   "type": "Div2",
   "name": "Codeforces Round 1060 (Div. 2)",

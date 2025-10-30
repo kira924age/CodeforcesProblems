@@ -3,7 +3,36 @@
   "id": 2167,
   "type": "Div4",
   "name": "Codeforces Round 1062 (Div. 4)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Square?"
+   },
+   {
+    "index": "B",
+    "name": "Your Name"
+   },
+   {
+    "index": "C",
+    "name": "Isamatdin and His Magic Wand!"
+   },
+   {
+    "index": "D",
+    "name": "Yet Another Array Problem"
+   },
+   {
+    "index": "E",
+    "name": "khba Loves to Sleep!"
+   },
+   {
+    "index": "F",
+    "name": "Tree, TREE!!!"
+   },
+   {
+    "index": "G",
+    "name": "Mukhammadali and the Smooth Array"
+   }
+  ]
  },
  {
   "id": 2156,

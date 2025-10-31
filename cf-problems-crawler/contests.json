@@ -1,5 +1,44 @@
 [
  {
+  "id": 2161,
+  "type": "Div1 + Div2",
+  "name": "Pinely Round 5 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Round Trip"
+   },
+   {
+    "index": "B",
+    "name": "Make Connected"
+   },
+   {
+    "index": "C",
+    "name": "Loyalty"
+   },
+   {
+    "index": "D",
+    "name": "Locked Out"
+   },
+   {
+    "index": "E",
+    "name": "Left is Always Right"
+   },
+   {
+    "index": "F",
+    "name": "SubMST"
+   },
+   {
+    "index": "G",
+    "name": "Bitwise And Equals"
+   },
+   {
+    "index": "H",
+    "name": "Cycle Sort"
+   }
+  ]
+ },
+ {
   "id": 2167,
   "type": "Div4",
   "name": "Codeforces Round 1062 (Div. 4)",
@@ -76,35 +115,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Notelock"
+    "name": "Notelock",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Make it Zigzag"
+    "name": "Make it Zigzag",
+    "rating": 1000
    },
    {
     "index": "C1",
-    "name": "No Cost Too Great (Easy Version)"
+    "name": "No Cost Too Great (Easy Version)",
+    "rating": 1400
    },
    {
     "index": "C2",
-    "name": "No Cost Too Great (Hard Version)"
+    "name": "No Cost Too Great (Hard Version)",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Catshock"
+    "name": "Catshock",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "No Mind To Think"
+    "name": "No Mind To Think",
+    "rating": 2500
    },
    {
     "index": "F1",
-    "name": "Bombing (Easy Version)"
+    "name": "Bombing (Easy Version)",
+    "rating": 2700
    },
    {
     "index": "F2",
-    "name": "Bombing (Hard Version)"
+    "name": "Bombing (Hard Version)",
+    "rating": 3300
    }
   ]
  },
@@ -115,35 +162,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Beautiful Average"
+    "name": "Beautiful Average",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Beautiful String"
+    "name": "Beautiful String",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Beautiful XOR"
+    "name": "Beautiful XOR",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Beautiful Permutation"
+    "name": "Beautiful Permutation",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Beautiful Palindromes"
+    "name": "Beautiful Palindromes",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Beautiful Intervals"
+    "name": "Beautiful Intervals",
+    "rating": 2100
    },
    {
     "index": "G",
-    "name": "Beautiful Tree"
+    "name": "Beautiful Tree",
+    "rating": 2200
    },
    {
     "index": "H",
-    "name": "Beautiful Problem"
+    "name": "Beautiful Problem",
+    "rating": 2900
    }
   ]
  },
@@ -154,31 +209,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "MAD Interactive Problem"
+    "name": "MAD Interactive Problem",
+    "rating": 1700
    },
    {
     "index": "B",
-    "name": "Rectangles"
+    "name": "Rectangles",
+    "rating": 2100
    },
    {
     "index": "C",
-    "name": "Twin Polynomials"
+    "name": "Twin Polynomials",
+    "rating": 2300
    },
    {
     "index": "D1",
-    "name": "Inverse Minimum Partition (Easy Version)"
+    "name": "Inverse Minimum Partition (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "D2",
-    "name": "Inverse Minimum Partition (Hard Version)"
+    "name": "Inverse Minimum Partition (Hard Version)",
+    "rating": 3200
    },
    {
     "index": "E",
-    "name": "Super-Short-Polynomial-San"
+    "name": "Super-Short-Polynomial-San",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "Grand Finale: Snakes"
+    "name": "Grand Finale: Snakes",
+    "rating": 3500
    }
   ]
  },
@@ -189,15 +251,18 @@
   "problems": [
    {
     "index": "A",
-    "name": "MEX Partition"
+    "name": "MEX Partition",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Distinct Elements"
+    "name": "Distinct Elements",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Reverse XOR"
+    "name": "Reverse XOR",
+    "rating": 1300
    },
    {
     "index": "D",
@@ -228,27 +293,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Circle of Apple Trees"
+    "name": "Circle of Apple Trees",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Bitwise Reversion"
+    "name": "Bitwise Reversion",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Symmetrical Polygons"
+    "name": "Symmetrical Polygons",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Not Alone"
+    "name": "Not Alone",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Zero Trailing Factorial"
+    "name": "Zero Trailing Factorial",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Odd Queries on Odd Array"
+    "name": "Odd Queries on Odd Array",
+    "rating": 2900
    }
   ]
  },

@@ -1,5 +1,11 @@
 [
  {
+  "id": 2164,
+  "type": "Global",
+  "name": "Codeforces Global Round 30 (Div. 1 + Div. 2)",
+  "problems": []
+ },
+ {
   "id": 2168,
   "type": "Other",
   "name": "Testing Round 20 (Unrated, Communication Problems)",

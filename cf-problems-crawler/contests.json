@@ -3,13 +3,67 @@
   "id": 2164,
   "type": "Global",
   "name": "Codeforces Global Round 30 (Div. 1 + Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sequence Game"
+   },
+   {
+    "index": "B",
+    "name": "Even Modulo Pair"
+   },
+   {
+    "index": "C",
+    "name": "Dungeon"
+   },
+   {
+    "index": "D",
+    "name": "Copy String"
+   },
+   {
+    "index": "E",
+    "name": "Journey"
+   },
+   {
+    "index": "F1",
+    "name": "Chain Prefix Rank (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Chain Prefix Rank (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Pointless Machine"
+   },
+   {
+    "index": "H",
+    "name": "PalindromePalindrome"
+   }
+  ]
  },
  {
   "id": 2168,
   "type": "Other",
   "name": "Testing Round 20 (Unrated, Communication Problems)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A1",
+    "name": "Encode and Decode (Easy Version)"
+   },
+   {
+    "index": "A2",
+    "name": "Encode and Decode (Hard Version)"
+   },
+   {
+    "index": "B",
+    "name": "Locate"
+   },
+   {
+    "index": "C",
+    "name": "Intercepting Butterflies"
+   }
+  ]
  },
  {
   "id": 2161,
@@ -18,35 +72,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Round Trip"
+    "name": "Round Trip",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Make Connected"
+    "name": "Make Connected",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Loyalty"
+    "name": "Loyalty",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Locked Out"
+    "name": "Locked Out",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Left is Always Right"
+    "name": "Left is Always Right",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "SubMST"
+    "name": "SubMST",
+    "rating": 3000
    },
    {
     "index": "G",
-    "name": "Bitwise And Equals"
+    "name": "Bitwise And Equals",
+    "rating": 3500
    },
    {
     "index": "H",
-    "name": "Cycle Sort"
+    "name": "Cycle Sort",
+    "rating": 3500
    }
   ]
  },
@@ -57,31 +119,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Square?"
+    "name": "Square?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Your Name"
+    "name": "Your Name",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Isamatdin and His Magic Wand!"
+    "name": "Isamatdin and His Magic Wand!",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Yet Another Array Problem"
+    "name": "Yet Another Array Problem",
+    "rating": 1000
    },
    {
     "index": "E",
-    "name": "khba Loves to Sleep!"
+    "name": "khba Loves to Sleep!",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "Tree, TREE!!!"
+    "name": "Tree, TREE!!!",
+    "rating": 1600
    },
    {
     "index": "G",
-    "name": "Mukhammadali and the Smooth Array"
+    "name": "Mukhammadali and the Smooth Array",
+    "rating": 1600
    }
   ]
  },
@@ -92,31 +161,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Pizza Time"
+    "name": "Pizza Time",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Strange Machine"
+    "name": "Strange Machine",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Maximum GCD on Whiteboard"
+    "name": "Maximum GCD on Whiteboard",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Find the Last Number"
+    "name": "Find the Last Number",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Best Time to Buy and Sell Stock"
+    "name": "Best Time to Buy and Sell Stock",
+    "rating": 2500
    },
    {
     "index": "F1",
-    "name": "Strange Operation (Easy Version)"
+    "name": "Strange Operation (Easy Version)",
+    "rating": 2200
    },
    {
     "index": "F2",
-    "name": "Strange Operation (Hard Version)"
+    "name": "Strange Operation (Hard Version)",
+    "rating": 3000
    }
   ]
  },

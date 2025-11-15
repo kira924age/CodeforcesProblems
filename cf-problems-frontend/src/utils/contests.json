@@ -1,5 +1,40 @@
 [
  {
+  "id": 2169,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 184 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Alice and Bob"
+   },
+   {
+    "index": "B",
+    "name": "Drifting Away"
+   },
+   {
+    "index": "C",
+    "name": "Range Operation"
+   },
+   {
+    "index": "D1",
+    "name": "Removal of a Sequence (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Removal of a Sequence (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Points Selection"
+   },
+   {
+    "index": "F",
+    "name": "Subsequence Problem"
+   }
+  ]
+ },
+ {
   "id": 2163,
   "type": "Div2",
   "name": "Codeforces Round 1063 (Div. 2)",

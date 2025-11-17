@@ -1,5 +1,130 @@
 [
  {
+  "id": 2165,
+  "type": "Div1",
+  "name": "Codeforces Round 1064 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Cyclic Merging"
+   },
+   {
+    "index": "B",
+    "name": "Marble Council"
+   },
+   {
+    "index": "C",
+    "name": "Binary Wine"
+   },
+   {
+    "index": "D",
+    "name": "Path Split"
+   },
+   {
+    "index": "E",
+    "name": "Rainbow Branch"
+   },
+   {
+    "index": "F",
+    "name": "Arctic Acquisition"
+   }
+  ]
+ },
+ {
+  "id": 2166,
+  "type": "Div2",
+  "name": "Codeforces Round 1064 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Same Difference"
+   },
+   {
+    "index": "B",
+    "name": "Tab Closing"
+   },
+   {
+    "index": "C",
+    "name": "Cyclic Merging"
+   },
+   {
+    "index": "D",
+    "name": "Marble Council"
+   },
+   {
+    "index": "E",
+    "name": "Binary Wine"
+   },
+   {
+    "index": "F",
+    "name": "Path Split"
+   }
+  ]
+ },
+ {
+  "id": 2172,
+  "type": "ICPC",
+  "name": "2025 ICPC Asia Taichung Regional Contest (Unrated, Online Mirror, ICPC Rules, Preferably Teams)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "ASCII Art Contest"
+   },
+   {
+    "index": "B",
+    "name": "Buses"
+   },
+   {
+    "index": "C",
+    "name": "Circles Are Far from Each Other"
+   },
+   {
+    "index": "D",
+    "name": "Divisor Card Game"
+   },
+   {
+    "index": "E",
+    "name": "Number Maze"
+   },
+   {
+    "index": "F",
+    "name": "Cluster Computing System"
+   },
+   {
+    "index": "G",
+    "name": "Gene Editor"
+   },
+   {
+    "index": "H",
+    "name": "Shuffling Cards with Problem Solver 68!"
+   },
+   {
+    "index": "I",
+    "name": "Birthday"
+   },
+   {
+    "index": "J",
+    "name": "Sliding Tiles"
+   },
+   {
+    "index": "K",
+    "name": "Kindergarten Homework"
+   },
+   {
+    "index": "L",
+    "name": "Maximum Color Segment"
+   },
+   {
+    "index": "M",
+    "name": "Maximum Distance To Port"
+   },
+   {
+    "index": "N",
+    "name": "New Kingdom"
+   }
+  ]
+ },
+ {
   "id": 2169,
   "type": "Educational",
   "name": "Educational Codeforces Round 184 (Rated for Div. 2)",

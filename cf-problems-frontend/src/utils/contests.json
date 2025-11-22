@@ -3,7 +3,44 @@
   "id": 2171,
   "type": "Div3",
   "name": "Codeforces Round 1065 (Div. 3)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Shizuku Hoshikawa and Farm Legs"
+   },
+   {
+    "index": "B",
+    "name": "Yuu Koito and Minimum Absolute Sum"
+   },
+   {
+    "index": "C1",
+    "name": "Renako Amaori and XOR Game (easy version)"
+   },
+   {
+    "index": "C2",
+    "name": "Renako Amaori and XOR Game (hard version)"
+   },
+   {
+    "index": "D",
+    "name": "Rae Taylor and Trees (easy version)"
+   },
+   {
+    "index": "E",
+    "name": "Anisphia Wynn Palettia and Good Permutations"
+   },
+   {
+    "index": "F",
+    "name": "Rae Taylor and Trees (hard version)"
+   },
+   {
+    "index": "G",
+    "name": "Sakura Adachi and Optimal Sequences"
+   },
+   {
+    "index": "H",
+    "name": "Shiori Miyagi and Maximum Array Score"
+   }
+  ]
  },
  {
   "id": 2165,
@@ -74,59 +111,73 @@
   "problems": [
    {
     "index": "A",
-    "name": "ASCII Art Contest"
+    "name": "ASCII Art Contest",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Buses"
+    "name": "Buses",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "Circles Are Far from Each Other"
+    "name": "Circles Are Far from Each Other",
+    "rating": 3100
    },
    {
     "index": "D",
-    "name": "Divisor Card Game"
+    "name": "Divisor Card Game",
+    "rating": 3100
    },
    {
     "index": "E",
-    "name": "Number Maze"
+    "name": "Number Maze",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "Cluster Computing System"
+    "name": "Cluster Computing System",
+    "rating": 1600
    },
    {
     "index": "G",
-    "name": "Gene Editor"
+    "name": "Gene Editor",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "Shuffling Cards with Problem Solver 68!"
+    "name": "Shuffling Cards with Problem Solver 68!",
+    "rating": 2500
    },
    {
     "index": "I",
-    "name": "Birthday"
+    "name": "Birthday",
+    "rating": 2000
    },
    {
     "index": "J",
-    "name": "Sliding Tiles"
+    "name": "Sliding Tiles",
+    "rating": 2300
    },
    {
     "index": "K",
-    "name": "Kindergarten Homework"
+    "name": "Kindergarten Homework",
+    "rating": 2100
    },
    {
     "index": "L",
-    "name": "Maximum Color Segment"
+    "name": "Maximum Color Segment",
+    "rating": 2300
    },
    {
     "index": "M",
-    "name": "Maximum Distance To Port"
+    "name": "Maximum Distance To Port",
+    "rating": 1300
    },
    {
     "index": "N",
-    "name": "New Kingdom"
+    "name": "New Kingdom",
+    "rating": 2800
    }
   ]
  },
@@ -172,27 +223,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Souvlaki VS. Kalamaki"
+    "name": "Souvlaki VS. Kalamaki",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Siga ta Kymata"
+    "name": "Siga ta Kymata",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Monopati"
+    "name": "Monopati",
+    "rating": 1500
    },
    {
     "index": "D1",
-    "name": "Diadrash (Easy Version)"
+    "name": "Diadrash (Easy Version)",
+    "rating": 2100
    },
    {
     "index": "D2",
-    "name": "Diadrash (Hard Version)"
+    "name": "Diadrash (Hard Version)",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Plegma"
+    "name": "Plegma",
+    "rating": 2700
    }
   ]
  },
@@ -203,39 +260,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sequence Game"
+    "name": "Sequence Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Even Modulo Pair"
+    "name": "Even Modulo Pair",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Dungeon"
+    "name": "Dungeon",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Copy String"
+    "name": "Copy String",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Journey"
+    "name": "Journey",
+    "rating": 2300
    },
    {
     "index": "F1",
-    "name": "Chain Prefix Rank (Easy Version)"
+    "name": "Chain Prefix Rank (Easy Version)",
+    "rating": 2600
    },
    {
     "index": "F2",
-    "name": "Chain Prefix Rank (Hard Version)"
+    "name": "Chain Prefix Rank (Hard Version)",
+    "rating": 2900
    },
    {
     "index": "G",
-    "name": "Pointless Machine"
+    "name": "Pointless Machine",
+    "rating": 3300
    },
    {
     "index": "H",
-    "name": "PalindromePalindrome"
+    "name": "PalindromePalindrome",
+    "rating": 3400
    }
   ]
  },

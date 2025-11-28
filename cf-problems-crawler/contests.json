@@ -6,39 +6,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Dungeon Equilibrium"
+    "name": "Dungeon Equilibrium",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Expansion Plan 2"
+    "name": "Expansion Plan 2",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Meximum Array 2"
+    "name": "Meximum Array 2",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Billion Players Game"
+    "name": "Billion Players Game",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Adjusting Drones"
+    "name": "Adjusting Drones",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Git Gud"
+    "name": "Git Gud",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Isaac's Queries"
+    "name": "Isaac's Queries",
+    "rating": 2800
    },
    {
     "index": "H",
-    "name": "Keygen 3"
+    "name": "Keygen 3",
+    "rating": 3200
    },
    {
     "index": "I",
-    "name": "Hyper Smawk Bros"
+    "name": "Hyper Smawk Bros",
+    "rating": 3500
    }
   ]
  },
@@ -49,39 +58,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Shizuku Hoshikawa and Farm Legs"
+    "name": "Shizuku Hoshikawa and Farm Legs",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Yuu Koito and Minimum Absolute Sum"
+    "name": "Yuu Koito and Minimum Absolute Sum",
+    "rating": 900
    },
    {
     "index": "C1",
-    "name": "Renako Amaori and XOR Game (easy version)"
+    "name": "Renako Amaori and XOR Game (easy version)",
+    "rating": 1100
    },
    {
     "index": "C2",
-    "name": "Renako Amaori and XOR Game (hard version)"
+    "name": "Renako Amaori and XOR Game (hard version)",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Rae Taylor and Trees (easy version)"
+    "name": "Rae Taylor and Trees (easy version)",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Anisphia Wynn Palettia and Good Permutations"
+    "name": "Anisphia Wynn Palettia and Good Permutations",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Rae Taylor and Trees (hard version)"
+    "name": "Rae Taylor and Trees (hard version)",
+    "rating": 1600
    },
    {
     "index": "G",
-    "name": "Sakura Adachi and Optimal Sequences"
+    "name": "Sakura Adachi and Optimal Sequences",
+    "rating": 2000
    },
    {
     "index": "H",
-    "name": "Shiori Miyagi and Maximum Array Score"
+    "name": "Shiori Miyagi and Maximum Array Score",
+    "rating": 2400
    }
   ]
  },
@@ -92,27 +110,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Cyclic Merging"
+    "name": "Cyclic Merging",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Marble Council"
+    "name": "Marble Council",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Binary Wine"
+    "name": "Binary Wine",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Path Split"
+    "name": "Path Split",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Rainbow Branch"
+    "name": "Rainbow Branch",
+    "rating": 3200
    },
    {
     "index": "F",
-    "name": "Arctic Acquisition"
+    "name": "Arctic Acquisition",
+    "rating": 3500
    }
   ]
  },
@@ -123,11 +147,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Same Difference"
+    "name": "Same Difference",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Tab Closing"
+    "name": "Tab Closing",
+    "rating": 900
    },
    {
     "index": "C",
@@ -231,31 +257,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Alice and Bob"
+    "name": "Alice and Bob",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "Drifting Away"
+    "name": "Drifting Away",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Range Operation"
+    "name": "Range Operation",
+    "rating": 1300
    },
    {
     "index": "D1",
-    "name": "Removal of a Sequence (Easy Version)"
+    "name": "Removal of a Sequence (Easy Version)",
+    "rating": 1500
    },
    {
     "index": "D2",
-    "name": "Removal of a Sequence (Hard Version)"
+    "name": "Removal of a Sequence (Hard Version)",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Points Selection"
+    "name": "Points Selection",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Subsequence Problem"
+    "name": "Subsequence Problem",
+    "rating": 2700
    }
   ]
  },

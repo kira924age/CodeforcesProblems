@@ -1,15 +1,100 @@
 [
  {
+  "id": 2173,
+  "type": "Div2",
+  "name": "Codeforces Round 1068 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sleeping Through Classes"
+   },
+   {
+    "index": "B",
+    "name": "Niko's Tactical Cards"
+   },
+   {
+    "index": "C",
+    "name": "Kanade's Perfect Multiples"
+   },
+   {
+    "index": "D",
+    "name": "Taiga's Carry Chains"
+   },
+   {
+    "index": "E",
+    "name": "Shiro's Mirror Duel"
+   },
+   {
+    "index": "F",
+    "name": "Isla's Memory Thresholds"
+   }
+  ]
+ },
+ {
   "id": 2158,
   "type": "Div2",
   "name": "Codeforces Round 1067 (Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Suspension"
+   },
+   {
+    "index": "B",
+    "name": "Split"
+   },
+   {
+    "index": "C",
+    "name": "Annoying Game"
+   },
+   {
+    "index": "D",
+    "name": "Palindrome Flipping"
+   },
+   {
+    "index": "E",
+    "name": "Sink"
+   },
+   {
+    "index": "F1",
+    "name": "Distinct GCDs (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Distinct GCDs (Hard Version)"
+   }
+  ]
  },
  {
   "id": 2170,
   "type": "Educational",
   "name": "Educational Codeforces Round 185 (Rated for Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Maximum Neighborhood"
+   },
+   {
+    "index": "B",
+    "name": "Addition on a Segment"
+   },
+   {
+    "index": "C",
+    "name": "Quotient and Remainder"
+   },
+   {
+    "index": "D",
+    "name": "Almost Roman"
+   },
+   {
+    "index": "E",
+    "name": "Binary Strings and Blocks"
+   },
+   {
+    "index": "F",
+    "name": "Build XOR on a Segment"
+   }
+  ]
  },
  {
   "id": 2157,

@@ -1,5 +1,79 @@
 [
  {
+  "id": 2174,
+  "type": "Div1",
+  "name": "Codeforces Round 1069 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Needle in a Haystack"
+   },
+   {
+    "index": "B",
+    "name": "Wishing Cards"
+   },
+   {
+    "index": "C1",
+    "name": "Beautiful Patterns (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Beautiful Patterns (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Secret Message"
+   },
+   {
+    "index": "E1",
+    "name": "Game of Scientists (Version 1)"
+   },
+   {
+    "index": "E2",
+    "name": "Game of Scientists (Version 2)"
+   },
+   {
+    "index": "F",
+    "name": "Mosaic Tree"
+   }
+  ]
+ },
+ {
+  "id": 2175,
+  "type": "Div2",
+  "name": "Codeforces Round 1069 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Little Fairy's Painting"
+   },
+   {
+    "index": "B",
+    "name": "XOR Array"
+   },
+   {
+    "index": "C",
+    "name": "Needle in a Haystack"
+   },
+   {
+    "index": "D",
+    "name": "Wishing Cards"
+   },
+   {
+    "index": "E1",
+    "name": "Beautiful Patterns (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Beautiful Patterns (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Secret Message"
+   }
+  ]
+ },
+ {
   "id": 2173,
   "type": "Div2",
   "name": "Codeforces Round 1068 (Div. 2)",

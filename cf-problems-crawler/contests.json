@@ -1,5 +1,64 @@
 [
  {
+  "id": 2181,
+  "type": "ICPC",
+  "name": "2025-2026 ICPC, NERC, Northern Eurasia Finals (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Alphabet City"
+   },
+   {
+    "index": "B",
+    "name": "Battle of Arrays"
+   },
+   {
+    "index": "C",
+    "name": "Cacti Classification"
+   },
+   {
+    "index": "D",
+    "name": "Doorway"
+   },
+   {
+    "index": "E",
+    "name": "Elevator Against Humanity"
+   },
+   {
+    "index": "F",
+    "name": "Fragmented Nim"
+   },
+   {
+    "index": "G",
+    "name": "Greta's Game"
+   },
+   {
+    "index": "H",
+    "name": "Honey Cake"
+   },
+   {
+    "index": "I",
+    "name": "Irrigation Interlock"
+   },
+   {
+    "index": "J",
+    "name": "Jinx or Jackpot"
+   },
+   {
+    "index": "K",
+    "name": "Knit the Grid"
+   },
+   {
+    "index": "L",
+    "name": "LLM Training"
+   },
+   {
+    "index": "M",
+    "name": "Medical Parity"
+   }
+  ]
+ },
+ {
   "id": 2176,
   "type": "Div2",
   "name": "Codeforces Round 1070 (Div. 2)",

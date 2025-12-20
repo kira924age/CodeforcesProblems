@@ -1,5 +1,52 @@
 [
  {
+  "id": 2180,
+  "type": "Global",
+  "name": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Carnival Wheel"
+   },
+   {
+    "index": "B",
+    "name": "Ashmal"
+   },
+   {
+    "index": "C",
+    "name": "XOR-factorization"
+   },
+   {
+    "index": "D",
+    "name": "Insolvable Disks"
+   },
+   {
+    "index": "E",
+    "name": "No Effect XOR"
+   },
+   {
+    "index": "F1",
+    "name": "Control Car (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Control Car (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Balance"
+   },
+   {
+    "index": "H1",
+    "name": "Bug Is Feature (Unconditional Version)"
+   },
+   {
+    "index": "H2",
+    "name": "Bug Is Feature (Conditional Version)"
+   }
+  ]
+ },
+ {
   "id": 2181,
   "type": "ICPC",
   "name": "2025-2026 ICPC, NERC, Northern Eurasia Finals (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",

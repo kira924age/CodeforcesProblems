@@ -1,5 +1,11 @@
 [
  {
+  "id": 2179,
+  "type": "Div3",
+  "name": "Codeforces Round 1071 (Div. 3)",
+  "problems": []
+ },
+ {
   "id": 2180,
   "type": "Global",
   "name": "Codeforces Global Round 31 (Div. 1 + Div. 2)",

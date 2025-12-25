@@ -3,7 +3,40 @@
   "id": 2179,
   "type": "Div3",
   "name": "Codeforces Round 1071 (Div. 3)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Blackslex and Password"
+   },
+   {
+    "index": "B",
+    "name": "Blackslex and Showering"
+   },
+   {
+    "index": "C",
+    "name": "Blackslex and Number Theory"
+   },
+   {
+    "index": "D",
+    "name": "Blackslex and Penguin Civilization"
+   },
+   {
+    "index": "E",
+    "name": "Blackslex and Girls"
+   },
+   {
+    "index": "F",
+    "name": "Blackslex and Another RGB Walking"
+   },
+   {
+    "index": "G",
+    "name": "Blackslex and Penguin Migration"
+   },
+   {
+    "index": "H",
+    "name": "Blackslex and Plants"
+   }
+  ]
  },
  {
   "id": 2180,

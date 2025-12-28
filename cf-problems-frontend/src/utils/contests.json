@@ -1,5 +1,48 @@
 [
  {
+  "id": 2178,
+  "type": "Other",
+  "name": "Good Bye 2025",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Yes or Yes"
+   },
+   {
+    "index": "B",
+    "name": "Impost or Sus"
+   },
+   {
+    "index": "C",
+    "name": "First or Second"
+   },
+   {
+    "index": "D",
+    "name": "Xmas or Hysteria"
+   },
+   {
+    "index": "E",
+    "name": "Flatten or Concatenate"
+   },
+   {
+    "index": "F",
+    "name": "Conquer or of Forest"
+   },
+   {
+    "index": "G",
+    "name": "deCH OR Dations"
+   },
+   {
+    "index": "H",
+    "name": "Create or Duplicate"
+   },
+   {
+    "index": "I",
+    "name": "Numbers or Fireworks"
+   }
+  ]
+ },
+ {
   "id": 2179,
   "type": "Div3",
   "name": "Codeforces Round 1071 (Div. 3)",

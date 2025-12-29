@@ -88,43 +88,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Carnival Wheel"
+    "name": "Carnival Wheel",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Ashmal"
+    "name": "Ashmal",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "XOR-factorization"
+    "name": "XOR-factorization",
+    "rating": 1900
    },
    {
     "index": "D",
-    "name": "Insolvable Disks"
+    "name": "Insolvable Disks",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "No Effect XOR"
+    "name": "No Effect XOR",
+    "rating": 2300
    },
    {
     "index": "F1",
-    "name": "Control Car (Easy Version)"
+    "name": "Control Car (Easy Version)",
+    "rating": 2800
    },
    {
     "index": "F2",
-    "name": "Control Car (Hard Version)"
+    "name": "Control Car (Hard Version)",
+    "rating": 3200
    },
    {
     "index": "G",
-    "name": "Balance"
+    "name": "Balance",
+    "rating": 3500
    },
    {
     "index": "H1",
-    "name": "Bug Is Feature (Unconditional Version)"
+    "name": "Bug Is Feature (Unconditional Version)",
+    "rating": 3400
    },
    {
     "index": "H2",
-    "name": "Bug Is Feature (Conditional Version)"
+    "name": "Bug Is Feature (Conditional Version)",
+    "rating": 3500
    }
   ]
  },
@@ -135,55 +145,68 @@
   "problems": [
    {
     "index": "A",
-    "name": "Alphabet City"
+    "name": "Alphabet City",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Battle of Arrays"
+    "name": "Battle of Arrays",
+    "rating": 1400
    },
    {
     "index": "C",
-    "name": "Cacti Classification"
+    "name": "Cacti Classification",
+    "rating": 3200
    },
    {
     "index": "D",
-    "name": "Doorway"
+    "name": "Doorway",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Elevator Against Humanity"
+    "name": "Elevator Against Humanity",
+    "rating": 2900
    },
    {
     "index": "F",
-    "name": "Fragmented Nim"
+    "name": "Fragmented Nim",
+    "rating": 1600
    },
    {
     "index": "G",
-    "name": "Greta's Game"
+    "name": "Greta's Game",
+    "rating": 2400
    },
    {
     "index": "H",
-    "name": "Honey Cake"
+    "name": "Honey Cake",
+    "rating": 1200
    },
    {
     "index": "I",
-    "name": "Irrigation Interlock"
+    "name": "Irrigation Interlock",
+    "rating": 3500
    },
    {
     "index": "J",
-    "name": "Jinx or Jackpot"
+    "name": "Jinx or Jackpot",
+    "rating": 2300
    },
    {
     "index": "K",
-    "name": "Knit the Grid"
+    "name": "Knit the Grid",
+    "rating": 3500
    },
    {
     "index": "L",
-    "name": "LLM Training"
+    "name": "LLM Training",
+    "rating": 2800
    },
    {
     "index": "M",
-    "name": "Medical Parity"
+    "name": "Medical Parity",
+    "rating": 1700
    }
   ]
  },
@@ -194,27 +217,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Operations with Inversions"
+    "name": "Operations with Inversions",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Optimal Shifts"
+    "name": "Optimal Shifts",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Odd Process"
+    "name": "Odd Process",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Fibonacci Paths"
+    "name": "Fibonacci Paths",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Remove at the lowest cost"
+    "name": "Remove at the lowest cost",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Omega Numbers"
+    "name": "Omega Numbers",
+    "rating": 2400
    }
   ]
  },
@@ -225,35 +254,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Needle in a Haystack"
+    "name": "Needle in a Haystack",
+    "rating": 1200
    },
    {
     "index": "B",
-    "name": "Wishing Cards"
+    "name": "Wishing Cards",
+    "rating": 1900
    },
    {
     "index": "C1",
-    "name": "Beautiful Patterns (Easy Version)"
+    "name": "Beautiful Patterns (Easy Version)",
+    "rating": 2400
    },
    {
     "index": "C2",
-    "name": "Beautiful Patterns (Hard Version)"
+    "name": "Beautiful Patterns (Hard Version)",
+    "rating": 2500
    },
    {
     "index": "D",
-    "name": "Secret Message"
+    "name": "Secret Message",
+    "rating": 3400
    },
    {
     "index": "E1",
-    "name": "Game of Scientists (Version 1)"
+    "name": "Game of Scientists (Version 1)",
+    "rating": 3100
    },
    {
     "index": "E2",
-    "name": "Game of Scientists (Version 2)"
+    "name": "Game of Scientists (Version 2)",
+    "rating": 3200
    },
    {
     "index": "F",
-    "name": "Mosaic Tree"
+    "name": "Mosaic Tree",
+    "rating": 2800
    }
   ]
  },
@@ -264,11 +301,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Little Fairy's Painting"
+    "name": "Little Fairy's Painting",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "XOR Array"
+    "name": "XOR Array",
+    "rating": 1300
    },
    {
     "index": "C",
@@ -299,27 +338,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sleeping Through Classes"
+    "name": "Sleeping Through Classes",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Niko's Tactical Cards"
+    "name": "Niko's Tactical Cards",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Kanade's Perfect Multiples"
+    "name": "Kanade's Perfect Multiples",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Taiga's Carry Chains"
+    "name": "Taiga's Carry Chains",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Shiro's Mirror Duel"
+    "name": "Shiro's Mirror Duel",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Isla's Memory Thresholds"
+    "name": "Isla's Memory Thresholds",
+    "rating": 2600
    }
   ]
  },
@@ -330,31 +375,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Suspension"
+    "name": "Suspension",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Split"
+    "name": "Split",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Annoying Game"
+    "name": "Annoying Game",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Palindrome Flipping"
+    "name": "Palindrome Flipping",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Sink"
+    "name": "Sink",
+    "rating": 2600
    },
    {
     "index": "F1",
-    "name": "Distinct GCDs (Easy Version)"
+    "name": "Distinct GCDs (Easy Version)",
+    "rating": 2600
    },
    {
     "index": "F2",
-    "name": "Distinct GCDs (Hard Version)"
+    "name": "Distinct GCDs (Hard Version)",
+    "rating": 3000
    }
   ]
  },
@@ -365,27 +417,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Maximum Neighborhood"
+    "name": "Maximum Neighborhood",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Addition on a Segment"
+    "name": "Addition on a Segment",
+    "rating": 1200
    },
    {
     "index": "C",
-    "name": "Quotient and Remainder"
+    "name": "Quotient and Remainder",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Almost Roman"
+    "name": "Almost Roman",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Binary Strings and Blocks"
+    "name": "Binary Strings and Blocks",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Build XOR on a Segment"
+    "name": "Build XOR on a Segment",
+    "rating": 2600
    }
   ]
  },

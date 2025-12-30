@@ -1,5 +1,44 @@
 [
  {
+  "id": 2182,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 186 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "New Year String"
+   },
+   {
+    "index": "B",
+    "name": "New Year Cake"
+   },
+   {
+    "index": "C",
+    "name": "Production of Snowmen"
+   },
+   {
+    "index": "D",
+    "name": "Christmas Tree Decoration"
+   },
+   {
+    "index": "E",
+    "name": "New Year's Gifts"
+   },
+   {
+    "index": "F1",
+    "name": "Christmas Reindeer (easy version)"
+   },
+   {
+    "index": "F2",
+    "name": "Christmas Reindeer (hard version)"
+   },
+   {
+    "index": "G",
+    "name": "Short Garland"
+   }
+  ]
+ },
+ {
   "id": 2178,
   "type": "Other",
   "name": "Good Bye 2025",

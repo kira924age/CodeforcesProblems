@@ -1,5 +1,56 @@
 [
  {
+  "id": 2183,
+  "type": "Other",
+  "name": "Hello 2026",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Binary Array Game"
+   },
+   {
+    "index": "B",
+    "name": "Yet Another MEX Problem"
+   },
+   {
+    "index": "C",
+    "name": "War Strategy"
+   },
+   {
+    "index": "D1",
+    "name": "Tree Coloring (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Tree Coloring (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "LCM is Legendary Counting Master"
+   },
+   {
+    "index": "F",
+    "name": "Jumping Man"
+   },
+   {
+    "index": "G",
+    "name": "Snake Instructions"
+   },
+   {
+    "index": "H",
+    "name": "Minimise Cost"
+   },
+   {
+    "index": "I1",
+    "name": "Pairs Flipping (Easy Version)"
+   },
+   {
+    "index": "I2",
+    "name": "Pairs Flipping (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2182,
   "type": "Educational",
   "name": "Educational Codeforces Round 186 (Rated for Div. 2)",

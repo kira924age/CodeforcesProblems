@@ -1,5 +1,16 @@
 [
  {
+  "id": 2177,
+  "type": "ICPC",
+  "name": "ICPC 2025 Online Winter Challenge powered by Huawei",
+  "problems": [
+   {
+    "index": "A",
+    "name": "OXC Ports Arrangement Problem"
+   }
+  ]
+ },
+ {
   "id": 2183,
   "type": "Other",
   "name": "Hello 2026",

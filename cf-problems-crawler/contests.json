@@ -1,5 +1,40 @@
 [
  {
+  "id": 2184,
+  "type": "Div3",
+  "name": "Codeforces Round 1072 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Social Experiment"
+   },
+   {
+    "index": "B",
+    "name": "Hourglass"
+   },
+   {
+    "index": "C",
+    "name": "Huge Pile"
+   },
+   {
+    "index": "D",
+    "name": "Unfair Game"
+   },
+   {
+    "index": "E",
+    "name": "Exquisite Array"
+   },
+   {
+    "index": "F",
+    "name": "Cherry Tree"
+   },
+   {
+    "index": "G",
+    "name": "Nastiness of Segments"
+   }
+  ]
+ },
+ {
   "id": 2177,
   "type": "ICPC",
   "name": "ICPC 2025 Online Winter Challenge powered by Huawei",

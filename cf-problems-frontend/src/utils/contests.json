@@ -1,5 +1,83 @@
 [
  {
+  "id": 2190,
+  "type": "Div1",
+  "name": "Codeforces Round 1073 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Sorting Game"
+   },
+   {
+    "index": "B1",
+    "name": "Sub-RBS (Easy Version)"
+   },
+   {
+    "index": "B2",
+    "name": "Sub-RBS (Hard Version)"
+   },
+   {
+    "index": "C",
+    "name": "Comparable Permutations"
+   },
+   {
+    "index": "D",
+    "name": "Prufer Vertex"
+   },
+   {
+    "index": "E",
+    "name": "Median Permutation"
+   },
+   {
+    "index": "F",
+    "name": "Xor Product"
+   },
+   {
+    "index": "G",
+    "name": "Maximize Determinant"
+   }
+  ]
+ },
+ {
+  "id": 2191,
+  "type": "Div2",
+  "name": "Codeforces Round 1073 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Array Coloring"
+   },
+   {
+    "index": "B",
+    "name": "MEX Reordering"
+   },
+   {
+    "index": "C",
+    "name": "Sorting Game"
+   },
+   {
+    "index": "D1",
+    "name": "Sub-RBS (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Sub-RBS (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Comparable Permutations"
+   },
+   {
+    "index": "F",
+    "name": "Prufer Vertex"
+   },
+   {
+    "index": "G",
+    "name": "Median Permutation"
+   }
+  ]
+ },
+ {
   "id": 2184,
   "type": "Div3",
   "name": "Codeforces Round 1072 (Div. 3)",

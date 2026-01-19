@@ -1,5 +1,44 @@
 [
  {
+  "id": 2185,
+  "type": "Div4",
+  "name": "Codeforces Round 1074 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Perfect Root"
+   },
+   {
+    "index": "B",
+    "name": "Prefix Max"
+   },
+   {
+    "index": "C",
+    "name": "Shifted MEX"
+   },
+   {
+    "index": "D",
+    "name": "OutOfMemoryError"
+   },
+   {
+    "index": "E",
+    "name": "The Robotic Rush"
+   },
+   {
+    "index": "F",
+    "name": "BattleCows"
+   },
+   {
+    "index": "G",
+    "name": "Mixing MEXes"
+   },
+   {
+    "index": "H",
+    "name": "BattleCows 2"
+   }
+  ]
+ },
+ {
   "id": 2190,
   "type": "Div1",
   "name": "Codeforces Round 1073 (Div. 1)",

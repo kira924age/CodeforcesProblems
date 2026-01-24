@@ -1,5 +1,44 @@
 [
  {
+  "id": 2189,
+  "type": "Div2",
+  "name": "Codeforces Round 1075 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Table with Numbers"
+   },
+   {
+    "index": "B",
+    "name": "The Curse of the Frog"
+   },
+   {
+    "index": "C1",
+    "name": "XOR Convenience (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "XOR-convenience (Hard Version)"
+   },
+   {
+    "index": "D1",
+    "name": "Little String (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Little String (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Majority Wins?"
+   },
+   {
+    "index": "F",
+    "name": "Zhora the Vacuum Cleaner"
+   }
+  ]
+ },
+ {
   "id": 2185,
   "type": "Div4",
   "name": "Codeforces Round 1074 (Div. 4)",

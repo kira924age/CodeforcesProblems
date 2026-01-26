@@ -1,5 +1,44 @@
 [
  {
+  "id": 2193,
+  "type": "Div3",
+  "name": "Codeforces Round 1076 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "DBMB and the Array"
+   },
+   {
+    "index": "B",
+    "name": "Reverse a Permutation"
+   },
+   {
+    "index": "C",
+    "name": "Replace and Sum"
+   },
+   {
+    "index": "D",
+    "name": "Monster Game"
+   },
+   {
+    "index": "E",
+    "name": "Product Queries"
+   },
+   {
+    "index": "F",
+    "name": "Pizza Delivery"
+   },
+   {
+    "index": "G",
+    "name": "Paths in a Tree"
+   },
+   {
+    "index": "H",
+    "name": "Remove the Grail Tree"
+   }
+  ]
+ },
+ {
   "id": 2189,
   "type": "Div2",
   "name": "Codeforces Round 1075 (Div. 2)",

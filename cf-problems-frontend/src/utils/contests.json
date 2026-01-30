@@ -1,5 +1,79 @@
 [
  {
+  "id": 2187,
+  "type": "Div1",
+  "name": "Codeforces Round 1077 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Restricted Sorting"
+   },
+   {
+    "index": "B",
+    "name": "Shortest Statement Ever"
+   },
+   {
+    "index": "C",
+    "name": "Jerry and Tom"
+   },
+   {
+    "index": "D",
+    "name": "Cool Problem"
+   },
+   {
+    "index": "E",
+    "name": "Doors and Keys"
+   },
+   {
+    "index": "F1",
+    "name": "Al Fine (Maximizing Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Al Fine (Counting Version)"
+   },
+   {
+    "index": "G",
+    "name": "Many Cartesian Trees"
+   }
+  ]
+ },
+ {
+  "id": 2188,
+  "type": "Div2",
+  "name": "Codeforces Round 1077 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Divisible Permutation"
+   },
+   {
+    "index": "B",
+    "name": "Seats"
+   },
+   {
+    "index": "C",
+    "name": "Restricted Sorting"
+   },
+   {
+    "index": "D",
+    "name": "Shortest Statement Ever"
+   },
+   {
+    "index": "E",
+    "name": "Jerry and Tom"
+   },
+   {
+    "index": "F",
+    "name": "Cool Problem"
+   },
+   {
+    "index": "G",
+    "name": "Doors and Keys"
+   }
+  ]
+ },
+ {
   "id": 2193,
   "type": "Div3",
   "name": "Codeforces Round 1076 (Div. 3)",

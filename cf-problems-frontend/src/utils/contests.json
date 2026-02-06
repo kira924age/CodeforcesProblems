@@ -6,35 +6,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Restricted Sorting"
+    "name": "Restricted Sorting",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Shortest Statement Ever"
+    "name": "Shortest Statement Ever",
+    "rating": 1800
    },
    {
     "index": "C",
-    "name": "Jerry and Tom"
+    "name": "Jerry and Tom",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Cool Problem"
+    "name": "Cool Problem",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Doors and Keys"
+    "name": "Doors and Keys",
+    "rating": 3500
    },
    {
     "index": "F1",
-    "name": "Al Fine (Maximizing Version)"
+    "name": "Al Fine (Maximizing Version)",
+    "rating": 3100
    },
    {
     "index": "F2",
-    "name": "Al Fine (Counting Version)"
+    "name": "Al Fine (Counting Version)",
+    "rating": 3500
    },
    {
     "index": "G",
-    "name": "Many Cartesian Trees"
+    "name": "Many Cartesian Trees",
+    "rating": 3500
    }
   ]
  },
@@ -45,11 +53,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Divisible Permutation"
+    "name": "Divisible Permutation",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Seats"
+    "name": "Seats",
+    "rating": 1000
    },
    {
     "index": "C",
@@ -80,35 +90,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "DBMB and the Array"
+    "name": "DBMB and the Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Reverse a Permutation"
+    "name": "Reverse a Permutation",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Replace and Sum"
+    "name": "Replace and Sum",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Monster Game"
+    "name": "Monster Game",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Product Queries"
+    "name": "Product Queries",
+    "rating": 1300
    },
    {
     "index": "F",
-    "name": "Pizza Delivery"
+    "name": "Pizza Delivery",
+    "rating": 1600
    },
    {
     "index": "G",
-    "name": "Paths in a Tree"
+    "name": "Paths in a Tree",
+    "rating": 2100
    },
    {
     "index": "H",
-    "name": "Remove the Grail Tree"
+    "name": "Remove the Grail Tree",
+    "rating": 2400
    }
   ]
  },
@@ -119,35 +137,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Table with Numbers"
+    "name": "Table with Numbers",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "The Curse of the Frog"
+    "name": "The Curse of the Frog",
+    "rating": 1200
    },
    {
     "index": "C1",
-    "name": "XOR Convenience (Easy Version)"
+    "name": "XOR Convenience (Easy Version)",
+    "rating": 1300
    },
    {
     "index": "C2",
-    "name": "XOR-convenience (Hard Version)"
+    "name": "XOR-convenience (Hard Version)",
+    "rating": 1800
    },
    {
     "index": "D1",
-    "name": "Little String (Easy Version)"
+    "name": "Little String (Easy Version)",
+    "rating": 1900
    },
    {
     "index": "D2",
-    "name": "Little String (Hard Version)"
+    "name": "Little String (Hard Version)",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Majority Wins?"
+    "name": "Majority Wins?",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Zhora the Vacuum Cleaner"
+    "name": "Zhora the Vacuum Cleaner",
+    "rating": 2800
    }
   ]
  },
@@ -158,35 +184,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Perfect Root"
+    "name": "Perfect Root",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Prefix Max"
+    "name": "Prefix Max",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Shifted MEX"
+    "name": "Shifted MEX",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "OutOfMemoryError"
+    "name": "OutOfMemoryError",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "The Robotic Rush"
+    "name": "The Robotic Rush",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "BattleCows"
+    "name": "BattleCows",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Mixing MEXes"
+    "name": "Mixing MEXes",
+    "rating": 1800
    },
    {
     "index": "H",
-    "name": "BattleCows 2"
+    "name": "BattleCows 2",
+    "rating": 2500
    }
   ]
  },
@@ -197,35 +231,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sorting Game"
+    "name": "Sorting Game",
+    "rating": 1200
    },
    {
     "index": "B1",
-    "name": "Sub-RBS (Easy Version)"
+    "name": "Sub-RBS (Easy Version)",
+    "rating": 1400
    },
    {
     "index": "B2",
-    "name": "Sub-RBS (Hard Version)"
+    "name": "Sub-RBS (Hard Version)",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Comparable Permutations"
+    "name": "Comparable Permutations",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Prufer Vertex"
+    "name": "Prufer Vertex",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "Median Permutation"
+    "name": "Median Permutation",
+    "rating": 3200
    },
    {
     "index": "F",
-    "name": "Xor Product"
+    "name": "Xor Product",
+    "rating": 3300
    },
    {
     "index": "G",
-    "name": "Maximize Determinant"
+    "name": "Maximize Determinant",
+    "rating": 3300
    }
   ]
  },
@@ -236,11 +278,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Array Coloring"
+    "name": "Array Coloring",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "MEX Reordering"
+    "name": "MEX Reordering",
+    "rating": 1000
    },
    {
     "index": "C",
@@ -275,31 +319,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Social Experiment"
+    "name": "Social Experiment",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Hourglass"
+    "name": "Hourglass",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Huge Pile"
+    "name": "Huge Pile",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Unfair Game"
+    "name": "Unfair Game",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Exquisite Array"
+    "name": "Exquisite Array",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Cherry Tree"
+    "name": "Cherry Tree",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Nastiness of Segments"
+    "name": "Nastiness of Segments",
+    "rating": 1900
    }
   ]
  },
@@ -321,47 +372,58 @@
   "problems": [
    {
     "index": "A",
-    "name": "Binary Array Game"
+    "name": "Binary Array Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Yet Another MEX Problem"
+    "name": "Yet Another MEX Problem",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "War Strategy"
+    "name": "War Strategy",
+    "rating": 1500
    },
    {
     "index": "D1",
-    "name": "Tree Coloring (Easy Version)"
+    "name": "Tree Coloring (Easy Version)",
+    "rating": 1500
    },
    {
     "index": "D2",
-    "name": "Tree Coloring (Hard Version)"
+    "name": "Tree Coloring (Hard Version)",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "LCM is Legendary Counting Master"
+    "name": "LCM is Legendary Counting Master",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Jumping Man"
+    "name": "Jumping Man",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Snake Instructions"
+    "name": "Snake Instructions",
+    "rating": 3200
    },
    {
     "index": "H",
-    "name": "Minimise Cost"
+    "name": "Minimise Cost",
+    "rating": 3500
    },
    {
     "index": "I1",
-    "name": "Pairs Flipping (Easy Version)"
+    "name": "Pairs Flipping (Easy Version)",
+    "rating": 3500
    },
    {
     "index": "I2",
-    "name": "Pairs Flipping (Hard Version)"
+    "name": "Pairs Flipping (Hard Version)",
+    "rating": 3500
    }
   ]
  },
@@ -372,35 +434,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "New Year String"
+    "name": "New Year String",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "New Year Cake"
+    "name": "New Year Cake",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Production of Snowmen"
+    "name": "Production of Snowmen",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Christmas Tree Decoration"
+    "name": "Christmas Tree Decoration",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "New Year's Gifts"
+    "name": "New Year's Gifts",
+    "rating": 1800
    },
    {
     "index": "F1",
-    "name": "Christmas Reindeer (easy version)"
+    "name": "Christmas Reindeer (easy version)",
+    "rating": 2300
    },
    {
     "index": "F2",
-    "name": "Christmas Reindeer (hard version)"
+    "name": "Christmas Reindeer (hard version)",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Short Garland"
+    "name": "Short Garland",
+    "rating": 2800
    }
   ]
  },
@@ -411,39 +481,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Yes or Yes"
+    "name": "Yes or Yes",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Impost or Sus"
+    "name": "Impost or Sus",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "First or Second"
+    "name": "First or Second",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Xmas or Hysteria"
+    "name": "Xmas or Hysteria",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Flatten or Concatenate"
+    "name": "Flatten or Concatenate",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Conquer or of Forest"
+    "name": "Conquer or of Forest",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "deCH OR Dations"
+    "name": "deCH OR Dations",
+    "rating": 2800
    },
    {
     "index": "H",
-    "name": "Create or Duplicate"
+    "name": "Create or Duplicate",
+    "rating": 3300
    },
    {
     "index": "I",
-    "name": "Numbers or Fireworks"
+    "name": "Numbers or Fireworks",
+    "rating": 3300
    }
   ]
  },
@@ -454,35 +533,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Blackslex and Password"
+    "name": "Blackslex and Password",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Blackslex and Showering"
+    "name": "Blackslex and Showering",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Blackslex and Number Theory"
+    "name": "Blackslex and Number Theory",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Blackslex and Penguin Civilization"
+    "name": "Blackslex and Penguin Civilization",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Blackslex and Girls"
+    "name": "Blackslex and Girls",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Blackslex and Another RGB Walking"
+    "name": "Blackslex and Another RGB Walking",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Blackslex and Penguin Migration"
+    "name": "Blackslex and Penguin Migration",
+    "rating": 2200
    },
    {
     "index": "H",
-    "name": "Blackslex and Plants"
+    "name": "Blackslex and Plants",
+    "rating": 2200
    }
   ]
  },

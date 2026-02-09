@@ -1,5 +1,40 @@
 [
  {
+  "id": 2194,
+  "type": "Div2",
+  "name": "Codeforces Round 1078 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Lawn Mower"
+   },
+   {
+    "index": "B",
+    "name": "Offshores"
+   },
+   {
+    "index": "C",
+    "name": "Secret message"
+   },
+   {
+    "index": "D",
+    "name": "Table Cut"
+   },
+   {
+    "index": "E",
+    "name": "The Turtle Strikes Back"
+   },
+   {
+    "index": "F1",
+    "name": "Again Trees... (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Again Trees... (hard version)"
+   }
+  ]
+ },
+ {
   "id": 2187,
   "type": "Div1",
   "name": "Codeforces Round 1077 (Div. 1)",

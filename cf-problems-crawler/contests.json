@@ -1,5 +1,91 @@
 [
  {
+  "id": 2201,
+  "type": "Div1",
+  "name": "Codeforces Round 1082 (Div. 1)",
+  "problems": [
+   {
+    "index": "A1",
+    "name": "Lost Civilization (Easy Version)"
+   },
+   {
+    "index": "A2",
+    "name": "Lost Civilization (Hard Version)"
+   },
+   {
+    "index": "B",
+    "name": "Recollect Numbers"
+   },
+   {
+    "index": "C",
+    "name": "Rigged Bracket Sequence"
+   },
+   {
+    "index": "D",
+    "name": "Binary Not Search and Queries"
+   },
+   {
+    "index": "E",
+    "name": "ABBA Counting"
+   },
+   {
+    "index": "F1",
+    "name": "Monotone Monochrome Matrices (Medium Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Monotone Monochrome Matrices (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "Codeforces Heuristic Contest 1001"
+   }
+  ]
+ },
+ {
+  "id": 2202,
+  "type": "Div2",
+  "name": "Codeforces Round 1082 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Parkour Design"
+   },
+   {
+    "index": "B",
+    "name": "ABAB Construction"
+   },
+   {
+    "index": "C1",
+    "name": "Lost Civilization (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Lost Civilization (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Recollect Numbers"
+   },
+   {
+    "index": "E",
+    "name": "Rigged Bracket Sequence"
+   },
+   {
+    "index": "F",
+    "name": "Binary Not Search and Queries"
+   },
+   {
+    "index": "G1",
+    "name": "Monotone Monochrome Matrices (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Monotone Monochrome Matrices (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2192,
   "type": "Div2",
   "name": "Codeforces Round 1081 (Div. 2)",

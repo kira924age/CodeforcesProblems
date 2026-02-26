@@ -1,5 +1,36 @@
 [
  {
+  "id": 2203,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 187 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Towers of Boxes"
+   },
+   {
+    "index": "B",
+    "name": "Beautiful Numbers"
+   },
+   {
+    "index": "C",
+    "name": "Test Generator"
+   },
+   {
+    "index": "D",
+    "name": "Divisibility Game"
+   },
+   {
+    "index": "E",
+    "name": "Probabilistic Card Game"
+   },
+   {
+    "index": "F",
+    "name": "Binary Search with One Swap"
+   }
+  ]
+ },
+ {
   "id": 2201,
   "type": "Div1",
   "name": "Codeforces Round 1082 (Div. 1)",

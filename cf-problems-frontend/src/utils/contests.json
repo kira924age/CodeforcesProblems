@@ -1,5 +1,40 @@
 [
  {
+  "id": 2205,
+  "type": "Div2",
+  "name": "Codeforces Round 1083 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Simons and Making It Beautiful"
+   },
+   {
+    "index": "B",
+    "name": "Simons and Cakes for Success"
+   },
+   {
+    "index": "C",
+    "name": "Simons and Posting Blogs"
+   },
+   {
+    "index": "D",
+    "name": "Simons and Beating Peaks"
+   },
+   {
+    "index": "E",
+    "name": "Simons and Dividing the Rhythm"
+   },
+   {
+    "index": "F",
+    "name": "Simons and Reconstructing His Roads"
+   },
+   {
+    "index": "G",
+    "name": "Simons and Diophantus Equation"
+   }
+  ]
+ },
+ {
   "id": 2203,
   "type": "Educational",
   "name": "Educational Codeforces Round 187 (Rated for Div. 2)",

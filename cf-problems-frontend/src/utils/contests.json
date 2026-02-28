@@ -1,5 +1,44 @@
 [
  {
+  "id": 2200,
+  "type": "Div3",
+  "name": "Codeforces Round 1084 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Eating Game"
+   },
+   {
+    "index": "B",
+    "name": "Deletion Sort"
+   },
+   {
+    "index": "C",
+    "name": "Specialty String"
+   },
+   {
+    "index": "D",
+    "name": "Portal"
+   },
+   {
+    "index": "E",
+    "name": "Divisive Battle"
+   },
+   {
+    "index": "F",
+    "name": "Mooclear Reactor 2"
+   },
+   {
+    "index": "G",
+    "name": "Operation Permutation"
+   },
+   {
+    "index": "H",
+    "name": "Six Seven"
+   }
+  ]
+ },
+ {
   "id": 2205,
   "type": "Div2",
   "name": "Codeforces Round 1083 (Div. 2)",

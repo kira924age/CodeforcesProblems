@@ -1,5 +1,87 @@
 [
  {
+  "id": 2199,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Episode 14",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Game"
+   },
+   {
+    "index": "B",
+    "name": "Two Towers"
+   },
+   {
+    "index": "C",
+    "name": "Minesweeper"
+   },
+   {
+    "index": "D",
+    "name": "Two Arrays"
+   },
+   {
+    "index": "E",
+    "name": "Supersequence"
+   },
+   {
+    "index": "F",
+    "name": "Self-Produced Sequences"
+   },
+   {
+    "index": "G",
+    "name": "Jammer"
+   },
+   {
+    "index": "H",
+    "name": "Sum of MEX"
+   },
+   {
+    "index": "I",
+    "name": "Strange Process"
+   }
+  ]
+ },
+ {
+  "id": 2198,
+  "type": "Kotlin",
+  "name": "Kotlin Heroes: Practice 14",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Twice"
+   },
+   {
+    "index": "B",
+    "name": "Fibonacciness"
+   },
+   {
+    "index": "C",
+    "name": "Preparing for the Exam"
+   },
+   {
+    "index": "D",
+    "name": "Uninteresting Number"
+   },
+   {
+    "index": "E",
+    "name": "Graph Composition"
+   },
+   {
+    "index": "F",
+    "name": "Best Price"
+   },
+   {
+    "index": "G",
+    "name": "Yamakasi"
+   },
+   {
+    "index": "H",
+    "name": "Microcycle"
+   }
+  ]
+ },
+ {
   "id": 2200,
   "type": "Div3",
   "name": "Codeforces Round 1084 (Div. 3)",

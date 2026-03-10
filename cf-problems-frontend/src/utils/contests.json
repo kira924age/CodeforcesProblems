@@ -54,7 +54,60 @@
   "id": 2206,
   "type": "ICPC",
   "name": "2026 ICPC Asia Pacific Championship - Online Mirror (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Compare Suffixes"
+   },
+   {
+    "index": "B",
+    "name": "Subtree Removal Game"
+   },
+   {
+    "index": "C",
+    "name": "Upside Down Dijkstra"
+   },
+   {
+    "index": "D",
+    "name": "Christmas Tree Un-decoration"
+   },
+   {
+    "index": "E",
+    "name": "Parallel Sums"
+   },
+   {
+    "index": "F",
+    "name": "Minesweeper String"
+   },
+   {
+    "index": "G",
+    "name": "Extra Transition"
+   },
+   {
+    "index": "H",
+    "name": "Reflect Sort"
+   },
+   {
+    "index": "I",
+    "name": "Growth Factor"
+   },
+   {
+    "index": "J",
+    "name": "Worldwide Playlist"
+   },
+   {
+    "index": "K",
+    "name": "Time Display Stickers"
+   },
+   {
+    "index": "L",
+    "name": "Onion"
+   },
+   {
+    "index": "M",
+    "name": "Deformed Balance"
+   }
+  ]
  },
  {
   "id": 2199,

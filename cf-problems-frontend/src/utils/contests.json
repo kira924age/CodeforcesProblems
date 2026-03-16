@@ -3,7 +3,32 @@
   "id": 2208,
   "type": "Div2",
   "name": "Codeforces Round 1086 (Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Bingo Candies"
+   },
+   {
+    "index": "B",
+    "name": "Cyclists"
+   },
+   {
+    "index": "C",
+    "name": "Stamina and Tasks"
+   },
+   {
+    "index": "D1",
+    "name": "Tree Orientation (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Tree Orientation (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Counting Cute Arrays"
+   }
+  ]
  },
  {
   "id": 2207,

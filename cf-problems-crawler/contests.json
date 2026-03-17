@@ -1,5 +1,11 @@
 [
  {
+  "id": 2204,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 188 (Rated for Div. 2)",
+  "problems": []
+ },
+ {
   "id": 2208,
   "type": "Div2",
   "name": "Codeforces Round 1086 (Div. 2)",

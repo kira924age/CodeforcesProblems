@@ -3,7 +3,36 @@
   "id": 2204,
   "type": "Educational",
   "name": "Educational Codeforces Round 188 (Rated for Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Passing the Ball"
+   },
+   {
+    "index": "B",
+    "name": "Right Maximum"
+   },
+   {
+    "index": "C",
+    "name": "Spring"
+   },
+   {
+    "index": "D",
+    "name": "Alternating Path"
+   },
+   {
+    "index": "E",
+    "name": "Sum of Digits (and Again)"
+   },
+   {
+    "index": "F",
+    "name": "Sum of Fractions"
+   },
+   {
+    "index": "G",
+    "name": "Grid Path"
+   }
+  ]
  },
  {
   "id": 2208,

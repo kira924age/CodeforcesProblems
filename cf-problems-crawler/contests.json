@@ -182,39 +182,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Game"
+    "name": "Game",
+    "rating": 1000
    },
    {
     "index": "B",
-    "name": "Two Towers"
+    "name": "Two Towers",
+    "rating": 1400
    },
    {
     "index": "C",
-    "name": "Minesweeper"
+    "name": "Minesweeper",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Two Arrays"
+    "name": "Two Arrays",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Supersequence"
+    "name": "Supersequence",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Self-Produced Sequences"
+    "name": "Self-Produced Sequences",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Jammer"
+    "name": "Jammer",
+    "rating": 2500
    },
    {
     "index": "H",
-    "name": "Sum of MEX"
+    "name": "Sum of MEX",
+    "rating": 2300
    },
    {
     "index": "I",
-    "name": "Strange Process"
+    "name": "Strange Process",
+    "rating": 3000
    }
   ]
  },
@@ -369,39 +378,48 @@
   "problems": [
    {
     "index": "A1",
-    "name": "Lost Civilization (Easy Version)"
+    "name": "Lost Civilization (Easy Version)",
+    "rating": 1300
    },
    {
     "index": "A2",
-    "name": "Lost Civilization (Hard Version)"
+    "name": "Lost Civilization (Hard Version)",
+    "rating": 1700
    },
    {
     "index": "B",
-    "name": "Recollect Numbers"
+    "name": "Recollect Numbers",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Rigged Bracket Sequence"
+    "name": "Rigged Bracket Sequence",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Binary Not Search and Queries"
+    "name": "Binary Not Search and Queries",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "ABBA Counting"
+    "name": "ABBA Counting",
+    "rating": 2900
    },
    {
     "index": "F1",
-    "name": "Monotone Monochrome Matrices (Medium Version)"
+    "name": "Monotone Monochrome Matrices (Medium Version)",
+    "rating": 2900
    },
    {
     "index": "F2",
-    "name": "Monotone Monochrome Matrices (Hard Version)"
+    "name": "Monotone Monochrome Matrices (Hard Version)",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Codeforces Heuristic Contest 1001"
+    "name": "Codeforces Heuristic Contest 1001",
+    "rating": 3500
    }
   ]
  },
@@ -412,11 +430,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Parkour Design"
+    "name": "Parkour Design",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "ABAB Construction"
+    "name": "ABAB Construction",
+    "rating": 1200
    },
    {
     "index": "C1",
@@ -440,7 +460,8 @@
    },
    {
     "index": "G1",
-    "name": "Monotone Monochrome Matrices (Easy Version)"
+    "name": "Monotone Monochrome Matrices (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "G2",
@@ -455,27 +476,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "String Rotation Game"
+    "name": "String Rotation Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Flipping Binary String"
+    "name": "Flipping Binary String",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "All-in-one Gun"
+    "name": "All-in-one Gun",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Cost of Tree"
+    "name": "Cost of Tree",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Swap to Rearrange"
+    "name": "Swap to Rearrange",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Fish Fight"
+    "name": "Fish Fight",
+    "rating": 2900
    }
   ]
  },
@@ -486,35 +513,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Sieve of Erato67henes"
+    "name": "Sieve of Erato67henes",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Heapify 1"
+    "name": "Heapify 1",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Dice Roll Sequence"
+    "name": "Dice Roll Sequence",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Absolute Cinema"
+    "name": "Absolute Cinema",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Idiot First Search"
+    "name": "Idiot First Search",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Parabola Independence"
+    "name": "Parabola Independence",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Idiot First Search and Queries"
+    "name": "Idiot First Search and Queries",
+    "rating": 2300
    },
    {
     "index": "H",
-    "name": "Codeforces Heuristic Contest 001"
+    "name": "Codeforces Heuristic Contest 001",
+    "rating": 2400
    }
   ]
  },
@@ -525,35 +560,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Game with a Fraction"
+    "name": "Game with a Fraction",
+    "rating": 1200
    },
    {
     "index": "B",
-    "name": "Another Problem about Beautiful Pairs"
+    "name": "Another Problem about Beautiful Pairs",
+    "rating": 1600
    },
    {
     "index": "C1",
-    "name": "Interactive Graph (Simple Version)"
+    "name": "Interactive Graph (Simple Version)",
+    "rating": 1800
    },
    {
     "index": "C2",
-    "name": "Interactive Graph (Hard Version)"
+    "name": "Interactive Graph (Hard Version)",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Double Bracket Sequence"
+    "name": "Double Bracket Sequence",
+    "rating": 2500
    },
    {
     "index": "E1",
-    "name": "Fuzzy Concatenation (Easy Version)"
+    "name": "Fuzzy Concatenation (Easy Version)",
+    "rating": 2900
    },
    {
     "index": "E2",
-    "name": "Fuzzy Concatenation (Hard version)"
+    "name": "Fuzzy Concatenation (Hard version)",
+    "rating": 3000
    },
    {
     "index": "F",
-    "name": "Indivisible"
+    "name": "Indivisible",
+    "rating": 3300
    }
   ]
  },
@@ -564,11 +607,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Friendly Numbers"
+    "name": "Friendly Numbers",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array and Permutation"
+    "name": "Array and Permutation",
+    "rating": 1100
    },
    {
     "index": "C",
@@ -599,31 +644,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Lawn Mower"
+    "name": "Lawn Mower",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Offshores"
+    "name": "Offshores",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Secret message"
+    "name": "Secret message",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Table Cut"
+    "name": "Table Cut",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "The Turtle Strikes Back"
+    "name": "The Turtle Strikes Back",
+    "rating": 2000
    },
    {
     "index": "F1",
-    "name": "Again Trees... (Easy Version)"
+    "name": "Again Trees... (Easy Version)",
+    "rating": 2300
    },
    {
     "index": "F2",
-    "name": "Again Trees... (hard version)"
+    "name": "Again Trees... (hard version)",
+    "rating": 3000
    }
   ]
  },

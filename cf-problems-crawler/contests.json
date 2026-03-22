@@ -1,5 +1,36 @@
 [
  {
+  "id": 2209,
+  "type": "Div2",
+  "name": "Codeforces Round 1087 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Flip Flops"
+   },
+   {
+    "index": "B",
+    "name": "Array"
+   },
+   {
+    "index": "C",
+    "name": "Find the Zero"
+   },
+   {
+    "index": "D",
+    "name": "Ghostfires"
+   },
+   {
+    "index": "E",
+    "name": "A Trivial String Problem"
+   },
+   {
+    "index": "F",
+    "name": "Dynamic Values And Maximum Sum"
+   }
+  ]
+ },
+ {
   "id": 2204,
   "type": "Educational",
   "name": "Educational Codeforces Round 188 (Rated for Div. 2)",

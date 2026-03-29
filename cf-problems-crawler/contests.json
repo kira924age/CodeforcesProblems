@@ -1,5 +1,48 @@
 [
  {
+  "id": 2211,
+  "type": "Div1 + Div2",
+  "name": "Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Antimedian Deletion"
+   },
+   {
+    "index": "B",
+    "name": "Mickey Mouse Constructive"
+   },
+   {
+    "index": "C1",
+    "name": "Equal Multisets (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Equal Multisets (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "AND-array"
+   },
+   {
+    "index": "E",
+    "name": "Minimum Path Cover"
+   },
+   {
+    "index": "F",
+    "name": "Learning Binary Search"
+   },
+   {
+    "index": "G",
+    "name": "Rational Bubble Sort"
+   },
+   {
+    "index": "H",
+    "name": "Median Deletion"
+   }
+  ]
+ },
+ {
   "id": 2209,
   "type": "Div2",
   "name": "Codeforces Round 1087 (Div. 2)",

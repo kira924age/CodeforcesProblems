@@ -1,5 +1,40 @@
 [
  {
+  "id": 2210,
+  "type": "Div2",
+  "name": "Codeforces Round 1089 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "A Simple Sequence"
+   },
+   {
+    "index": "B",
+    "name": "Simply Sitting on Chairs"
+   },
+   {
+    "index": "C1",
+    "name": "A Simple GCD Problem (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "A Simple GCD Problem (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "A Simple RBS Problem"
+   },
+   {
+    "index": "E",
+    "name": "Binary Strings are Simple?"
+   },
+   {
+    "index": "F",
+    "name": "A Simple Problem"
+   }
+  ]
+ },
+ {
   "id": 2211,
   "type": "Div1 + Div2",
   "name": "Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)",

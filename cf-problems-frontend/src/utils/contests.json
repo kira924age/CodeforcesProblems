@@ -1,5 +1,52 @@
 [
  {
+  "id": 2214,
+  "type": "Other",
+  "name": "April Fools Day Contest 2026",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Odd One Out"
+   },
+   {
+    "index": "B",
+    "name": "Are You Smiling?"
+   },
+   {
+    "index": "C",
+    "name": "And?"
+   },
+   {
+    "index": "D",
+    "name": "Neural Feud"
+   },
+   {
+    "index": "E",
+    "name": "Shortest Paths"
+   },
+   {
+    "index": "F",
+    "name": "Numbers"
+   },
+   {
+    "index": "G",
+    "name": "Anomaly"
+   },
+   {
+    "index": "H",
+    "name": "Double Vision"
+   },
+   {
+    "index": "I",
+    "name": "You Are a Robot"
+   },
+   {
+    "index": "J",
+    "name": "Special Problem"
+   }
+  ]
+ },
+ {
   "id": 2210,
   "type": "Div2",
   "name": "Codeforces Round 1089 (Div. 2)",

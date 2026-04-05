@@ -1,5 +1,40 @@
 [
  {
+  "id": 2218,
+  "type": "Div4",
+  "name": "Codeforces Round 1090 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The 67th Integer Problem"
+   },
+   {
+    "index": "B",
+    "name": "The 67th 6-7 Integer Problem"
+   },
+   {
+    "index": "C",
+    "name": "The 67th Permutation Problem"
+   },
+   {
+    "index": "D",
+    "name": "The 67th OEIS Problem"
+   },
+   {
+    "index": "E",
+    "name": "The 67th XOR Problem"
+   },
+   {
+    "index": "F",
+    "name": "The 67th Tree Problem"
+   },
+   {
+    "index": "G",
+    "name": "The 67th Iteration of \"Counting is Fun\""
+   }
+  ]
+ },
+ {
   "id": 2214,
   "type": "Other",
   "name": "April Fools Day Contest 2026",

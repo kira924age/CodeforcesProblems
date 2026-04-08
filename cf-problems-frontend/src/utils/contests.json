@@ -1,5 +1,44 @@
 [
  {
+  "id": 2217,
+  "type": "Div2",
+  "name": "Codeforces Round 1091 (Div. 2) and CodeCraft 26",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Equalizer"
+   },
+   {
+    "index": "B",
+    "name": "Flip the Bit (Easy Version)"
+   },
+   {
+    "index": "C",
+    "name": "Grid Covering"
+   },
+   {
+    "index": "D",
+    "name": "Flip the Bit (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Definitely Larger"
+   },
+   {
+    "index": "F",
+    "name": "Interval Game"
+   },
+   {
+    "index": "G",
+    "name": "Down the Pivot"
+   },
+   {
+    "index": "H",
+    "name": "Closer"
+   }
+  ]
+ },
+ {
   "id": 2218,
   "type": "Div4",
   "name": "Codeforces Round 1090 (Div. 4)",

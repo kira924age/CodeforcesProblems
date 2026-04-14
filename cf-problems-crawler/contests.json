@@ -1,5 +1,71 @@
 [
  {
+  "id": 2219,
+  "type": "Div1",
+  "name": "Codeforces Round 1093 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Grid L"
+   },
+   {
+    "index": "B1",
+    "name": "Unique Values (Easy version)"
+   },
+   {
+    "index": "B2",
+    "name": "Unique Values (Hard version)"
+   },
+   {
+    "index": "C",
+    "name": "Coloring a Red Black Tree"
+   },
+   {
+    "index": "D",
+    "name": "MEX Replacement on Tree"
+   },
+   {
+    "index": "E",
+    "name": "Weird Chessboard"
+   }
+  ]
+ },
+ {
+  "id": 2220,
+  "type": "Div2",
+  "name": "Codeforces Round 1093 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Blocked"
+   },
+   {
+    "index": "B",
+    "name": "OIE Excursion"
+   },
+   {
+    "index": "C",
+    "name": "Grid L"
+   },
+   {
+    "index": "D1",
+    "name": "Unique Values (Easy version)"
+   },
+   {
+    "index": "D2",
+    "name": "Unique Values (Hard version)"
+   },
+   {
+    "index": "E",
+    "name": "Coloring a Red Black Tree"
+   },
+   {
+    "index": "F",
+    "name": "MEX Replacement on Tree"
+   }
+  ]
+ },
+ {
   "id": 2215,
   "type": "Div1",
   "name": "Codeforces Round 1092 (Unrated, Div. 1, Based on THUPC 2026 \u2014 Finals)",

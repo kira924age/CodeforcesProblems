@@ -72,31 +72,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Interval Mod"
+    "name": "Interval Mod",
+    "rating": 1700
    },
    {
     "index": "B",
-    "name": "RReeppeettiittiioonn"
+    "name": "RReeppeettiittiioonn",
+    "rating": 2000
    },
    {
     "index": "C",
-    "name": "Oriented Journey"
+    "name": "Oriented Journey",
+    "rating": 2200
    },
    {
     "index": "D",
-    "name": "EXPloration, EXPloitation, and Gain Some EXPerience!"
+    "name": "EXPloration, EXPloitation, and Gain Some EXPerience!",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Star Map"
+    "name": "Star Map",
+    "rating": 2700
    },
    {
     "index": "F",
-    "name": "Research"
+    "name": "Research",
+    "rating": 3500
    },
    {
     "index": "G",
-    "name": "Maze"
+    "name": "Maze",
+    "rating": 3500
    }
   ]
  },
@@ -107,11 +114,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Course Wishes"
+    "name": "Course Wishes",
+    "rating": 900
    },
    {
     "index": "B",
-    "name": "THU Packing Puzzle"
+    "name": "THU Packing Puzzle",
+    "rating": 1300
    },
    {
     "index": "C",
@@ -138,35 +147,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Equalizer"
+    "name": "The Equalizer",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Flip the Bit (Easy Version)"
+    "name": "Flip the Bit (Easy Version)",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Grid Covering"
+    "name": "Grid Covering",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Flip the Bit (Hard Version)"
+    "name": "Flip the Bit (Hard Version)",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Definitely Larger"
+    "name": "Definitely Larger",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Interval Game"
+    "name": "Interval Game",
+    "rating": 2300
    },
    {
     "index": "G",
-    "name": "Down the Pivot"
+    "name": "Down the Pivot",
+    "rating": 2600
    },
    {
     "index": "H",
-    "name": "Closer"
+    "name": "Closer",
+    "rating": 2800
    }
   ]
  },
@@ -177,31 +194,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "The 67th Integer Problem"
+    "name": "The 67th Integer Problem",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "The 67th 6-7 Integer Problem"
+    "name": "The 67th 6-7 Integer Problem",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "The 67th Permutation Problem"
+    "name": "The 67th Permutation Problem",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "The 67th OEIS Problem"
+    "name": "The 67th OEIS Problem",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "The 67th XOR Problem"
+    "name": "The 67th XOR Problem",
+    "rating": 1200
    },
    {
     "index": "F",
-    "name": "The 67th Tree Problem"
+    "name": "The 67th Tree Problem",
+    "rating": 1500
    },
    {
     "index": "G",
-    "name": "The 67th Iteration of \"Counting is Fun\""
+    "name": "The 67th Iteration of \"Counting is Fun\"",
+    "rating": 1800
    }
   ]
  },
@@ -259,31 +283,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "A Simple Sequence"
+    "name": "A Simple Sequence",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Simply Sitting on Chairs"
+    "name": "Simply Sitting on Chairs",
+    "rating": 900
    },
    {
     "index": "C1",
-    "name": "A Simple GCD Problem (Easy Version)"
+    "name": "A Simple GCD Problem (Easy Version)",
+    "rating": 1200
    },
    {
     "index": "C2",
-    "name": "A Simple GCD Problem (Hard Version)"
+    "name": "A Simple GCD Problem (Hard Version)",
+    "rating": 2100
    },
    {
     "index": "D",
-    "name": "A Simple RBS Problem"
+    "name": "A Simple RBS Problem",
+    "rating": 2100
    },
    {
     "index": "E",
-    "name": "Binary Strings are Simple?"
+    "name": "Binary Strings are Simple?",
+    "rating": 2700
    },
    {
     "index": "F",
-    "name": "A Simple Problem"
+    "name": "A Simple Problem",
+    "rating": 2700
    }
   ]
  },
@@ -294,39 +325,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Antimedian Deletion"
+    "name": "Antimedian Deletion",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Mickey Mouse Constructive"
+    "name": "Mickey Mouse Constructive",
+    "rating": 1100
    },
    {
     "index": "C1",
-    "name": "Equal Multisets (Easy Version)"
+    "name": "Equal Multisets (Easy Version)",
+    "rating": 1300
    },
    {
     "index": "C2",
-    "name": "Equal Multisets (Hard Version)"
+    "name": "Equal Multisets (Hard Version)",
+    "rating": 1800
    },
    {
     "index": "D",
-    "name": "AND-array"
+    "name": "AND-array",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Minimum Path Cover"
+    "name": "Minimum Path Cover",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Learning Binary Search"
+    "name": "Learning Binary Search",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Rational Bubble Sort"
+    "name": "Rational Bubble Sort",
+    "rating": 2900
    },
    {
     "index": "H",
-    "name": "Median Deletion"
+    "name": "Median Deletion",
+    "rating": 3500
    }
   ]
  },
@@ -337,27 +377,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Flip Flops"
+    "name": "Flip Flops",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Array"
+    "name": "Array",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Find the Zero"
+    "name": "Find the Zero",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Ghostfires"
+    "name": "Ghostfires",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "A Trivial String Problem"
+    "name": "A Trivial String Problem",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Dynamic Values And Maximum Sum"
+    "name": "Dynamic Values And Maximum Sum",
+    "rating": 2700
    }
   ]
  },
@@ -368,31 +414,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Passing the Ball"
+    "name": "Passing the Ball",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Right Maximum"
+    "name": "Right Maximum",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Spring"
+    "name": "Spring",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Alternating Path"
+    "name": "Alternating Path",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Sum of Digits (and Again)"
+    "name": "Sum of Digits (and Again)",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Sum of Fractions"
+    "name": "Sum of Fractions",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "Grid Path"
+    "name": "Grid Path",
+    "rating": 2700
    }
   ]
  },
@@ -403,27 +456,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Bingo Candies"
+    "name": "Bingo Candies",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Cyclists"
+    "name": "Cyclists",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Stamina and Tasks"
+    "name": "Stamina and Tasks",
+    "rating": 1300
    },
    {
     "index": "D1",
-    "name": "Tree Orientation (Easy Version)"
+    "name": "Tree Orientation (Easy Version)",
+    "rating": 1800
    },
    {
     "index": "D2",
-    "name": "Tree Orientation (Hard Version)"
+    "name": "Tree Orientation (Hard Version)",
+    "rating": 2200
    },
    {
     "index": "E",
-    "name": "Counting Cute Arrays"
+    "name": "Counting Cute Arrays",
+    "rating": 2700
    }
   ]
  },
@@ -434,35 +493,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "1-1"
+    "name": "1-1",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "One Night At Freddy's"
+    "name": "One Night At Freddy's",
+    "rating": 1600
    },
    {
     "index": "C",
-    "name": "Where's My Water?"
+    "name": "Where's My Water?",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Boxed Like a Fish"
+    "name": "Boxed Like a Fish",
+    "rating": 2200
    },
    {
     "index": "E1",
-    "name": "N-MEX (Constructive Version)"
+    "name": "N-MEX (Constructive Version)",
+    "rating": 2100
    },
    {
     "index": "E2",
-    "name": "N-MEX (Counting Version)"
+    "name": "N-MEX (Counting Version)",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Hanabi"
+    "name": "Hanabi",
+    "rating": 2900
    },
    {
     "index": "G",
-    "name": "Toothless"
+    "name": "Toothless",
+    "rating": 3300
    },
    {
     "index": "H1",
@@ -485,55 +552,68 @@
   "problems": [
    {
     "index": "A",
-    "name": "Compare Suffixes"
+    "name": "Compare Suffixes",
+    "rating": 3500
    },
    {
     "index": "B",
-    "name": "Subtree Removal Game"
+    "name": "Subtree Removal Game",
+    "rating": 2500
    },
    {
     "index": "C",
-    "name": "Upside Down Dijkstra"
+    "name": "Upside Down Dijkstra",
+    "rating": 2200
    },
    {
     "index": "D",
-    "name": "Christmas Tree Un-decoration"
+    "name": "Christmas Tree Un-decoration",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Parallel Sums"
+    "name": "Parallel Sums",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Minesweeper String"
+    "name": "Minesweeper String",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Extra Transition"
+    "name": "Extra Transition",
+    "rating": 3100
    },
    {
     "index": "H",
-    "name": "Reflect Sort"
+    "name": "Reflect Sort",
+    "rating": 1800
    },
    {
     "index": "I",
-    "name": "Growth Factor"
+    "name": "Growth Factor",
+    "rating": 2900
    },
    {
     "index": "J",
-    "name": "Worldwide Playlist"
+    "name": "Worldwide Playlist",
+    "rating": 1700
    },
    {
     "index": "K",
-    "name": "Time Display Stickers"
+    "name": "Time Display Stickers",
+    "rating": 1300
    },
    {
     "index": "L",
-    "name": "Onion"
+    "name": "Onion",
+    "rating": 3500
    },
    {
     "index": "M",
-    "name": "Deformed Balance"
+    "name": "Deformed Balance",
+    "rating": 2900
    }
   ]
  },
@@ -635,35 +715,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Eating Game"
+    "name": "Eating Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Deletion Sort"
+    "name": "Deletion Sort",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Specialty String"
+    "name": "Specialty String",
+    "rating": 900
    },
    {
     "index": "D",
-    "name": "Portal"
+    "name": "Portal",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Divisive Battle"
+    "name": "Divisive Battle",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Mooclear Reactor 2"
+    "name": "Mooclear Reactor 2",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Operation Permutation"
+    "name": "Operation Permutation",
+    "rating": 2200
    },
    {
     "index": "H",
-    "name": "Six Seven"
+    "name": "Six Seven",
+    "rating": 2600
    }
   ]
  },
@@ -674,31 +762,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Simons and Making It Beautiful"
+    "name": "Simons and Making It Beautiful",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Simons and Cakes for Success"
+    "name": "Simons and Cakes for Success",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Simons and Posting Blogs"
+    "name": "Simons and Posting Blogs",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Simons and Beating Peaks"
+    "name": "Simons and Beating Peaks",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Simons and Dividing the Rhythm"
+    "name": "Simons and Dividing the Rhythm",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Simons and Reconstructing His Roads"
+    "name": "Simons and Reconstructing His Roads",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Simons and Diophantus Equation"
+    "name": "Simons and Diophantus Equation",
+    "rating": 3000
    }
   ]
  },
@@ -709,27 +804,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Towers of Boxes"
+    "name": "Towers of Boxes",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Beautiful Numbers"
+    "name": "Beautiful Numbers",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Test Generator"
+    "name": "Test Generator",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Divisibility Game"
+    "name": "Divisibility Game",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Probabilistic Card Game"
+    "name": "Probabilistic Card Game",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Binary Search with One Swap"
+    "name": "Binary Search with One Swap",
+    "rating": 2600
    }
   ]
  },

@@ -1,5 +1,40 @@
 [
  {
+  "id": 2225,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 189 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "A Number Between Two Others"
+   },
+   {
+    "index": "B",
+    "name": "Alternating String"
+   },
+   {
+    "index": "C",
+    "name": "Red-Black Pairs"
+   },
+   {
+    "index": "D",
+    "name": "Exceptional Segments"
+   },
+   {
+    "index": "E",
+    "name": "Covering Points with Circles"
+   },
+   {
+    "index": "F",
+    "name": "String Cutting"
+   },
+   {
+    "index": "G",
+    "name": "Simple Problem"
+   }
+  ]
+ },
+ {
   "id": 2219,
   "type": "Div1",
   "name": "Codeforces Round 1093 (Div. 1)",

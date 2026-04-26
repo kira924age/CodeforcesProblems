@@ -1,5 +1,44 @@
 [
  {
+  "id": 2222,
+  "type": "Div1 + Div2",
+  "name": "Spectral::Cup 2026 Round 1 (Codeforces Round 1094, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "A Wonderful Contest"
+   },
+   {
+    "index": "B",
+    "name": "Artistic Balance Tree"
+   },
+   {
+    "index": "C",
+    "name": "Median Partition"
+   },
+   {
+    "index": "D",
+    "name": "Permutation Construction"
+   },
+   {
+    "index": "E",
+    "name": "Seek the Truth"
+   },
+   {
+    "index": "F",
+    "name": "Building Tree"
+   },
+   {
+    "index": "G",
+    "name": "Statistics on Tree"
+   },
+   {
+    "index": "H",
+    "name": "Counting Sort?"
+   }
+  ]
+ },
+ {
   "id": 2225,
   "type": "Educational",
   "name": "Educational Codeforces Round 189 (Rated for Div. 2)",

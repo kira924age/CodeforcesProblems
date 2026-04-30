@@ -1,5 +1,40 @@
 [
  {
+  "id": 2226,
+  "type": "Div2",
+  "name": "Codeforces Round 1095 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Disturbing Distribution"
+   },
+   {
+    "index": "B",
+    "name": "Everything Everywhere"
+   },
+   {
+    "index": "C",
+    "name": "Mental Monumental (Easy Version)"
+   },
+   {
+    "index": "D",
+    "name": "Reserved Reversals"
+   },
+   {
+    "index": "E",
+    "name": "Mental Monumental (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Inversion Invasion"
+   },
+   {
+    "index": "G",
+    "name": "Stop Spot"
+   }
+  ]
+ },
+ {
   "id": 2222,
   "type": "Div1 + Div2",
   "name": "Spectral::Cup 2026 Round 1 (Codeforces Round 1094, Div. 1 + Div. 2)",

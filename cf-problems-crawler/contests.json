@@ -1,5 +1,44 @@
 [
  {
+  "id": 2227,
+  "type": "Div3",
+  "name": "Codeforces Round 1096 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Koshary"
+   },
+   {
+    "index": "B",
+    "name": "Party Monster"
+   },
+   {
+    "index": "C",
+    "name": "Snowfall"
+   },
+   {
+    "index": "D",
+    "name": "Palindromex"
+   },
+   {
+    "index": "E",
+    "name": "It All Went Sideways"
+   },
+   {
+    "index": "F",
+    "name": "It Just Keeps Going Sideways"
+   },
+   {
+    "index": "G",
+    "name": "Drowning"
+   },
+   {
+    "index": "H",
+    "name": "Fallen Leaves"
+   }
+  ]
+ },
+ {
   "id": 2226,
   "type": "Div2",
   "name": "Codeforces Round 1095 (Div. 2)",

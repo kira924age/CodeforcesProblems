@@ -1,5 +1,67 @@
 [
  {
+  "id": 2223,
+  "type": "Div1",
+  "name": "Codeforces Round 1097 (Div. 1,  Based on Zhili Cup 2026)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Zhily and Bracket Swapping"
+   },
+   {
+    "index": "B",
+    "name": "Zhily and Barknights"
+   },
+   {
+    "index": "C",
+    "name": "Zhily and Signpost"
+   },
+   {
+    "index": "D",
+    "name": "Zhily and Cycle"
+   },
+   {
+    "index": "E",
+    "name": "Zhily and Permutation"
+   },
+   {
+    "index": "F",
+    "name": "Zhily and Colorful Strings"
+   }
+  ]
+ },
+ {
+  "id": 2224,
+  "type": "Div2",
+  "name": "Codeforces Round 1097 (Div. 2,  Based on Zhili Cup 2026)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Zhily and Array Operating"
+   },
+   {
+    "index": "B",
+    "name": "Zhily and Mex and Max"
+   },
+   {
+    "index": "C",
+    "name": "Zhily and Bracket Swapping"
+   },
+   {
+    "index": "D",
+    "name": "Zhily and Barknights"
+   },
+   {
+    "index": "E",
+    "name": "Zhily and Signpost"
+   },
+   {
+    "index": "F",
+    "name": "Zhily and Cycle"
+   }
+  ]
+ },
+ {
   "id": 2227,
   "type": "Div3",
   "name": "Codeforces Round 1096 (Div. 3)",

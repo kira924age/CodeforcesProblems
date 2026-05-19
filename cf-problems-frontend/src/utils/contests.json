@@ -1,5 +1,36 @@
 [
  {
+  "id": 2230,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 190 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Optimal Purchase"
+   },
+   {
+    "index": "B",
+    "name": "Digit String"
+   },
+   {
+    "index": "C",
+    "name": "Arrange the Numbers in a Circle"
+   },
+   {
+    "index": "D",
+    "name": "Good Schedule"
+   },
+   {
+    "index": "E",
+    "name": "Minimum Influence"
+   },
+   {
+    "index": "F",
+    "name": "Game on Growing Tree"
+   }
+  ]
+ },
+ {
   "id": 2228,
   "type": "Div2",
   "name": "Codeforces Round 1098 (Div. 2)",

@@ -1,5 +1,36 @@
 [
  {
+  "id": 2231,
+  "type": "Div2",
+  "name": "Codeforces Round 1099 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Construct an Array"
+   },
+   {
+    "index": "B",
+    "name": "Another Sorting Problem"
+   },
+   {
+    "index": "C",
+    "name": "Chipmunk Theo and Equality"
+   },
+   {
+    "index": "D",
+    "name": "Maximum Prefix Sums"
+   },
+   {
+    "index": "E",
+    "name": "Graph Cutting"
+   },
+   {
+    "index": "F",
+    "name": "Quadratic Jumps"
+   }
+  ]
+ },
+ {
   "id": 2230,
   "type": "Educational",
   "name": "Educational Codeforces Round 190 (Rated for Div. 2)",

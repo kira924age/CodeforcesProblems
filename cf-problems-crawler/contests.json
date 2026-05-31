@@ -1,48 +1,93 @@
 [
  {
+  "id": 2232,
+  "type": "Div2",
+  "name": "Codeforces Round 1101 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Convergence"
+   },
+   {
+    "index": "B",
+    "name": "Cake Leveling"
+   },
+   {
+    "index": "C1",
+    "name": "Seating Arrangement (Easy Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Seating Arrangement (Hard Version)"
+   },
+   {
+    "index": "D",
+    "name": "Magical Tiered Cake"
+   },
+   {
+    "index": "E",
+    "name": "Snaking Arrangement"
+   },
+   {
+    "index": "F",
+    "name": "The Cake Is a Lie"
+   }
+  ]
+ },
+ {
   "id": 2229,
   "type": "Div1 + Div2",
   "name": "Spectral::Cup 2026 Round 2 (Codeforces Round 1100, Div. 1 + Div. 2)",
   "problems": [
    {
     "index": "A",
-    "name": "Slimes on a Line"
+    "name": "Slimes on a Line",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Absolute Cinema"
+    "name": "Absolute Cinema",
+    "rating": 800
    },
    {
     "index": "C1",
-    "name": "We Be Flipping (Easy Version)"
+    "name": "We Be Flipping (Easy Version)",
+    "rating": 900
    },
    {
     "index": "C2",
-    "name": "We Be Flipping (Hard Version)"
+    "name": "We Be Flipping (Hard Version)",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Me When Median Problem"
+    "name": "Me When Median Problem",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Deconstruction Tree"
+    "name": "Deconstruction Tree",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Load Unbalancing"
+    "name": "Load Unbalancing",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Roadworks"
+    "name": "Roadworks",
+    "rating": 2900
    },
    {
     "index": "H",
-    "name": "Wowee Binary String"
+    "name": "Wowee Binary String",
+    "rating": 3200
    },
    {
     "index": "I",
-    "name": "The Endians"
+    "name": "The Endians",
+    "rating": 3400
    }
   ]
  },
@@ -53,27 +98,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Construct an Array"
+    "name": "Construct an Array",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Another Sorting Problem"
+    "name": "Another Sorting Problem",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Chipmunk Theo and Equality"
+    "name": "Chipmunk Theo and Equality",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Maximum Prefix Sums"
+    "name": "Maximum Prefix Sums",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Graph Cutting"
+    "name": "Graph Cutting",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Quadratic Jumps"
+    "name": "Quadratic Jumps",
+    "rating": 2600
    }
   ]
  },
@@ -84,27 +135,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Optimal Purchase"
+    "name": "Optimal Purchase",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Digit String"
+    "name": "Digit String",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Arrange the Numbers in a Circle"
+    "name": "Arrange the Numbers in a Circle",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Good Schedule"
+    "name": "Good Schedule",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Minimum Influence"
+    "name": "Minimum Influence",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Game on Growing Tree"
+    "name": "Game on Growing Tree",
+    "rating": 2700
    }
   ]
  },
@@ -115,35 +172,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Marisa Steals Reimu's Takeout"
+    "name": "Marisa Steals Reimu's Takeout",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Remilia Plays Soku"
+    "name": "Remilia Plays Soku",
+    "rating": 1100
    },
    {
     "index": "C1",
-    "name": "Cirno and Number (Easy Version)"
+    "name": "Cirno and Number (Easy Version)",
+    "rating": 1500
    },
    {
     "index": "C2",
-    "name": "Cirno and Number (Hard Version)"
+    "name": "Cirno and Number (Hard Version)",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Sanae, Cross and Color"
+    "name": "Sanae, Cross and Color",
+    "rating": 1900
    },
    {
     "index": "E1",
-    "name": "Amanojaku and Sequence (Easy Version)"
+    "name": "Amanojaku and Sequence (Easy Version)",
+    "rating": 2400
    },
    {
     "index": "E2",
-    "name": "Amanojaku and Sequence (Hard Version)"
+    "name": "Amanojaku and Sequence (Hard Version)",
+    "rating": 2500
    },
    {
     "index": "F",
-    "name": "Momoyo and the Network"
+    "name": "Momoyo and the Network",
+    "rating": 2700
    }
   ]
  },
@@ -154,27 +219,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Zhily and Bracket Swapping"
+    "name": "Zhily and Bracket Swapping",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Zhily and Barknights"
+    "name": "Zhily and Barknights",
+    "rating": 1600
    },
    {
     "index": "C",
-    "name": "Zhily and Signpost"
+    "name": "Zhily and Signpost",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "Zhily and Cycle"
+    "name": "Zhily and Cycle",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Zhily and Permutation"
+    "name": "Zhily and Permutation",
+    "rating": 3500
    },
    {
     "index": "F",
-    "name": "Zhily and Colorful Strings"
+    "name": "Zhily and Colorful Strings",
+    "rating": 3400
    }
   ]
  },
@@ -185,11 +256,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Zhily and Array Operating"
+    "name": "Zhily and Array Operating",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Zhily and Mex and Max"
+    "name": "Zhily and Mex and Max",
+    "rating": 1200
    },
    {
     "index": "C",
@@ -216,35 +289,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Koshary"
+    "name": "Koshary",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Party Monster"
+    "name": "Party Monster",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Snowfall"
+    "name": "Snowfall",
+    "rating": 800
    },
    {
     "index": "D",
-    "name": "Palindromex"
+    "name": "Palindromex",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "It All Went Sideways"
+    "name": "It All Went Sideways",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "It Just Keeps Going Sideways"
+    "name": "It Just Keeps Going Sideways",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Drowning"
+    "name": "Drowning",
+    "rating": 2000
    },
    {
     "index": "H",
-    "name": "Fallen Leaves"
+    "name": "Fallen Leaves",
+    "rating": 2100
    }
   ]
  },
@@ -255,31 +336,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Disturbing Distribution"
+    "name": "Disturbing Distribution",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Everything Everywhere"
+    "name": "Everything Everywhere",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Mental Monumental (Easy Version)"
+    "name": "Mental Monumental (Easy Version)",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Reserved Reversals"
+    "name": "Reserved Reversals",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "Mental Monumental (Hard Version)"
+    "name": "Mental Monumental (Hard Version)",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Inversion Invasion"
+    "name": "Inversion Invasion",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "Stop Spot"
+    "name": "Stop Spot",
+    "rating": 3000
    }
   ]
  },
@@ -290,35 +378,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "A Wonderful Contest"
+    "name": "A Wonderful Contest",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Artistic Balance Tree"
+    "name": "Artistic Balance Tree",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Median Partition"
+    "name": "Median Partition",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Permutation Construction"
+    "name": "Permutation Construction",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Seek the Truth"
+    "name": "Seek the Truth",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Building Tree"
+    "name": "Building Tree",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Statistics on Tree"
+    "name": "Statistics on Tree",
+    "rating": 3100
    },
    {
     "index": "H",
-    "name": "Counting Sort?"
+    "name": "Counting Sort?",
+    "rating": 3500
    }
   ]
  },
@@ -329,31 +425,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "A Number Between Two Others"
+    "name": "A Number Between Two Others",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Alternating String"
+    "name": "Alternating String",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Red-Black Pairs"
+    "name": "Red-Black Pairs",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Exceptional Segments"
+    "name": "Exceptional Segments",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Covering Points with Circles"
+    "name": "Covering Points with Circles",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "String Cutting"
+    "name": "String Cutting",
+    "rating": 2600
    },
    {
     "index": "G",
-    "name": "Simple Problem"
+    "name": "Simple Problem",
+    "rating": 2900
    }
   ]
  },
@@ -364,27 +467,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Grid L"
+    "name": "Grid L",
+    "rating": 1400
    },
    {
     "index": "B1",
-    "name": "Unique Values (Easy version)"
+    "name": "Unique Values (Easy version)",
+    "rating": 1900
    },
    {
     "index": "B2",
-    "name": "Unique Values (Hard version)"
+    "name": "Unique Values (Hard version)",
+    "rating": 2000
    },
    {
     "index": "C",
-    "name": "Coloring a Red Black Tree"
+    "name": "Coloring a Red Black Tree",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "MEX Replacement on Tree"
+    "name": "MEX Replacement on Tree",
+    "rating": 2700
    },
    {
     "index": "E",
-    "name": "Weird Chessboard"
+    "name": "Weird Chessboard",
+    "rating": 3500
    }
   ]
  },
@@ -395,11 +504,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Blocked"
+    "name": "Blocked",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "OIE Excursion"
+    "name": "OIE Excursion",
+    "rating": 1200
    },
    {
     "index": "C",

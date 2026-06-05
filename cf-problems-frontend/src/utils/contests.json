@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Convergence"
+    "name": "Convergence",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Cake Leveling"
+    "name": "Cake Leveling",
+    "rating": 900
    },
    {
     "index": "C1",
-    "name": "Seating Arrangement (Easy Version)"
+    "name": "Seating Arrangement (Easy Version)",
+    "rating": 1300
    },
    {
     "index": "C2",
-    "name": "Seating Arrangement (Hard Version)"
+    "name": "Seating Arrangement (Hard Version)",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Magical Tiered Cake"
+    "name": "Magical Tiered Cake",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Snaking Arrangement"
+    "name": "Snaking Arrangement",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "The Cake Is a Lie"
+    "name": "The Cake Is a Lie",
+    "rating": 3000
    }
   ]
  },

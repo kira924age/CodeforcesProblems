@@ -1,5 +1,40 @@
 [
  {
+  "id": 2233,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 191 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "AI Project Development"
+   },
+   {
+    "index": "B",
+    "name": "Different Distances"
+   },
+   {
+    "index": "C",
+    "name": "Cost of a Bracket Sequence"
+   },
+   {
+    "index": "D",
+    "name": "Goods on the Shelf"
+   },
+   {
+    "index": "E1",
+    "name": "Permutation Transmission (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "Permutation Transmission (Difficult Version)"
+   },
+   {
+    "index": "F",
+    "name": "Shortest GCD Paths"
+   }
+  ]
+ },
+ {
   "id": 2234,
   "type": "Div2",
   "name": "Codeforces Round 1102 (Div. 2)",

@@ -41,31 +41,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Euclid, Sequence and Two Numbers"
+    "name": "Euclid, Sequence and Two Numbers",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Palindrome, Twelve and Two Terms"
+    "name": "Palindrome, Twelve and Two Terms",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Vessels, Heights and Two Versions (Easy Version)"
+    "name": "Vessels, Heights and Two Versions (Easy Version)",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "XOR, Expression and Two Binary Numbers"
+    "name": "XOR, Expression and Two Binary Numbers",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Vlad, Misha and Two Arrays"
+    "name": "Vlad, Misha and Two Arrays",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Vessels, Heights and Two Versions (Hard Version)"
+    "name": "Vessels, Heights and Two Versions (Hard Version)",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Stripe, Token and Two Players"
+    "name": "Stripe, Token and Two Players",
+    "rating": 2700
    }
   ]
  },

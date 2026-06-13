@@ -1,5 +1,44 @@
 [
  {
+  "id": 2236,
+  "type": "Div3",
+  "name": "Codeforces Round 1103 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Games on the Train"
+   },
+   {
+    "index": "B",
+    "name": "Tatar TV Show"
+   },
+   {
+    "index": "C",
+    "name": "Omsk Programmers"
+   },
+   {
+    "index": "D",
+    "name": "Brand New Tatar TV Show"
+   },
+   {
+    "index": "E",
+    "name": "Friendly Gifts"
+   },
+   {
+    "index": "F1",
+    "name": "Elections in Saransk (easy version)"
+   },
+   {
+    "index": "F2",
+    "name": "Elections in Saransk (hard version)"
+   },
+   {
+    "index": "G",
+    "name": "Criterion in Burlandia"
+   }
+  ]
+ },
+ {
   "id": 2233,
   "type": "Educational",
   "name": "Educational Codeforces Round 191 (Rated for Div. 2)",

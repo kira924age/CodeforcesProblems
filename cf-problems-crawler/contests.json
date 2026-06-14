@@ -45,31 +45,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "AI Project Development"
+    "name": "AI Project Development",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Different Distances"
+    "name": "Different Distances",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Cost of a Bracket Sequence"
+    "name": "Cost of a Bracket Sequence",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Goods on the Shelf"
+    "name": "Goods on the Shelf",
+    "rating": 1900
    },
    {
     "index": "E1",
-    "name": "Permutation Transmission (Easy Version)"
+    "name": "Permutation Transmission (Easy Version)",
+    "rating": 2200
    },
    {
     "index": "E2",
-    "name": "Permutation Transmission (Difficult Version)"
+    "name": "Permutation Transmission (Difficult Version)",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Shortest GCD Paths"
+    "name": "Shortest GCD Paths",
+    "rating": 2800
    }
   ]
  },

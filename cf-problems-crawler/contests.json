@@ -3,7 +3,48 @@
   "id": 2237,
   "type": "Div1 + Div2",
   "name": "Order Capital Round 2 (Codeforces Round 1104, Div. 1 + Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Destroying Towers"
+   },
+   {
+    "index": "B",
+    "name": "Annoying the Ghost"
+   },
+   {
+    "index": "C",
+    "name": "Duck Surplus"
+   },
+   {
+    "index": "D",
+    "name": "Fullmetal Bitchemist"
+   },
+   {
+    "index": "E",
+    "name": "Permutation Commutation"
+   },
+   {
+    "index": "F",
+    "name": "Paint the Array"
+   },
+   {
+    "index": "G",
+    "name": "Send GCDs"
+   },
+   {
+    "index": "H",
+    "name": "Slime and Queries"
+   },
+   {
+    "index": "I1",
+    "name": "DBFS Order (Easy Version)"
+   },
+   {
+    "index": "I2",
+    "name": "DBFS Order (Hard Version)"
+   }
+  ]
  },
  {
   "id": 2236,
@@ -12,35 +53,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Games on the Train"
+    "name": "Games on the Train",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Tatar TV Show"
+    "name": "Tatar TV Show",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Omsk Programmers"
+    "name": "Omsk Programmers",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Brand New Tatar TV Show"
+    "name": "Brand New Tatar TV Show",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Friendly Gifts"
+    "name": "Friendly Gifts",
+    "rating": 1700
    },
    {
     "index": "F1",
-    "name": "Elections in Saransk (easy version)"
+    "name": "Elections in Saransk (easy version)",
+    "rating": 1700
    },
    {
     "index": "F2",
-    "name": "Elections in Saransk (hard version)"
+    "name": "Elections in Saransk (hard version)",
+    "rating": 2200
    },
    {
     "index": "G",
-    "name": "Criterion in Burlandia"
+    "name": "Criterion in Burlandia",
+    "rating": 2600
    }
   ]
  },

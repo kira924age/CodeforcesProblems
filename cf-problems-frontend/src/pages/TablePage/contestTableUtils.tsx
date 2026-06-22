@@ -84,7 +84,7 @@ const PREFIX = "https://codeforces.com/contest/";
 export const makeContestTable = (
   problemData: object[],
   isShowDifficulty: boolean,
-  submissions: Map<string, boolean>
+  submissions: Map<string, boolean>,
 ) => {
   return problemData.map((x: any) => {
     let obj: any = {};
@@ -188,7 +188,7 @@ let filterProblemsMap: Map<string, object[]> = new Map();
 
 export const filterProblems = (
   contestName: string,
-  allProblems: object[]
+  allProblems: object[],
 ): object[] => {
   let problemData;
 

@@ -4,8 +4,7 @@ import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggler";
 import { Row, Col } from "antd";
 import { Input, Button } from "antd";
-import { Link, useHistory } from "react-router-dom";
-
+import { Link, useNavigate } from "react-router-dom";
 import { Collapse } from "react-collapse";
 
 import "./Header.css";
@@ -51,10 +50,10 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
     setUserId(e.currentTarget.value);
   };
 
-  let history = useHistory();
-
+  const navigate = useNavigate();
   const handleEnter = (e: React.FormEvent<HTMLInputElement>) => {
-    history.push("/" + props.location + "/" + userId);
+    const path = "/" + props.location + "/" + userId;
+    navigate(path);
   };
 
   const toggleIsOpen = () => {

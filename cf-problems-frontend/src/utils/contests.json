@@ -6,43 +6,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Destroying Towers"
+    "name": "Destroying Towers",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Annoying the Ghost"
+    "name": "Annoying the Ghost",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Duck Surplus"
+    "name": "Duck Surplus",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Fullmetal Bitchemist"
+    "name": "Fullmetal Bitchemist",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Permutation Commutation"
+    "name": "Permutation Commutation",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Paint the Array"
+    "name": "Paint the Array",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Send GCDs"
+    "name": "Send GCDs",
+    "rating": 2900
    },
    {
     "index": "H",
-    "name": "Slime and Queries"
+    "name": "Slime and Queries",
+    "rating": 3500
    },
    {
     "index": "I1",
-    "name": "DBFS Order (Easy Version)"
+    "name": "DBFS Order (Easy Version)",
+    "rating": 3500
    },
    {
     "index": "I2",
-    "name": "DBFS Order (Hard Version)"
+    "name": "DBFS Order (Hard Version)",
+    "rating": 3500
    }
   ]
  },

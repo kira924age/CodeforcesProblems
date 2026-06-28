@@ -1,5 +1,67 @@
 [
  {
+  "id": 2239,
+  "type": "Div1",
+  "name": "Codeforces Round 1105 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Nim Game Is XOR Game"
+   },
+   {
+    "index": "B",
+    "name": "Decidophobia"
+   },
+   {
+    "index": "C",
+    "name": "Revival"
+   },
+   {
+    "index": "D",
+    "name": "Hunting the Beast"
+   },
+   {
+    "index": "E",
+    "name": "The end of this world,"
+   },
+   {
+    "index": "F",
+    "name": "Colorful Works"
+   }
+  ]
+ },
+ {
+  "id": 2240,
+  "type": "Div2",
+  "name": "Codeforces Round 1105 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Another Popcount Problem"
+   },
+   {
+    "index": "B",
+    "name": "AI Finds Nothing Here"
+   },
+   {
+    "index": "C",
+    "name": "Nim Game Is XOR Game"
+   },
+   {
+    "index": "D",
+    "name": "Decidophobia"
+   },
+   {
+    "index": "E",
+    "name": "Revival"
+   },
+   {
+    "index": "F",
+    "name": "Hunting the Beast"
+   }
+  ]
+ },
+ {
   "id": 2237,
   "type": "Div1 + Div2",
   "name": "Order Capital Round 2 (Codeforces Round 1104, Div. 1 + Div. 2)",

@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Another Puzzle from Papyrus"
+    "name": "Another Puzzle from Papyrus",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Crimson Triples"
+    "name": "Crimson Triples",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Village Guilds"
+    "name": "Village Guilds",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Storming Arasaka"
+    "name": "Storming Arasaka",
+    "rating": 1500
    },
    {
     "index": "E",
-    "name": "Cake Trial"
+    "name": "Cake Trial",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Infinite Work"
+    "name": "Infinite Work",
+    "rating": 2600
    }
   ]
  },
@@ -37,27 +43,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Nim Game Is XOR Game"
+    "name": "Nim Game Is XOR Game",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Decidophobia"
+    "name": "Decidophobia",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "Revival"
+    "name": "Revival",
+    "rating": 2200
    },
    {
     "index": "D",
-    "name": "Hunting the Beast"
+    "name": "Hunting the Beast",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "The end of this world,"
+    "name": "The end of this world,",
+    "rating": 3300
    },
    {
     "index": "F",
-    "name": "Colorful Works"
+    "name": "Colorful Works",
+    "rating": 3500
    }
   ]
  },
@@ -68,11 +80,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Another Popcount Problem"
+    "name": "Another Popcount Problem",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "AI Finds Nothing Here"
+    "name": "AI Finds Nothing Here",
+    "rating": 1100
    },
    {
     "index": "C",

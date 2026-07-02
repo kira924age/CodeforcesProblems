@@ -1,5 +1,40 @@
 [
  {
+  "id": 2241,
+  "type": "Div3",
+  "name": "Codeforces Round 1107 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Divide and Conquer"
+   },
+   {
+    "index": "B",
+    "name": "Good times Good times"
+   },
+   {
+    "index": "C",
+    "name": "RemovevomeR"
+   },
+   {
+    "index": "D",
+    "name": "An Alternative Way"
+   },
+   {
+    "index": "E",
+    "name": "Fair and Square"
+   },
+   {
+    "index": "F",
+    "name": "A Bit Odd"
+   },
+   {
+    "index": "G",
+    "name": "Summmon"
+   }
+  ]
+ },
+ {
   "id": 2238,
   "type": "Div2",
   "name": "Codeforces Round 1106 (Div. 2)",

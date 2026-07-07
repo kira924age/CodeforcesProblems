@@ -1,5 +1,36 @@
 [
  {
+  "id": 2242,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 192 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Bigrams"
+   },
+   {
+    "index": "B",
+    "name": "Predominant Frequency Division"
+   },
+   {
+    "index": "C",
+    "name": "Unstable Elements"
+   },
+   {
+    "index": "D",
+    "name": "Two Digit Strings"
+   },
+   {
+    "index": "E",
+    "name": "Product of Closures"
+   },
+   {
+    "index": "F",
+    "name": "Summer Vacation"
+   }
+  ]
+ },
+ {
   "id": 2241,
   "type": "Div3",
   "name": "Codeforces Round 1107 (Div. 3)",

@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Bigrams"
+    "name": "Bigrams",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Predominant Frequency Division"
+    "name": "Predominant Frequency Division",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Unstable Elements"
+    "name": "Unstable Elements",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Two Digit Strings"
+    "name": "Two Digit Strings",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Product of Closures"
+    "name": "Product of Closures",
+    "rating": 2200
    },
    {
     "index": "F",
-    "name": "Summer Vacation"
+    "name": "Summer Vacation",
+    "rating": 2700
    }
   ]
  },
@@ -37,31 +43,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Divide and Conquer"
+    "name": "Divide and Conquer",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Good times Good times"
+    "name": "Good times Good times",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "RemovevomeR"
+    "name": "RemovevomeR",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "An Alternative Way"
+    "name": "An Alternative Way",
+    "rating": 1100
    },
    {
     "index": "E",
-    "name": "Fair and Square"
+    "name": "Fair and Square",
+    "rating": 1600
    },
    {
     "index": "F",
-    "name": "A Bit Odd"
+    "name": "A Bit Odd",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Summmon"
+    "name": "Summmon",
+    "rating": 2400
    }
   ]
  },

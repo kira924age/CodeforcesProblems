@@ -1,5 +1,36 @@
 [
  {
+  "id": 2246,
+  "type": "Div2",
+  "name": "Codeforces Round 1108 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "farmpiggie and Subset Sum"
+   },
+   {
+    "index": "B",
+    "name": "ezraft and Array"
+   },
+   {
+    "index": "C",
+    "name": "0mar and Alternating Sums"
+   },
+   {
+    "index": "D",
+    "name": "diss_quack and Array Game"
+   },
+   {
+    "index": "E",
+    "name": "lce4113 and Security Game"
+   },
+   {
+    "index": "F",
+    "name": "Whoname and Unsorted Array"
+   }
+  ]
+ },
+ {
   "id": 2242,
   "type": "Educational",
   "name": "Educational Codeforces Round 192 (Rated for Div. 2)",

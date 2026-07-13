@@ -12,17 +12,17 @@ type Props = {
 const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
   const [contest, setContest] = useLocalStorage(
     "activeTab",
-    "Educational Codeforces Rounds"
+    "Educational Codeforces Rounds",
   );
 
   const [isShowDifficulty, setIsShowDifficulty] = useLocalStorage(
     "isShowDifficulty",
-    true
+    true,
   );
 
   const [isReverseOrder, setIsReverseOrder] = useLocalStorage(
     "isReverseOrder",
-    false
+    false,
   );
 
   return (

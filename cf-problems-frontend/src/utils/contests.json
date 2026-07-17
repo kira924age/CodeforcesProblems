@@ -1,5 +1,48 @@
 [
  {
+  "id": 2245,
+  "type": "Div1 + Div2",
+  "name": "Spectral::Cup 2026 Round 3 (Codeforces Round 1110, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Who Watches the Watchpig?"
+   },
+   {
+    "index": "B",
+    "name": "Delete and Concatenate"
+   },
+   {
+    "index": "C",
+    "name": "MEXOR"
+   },
+   {
+    "index": "D1",
+    "name": "Construct an Array (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Construct an Array (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Tom and Jerry"
+   },
+   {
+    "index": "F",
+    "name": "Familiar?"
+   },
+   {
+    "index": "G",
+    "name": "NPC Challenge"
+   },
+   {
+    "index": "H",
+    "name": "Connect Connect See"
+   }
+  ]
+ },
+ {
   "id": 2244,
   "type": "Div3",
   "name": "Codeforces Round 1109 (Div. 3)",

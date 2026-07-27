@@ -1,5 +1,17 @@
 [
  {
+  "id": 2249,
+  "type": "Div1",
+  "name": "Codeforces Round 1112 (Div. 1)",
+  "problems": []
+ },
+ {
+  "id": 2250,
+  "type": "Div2",
+  "name": "Codeforces Round 1112 (Div. 2)",
+  "problems": []
+ },
+ {
   "id": 2247,
   "type": "Div2",
   "name": "Codeforces Round 1111 (Div. 2)",

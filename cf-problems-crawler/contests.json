@@ -3,13 +3,67 @@
   "id": 2249,
   "type": "Div1",
   "name": "Codeforces Round 1112 (Div. 1)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Rank Subsequence"
+   },
+   {
+    "index": "B",
+    "name": "Permutation Cuts"
+   },
+   {
+    "index": "C",
+    "name": "Double-Rift Dial"
+   },
+   {
+    "index": "D",
+    "name": "Xor Permutation Matrix"
+   },
+   {
+    "index": "E1",
+    "name": "String (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "String (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Even Simple Path"
+   }
+  ]
  },
  {
   "id": 2250,
   "type": "Div2",
   "name": "Codeforces Round 1112 (Div. 2)",
-  "problems": []
+  "problems": [
+   {
+    "index": "A",
+    "name": "Threshold Movement"
+   },
+   {
+    "index": "B",
+    "name": "String Construction"
+   },
+   {
+    "index": "C",
+    "name": "Rank Subsequence"
+   },
+   {
+    "index": "D",
+    "name": "Permutation Cuts"
+   },
+   {
+    "index": "E",
+    "name": "Double-Rift Dial"
+   },
+   {
+    "index": "F",
+    "name": "Xor Permutation Matrix"
+   }
+  ]
  },
  {
   "id": 2247,

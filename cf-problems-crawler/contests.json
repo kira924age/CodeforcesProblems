@@ -1,5 +1,40 @@
 [
  {
+  "id": 2248,
+  "type": "Div2",
+  "name": "Codeforces Round 1113 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "You Delete, I Delete"
+   },
+   {
+    "index": "B",
+    "name": "Merge to Match"
+   },
+   {
+    "index": "C",
+    "name": "Maximize the Score"
+   },
+   {
+    "index": "D",
+    "name": "Good Pair Queries"
+   },
+   {
+    "index": "E",
+    "name": "Excuse for Breaks"
+   },
+   {
+    "index": "F",
+    "name": "Matrix Elimination"
+   },
+   {
+    "index": "G",
+    "name": "No Balance Left"
+   }
+  ]
+ },
+ {
   "id": 2249,
   "type": "Div1",
   "name": "Codeforces Round 1112 (Div. 1)",

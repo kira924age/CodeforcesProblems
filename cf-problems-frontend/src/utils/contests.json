@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "You Delete, I Delete"
+    "name": "You Delete, I Delete",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Merge to Match"
+    "name": "Merge to Match",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Maximize the Score"
+    "name": "Maximize the Score",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Good Pair Queries"
+    "name": "Good Pair Queries",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Excuse for Breaks"
+    "name": "Excuse for Breaks",
+    "rating": 1900
    },
    {
     "index": "F",
-    "name": "Matrix Elimination"
+    "name": "Matrix Elimination",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "No Balance Left"
+    "name": "No Balance Left",
+    "rating": 3000
    }
   ]
  },
@@ -41,31 +48,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Rank Subsequence"
+    "name": "Rank Subsequence",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Permutation Cuts"
+    "name": "Permutation Cuts",
+    "rating": 1700
    },
    {
     "index": "C",
-    "name": "Double-Rift Dial"
+    "name": "Double-Rift Dial",
+    "rating": 2000
    },
    {
     "index": "D",
-    "name": "Xor Permutation Matrix"
+    "name": "Xor Permutation Matrix",
+    "rating": 2300
    },
    {
     "index": "E1",
-    "name": "String (Easy Version)"
+    "name": "String (Easy Version)",
+    "rating": 2800
    },
    {
     "index": "E2",
-    "name": "String (Hard Version)"
+    "name": "String (Hard Version)",
+    "rating": 3000
    },
    {
     "index": "F",
-    "name": "Even Simple Path"
+    "name": "Even Simple Path",
+    "rating": 3200
    }
   ]
  },
@@ -76,11 +90,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Threshold Movement"
+    "name": "Threshold Movement",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "String Construction"
+    "name": "String Construction",
+    "rating": 1000
    },
    {
     "index": "C",
@@ -107,31 +123,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Zero Sum"
+    "name": "Zero Sum",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Yet Another Constructive"
+    "name": "Yet Another Constructive",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Inversion of a Subsequence"
+    "name": "Inversion of a Subsequence",
+    "rating": 1100
    },
    {
     "index": "D1",
-    "name": "XOR Sorting (Easy Version)"
+    "name": "XOR Sorting (Easy Version)",
+    "rating": 1500
    },
    {
     "index": "D2",
-    "name": "XOR Sorting (Hard Version)"
+    "name": "XOR Sorting (Hard Version)",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Build a Tree"
+    "name": "Build a Tree",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Paths on a Grid"
+    "name": "Paths on a Grid",
+    "rating": 2900
    }
   ]
  },
@@ -142,39 +165,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Who Watches the Watchpig?"
+    "name": "Who Watches the Watchpig?",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Delete and Concatenate"
+    "name": "Delete and Concatenate",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "MEXOR"
+    "name": "MEXOR",
+    "rating": 1400
    },
    {
     "index": "D1",
-    "name": "Construct an Array (Easy Version)"
+    "name": "Construct an Array (Easy Version)",
+    "rating": 1700
    },
    {
     "index": "D2",
-    "name": "Construct an Array (Hard Version)"
+    "name": "Construct an Array (Hard Version)",
+    "rating": 2000
    },
    {
     "index": "E",
-    "name": "Tom and Jerry"
+    "name": "Tom and Jerry",
+    "rating": 2300
    },
    {
     "index": "F",
-    "name": "Familiar?"
+    "name": "Familiar?",
+    "rating": 2800
    },
    {
     "index": "G",
-    "name": "NPC Challenge"
+    "name": "NPC Challenge",
+    "rating": 3000
    },
    {
     "index": "H",
-    "name": "Connect Connect See"
+    "name": "Connect Connect See",
+    "rating": 3500
    }
   ]
  },
@@ -185,31 +217,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Iskander and Drawings"
+    "name": "Iskander and Drawings",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Nikita and Books"
+    "name": "Nikita and Books",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Stepan and Permutation"
+    "name": "Stepan and Permutation",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Yaroslav and Productivity"
+    "name": "Yaroslav and Productivity",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Masha and the Garland"
+    "name": "Masha and the Garland",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "Anya Loves Trees!"
+    "name": "Anya Loves Trees!",
+    "rating": 1700
    },
    {
     "index": "G",
-    "name": "Yura and Deadlines"
+    "name": "Yura and Deadlines",
+    "rating": 1900
    }
   ]
  },
@@ -220,27 +259,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "farmpiggie and Subset Sum"
+    "name": "farmpiggie and Subset Sum",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "ezraft and Array"
+    "name": "ezraft and Array",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "0mar and Alternating Sums"
+    "name": "0mar and Alternating Sums",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "diss_quack and Array Game"
+    "name": "diss_quack and Array Game",
+    "rating": 1900
    },
    {
     "index": "E",
-    "name": "lce4113 and Security Game"
+    "name": "lce4113 and Security Game",
+    "rating": 2600
    },
    {
     "index": "F",
-    "name": "Whoname and Unsorted Array"
+    "name": "Whoname and Unsorted Array",
+    "rating": 2900
    }
   ]
  },

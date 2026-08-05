@@ -1,5 +1,44 @@
 [
  {
+  "id": 2254,
+  "type": "Div3",
+  "name": "Codeforces Round 1114 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Riptide"
+   },
+   {
+    "index": "B",
+    "name": "Evanescent"
+   },
+   {
+    "index": "C1",
+    "name": "Marenol (easy version)"
+   },
+   {
+    "index": "C2",
+    "name": "Marenol (hard version)"
+   },
+   {
+    "index": "D",
+    "name": "Silhouette"
+   },
+   {
+    "index": "E",
+    "name": "Chronostasis"
+   },
+   {
+    "index": "F",
+    "name": "Whiplash"
+   },
+   {
+    "index": "G",
+    "name": "Nightcrawler"
+   }
+  ]
+ },
+ {
   "id": 2248,
   "type": "Div2",
   "name": "Codeforces Round 1113 (Div. 2)",

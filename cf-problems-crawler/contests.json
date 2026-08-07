@@ -1,5 +1,36 @@
 [
  {
+  "id": 2252,
+  "type": "Div2",
+  "name": "Codeforces Round 1115 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Boss Fight"
+   },
+   {
+    "index": "B",
+    "name": "Always Changing"
+   },
+   {
+    "index": "C",
+    "name": "Risky Tower"
+   },
+   {
+    "index": "D",
+    "name": "Array Replacement"
+   },
+   {
+    "index": "E",
+    "name": "Generational Triplets"
+   },
+   {
+    "index": "F",
+    "name": "Spectral Components"
+   }
+  ]
+ },
+ {
   "id": 2254,
   "type": "Div3",
   "name": "Codeforces Round 1114 (Div. 3)",

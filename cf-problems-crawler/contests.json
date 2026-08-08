@@ -1,5 +1,36 @@
 [
  {
+  "id": 2253,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 193 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "The Best Card"
+   },
+   {
+    "index": "B",
+    "name": "Hypercarp and the Control Panel"
+   },
+   {
+    "index": "C",
+    "name": "Sum of Distinct Values in a Matrix"
+   },
+   {
+    "index": "D",
+    "name": "Hypercarp and Interdimensional Jumps"
+   },
+   {
+    "index": "E",
+    "name": "Diameter Intersections"
+   },
+   {
+    "index": "F",
+    "name": "4-beauty"
+   }
+  ]
+ },
+ {
   "id": 2252,
   "type": "Div2",
   "name": "Codeforces Round 1115 (Div. 2)",

@@ -1,5 +1,71 @@
 [
  {
+  "id": 2255,
+  "type": "Div1",
+  "name": "Codeforces Round 1116 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Hot Potatoes at the Fairy Warehouse"
+   },
+   {
+    "index": "B",
+    "name": "A Ribbon for Tomorrow"
+   },
+   {
+    "index": "C",
+    "name": "Even If the World Turns"
+   },
+   {
+    "index": "D",
+    "name": "How Long Until Nothing Remains?"
+   },
+   {
+    "index": "E1",
+    "name": "What Will Remain at the End? (Easy Version)"
+   },
+   {
+    "index": "E2",
+    "name": "What Will Remain at the End? (Hard Version)"
+   },
+   {
+    "index": "F",
+    "name": "Who Will Witness the End?"
+   }
+  ]
+ },
+ {
+  "id": 2256,
+  "type": "Div2",
+  "name": "Codeforces Round 1116 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Three Numbers on the Blackboard"
+   },
+   {
+    "index": "B",
+    "name": "Domino Tiles"
+   },
+   {
+    "index": "C",
+    "name": "Hot Potatoes at the Fairy Warehouse"
+   },
+   {
+    "index": "D",
+    "name": "A Ribbon for Tomorrow"
+   },
+   {
+    "index": "E",
+    "name": "Even If the World Turns"
+   },
+   {
+    "index": "F",
+    "name": "How Long Until Nothing Remains?"
+   }
+  ]
+ },
+ {
   "id": 2253,
   "type": "Educational",
   "name": "Educational Codeforces Round 193 (Rated for Div. 2)",

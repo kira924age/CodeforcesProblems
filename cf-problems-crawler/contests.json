@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Hot Potatoes at the Fairy Warehouse"
+    "name": "Hot Potatoes at the Fairy Warehouse",
+    "rating": 1200
    },
    {
     "index": "B",
-    "name": "A Ribbon for Tomorrow"
+    "name": "A Ribbon for Tomorrow",
+    "rating": 1600
    },
    {
     "index": "C",
-    "name": "Even If the World Turns"
+    "name": "Even If the World Turns",
+    "rating": 2100
    },
    {
     "index": "D",
-    "name": "How Long Until Nothing Remains?"
+    "name": "How Long Until Nothing Remains?",
+    "rating": 2300
    },
    {
     "index": "E1",
-    "name": "What Will Remain at the End? (Easy Version)"
+    "name": "What Will Remain at the End? (Easy Version)",
+    "rating": 2900
    },
    {
     "index": "E2",
-    "name": "What Will Remain at the End? (Hard Version)"
+    "name": "What Will Remain at the End? (Hard Version)",
+    "rating": 3400
    },
    {
     "index": "F",
-    "name": "Who Will Witness the End?"
+    "name": "Who Will Witness the End?",
+    "rating": 3100
    }
   ]
  },
@@ -41,11 +48,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Three Numbers on the Blackboard"
+    "name": "Three Numbers on the Blackboard",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Domino Tiles"
+    "name": "Domino Tiles",
+    "rating": 1000
    },
    {
     "index": "C",
@@ -72,27 +81,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Best Card"
+    "name": "The Best Card",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Hypercarp and the Control Panel"
+    "name": "Hypercarp and the Control Panel",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Sum of Distinct Values in a Matrix"
+    "name": "Sum of Distinct Values in a Matrix",
+    "rating": 1500
    },
    {
     "index": "D",
-    "name": "Hypercarp and Interdimensional Jumps"
+    "name": "Hypercarp and Interdimensional Jumps",
+    "rating": 1800
    },
    {
     "index": "E",
-    "name": "Diameter Intersections"
+    "name": "Diameter Intersections",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "4-beauty"
+    "name": "4-beauty",
+    "rating": 2600
    }
   ]
  },
@@ -103,27 +118,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Boss Fight"
+    "name": "Boss Fight",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Always Changing"
+    "name": "Always Changing",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "Risky Tower"
+    "name": "Risky Tower",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Array Replacement"
+    "name": "Array Replacement",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Generational Triplets"
+    "name": "Generational Triplets",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Spectral Components"
+    "name": "Spectral Components",
+    "rating": 2600
    }
   ]
  },
@@ -134,35 +155,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Riptide"
+    "name": "Riptide",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Evanescent"
+    "name": "Evanescent",
+    "rating": 900
    },
    {
     "index": "C1",
-    "name": "Marenol (easy version)"
+    "name": "Marenol (easy version)",
+    "rating": 1000
    },
    {
     "index": "C2",
-    "name": "Marenol (hard version)"
+    "name": "Marenol (hard version)",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Silhouette"
+    "name": "Silhouette",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Chronostasis"
+    "name": "Chronostasis",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Whiplash"
+    "name": "Whiplash",
+    "rating": 1900
    },
    {
     "index": "G",
-    "name": "Nightcrawler"
+    "name": "Nightcrawler",
+    "rating": 2200
    }
   ]
  },

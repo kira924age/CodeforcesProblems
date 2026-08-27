@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Creating Abbreviations"
+    "name": "Creating Abbreviations",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Gigantomachy"
+    "name": "Gigantomachy",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Spying on the Beaver"
+    "name": "Spying on the Beaver",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Bermuda Rectangle"
+    "name": "Bermuda Rectangle",
+    "rating": 1600
    },
    {
     "index": "E",
-    "name": "Busy Beaver"
+    "name": "Busy Beaver",
+    "rating": 2000
    },
    {
     "index": "F1",
-    "name": "Beaver's Jumping Track (Easy Version)"
+    "name": "Beaver's Jumping Track (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "F2",
-    "name": "Beaver's Jumping Track (Hard Version)"
+    "name": "Beaver's Jumping Track (Hard Version)",
+    "rating": 2700
    }
   ]
  },

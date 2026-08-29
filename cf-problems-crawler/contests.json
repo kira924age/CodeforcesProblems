@@ -1,5 +1,16 @@
 [
  {
+  "id": 2251,
+  "type": "ICPC",
+  "name": "ICPC 2026 Online Challenge 1 powered by Huawei",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Edge--Cloud Collaborative Scheduling"
+   }
+  ]
+ },
+ {
   "id": 2257,
   "type": "Div2",
   "name": "Codeforces Round 1117 (Div. 2)",

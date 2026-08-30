@@ -1,5 +1,40 @@
 [
  {
+  "id": 2258,
+  "type": "Div2",
+  "name": "Codeforces Round 1118 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Odd Eraser"
+   },
+   {
+    "index": "B1",
+    "name": "Carrot Chopdown (Easy Version)"
+   },
+   {
+    "index": "B2",
+    "name": "Carrot Chopdown (Hard Version)"
+   },
+   {
+    "index": "C",
+    "name": "Far Cities"
+   },
+   {
+    "index": "D",
+    "name": "Magic Tiles"
+   },
+   {
+    "index": "E",
+    "name": "DivMEX"
+   },
+   {
+    "index": "F",
+    "name": "Plus Minus Tree"
+   }
+  ]
+ },
+ {
   "id": 2251,
   "type": "ICPC",
   "name": "ICPC 2026 Online Challenge 1 powered by Huawei",

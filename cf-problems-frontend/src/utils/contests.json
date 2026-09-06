@@ -1,5 +1,44 @@
 [
  {
+  "id": 2259,
+  "type": "Div3",
+  "name": "Codeforces Round 1119 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Moo Language School"
+   },
+   {
+    "index": "B",
+    "name": "Minus Two"
+   },
+   {
+    "index": "C",
+    "name": "101"
+   },
+   {
+    "index": "D",
+    "name": "MEX Multiset"
+   },
+   {
+    "index": "E",
+    "name": "Treasure Map Destruction (Constructive Version)"
+   },
+   {
+    "index": "F",
+    "name": "Binary Bubble Sort Inversions"
+   },
+   {
+    "index": "G",
+    "name": "Index Removal"
+   },
+   {
+    "index": "H",
+    "name": "Treasure Map Destruction (Counting Version)"
+   }
+  ]
+ },
+ {
   "id": 2258,
   "type": "Div2",
   "name": "Codeforces Round 1118 (Div. 2)",

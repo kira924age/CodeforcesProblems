@@ -1,40 +1,83 @@
 [
  {
+  "id": 2260,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 194 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Monocarp's Contest"
+   },
+   {
+    "index": "B",
+    "name": "Monocarp and Projects"
+   },
+   {
+    "index": "C",
+    "name": "Maximize XOR, Minimize Operations"
+   },
+   {
+    "index": "D",
+    "name": "Signs of Prefix Sums"
+   },
+   {
+    "index": "E",
+    "name": "Cyclic Balance"
+   },
+   {
+    "index": "F",
+    "name": "Edge Three-Coloring"
+   },
+   {
+    "index": "G",
+    "name": "Sortable Permutations"
+   }
+  ]
+ },
+ {
   "id": 2259,
   "type": "Div3",
   "name": "Codeforces Round 1119 (Div. 3)",
   "problems": [
    {
     "index": "A",
-    "name": "Moo Language School"
+    "name": "Moo Language School",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Minus Two"
+    "name": "Minus Two",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "101"
+    "name": "101",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "MEX Multiset"
+    "name": "MEX Multiset",
+    "rating": 1200
    },
    {
     "index": "E",
-    "name": "Treasure Map Destruction (Constructive Version)"
+    "name": "Treasure Map Destruction (Constructive Version)",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Binary Bubble Sort Inversions"
+    "name": "Binary Bubble Sort Inversions",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Index Removal"
+    "name": "Index Removal",
+    "rating": 1900
    },
    {
     "index": "H",
-    "name": "Treasure Map Destruction (Counting Version)"
+    "name": "Treasure Map Destruction (Counting Version)",
+    "rating": 2200
    }
   ]
  },
@@ -45,31 +88,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Odd Eraser"
+    "name": "Odd Eraser",
+    "rating": 800
    },
    {
     "index": "B1",
-    "name": "Carrot Chopdown (Easy Version)"
+    "name": "Carrot Chopdown (Easy Version)",
+    "rating": 900
    },
    {
     "index": "B2",
-    "name": "Carrot Chopdown (Hard Version)"
+    "name": "Carrot Chopdown (Hard Version)",
+    "rating": 1600
    },
    {
     "index": "C",
-    "name": "Far Cities"
+    "name": "Far Cities",
+    "rating": 1600
    },
    {
     "index": "D",
-    "name": "Magic Tiles"
+    "name": "Magic Tiles",
+    "rating": 2500
    },
    {
     "index": "E",
-    "name": "DivMEX"
+    "name": "DivMEX",
+    "rating": 2400
    },
    {
     "index": "F",
-    "name": "Plus Minus Tree"
+    "name": "Plus Minus Tree",
+    "rating": 2500
    }
   ]
  },

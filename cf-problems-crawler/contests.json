@@ -1,5 +1,40 @@
 [
  {
+  "id": 2262,
+  "type": "Div1",
+  "name": "Codeforces Round 1120 (Div. 1)",
+  "problems": [
+   {
+    "index": "A1",
+    "name": "Floor of MEX (Easy Version)"
+   },
+   {
+    "index": "A2",
+    "name": "Floor of MEX (Hard Version)"
+   },
+   {
+    "index": "B",
+    "name": "Culling Game"
+   },
+   {
+    "index": "C",
+    "name": "Traveling the World"
+   },
+   {
+    "index": "D",
+    "name": "PLUSworld"
+   },
+   {
+    "index": "E",
+    "name": "Paired Bracket Sequences"
+   },
+   {
+    "index": "F",
+    "name": "Rank Removal"
+   }
+  ]
+ },
+ {
   "id": 2260,
   "type": "Educational",
   "name": "Educational Codeforces Round 194 (Rated for Div. 2)",

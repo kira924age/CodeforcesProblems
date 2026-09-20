@@ -6,31 +6,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Rumb Needs a Hand"
+    "name": "Rumb Needs a Hand",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Knife's Pill Farm"
+    "name": "Knife's Pill Farm",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Madamant's Skating Dynasty"
+    "name": "Madamant's Skating Dynasty",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Dr. Agos's Dark Mode"
+    "name": "Dr. Agos's Dark Mode",
+    "rating": 1800
    },
    {
     "index": "E1",
-    "name": "A Prime Flood (Easy Version)"
+    "name": "A Prime Flood (Easy Version)",
+    "rating": 2100
    },
    {
     "index": "E2",
-    "name": "A Prime Flood (Hard Version)"
+    "name": "A Prime Flood (Hard Version)",
+    "rating": 2700
    },
    {
     "index": "F",
-    "name": "Deranged Calculator"
+    "name": "Deranged Calculator",
+    "rating": 2700
    }
   ]
  },
@@ -41,11 +48,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "Min Max Game"
+    "name": "Min Max Game",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Min Matrices"
+    "name": "Min Matrices",
+    "rating": 900
    },
    {
     "index": "C1",
@@ -76,31 +85,38 @@
   "problems": [
    {
     "index": "A1",
-    "name": "Floor of MEX (Easy Version)"
+    "name": "Floor of MEX (Easy Version)",
+    "rating": 1200
    },
    {
     "index": "A2",
-    "name": "Floor of MEX (Hard Version)"
+    "name": "Floor of MEX (Hard Version)",
+    "rating": 1800
    },
    {
     "index": "B",
-    "name": "Culling Game"
+    "name": "Culling Game",
+    "rating": 2000
    },
    {
     "index": "C",
-    "name": "Traveling the World"
+    "name": "Traveling the World",
+    "rating": 2200
    },
    {
     "index": "D",
-    "name": "PLUSworld"
+    "name": "PLUSworld",
+    "rating": 2800
    },
    {
     "index": "E",
-    "name": "Paired Bracket Sequences"
+    "name": "Paired Bracket Sequences",
+    "rating": 3100
    },
    {
     "index": "F",
-    "name": "Rank Removal"
+    "name": "Rank Removal",
+    "rating": 3500
    }
   ]
  },
@@ -111,31 +127,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Monocarp's Contest"
+    "name": "Monocarp's Contest",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Monocarp and Projects"
+    "name": "Monocarp and Projects",
+    "rating": 900
    },
    {
     "index": "C",
-    "name": "Maximize XOR, Minimize Operations"
+    "name": "Maximize XOR, Minimize Operations",
+    "rating": 1300
    },
    {
     "index": "D",
-    "name": "Signs of Prefix Sums"
+    "name": "Signs of Prefix Sums",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Cyclic Balance"
+    "name": "Cyclic Balance",
+    "rating": 2000
    },
    {
     "index": "F",
-    "name": "Edge Three-Coloring"
+    "name": "Edge Three-Coloring",
+    "rating": 2500
    },
    {
     "index": "G",
-    "name": "Sortable Permutations"
+    "name": "Sortable Permutations",
+    "rating": 2900
    }
   ]
  },

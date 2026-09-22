@@ -1,5 +1,44 @@
 [
  {
+  "id": 2266,
+  "type": "Div3",
+  "name": "Codeforces Round 1122 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Good Contest"
+   },
+   {
+    "index": "B",
+    "name": "Three Piles"
+   },
+   {
+    "index": "C",
+    "name": "AND, OR, Sort!"
+   },
+   {
+    "index": "D",
+    "name": "Falling Concrete"
+   },
+   {
+    "index": "E",
+    "name": "Prime Destruction"
+   },
+   {
+    "index": "F",
+    "name": "MEX Replacement"
+   },
+   {
+    "index": "G",
+    "name": "Modular Tree"
+   },
+   {
+    "index": "H",
+    "name": "Deque Malfunction"
+   }
+  ]
+ },
+ {
   "id": 2264,
   "type": "Div2",
   "name": "Codeforces Round 1121 (Div. 2)",

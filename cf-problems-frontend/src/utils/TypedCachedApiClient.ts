@@ -35,7 +35,7 @@ export const cachedProblemMap = async (): Promise<any> => {
   if (CACHED_PROBLEMS === undefined) {
     try {
       CACHED_PROBLEMS = await fetchProblems(
-        STATIC_API_BASE_URL + "/problemset.problems"
+        STATIC_API_BASE_URL + "/problemset.problems",
       );
     } catch (e) {
       // console.log(e);
@@ -132,8 +132,8 @@ export const cachedUserInfo = async (userId: string): Promise<any> => {
       CACHED_USER_INFO.set(
         userId,
         await fetchUserInfo(
-          STATIC_API_BASE_URL + "/user.info?handles=" + userId
-        )
+          STATIC_API_BASE_URL + "/user.info?handles=" + userId,
+        ),
       );
     } catch (e) {
       // console.log(e);

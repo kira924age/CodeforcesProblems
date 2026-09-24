@@ -75,7 +75,7 @@ export type RatingColorClassName =
   | "difficulty-red";
 
 export const getRatingColorClass = (
-  rating: number | undefined
+  rating: number | undefined,
 ): RatingColorClassName => {
   const ratingColor: RatingColor = getRatingColor(rating);
   switch (ratingColor) {

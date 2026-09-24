@@ -1,18 +1,17 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-
+import { useParams } from "react-router-dom";
 import TableTab from "./TableTab";
 
-type Props = {
-  userId: string;
-};
+const TablePage: React.FunctionComponent = () => {
+  const params = useParams();
+  const userId: string = params.userId ?? "";
 
-const TablePage: React.FunctionComponent<Props> = (props: Props) => {
   return (
     <React.Fragment>
-      <Header userId={props.userId} location="table" />
+      <Header userId={userId} location="table" />
       <div className="Main">
-        <TableTab userId={props.userId} />
+        <TableTab userId={userId} />
       </div>
     </React.Fragment>
   );

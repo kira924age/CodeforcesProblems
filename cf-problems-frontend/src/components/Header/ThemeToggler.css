@@ -1,15 +1,15 @@
 .theme-toggler {
-  padding-right:20px;
+  padding-right: 20px;
   height: 24px;
 }
 
 .toggle-icon {
-   font-size: 17px;
-   height: 10px;
-   filter: contrast(150%);
-   justify-content: center;
-   align-items: center;
-   display: flex;
+  font-size: 17px;
+  height: 10px;
+  filter: contrast(150%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {

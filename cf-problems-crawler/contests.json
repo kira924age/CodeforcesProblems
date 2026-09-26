@@ -1,5 +1,44 @@
 [
  {
+  "id": 2267,
+  "type": "Div2",
+  "name": "Codeforces Round 1123 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Turn Into a Palindrome"
+   },
+   {
+    "index": "B",
+    "name": "Fashionable Array"
+   },
+   {
+    "index": "C",
+    "name": "GCD Treasury"
+   },
+   {
+    "index": "D",
+    "name": "Backrooms Hill"
+   },
+   {
+    "index": "E",
+    "name": "Clean Substrings"
+   },
+   {
+    "index": "F1",
+    "name": "XOR Transformations (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "XOR Transformations (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "New LRT"
+   }
+  ]
+ },
+ {
   "id": 2266,
   "type": "Div3",
   "name": "Codeforces Round 1122 (Div. 3)",

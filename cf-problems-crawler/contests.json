@@ -6,27 +6,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "K Is Important"
+    "name": "K Is Important",
+    "rating": 1200
    },
    {
     "index": "B",
-    "name": "What a SauSaGe! It's All Meat"
+    "name": "What a SauSaGe! It's All Meat",
+    "rating": 1500
    },
    {
     "index": "C",
-    "name": "KiaKio and Energy Intervals"
+    "name": "KiaKio and Energy Intervals",
+    "rating": 2300
    },
    {
     "index": "D",
-    "name": "AghaBalaSar and Hamed"
+    "name": "AghaBalaSar and Hamed",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Kia Kio and Tree of Life"
+    "name": "Kia Kio and Tree of Life",
+    "rating": 2700
    },
    {
     "index": "F",
-    "name": "Deglado"
+    "name": "Deglado",
+    "rating": 3500
    }
   ]
  },
@@ -37,11 +43,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "SauSaGe Bank"
+    "name": "SauSaGe Bank",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "KiaKio and Squared Numbers"
+    "name": "KiaKio and Squared Numbers",
+    "rating": 1000
    },
    {
     "index": "C",
@@ -68,35 +76,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Turn Into a Palindrome"
+    "name": "Turn Into a Palindrome",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Fashionable Array"
+    "name": "Fashionable Array",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "GCD Treasury"
+    "name": "GCD Treasury",
+    "rating": 1200
    },
    {
     "index": "D",
-    "name": "Backrooms Hill"
+    "name": "Backrooms Hill",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Clean Substrings"
+    "name": "Clean Substrings",
+    "rating": 2000
    },
    {
     "index": "F1",
-    "name": "XOR Transformations (Easy Version)"
+    "name": "XOR Transformations (Easy Version)",
+    "rating": 1700
    },
    {
     "index": "F2",
-    "name": "XOR Transformations (Hard Version)"
+    "name": "XOR Transformations (Hard Version)",
+    "rating": 2300
    },
    {
     "index": "G",
-    "name": "New LRT"
+    "name": "New LRT",
+    "rating": 2600
    }
   ]
  },
@@ -107,35 +123,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "Good Contest"
+    "name": "Good Contest",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Three Piles"
+    "name": "Three Piles",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "AND, OR, Sort!"
+    "name": "AND, OR, Sort!",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Falling Concrete"
+    "name": "Falling Concrete",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Prime Destruction"
+    "name": "Prime Destruction",
+    "rating": 1400
    },
    {
     "index": "F",
-    "name": "MEX Replacement"
+    "name": "MEX Replacement",
+    "rating": 2000
    },
    {
     "index": "G",
-    "name": "Modular Tree"
+    "name": "Modular Tree",
+    "rating": 2200
    },
    {
     "index": "H",
-    "name": "Deque Malfunction"
+    "name": "Deque Malfunction",
+    "rating": 2400
    }
   ]
  },

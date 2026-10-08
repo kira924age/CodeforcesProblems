@@ -1,5 +1,44 @@
 [
  {
+  "id": 2275,
+  "type": "Div3",
+  "name": "Codeforces Round 1125 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "In Search of Convenience"
+   },
+   {
+    "index": "B",
+    "name": "Did Not Go to Print"
+   },
+   {
+    "index": "C",
+    "name": "Unrequited Love"
+   },
+   {
+    "index": "D",
+    "name": "Precision Alignment"
+   },
+   {
+    "index": "E",
+    "name": "Repentance Is Already on the Way"
+   },
+   {
+    "index": "F",
+    "name": "Tea Blend"
+   },
+   {
+    "index": "G",
+    "name": "Copper Squander"
+   },
+   {
+    "index": "H",
+    "name": "A Problem to Warm Up the Eyebrows"
+   }
+  ]
+ },
+ {
   "id": 2268,
   "type": "Div1",
   "name": "Codeforces Round 1124 (Div. 1)",

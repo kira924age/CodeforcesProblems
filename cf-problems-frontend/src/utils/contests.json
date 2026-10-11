@@ -1,5 +1,48 @@
 [
  {
+  "id": 2271,
+  "type": "Div1 + Div2",
+  "name": "DeepInfra Round 1 (Codeforces Round 1126, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Robot Odd Moves"
+   },
+   {
+    "index": "B",
+    "name": "MEX Game"
+   },
+   {
+    "index": "C",
+    "name": "XOR Problem"
+   },
+   {
+    "index": "D",
+    "name": "Target Infection"
+   },
+   {
+    "index": "E",
+    "name": "Array Emptying"
+   },
+   {
+    "index": "F",
+    "name": "Beautiful Pillers"
+   },
+   {
+    "index": "G",
+    "name": "Grid Filling"
+   },
+   {
+    "index": "H1",
+    "name": "Personal Issues (Easy Version)"
+   },
+   {
+    "index": "H2",
+    "name": "Personal Issues (Hard Version)"
+   }
+  ]
+ },
+ {
   "id": 2275,
   "type": "Div3",
   "name": "Codeforces Round 1125 (Div. 3)",

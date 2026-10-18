@@ -1,5 +1,52 @@
 [
  {
+  "id": 2261,
+  "type": "Div1 + Div2",
+  "name": "WorldQuant Round 1 (Codeforces Round 1128, Div. 1 + Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Hey, It's Me, Souvlakity"
+   },
+   {
+    "index": "B",
+    "name": "What's the Capital of France?"
+   },
+   {
+    "index": "C",
+    "name": "I Know About a Million Things"
+   },
+   {
+    "index": "D1",
+    "name": "Come Be My Friend, Don't Be So Scared (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Come Be My Friend, Don't Be So Scared (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "What Does the Cow Say?"
+   },
+   {
+    "index": "F1",
+    "name": "Plegma II: Ask Me Any Cell (Easy Version)"
+   },
+   {
+    "index": "F2",
+    "name": "Plegma II: Ask Me Any Cell (Hard Version)"
+   },
+   {
+    "index": "G",
+    "name": "1 2 3 and XOR, Where Did Everybody Go?"
+   },
+   {
+    "index": "H",
+    "name": "Oh Tree Tree Tree, No Need to Leave"
+   }
+  ]
+ },
+ {
   "id": 2276,
   "type": "Educational",
   "name": "Educational Codeforces Round 195 (Rated for Div. 2)",

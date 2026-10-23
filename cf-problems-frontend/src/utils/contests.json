@@ -6,43 +6,53 @@
   "problems": [
    {
     "index": "A",
-    "name": "Hey, It's Me, Souvlakity"
+    "name": "Hey, It's Me, Souvlakity",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "What's the Capital of France?"
+    "name": "What's the Capital of France?",
+    "rating": 1100
    },
    {
     "index": "C",
-    "name": "I Know About a Million Things"
+    "name": "I Know About a Million Things",
+    "rating": 1000
    },
    {
     "index": "D1",
-    "name": "Come Be My Friend, Don't Be So Scared (Easy Version)"
+    "name": "Come Be My Friend, Don't Be So Scared (Easy Version)",
+    "rating": 1300
    },
    {
     "index": "D2",
-    "name": "Come Be My Friend, Don't Be So Scared (Hard Version)"
+    "name": "Come Be My Friend, Don't Be So Scared (Hard Version)",
+    "rating": 2400
    },
    {
     "index": "E",
-    "name": "What Does the Cow Say?"
+    "name": "What Does the Cow Say?",
+    "rating": 1800
    },
    {
     "index": "F1",
-    "name": "Plegma II: Ask Me Any Cell (Easy Version)"
+    "name": "Plegma II: Ask Me Any Cell (Easy Version)",
+    "rating": 2500
    },
    {
     "index": "F2",
-    "name": "Plegma II: Ask Me Any Cell (Hard Version)"
+    "name": "Plegma II: Ask Me Any Cell (Hard Version)",
+    "rating": 3300
    },
    {
     "index": "G",
-    "name": "1 2 3 and XOR, Where Did Everybody Go?"
+    "name": "1 2 3 and XOR, Where Did Everybody Go?",
+    "rating": 2800
    },
    {
     "index": "H",
-    "name": "Oh Tree Tree Tree, No Need to Leave"
+    "name": "Oh Tree Tree Tree, No Need to Leave",
+    "rating": 3500
    }
   ]
  },
@@ -53,31 +63,38 @@
   "problems": [
    {
     "index": "A",
-    "name": "Perfect Sandwiches"
+    "name": "Perfect Sandwiches",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Replace and Compress"
+    "name": "Replace and Compress",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "Subarrays"
+    "name": "Subarrays",
+    "rating": 1100
    },
    {
     "index": "D",
-    "name": "Caveman"
+    "name": "Caveman",
+    "rating": 1400
    },
    {
     "index": "E",
-    "name": "Good Substrings"
+    "name": "Good Substrings",
+    "rating": 1800
    },
    {
     "index": "F",
-    "name": "Permutation Coloring Game"
+    "name": "Permutation Coloring Game",
+    "rating": 2400
    },
    {
     "index": "G",
-    "name": "Elimination of Players"
+    "name": "Elimination of Players",
+    "rating": 2100
    }
   ]
  },
@@ -88,27 +105,33 @@
   "problems": [
    {
     "index": "A",
-    "name": "Lavencia Oranges"
+    "name": "Lavencia Oranges",
+    "rating": 1300
    },
    {
     "index": "B",
-    "name": "Robot Championship"
+    "name": "Robot Championship",
+    "rating": 1900
    },
    {
     "index": "C",
-    "name": "Matrix Puzzle"
+    "name": "Matrix Puzzle",
+    "rating": 2100
    },
    {
     "index": "D",
-    "name": "Aura Battle"
+    "name": "Aura Battle",
+    "rating": 2600
    },
    {
     "index": "E",
-    "name": "Six-Seven Bags"
+    "name": "Six-Seven Bags",
+    "rating": 2900
    },
    {
     "index": "F",
-    "name": "Pancho's Permutation"
+    "name": "Pancho's Permutation",
+    "rating": 3500
    }
   ]
  },
@@ -119,11 +142,13 @@
   "problems": [
    {
     "index": "A",
-    "name": "The Projections of Paco"
+    "name": "The Projections of Paco",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Prefix"
+    "name": "Prefix",
+    "rating": 1100
    },
    {
     "index": "C",
@@ -150,39 +175,48 @@
   "problems": [
    {
     "index": "A",
-    "name": "Robot Odd Moves"
+    "name": "Robot Odd Moves",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "MEX Game"
+    "name": "MEX Game",
+    "rating": 1000
    },
    {
     "index": "C",
-    "name": "XOR Problem"
+    "name": "XOR Problem",
+    "rating": 1400
    },
    {
     "index": "D",
-    "name": "Target Infection"
+    "name": "Target Infection",
+    "rating": 1700
    },
    {
     "index": "E",
-    "name": "Array Emptying"
+    "name": "Array Emptying",
+    "rating": 2100
    },
    {
     "index": "F",
-    "name": "Beautiful Pillers"
+    "name": "Beautiful Pillers",
+    "rating": 2300
    },
    {
     "index": "G",
-    "name": "Grid Filling"
+    "name": "Grid Filling",
+    "rating": 3100
    },
    {
     "index": "H1",
-    "name": "Personal Issues (Easy Version)"
+    "name": "Personal Issues (Easy Version)",
+    "rating": 2800
    },
    {
     "index": "H2",
-    "name": "Personal Issues (Hard Version)"
+    "name": "Personal Issues (Hard Version)",
+    "rating": 3300
    }
   ]
  },
@@ -193,35 +227,43 @@
   "problems": [
    {
     "index": "A",
-    "name": "In Search of Convenience"
+    "name": "In Search of Convenience",
+    "rating": 800
    },
    {
     "index": "B",
-    "name": "Did Not Go to Print"
+    "name": "Did Not Go to Print",
+    "rating": 800
    },
    {
     "index": "C",
-    "name": "Unrequited Love"
+    "name": "Unrequited Love",
+    "rating": 1000
    },
    {
     "index": "D",
-    "name": "Precision Alignment"
+    "name": "Precision Alignment",
+    "rating": 1300
    },
    {
     "index": "E",
-    "name": "Repentance Is Already on the Way"
+    "name": "Repentance Is Already on the Way",
+    "rating": 1500
    },
    {
     "index": "F",
-    "name": "Tea Blend"
+    "name": "Tea Blend",
+    "rating": 1800
    },
    {
     "index": "G",
-    "name": "Copper Squander"
+    "name": "Copper Squander",
+    "rating": 1900
    },
    {
     "index": "H",
-    "name": "A Problem to Warm Up the Eyebrows"
+    "name": "A Problem to Warm Up the Eyebrows",
+    "rating": 2400
    }
   ]
  },

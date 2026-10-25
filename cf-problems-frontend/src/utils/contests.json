@@ -1,5 +1,40 @@
 [
  {
+  "id": 2277,
+  "type": "Div2",
+  "name": "Codeforces Round 1129 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Subset Selecting"
+   },
+   {
+    "index": "B",
+    "name": "Sequence Decreasing"
+   },
+   {
+    "index": "C",
+    "name": "Edge Addeleting"
+   },
+   {
+    "index": "D1",
+    "name": "Number Operating (Easy Version)"
+   },
+   {
+    "index": "D2",
+    "name": "Number Operating (Hard Version)"
+   },
+   {
+    "index": "E",
+    "name": "Tree Guessing"
+   },
+   {
+    "index": "F",
+    "name": "Token Re-Moving"
+   }
+  ]
+ },
+ {
   "id": 2261,
   "type": "Div1 + Div2",
   "name": "WorldQuant Round 1 (Codeforces Round 1128, Div. 1 + Div. 2)",

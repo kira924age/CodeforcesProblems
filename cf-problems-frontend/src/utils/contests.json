@@ -1,5 +1,40 @@
 [
  {
+  "id": 2272,
+  "type": "Div2",
+  "name": "Codeforces Round 1130 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Maximize One MEX"
+   },
+   {
+    "index": "B",
+    "name": "Frogs Jump"
+   },
+   {
+    "index": "C",
+    "name": "Yet Another Black Cell Problem"
+   },
+   {
+    "index": "D",
+    "name": "Connecting the Conflicts"
+   },
+   {
+    "index": "E",
+    "name": "Memory Cell Interception"
+   },
+   {
+    "index": "F",
+    "name": "Tree Reduction Game"
+   },
+   {
+    "index": "G",
+    "name": "Ranges"
+   }
+  ]
+ },
+ {
   "id": 2277,
   "type": "Div2",
   "name": "Codeforces Round 1129 (Div. 2)",

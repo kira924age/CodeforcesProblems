@@ -7,6 +7,16 @@ This application uses [Codeforces API](https://codeforces.com/apiHelp).
 
 ![capture image](./images/screenshot-table.png)
 
+## Project structure
+
+- [`cf-problems-frontend/`](./cf-problems-frontend/README.md): the sole frontend
+  application, used for local development, CI, and production deployment.
+- [`cf-problems-crawler/`](./cf-problems-crawler/README.md): the daily contest-data
+  collection script.
+
+See the frontend README for Node.js requirements, development commands, tests,
+and deployment instructions.
+
 ## Contribution
 
 * [Contribution Guide](./docs/CONTRIBUTING.md)

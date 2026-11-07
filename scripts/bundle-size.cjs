@@ -37,27 +37,33 @@ function render(base, current, baseSha, headSha) {
   const changed = keys.filter(key => (base[key]?.raw || 0) !== (current[key]?.raw || 0));
   if (!changed.length) return `${marker}\n<!-- bundle-size-unchanged -->\nサイズ変更なし。\n`;
   const kib = value => `${(value / 1024).toFixed(2)} KiB`;
-  const change = (before, after) => {
-    const delta = after - before;
-    const percent = before === 0 ? 'new' : `${(delta / before * 100).toFixed(2)}%`;
-    return `${delta > 0 ? '+' : '-'}${kib(Math.abs(delta))}, ${percent}`;
-  };
   const total = files => Object.values(files).reduce((sum, file) => sum + file.raw, 0);
   const beforeTotal = total(base), afterTotal = total(current);
-  const lines = [marker, '### Bundle size（非圧縮）', '', '```diff'];
+  const lines = [marker, '### バンドルサイズの変化', '',
+    'PR のベースと、この PR をマージした場合の JS・CSS サイズを比較しています。',
+    '非圧縮サイズを KiB（1 KiB = 1,024 bytes）で表示し、変更のあるファイルだけを掲載しています。増減は「変更後 − 変更前」です。', '',
+    '| ファイル | 変更前（base） | 変更後（PR） | 増減 | 増減率 |',
+    '| --- | ---: | ---: | ---: | ---: |'];
   const row = (label, before, after) => {
-    // GitHub diff blocks render + lines green and - lines red.
-    const color = after < before ? '+' : '-';
-    lines.push(`${color} ${label}: ${kib(before)} → ${kib(after)} (${change(before, after)})`);
+    const delta = after - before;
+    const sign = delta > 0 ? '+' : '-';
+    const color = delta < 0 ? 'green' : 'red';
+    // GitHub supports MathJax inline text color; HTML style attributes are stripped.
+    const amount = String.raw`$\textcolor{${color}}{${sign}${(Math.abs(delta) / 1024).toFixed(2)}\ \mathrm{KiB}}$`;
+    const percent = before === 0 ? '—' : String.raw`$\textcolor{${color}}{${sign}${(Math.abs(delta) / before * 100).toFixed(2)}\%}$`;
+    lines.push(`| ${label} | ${kib(before)} | ${kib(after)} | ${amount} | ${percent} |`);
   };
   for (const key of changed) {
     const before = base[key], after = current[key];
-    const label = (after?.file || before?.file || key).replace(/^assets\//, '').replace(/[`\r\n]/g, ' ');
+    const label = (after?.file || before?.file || key).replace(/^assets\//, '')
+      .replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')
+      .replaceAll('|', '&#124;').replace(/[`\r\n]/g, ' ');
     row(label, before?.raw || 0, after?.raw || 0);
   }
-  if (beforeTotal !== afterTotal) row('合計', beforeTotal, afterTotal);
-  lines.push('```', '', `比較: base \`${baseSha.slice(0, 7)}\` → PR merge \`${headSha.slice(0, 7)}\``, '',
-    'Vite manifest でチャンクを対応付けます。ソースマップ・画像は除外。全 JS/CSS 出力のサイズで、初回ロード量ではありません。');
+  if (beforeTotal !== afterTotal) row('**合計**', beforeTotal, afterTotal);
+  lines.push('', `比較コミット: base \`${baseSha.slice(0, 7)}\` → PR merge \`${headSha.slice(0, 7)}\``, '',
+    'ハッシュが変わったファイルは Vite manifest で対応付けています。ソースマップ・画像は対象外。',
+    '全 JS/CSS チャンクの出力サイズのため、初回アクセス時の通信量とは異なります。新規ファイルの増減率は — です。');
   return lines.join('\n') + '\n';
 }
 

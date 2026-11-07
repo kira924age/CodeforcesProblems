@@ -11,8 +11,8 @@
     "react-collapse": "^5.1.0",
     "react-dom": "18.3.1",
     "react-helmet": "^6.1.0",
-    "react-router": "6.30.6",
-    "react-router-dom": "6.30.6",
+    "react-router": "7.18.5",
+    "react-router-dom": "7.18.5",
     "react-toggle": "^4.1.1",
     "recharts": "^2.15.4"
   },

@@ -1,9 +1,11 @@
+import contests from "./contests.json";
+
 const STATIC_API_BASE_URL = "https://codeforces.com/api";
 
 let CACHED_CONTESTS: any[];
 export const cachedContestArray = () => {
   if (CACHED_CONTESTS === undefined) {
-    CACHED_CONTESTS = require("./contests.json");
+    CACHED_CONTESTS = contests;
   }
   return CACHED_CONTESTS;
 };

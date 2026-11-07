@@ -31,8 +31,13 @@ http://localhost:4173. Tests run in jsdom and use the setup in `src/setupTests.t
 
 ## Deployment compatibility
 
-Vite writes production files to `build/`, preserving the existing daily
-GitHub Actions workflow and GitHub Pages publication. `public/` is copied into
+Vite writes production files to `build/` for GitHub Pages publication.
+`Deploy frontend` publishes on frontend changes pushed to `main` and can also
+be run manually in GitHub Actions (select `main`, then **Run workflow**). It
+runs tests and builds without crawling Codeforces. The daily crawler calls the
+same deployment workflow after saving data. Deployment always builds the latest
+`main`, serializes publication, and writes only to `gh-pages`; it does not commit
+generated build files to `main`. `public/` is copied into
 that output, including `CNAME`, icons, manifests, and the social preview image.
 The HTML entry point is now `index.html` at the project root. Relative asset
 URLs (`base: "./"`) and the existing hash routes are preserved.

@@ -1,0 +1,57 @@
+name: Deploy frontend
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cf-problems-frontend/**'
+      - '!cf-problems-frontend/build/**'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: write
+
+# Daily updates and code releases share the same publication lock.
+concurrency:
+  group: frontend-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cf-problems-frontend
+    steps:
+      # Always publish the latest main, including commits made by the crawler.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: cf-problems-frontend/.nvmrc
+          cache: npm
+          cache-dependency-path: cf-problems-frontend/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Check out publication branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: _pages
+      - name: Publish built files
+        working-directory: .
+        run: |
+          rsync -a --delete --exclude='.git' cf-problems-frontend/build/ _pages/
+          touch _pages/.nojekyll
+          git -C _pages config user.name actions-user
+          git -C _pages config user.email action@github.com
+          git -C _pages add -A
+          if ! git -C _pages diff --cached --quiet; then
+            git -C _pages commit -m "Deploy frontend from $(git rev-parse HEAD)"
+            git -C _pages push origin HEAD:gh-pages
+          fi

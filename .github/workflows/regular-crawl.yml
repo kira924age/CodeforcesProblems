@@ -4,14 +4,24 @@ on:
     - cron: '0 0 * * *' # Once per day at midnight
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: regular-crawl
+  cancel-in-progress: false
+
 jobs:
   Crawl-Codeforces:
     name: Crawl-Codeforces-Job
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+      with:
+        ref: main
 
-    - uses: actions/setup-python@v3
+    - uses: actions/setup-python@v6
       with:
         # Keep the runtime compatible with the pinned crawler dependencies.
         python-version: '3.11'
@@ -41,56 +51,14 @@ jobs:
     - name: Commit files
       run: |
         git pull
-        git add -A
-        if ! git diff-index --quiet HEAD --; then git commit -a -m "Update contests.json (By GitHub Actions)"; fi;
+        git add cf-problems-crawler/contests.json cf-problems-frontend/src/utils/contests.json
+        if ! git diff --cached --quiet; then git commit -m "Update contests.json (By GitHub Actions)"; fi;
         git push
     - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
 
-  Build-React-App:
-    name: Build-React-App-Job
+  Deploy-Frontend:
     needs: Crawl-Codeforces
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [26]
-
-    steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: git setting
-        run: |
-          git config user.name actions-user
-          git config user.email action@github.com
-          git pull
-      - name: install dependency
-        run: npm ci
-        working-directory: ${{ github.workspace }}/cf-problems-frontend
-      - name: build React App
-        run: npm run build
-        working-directory: ${{ github.workspace }}/cf-problems-frontend
-      - name: git commit
-        run: |
-          git add -A
-          if ! git diff-index --quiet HEAD --; then git commit -a -m "Update build files (By GitHub Actions)"; fi;
-          git push
-      - name: git checkout
-        run: |
-          git checkout -b gh-pages origin/gh-pages
-          rm -rf *
-          git checkout main -- cf-problems-frontend/build
-          git checkout main -- cf-problems-frontend/public/CNAME
-      - name: copy files
-        run: |
-          cp -rf cf-problems-frontend/build/* .
-          cp cf-problems-frontend/public/CNAME .
-          rm -rf cf-problems-frontend
-      - name: git commit
-        run: |
-          git add -A
-          if ! git diff-index --quiet HEAD --; then git commit -a -m "Update gh-pages (By GitHub Actions)"; fi;
-          git push
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+    permissions:
+      contents: write
+    # GITHUB_TOKEN commits do not trigger push workflows; call deployment directly.
+    uses: ./.github/workflows/deploy.yml

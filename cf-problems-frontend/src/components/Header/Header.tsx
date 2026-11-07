@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggler";
 import { Row, Col } from "antd";
 import { Input, Button } from "antd";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import { Collapse } from "react-collapse";
 
@@ -44,17 +44,21 @@ interface Props {
 }
 
 const Header: React.FunctionComponent<Props> = (props: Props) => {
-  const [userId, setUserId] = React.useState(props.userId);
+  const [userId, setUserId] = React.useState(props.userId ?? "");
+
+  React.useEffect(() => {
+    setUserId(props.userId ?? "");
+  }, [props.userId]);
   const [isOpen, setIsOpen] = React.useState(false);
 
   const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
     setUserId(e.currentTarget.value);
   };
 
-  let history = useHistory();
+  const navigate = useNavigate();
 
   const handleEnter = (e: React.FormEvent<HTMLInputElement>) => {
-    history.push("/" + props.location + "/" + userId);
+    navigate("/" + props.location + "/" + userId);
   };
 
   const toggleIsOpen = () => {

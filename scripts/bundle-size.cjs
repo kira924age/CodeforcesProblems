@@ -49,8 +49,8 @@ function render(base, current, baseSha, headSha) {
     const sign = delta > 0 ? '+' : '-';
     const color = delta < 0 ? 'green' : 'red';
     // GitHub supports MathJax inline text color; HTML style attributes are stripped.
-    const amount = String.raw`$\textcolor{${color}}{${sign}${(Math.abs(delta) / 1024).toFixed(2)}\ \mathrm{KiB}}$`;
-    const percent = before === 0 ? '—' : String.raw`$\textcolor{${color}}{${sign}${(Math.abs(delta) / before * 100).toFixed(2)}\%}$`;
+    const amount = '$`' + String.raw`\textcolor{${color}}{${sign}${(Math.abs(delta) / 1024).toFixed(2)}\ \mathrm{KiB}}` + '`$';
+    const percent = before === 0 ? '—' : '$`' + String.raw`\textcolor{${color}}{${sign}${(Math.abs(delta) / before * 100).toFixed(2)}\%}` + '`$';
     lines.push(`| ${label} | ${kib(before)} | ${kib(after)} | ${amount} | ${percent} |`);
   };
   for (const key of changed) {

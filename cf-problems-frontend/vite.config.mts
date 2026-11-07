@@ -3,8 +3,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  // @nivo/calendar 0.67 expects webpack's browser `global` shim.
-  define: { global: "globalThis" },
   // Preserve relative asset URLs and the existing GitHub Pages publication job.
   base: "./",
   build: {
@@ -12,6 +10,8 @@ export default defineConfig({
     sourcemap: true,
   },
   test: {
+    // React 17's extensionless jsx-runtime import needs Vite resolution in Nivo ESM.
+    server: { deps: { inline: [/@nivo\//] } },
     environment: "jsdom",
     globals: true,
     setupFiles: ["./src/setupTests.ts"],

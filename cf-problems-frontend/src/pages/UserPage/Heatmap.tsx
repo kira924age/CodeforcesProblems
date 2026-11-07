@@ -1,14 +1,15 @@
 import React from "react";
 
 import { ResponsiveCalendar } from "@nivo/calendar";
+import type { CalendarDatum, CalendarTooltipProps } from "@nivo/calendar";
 import { Select } from "antd";
 import { useTheme } from "../../components/ThemeProvider";
 
 interface Props {
-  data: any[];
+  data: CalendarDatum[];
 }
 
-const Customtooltip = (x: any) => {
+const Customtooltip = (x: CalendarTooltipProps) => {
   return (
     <React.Fragment>
       {x.value ? (
@@ -31,7 +32,7 @@ const Customtooltip = (x: any) => {
 };
 
 interface CalendarProps {
-  data: any[];
+  data: CalendarDatum[];
   year: string;
 }
 
@@ -46,7 +47,7 @@ const MyResponsiveCalendar = (props: CalendarProps) => {
       emptyColor="#ebedf0"
       colors={["#C6E48B", "#7BC96F", "#239A3B", "#196127"]}
       minValue="auto"
-      theme={{ textColor: theme === "dark" ? "#fff" : "#333" }}
+      theme={{ text: { fill: theme === "dark" ? "#fff" : "#333" } }}
       margin={{ top: 5, right: 5, bottom: 5, left: 25 }}
       yearSpacing={45}
       dayBorderWidth={0.5}
@@ -70,44 +71,44 @@ const MyResponsiveCalendar = (props: CalendarProps) => {
 };
 
 const Heatmap: React.FunctionComponent<Props> = (props: Props) => {
-  const yearsSet: Set<string> = new Set();
-  props.data.forEach((x) => {
-    yearsSet.add(x.day.slice(0, 4));
-  });
-
-  let years: string[] = Array.from(yearsSet);
-  years.reverse();
-
-  const [selectYear, setSelectYear] = React.useState(years[0]);
-
-  React.useEffect(() => {}, []);
+  const years = [...new Set(props.data.map((x) => x.day.slice(0, 4)))]
+    .sort()
+    .reverse();
+  const [selectedYear, setSelectYear] = React.useState<string>();
+  const selectYear =
+    selectedYear && years.includes(selectedYear) ? selectedYear : years[0];
 
   return (
     <React.Fragment>
       <h3>Heatmap</h3>
       <hr />
 
-      <div style={{ height: 300, marginBottom: 50 }}>
-        <div style={{ textAlign: "right", paddingTop: "20px" }}>
-          {years.length > 0 && (
-            <Select
-              defaultValue="Choose year"
-              style={{ width: 150, textAlign: "left" }}
-              onChange={(value) => {
-                setSelectYear(value);
-              }}
-            >
-              {years.map((year: string) => (
-                <Select.Option value={year} key={year}>
-                  {year}
-                </Select.Option>
-              ))}
-            </Select>
-          )}
-        </div>
+      {selectYear ? (
+        <div style={{ height: 300, marginBottom: 50 }}>
+          <div style={{ textAlign: "right", paddingTop: "20px" }}>
+            {years.length > 0 && (
+              <Select
+                aria-label="Heatmap year"
+                value={selectYear}
+                style={{ width: 150, textAlign: "left" }}
+                onChange={(value) => {
+                  setSelectYear(value);
+                }}
+              >
+                {years.map((year: string) => (
+                  <Select.Option value={year} key={year}>
+                    {year}
+                  </Select.Option>
+                ))}
+              </Select>
+            )}
+          </div>
 
-        <MyResponsiveCalendar data={props.data} year={selectYear} />
-      </div>
+          <MyResponsiveCalendar data={props.data} year={selectYear} />
+        </div>
+      ) : (
+        <p>No submissions yet.</p>
+      )}
     </React.Fragment>
   );
 };

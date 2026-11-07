@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.8.3",
-    "@nivo/calendar": "^0.67.0",
-    "@nivo/core": "^0.67.0",
+    "@nivo/calendar": "0.99.0",
+    "@nivo/core": "0.99.0",
     "antd": "^4.24.16",
     "react": "^17.0.1",
     "react-collapse": "^5.1.0",
@@ -43,9 +43,6 @@
     "@types/react-router-dom": "^5.1.7",
     "@types/react-toggle": "^4.0.5",
     "sass": "^1.32.8"
-  },
-  "resolutions": {
-    "react-spring": "9.1.2"
   },
   "engines": {
     "node": ">=26 <27"

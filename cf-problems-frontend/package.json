@@ -6,15 +6,6 @@
     "@ant-design/icons": "^4.5.0",
     "@nivo/calendar": "^0.67.0",
     "@nivo/core": "^0.67.0",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/react": "^17.0.0",
-    "@types/react-collapse": "^5.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@types/react-helmet": "^6.1.0",
-    "@types/react-router": "^5.1.11",
-    "@types/react-router-dom": "^5.1.7",
-    "@types/react-toggle": "^4.0.2",
     "antd": "^4.16.6",
     "react": "^17.0.1",
     "react-collapse": "^5.1.0",
@@ -25,7 +16,6 @@
     "react-router-dom": "^5.2.0",
     "react-toggle": "^4.1.1",
     "recharts": "^2.0.8",
-    "sass": "^1.32.8",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -45,7 +35,16 @@
     "jsdom": "^27.0.0",
     "typescript": "~5.9.3",
     "@types/node": "^26.0.0",
-    "@testing-library/jest-dom": "^6.9.1"
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^11.1.0",
+    "@types/react": "^17.0.0",
+    "@types/react-collapse": "^5.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-helmet": "^6.1.0",
+    "@types/react-router": "^5.1.11",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-toggle": "^4.0.2",
+    "sass": "^1.32.8"
   },
   "resolutions": {
     "react-spring": "9.1.2"

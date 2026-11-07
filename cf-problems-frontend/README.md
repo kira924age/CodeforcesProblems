@@ -54,3 +54,17 @@ hosting and removal of tracked build artifacts are also separate changes.
 The Vite configuration uses `.mts` for ESM, while the application package keeps
 its original module classification for Babel-style CommonJS dependencies such
 as react-toggle. Nivo also requires the `globalThis` compatibility definition.
+
+## Achievement calculations
+
+Problem counts and the cumulative Climbing chart use each problem's first `OK`
+submission, identified by `contestId:index`. Later ACs never move its solve date.
+The previous month and year mean the previous **calendar** month and year, in the
+viewer's local timezone, rather than a rolling 30/365-day window.
+
+Activity days and streaks count days with at least one first AC. A day containing
+only repeat ACs does not count. Current Streak must include today (otherwise it
+is zero); Longest Streak is the longest run of these days, and Streak Sum is the
+number of distinct such days. Calendar days are compared without assuming each
+day is exactly 24 hours. Heatmap continues to count submissions, so it can show
+activity on days that do not count toward a first-AC streak.

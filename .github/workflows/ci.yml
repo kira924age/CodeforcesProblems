@@ -2,6 +2,7 @@ name: CI
 
 on:
   push:
+  pull_request:
 
 jobs:
   frontend_test:
@@ -10,18 +11,19 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16]
+        node-version: [26]
 
     steps:
-      - uses: actions/checkout@v3
-        with:
-          node-version: ${{ matrix.node-version }}
+      - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - name: install dependency
         run: npm ci
+        working-directory: ${{ github.workspace }}/cf-problems-frontend
+      - name: Run frontend tests
+        run: npm test
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: build React App
         run: npm run build

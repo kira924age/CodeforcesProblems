@@ -4,7 +4,7 @@ import { Alert } from "antd";
 const ErrorMessage: React.FunctionComponent = (props) => {
   return (
     <Alert
-      message="Failure to fetch submissions data. Codeforces is down now or you may mistyped."
+      title="Failure to fetch submissions data. Codeforces is down now or you may mistyped."
       type="error"
     />
   );

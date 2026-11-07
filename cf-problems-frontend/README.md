@@ -67,3 +67,21 @@ is zero); Longest Streak is the longest run of these days, and Streak Sum is the
 number of distinct such days. Calendar days are compared without assuming each
 day is exactly 24 hours. Heatmap continues to count submissions, so it can show
 activity on days that do not count toward a first-AC streak.
+
+## PR bundle-size reports
+
+PR CI builds the exact base commit and PR merge result using each version's own
+lockfile on Node.js 26. It compares uncompressed JS/CSS sizes, using Vite manifests
+to match chunks across hashed filenames. Source maps and images are excluded.
+
+Only changed files are shown. GitHub diff formatting displays reductions in
+green and increases in red, with base → PR sizes and signed size/percentage
+deltas. The total is shown only when it changes. If no file size changes, no
+comment is posted and an existing report comment is removed.
+
+The report is available in the CI summary and a `bundle-size` artifact for 7 days.
+Same-repository PRs receive one bot comment, updated on subsequent commits. The
+comment job does not check out or execute application code. Fork PRs receive the
+summary/artifact only because their tokens cannot post comments. Reports are
+informational and do not block merging. Sizes cover all generated chunks, not
+just the initial page transfer. No compressed sizes are measured.

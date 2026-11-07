@@ -4,6 +4,9 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   frontend_test:
     name: Run frontend tests
@@ -15,10 +18,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Test bundle measurement
+        run: node --test scripts/bundle-size.test.cjs
       - name: install dependency
         run: npm ci
         working-directory: ${{ github.workspace }}/cf-problems-frontend
@@ -26,6 +33,70 @@ jobs:
         run: npm test
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: build React App
-        run: npm run build
+        run: npm run build -- --manifest
         working-directory: ${{ github.workspace }}/cf-problems-frontend
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - name: Check out PR base for comparison
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: _base
+          persist-credentials: false
+      - name: Build base with its own locked dependencies
+        if: github.event_name == 'pull_request'
+        working-directory: _base/cf-problems-frontend
+        run: |
+          npm ci
+          npm run build -- --manifest
+      - name: Compare bundle sizes
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: node scripts/bundle-size.cjs _base/cf-problems-frontend/build cf-problems-frontend/build "$BASE_SHA" "$GITHUB_SHA" bundle-size.md
+      - name: Upload bundle report
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: bundle-size
+          path: bundle-size.md
+          retention-days: 7
+
+  bundle_comment:
+    name: Comment bundle size
+    needs: frontend_test
+    # Fork PRs still receive a report in the CI summary and artifact.
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      pull-requests: write
+    concurrency:
+      group: bundle-comment-${{ github.event.pull_request.number }}
+      cancel-in-progress: false
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: bundle-size
+      # This job never checks out or executes application code.
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('node:fs');
+            const body = fs.readFileSync('bundle-size.md', 'utf8');
+            if (Buffer.byteLength(body) > 20000 || !body.startsWith('<!-- codeforces-bundle-size -->')) {
+              throw new Error('Invalid bundle report');
+            }
+            const issue_number = context.payload.pull_request.number;
+            const { data: pr } = await github.rest.pulls.get({ ...context.repo, pull_number: issue_number });
+            if (pr.state !== 'open' || pr.head.sha !== context.payload.pull_request.head.sha) return;
+            const comments = await github.paginate(github.rest.issues.listComments, { ...context.repo, issue_number });
+            const previous = comments.find(c => c.user.login === 'github-actions[bot]' && c.body.startsWith('<!-- codeforces-bundle-size -->'));
+            if (body.includes('<!-- bundle-size-unchanged -->')) {
+              if (previous) await github.rest.issues.deleteComment({ ...context.repo, comment_id: previous.id });
+              return;
+            }
+            if (previous) {
+              await github.rest.issues.updateComment({ ...context.repo, comment_id: previous.id, body });
+            } else {
+              await github.rest.issues.createComment({ ...context.repo, issue_number, body });
+            }

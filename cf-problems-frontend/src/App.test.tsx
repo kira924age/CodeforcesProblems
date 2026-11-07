@@ -85,17 +85,17 @@ test("Enter pushes history and back/forward keeps the input in sync", async () =
   await act(async () => {
     window.history.back();
   });
-  await waitFor(() =>
-    expect(screen.getByText("Table: alice")).toBeInTheDocument()
-  );
-  expect(input()).toHaveValue("alice");
+  await waitFor(() => {
+    expect(screen.getByText("Table: alice")).toBeInTheDocument();
+    expect(input()).toHaveValue("alice");
+  });
   await act(async () => {
     window.history.forward();
   });
-  await waitFor(() =>
-    expect(screen.getByText("Table: bob")).toBeInTheDocument()
-  );
-  expect(input()).toHaveValue("bob");
+  await waitFor(() => {
+    expect(screen.getByText("Table: bob")).toBeInTheDocument();
+    expect(input()).toHaveValue("bob");
+  });
 });
 
 test("Table/User links replace history; Enter still pushes on User", async () => {

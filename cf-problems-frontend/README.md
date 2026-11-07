@@ -1,8 +1,7 @@
 # cf-problems-frontend
 
-The production React application uses Vite and Node.js 26 LTS.
-The sibling `codeforces-problems-frontend` directory is an unfinished prototype;
-it is not built or deployed by these workflows.
+This is the sole frontend application for the project. It is built and deployed
+by GitHub Actions and uses React, Vite, and Node.js 26 LTS.
 
 ## Development
 

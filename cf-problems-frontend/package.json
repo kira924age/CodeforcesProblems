@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "@ant-design/icons": "^4.8.3",
+    "@ant-design/icons": "^5.6.1",
     "@nivo/calendar": "0.99.0",
     "@nivo/core": "0.99.0",
-    "antd": "^4.24.16",
+    "antd": "^5.29.3",
     "react": "18.3.1",
     "react-collapse": "^5.1.0",
     "react-dom": "18.3.1",
@@ -26,22 +26,22 @@
     "test:watch": "vitest"
   },
   "devDependencies": {
-    "prettier": "2.8.8",
-    "vite": "8.3.6",
-    "@vitejs/plugin-react": "6.2.1",
-    "vitest": "5.1.0",
-    "jsdom": "^27.0.0",
-    "typescript": "~5.9.3",
-    "@types/node": "^26.0.0",
+    "@testing-library/dom": "^10.0.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.3",
+    "@types/node": "^26.0.0",
     "@types/react": "^18.3.31",
     "@types/react-collapse": "^5.0.4",
     "@types/react-dom": "^18.3.7",
     "@types/react-helmet": "^6.1.11",
     "@types/react-toggle": "^4.0.5",
+    "@vitejs/plugin-react": "6.2.1",
+    "jsdom": "^27.0.0",
+    "prettier": "2.8.8",
     "sass": "^1.32.8",
-    "@testing-library/dom": "^10.0.0"
+    "typescript": "~5.9.3",
+    "vite": "8.3.6",
+    "vitest": "5.1.0"
   },
   "engines": {
     "node": ">=26 <27"

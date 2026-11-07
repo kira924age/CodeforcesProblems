@@ -138,9 +138,4 @@ const TopcoderLikeCircle: React.FunctionComponent<Props> = (props) => {
   );
 };
 
-// default Props
-TopcoderLikeCircle.defaultProps = {
-  big: false,
-};
-
 export default TopcoderLikeCircle;

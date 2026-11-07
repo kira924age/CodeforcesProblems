@@ -1,8 +1,6 @@
 import React from "react";
 
-import Toggle from "react-toggle";
-
-import "react-toggle/style.css";
+import { Switch } from "antd";
 import "./ThemeToggler.css";
 
 import { ThemeContext, useTheme } from "../ThemeProvider";
@@ -12,20 +10,15 @@ const ThemeToggler = () => {
   const theme = useTheme();
 
   return (
-    <>
-      <div className="theme-toggler">
-        <Toggle
-          defaultChecked={theme === "dark"}
-          onChange={() => {
-            setThemeId(theme === "light" ? "dark" : "light");
-          }}
-          icons={{
-            checked: <span className="toggle-icon">🌜</span>,
-            unchecked: <span className="toggle-icon">🌞</span>,
-          }}
-        />
-      </div>
-    </>
+    <div className="theme-toggler">
+      <Switch
+        aria-label="Dark theme"
+        checked={theme === "dark"}
+        onChange={(checked) => setThemeId(checked ? "dark" : "light")}
+        checkedChildren="🌜"
+        unCheckedChildren="🌞"
+      />
+    </div>
   );
 };
 

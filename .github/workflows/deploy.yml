@@ -46,7 +46,9 @@ jobs:
       - name: Publish built files
         working-directory: .
         run: |
-          rsync -a --delete --exclude='.git' cf-problems-frontend/build/ _pages/
+          # Checkout and build can give different HTML the same size and mtime.
+          # Compare content so the entry point always references the new bundle.
+          rsync -ac --delete --exclude='.git' cf-problems-frontend/build/ _pages/
           touch _pages/.nojekyll
           git -C _pages config user.name actions-user
           git -C _pages config user.email action@github.com

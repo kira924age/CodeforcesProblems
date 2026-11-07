@@ -21,7 +21,10 @@ const colProps = {
 };
 
 const badge = (
-  <Tooltip title="Each achievement is based on Local Time." color="black">
+  <Tooltip
+    title="Counts and streaks use the first AC of each problem in your local time. Repeat ACs do not count. Previous month/year means the previous calendar month/year. Current Streak includes today; it is zero until you first solve a new problem today."
+    color="black"
+  >
     <span>
       <Badge
         title=""
@@ -44,11 +47,11 @@ const Achievement: React.FunctionComponent<Props> = (props: Props) => {
           <h4>{props.solvedCountAll} problems</h4>
         </Col>
         <Col {...colProps} key="solved-year" className="achievement-item">
-          <h6>solved for the last year</h6>
+          <h6>solved in the previous calendar year</h6>
           <h4>{props.solvedCountLastYear} problems</h4>
         </Col>
         <Col {...colProps} key="solved-month" className="achievement-item">
-          <h6>solved for the last month</h6>
+          <h6>solved in the previous calendar month</h6>
           <h4>{props.solvedCountLastMonth} problems</h4>
         </Col>
       </Row>

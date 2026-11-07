@@ -1,4 +1,4 @@
-import { formatDate } from "../../utils/formatDate";
+import { firstAcceptedSubmissions } from "./firstAcceptedSubmissions";
 
 export const fetchUserSubmission = async (url: string): Promise<any> => {
   let submission: any[] = [];
@@ -25,89 +25,52 @@ export const fetchUserSubmission = async (url: string): Promise<any> => {
   return submission;
 };
 
-export const makeAchievementData = (submission: any[]) => {
-  let isSolved = new Map();
-  let isSolvedDay = new Map();
-  const today = new Date();
-  const year = today.getFullYear();
-  const month = today.getMonth();
+// UTC is used only to number local calendar dates, avoiding 23/25-hour DST days.
+const localDayNumber = (date: Date): number =>
+  Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / 86400000;
 
-  let cntSolveLastYear = 0;
-  let cntSolveLastMonth = 0;
+export const makeAchievementData = (submission: any[], now = new Date()) => {
+  const firstAccepted = firstAcceptedSubmissions(submission);
+  const year = now.getFullYear();
+  const month = now.getMonth();
+  const monthStart = new Date(year, month, 1).getTime();
+  const previousMonthStart = new Date(year, month - 1, 1).getTime();
+  const yearStart = new Date(year, 0, 1).getTime();
+  const previousYearStart = new Date(year - 1, 0, 1).getTime();
+  let solvedCountLastMonth = 0;
+  let solvedCountLastYear = 0;
+  const solvedDays = new Set<number>();
 
-  let uniqDaySubmissions: number[] = [];
-  submission.forEach((x) => {
-    if (x.verdict !== "OK") {
-      return;
-    }
-    const time = new Date(x.creationTimeSeconds * 1000);
-    const problemId =
-      String(x.problem.contestId) + ":" + String(x.problem.index);
-
-    if (isSolved.get(problemId) === undefined) {
-      if (month === 1) {
-        if (time.getMonth() === 12 && time.getFullYear() === year - 1) {
-          cntSolveLastMonth++;
-        }
-      } else {
-        if (time.getMonth() === month - 1 && time.getFullYear() === year) {
-          cntSolveLastMonth++;
-        }
-      }
-      if (time.getFullYear() === year - 1) {
-        cntSolveLastYear++;
-      }
-      isSolved.set(problemId, true);
-
-      const formatted = formatDate(time.getTime() / 1000);
-      if (isSolvedDay.get(formatted) === undefined) {
-        isSolvedDay.set(formatted, true);
-        uniqDaySubmissions.push(x.creationTimeSeconds);
-      }
-    }
-  });
-  let cntCurrentStreak = 0;
-  let tmpTime = today;
-  for (let i = 0; i < uniqDaySubmissions.length; i++) {
-    const x = uniqDaySubmissions[i];
-    const e = formatDate(x);
-
-    if (formatDate(tmpTime.getTime() / 1000) === e) {
-      cntCurrentStreak++;
-    } else {
-      break;
-    }
-    tmpTime = new Date(tmpTime.getTime() - 24 * 3600 * 1000);
+  for (const accepted of firstAccepted) {
+    const timestamp = accepted.creationTimeSeconds * 1000;
+    if (timestamp >= previousMonthStart && timestamp < monthStart)
+      solvedCountLastMonth++;
+    if (timestamp >= previousYearStart && timestamp < yearStart)
+      solvedCountLastYear++;
+    solvedDays.add(localDayNumber(new Date(timestamp)));
   }
 
-  uniqDaySubmissions.reverse();
-
-  let cntLongestStreak = 0;
-  let tmp = 0;
-  for (let i = 0; i < uniqDaySubmissions.length; i++) {
-    if (i === 0) {
-      cntLongestStreak = 1;
-      tmp = 1;
-      continue;
-    }
-    const lastTime: string = formatDate(uniqDaySubmissions[i] - 24 * 3600);
-    const prevTime: string = formatDate(uniqDaySubmissions[i - 1]);
-
-    if (lastTime === prevTime) {
-      tmp++;
-    } else {
-      tmp = 1;
-    }
-    cntLongestStreak = Math.max(cntLongestStreak, tmp);
+  const days = [...solvedDays].sort((a, b) => a - b);
+  let longestStreak = 0;
+  let streak = 0;
+  days.forEach((day, index) => {
+    streak = index > 0 && day === days[index - 1] + 1 ? streak + 1 : 1;
+    longestStreak = Math.max(longestStreak, streak);
+  });
+  let currentStreak = 0;
+  let day = localDayNumber(now);
+  while (solvedDays.has(day)) {
+    currentStreak++;
+    day--;
   }
 
   return {
-    submission: submission,
-    solvedCountAll: isSolved.size,
-    solvedCountLastYear: cntSolveLastYear,
-    solvedCountLastMonth: cntSolveLastMonth,
-    longestStreak: cntLongestStreak,
-    currentStreak: cntCurrentStreak,
-    streakSum: isSolvedDay.size,
+    submission,
+    solvedCountAll: firstAccepted.length,
+    solvedCountLastYear,
+    solvedCountLastMonth,
+    longestStreak,
+    currentStreak,
+    streakSum: solvedDays.size,
   };
 };

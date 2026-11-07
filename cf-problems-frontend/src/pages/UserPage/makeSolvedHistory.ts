@@ -1,3 +1,4 @@
+import { firstAcceptedSubmissions } from "./firstAcceptedSubmissions";
 import { getRatingColor } from "../../utils/colors";
 
 function formatDate(dateSecond: number): string {
@@ -21,25 +22,7 @@ export const makeSolvedHistory = (submission: any[]) => {
 
   let solvedHistory: any[] = [];
 
-  let isSolved = new Map();
-  const revSubmission: any[] = submission.slice().reverse();
-
-  let newRevSubmission = [] as any[];
-  revSubmission.forEach((x) => {
-    if (x.verdict !== "OK") {
-      return;
-    }
-
-    const p = x.problem;
-    const problemId = String(p.contestId) + ":" + String(p.index);
-
-    if (isSolved.get(problemId)) {
-      return;
-    }
-
-    isSolved.set(problemId, true);
-    newRevSubmission.push(x);
-  });
+  const newRevSubmission = firstAcceptedSubmissions(submission);
 
   const numSubmission: number = newRevSubmission.length;
 

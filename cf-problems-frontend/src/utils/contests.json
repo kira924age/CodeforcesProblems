@@ -1,5 +1,176 @@
 [
  {
+  "id": 2279,
+  "type": "Div1",
+  "name": "Codeforces Round 1133 (Div. 1)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Reverse and Double"
+   },
+   {
+    "index": "B",
+    "name": "Balanced Subsets"
+   },
+   {
+    "index": "C",
+    "name": "Anti-Productive"
+   },
+   {
+    "index": "D",
+    "name": "Meta Graph"
+   },
+   {
+    "index": "E",
+    "name": "Save Me!"
+   },
+   {
+    "index": "F",
+    "name": "The Stones of Nim"
+   }
+  ]
+ },
+ {
+  "id": 2280,
+  "type": "Div2",
+  "name": "Codeforces Round 1133 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Are They the Same?"
+   },
+   {
+    "index": "B",
+    "name": "Secret String Patterns"
+   },
+   {
+    "index": "C",
+    "name": "Reverse and Double"
+   },
+   {
+    "index": "D",
+    "name": "Balanced Subsets"
+   },
+   {
+    "index": "E",
+    "name": "Anti-Productive"
+   },
+   {
+    "index": "F",
+    "name": "Meta Graph"
+   }
+  ]
+ },
+ {
+  "id": 2284,
+  "type": "Div2",
+  "name": "Codeforces Round 1132 (Div. 2)",
+  "problems": [
+   {
+    "index": "A1",
+    "name": "15K4JR3B (Easy Version)"
+   },
+   {
+    "index": "A2",
+    "name": "15K4JR3B (Hard Version)"
+   },
+   {
+    "index": "B",
+    "name": "Introduction to the Niche Internet"
+   },
+   {
+    "index": "C1",
+    "name": "Disgusting + GCD (Constructive Version)"
+   },
+   {
+    "index": "C2",
+    "name": "Disgusting + GCD (Checker Version)"
+   },
+   {
+    "index": "D",
+    "name": "The Theorem of Two Cans"
+   },
+   {
+    "index": "E",
+    "name": "My Mind Is Going"
+   },
+   {
+    "index": "F",
+    "name": "Fun Times"
+   }
+  ]
+ },
+ {
+  "id": 2283,
+  "type": "Educational",
+  "name": "Educational Codeforces Round 196 (Rated for Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Numbers on the Board"
+   },
+   {
+    "index": "B",
+    "name": "Rhythmic String"
+   },
+   {
+    "index": "C",
+    "name": "Big XOR"
+   },
+   {
+    "index": "D",
+    "name": "Black, Gray and White"
+   },
+   {
+    "index": "E",
+    "name": "Partition of a Binary String"
+   },
+   {
+    "index": "F",
+    "name": "Minimize the Graph"
+   },
+   {
+    "index": "G",
+    "name": "Order Statistics on the Graph"
+   }
+  ]
+ },
+ {
+  "id": 2278,
+  "type": "Div3",
+  "name": "Codeforces Round 1131 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Fraction and Six"
+   },
+   {
+    "index": "B",
+    "name": "Stakes and Shapes"
+   },
+   {
+    "index": "C",
+    "name": "Math and Physics"
+   },
+   {
+    "index": "D",
+    "name": "Lock and Unlock"
+   },
+   {
+    "index": "E",
+    "name": "Swap and Negate"
+   },
+   {
+    "index": "F",
+    "name": "Modulo and Counting"
+   },
+   {
+    "index": "G",
+    "name": "0s and 1s"
+   }
+  ]
+ },
+ {
   "id": 2272,
   "type": "Div2",
   "name": "Codeforces Round 1130 (Div. 2)",

@@ -11,10 +11,11 @@
     "react-collapse": "^5.1.0",
     "react-dom": "18.3.1",
     "react-helmet": "^6.1.0",
+    "react-is": "^18.3.1",
     "react-router": "7.18.5",
     "react-router-dom": "7.18.5",
     "react-toggle": "^4.1.1",
-    "recharts": "^2.15.4"
+    "recharts": "^3.10.1"
   },
   "scripts": {
     "start": "vite",

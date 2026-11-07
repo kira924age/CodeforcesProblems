@@ -1,24 +1,32 @@
-import { RatingColor, getRatingColorCode } from "../../utils/colors";
+import type { TooltipContentProps } from "recharts";
+import { ratingColors, getRatingColorCode } from "../../utils/colors";
 
 import { formatDate } from "../../utils/formatDate";
 
-interface DailyEffortTooltipPayload {
-  value: number;
-  dataKey: RatingColor;
-}
-
-interface CustomTooltipProps {
-  active?: boolean;
-  payload?: DailyEffortTooltipPayload[];
-  label: number;
-}
+type CustomTooltipProps = Pick<
+  TooltipContentProps<number, string>,
+  "active" | "payload" | "label"
+>;
 
 export const CustomTooltip: React.FunctionComponent<CustomTooltipProps> = (
   props
 ) => {
-  if (!props.active || props.payload === undefined) return null;
+  const dateSecond = Number(props.label);
+  if (!props.active || !props.payload.length || !Number.isFinite(dateSecond)) {
+    return null;
+  }
 
-  const dateSecond = props.label;
+  // Keep the stack order regardless of Recharts' payload sorting defaults.
+  const entries = ratingColors
+    .slice()
+    .reverse()
+    .map((color) => {
+      const name = color === "Black" ? "Other" : color;
+      const value = props.payload.find(
+        (entry) => entry.dataKey === name
+      )?.value;
+      return { name, color, value: typeof value === "number" ? value : 0 };
+    });
 
   return (
     <div
@@ -27,6 +35,7 @@ export const CustomTooltip: React.FunctionComponent<CustomTooltipProps> = (
         margin: "0px",
         padding: "10px",
         backgroundColor: "rgb(255, 255, 255)",
+        color: "#333",
         border: "1px solid rgb(204, 204, 204)",
         whiteSpace: "nowrap",
       }}
@@ -51,11 +60,7 @@ export const CustomTooltip: React.FunctionComponent<CustomTooltipProps> = (
           <span className="recharts-tooltip-item-name">count</span>
           <span className="recharts-tooltip-item-separator"> : </span>
           <span className="recharts-tooltip-item-value">
-            {props.payload?.reduce(
-              (acc: number, entry: DailyEffortTooltipPayload) =>
-                acc + entry.value,
-              0
-            ) ?? 0}
+            {entries.reduce((total, entry) => total + entry.value, 0)}
           </span>
         </li>
       </ul>
@@ -63,23 +68,19 @@ export const CustomTooltip: React.FunctionComponent<CustomTooltipProps> = (
       <hr style={{ marginTop: "0.3em", marginBottom: "0.3em" }} />
 
       <div>
-        {props.payload &&
-          props.payload
-            .slice()
-            .reverse()
-            .map((entry: DailyEffortTooltipPayload) => {
-              if (entry.value <= 0) return null;
-              return (
-                <div
-                  key={entry.dataKey}
-                  style={{ color: getRatingColorCode(entry.dataKey) }}
-                >
-                  {entry.dataKey === "Black" ? "Other" : entry.dataKey}
-                  {" : "}
-                  {entry.value}
-                </div>
-              );
-            })}
+        {entries.map((entry) => {
+          if (entry.value <= 0) return null;
+          return (
+            <div
+              key={entry.name}
+              style={{ color: getRatingColorCode(entry.color) }}
+            >
+              {entry.name}
+              {" : "}
+              {entry.value}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

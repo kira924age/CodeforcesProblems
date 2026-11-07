@@ -74,9 +74,9 @@ PR CI builds the exact base commit and PR merge result using each version's own
 lockfile on Node.js 26. It compares uncompressed JS/CSS sizes, using Vite manifests
 to match chunks across hashed filenames. Source maps and images are excluded.
 
-Only changed files are shown. GitHub diff formatting displays reductions in
-green and increases in red, with base → PR sizes and signed size/percentage
-deltas. The total is shown only when it changes. If no file size changes, no
+Only changed files are shown in a table with explanatory text and separate
+base/PR size columns. Only signed size/percentage deltas are colored: green for
+reductions and red for increases, using GitHub inline MathJax formatting. The total is shown only when it changes. If no file size changes, no
 comment is posted and an existing report comment is removed.
 
 The report is available in the CI summary and a `bundle-size` artifact for 7 days.

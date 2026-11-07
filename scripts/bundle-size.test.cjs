@@ -31,11 +31,15 @@ test('shows only changed files; reductions are green and growth is red', () => {
   const base = { 'main.js': { raw: 2048 }, 'removed.js': { raw: 1024 }, 'same.css': { raw: 10 } };
   const next = { 'main.js': { raw: 1024 }, 'new.js': { raw: 512 }, 'same.css': { raw: 10 } };
   const text = render(base, next, 'base', 'head');
-  assert.ok(text.includes('+ main.js:'));
-  assert.ok(text.includes('- new.js:'));
-  assert.ok(text.includes('+ removed.js:'));
-  assert.ok(text.includes('-1.00 KiB, -50.00%'));
-  assert.ok(text.includes(', new)'));
+  assert.ok(text.includes('| main.js |'));
+  assert.ok(text.includes(String.raw`\textcolor{green}{-1.00`));
+  assert.ok(text.includes('| new.js |'));
+  assert.ok(text.includes(String.raw`\textcolor{red}{+0.50`));
+  assert.ok(text.includes('| removed.js |'));
+  assert.ok(text.includes(String.raw`\textcolor{green}{-50.00\%}`));
+  assert.ok(text.includes(' | — |'));
+  assert.ok(text.includes('| 変更前（base） |'));
+  assert.ok(!text.includes('```diff'));
   assert.ok(!text.includes('same.css'));
   assert.ok(!text.includes('削減') && !text.includes('増加'));
   assert.ok(!text.includes('gzip') && !text.includes('brotli'));
@@ -51,5 +55,5 @@ test('marks identical sizes for comment removal, despite changed hashes', () => 
 test('omits unchanged total when file increases and reductions cancel out', () => {
   const text = render({a:{raw:100}, b:{raw:200}}, {a:{raw:200}, b:{raw:100}}, 'base', 'head');
   assert.ok(!text.includes('合計'));
-  assert.ok(text.includes('- a:') && text.includes('+ b:'));
+  assert.ok(text.includes('| a |') && text.includes('| b |'));
 });

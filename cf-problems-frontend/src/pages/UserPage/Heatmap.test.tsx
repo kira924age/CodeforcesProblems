@@ -40,10 +40,7 @@ test("defaults to the latest year and updates the real calendar when selecting a
     screen.getByText("2026", { selector: "svg text" })
   ).toBeInTheDocument();
   fireEvent.mouseDown(
-    screen
-      .getByRole("combobox", { name: "Heatmap year" })
-      .closest(".ant-select")!
-      .querySelector(".ant-select-selector")!
+    screen.getByRole("combobox", { name: "Heatmap year" })
   );
   fireEvent.click(
     await screen.findByText("2025", {

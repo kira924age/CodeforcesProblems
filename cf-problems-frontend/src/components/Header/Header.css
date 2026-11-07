@@ -17,15 +17,7 @@ button {
   margin-left: 4px;
 }
 
-#collapse {
-  background-color: #161b22;
-  width: 100%;
-  overflow: hidden;
-  align-items: center;
-  display: flex;
-}
-
-.collapse-isOpen-true {
+.mobile-menu {
   background-color: #161b22;
   width: 100%;
   height: 56px;
@@ -35,23 +27,7 @@ button {
 }
 
 @media only screen and (min-width: 575px) {
-  .collapse-isOpen-true {
+  .mobile-menu {
     display: none;
   }
-}
-
-.collapse-isOpen-false {
-  padding-top: 0px;
-  background-color: #161b22;
-  width: 100%;
-  align-items: center;
-  display: flex;
-}
-
-#collapse input {
-  padding: 0;
-  margin: 0;
-  max-width: 200px;
-  flex: auto;
-  align-items: center;
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import { ConfigProvider, theme } from "antd";
-import { Helmet } from "react-helmet";
 import { useLocalStorage } from "../utils/localStorage";
 
 type ThemeId = "light" | "dark" | "purple";
@@ -22,12 +21,21 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = (
 ) => {
   const [themeId, setThemeId] = useLocalStorage<string>("theme", "light");
 
+  React.useLayoutEffect(() => {
+    const { classList } = document.documentElement;
+    const previousThemes = Array.from(classList).filter((name) =>
+      name.startsWith("theme-")
+    );
+    classList.remove(...previousThemes);
+    classList.add(`theme-${themeId}`);
+    return () => {
+      classList.remove(`theme-${themeId}`);
+      classList.add(...previousThemes);
+    };
+  }, [themeId]);
+
   return (
     <ThemeContext.Provider value={[themeId, setThemeId]}>
-      <Helmet>
-        <html className={`theme-${themeId}`} />
-      </Helmet>
-
       <ConfigProvider
         theme={{
           algorithm:

@@ -6,8 +6,6 @@ import { Row, Col } from "antd";
 import { Input, Button } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 
-import { Collapse } from "react-collapse";
-
 import "./Header.css";
 import "./InputBox.css";
 
@@ -65,10 +63,6 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
     setIsOpen(!isOpen);
   };
 
-  let collapseId: string = isOpen
-    ? "collapse-isOpen-true"
-    : "collapse-isOpen-false";
-
   return (
     <div id="header">
       <Row style={{ flexFlow: "nowrap", height: 56 }}>
@@ -100,13 +94,11 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
           <ThemeToggler />
         </Col>
         <Col {...colProps[2]}>
-          <div onClick={() => toggleIsOpen()}>
-            <Hamburger />
-          </div>
+          <Hamburger isOpen={isOpen} onToggle={toggleIsOpen} />
         </Col>
       </Row>
-      <Collapse isOpened={isOpen}>
-        <div className={collapseId}>
+      {isOpen && (
+        <div id="mobile-menu" className="mobile-menu">
           <div id="input-box">
             <Input
               placeholder="Codeforces ID"
@@ -129,7 +121,7 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
           </div>
           <ThemeToggler />
         </div>
-      </Collapse>
+      )}
     </div>
   );
 };

@@ -10,4 +10,7 @@
   height: auto;
   border:0;
   cursor: pointer;
+  background: transparent;
+  padding-top: 0;
+  padding-bottom: 0;
 }

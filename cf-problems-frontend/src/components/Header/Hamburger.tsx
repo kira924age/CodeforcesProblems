@@ -3,11 +3,23 @@ import { MenuOutlined } from "@ant-design/icons";
 
 import "./Hamburger.css";
 
-const Hamburger: React.FunctionComponent = (props) => {
+interface Props {
+  isOpen: boolean;
+  onToggle: () => void;
+}
+
+const Hamburger: React.FunctionComponent<Props> = ({ isOpen, onToggle }) => {
   return (
-    <div id="hamburger-btn">
+    <button
+      id="hamburger-btn"
+      type="button"
+      aria-label="Toggle navigation"
+      aria-expanded={isOpen}
+      aria-controls="mobile-menu"
+      onClick={onToggle}
+    >
       <MenuOutlined />
-    </div>
+    </button>
   );
 };
 

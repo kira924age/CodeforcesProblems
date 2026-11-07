@@ -10,8 +10,6 @@ export default defineConfig({
     sourcemap: true,
   },
   test: {
-    // React 17's extensionless jsx-runtime import needs Vite resolution in Nivo ESM.
-    server: { deps: { inline: [/@nivo\//] } },
     environment: "jsdom",
     globals: true,
     setupFiles: ["./src/setupTests.ts"],

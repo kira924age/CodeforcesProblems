@@ -91,16 +91,11 @@ const Heatmap: React.FunctionComponent<Props> = (props: Props) => {
                 aria-label="Heatmap year"
                 value={selectYear}
                 style={{ width: 150, textAlign: "left" }}
+                options={years.map((year) => ({ value: year, label: year }))}
                 onChange={(value) => {
                   setSelectYear(value);
                 }}
-              >
-                {years.map((year: string) => (
-                  <Select.Option value={year} key={year}>
-                    {year}
-                  </Select.Option>
-                ))}
-              </Select>
+              />
             )}
           </div>
 

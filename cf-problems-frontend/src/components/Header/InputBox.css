@@ -17,6 +17,11 @@
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   background: white;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+#input-box input::placeholder {
+  color: #757575;
 }
 
 #input-box button {

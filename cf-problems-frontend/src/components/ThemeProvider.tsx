@@ -1,4 +1,5 @@
 import React from "react";
+import { ConfigProvider, theme } from "antd";
 import { Helmet } from "react-helmet";
 import { useLocalStorage } from "../utils/localStorage";
 
@@ -27,7 +28,15 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = (
         <html className={`theme-${themeId}`} />
       </Helmet>
 
-      {props.children}
+      <ConfigProvider
+        theme={{
+          algorithm:
+            themeId === "dark" ? theme.darkAlgorithm : theme.defaultAlgorithm,
+          token: { borderRadius: 2, colorPrimary: "#1890ff" },
+        }}
+      >
+        {props.children}
+      </ConfigProvider>
     </ThemeContext.Provider>
   );
 };

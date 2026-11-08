@@ -5,9 +5,8 @@ import { ThemeContext } from "../../components/ThemeProvider";
 
 // Supply fixed dimensions in jsdom, but render the actual Nivo Calendar.
 vi.mock("@nivo/calendar", async () => {
-  const actual = await vi.importActual<typeof import("@nivo/calendar")>(
-    "@nivo/calendar"
-  );
+  const actual =
+    await vi.importActual<typeof import("@nivo/calendar")>("@nivo/calendar");
   return {
     ...actual,
     ResponsiveCalendar: (
@@ -35,13 +34,11 @@ test("handles an empty submission history without rendering an invalid date rang
 });
 
 test("defaults to the latest year and updates the real calendar when selecting another year", async () => {
-  const { container } = render(<Heatmap data={data} />);
+  render(<Heatmap data={data} />);
   expect(
     screen.getByText("2026", { selector: "svg text" })
   ).toBeInTheDocument();
-  fireEvent.mouseDown(
-    screen.getByRole("combobox", { name: "Heatmap year" })
-  );
+  fireEvent.mouseDown(screen.getByRole("combobox", { name: "Heatmap year" }));
   fireEvent.click(
     await screen.findByText("2025", {
       selector: ".ant-select-item-option-content",
@@ -67,7 +64,7 @@ test.each([
 });
 
 test("uses a valid year after the user history changes", () => {
-  const { container, rerender } = render(<Heatmap data={data} />);
+  const { rerender } = render(<Heatmap data={data} />);
   rerender(<Heatmap data={[{ day: "2024-01-02", value: 1 }]} />);
   expect(
     screen.getByText("2024", { selector: "svg text" })

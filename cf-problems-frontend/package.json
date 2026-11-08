@@ -15,13 +15,16 @@
     "recharts": "^3.10.1"
   },
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
+    "dev": "vp dev",
     "typecheck": "tsc --noEmit",
-    "build": "npm run typecheck && vite build",
-    "preview": "vite preview",
-    "test": "vitest run",
-    "test:watch": "vitest"
+    "build": "npm run typecheck && vp build",
+    "preview": "vp preview",
+    "test": "vp test run",
+    "test:watch": "vp test",
+    "format": "vp fmt",
+    "format:check": "vp fmt --check",
+    "lint": "vp lint --max-warnings=0",
+    "lint:fix": "vp lint --fix --max-warnings=0"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.0.0",
@@ -32,13 +35,16 @@
     "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "6.2.1",
     "jsdom": "^27.0.0",
-    "prettier": "2.8.8",
     "sass": "^1.32.8",
     "typescript": "~5.9.3",
-    "vite": "8.3.6",
-    "vitest": "5.1.0"
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.5.0",
+    "vite-plus": "1.5.0"
   },
   "engines": {
     "node": ">=26 <27"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.5.0",
+    "vitest": "5.1.0"
   }
 }

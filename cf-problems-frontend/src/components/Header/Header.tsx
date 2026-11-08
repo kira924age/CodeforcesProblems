@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggler";
 import { Row, Col } from "antd";
 import { Input, Button } from "antd";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router";
 
 import "./Header.css";
 import "./InputBox.css";

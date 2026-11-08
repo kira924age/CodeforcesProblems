@@ -6,7 +6,7 @@ import {
   screen,
   within,
 } from "@testing-library/react";
-import { HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router";
 import Header from "./Header";
 import ThemeProvider from "../ThemeProvider";
 

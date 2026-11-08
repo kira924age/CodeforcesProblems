@@ -1,5 +1,6 @@
 import React from "react";
-import { Empty, Pagination, theme } from "antd";
+import { Pagination, theme } from "antd";
+import EmptyState from "../../components/feedback/EmptyState";
 import "./ContestTable.css";
 
 import {
@@ -119,7 +120,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
             {contestTable.length === 0 && (
               <tr className="contest-table-empty">
                 <td colSpan={columns.length}>
-                  <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
+                  <EmptyState />
                 </td>
               </tr>
             )}

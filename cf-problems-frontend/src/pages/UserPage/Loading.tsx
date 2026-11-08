@@ -1,8 +1,8 @@
 import React from "react";
-import { Spin } from "antd";
+import LoadingIndicator from "../../components/feedback/LoadingIndicator";
 
 const Loading: React.FunctionComponent = () => {
-  return <Spin size="large" />;
+  return <LoadingIndicator />;
 };
 
 export default Loading;

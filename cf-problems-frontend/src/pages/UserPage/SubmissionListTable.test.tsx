@@ -133,9 +133,7 @@ test("clamps the current page when data shrinks, and hides pagination for an emp
     within(rows()[1]).getByRole("link", { name: "A. Problem 11" })
   ).toBeInTheDocument();
   rerender(<SubmissionListTable submission={[]} />);
-  expect(
-    screen.getByText("No data", { selector: ".ant-empty-description" })
-  ).toBeInTheDocument();
+  expect(screen.getByText("No data")).toBeInTheDocument();
   expect(screen.getAllByRole("columnheader")).toHaveLength(5);
   expect(
     screen.queryByRole("button", { name: "Next Page" })

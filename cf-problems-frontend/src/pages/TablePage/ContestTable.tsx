@@ -89,7 +89,9 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
 
   return (
     <React.Fragment>
-      <h2 id="contest-heading">{props.name}</h2>
+      <h2 id="contest-heading" className="contest-heading">
+        {props.name}
+      </h2>
       {isFetchFailure && <ErrorMessage />}
       <div className="contest-table-scroll">
         <table

@@ -45,16 +45,16 @@
 }
 
 :where(.submission-table) a {
-  color: var(--submission-link-color);
+  color: var(--table-link-color);
   text-decoration: none;
 }
 
 :where(.submission-table) a:hover {
-  color: var(--submission-link-hover-color);
+  color: var(--table-link-hover-color);
 }
 
 :where(.submission-table) a:active {
-  color: var(--submission-link-active-color);
+  color: var(--table-link-active-color);
 }
 
 .submission-table th:last-child,

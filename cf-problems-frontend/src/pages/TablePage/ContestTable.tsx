@@ -1,5 +1,4 @@
 import React from "react";
-import { theme } from "antd";
 import Pagination from "../../components/ui/Pagination";
 import EmptyState from "../../components/feedback/EmptyState";
 import "./ContestTable.css";
@@ -27,12 +26,6 @@ interface ContestTableProps {
 }
 
 const ContestTable: React.FC<ContestTableProps> = (props) => {
-  const { token } = theme.useToken();
-  const tableStyle = {
-    "--contest-link-color": token.colorLink,
-    "--contest-link-hover-color": token.colorLinkHover,
-    "--contest-link-active-color": token.colorLinkActive,
-  } as React.CSSProperties;
   const [page, setPage] = React.useState(1);
   const [isFetchFailure, setIsFetchFailure] = React.useState(false);
   const [submissions, setSubmissions] = React.useState(new Map());
@@ -96,11 +89,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       </h2>
       {isFetchFailure && <ErrorMessage />}
       <div className="contest-table-scroll">
-        <table
-          className="contest-table"
-          aria-labelledby="contest-heading"
-          style={tableStyle}
-        >
+        <table className="contest-table" aria-labelledby="contest-heading">
           <thead>
             <tr>
               {columns.map((column) => (

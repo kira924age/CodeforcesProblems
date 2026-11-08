@@ -1,5 +1,4 @@
 import React from "react";
-import { theme } from "antd";
 import Pagination from "../../components/ui/Pagination";
 import EmptyState from "../../components/feedback/EmptyState";
 import DifficultyCircle from "../../components/DifficultyCircle";
@@ -47,12 +46,6 @@ const Verdict = ({ verdict }: { verdict?: string }) => {
 const SubmissionListTable: React.FunctionComponent<Props> = ({
   submission,
 }) => {
-  const { token } = theme.useToken();
-  const tableStyle = {
-    "--submission-link-color": token.colorLink,
-    "--submission-link-hover-color": token.colorLinkHover,
-    "--submission-link-active-color": token.colorLinkActive,
-  } as React.CSSProperties;
   const [pagination, setPagination] = React.useState({
     current: 1,
     pageSize: 10,
@@ -77,7 +70,6 @@ const SubmissionListTable: React.FunctionComponent<Props> = ({
         <table
           className="submission-table"
           aria-labelledby="submissions-heading"
-          style={tableStyle}
         >
           <thead>
             <tr>

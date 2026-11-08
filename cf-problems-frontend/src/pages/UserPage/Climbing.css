@@ -1,0 +1,82 @@
+.climbing-chart {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.climbing-svg {
+  display: block;
+  touch-action: pan-y;
+}
+.climbing-svg:focus-visible {
+  outline: 2px solid #1677ff;
+  outline-offset: 2px;
+}
+.climbing-axis {
+  fill: #666;
+  font-size: 16px;
+}
+.climbing-grid {
+  stroke: #ccc;
+  stroke-dasharray: 3 3;
+}
+.climbing-axis-line {
+  fill: none;
+  stroke: #666;
+}
+.climbing-cursor {
+  stroke: #666;
+  stroke-dasharray: 3 3;
+  pointer-events: none;
+}
+.climbing-tooltip-position {
+  position: absolute;
+  top: 12px;
+  width: 210px;
+  max-width: calc(100% - 16px);
+  pointer-events: none;
+  z-index: 1;
+}
+.climbing-tooltip {
+  padding: 10px;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.climbing-tooltip p {
+  margin: 0;
+}
+.climbing-tooltip-total {
+  padding: 4px 0;
+  color: #8884d8;
+}
+.climbing-tooltip hr {
+  margin: 0.3em 0;
+}
+.climbing-empty {
+  position: absolute;
+  top: 40%;
+  left: 80px;
+  right: 30px;
+  text-align: center;
+}
+.climbing-instructions {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.theme-dark .climbing-axis {
+  fill: #c9d1d9;
+}
+.theme-dark .climbing-axis-line,
+.theme-dark .climbing-cursor {
+  stroke: #c9d1d9;
+}
+.theme-dark .climbing-grid {
+  stroke: #484848;
+}

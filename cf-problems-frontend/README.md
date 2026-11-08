@@ -153,3 +153,12 @@ Pagination. Contest cells are generated only for the visible page. The final
 JS/CSS output decreased by 206,410 bytes (201.57 KiB, 8.67%) compared with both
 Ant Tables. See the [measurement and verification report](../docs/native-table-bundle-report.md)
 for commit-by-commit sizes, analyzer attribution, behavior checks, and reproduction steps.
+
+## Climbing chart
+
+Climbing uses a responsive SVG stacked area chart without a charting dependency.
+The first-AC history, difficulty colors, stack order, and tooltip counts are unchanged.
+Hover or tap to inspect a date. Focus the chart and use Left/Right to move between
+history points, Home/End to jump to the first/last point, and Escape to dismiss
+the tooltip. Empty and single-point histories are supported. Chart geometry is
+cached between pointer updates and recalculated when data or container width changes.

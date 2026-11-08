@@ -173,3 +173,9 @@ replacement, while Enter in the username input navigates within the current
 page type and adds a history entry. Browser back/forward keeps the input in sync.
 IME composition Enter does not navigate. User is disabled when the handle is empty.
 Desktop and mobile controls share the input value and preserve their existing styling.
+
+Header columns and the achievement rows use native HTML and scoped CSS. Header
+breakpoints retain the previous column proportions at 576, 768, 1200, and 1600px.
+Achievement rows retain content-dependent wrapping, a 50% maximum item width on
+small screens, a one-third maximum from 576px, and the existing 10px gutter.
+The question marker is a styled span; its explanation still uses Ant Design Tooltip.

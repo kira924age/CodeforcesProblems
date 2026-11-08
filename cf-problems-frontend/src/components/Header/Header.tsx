@@ -2,38 +2,10 @@ import React from "react";
 import Hamburger from "./Hamburger";
 import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggler";
-import { Row, Col } from "antd";
 import { Link, useNavigate } from "react-router";
 
 import "./Header.css";
 import "./InputBox.css";
-
-const colProps = [
-  {
-    xxl: 4,
-    xl: 5,
-    lg: 6,
-    md: 6,
-    sm: 8,
-    xs: 20,
-  },
-  {
-    xxl: 20,
-    xl: 19,
-    lg: 18,
-    md: 18,
-    sm: 16,
-    xs: 0,
-  },
-  {
-    xxl: 0,
-    xl: 0,
-    lg: 0,
-    md: 0,
-    sm: 0,
-    xs: 4,
-  },
-];
 
 interface Props {
   userId: string | undefined;
@@ -76,11 +48,11 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
 
   return (
     <div id="header">
-      <Row style={{ flexFlow: "nowrap", height: 56 }}>
-        <Col {...colProps[0]}>
+      <div className="header-row">
+        <div className="header-logo">
           <Logo />
-        </Col>
-        <Col {...colProps[1]} className="menu-row" style={{ display: "flex" }}>
+        </div>
+        <div className="header-menu">
           <div id="input-box">
             <input
               className="header-input"
@@ -123,11 +95,11 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
             )}
           </div>
           <ThemeToggler />
-        </Col>
-        <Col {...colProps[2]}>
+        </div>
+        <div className="header-toggle">
           <Hamburger isOpen={isOpen} onToggle={toggleIsOpen} />
-        </Col>
-      </Row>
+        </div>
+      </div>
       {isOpen && (
         <div id="mobile-menu" className="mobile-menu">
           <div id="input-box">

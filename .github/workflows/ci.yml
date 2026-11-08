@@ -32,6 +32,9 @@ jobs:
       - name: Run frontend tests
         run: npm test
         working-directory: ${{ github.workspace }}/cf-problems-frontend
+      - name: Check frontend formatting
+        run: npm run format:check
+        working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: build React App
         run: npm run build -- --manifest
         working-directory: ${{ github.workspace }}/cf-problems-frontend

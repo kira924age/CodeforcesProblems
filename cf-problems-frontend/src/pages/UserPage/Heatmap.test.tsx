@@ -5,9 +5,8 @@ import { ThemeContext } from "../../components/ThemeProvider";
 
 // Supply fixed dimensions in jsdom, but render the actual Nivo Calendar.
 vi.mock("@nivo/calendar", async () => {
-  const actual = await vi.importActual<typeof import("@nivo/calendar")>(
-    "@nivo/calendar"
-  );
+  const actual =
+    await vi.importActual<typeof import("@nivo/calendar")>("@nivo/calendar");
   return {
     ...actual,
     ResponsiveCalendar: (
@@ -39,9 +38,7 @@ test("defaults to the latest year and updates the real calendar when selecting a
   expect(
     screen.getByText("2026", { selector: "svg text" })
   ).toBeInTheDocument();
-  fireEvent.mouseDown(
-    screen.getByRole("combobox", { name: "Heatmap year" })
-  );
+  fireEvent.mouseDown(screen.getByRole("combobox", { name: "Heatmap year" }));
   fireEvent.click(
     await screen.findByText("2025", {
       selector: ".ant-select-item-option-content",

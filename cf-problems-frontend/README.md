@@ -1,7 +1,7 @@
 # cf-problems-frontend
 
 This is the sole frontend application for the project. It is built and deployed
-by GitHub Actions and uses React, Vite, and Node.js 26 LTS.
+by GitHub Actions and uses React, Vite Plus, and Node.js 26 LTS.
 
 ## Development
 
@@ -9,28 +9,43 @@ by GitHub Actions and uses React, Vite, and Node.js 26 LTS.
 cd cf-problems-frontend
 nvm use # or install Node.js 26 using your preferred version manager
 npm ci
-npm start
+npm run dev
 ```
 
-Vite prints the development URL (normally http://localhost:5173).
-`npm run dev` is an alias for `npm start`.
+Vite Plus prints the development URL (normally http://localhost:5173).
+The project-local `vp` command is installed by `npm ci`; a global Vite Plus
+installation is not required. The former `start` script has been removed.
 
 ## Validation and production preview
 
 ```sh
 npm test
+npm run format:check
 npm run build
 npm run preview
 ```
 
-`npm test` runs Vitest once; `npm run test:watch` watches for changes.
+`npm test` runs Vite Plus's bundled Vitest once; `npm run test:watch` watches for changes.
 `npm run build` runs TypeScript checks before bundling; type checks can also be
 run separately with `npm run typecheck`. The preview URL is normally
 http://localhost:4173. Tests run in jsdom and use the setup in `src/setupTests.ts`.
 
+## Formatting
+
+```sh
+npm run format
+npm run format:check
+```
+
+Formatting uses Vite Plus's Oxfmt (`vp fmt`) instead of Prettier. Its settings
+live in the `fmt` section of `vite.config.mts`. The existing 80-column width and
+ES5 trailing commas are retained; imports and package fields are not reordered.
+Tracked legacy `build/` files, generated `src/utils/contests.json`, and the npm
+lockfile are excluded. PR CI checks formatting as well as tests and the build.
+
 ## Deployment compatibility
 
-Vite writes production files to `build/` for GitHub Pages publication.
+Vite Plus writes production files to `build/` for GitHub Pages publication.
 `Deploy frontend` publishes on frontend changes pushed to `main` and can also
 be run manually in GitHub Actions (select `main`, then **Run workflow**). It
 runs tests and builds without crawling Codeforces. The daily crawler calls the
@@ -46,13 +61,13 @@ workflows. The crawler retains Python 3.11. No OpenSSL legacy option is needed.
 Vite's default production browser target replaces CRA's Browserslist settings;
 legacy browsers outside that target are not included in this migration.
 
-React and the UI libraries remain on their existing major versions. Large
-bundle and Sass `@import` warnings remain separate follow-up work. Workers
+Large bundle and Sass `@import` warnings remain separate follow-up work. Workers
 hosting and removal of tracked build artifacts are also separate changes.
 
-The Vite configuration uses `.mts` for ESM, while the application package keeps
-its original module classification for Babel-style CommonJS dependencies such
-as react-toggle. Nivo also requires the `globalThis` compatibility definition.
+The Vite Plus configuration uses `.mts` for ESM. The `vite` dependency and npm
+override point to the same Vite Plus core so the React plugin and test runner
+share one build toolchain. Standalone Prettier and Vitest dependencies are no
+longer needed.
 
 ## Achievement calculations
 

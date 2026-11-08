@@ -39,7 +39,9 @@ const ClimbingChart: React.FunctionComponent<Props> = (props) => {
         />
 
         <YAxis />
-        <Tooltip content={(tooltipProps) => <CustomTooltip {...tooltipProps} />} />
+        <Tooltip
+          content={(tooltipProps) => <CustomTooltip {...tooltipProps} />}
+        />
 
         {ratingColors.map((ratingColor) => {
           const colorCode: string = getRatingColorCode(ratingColor);

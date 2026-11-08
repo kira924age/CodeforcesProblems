@@ -111,6 +111,7 @@ test("shows the exact date and submissions on hover and keeps a tooltip after to
   const tap = new MouseEvent("pointerdown", { bubbles: true });
   Object.defineProperty(tap, "pointerType", { value: "touch" });
   fireEvent(cell("2026-06-12"), tap);
+  expect(chart()).toHaveAttribute("data-keyboard-focus", "false");
   const leave = new Event("pointerout", { bubbles: true });
   Object.defineProperty(leave, "pointerType", { value: "touch" });
   fireEvent(chart(), leave);
@@ -122,6 +123,7 @@ test("shows the exact date and submissions on hover and keeps a tooltip after to
 test("supports day/week keyboard navigation, bounds, zero days, and dismissal", () => {
   render(<Heatmap data={data} />);
   fireEvent.focus(chart());
+  expect(chart()).toHaveAttribute("data-keyboard-focus", "true");
   expect(screen.getByRole("tooltip")).toHaveTextContent("2026-06-12");
   expect(chart()).toHaveAttribute(
     "aria-describedby",

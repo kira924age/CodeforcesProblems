@@ -13,8 +13,9 @@
 .heatmap-svg {
   display: block;
   touch-action: pan-y;
+  outline: none;
 }
-.heatmap-svg:focus-visible {
+.heatmap-svg[data-keyboard-focus="true"]:focus {
   outline: 2px solid #1677ff;
   outline-offset: 2px;
 }

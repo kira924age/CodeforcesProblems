@@ -33,6 +33,7 @@ const Calendar = ({ data, year }: Props & { year: string }) => {
   const theme = useTheme();
   const container = React.useRef<HTMLDivElement>(null);
   const [width, setWidth] = React.useState(850);
+  const [keyboardFocus, setKeyboardFocus] = React.useState(false);
   const [selection, setSelection] = React.useState<{
     data: HeatmapDatum[];
     index: number;
@@ -130,11 +131,19 @@ const Calendar = ({ data, year }: Props & { year: string }) => {
         aria-label={`Submission heatmap for ${year}`}
         aria-describedby={`${instructionsId}${selected ? ` ${tooltipId}` : ""}`}
         tabIndex={0}
-        onFocus={() => select(lastActive())}
-        onBlur={() => setSelection(undefined)}
+        data-keyboard-focus={keyboardFocus}
+        onFocus={() => {
+          setKeyboardFocus(true);
+          select(lastActive());
+        }}
+        onBlur={() => {
+          setKeyboardFocus(false);
+          setSelection(undefined);
+        }}
         onPointerMove={selectTarget}
         onPointerDown={(event) => {
           event.currentTarget.focus();
+          setKeyboardFocus(false);
           selectTarget(event);
         }}
         onPointerLeave={(event) => {
@@ -153,6 +162,7 @@ const Calendar = ({ data, year }: Props & { year: string }) => {
           }[event.key];
           if (next !== undefined) {
             event.preventDefault();
+            setKeyboardFocus(true);
             select(Math.max(0, Math.min(days.length - 1, next)));
           } else if (event.key === "Escape") setSelection(undefined);
         }}

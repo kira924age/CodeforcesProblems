@@ -1,5 +1,5 @@
 @import "antd/dist/reset.css";
-@import "./ContestTable.css";
+@import "./RatingColors.css";
 @import "./Achievement.css";
 @import "./UserNotFound.css";
 @import "./DifficultyCircle.css";
@@ -51,13 +51,6 @@ hr {
   color: #00a;
 }
 
-table td,
-th {
-  padding: 12px 12px 12px 12px;
-  font-size: 16px;
-  word-break: break-all;
-}
-
 .Main {
   margin: auto;
   padding-top: 106px;
@@ -102,11 +95,6 @@ th {
   to {
     transform: rotate(360deg);
   }
-}
-
-.ant-table-cell {
-  background-color: "red";
-  color: "red";
 }
 
 #swich-btns {

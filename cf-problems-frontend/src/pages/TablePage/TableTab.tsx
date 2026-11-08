@@ -3,6 +3,7 @@ import React from "react";
 import { Radio, Switch } from "antd";
 
 import ContestTable from "./ContestTable";
+import "./TableTab.css";
 import { useLocalStorage } from "../../utils/localStorage";
 
 type Props = {
@@ -27,8 +28,8 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
 
   return (
     <React.Fragment>
-      <div>
-        <div className="inline-btn">
+      <div className="table-controls">
+        <div className="table-control">
           {isShowDifficulty ? (
             <Switch
               size="small"
@@ -49,7 +50,7 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
           <label>Show Difficulty</label>
         </div>
 
-        <div className="inline-btn">
+        <div className="table-control">
           {isReverseOrder ? (
             <Switch
               size="small"
@@ -72,7 +73,7 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
 
       <Radio.Group
         value={contest}
-        id="radio-buttons"
+        className="contest-categories"
         size="large"
         onChange={(e) => {
           setContest(e.target.value);

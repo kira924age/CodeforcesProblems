@@ -13,9 +13,14 @@
   color: rgba(0, 0, 0, 0.88);
   font-size: 14px;
 }
+.contest-table tr {
+  line-height: 1.5;
+}
 .contest-table th,
 .contest-table td {
   text-align: left;
+  font-size: 16px;
+  word-break: break-all;
   border-right: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
 }
@@ -93,4 +98,80 @@
     padding-top: 6px;
     padding-bottom: 6px;
   }
+}
+
+.contest-table .OK {
+  background: #c3e6cb !important;
+}
+
+.contest-table .NG {
+  background: #ffe3e3 !important;
+}
+
+.contest-table .cell-height-1 {
+  height: 100%;
+  width: 100%;
+}
+
+.contest-table .cell-height-2 {
+  height: 50%;
+  width: 100%;
+}
+
+.contest-table .cell-height-3 {
+  height: 33.333%;
+  width: 100%;
+}
+
+.contest-table .cell-height-4 {
+  height: 25%;
+  width: 100%;
+}
+
+.contest-table .cell-height-5 {
+  height: 20%;
+  width: 100%;
+}
+
+.contest-table .cell-height-6 {
+  height: 16.666%;
+  width: 100%;
+}
+
+.contest-table .cell-height-7 {
+  height: 14.286%;
+  width: 100%;
+}
+
+.contest-table .cell-height-8 {
+  height: 12.5%;
+  width: 100%;
+}
+
+.contest-table .cell-height-9 {
+  height: 11.111%;
+  width: 100%;
+}
+
+.contest-table .cell-height-10 {
+  height: 10%;
+  width: 100%;
+}
+
+.theme-dark .contest-table {
+  border: none;
+  border-radius: 0;
+}
+.theme-dark .contest-table .OK {
+  background: #004306 !important;
+}
+.theme-dark .contest-table .NG {
+  background: #52212b !important;
+}
+.contest-heading {
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.2;
 }

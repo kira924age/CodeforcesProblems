@@ -1,5 +1,6 @@
 import React from "react";
-import { Pagination, theme } from "antd";
+import { theme } from "antd";
+import Pagination from "../../components/ui/Pagination";
 import EmptyState from "../../components/feedback/EmptyState";
 import DifficultyCircle from "../../components/DifficultyCircle";
 import { getRatingColorClass } from "../../utils/colors";
@@ -149,7 +150,6 @@ const SubmissionListTable: React.FunctionComponent<Props> = ({
       {submission.length > 0 && (
         <Pagination
           className="submission-pagination"
-          align="end"
           current={current}
           pageSize={pagination.pageSize}
           total={submission.length}

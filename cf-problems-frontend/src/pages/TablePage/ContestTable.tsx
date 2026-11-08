@@ -1,5 +1,6 @@
 import React from "react";
-import { Pagination, theme } from "antd";
+import { theme } from "antd";
+import Pagination from "../../components/ui/Pagination";
 import EmptyState from "../../components/feedback/EmptyState";
 import "./ContestTable.css";
 
@@ -130,7 +131,6 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
       {problemData.length > 0 && (
         <Pagination
           className="contest-pagination"
-          align="end"
           current={current}
           pageSize={pageSize}
           pageSizeOptions={[10, 20, 50, 100, 150]}

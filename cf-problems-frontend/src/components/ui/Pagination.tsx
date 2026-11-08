@@ -83,7 +83,36 @@ const Pagination = ({
   );
   return (
     <nav className={`ui-pagination ${className}`} aria-label={label}>
-      <ul>
+      <div className="ui-pagination-meta">
+        <p
+          className="ui-pagination-summary"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          Showing{" "}
+          <strong>
+            {((page - 1) * pageSize + 1).toLocaleString("en-US")}–
+            {Math.min(page * pageSize, total).toLocaleString("en-US")}
+          </strong>{" "}
+          of <strong>{total.toLocaleString("en-US")}</strong>
+        </p>
+        <p className="ui-pagination-page-count">
+          Page {page.toLocaleString("en-US")} of {last.toLocaleString("en-US")}
+        </p>
+      </div>
+      <ul className="ui-pagination-pages">
+        <li className="ui-pagination-mobile-only">
+          <button
+            type="button"
+            className="ui-pagination-direction"
+            aria-label="First Page"
+            title="First Page"
+            disabled={page === 1}
+            onClick={() => move(1)}
+          >
+            <Chevron previous double />
+          </button>
+        </li>
         <li>
           <button
             type="button"
@@ -94,13 +123,14 @@ const Pagination = ({
             onClick={() => move(page - 1)}
           >
             <Chevron previous />
+            <span className="ui-pagination-direction-label">Previous</span>
           </button>
         </li>
         {pageItems(page, last).map((item) =>
           "page" in item ? (
             <li
               key={item.page}
-              className={item.compact ? "ui-pagination-compact" : undefined}
+              className={`ui-pagination-number${item.compact ? " ui-pagination-compact" : ""}`}
             >
               <button
                 type="button"
@@ -114,7 +144,7 @@ const Pagination = ({
               </button>
             </li>
           ) : (
-            <li key={item.jump}>
+            <li key={item.jump} className="ui-pagination-number">
               <button
                 type="button"
                 className="ui-pagination-jump"
@@ -144,6 +174,13 @@ const Pagination = ({
             </li>
           )
         )}
+        <li
+          className="ui-pagination-mobile-only ui-pagination-position"
+          aria-label={`Page ${page} of ${last}`}
+        >
+          {page.toLocaleString("en-US")} <span>/</span>{" "}
+          {last.toLocaleString("en-US")}
+        </li>
         <li className="ui-pagination-next">
           <button
             type="button"
@@ -153,28 +190,42 @@ const Pagination = ({
             disabled={page === last}
             onClick={() => move(page + 1)}
           >
+            <span className="ui-pagination-direction-label">Next</span>
             <Chevron />
           </button>
         </li>
-        {total > 50 && (
-          <li className="ui-pagination-size">
-            <Select
-              label="Page Size"
-              value={String(pageSize)}
-              options={sizes.map(String)}
-              getOptionLabel={(size) => `${size} / page`}
-              onValueChange={(value) => {
-                const size = Number(value);
-                if (size !== pageSize)
-                  onChange(
-                    Math.min(page, Math.max(1, Math.ceil(total / size))),
-                    size
-                  );
-              }}
-            />
-          </li>
-        )}
+        <li className="ui-pagination-mobile-only">
+          <button
+            type="button"
+            className="ui-pagination-direction"
+            aria-label="Last Page"
+            title="Last Page"
+            disabled={page === last}
+            onClick={() => move(last)}
+          >
+            <Chevron double />
+          </button>
+        </li>
       </ul>
+      {total > 50 && (
+        <div className="ui-pagination-size">
+          <span>Rows</span>
+          <Select
+            label="Page Size"
+            value={String(pageSize)}
+            options={sizes.map(String)}
+            getOptionLabel={(size) => `${size} / page`}
+            onValueChange={(value) => {
+              const size = Number(value);
+              if (size !== pageSize)
+                onChange(
+                  Math.min(page, Math.max(1, Math.ceil(total / size))),
+                  size
+                );
+            }}
+          />
+        </div>
+      )}
     </nav>
   );
 };

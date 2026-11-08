@@ -101,3 +101,27 @@ test.each([0, 1, 50, 51])(
     expect(screen.queryByRole("combobox") !== null).toBe(total > 50);
   }
 );
+
+test("shows the visible item range and page count, including a partial last page", () => {
+  const { rerender } = render(<Pagination {...props} current={3} total={25} />);
+  expect(screen.getByText(/Showing/)).toHaveTextContent("Showing 21–25 of 25");
+  expect(screen.getByText("Page 3 of 3")).toBeInTheDocument();
+  rerender(<Pagination {...props} current={99} total={25} />);
+  expect(screen.getByText(/Showing/)).toHaveTextContent("Showing 21–25 of 25");
+  expect(screen.getByText(/Showing/)).toHaveAttribute("aria-live", "polite");
+});
+
+test("first and last controls move to the bounds and disable at the matching end", () => {
+  const onChange = vi.fn();
+  const { rerender } = render(
+    <Pagination {...props} current={10} onChange={onChange} />
+  );
+  fireEvent.click(screen.getByRole("button", { name: "First Page" }));
+  expect(onChange).toHaveBeenLastCalledWith(1, 10);
+  fireEvent.click(screen.getByRole("button", { name: "Last Page" }));
+  expect(onChange).toHaveBeenLastCalledWith(20, 10);
+  rerender(<Pagination {...props} current={1} onChange={onChange} />);
+  expect(screen.getByRole("button", { name: "First Page" })).toBeDisabled();
+  rerender(<Pagination {...props} current={20} onChange={onChange} />);
+  expect(screen.getByRole("button", { name: "Last Page" })).toBeDisabled();
+});

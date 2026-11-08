@@ -38,14 +38,14 @@
   padding: 12px;
 }
 :where(.contest-table) a {
-  color: var(--contest-link-color);
+  color: var(--table-link-color);
   text-decoration: none;
 }
 :where(.contest-table) a:hover {
-  color: var(--contest-link-hover-color);
+  color: var(--table-link-hover-color);
 }
 :where(.contest-table) a:active {
-  color: var(--contest-link-active-color);
+  color: var(--table-link-active-color);
 }
 .contest-table th:last-child,
 .contest-table td:last-child {

@@ -1,0 +1,11 @@
+/* Preserve the table link colors previously supplied by Ant Design's theme. */
+:root {
+  --table-link-color: #1677ff;
+  --table-link-hover-color: #69b1ff;
+  --table-link-active-color: #0958d9;
+}
+.theme-dark {
+  --table-link-color: #1668dc;
+  --table-link-hover-color: #15417e;
+  --table-link-active-color: #1554ad;
+}

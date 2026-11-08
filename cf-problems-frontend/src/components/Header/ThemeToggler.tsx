@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Switch } from "antd";
+import Switch from "../ui/Switch";
 import "./ThemeToggler.css";
 
 import { ThemeContext, useTheme } from "../ThemeProvider";
@@ -12,9 +12,9 @@ const ThemeToggler = () => {
   return (
     <div className="theme-toggler">
       <Switch
-        aria-label="Dark theme"
+        label="Dark theme"
         checked={theme === "dark"}
-        onChange={(checked) => setThemeId(checked ? "dark" : "light")}
+        onCheckedChange={(checked) => setThemeId(checked ? "dark" : "light")}
         checkedChildren="🌜"
         unCheckedChildren="🌞"
       />

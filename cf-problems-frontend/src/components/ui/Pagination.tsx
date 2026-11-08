@@ -192,7 +192,6 @@ const Pagination = ({
       </ul>
       {total > 50 && (
         <div className="ui-pagination-size">
-          <span>Rows</span>
           <Select
             label="Page Size"
             value={String(pageSize)}

@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
-  gap: 16px;
+  gap: 12px 16px;
   margin: 20px 0 24px;
   padding-top: 16px;
   border-top: 1px solid var(--pager-border);
@@ -130,16 +130,6 @@
   --pager-hover: #161b22;
   --pager-accent: #58a6ff;
   --pager-active: #1f6feb;
-}
-@media (max-width: 1100px) {
-  .ui-pagination {
-    row-gap: 12px;
-  }
-  .ui-pagination-pages {
-    order: 1;
-    width: 100%;
-    justify-content: center;
-  }
 }
 @media (min-width: 577px) and (max-width: 992px) {
   .ui-pagination .ui-pagination-compact {

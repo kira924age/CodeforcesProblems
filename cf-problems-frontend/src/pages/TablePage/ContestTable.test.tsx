@@ -154,6 +154,7 @@ test("preserves AC/NG coloring, whole-contest completion, and difficulty togglin
   expect(document.querySelector(".common-difficulty-circle")).toBeNull();
 });
 test("preserves empty results and submission fetch failure display", async () => {
+  localStorage.setItem("pageSize", "10");
   const { rerender } = render(<ContestTable {...props} name="unknown" />);
   expect(
     screen.getByText("No data", { selector: ".ant-empty-description" })
@@ -166,5 +167,7 @@ test("preserves empty results and submission fetch failure display", async () =>
   expect(
     await screen.findByText(/Failure to fetch submissions data/)
   ).toBeInTheDocument();
-  expect(screen.getByRole("link", { name: "Round 1" })).toBeInTheDocument();
+  expect(
+    within(rows()[1] as HTMLElement).getByRole("link", { name: "Round 1" })
+  ).toBeInTheDocument();
 });

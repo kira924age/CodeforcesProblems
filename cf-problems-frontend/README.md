@@ -8,33 +8,34 @@ by GitHub Actions and uses React, Vite Plus, and Node.js 26 LTS.
 ```sh
 cd cf-problems-frontend
 nvm use # or install Node.js 26 using your preferred version manager
-npm ci
-npm run dev
+npm install --global pnpm@12.18.0
+pnpm install --frozen-lockfile
+pnpm run dev
 ```
 
 Vite Plus prints the development URL (normally http://localhost:5173).
-The project-local `vp` command is installed by `npm ci`; a global Vite Plus
+The project-local `vp` command is installed by `pnpm install --frozen-lockfile`; a global Vite Plus
 installation is not required. The former `start` script has been removed.
 
 ## Validation and production preview
 
 ```sh
-npm test
-npm run format:check
-npm run lint
-npm run build
-npm run preview
+pnpm test
+pnpm run format:check
+pnpm run lint
+pnpm run build
+pnpm run preview
 ```
 
-`npm test` runs Vite Plus's bundled Vitest once; `npm run test:watch` watches for changes.
-`npm run build` runs TypeScript checks before bundling; type checks can also be
-run separately with `npm run typecheck`. The preview URL is normally
+`pnpm test` runs Vite Plus's bundled Vitest once; `pnpm run test:watch` watches for changes.
+`pnpm run build` runs TypeScript checks before bundling; type checks can also be
+run separately with `pnpm run typecheck`. The preview URL is normally
 http://localhost:4173. Tests run in jsdom and use the setup in `src/setupTests.ts`.
 
 ## Local bundle analysis
 
 ```sh
-npm run analyze
+pnpm run analyze
 ```
 
 This builds in production mode with the bundle analyzer enabled, then serves
@@ -46,7 +47,7 @@ Port 8888 must be available; an occupied port is reported as an error.
 To generate the report without starting a server:
 
 ```sh
-npm run analyze:build
+pnpm run analyze:build
 ```
 
 The self-contained HTML report is `.bundle-analysis/index.html` and can also be
@@ -66,26 +67,26 @@ report to compare complete emitted files.
 ## Formatting
 
 ```sh
-npm run format
-npm run format:check
+pnpm run format
+pnpm run format:check
 ```
 
 Formatting uses Vite Plus's Oxfmt (`vp fmt`) instead of Prettier. Its settings
 live in the `fmt` section of `vite.config.mts`. The existing 80-column width and
 ES5 trailing commas are retained; imports and package fields are not reordered.
-Tracked legacy `build/` files, generated `src/utils/contests.json`, and the npm
+Tracked legacy `build/` files, generated `src/utils/contests.json`, and the pnpm
 lockfile are excluded. PR CI checks formatting as well as tests and the build.
 
 ## Linting
 
 ```sh
-npm run lint
-npm run lint:fix
+pnpm run lint
+pnpm run lint:fix
 ```
 
 Linting uses Vite Plus's Oxlint with type-aware rules and type checks enabled
-in `vite.config.mts`. CI runs `npm run lint` and rejects both errors and warnings.
-`npm run lint:fix` applies available safe fixes; remaining issues need manual
+in `vite.config.mts`. CI runs `pnpm run lint` and rejects both errors and warnings.
+`pnpm run lint:fix` applies available safe fixes; remaining issues need manual
 changes. Generated `build/` files are excluded from linting.
 
 ## Deployment compatibility
@@ -109,8 +110,8 @@ legacy browsers outside that target are not included in this migration.
 Large bundle and Sass `@import` warnings remain separate follow-up work. Workers
 hosting and removal of tracked build artifacts are also separate changes.
 
-The Vite Plus configuration uses `.mts` for ESM. The `vite` dependency and npm
-override point to the same Vite Plus core so the React plugin and test runner
+The Vite Plus configuration uses `.mts` for ESM. The `vite` dependency and pnpm
+overrides point to the same Vite Plus core so the React plugin and test runner
 share one build toolchain. Standalone Prettier and Vitest dependencies are no
 longer needed.
 

@@ -20,26 +20,31 @@ jobs:
       - uses: actions/checkout@v7.0.1
         with:
           persist-credentials: false
+      - uses: pnpm/action-setup@v6.1.1
+        with:
+          package_json_file: cf-problems-frontend/package.json
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v7.1.0
         with:
           node-version: ${{ matrix.node-version }}
+          cache: pnpm
+          cache-dependency-path: cf-problems-frontend/pnpm-lock.yaml
       - name: Test bundle measurement
         run: node --test scripts/bundle-size.test.cjs
       - name: install dependency
-        run: npm ci
+        run: pnpm install --frozen-lockfile
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: Run frontend tests
-        run: npm test
+        run: pnpm test
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: Check frontend formatting
-        run: npm run format:check
+        run: pnpm run format:check
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: Lint frontend
-        run: npm run lint
+        run: pnpm run lint
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: build React App
-        run: npm run build -- --manifest
+        run: pnpm run build --manifest
         working-directory: ${{ github.workspace }}/cf-problems-frontend
       - name: Check out PR base for comparison
         if: github.event_name == 'pull_request'
@@ -52,8 +57,13 @@ jobs:
         if: github.event_name == 'pull_request'
         working-directory: _base/cf-problems-frontend
         run: |
-          npm ci
-          npm run build -- --manifest
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm install --frozen-lockfile
+            pnpm run build --manifest
+          else
+            npm ci
+            npm run build -- --manifest
+          fi
       - name: Compare bundle sizes
         if: github.event_name == 'pull_request'
         env:

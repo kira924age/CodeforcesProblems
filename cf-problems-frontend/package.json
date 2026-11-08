@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vp dev",
     "typecheck": "tsc --noEmit",
-    "build": "npm run typecheck && vp build",
+    "build": "pnpm run typecheck && vp build",
     "preview": "vp preview",
     "test": "vp test run",
     "test:watch": "vp test",
@@ -13,8 +13,8 @@
     "format:check": "vp fmt --check",
     "lint": "vp lint --max-warnings=0",
     "lint:fix": "vp lint --fix --max-warnings=0",
-    "analyze:build": "npm run build -- --mode analyze",
-    "analyze": "npm run analyze:build && vp preview --outDir .bundle-analysis --host 127.0.0.1 --port 8888 --strictPort"
+    "analyze:build": "pnpm run build --mode analyze",
+    "analyze": "pnpm run analyze:build && vp preview --outDir .bundle-analysis --host 127.0.0.1 --port 8888 --strictPort"
   },
   "dependencies": {
     "chart.js": "4.6.1",
@@ -41,8 +41,5 @@
   "engines": {
     "node": ">=26 <27"
   },
-  "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@1.5.0",
-    "vitest": "5.1.0"
-  }
+  "packageManager": "pnpm@12.18.0"
 }

@@ -31,6 +31,38 @@ npm run preview
 run separately with `npm run typecheck`. The preview URL is normally
 http://localhost:4173. Tests run in jsdom and use the setup in `src/setupTests.ts`.
 
+## Local bundle analysis
+
+```sh
+npm run analyze
+```
+
+This builds in production mode with the bundle analyzer enabled, then serves
+the interactive treemap at http://127.0.0.1:8888. Click a rectangle to zoom into
+a package or module, hover to inspect its size, and use the filter to narrow
+the report. Stop the server with Ctrl+C and rerun the command after changes.
+Port 8888 must be available; an occupied port is reported as an error.
+
+To generate the report without starting a server:
+
+```sh
+npm run analyze:build
+```
+
+The self-contained HTML report is `.bundle-analysis/index.html` and can also be
+opened directly in a browser. The analysis build goes to `.bundle-analysis/app/`;
+both are ignored by Git, formatting, and linting. This leaves the tracked legacy
+`build/` files untouched. Normal builds and deployments do not enable the
+analyzer or generate a report.
+
+The report shows uncompressed rendered-module sizes, before final minification.
+Source-map attribution is disabled because generated JSON string literals have
+no mappings and would disappear from the treemap, including the large contest
+dataset. gzip and Brotli sizes are disabled. Public assets are not module
+contributions, and these sizes differ from CI's final emitted JS/CSS totals.
+Use the report to find large modules and dependencies; use the PR bundle-size
+report to compare complete emitted files.
+
 ## Formatting
 
 ```sh

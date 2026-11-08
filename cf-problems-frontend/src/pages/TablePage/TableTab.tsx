@@ -12,6 +12,8 @@ type Props = {
 };
 
 const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
+  const difficultyId = React.useId();
+  const reverseOrderId = React.useId();
   const [contest, setContest] = useLocalStorage(
     "activeTab",
     "Educational Codeforces Rounds"
@@ -33,22 +35,24 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
         <div className="table-control">
           <Switch
             size="small"
+            id={difficultyId}
             label="Show Difficulty"
             checked={isShowDifficulty}
             onCheckedChange={setIsShowDifficulty}
           />
 
-          <label>Show Difficulty</label>
+          <label htmlFor={difficultyId}>Show Difficulty</label>
         </div>
 
         <div className="table-control">
           <Switch
             size="small"
+            id={reverseOrderId}
             label="Reverse Order"
             checked={isReverseOrder}
             onCheckedChange={setIsReverseOrder}
           />
-          <label>Reverse Order</label>
+          <label htmlFor={reverseOrderId}>Reverse Order</label>
         </div>
       </div>
 

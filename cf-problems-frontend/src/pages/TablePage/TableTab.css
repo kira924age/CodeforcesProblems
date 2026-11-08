@@ -4,6 +4,9 @@
   margin-right: 15px;
   font-size: 16px;
 }
+.table-control label {
+  cursor: pointer;
+}
 .table-controls .ui-switch {
   margin-right: 5px;
 }

@@ -61,3 +61,21 @@ test("restores existing settings, persists changes and restores them on remount"
     screen.getByRole("switch", { name: "Reverse Order" })
   ).not.toBeChecked();
 });
+
+test.each([
+  ["Show Difficulty", "isShowDifficulty", true],
+  ["Reverse Order", "isReverseOrder", false],
+] as const)(
+  "clicking the %s label toggles and persists its switch",
+  (label, key, initial) => {
+    render(<TableTab userId="alice" />);
+    const toggle = screen.getByRole("switch", { name: label });
+    fireEvent.click(screen.getByText(label));
+    expect(toggle).toHaveAttribute("aria-checked", String(!initial));
+    expect(tableProps()[key]).toBe(!initial);
+    expect(localStorage.getItem(key)).toBe(String(!initial));
+    fireEvent.click(screen.getByText(label));
+    expect(toggle).toHaveAttribute("aria-checked", String(initial));
+    expect(localStorage.getItem(key)).toBe(String(initial));
+  }
+);

@@ -1,5 +1,6 @@
 import React from "react";
-import { Empty, Pagination, theme } from "antd";
+import { Pagination, theme } from "antd";
+import EmptyState from "../../components/feedback/EmptyState";
 import DifficultyCircle from "../../components/DifficultyCircle";
 import { getRatingColorClass } from "../../utils/colors";
 import { formatFullDate } from "../../utils/formatDate";
@@ -138,7 +139,7 @@ const SubmissionListTable: React.FunctionComponent<Props> = ({
             {submission.length === 0 && (
               <tr className="submission-table-empty">
                 <td colSpan={5}>
-                  <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
+                  <EmptyState />
                 </td>
               </tr>
             )}

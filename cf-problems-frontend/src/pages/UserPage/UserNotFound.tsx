@@ -1,8 +1,8 @@
 import React from "react";
-import { Alert } from "antd";
+import ErrorAlert from "../../components/feedback/ErrorAlert";
 
 const UserNotFound: React.FunctionComponent = () => {
-  return <Alert title="User not found!" type="error" />;
+  return <ErrorAlert>User not found!</ErrorAlert>;
 };
 
 export default UserNotFound;

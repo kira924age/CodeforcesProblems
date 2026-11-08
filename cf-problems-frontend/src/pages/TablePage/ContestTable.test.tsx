@@ -156,9 +156,7 @@ test("preserves AC/NG coloring, whole-contest completion, and difficulty togglin
 test("preserves empty results and submission fetch failure display", async () => {
   localStorage.setItem("pageSize", "10");
   const { rerender } = render(<ContestTable {...props} name="unknown" />);
-  expect(
-    screen.getByText("No data", { selector: ".ant-empty-description" })
-  ).toBeInTheDocument();
+  expect(screen.getByText("No data")).toBeInTheDocument();
   expect(
     screen.queryByRole("button", { name: "Next Page" })
   ).not.toBeInTheDocument();

@@ -1,0 +1,91 @@
+.submission-table-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.submission-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+  border: 1px solid #dee2e6;
+  border-radius: 2px 2px 0 0;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+}
+
+.submission-table th,
+.submission-table td {
+  text-align: left;
+  border-right: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.submission-table th {
+  padding: 16px;
+  background: #fafafa;
+  font-weight: bold;
+}
+
+.submission-table td {
+  padding: 0;
+  transition: background 0.2s;
+}
+
+.submission-table .cell-element {
+  padding: 12px;
+}
+
+:where(.submission-table) a {
+  color: var(--submission-link-color);
+  text-decoration: none;
+}
+
+:where(.submission-table) a:hover {
+  color: var(--submission-link-hover-color);
+}
+
+:where(.submission-table) a:active {
+  color: var(--submission-link-active-color);
+}
+
+.submission-table th:last-child,
+.submission-table td:last-child {
+  border-right: 0;
+}
+
+.submission-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.submission-table tbody tr:hover > td {
+  background: #fafafa;
+}
+
+.submission-table .submission-table-empty > td {
+  padding: 16px;
+}
+
+.submission-table .submission-table-empty:hover > td {
+  background: #fff;
+}
+
+.submission-pagination.ant-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  margin: 16px 0;
+}
+
+.theme-dark .submission-table,
+.theme-dark .submission-table th,
+.theme-dark .submission-table td,
+.theme-dark .submission-table tbody tr:hover > td {
+  color: #c9d1d9;
+  background: #090c10;
+  border: 1px solid #484848;
+}
+
+.theme-dark .submission-table tbody tr:last-child td {
+  border-bottom: 1px solid #484848;
+}

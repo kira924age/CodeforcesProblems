@@ -1,135 +1,163 @@
 import React from "react";
-
-import { Table } from "antd";
+import { Empty, Pagination, theme } from "antd";
 import DifficultyCircle from "../../components/DifficultyCircle";
 import { getRatingColorClass } from "../../utils/colors";
 import { formatFullDate } from "../../utils/formatDate";
+import "./SubmissionListTable.css";
 
-const columns = [
-  {
-    title: "Date",
-    dataIndex: "creationTimeSeconds",
-    key: "creationTimeSeconds",
-  },
-  {
-    title: "Problem",
-    dataIndex: "problem",
-    key: "problem",
-  },
-  {
-    title: "Verdict",
-    dataIndex: "verdict",
-    key: "verdict",
-  },
-  {
-    title: "Language",
-    dataIndex: "programmingLanguage",
-    key: "programmingLanguage",
-  },
-  {
-    title: "Detail",
-    dataIndex: "detail",
-    key: "detail",
-  },
-];
-
-interface Props {
-  submission: any[];
+interface Submission {
+  submissionId: number;
+  creationTimeSeconds: number;
+  problem: {
+    contestId?: number;
+    index: string;
+    name: string;
+    rating?: number;
+  };
+  verdict?: string;
+  programmingLanguage: string;
 }
 
-const SubmissionListTable: React.FunctionComponent<Props> = (props: Props) => {
-  const dataSource = props.submission.map((x) => {
-    const submissionSecond = x.creationTimeSeconds;
-    const rating: number | undefined = x.problem.rating;
-    const difficultyCircle = <DifficultyCircle rating={x.problem.rating} />;
+interface Props {
+  submission: Submission[];
+}
 
-    const contestId: string = String(x.problem.contestId);
-    const problemIndex: string = String(x.problem.index);
-    const submissionId: string = String(x.submissionId);
-    const submissionUrl: string =
-      "https://codeforces.com/contest/" +
-      contestId +
-      "/submission/" +
-      submissionId;
-    const problemUrl: string =
-      "https://codeforces.com/contest/" +
-      contestId +
-      "/problem/" +
-      problemIndex;
+const rejectedVerdicts: Record<string, string> = {
+  WRONG_ANSWER: "Wrong answer",
+  TIME_LIMIT_EXCEEDED: "Time limit exceeded",
+  COMPILATION_ERROR: "Compilation error",
+  MEMORY_LIMIT_EXCEEDED: "Memory limit exceeded",
+  RUNTIME_ERROR: "Runtime error",
+  PRESENTATION_ERROR: "Presentation error",
+  IDLENESS_LIMIT_EXCEEDED: "Idleness limit exceeded",
+};
 
-    let verdict = x.verdict;
-    switch (verdict) {
-      case undefined:
-        verdict = "unknown";
-        break;
-      case "OK":
-        verdict = <div className="verdict-accepted">Accepted</div>;
-        break;
-      case "WRONG_ANSWER":
-        verdict = <div className="verdict-rejected">Wrong answer</div>;
-        break;
-      case "TIME_LIMIT_EXCEEDED":
-        verdict = <div className="verdict-rejected">Time limit exceeded</div>;
-        break;
-      case "COMPILATION_ERROR":
-        verdict = <div className="verdict-rejected">Compilation error</div>;
-        break;
-      case "MEMORY_LIMIT_EXCEEDED":
-        verdict = <div className="verdict-rejected">Memory limit exceeded</div>;
-        break;
-      case "RUNTIME_ERROR":
-        verdict = <div className="verdict-rejected">Runtime error</div>;
-        break;
-      case "PRESENTATION_ERROR":
-        verdict = <div className="verdict-rejected">Presentation error</div>;
-        break;
-      case "IDLENESS_LIMIT_EXCEEDED":
-        verdict = (
-          <div className="verdict-rejected">Idleness limit exceeded</div>
-        );
-        break;
-    }
+const Verdict = ({ verdict }: { verdict?: string }) => {
+  if (verdict === "OK") {
+    return <div className="verdict-accepted">Accepted</div>;
+  }
+  if (verdict && Object.hasOwn(rejectedVerdicts, verdict)) {
+    return <div className="verdict-rejected">{rejectedVerdicts[verdict]}</div>;
+  }
+  return <>{verdict ?? "unknown"}</>;
+};
 
-    const obj = {
-      key: String(x.creationTimeSeconds),
-      creationTimeSeconds: (
-        <div className="cell-element">{formatFullDate(submissionSecond)}</div>
-      ),
-      problem: (
-        <div className="cell-element">
-          {difficultyCircle}
-          <a
-            href={problemUrl}
-            target="_blank"
-            rel="noopenner noreferrer"
-            className={getRatingColorClass(rating)}
-          >
-            {String(x.problem.index) + ". " + String(x.problem.name)}
-          </a>
-        </div>
-      ),
-      programmingLanguage: (
-        <div className="cell-element">{String(x.programmingLanguage)}</div>
-      ),
-      verdict: <div className="cell-element">{verdict}</div>,
-      detail: (
-        <div className="cell-element">
-          <a href={submissionUrl} target="_blank" rel="noopenner noreferrer">
-            Detail
-          </a>
-        </div>
-      ),
-    };
-    return obj;
+const SubmissionListTable: React.FunctionComponent<Props> = ({
+  submission,
+}) => {
+  const { token } = theme.useToken();
+  const tableStyle = {
+    "--submission-link-color": token.colorLink,
+    "--submission-link-hover-color": token.colorLinkHover,
+    "--submission-link-active-color": token.colorLinkActive,
+  } as React.CSSProperties;
+  const [pagination, setPagination] = React.useState({
+    current: 1,
+    pageSize: 10,
   });
+  // Match Table's page clamping when the data length changes.
+  const current = Math.min(
+    pagination.current,
+    Math.max(1, Math.ceil(submission.length / pagination.pageSize))
+  );
+  const start = (current - 1) * pagination.pageSize;
+  const visibleSubmissions = submission.slice(
+    start,
+    start + pagination.pageSize
+  );
 
   return (
-    <React.Fragment>
-      <h3>Submissions</h3>
+    <>
+      <h3 id="submissions-heading">Submissions</h3>
       <hr />
       <br />
-      <Table bordered={true} dataSource={dataSource} columns={columns} />
-    </React.Fragment>
+      <div className="submission-table-scroll">
+        <table
+          className="submission-table"
+          aria-labelledby="submissions-heading"
+          style={tableStyle}
+        >
+          <thead>
+            <tr>
+              {["Date", "Problem", "Verdict", "Language", "Detail"].map(
+                (title) => (
+                  <th key={title} scope="col">
+                    {title}
+                  </th>
+                )
+              )}
+            </tr>
+          </thead>
+          <tbody>
+            {visibleSubmissions.map((entry) => {
+              const contestUrl = `https://codeforces.com/contest/${entry.problem.contestId}`;
+              return (
+                <tr key={entry.submissionId}>
+                  <td>
+                    <div className="cell-element">
+                      {formatFullDate(entry.creationTimeSeconds)}
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell-element">
+                      <DifficultyCircle rating={entry.problem.rating} />
+                      <a
+                        href={`${contestUrl}/problem/${entry.problem.index}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={getRatingColorClass(entry.problem.rating)}
+                      >
+                        {`${entry.problem.index}. ${entry.problem.name}`}
+                      </a>
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell-element">
+                      <Verdict verdict={entry.verdict} />
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell-element">
+                      {String(entry.programmingLanguage)}
+                    </div>
+                  </td>
+                  <td>
+                    <div className="cell-element">
+                      <a
+                        href={`${contestUrl}/submission/${entry.submissionId}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Detail
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              );
+            })}
+            {submission.length === 0 && (
+              <tr className="submission-table-empty">
+                <td colSpan={5}>
+                  <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} />
+                </td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
+      {submission.length > 0 && (
+        <Pagination
+          className="submission-pagination"
+          align="end"
+          current={current}
+          pageSize={pagination.pageSize}
+          total={submission.length}
+          onChange={(next, pageSize) =>
+            setPagination({ current: next, pageSize })
+          }
+        />
+      )}
+    </>
   );
 };
 

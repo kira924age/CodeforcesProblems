@@ -27,10 +27,10 @@ jobs:
         working-directory: cf-problems-frontend
     steps:
       # Always publish the latest main, including commits made by the crawler.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
         with:
           ref: main
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7.1.0
         with:
           node-version-file: cf-problems-frontend/.nvmrc
           cache: npm
@@ -39,7 +39,7 @@ jobs:
       - run: npm test
       - run: npm run build
       - name: Check out publication branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.1
         with:
           ref: gh-pages
           path: _pages

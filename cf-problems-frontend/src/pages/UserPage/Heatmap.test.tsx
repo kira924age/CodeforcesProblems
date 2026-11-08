@@ -4,7 +4,6 @@ import Heatmap from "./Heatmap";
 import { ThemeContext } from "../../components/ThemeProvider";
 import {
   calendarDays,
-  colorDomain,
   dayColor,
   emptyDayColor,
   heatmapColors,
@@ -69,12 +68,22 @@ test("defaults to the latest year, renders every day and all month labels, and s
   expect(document.querySelector('[data-day="2026-03-11"]')).toBeNull();
 });
 
-test("uses the entire history for color thresholds, preserving colors across year selection", async () => {
-  render(<Heatmap data={data} />);
-  // Global domain [1,13] has boundaries 4,7,10; selected year's [1,4] must not be used.
-  expect(cell("2026-03-11")).toHaveAttribute("fill", heatmapColors[1]);
+test("uses fixed levels regardless of year or newly added high-count days", async () => {
+  const { rerender } = render(<Heatmap data={data} />);
+  expect(cell("2026-03-11")).toHaveAttribute("fill", heatmapColors[2]);
   expect(cell("2026-06-12")).toHaveAttribute("fill", heatmapColors[0]);
-  expect(screen.getAllByRole("listitem")).toHaveLength(4);
+  expect(screen.getAllByRole("listitem")).toHaveLength(5);
+  for (const label of [
+    "0 submissions",
+    "1 submissions",
+    "2–3 submissions",
+    "4–7 submissions",
+    "8 or more submissions",
+  ])
+    expect(screen.getByRole("listitem", { name: label })).toBeInTheDocument();
+  rerender(<Heatmap data={[...data, { day: "2024-01-01", value: 1000 }]} />);
+  expect(cell("2026-03-11")).toHaveAttribute("fill", heatmapColors[2]);
+  expect(cell("2026-06-12")).toHaveAttribute("fill", heatmapColors[0]);
   fireEvent.mouseDown(screen.getByRole("combobox", { name: "Heatmap year" }));
   fireEvent.click(
     await screen.findByText("2025", {
@@ -168,7 +177,7 @@ test("clears stale tooltips on year/data changes, preserves valid year selection
   expect(chart()).toHaveAccessibleName("Submission heatmap for 2024");
   expect(screen.queryByRole("tooltip")).not.toBeInTheDocument();
   expect(document.querySelectorAll("[data-day]")).toHaveLength(366);
-  expect(cell("2024-02-29")).toHaveAttribute("fill", heatmapColors[3]);
+  expect(cell("2024-02-29")).toHaveAttribute("fill", heatmapColors[0]);
   rerender(<Heatmap data={[]} />);
   expect(screen.getByText("No submissions yet.")).toBeInTheDocument();
 });
@@ -226,19 +235,18 @@ test("generates Sunday-first weeks, leap days and year boundaries without timezo
   expect(leap.filter((d) => d.month === 10)).toHaveLength(30);
 });
 
-test("matches quantize boundaries, empty days and a constant-value domain", () => {
-  const domain = colorDomain(data);
-  expect(domain).toEqual([1, 13]);
-  expect([1, 3, 4, 6, 7, 9, 10, 13].map((v) => dayColor(v, domain))).toEqual([
-    heatmapColors[0],
-    heatmapColors[0],
-    heatmapColors[1],
-    heatmapColors[1],
-    heatmapColors[2],
-    heatmapColors[2],
-    heatmapColors[3],
-    heatmapColors[3],
-  ]);
-  expect(dayColor(undefined, domain)).toBe(emptyDayColor);
-  expect(dayColor(2, [2, 2])).toBe(heatmapColors[3]);
+test("uses fixed colors at every boundary, including zero and high counts", () => {
+  for (const [value, expected] of [
+    [undefined, emptyDayColor],
+    [0, emptyDayColor],
+    [1, heatmapColors[0]],
+    [2, heatmapColors[1]],
+    [3, heatmapColors[1]],
+    [4, heatmapColors[2]],
+    [7, heatmapColors[2]],
+    [8, heatmapColors[3]],
+    [31, heatmapColors[3]],
+    [10000, heatmapColors[3]],
+  ] as const)
+    expect(dayColor(value)).toBe(expected);
 });

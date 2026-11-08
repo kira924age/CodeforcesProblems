@@ -22,23 +22,14 @@ export const calendarDays = (year: string) => {
   });
 };
 
-// Match Nivo's minValue="auto" and quantize scale across the entire history.
-export const colorDomain = (data: HeatmapDatum[]): [number, number] =>
-  data.reduce<[number, number]>(
-    ([min, max], point) => [
-      Math.min(min, point.value),
-      Math.max(max, point.value),
-    ],
-    [Infinity, -Infinity]
-  );
-export const dayColor = (
-  value: number | undefined,
-  [min, max]: [number, number]
-) => {
-  if (value === undefined) return emptyDayColor;
-  const index =
-    min === max
-      ? 3
-      : Math.max(0, Math.min(3, Math.floor(((value - min) / (max - min)) * 4)));
-  return heatmapColors[index];
-};
+// Fixed levels keep colors comparable across users, years and new submissions.
+export const heatmapLevels = [
+  { minimum: 0, label: "0", color: emptyDayColor },
+  { minimum: 1, label: "1", color: heatmapColors[0] },
+  { minimum: 2, label: "2–3", color: heatmapColors[1] },
+  { minimum: 4, label: "4–7", color: heatmapColors[2] },
+  { minimum: 8, label: "8+", color: heatmapColors[3] },
+];
+export const dayColor = (value: number | undefined) =>
+  heatmapLevels.findLast((level) => (value ?? 0) >= level.minimum)?.color ??
+  emptyDayColor;

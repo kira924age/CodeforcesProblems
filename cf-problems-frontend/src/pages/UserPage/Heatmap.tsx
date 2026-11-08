@@ -3,9 +3,8 @@ import { Select } from "antd";
 import { useTheme } from "../../components/ThemeProvider";
 import {
   calendarDays,
-  colorDomain,
   dayColor,
-  heatmapColors,
+  heatmapLevels,
   type HeatmapDatum,
 } from "./heatmapUtils";
 import "./Heatmap.css";
@@ -60,7 +59,6 @@ const Calendar = ({ data, year }: Props & { year: string }) => {
       if (!map.has(point.day)) map.set(point.day, point.value);
     return map;
   }, [data]);
-  const domain = React.useMemo(() => colorDomain(data), [data]);
   const columns = days[days.length - 1].column + 1;
   const cell = Math.max(1, Math.min((width - 30) / columns, 245 / 7));
   const originX = 25 + Math.max(0, (width - 30 - columns * cell) / 2);
@@ -86,14 +84,6 @@ const Calendar = ({ data, year }: Props & { year: string }) => {
     if (index !== null) select(Number(index));
     else setSelection(undefined);
   };
-  const legend =
-    domain[0] === domain[1]
-      ? [{ color: heatmapColors[3], value: domain[0] }]
-      : heatmapColors.map((color, index) => ({
-          color,
-          value: Math.ceil(domain[0] + (index * (domain[1] - domain[0])) / 4),
-        }));
-
   const cells = React.useMemo(
     () =>
       days.map((day, index) => (
@@ -106,13 +96,13 @@ const Calendar = ({ data, year }: Props & { year: string }) => {
           y={originY + day.weekday * cell}
           width={cell}
           height={cell}
-          fill={dayColor(values.get(day.day), domain)}
+          fill={dayColor(values.get(day.day))}
           stroke={borderColor}
           strokeWidth={0.5}
         />
       )),
 
-    [days, values, domain, originX, originY, cell, borderColor]
+    [days, values, originX, originY, cell, borderColor]
   );
 
   return (
@@ -206,16 +196,16 @@ const Calendar = ({ data, year }: Props & { year: string }) => {
           role="list"
           aria-label="Submission count colors"
         >
-          {legend.map((entry, index) => (
+          {heatmapLevels.map((entry, index) => (
             <g
               key={index}
               role="listitem"
-              aria-label={`At least ${entry.value} submissions`}
-              transform={`translate(${width - legend.length * 56 - 5 + index * 56},${HEIGHT - 25})`}
+              aria-label={`${entry.label === "8+" ? "8 or more" : entry.label} submissions`}
+              transform={`translate(${width - heatmapLevels.length * 56 - 5 + index * 56},${HEIGHT - 25})`}
             >
               <rect width={12} height={12} fill={entry.color} />
               <text x={16} y={10}>
-                ≥{entry.value}
+                {entry.label}
               </text>
             </g>
           ))}

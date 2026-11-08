@@ -1,111 +1,274 @@
 import React from "react";
-
-import { ResponsiveCalendar } from "@nivo/calendar";
-import type { CalendarDatum, CalendarTooltipProps } from "@nivo/calendar";
 import { Select } from "antd";
 import { useTheme } from "../../components/ThemeProvider";
+import {
+  calendarDays,
+  dayColor,
+  heatmapLevels,
+  type HeatmapDatum,
+} from "./heatmapUtils";
+import "./Heatmap.css";
 
 interface Props {
-  data: CalendarDatum[];
+  data: HeatmapDatum[];
 }
+const MONTHS = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+const HEIGHT = 300;
 
-const Customtooltip = (x: CalendarTooltipProps) => {
+const Calendar = ({ data, year }: Props & { year: string }) => {
+  const theme = useTheme();
+  const container = React.useRef<HTMLDivElement>(null);
+  const [width, setWidth] = React.useState(850);
+  const [keyboardFocus, setKeyboardFocus] = React.useState(false);
+  const [selection, setSelection] = React.useState<{
+    data: HeatmapDatum[];
+    index: number;
+  }>();
+  const tooltipId = React.useId();
+  const instructionsId = React.useId();
+  React.useLayoutEffect(() => {
+    const element = container.current;
+    if (!element) return;
+    const update = (value: number) => {
+      if (value > 0) setWidth(value);
+    };
+    update(element.getBoundingClientRect().width);
+    const observer = new ResizeObserver(([entry]) =>
+      update(entry.contentRect.width)
+    );
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
+  const days = React.useMemo(() => calendarDays(year), [year]);
+  const values = React.useMemo(() => {
+    const map = new Map<string, number>();
+    for (const point of data)
+      if (!map.has(point.day)) map.set(point.day, point.value);
+    return map;
+  }, [data]);
+  const columns = days[days.length - 1].column + 1;
+  const cell = Math.max(1, Math.min((width - 30) / columns, 245 / 7));
+  const originX = 25 + Math.max(0, (width - 30 - columns * cell) / 2);
+  const originY = 20 + (245 - 7 * cell) / 2;
+  const textColor = theme === "dark" ? "#fff" : "#333";
+  const borderColor = theme === "dark" ? "#333" : "#fff";
+  const selected = selection?.data === data ? days[selection.index] : undefined;
+  const select = (index: number) =>
+    setSelection((previous) =>
+      previous?.data === data && previous.index === index
+        ? previous
+        : { data, index }
+    );
+  const lastActive = () =>
+    Math.max(
+      0,
+      days.findLastIndex((day) => values.has(day.day))
+    );
+  const selectTarget = (event: React.PointerEvent<SVGSVGElement>) => {
+    const target = event.target;
+    const index =
+      target instanceof Element ? target.getAttribute("data-index") : null;
+    if (index !== null) select(Number(index));
+    else setSelection(undefined);
+  };
+  const cells = React.useMemo(
+    () =>
+      days.map((day, index) => (
+        <rect
+          key={day.day}
+          data-day={day.day}
+          data-index={index}
+          data-value={values.get(day.day) ?? 0}
+          x={originX + day.column * cell}
+          y={originY + day.weekday * cell}
+          width={cell}
+          height={cell}
+          fill={dayColor(values.get(day.day))}
+          stroke={borderColor}
+          strokeWidth={0.5}
+        />
+      )),
+
+    [days, values, originX, originY, cell, borderColor]
+  );
+
   return (
-    <React.Fragment>
-      {x.value ? (
+    <div className="heatmap-calendar" ref={container}>
+      <p className="heatmap-instructions" id={instructionsId}>
+        Daily submissions in {year}. Use Up and Down for adjacent days, Left and
+        Right for adjacent weeks, Home or End to jump, and Escape to close the
+        tooltip.
+      </p>
+      <svg
+        className="heatmap-svg"
+        width="100%"
+        height={HEIGHT}
+        viewBox={`0 0 ${width} ${HEIGHT}`}
+        role="img"
+        aria-label={`Submission heatmap for ${year}`}
+        aria-describedby={`${instructionsId}${selected ? ` ${tooltipId}` : ""}`}
+        tabIndex={0}
+        data-keyboard-focus={keyboardFocus}
+        onFocus={() => {
+          setKeyboardFocus(true);
+          select(lastActive());
+        }}
+        onBlur={() => {
+          setKeyboardFocus(false);
+          setSelection(undefined);
+        }}
+        onPointerMove={selectTarget}
+        onPointerDown={(event) => {
+          event.currentTarget.focus();
+          setKeyboardFocus(false);
+          selectTarget(event);
+        }}
+        onPointerLeave={(event) => {
+          if (event.pointerType !== "touch") setSelection(undefined);
+        }}
+        onPointerCancel={() => setSelection(undefined)}
+        onKeyDown={(event) => {
+          const index = selected && selection ? selection.index : lastActive();
+          const next = {
+            ArrowUp: index - 1,
+            ArrowDown: index + 1,
+            ArrowLeft: index - 7,
+            ArrowRight: index + 7,
+            Home: 0,
+            End: days.length - 1,
+          }[event.key];
+          if (next !== undefined) {
+            event.preventDefault();
+            setKeyboardFocus(true);
+            select(Math.max(0, Math.min(days.length - 1, next)));
+          } else if (event.key === "Escape") setSelection(undefined);
+        }}
+      >
+        <title>Daily submission counts in {year}</title>
+        {cells}
+        <g
+          className="heatmap-labels"
+          fill={textColor}
+          pointerEvents="none"
+          aria-hidden="true"
+        >
+          {MONTHS.map((month, index) => {
+            const monthDays = days.filter((day) => day.month === index);
+            const middle =
+              (monthDays[0].column +
+                monthDays[monthDays.length - 1].column +
+                1) /
+              2;
+            return (
+              <text
+                key={month}
+                x={originX + middle * cell}
+                y={originY - 10}
+                textAnchor="middle"
+              >
+                {month}
+              </text>
+            );
+          })}
+          <text
+            transform={`translate(${originX - 10},${originY + cell * 3.5}) rotate(-90)`}
+            textAnchor="middle"
+          >
+            {year}
+          </text>
+        </g>
+        <g
+          className="heatmap-legend"
+          fill={textColor}
+          role="list"
+          aria-label="Submission count colors"
+        >
+          {heatmapLevels.map((entry, index) => (
+            <g
+              key={index}
+              role="listitem"
+              aria-label={`${entry.label === "8+" ? "8 or more" : entry.label} submissions`}
+              transform={`translate(${width - heatmapLevels.length * 56 - 5 + index * 56},${HEIGHT - 25})`}
+            >
+              <rect width={12} height={12} fill={entry.color} />
+              <text x={16} y={10}>
+                {entry.label}
+              </text>
+            </g>
+          ))}
+        </g>
+        {selected && (
+          <rect
+            className="heatmap-selected"
+            x={originX + selected.column * cell}
+            y={originY + selected.weekday * cell}
+            width={cell}
+            height={cell}
+          />
+        )}
+      </svg>
+      {selected && (
         <div
+          id={tooltipId}
+          className="heatmap-tooltip"
+          role="tooltip"
           style={{
-            background: "black",
-            color: "white",
-            padding: "8px",
-            borderRadius: "10px",
-            textAlign: "center",
+            left: Math.max(
+              4,
+              Math.min(originX + (selected.column + 1) * cell, width - 150)
+            ),
+            top: Math.max(4, originY + selected.weekday * cell - 60),
           }}
         >
-          {x.day}
-          <br />
-          {x.value} submissions
+          <div>{selected.day}</div>
+          <div>{values.get(selected.day) ?? 0} submissions</div>
         </div>
-      ) : null}
-    </React.Fragment>
+      )}
+    </div>
   );
 };
 
-interface CalendarProps {
-  data: CalendarDatum[];
-  year: string;
-}
-
-const MyResponsiveCalendar = (props: CalendarProps) => {
-  const theme = useTheme();
-
-  return (
-    <ResponsiveCalendar
-      data={props.data}
-      from={props.year + "-01-01"}
-      to={props.year + "-12-31"}
-      emptyColor="#ebedf0"
-      colors={["#C6E48B", "#7BC96F", "#239A3B", "#196127"]}
-      minValue="auto"
-      theme={{ text: { fill: theme === "dark" ? "#fff" : "#333" } }}
-      margin={{ top: 5, right: 5, bottom: 5, left: 25 }}
-      yearSpacing={45}
-      dayBorderWidth={0.5}
-      dayBorderColor={theme === "dark" ? "#333" : "#fff"}
-      monthBorderWidth={0}
-      tooltip={Customtooltip}
-      legends={[
-        {
-          anchor: "bottom-right",
-          direction: "row",
-          translateY: 36,
-          itemCount: 4,
-          itemWidth: 42,
-          itemHeight: 36,
-          itemsSpacing: 14,
-          itemDirection: "right-to-left",
-        },
-      ]}
-    />
-  );
-};
-
-const Heatmap: React.FunctionComponent<Props> = (props: Props) => {
-  const years = [...new Set(props.data.map((x) => x.day.slice(0, 4)))]
+const Heatmap: React.FunctionComponent<Props> = ({ data }) => {
+  const years = [...new Set(data.map((point) => point.day.slice(0, 4)))]
     .sort()
     .reverse();
   const [selectedYear, setSelectYear] = React.useState<string>();
-  const selectYear =
+  const year =
     selectedYear && years.includes(selectedYear) ? selectedYear : years[0];
-
   return (
-    <React.Fragment>
+    <>
       <h3>Heatmap</h3>
       <hr />
-
-      {selectYear ? (
-        <div style={{ height: 300, marginBottom: 50 }}>
-          <div style={{ textAlign: "right", paddingTop: "20px" }}>
-            {years.length > 0 && (
-              <Select
-                aria-label="Heatmap year"
-                value={selectYear}
-                style={{ width: 150, textAlign: "left" }}
-                options={years.map((year) => ({ value: year, label: year }))}
-                onChange={(value) => {
-                  setSelectYear(value);
-                }}
-              />
-            )}
+      {year ? (
+        <div className="heatmap">
+          <div className="heatmap-controls">
+            <Select
+              aria-label="Heatmap year"
+              value={year}
+              style={{ width: 150, textAlign: "left" }}
+              options={years.map((value) => ({ value, label: value }))}
+              onChange={setSelectYear}
+            />
           </div>
-
-          <MyResponsiveCalendar data={props.data} year={selectYear} />
+          <Calendar key={year} data={data} year={year} />
         </div>
       ) : (
         <p>No submissions yet.</p>
       )}
-    </React.Fragment>
+    </>
   );
 };
-
 export default Heatmap;

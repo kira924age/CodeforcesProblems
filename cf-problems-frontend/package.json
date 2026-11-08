@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^6.3.4",
-    "@nivo/calendar": "0.99.0",
-    "@nivo/core": "0.99.0",
     "antd": "^6.7.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",

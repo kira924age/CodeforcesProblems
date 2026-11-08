@@ -34,7 +34,7 @@ test("handles an empty submission history without rendering an invalid date rang
 });
 
 test("defaults to the latest year and updates the real calendar when selecting another year", async () => {
-  const { container } = render(<Heatmap data={data} />);
+  render(<Heatmap data={data} />);
   expect(
     screen.getByText("2026", { selector: "svg text" })
   ).toBeInTheDocument();
@@ -64,7 +64,7 @@ test.each([
 });
 
 test("uses a valid year after the user history changes", () => {
-  const { container, rerender } = render(<Heatmap data={data} />);
+  const { rerender } = render(<Heatmap data={data} />);
   rerender(<Heatmap data={[{ day: "2024-01-02", value: 1 }]} />);
   expect(
     screen.getByText("2024", { selector: "svg text" })

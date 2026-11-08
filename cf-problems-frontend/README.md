@@ -21,6 +21,7 @@ installation is not required. The former `start` script has been removed.
 ```sh
 npm test
 npm run format:check
+npm run lint
 npm run build
 npm run preview
 ```
@@ -42,6 +43,18 @@ live in the `fmt` section of `vite.config.mts`. The existing 80-column width and
 ES5 trailing commas are retained; imports and package fields are not reordered.
 Tracked legacy `build/` files, generated `src/utils/contests.json`, and the npm
 lockfile are excluded. PR CI checks formatting as well as tests and the build.
+
+## Linting
+
+```sh
+npm run lint
+npm run lint:fix
+```
+
+Linting uses Vite Plus's Oxlint with type-aware rules and type checks enabled
+in `vite.config.mts`. CI runs `npm run lint` and rejects both errors and warnings.
+`npm run lint:fix` applies available safe fixes; remaining issues need manual
+changes. Generated `build/` files are excluded from linting.
 
 ## Deployment compatibility
 

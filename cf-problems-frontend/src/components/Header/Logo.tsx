@@ -3,7 +3,7 @@ import "./Logo.css";
 
 import { Link } from "react-router-dom";
 
-const Logo: React.FunctionComponent = (props) => {
+const Logo: React.FunctionComponent = () => {
   return (
     <h1 id="logo">
       <Link to="/table">Codeforces Problems</Link>

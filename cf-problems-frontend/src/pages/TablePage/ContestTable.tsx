@@ -38,9 +38,7 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
     }
 
     const getUserSubmissions = async () => {
-      const [userSubmission] = await Promise.all([
-        cachedUserSubmissions(String(props.userId)),
-      ]);
+      const userSubmission = await cachedUserSubmissions(String(props.userId));
 
       if (isMounted) {
         if (userSubmission === null) {

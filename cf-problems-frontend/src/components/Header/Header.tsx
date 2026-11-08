@@ -55,8 +55,8 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
 
   const navigate = useNavigate();
 
-  const handleEnter = (e: React.FormEvent<HTMLInputElement>) => {
-    navigate("/" + props.location + "/" + userId);
+  const handleEnter = () => {
+    void navigate("/" + props.location + "/" + userId);
   };
 
   const toggleIsOpen = () => {

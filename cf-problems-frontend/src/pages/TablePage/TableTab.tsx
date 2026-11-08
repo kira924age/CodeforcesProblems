@@ -33,14 +33,14 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
             <Switch
               size="small"
               defaultChecked
-              onChange={(e) => {
+              onChange={() => {
                 setIsShowDifficulty(!isShowDifficulty);
               }}
             />
           ) : (
             <Switch
               size="small"
-              onChange={(e) => {
+              onChange={() => {
                 setIsShowDifficulty(!isShowDifficulty);
               }}
             />
@@ -54,14 +54,14 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
             <Switch
               size="small"
               defaultChecked
-              onChange={(e) => {
+              onChange={() => {
                 setIsReverseOrder(!isReverseOrder);
               }}
             />
           ) : (
             <Switch
               size="small"
-              onChange={(e) => {
+              onChange={() => {
                 setIsReverseOrder(!isReverseOrder);
               }}
             />

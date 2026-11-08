@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
     ignorePatterns: [
       "build/**",
       "src/utils/contests.json",
-      "package-lock.json",
+      "pnpm-lock.yaml",
       ".bundle-analysis/**",
     ],
   },

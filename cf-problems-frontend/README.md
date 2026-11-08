@@ -145,3 +145,11 @@ comment job does not check out or execute application code. Fork PRs receive the
 summary/artifact only because their tokens cannot post comments. Reports are
 informational and do not block merging. Sizes cover all generated chunks, not
 just the initial page transfer. No compressed sizes are measured.
+
+## Native table bundle results
+
+Both the submission list and contest list use native HTML tables with Ant Design
+Pagination. Contest cells are generated only for the visible page. The final
+JS/CSS output decreased by 206,410 bytes (201.57 KiB, 8.67%) compared with both
+Ant Tables. See the [measurement and verification report](../docs/native-table-bundle-report.md)
+for commit-by-commit sizes, analyzer attribution, behavior checks, and reproduction steps.

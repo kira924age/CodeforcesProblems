@@ -3,7 +3,6 @@ import Hamburger from "./Hamburger";
 import Logo from "./Logo";
 import ThemeToggler from "./ThemeToggler";
 import { Row, Col } from "antd";
-import { Input, Button } from "antd";
 import { Link, useNavigate } from "react-router";
 
 import "./Header.css";
@@ -54,9 +53,21 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
   };
 
   const navigate = useNavigate();
+  const isComposing = React.useRef(false);
 
   const handleEnter = () => {
     void navigate("/" + props.location + "/" + userId);
+  };
+
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (
+      event.key === "Enter" &&
+      !isComposing.current &&
+      !event.nativeEvent.isComposing &&
+      event.keyCode !== 229
+    ) {
+      handleEnter();
+    }
   };
 
   const toggleIsOpen = () => {
@@ -71,23 +82,43 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
         </Col>
         <Col {...colProps[1]} className="menu-row" style={{ display: "flex" }}>
           <div id="input-box">
-            <Input
+            <input
+              className="header-input"
+              type="text"
               placeholder="Codeforces ID"
               value={userId}
               onChange={handleChange}
-              onPressEnter={handleEnter}
+              onKeyDown={handleKeyDown}
+              onCompositionStart={() => {
+                isComposing.current = true;
+              }}
+              onCompositionEnd={() => {
+                isComposing.current = false;
+              }}
             />
 
             <Link to={"/table/" + userId} replace>
-              <Button>Table</Button>
+              <button type="button" className="header-button">
+                Table
+              </button>
             </Link>
             {userId === "" ? (
-              <Link to={"/user/" + userId} replace>
-                <Button disabled>User</Button>
+              <Link
+                to={"/user/" + userId}
+                replace
+                aria-disabled="true"
+                tabIndex={-1}
+                onClick={(event) => event.preventDefault()}
+              >
+                <button type="button" className="header-button" disabled>
+                  User
+                </button>
               </Link>
             ) : (
               <Link to={"/user/" + userId} replace>
-                <Button>User</Button>
+                <button type="button" className="header-button">
+                  User
+                </button>
               </Link>
             )}
           </div>
@@ -100,22 +131,42 @@ const Header: React.FunctionComponent<Props> = (props: Props) => {
       {isOpen && (
         <div id="mobile-menu" className="mobile-menu">
           <div id="input-box">
-            <Input
+            <input
+              className="header-input"
+              type="text"
               placeholder="Codeforces ID"
               value={userId}
               onChange={handleChange}
-              onPressEnter={handleEnter}
+              onKeyDown={handleKeyDown}
+              onCompositionStart={() => {
+                isComposing.current = true;
+              }}
+              onCompositionEnd={() => {
+                isComposing.current = false;
+              }}
             />
             <Link to={"/table/" + userId} replace>
-              <Button>Table</Button>
+              <button type="button" className="header-button">
+                Table
+              </button>
             </Link>
             {userId === "" ? (
-              <Link to={"/user/" + userId} replace>
-                <Button disabled>User</Button>
+              <Link
+                to={"/user/" + userId}
+                replace
+                aria-disabled="true"
+                tabIndex={-1}
+                onClick={(event) => event.preventDefault()}
+              >
+                <button type="button" className="header-button" disabled>
+                  User
+                </button>
               </Link>
             ) : (
               <Link to={"/user/" + userId} replace>
-                <Button>User</Button>
+                <button type="button" className="header-button">
+                  User
+                </button>
               </Link>
             )}
           </div>

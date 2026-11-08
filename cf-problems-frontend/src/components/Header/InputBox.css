@@ -40,3 +40,53 @@
   border-color: #484f58;
   color: #c9d1d9;
 }
+
+#input-box .header-input,
+#input-box .header-button {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#input-box .header-input {
+  display: block;
+  line-height: 1.5714285714;
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+#input-box .header-input:focus {
+  box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+}
+
+#input-box .header-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  line-height: 1.15;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+
+#input-box .header-button:focus-visible {
+  outline: 3px solid #91d5ff;
+  outline-offset: 1px;
+}
+
+#input-box .header-button:disabled {
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.theme-dark #input-box .header-input:focus {
+  box-shadow: 0 0 0 2px rgba(23, 139, 249, 0.31);
+}
+
+.theme-dark #input-box .header-button:focus-visible {
+  outline-color: #15395b;
+}

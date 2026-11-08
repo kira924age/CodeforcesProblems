@@ -78,13 +78,6 @@
   background: #fff;
 }
 
-.submission-pagination.ant-pagination {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 8px;
-  margin: 16px 0;
-}
-
 .theme-dark .submission-table,
 .theme-dark .submission-table th,
 .theme-dark .submission-table td,

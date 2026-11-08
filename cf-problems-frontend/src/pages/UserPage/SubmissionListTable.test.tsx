@@ -95,22 +95,18 @@ test("moves between pages and renders only the requested page in the original or
   ).toBeInTheDocument();
 });
 
-test("keeps the 10/20/50/100 size choices and changes page size through Ant Design Pagination", async () => {
+test("keeps the 10/20/50/100 size choices and changes page size through the shared Radix Pagination", async () => {
   render(<SubmissionListTable submission={history(67)} />);
   fireEvent.click(screen.getByRole("button", { name: "Next Page" }));
-  fireEvent.mouseDown(screen.getByRole("combobox", { name: "Page Size" }));
+  fireEvent.keyDown(screen.getByRole("combobox", { name: "Page Size" }), {
+    key: "ArrowDown",
+  });
   for (const size of [10, 20, 50, 100]) {
     expect(
-      await screen.findByText(`${size} / page`, {
-        selector: ".ant-select-item-option-content",
-      })
+      await screen.findByRole("option", { name: `${size} / page` })
     ).toBeInTheDocument();
   }
-  fireEvent.click(
-    screen.getByText("20 / page", {
-      selector: ".ant-select-item-option-content",
-    })
-  );
+  fireEvent.click(screen.getByRole("option", { name: "20 / page" }));
   expect(rows()).toHaveLength(21);
   // rc-pagination preserves page 2 when increasing the size.
   expect(
@@ -182,4 +178,24 @@ test("preserves missing and unfamiliar verdicts and unrated problems", () => {
     <SubmissionListTable submission={[{ ...entry, verdict: "TESTING" }]} />
   );
   expect(screen.getByText("TESTING")).toBeInTheDocument();
+});
+
+test("does not use or overwrite the contest size setting and resets the submission page size after remount", async () => {
+  localStorage.setItem("pageSize", "150");
+  const { unmount } = render(<SubmissionListTable submission={history(67)} />);
+  expect(rows()).toHaveLength(11);
+  fireEvent.keyDown(screen.getByRole("combobox", { name: "Page Size" }), {
+    key: "ArrowDown",
+  });
+  fireEvent.click(await screen.findByRole("option", { name: "20 / page" }));
+  expect(rows()).toHaveLength(21);
+  expect(localStorage.getItem("pageSize")).toBe("150");
+  unmount();
+  render(<SubmissionListTable submission={history(67)} />);
+  expect(rows()).toHaveLength(11);
+  expect(screen.getByRole("button", { name: "Page 1" })).toHaveAttribute(
+    "aria-current",
+    "page"
+  );
+  localStorage.removeItem("pageSize");
 });

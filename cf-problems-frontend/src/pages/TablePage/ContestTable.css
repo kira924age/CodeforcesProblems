@@ -63,12 +63,6 @@
 .contest-table .contest-table-empty:hover > td {
   background: #fff;
 }
-.contest-pagination.ant-pagination {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 8px;
-  margin: 16px 0;
-}
 .theme-dark .contest-table,
 .theme-dark .contest-table th,
 .theme-dark .contest-table td,

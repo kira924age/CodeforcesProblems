@@ -100,18 +100,14 @@ test("uses the saved size and persists changes including the 150-row option", as
   localStorage.setItem("pageSize", "20");
   render(<ContestTable {...props} />);
   expect(rows()).toHaveLength(21);
-  fireEvent.mouseDown(screen.getByRole("combobox", { name: "Page Size" }));
+  fireEvent.keyDown(screen.getByRole("combobox", { name: "Page Size" }), {
+    key: "ArrowDown",
+  });
   for (const size of [10, 20, 50, 100, 150])
     expect(
-      await screen.findByText(`${size} / page`, {
-        selector: ".ant-select-item-option-content",
-      })
+      await screen.findByRole("option", { name: `${size} / page` })
     ).toBeInTheDocument();
-  fireEvent.click(
-    screen.getByText("150 / page", {
-      selector: ".ant-select-item-option-content",
-    })
-  );
+  fireEvent.click(screen.getByRole("option", { name: "150 / page" }));
   expect(rows()).toHaveLength(151);
   expect(localStorage.getItem("pageSize")).toBe("150");
 });
@@ -172,4 +168,27 @@ test("preserves empty results and submission fetch failure display", async () =>
   expect(
     within(rows()[1] as HTMLElement).getByRole("link", { name: "Round 1" })
   ).toBeInTheDocument();
+});
+
+test("restores the saved size after remount and keeps the previous requested page after category changes", () => {
+  localStorage.setItem("pageSize", "20");
+  const { rerender, unmount } = render(<ContestTable {...props} />);
+  fireEvent.click(screen.getByRole("button", { name: "Page 3" }));
+  rerender(<ContestTable {...props} name="Div. 1 Contests" />);
+  expect(screen.getByRole("button", { name: "Page 1" })).toHaveAttribute(
+    "aria-current",
+    "page"
+  );
+  rerender(<ContestTable {...props} />);
+  expect(screen.getByRole("button", { name: "Page 3" })).toHaveAttribute(
+    "aria-current",
+    "page"
+  );
+  unmount();
+  render(<ContestTable {...props} />);
+  expect(rows()).toHaveLength(21);
+  expect(screen.getByRole("button", { name: "Page 1" })).toHaveAttribute(
+    "aria-current",
+    "page"
+  );
 });

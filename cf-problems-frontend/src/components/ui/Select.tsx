@@ -6,9 +6,16 @@ type Props = {
   value: string;
   options: string[];
   onValueChange: (value: string) => void;
+  getOptionLabel?: (value: string) => string;
 };
 
-const Select = ({ label, value, options, onValueChange }: Props) => (
+const Select = ({
+  label,
+  value,
+  options,
+  onValueChange,
+  getOptionLabel,
+}: Props) => (
   <Primitive.Root value={value} onValueChange={onValueChange}>
     <Primitive.Trigger className="ui-select" aria-label={label}>
       <Primitive.Value />
@@ -38,7 +45,9 @@ const Select = ({ label, value, options, onValueChange }: Props) => (
               value={option}
               key={option}
             >
-              <Primitive.ItemText>{option}</Primitive.ItemText>
+              <Primitive.ItemText>
+                {getOptionLabel ? getOptionLabel(option) : option}
+              </Primitive.ItemText>
             </Primitive.Item>
           ))}
         </Primitive.Viewport>

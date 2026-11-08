@@ -153,3 +153,14 @@ Pagination. Contest cells are generated only for the visible page. The final
 JS/CSS output decreased by 206,410 bytes (201.57 KiB, 8.67%) compared with both
 Ant Tables. See the [measurement and verification report](../docs/native-table-bundle-report.md)
 for commit-by-commit sizes, analyzer attribution, behavior checks, and reproduction steps.
+
+## Submission heatmap
+
+Heatmap uses a responsive SVG calendar with no calendar/charting dependency.
+Year selection still uses Ant Design Select. It counts all submissions per local
+calendar day, independently of the first-AC statistics used by Climbing.
+Colors retain the four-step green palette, with thresholds based on the minimum
+and maximum daily counts across the entire history, not just the selected year.
+Hover or tap a day to see its date and submission count. Focus the calendar and
+use Up/Down for adjacent days, Left/Right for adjacent weeks, Home/End for year
+boundaries, and Escape to dismiss the tooltip. Empty days show zero submissions.

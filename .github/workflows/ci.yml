@@ -57,8 +57,13 @@ jobs:
         if: github.event_name == 'pull_request'
         working-directory: _base/cf-problems-frontend
         run: |
-          npm ci
-          npm run build --manifest
+          if [ -f pnpm-lock.yaml ]; then
+            pnpm install --frozen-lockfile
+            pnpm run build --manifest
+          else
+            npm ci
+            npm run build -- --manifest
+          fi
       - name: Compare bundle sizes
         if: github.event_name == 'pull_request'
         env:

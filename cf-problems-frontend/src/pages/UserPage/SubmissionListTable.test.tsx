@@ -2,11 +2,15 @@ import React from "react";
 import {
   cleanup,
   fireEvent,
-  render,
+  render as renderWithoutProvider,
   screen,
   within,
 } from "@testing-library/react";
 import SubmissionListTable from "./SubmissionListTable";
+
+import { TooltipProvider } from "../../components/ui/Tooltip";
+const render = (ui: React.ReactElement) =>
+  renderWithoutProvider(ui, { wrapper: TooltipProvider });
 
 beforeAll(() => {
   Object.defineProperty(window, "matchMedia", {

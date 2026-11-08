@@ -2,11 +2,14 @@ import React from "react";
 import {
   cleanup,
   fireEvent,
-  render,
+  render as renderWithoutProvider,
   screen,
   within,
 } from "@testing-library/react";
 import Achievement from "./Achievement";
+import { TooltipProvider } from "../../components/ui/Tooltip";
+const render = (ui: React.ReactElement) =>
+  renderWithoutProvider(ui, { wrapper: TooltipProvider });
 
 afterEach(cleanup);
 const props = {
@@ -61,7 +64,7 @@ test("retains the question marker and its explanation tooltip", async () => {
   });
   expect(marker.tagName).toBe("SPAN");
   expect(marker).toHaveTextContent("?");
-  fireEvent.mouseEnter(marker);
+  fireEvent.focus(marker.closest(".ui-tooltip-trigger")!);
   const tooltip = await screen.findByRole("tooltip");
   expect(tooltip).toHaveTextContent(
     "Counts and streaks use the first AC of each problem in your local time."

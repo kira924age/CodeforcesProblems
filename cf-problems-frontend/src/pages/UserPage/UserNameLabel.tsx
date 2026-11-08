@@ -1,6 +1,6 @@
 import React from "react";
 import { getRatingColorClass } from "../../utils/colors";
-import { Tooltip } from "antd";
+import Tooltip from "../../components/ui/Tooltip";
 
 import TopcoderLikeCircle from "../../components/TopcoderLikeCircle";
 
@@ -13,13 +13,13 @@ const UserNameLabel: React.FunctionComponent<Props> = (props: Props) => {
   const c = getRatingColorClass(props.rating);
   const userRatingCircle =
     props.rating === undefined ? (
-      <Tooltip title="Unrated" color="black">
+      <Tooltip title="Unrated">
         <div className="difficulty-unavailable-circle">
           <span className="big-difficulty-circle"></span>
         </div>
       </Tooltip>
     ) : (
-      <Tooltip title={"Rating: " + String(props.rating)} color="black">
+      <Tooltip title={"Rating: " + String(props.rating)}>
         <TopcoderLikeCircle rating={props.rating} big={true} />{" "}
       </Tooltip>
     );

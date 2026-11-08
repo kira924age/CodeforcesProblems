@@ -2,7 +2,7 @@ import React from "react";
 import {
   cleanup,
   fireEvent,
-  render,
+  render as renderWithoutProvider,
   screen,
   within,
   waitFor,
@@ -10,6 +10,10 @@ import {
 import ContestTable from "./ContestTable";
 import * as utils from "./contestTableUtils";
 import { cachedUserSubmissions } from "../../utils/TypedCachedApiClient";
+
+import { TooltipProvider } from "../../components/ui/Tooltip";
+const render = (ui: React.ReactElement) =>
+  renderWithoutProvider(ui, { wrapper: TooltipProvider });
 
 const contests = vi.hoisted(() => [
   ...Array.from({ length: 170 }, (_, i) => ({

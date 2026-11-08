@@ -1,0 +1,26 @@
+.ui-tooltip-trigger:focus-visible {
+  outline: 2px solid #1890ff;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+.ui-tooltip {
+  box-sizing: border-box;
+  z-index: 1070;
+  max-width: min(250px, calc(100vw - 16px));
+  padding: 6px 8px;
+  border-radius: 2px;
+  background: #000;
+  color: #fff;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: start;
+  overflow-wrap: break-word;
+}
+.ui-tooltip-arrow {
+  fill: #000;
+}

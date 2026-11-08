@@ -1,5 +1,5 @@
 import React from "react";
-import { Select } from "antd";
+import Select from "../../components/ui/Select";
 import { useTheme } from "../../components/ThemeProvider";
 import {
   calendarDays,
@@ -256,11 +256,10 @@ const Heatmap: React.FunctionComponent<Props> = ({ data }) => {
         <div className="heatmap">
           <div className="heatmap-controls">
             <Select
-              aria-label="Heatmap year"
+              label="Heatmap year"
               value={year}
-              style={{ width: 150, textAlign: "left" }}
-              options={years.map((value) => ({ value, label: value }))}
-              onChange={setSelectYear}
+              options={years}
+              onValueChange={setSelectYear}
             />
           </div>
           <Calendar key={year} data={data} year={year} />

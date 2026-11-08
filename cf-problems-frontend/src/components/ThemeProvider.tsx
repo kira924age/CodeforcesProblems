@@ -1,5 +1,6 @@
 import React from "react";
 import { ConfigProvider, theme } from "antd";
+import { TooltipProvider } from "./ui/Tooltip";
 import { useLocalStorage } from "../utils/localStorage";
 
 type ThemeId = "light" | "dark" | "purple";
@@ -36,15 +37,17 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = (
 
   return (
     <ThemeContext.Provider value={[themeId, setThemeId]}>
-      <ConfigProvider
-        theme={{
-          algorithm:
-            themeId === "dark" ? theme.darkAlgorithm : theme.defaultAlgorithm,
-          token: { borderRadius: 2, colorPrimary: "#1890ff" },
-        }}
-      >
-        {props.children}
-      </ConfigProvider>
+      <TooltipProvider>
+        <ConfigProvider
+          theme={{
+            algorithm:
+              themeId === "dark" ? theme.darkAlgorithm : theme.defaultAlgorithm,
+            token: { borderRadius: 2, colorPrimary: "#1890ff" },
+          }}
+        >
+          {props.children}
+        </ConfigProvider>
+      </TooltipProvider>
     </ThemeContext.Provider>
   );
 };

@@ -1,0 +1,36 @@
+.climbing-chart {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.climbing-chart canvas {
+  font-family: inherit;
+}
+.climbing-chart canvas:focus-visible {
+  outline: 2px solid #1890ff;
+  outline-offset: 2px;
+}
+.climbing-tooltip-position {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+.climbing-tooltip {
+  margin: 0;
+  padding: 10px;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+}
+.climbing-tooltip p {
+  margin: 0;
+}
+.climbing-tooltip-total {
+  padding: 4px 0;
+  color: #8884d8;
+}
+.climbing-tooltip hr {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}

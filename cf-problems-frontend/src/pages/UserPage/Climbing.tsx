@@ -1,79 +1,155 @@
 import React from "react";
 import {
-  AreaChart,
-  Area,
-  XAxis,
-  YAxis,
-  CartesianGrid,
+  Chart,
+  LineController,
+  LineElement,
+  PointElement,
+  LinearScale,
+  Filler,
   Tooltip,
-  ResponsiveContainer,
-} from "recharts";
-
-import { ratingColors, getRatingColorCode } from "../../utils/colors";
-
+} from "chart.js";
 import { CustomTooltip } from "./CustomTooltip";
-import { formatDate } from "../../utils/formatDate";
+import {
+  climbingChartConfig,
+  pointTotal,
+  type SolvedHistoryPoint,
+  type TooltipPosition,
+} from "./climbingChartConfig";
+import "./Climbing.css";
 
-interface Props {
-  solvedHistory: object[];
-}
+Chart.register(
+  LineController,
+  LineElement,
+  PointElement,
+  LinearScale,
+  Filler,
+  Tooltip
+);
 
-const ClimbingChart: React.FunctionComponent<Props> = (props) => {
-  return (
-    <ResponsiveContainer width="100%" height={300}>
-      <AreaChart
-        data={props.solvedHistory}
-        margin={{
-          top: 5,
-          right: 30,
-          left: 20,
-          bottom: 5,
-        }}
-      >
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis
-          dataKey="dateSecond"
-          domain={["dataMin", "dataMax"]}
-          type="number"
-          tickFormatter={(dateSecond: number): string => formatDate(dateSecond)}
-        />
+type Props = { solvedHistory: SolvedHistoryPoint[] };
+type Selection = TooltipPosition & { history: SolvedHistoryPoint[] };
 
-        <YAxis />
-        <Tooltip
-          content={(tooltipProps) => <CustomTooltip {...tooltipProps} />}
-        />
+const Climbing = ({ solvedHistory }: Props) => {
+  const canvasRef = React.useRef<HTMLCanvasElement>(null);
+  const chartRef = React.useRef<Chart<"line"> | null>(null);
+  const tooltipRef = React.useRef<HTMLDivElement>(null);
+  const selectedIndex = React.useRef<number | null>(null);
+  const [selection, setSelection] = React.useState<Selection | null>(null);
+  const active = selection?.history === solvedHistory ? selection : null;
 
-        {ratingColors.map((ratingColor) => {
-          const colorCode: string = getRatingColorCode(ratingColor);
-          return (
-            <Area
-              type="linear"
-              isAnimationActive={false}
-              key={ratingColor}
-              dataKey={ratingColor === "Black" ? "Other" : ratingColor}
-              stackId="1"
-              stroke={colorCode}
-              fill={colorCode}
-            />
+  React.useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    selectedIndex.current = null;
+    const chart = new Chart(
+      canvas,
+      climbingChartConfig(
+        solvedHistory,
+        (position) => {
+          selectedIndex.current = position?.index ?? null;
+          setSelection(
+            position ? { ...position, history: solvedHistory } : null
           );
-        })}
-      </AreaChart>
-    </ResponsiveContainer>
-  );
-};
+        },
+        getComputedStyle(canvas).fontFamily
+      )
+    );
+    chartRef.current = chart;
+    return () => {
+      chartRef.current = null;
+      chart.destroy();
+    };
+  }, [solvedHistory]);
 
-interface Props {
-  solvedHistory: object[];
-}
+  React.useLayoutEffect(() => {
+    const tooltip = tooltipRef.current;
+    const parent = tooltip?.parentElement;
+    if (!tooltip || !parent || !active) return;
+    tooltip.style.left = `${Math.max(0, Math.min(active.x + 10, parent.clientWidth - tooltip.offsetWidth))}px`;
+    tooltip.style.top = `${Math.max(0, Math.min(active.y, parent.clientHeight - tooltip.offsetHeight))}px`;
+  }, [active]);
 
-const Climbing: React.FunctionComponent<Props> = (props: Props) => {
+  const select = (index: number | null) => {
+    const chart = chartRef.current;
+    if (!chart) return;
+    const point = index === null ? undefined : solvedHistory[index];
+    const elements = point
+      ? chart.data.datasets.map((_, datasetIndex) => ({
+          datasetIndex,
+          index: index!,
+        }))
+      : [];
+    const position = point
+      ? {
+          x: chart.scales.x.getPixelForValue(point.dateSecond),
+          y: chart.scales.y.getPixelForValue(pointTotal(point)),
+        }
+      : { x: 0, y: 0 };
+    chart.setActiveElements(elements);
+    chart.tooltip?.setActiveElements(elements, position);
+    chart.update("none");
+    if (!point) {
+      selectedIndex.current = null;
+      setSelection(null);
+    }
+  };
+
   return (
-    <React.Fragment>
+    <>
       <h3>Climbing</h3>
       <hr />
-      <ClimbingChart solvedHistory={props.solvedHistory} />
-    </React.Fragment>
+      <div className="climbing-chart">
+        <canvas
+          ref={canvasRef}
+          role="application"
+          aria-label="Climbing: cumulative solved problems. Use left and right arrow keys to explore."
+          tabIndex={0}
+          onFocus={() => {
+            if (selectedIndex.current === null && solvedHistory.length)
+              select(0);
+          }}
+          onBlur={() => select(null)}
+          onKeyDown={(event) => {
+            if (
+              !["ArrowLeft", "ArrowRight", "Home", "End", "Escape"].includes(
+                event.key
+              )
+            )
+              return;
+            event.preventDefault();
+            if (event.key === "Escape") {
+              select(null);
+              return;
+            }
+            if (!solvedHistory.length) return;
+            const index = selectedIndex.current ?? 0;
+            select(
+              event.key === "Home"
+                ? 0
+                : event.key === "End"
+                  ? solvedHistory.length - 1
+                  : Math.max(
+                      0,
+                      Math.min(
+                        solvedHistory.length - 1,
+                        index + (event.key === "ArrowLeft" ? -1 : 1)
+                      )
+                    )
+            );
+          }}
+        />
+        {active && solvedHistory[active.index] && (
+          <div
+            ref={tooltipRef}
+            className="climbing-tooltip-position"
+            role="status"
+            aria-live="polite"
+          >
+            <CustomTooltip point={solvedHistory[active.index]} />
+          </div>
+        )}
+      </div>
+    </>
   );
 };
-
 export default Climbing;

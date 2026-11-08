@@ -34,7 +34,7 @@
     "jsdom": "^27.0.0",
     "rollup-plugin-visualizer": "7.1.2",
     "sass": "^1.32.8",
-    "typescript": "~5.9.3",
+    "typescript": "7.0.2",
     "vite": "npm:@voidzero-dev/vite-plus-core@1.5.0",
     "vite-plus": "1.5.0"
   },

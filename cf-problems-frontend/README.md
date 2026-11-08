@@ -165,3 +165,11 @@ new high-count days are added.
 Hover or tap a day to see its date and submission count. Focus the calendar and
 use Up/Down for adjacent days, Left/Right for adjacent weeks, Home/End for year
 boundaries, and Escape to dismiss the tooltip. Empty days show zero submissions.
+
+## Header controls
+
+The header uses native HTML inputs and buttons. Table/User links retain history
+replacement, while Enter in the username input navigates within the current
+page type and adds a history entry. Browser back/forward keeps the input in sync.
+IME composition Enter does not navigate. User is disabled when the handle is empty.
+Desktop and mobile controls share the input value and preserve their existing styling.

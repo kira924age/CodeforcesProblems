@@ -144,7 +144,12 @@ test("handles empty and single-point histories without invalid axes or selection
     min: dateSecond - 43200,
     max: dateSecond + 43200,
   });
-  expect(config.data.datasets[0].pointRadius).toBe(3);
+  const radius = config.data.datasets[0].pointRadius;
+  expect(typeof radius).toBe("function");
+  if (typeof radius === "function") {
+    expect(radius({ parsed: { y: 0 } } as never, {} as never)).toBe(0);
+    expect(radius({ parsed: { y: 1 } } as never, {} as never)).toBe(3);
+  }
 });
 
 test("shows nonzero counts in reverse stack order including Other", () => {
@@ -154,4 +159,38 @@ test("shows nonzero counts in reverse stack order including Other", () => {
   expect(screen.getByText("Other : 1")).toHaveStyle({ color: "#000000" });
   expect(container.textContent).toMatch(/Other : 1Grey : 2Green : 3/);
   expect(screen.queryByText("Red : 0")).not.toBeInTheDocument();
+});
+
+test("hides zero-count outlines and hover dots while retaining the first positive segment", () => {
+  const dataset = climbingChartConfig(history, vi.fn(), "sans-serif").data
+    .datasets[0];
+  const segment = dataset.segment;
+  const border = typeof segment === "object" ? segment.borderColor : undefined;
+  expect(typeof border).toBe("function");
+  if (typeof border === "function") {
+    expect(
+      border(
+        { p0: { parsed: { y: 0 } }, p1: { parsed: { y: 0 } } } as never,
+        {} as never
+      )
+    ).toBe("transparent");
+    expect(
+      border(
+        { p0: { parsed: { y: 0 } }, p1: { parsed: { y: 1 } } } as never,
+        {} as never
+      )
+    ).toBe("#FF0000");
+    expect(
+      border(
+        { p0: { parsed: { y: 1 } }, p1: { parsed: { y: 2 } } } as never,
+        {} as never
+      )
+    ).toBe("#FF0000");
+  }
+  const radius = dataset.pointHoverRadius;
+  expect(typeof radius).toBe("function");
+  if (typeof radius === "function") {
+    expect(radius({ parsed: { y: 0 } } as never, {} as never)).toBe(0);
+    expect(radius({ parsed: { y: 1 } } as never, {} as never)).toBe(4);
+  }
 });

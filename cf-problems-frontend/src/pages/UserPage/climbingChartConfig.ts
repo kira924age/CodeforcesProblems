@@ -74,10 +74,18 @@ export const climbingChartConfig = (
         borderColor: getRatingColorCode(color),
         backgroundColor: `${getRatingColorCode(color)}99`,
         borderWidth: 1,
+        // Zero-thickness stacks must not appear as solved difficulty bands.
+        segment: {
+          borderColor: ({ p0, p1 }) =>
+            p0.parsed.y === 0 && p1.parsed.y === 0
+              ? "transparent"
+              : getRatingColorCode(color),
+        },
         fill: i === 0 ? "origin" : "-1",
         tension: 0,
-        pointRadius: history.length === 1 ? 3 : 0,
-        pointHoverRadius: 4,
+        pointRadius: ({ parsed }) =>
+          history.length === 1 && (parsed?.y ?? 0) > 0 ? 3 : 0,
+        pointHoverRadius: ({ parsed }) => ((parsed?.y ?? 0) > 0 ? 4 : 0),
         pointHoverBackgroundColor: getRatingColorCode(color),
         pointHoverBorderColor: "#fff",
         pointHoverBorderWidth: 2,

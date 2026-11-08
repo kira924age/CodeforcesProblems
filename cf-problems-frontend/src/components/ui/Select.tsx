@@ -31,12 +31,6 @@ const Select = ({ label, value, options, onValueChange }: Props) => (
         align="start"
         collisionPadding={8}
       >
-        <Primitive.ScrollUpButton
-          className="ui-select-scroll"
-          aria-label="Scroll up"
-        >
-          ▴
-        </Primitive.ScrollUpButton>
         <Primitive.Viewport>
           {options.map((option) => (
             <Primitive.Item
@@ -48,12 +42,6 @@ const Select = ({ label, value, options, onValueChange }: Props) => (
             </Primitive.Item>
           ))}
         </Primitive.Viewport>
-        <Primitive.ScrollDownButton
-          className="ui-select-scroll"
-          aria-label="Scroll down"
-        >
-          ▾
-        </Primitive.ScrollDownButton>
       </Primitive.Content>
     </Primitive.Portal>
   </Primitive.Root>

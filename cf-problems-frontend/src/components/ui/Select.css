@@ -64,9 +64,6 @@
   font-weight: 600;
   background: #e6f7ff;
 }
-.ui-select-scroll {
-  text-align: center;
-}
 .theme-dark .ui-select,
 .theme-dark .ui-select-popup {
   color: rgba(255, 255, 255, 0.85);

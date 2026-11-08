@@ -83,20 +83,6 @@ const Pagination = ({
   );
   return (
     <nav className={`ui-pagination ${className}`} aria-label={label}>
-      <div className="ui-pagination-meta">
-        <p
-          className="ui-pagination-summary"
-          aria-live="polite"
-          aria-atomic="true"
-        >
-          Showing{" "}
-          <strong>
-            {((page - 1) * pageSize + 1).toLocaleString("en-US")}–
-            {Math.min(page * pageSize, total).toLocaleString("en-US")}
-          </strong>{" "}
-          of <strong>{total.toLocaleString("en-US")}</strong>
-        </p>
-      </div>
       <ul className="ui-pagination-pages">
         <li className="ui-pagination-mobile-only">
           <button

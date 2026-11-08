@@ -8,9 +8,9 @@
   --pager-hover: #f3f6fa;
   --pager-accent: #0969da;
   --pager-active: #0969da;
-  display: grid;
-  grid-template-areas: "meta pages size";
-  grid-template-columns: minmax(0, 1fr) auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   align-items: center;
   gap: 16px;
   margin: 20px 0 24px;
@@ -24,22 +24,7 @@
   line-height: 22px;
   font-variant-numeric: tabular-nums;
 }
-.ui-pagination-meta {
-  grid-area: meta;
-}
-.ui-pagination-meta p {
-  margin: 0;
-}
-.ui-pagination-summary {
-  color: var(--pager-muted);
-  font-size: 13px;
-}
-.ui-pagination-summary strong {
-  color: var(--pager-text);
-  font-weight: 600;
-}
 .ui-pagination-pages {
-  grid-area: pages;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -116,7 +101,6 @@
   display: none;
 }
 .ui-pagination-size {
-  grid-area: size;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -149,11 +133,11 @@
 }
 @media (max-width: 1100px) {
   .ui-pagination {
-    grid-template-areas: "meta size" "pages pages";
-    grid-template-columns: minmax(0, 1fr) auto;
     row-gap: 12px;
   }
   .ui-pagination-pages {
+    order: 1;
+    width: 100%;
     justify-content: center;
   }
 }

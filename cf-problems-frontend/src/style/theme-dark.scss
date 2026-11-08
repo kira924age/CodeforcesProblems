@@ -10,15 +10,6 @@ h6 {
   color: white;
 }
 
-.ant-radio-button-wrapper {
-  color: #c9d1d9;
-  background: #21262d;
-}
-
-.ant-radio-button-wrapper:hover {
-  color: #c9d1d9;
-}
-
 .difficulty-unavailable-circle {
   border-color: #ffffff;
   background: #ffffff;
@@ -50,29 +41,6 @@ h6 {
 
 .difficulty-red:not(:hover) {
   color: #ff375f;
-}
-
-.ant-switch {
-  background: #ffffff;
-}
-
-.ant-switch-handle::before {
-  color: #888888;
-  background: #888888;
-}
-
-.ant-switch-checked {
-  background: #0e7aac;
-}
-
-.ant-switch-checked .ant-switch-handle::before {
-  color: white;
-  background: white;
-}
-
-.ant-radio-button-wrapper:hover {
-  background: #1890ff;
-  background: #0e7aac;
 }
 
 .verdict-rejected {

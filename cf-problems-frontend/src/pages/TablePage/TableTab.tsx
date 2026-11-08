@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Radio, Switch } from "antd";
+import { RadioGroup } from "radix-ui";
+import Switch from "../../components/ui/Switch";
 
 import ContestTable from "./ContestTable";
 import "./TableTab.css";
@@ -11,6 +12,8 @@ type Props = {
 };
 
 const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
+  const difficultyId = React.useId();
+  const reverseOrderId = React.useId();
   const [contest, setContest] = useLocalStorage(
     "activeTab",
     "Educational Codeforces Rounds"
@@ -30,72 +33,84 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
     <React.Fragment>
       <div className="table-controls">
         <div className="table-control">
-          {isShowDifficulty ? (
-            <Switch
-              size="small"
-              defaultChecked
-              onChange={() => {
-                setIsShowDifficulty(!isShowDifficulty);
-              }}
-            />
-          ) : (
-            <Switch
-              size="small"
-              onChange={() => {
-                setIsShowDifficulty(!isShowDifficulty);
-              }}
-            />
-          )}
+          <Switch
+            size="small"
+            id={difficultyId}
+            label="Show Difficulty"
+            checked={isShowDifficulty}
+            onCheckedChange={setIsShowDifficulty}
+          />
 
-          <label>Show Difficulty</label>
+          <label htmlFor={difficultyId}>Show Difficulty</label>
         </div>
 
         <div className="table-control">
-          {isReverseOrder ? (
-            <Switch
-              size="small"
-              defaultChecked
-              onChange={() => {
-                setIsReverseOrder(!isReverseOrder);
-              }}
-            />
-          ) : (
-            <Switch
-              size="small"
-              onChange={() => {
-                setIsReverseOrder(!isReverseOrder);
-              }}
-            />
-          )}
-          <label>Reverse Order</label>
+          <Switch
+            size="small"
+            id={reverseOrderId}
+            label="Reverse Order"
+            checked={isReverseOrder}
+            onCheckedChange={setIsReverseOrder}
+          />
+          <label htmlFor={reverseOrderId}>Reverse Order</label>
         </div>
       </div>
 
-      <Radio.Group
+      <RadioGroup.Root
+        aria-label="Contest category"
         value={contest}
         className="contest-categories"
-        size="large"
-        onChange={(e) => {
-          setContest(e.target.value);
-        }}
+        onValueChange={setContest}
       >
-        <Radio.Button value="Educational Codeforces Rounds">
+        <RadioGroup.Item
+          className="contest-category"
+          value="Educational Codeforces Rounds"
+        >
           Educational
-        </Radio.Button>
-        <Radio.Button value="Codeforces Global Rounds">Global</Radio.Button>
-        <Radio.Button value="Div. 1 + Div. 2 Contests">
+        </RadioGroup.Item>
+        <RadioGroup.Item
+          className="contest-category"
+          value="Codeforces Global Rounds"
+        >
+          Global
+        </RadioGroup.Item>
+        <RadioGroup.Item
+          className="contest-category"
+          value="Div. 1 + Div. 2 Contests"
+        >
           Div1 + Div2
-        </Radio.Button>
-        <Radio.Button value="Div. 1 Contests">Div1</Radio.Button>
-        <Radio.Button value="Div. 2 Contests">Div2</Radio.Button>
-        <Radio.Button value="Div. 3 Contests">Div3</Radio.Button>
-        <Radio.Button value="Div. 4 Contests">Div4</Radio.Button>
-        <Radio.Button value="ICPC">ICPC</Radio.Button>
-        <Radio.Button value="Kotlin Heroes">Kotlin</Radio.Button>
-        <Radio.Button value="Microsoft Q# Coding Contests">Q#</Radio.Button>
-        <Radio.Button value="Other Contests">Others</Radio.Button>
-        <Radio.Button value="All Contests">All</Radio.Button>
-      </Radio.Group>
+        </RadioGroup.Item>
+        <RadioGroup.Item className="contest-category" value="Div. 1 Contests">
+          Div1
+        </RadioGroup.Item>
+        <RadioGroup.Item className="contest-category" value="Div. 2 Contests">
+          Div2
+        </RadioGroup.Item>
+        <RadioGroup.Item className="contest-category" value="Div. 3 Contests">
+          Div3
+        </RadioGroup.Item>
+        <RadioGroup.Item className="contest-category" value="Div. 4 Contests">
+          Div4
+        </RadioGroup.Item>
+        <RadioGroup.Item className="contest-category" value="ICPC">
+          ICPC
+        </RadioGroup.Item>
+        <RadioGroup.Item className="contest-category" value="Kotlin Heroes">
+          Kotlin
+        </RadioGroup.Item>
+        <RadioGroup.Item
+          className="contest-category"
+          value="Microsoft Q# Coding Contests"
+        >
+          Q#
+        </RadioGroup.Item>
+        <RadioGroup.Item className="contest-category" value="Other Contests">
+          Others
+        </RadioGroup.Item>
+        <RadioGroup.Item className="contest-category" value="All Contests">
+          All
+        </RadioGroup.Item>
+      </RadioGroup.Root>
 
       <ContestTable
         name={contest}

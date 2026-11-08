@@ -3,12 +3,12 @@
   height: 24px;
 }
 
-.theme-toggler .ant-switch,
-.theme-toggler .ant-switch:hover:not(:disabled) {
+.theme-toggler .ui-switch[data-state],
+.theme-toggler .ui-switch[data-state]:hover {
   min-width: 50px;
   background: #4d4d4d;
 }
 
-.theme-toggler .ant-switch-handle::before {
+.theme-toggler .ui-switch-thumb {
   background: #fff;
 }

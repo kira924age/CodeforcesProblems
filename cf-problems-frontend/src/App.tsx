@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  HashRouter,
-  Route,
-  Navigate,
-  Routes,
-  useLocation,
-} from "react-router-dom";
+import { HashRouter, Route, Navigate, Routes, useLocation } from "react-router";
 
 import ThemeProvider from "./components/ThemeProvider";
 import TablePage from "./pages/TablePage/index";

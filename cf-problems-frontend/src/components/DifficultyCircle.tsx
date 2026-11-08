@@ -1,5 +1,5 @@
 import React from "react";
-import { Tooltip } from "antd";
+import Tooltip from "./ui/Tooltip";
 
 import TopcoderLikeCircle from "./TopcoderLikeCircle";
 
@@ -10,13 +10,13 @@ interface Props {
 const DifficultyCircle: React.FunctionComponent<Props> = (props) => {
   if (props.rating === undefined) {
     return (
-      <Tooltip title="Difficulty is unavailable." color="black">
+      <Tooltip title="Difficulty is unavailable.">
         <span className="common-difficulty-circle difficulty-unavailable-circle"></span>
       </Tooltip>
     );
   }
   return (
-    <Tooltip title={"Difficulty :" + String(props.rating)} color="black">
+    <Tooltip title={"Difficulty :" + String(props.rating)}>
       <span>
         <TopcoderLikeCircle rating={props.rating} />
       </span>

@@ -11,3 +11,9 @@ globalThis.ResizeObserver = class implements ResizeObserver {
   unobserve() {}
   disconnect() {}
 };
+
+// jsdom does not implement scrolling or pointer capture used by Radix controls.
+Element.prototype.scrollIntoView = () => {};
+Element.prototype.hasPointerCapture = () => false;
+Element.prototype.setPointerCapture = () => {};
+Element.prototype.releasePointerCapture = () => {};

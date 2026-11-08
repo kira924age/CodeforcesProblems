@@ -57,12 +57,10 @@ test("defaults to the latest year, renders every day and all month labels, and s
     expect(screen.getByText(month)).toBeInTheDocument();
   expect(cell("2026-03-11")).toHaveAttribute("data-value", "4");
   expect(cell("2026-01-01")).toHaveAttribute("fill", emptyDayColor);
-  fireEvent.mouseDown(screen.getByRole("combobox", { name: "Heatmap year" }));
-  fireEvent.click(
-    await screen.findByText("2025", {
-      selector: ".ant-select-item-option-content",
-    })
-  );
+  fireEvent.keyDown(screen.getByRole("combobox", { name: "Heatmap year" }), {
+    key: "ArrowDown",
+  });
+  fireEvent.click(await screen.findByRole("option", { name: "2025" }));
   expect(chart()).toHaveAccessibleName("Submission heatmap for 2025");
   expect(cell("2025-04-10")).toHaveAttribute("data-value", "13");
   expect(document.querySelector('[data-day="2026-03-11"]')).toBeNull();
@@ -84,12 +82,10 @@ test("uses fixed levels regardless of year or newly added high-count days", asyn
   rerender(<Heatmap data={[...data, { day: "2024-01-01", value: 1000 }]} />);
   expect(cell("2026-03-11")).toHaveAttribute("fill", heatmapColors[2]);
   expect(cell("2026-06-12")).toHaveAttribute("fill", heatmapColors[0]);
-  fireEvent.mouseDown(screen.getByRole("combobox", { name: "Heatmap year" }));
-  fireEvent.click(
-    await screen.findByText("2025", {
-      selector: ".ant-select-item-option-content",
-    })
-  );
+  fireEvent.keyDown(screen.getByRole("combobox", { name: "Heatmap year" }), {
+    key: "ArrowDown",
+  });
+  fireEvent.click(await screen.findByRole("option", { name: "2025" }));
   expect(cell("2025-04-10")).toHaveAttribute("fill", heatmapColors[3]);
 });
 
@@ -163,12 +159,10 @@ test("supports day/week keyboard navigation, bounds, zero days, and dismissal", 
 test("clears stale tooltips on year/data changes, preserves valid year selection, and falls back after a user change", async () => {
   const { rerender } = render(<Heatmap data={data} />);
   fireEvent.focus(chart());
-  fireEvent.mouseDown(screen.getByRole("combobox", { name: "Heatmap year" }));
-  fireEvent.click(
-    await screen.findByText("2025", {
-      selector: ".ant-select-item-option-content",
-    })
-  );
+  fireEvent.keyDown(screen.getByRole("combobox", { name: "Heatmap year" }), {
+    key: "ArrowDown",
+  });
+  fireEvent.click(await screen.findByRole("option", { name: "2025" }));
   expect(screen.queryByRole("tooltip")).not.toBeInTheDocument();
   rerender(<Heatmap data={[...data, { day: "2027-01-01", value: 2 }]} />);
   expect(chart()).toHaveAccessibleName("Submission heatmap for 2025");

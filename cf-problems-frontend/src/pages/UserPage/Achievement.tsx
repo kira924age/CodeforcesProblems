@@ -1,5 +1,5 @@
 import React from "react";
-import { Tooltip } from "antd";
+import Tooltip from "../../components/ui/Tooltip";
 import "./Achievement.css";
 
 interface Props {
@@ -13,10 +13,7 @@ interface Props {
 }
 
 const badge = (
-  <Tooltip
-    title="Counts and streaks use the first AC of each problem in your local time. Repeat ACs do not count. Previous month/year means the previous calendar month/year. Current Streak includes today; it is zero until you first solve a new problem today."
-    color="black"
-  >
+  <Tooltip title="Counts and streaks use the first AC of each problem in your local time. Repeat ACs do not count. Previous month/year means the previous calendar month/year. Current Streak includes today; it is zero until you first solve a new problem today.">
     <span>
       <span
         className="achievement-help"

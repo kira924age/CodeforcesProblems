@@ -3,6 +3,8 @@
   --pager-muted: #57606a;
   --pager-border: #d0d7de;
   --pager-bg: #fff;
+  --pager-page-bg: #f6f8fa;
+  --pager-page-border: #d0d7de;
   --pager-hover: #f3f6fa;
   --pager-accent: #0969da;
   --pager-active: #0969da;
@@ -70,8 +72,16 @@
   border-color: var(--pager-border);
   background: var(--pager-bg);
 }
+.ui-pagination-pages .ui-pagination-page:not([aria-current]) {
+  border-color: var(--pager-page-border);
+  background: var(--pager-page-bg);
+}
 .ui-pagination-pages button:hover:not(:disabled) {
   border-color: var(--pager-border);
+  background: var(--pager-hover);
+}
+.ui-pagination-pages .ui-pagination-page:not([aria-current]):hover {
+  border-color: var(--pager-accent);
   background: var(--pager-hover);
 }
 .ui-pagination-pages button[aria-current="page"],
@@ -131,6 +141,8 @@
   --pager-muted: #8b949e;
   --pager-border: #30363d;
   --pager-bg: #0d1117;
+  --pager-page-bg: #161b22;
+  --pager-page-border: #484f58;
   --pager-hover: #161b22;
   --pager-accent: #58a6ff;
   --pager-active: #1f6feb;

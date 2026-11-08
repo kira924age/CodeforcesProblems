@@ -102,10 +102,10 @@ test.each([0, 1, 50, 51])(
   }
 );
 
-test("shows the visible item range and page count, including a partial last page", () => {
+test("shows the visible item range without a redundant page count, including a partial last page", () => {
   const { rerender } = render(<Pagination {...props} current={3} total={25} />);
   expect(screen.getByText(/Showing/)).toHaveTextContent("Showing 21–25 of 25");
-  expect(screen.getByText("Page 3 of 3")).toBeInTheDocument();
+  expect(screen.queryByText("Page 3 of 3")).not.toBeInTheDocument();
   rerender(<Pagination {...props} current={99} total={25} />);
   expect(screen.getByText(/Showing/)).toHaveTextContent("Showing 21–25 of 25");
   expect(screen.getByText(/Showing/)).toHaveAttribute("aria-live", "polite");

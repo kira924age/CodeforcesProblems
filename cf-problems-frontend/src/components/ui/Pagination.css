@@ -36,10 +36,6 @@
   color: var(--pager-text);
   font-weight: 600;
 }
-.ui-pagination-page-count {
-  color: var(--pager-muted);
-  font-size: 12px;
-}
 .ui-pagination-pages {
   grid-area: pages;
   display: flex;
@@ -158,7 +154,6 @@
   .ui-pagination {
     column-gap: 8px;
   }
-  .ui-pagination-page-count,
   .ui-pagination .ui-pagination-number,
   .ui-pagination-direction-label {
     display: none;

@@ -96,9 +96,6 @@ const Pagination = ({
           </strong>{" "}
           of <strong>{total.toLocaleString("en-US")}</strong>
         </p>
-        <p className="ui-pagination-page-count">
-          Page {page.toLocaleString("en-US")} of {last.toLocaleString("en-US")}
-        </p>
       </div>
       <ul className="ui-pagination-pages">
         <li className="ui-pagination-mobile-only">

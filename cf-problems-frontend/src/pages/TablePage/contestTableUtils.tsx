@@ -89,6 +89,7 @@ export const makeContestTable = (
   return problemData.map((x: any) => {
     let obj: any = {};
     let contestId = x.id;
+    obj.key = String(contestId);
     let contestName = x.name;
     let problems = x.problems;
 

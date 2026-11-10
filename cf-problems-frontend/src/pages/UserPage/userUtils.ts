@@ -1,30 +1,5 @@
 import { firstAcceptedSubmissions } from "./firstAcceptedSubmissions";
 
-export const fetchUserSubmission = async (url: string): Promise<any> => {
-  let submission: any[] = [];
-
-  await fetch(url)
-    .then((res) => res.json())
-    .then((x) => {
-      submission = x.result?.map((e: any) => {
-        let obj = {
-          creationTimeSeconds: e.creationTimeSeconds,
-          problem: e.problem,
-          verdict: e.verdict,
-          programmingLanguage: e.programmingLanguage,
-          submissionId: e.id,
-        };
-        return obj;
-      });
-    })
-    .catch((error) => {
-      console.log("Error: ", error.message);
-      return [];
-    });
-
-  return submission;
-};
-
 // UTC is used only to number local calendar dates, avoiding 23/25-hour DST days.
 const localDayNumber = (date: Date): number =>
   Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / 86400000;

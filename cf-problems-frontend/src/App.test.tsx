@@ -8,13 +8,13 @@ import {
   waitFor,
 } from "@testing-library/react";
 import App from "./App";
-import Header from "./components/Header/Header";
+import HandleForm from "./components/HandleForm";
 import { cachedContestArray } from "./utils/TypedCachedApiClient";
 
 vi.mock("./pages/TablePage/index", () => ({
   default: ({ userId }: { userId: string }) => (
     <>
-      <Header userId={userId} location="table" />
+      <HandleForm userId={userId} page="table" submitLabel="Show Progress" />
       <div>Table: {userId}</div>
     </>
   ),
@@ -22,7 +22,7 @@ vi.mock("./pages/TablePage/index", () => ({
 vi.mock("./pages/UserPage/index", () => ({
   default: ({ userId }: { userId: string }) => (
     <>
-      <Header userId={userId} location="user" />
+      <HandleForm userId={userId} page="user" submitLabel="Show Stats" />
       <div>User: {userId}</div>
     </>
   ),
@@ -42,8 +42,9 @@ const mountAt = (hash: string) => {
   window.history.replaceState(null, "", `/${hash}`);
   return render(<App />);
 };
-const input = () => screen.getAllByPlaceholderText("Codeforces ID")[0];
-const link = (name: string) => screen.getAllByRole("link", { name })[0];
+const input = () => screen.getByPlaceholderText("Codeforces ID");
+const link = (name: string) => screen.getByRole("link", { name });
+const submit = () => fireEvent.submit(input().closest("form")!);
 
 // Cases were checked against v5 matchPath before migration.
 test.each([
@@ -76,12 +77,16 @@ test.each([
   expect(window.location.hash).toBe("#/table/");
 });
 
-test("Enter pushes history and back/forward keeps the input in sync", async () => {
+test("Submitting pushes history and back/forward keeps the input in sync", async () => {
   mountAt("#/table/alice");
-  fireEvent.change(input(), { target: { value: "bob" } });
-  fireEvent.keyDown(input(), { key: "Enter", code: "Enter", keyCode: 13 });
+  const field = input();
+  field.focus();
+  fireEvent.change(input(), { target: { value: " bob " } });
+  fireEvent.click(screen.getByRole("button", { name: "Show Progress" }));
   expect(await screen.findByText("Table: bob")).toBeInTheDocument();
   expect(window.location.hash).toBe("#/table/bob");
+  expect(input()).toBe(field);
+  expect(field).toHaveFocus();
   await act(async () => {
     window.history.back();
   });
@@ -98,39 +103,61 @@ test("Enter pushes history and back/forward keeps the input in sync", async () =
   });
 });
 
-test("Table/User links replace history; Enter still pushes on User", async () => {
+test("navigation keeps the applied handle across information pages and adds history entries", async () => {
   mountAt("#/table/alice");
-  fireEvent.change(input(), { target: { value: "bob" } });
-  fireEvent.keyDown(input(), { key: "Enter", code: "Enter", keyCode: 13 });
-  await screen.findByText("Table: bob");
-  fireEvent.click(link("User"));
-  expect(await screen.findByText("User: bob")).toBeInTheDocument();
-  expect(window.location.hash).toBe("#/user/bob");
-  fireEvent.change(input(), { target: { value: "carol" } });
-  fireEvent.keyDown(input(), { key: "Enter", code: "Enter", keyCode: 13 });
-  expect(await screen.findByText("User: carol")).toBeInTheDocument();
-  fireEvent.click(link("Table"));
-  expect(await screen.findByText("Table: carol")).toBeInTheDocument();
-  await act(async () => {
-    window.history.back();
-  });
-  await waitFor(() =>
-    expect(screen.getByText("User: bob")).toBeInTheDocument()
-  );
-  await act(async () => {
-    window.history.back();
-  });
-  await waitFor(() =>
-    expect(screen.getByText("Table: alice")).toBeInTheDocument()
-  );
+  fireEvent.change(input(), { target: { value: "unsubmitted" } });
+  const info = screen.getByRole("button", { name: "Info" });
+  fireEvent.keyDown(info, { key: "Enter" });
+  expect(await screen.findByRole("menu")).toBeInTheDocument();
+  expect(window.location.hash).toBe("#/table/alice");
+  fireEvent.click(screen.getByRole("menuitem", { name: "Changelog" }));
+  expect(
+    await screen.findByRole("heading", { name: "Changelog" })
+  ).toBeInTheDocument();
+  expect(info).toHaveAttribute("aria-current", "location");
+  expect(screen.queryByRole("menu")).not.toBeInTheDocument();
+  fireEvent.keyDown(info, { key: "Enter" });
+  fireEvent.click(await screen.findByRole("menuitem", { name: "About" }));
+  expect(
+    await screen.findByRole("heading", { name: "About" })
+  ).toBeInTheDocument();
+  expect(link("User Stats")).toHaveAttribute("href", "#/user/alice");
+  fireEvent.click(link("User Stats"));
+  expect(await screen.findByText("User: alice")).toBeInTheDocument();
+  expect(input()).toHaveValue("alice");
+  await act(async () => window.history.back());
+  expect(
+    await screen.findByRole("heading", { name: "About" })
+  ).toBeInTheDocument();
 });
 
-test("the logo opens the empty table and User is disabled without a handle", async () => {
+test("the logo opens the empty table and user statistics can open without a handle", async () => {
   mountAt("#/user/alice");
   fireEvent.click(link("Codeforces Problems"));
   expect(await screen.findByText("Table:")).toBeInTheDocument();
   expect(window.location.hash).toBe("#/table/");
-  expect(screen.getAllByRole("button", { name: "User" })[0]).toBeDisabled();
+  fireEvent.click(link("User Stats"));
+  expect(await screen.findByText("User:")).toBeInTheDocument();
+  expect(window.location.hash).toBe("#/user/");
+});
+
+test("guards Enter and submit during IME composition", async () => {
+  mountAt("#/table/alice");
+  fireEvent.change(input(), { target: { value: "a_B.c-9" } });
+  fireEvent.compositionStart(input());
+  expect(fireEvent.keyDown(input(), { key: "Enter" })).toBe(false);
+  submit();
+  expect(window.location.hash).toBe("#/table/alice");
+  fireEvent.compositionEnd(input());
+  expect(fireEvent.keyDown(input(), { key: "Enter", isComposing: true })).toBe(
+    false
+  );
+  expect(fireEvent.keyDown(input(), { key: "Enter", keyCode: 229 })).toBe(
+    false
+  );
+  expect(fireEvent.keyDown(input(), { key: "Enter" })).toBe(true);
+  submit();
+  expect(await screen.findByText("Table: a_B.c-9")).toBeInTheDocument();
 });
 
 test("loads contest data through an ES module import", () => {

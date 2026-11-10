@@ -2,143 +2,131 @@ import contests from "./contests.json";
 
 const STATIC_API_BASE_URL = "https://codeforces.com/api";
 
-let CACHED_CONTESTS: any[];
-export const cachedContestArray = () => {
-  if (CACHED_CONTESTS === undefined) {
-    CACHED_CONTESTS = contests;
+export const cachedContestArray = () => contests;
+
+type CachedRequest<T> = {
+  request: Promise<T>;
+  lastSuccess?: Promise<T>;
+};
+
+// Share in-flight requests across screens. Only the latest request can update
+// the cache, and a failed refresh keeps the last successful response.
+function cachedRequest<T>(
+  cache: Map<string, CachedRequest<T>>,
+  userId: string,
+  refresh: boolean,
+  load: () => Promise<T>,
+  maxEntries = Infinity
+) {
+  const previous = cache.get(userId);
+  if (!refresh && previous) {
+    cache.delete(userId);
+    cache.set(userId, previous);
+    const { request, lastSuccess } = previous;
+    return lastSuccess && request !== lastSuccess
+      ? request.catch(() => lastSuccess)
+      : request;
   }
-  return CACHED_CONTESTS;
-};
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const fetchProblems = async (url: string): Promise<any> => {
-  let tmp = new Map();
-  await fetch(url)
-    .then((res) => res.json())
-    .then((x) => {
-      let array = x.result.problems;
-      let mp = new Map();
-      array.reverse().forEach((element: any) => {
-        const contestId = element.contestId;
-        if (mp.has(contestId)) {
-          const prevArray = mp.get(contestId);
-          mp.set(contestId, [...prevArray, element]);
-        } else {
-          mp.set(contestId, [element]);
-        }
-      });
-      tmp = mp;
-    });
-  return tmp;
-};
-
-let CACHED_PROBLEMS: any;
-export const cachedProblemMap = async (): Promise<any> => {
-  if (CACHED_PROBLEMS === undefined) {
-    try {
-      CACHED_PROBLEMS = await fetchProblems(
-        STATIC_API_BASE_URL + "/problemset.problems"
-      );
-    } catch {
-      CACHED_PROBLEMS = new Map();
-    }
+  const request = load();
+  const lastSuccess = previous?.lastSuccess;
+  const entry: CachedRequest<T> = { request, lastSuccess };
+  cache.delete(userId);
+  cache.set(userId, entry);
+  if (cache.size > maxEntries) {
+    const oldest = cache.keys().next();
+    if (!oldest.done) cache.delete(oldest.value);
   }
-  return CACHED_PROBLEMS;
-};
-
-const fetchUserSubmissions = async (url: string): Promise<any> => {
-  let tmp: any = [];
-  let isOk = true;
-  await fetch(url)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
+  void request.then(
+    () => {
+      if (cache.get(userId) === entry) entry.lastSuccess = request;
+    },
+    () => {
+      if (cache.get(userId) !== entry) return;
+      if (lastSuccess) {
+        entry.request = lastSuccess;
+      } else {
+        cache.delete(userId);
       }
-      return response.json();
-    })
-    .then((x) => {
-      tmp = x.result;
-    })
-    .catch((error) => {
-      console.error("Error: ", error.message);
-      isOk = false;
-    });
-
-  if (!isOk) {
-    return null;
-  }
-  let newMap: Map<string, boolean> = new Map();
-
-  tmp.forEach((x: any) => {
-    let t = String(x.problem.contestId) + x.problem.index;
-
-    if (newMap.has(t)) {
-      const prev = newMap.get(t);
-      newMap.set(t, prev || x.verdict === "OK");
-    } else {
-      newMap.set(t, x.verdict === "OK");
     }
+  );
+  return request;
+}
+
+export interface Submission {
+  submissionId: number;
+  creationTimeSeconds: number;
+  problem: { contestId?: number; index: string; name: string; rating?: number };
+  verdict?: string;
+  programmingLanguage: string;
+}
+
+const MAX_CACHED_SUBMISSION_HANDLES = 5;
+const submissionCache = new Map<string, CachedRequest<Submission[]>>();
+export const cachedSubmissionHistory = (userId: string, refresh = false) =>
+  cachedRequest(
+    submissionCache,
+    userId,
+    refresh,
+    async () => {
+      const response = await fetch(
+        STATIC_API_BASE_URL + "/user.status?handle=" + userId,
+        { cache: refresh ? "no-store" : "default" }
+      );
+      const payload = await response.json();
+      if (!response.ok || !Array.isArray(payload.result)) {
+        throw new Error("Failed to load Codeforces submissions");
+      }
+
+      const entries: Array<Omit<Submission, "submissionId"> & { id: number }> =
+        payload.result;
+      return entries.map((entry) => ({
+        creationTimeSeconds: entry.creationTimeSeconds,
+        problem: entry.problem,
+        verdict: entry.verdict,
+        programmingLanguage: entry.programmingLanguage,
+        submissionId: entry.id,
+      }));
+    },
+    MAX_CACHED_SUBMISSION_HANDLES
+  );
+
+export const cachedUserSubmissions = async (
+  userId: string,
+  refresh = false
+) => {
+  const entries = await cachedSubmissionHistory(userId, refresh);
+  const submissions = new Map<string, boolean>();
+  for (const entry of entries) {
+    const key = String(entry.problem.contestId) + entry.problem.index;
+    submissions.set(
+      key,
+      Boolean(submissions.get(key)) || entry.verdict === "OK"
+    );
+  }
+  return submissions;
+};
+
+type UserInfo = {
+  userRating: number;
+};
+
+const userInfoCache = new Map<string, CachedRequest<UserInfo | null>>();
+export const cachedUserInfo = (userId: string, refresh = false) =>
+  cachedRequest(userInfoCache, userId, refresh, async () => {
+    const response = await fetch(
+      STATIC_API_BASE_URL + "/user.info?handles=" + userId,
+      { cache: refresh ? "no-store" : "default" }
+    );
+    const payload = await response.json();
+    if (
+      payload.status === "FAILED" &&
+      /not found/i.test(payload.comment ?? "")
+    ) {
+      return null;
+    }
+    if (!response.ok || payload.status !== "OK" || !payload.result?.[0]) {
+      throw new Error("Failed to load Codeforces user");
+    }
+    return { userRating: payload.result[0].rating };
   });
-
-  return newMap;
-};
-
-let CACHED_USER_SUBMISSIONS: Map<string, any> = new Map();
-export const cachedUserSubmissions = async (userId: string): Promise<any> => {
-  const prefixStr = "https://codeforces.com/api/user.status?handle=";
-  const url = prefixStr + userId;
-
-  if (CACHED_USER_SUBMISSIONS.get(userId) === undefined) {
-    try {
-      CACHED_USER_SUBMISSIONS.set(userId, await fetchUserSubmissions(url));
-    } catch (e) {
-      console.log(e);
-    }
-  }
-  return CACHED_USER_SUBMISSIONS.get(userId);
-};
-
-const fetchUserInfo = async (url: string): Promise<any> => {
-  let currentRating: number = 0;
-  let isUserExist: boolean = true;
-  let isError: boolean = false;
-
-  await fetch(url)
-    .then((res) => res.json())
-    .catch(() => {
-      isError = true;
-    })
-    .then((x) => {
-      if (x.status !== "OK") {
-        isUserExist = false;
-      }
-      currentRating = x.result[0].rating;
-    })
-    .catch((error) => {
-      console.log("Error: ", error.message);
-      return;
-    });
-
-  return {
-    isUserExist: isUserExist,
-    isError: isError,
-    userRating: currentRating,
-  };
-};
-
-let CACHED_USER_INFO: Map<string, any> = new Map();
-export const cachedUserInfo = async (userId: string): Promise<any> => {
-  if (CACHED_USER_INFO.get(userId) === undefined) {
-    try {
-      CACHED_USER_INFO.set(
-        userId,
-        await fetchUserInfo(
-          STATIC_API_BASE_URL + "/user.info?handles=" + userId
-        )
-      );
-    } catch {
-      CACHED_PROBLEMS = new Map();
-    }
-  }
-  return CACHED_USER_INFO.get(userId);
-};

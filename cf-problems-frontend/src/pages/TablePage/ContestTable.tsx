@@ -11,10 +11,7 @@ import {
 
 import { useLocalStorage } from "../../utils/localStorage";
 
-import {
-  cachedUserSubmissions,
-  cachedContestArray,
-} from "../../utils/TypedCachedApiClient";
+import { cachedContestArray } from "../../utils/TypedCachedApiClient";
 
 import ErrorMessage from "./ErrorMessage";
 
@@ -22,44 +19,14 @@ interface ContestTableProps {
   name: string;
   isShowDifficulty: boolean;
   isReverseOrder: boolean;
-  userId: string | undefined;
+  submissions: Map<string, boolean>;
+  isFetchFailure: boolean;
 }
 
 const ContestTable: React.FC<ContestTableProps> = (props) => {
   const [page, setPage] = React.useState(1);
-  const [isFetchFailure, setIsFetchFailure] = React.useState(false);
-  const [submissions, setSubmissions] = React.useState(new Map());
+  const { submissions, isFetchFailure } = props;
   const [pageSize, setPageSize] = useLocalStorage("pageSize", 50);
-
-  React.useEffect(() => {
-    let isMounted = true;
-    if (props.userId === undefined || props.userId === "") {
-      if (isMounted) {
-        setSubmissions(new Map());
-      }
-      return;
-    }
-
-    const getUserSubmissions = async () => {
-      const userSubmission = await cachedUserSubmissions(String(props.userId));
-
-      if (isMounted) {
-        if (userSubmission === null) {
-          setIsFetchFailure(true);
-          setSubmissions(new Map());
-        } else {
-          setIsFetchFailure(false);
-          setSubmissions(userSubmission);
-        }
-      }
-    };
-
-    void getUserSubmissions();
-
-    return () => {
-      isMounted = false;
-    };
-  }, [props.userId]);
 
   const allProblems = cachedContestArray();
   let problemData = filterProblems(props.name, allProblems);

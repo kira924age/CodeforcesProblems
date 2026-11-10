@@ -11,15 +11,21 @@ export const TooltipProvider = ({ children }: { children: ReactNode }) => (
 const Tooltip = ({
   title,
   children,
+  asChild = false,
 }: {
   title: string;
   children: ReactNode;
+  asChild?: boolean;
 }) => (
   <Primitive.Root>
     <Primitive.Trigger asChild>
-      <span className="ui-tooltip-trigger" tabIndex={0} aria-label={title}>
-        {children}
-      </span>
+      {asChild ? (
+        children
+      ) : (
+        <span className="ui-tooltip-trigger" tabIndex={0} aria-label={title}>
+          {children}
+        </span>
+      )}
     </Primitive.Trigger>
     <Primitive.Portal>
       <Primitive.Content

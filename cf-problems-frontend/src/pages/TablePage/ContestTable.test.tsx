@@ -7,6 +7,8 @@ import {
   within,
   waitFor,
 } from "@testing-library/react";
+import { MemoryRouter } from "react-router";
+import TablePage from "./index";
 import ContestTable from "./ContestTable";
 import * as utils from "./contestTableUtils";
 import { cachedUserSubmissions } from "../../utils/TypedCachedApiClient";
@@ -55,10 +57,33 @@ const props = {
   name: "Educational Codeforces Rounds",
   isShowDifficulty: true,
   isReverseOrder: false,
-  userId: "",
+  submissions: new Map<string, boolean>(),
+  isFetchFailure: false,
 };
 const rows = () =>
   screen.getByRole("table", { name: props.name }).querySelectorAll("tr");
+
+test("puts Refresh after search and reloads submissions for the applied handle", async () => {
+  const { rerender } = render(
+    <MemoryRouter>
+      <TablePage userId="" />
+    </MemoryRouter>
+  );
+  const search = screen.getByRole("button", { name: "Show Progress" });
+  const refresh = screen.getByRole("button", { name: "Refresh" });
+  expect(search.nextElementSibling).toBe(refresh);
+  expect(refresh).toBeDisabled();
+
+  rerender(
+    <MemoryRouter>
+      <TablePage userId="alice" />
+    </MemoryRouter>
+  );
+  await waitFor(() => expect(refresh).toBeEnabled());
+  fireEvent.click(refresh);
+  expect(cachedUserSubmissions).toHaveBeenLastCalledWith("alice", true);
+  await waitFor(() => expect(refresh).toBeEnabled());
+});
 
 test("generates cells for only the first 50 contests, reusing the existing columns and multi-problem cells", () => {
   const makeRows = vi.spyOn(utils, "makeContestTable");
@@ -122,23 +147,21 @@ test("clamps the page after changing categories and preserves Q# columns and unp
   expect(screen.getByRole("columnheader", { name: "U" })).toBeInTheDocument();
   expect(screen.getByRole("link", { name: "U. Quantum" })).toBeInTheDocument();
 });
-test("preserves AC/NG coloring, whole-contest completion, and difficulty toggling", async () => {
+test("preserves AC/NG coloring, whole-contest completion, and difficulty toggling", () => {
   localStorage.setItem("pageSize", "10");
-  vi.mocked(cachedUserSubmissions).mockResolvedValue(
-    new Map([
-      ["2000A1", true],
-      ["2000A2", false],
-      ["2001A1", true],
-      ["2001A2", true],
-    ])
+  const submissions = new Map([
+    ["2000A1", true],
+    ["2000A2", false],
+    ["2001A1", true],
+    ["2001A2", true],
+  ]);
+  const { rerender } = render(
+    <ContestTable {...props} submissions={submissions} />
   );
-  const { rerender } = render(<ContestTable {...props} userId="alice" />);
-  await waitFor(() =>
-    expect(
-      within(rows()[1] as HTMLElement).getByRole("link", { name: "A1. Easy 1" })
-        .parentElement
-    ).toHaveClass("OK")
-  );
+  expect(
+    within(rows()[1] as HTMLElement).getByRole("link", { name: "A1. Easy 1" })
+      .parentElement
+  ).toHaveClass("OK");
   expect(
     within(rows()[1] as HTMLElement).getByRole("link", { name: "A2. Hard 1" })
       .parentElement
@@ -147,23 +170,28 @@ test("preserves AC/NG coloring, whole-contest completion, and difficulty togglin
     within(rows()[2] as HTMLElement).getByRole("link", { name: "Round 2" })
       .parentElement
   ).toHaveClass("OK");
-  rerender(<ContestTable {...props} userId="alice" isShowDifficulty={false} />);
+  rerender(
+    <ContestTable
+      {...props}
+      submissions={submissions}
+      isShowDifficulty={false}
+    />
+  );
   expect(
     within(rows()[1] as HTMLElement).getByRole("link", { name: "A1. Easy 1" })
   ).toHaveClass("difficulty-black");
   expect(document.querySelector(".common-difficulty-circle")).toBeNull();
 });
-test("preserves empty results and submission fetch failure display", async () => {
+test("preserves empty results and submission fetch failure display", () => {
   localStorage.setItem("pageSize", "10");
   const { rerender } = render(<ContestTable {...props} name="unknown" />);
   expect(screen.getByText("No data")).toBeInTheDocument();
   expect(
     screen.queryByRole("button", { name: "Next Page" })
   ).not.toBeInTheDocument();
-  vi.mocked(cachedUserSubmissions).mockResolvedValue(null);
-  rerender(<ContestTable {...props} userId="missing" />);
+  rerender(<ContestTable {...props} isFetchFailure />);
   expect(
-    await screen.findByText(/Failure to fetch submissions data/)
+    screen.getByText(/Failure to fetch submissions data/)
   ).toBeInTheDocument();
   expect(
     within(rows()[1] as HTMLElement).getByRole("link", { name: "Round 1" })

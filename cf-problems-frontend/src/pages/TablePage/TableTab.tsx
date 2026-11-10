@@ -8,7 +8,8 @@ import "./TableTab.css";
 import { useLocalStorage } from "../../utils/localStorage";
 
 type Props = {
-  userId: string;
+  submissions: Map<string, boolean>;
+  isFetchFailure: boolean;
 };
 
 const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
@@ -116,7 +117,8 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
         name={contest}
         isShowDifficulty={isShowDifficulty}
         isReverseOrder={isReverseOrder}
-        userId={props.userId}
+        submissions={props.submissions}
+        isFetchFailure={props.isFetchFailure}
       />
     </React.Fragment>
   );

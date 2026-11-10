@@ -1,21 +1,56 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-
+import HandleForm from "../../components/HandleForm";
+import { cachedUserSubmissions } from "../../utils/TypedCachedApiClient";
 import TableTab from "./TableTab";
 
-type Props = {
-  userId: string;
-};
+const emptySubmissions = new Map<string, boolean>();
 
-const TablePage: React.FunctionComponent<Props> = (props: Props) => {
+export default function TablePage({ userId }: { userId: string }) {
+  const [isFetchFailure, setIsFetchFailure] = React.useState(false);
+  const [isLoading, setIsLoading] = React.useState(Boolean(userId));
+  const [revision, setRevision] = React.useState(0);
+  const lastRevision = React.useRef(revision);
+  const [result, setResult] = React.useState<{
+    userId: string;
+    submissions: Map<string, boolean>;
+  }>();
+  const submissions =
+    result?.userId === userId ? result.submissions : emptySubmissions;
+
+  React.useEffect(() => {
+    const refresh = revision !== lastRevision.current;
+    lastRevision.current = revision;
+    setIsFetchFailure(false);
+    setIsLoading(Boolean(userId));
+    if (!userId) return;
+    let active = true;
+
+    void cachedUserSubmissions(userId, refresh)
+      .then((data) => {
+        if (active) setResult({ userId, submissions: data });
+      })
+      .catch(() => {
+        if (active) setIsFetchFailure(true);
+      })
+      .finally(() => {
+        if (active) setIsLoading(false);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [userId, revision]);
+
   return (
-    <React.Fragment>
-      <Header userId={props.userId} location="table" />
-      <div className="Main">
-        <TableTab userId={props.userId} />
-      </div>
-    </React.Fragment>
+    <>
+      <HandleForm
+        userId={userId}
+        page="table"
+        submitLabel="Show Progress"
+        isLoading={Boolean(userId) && isLoading}
+        onRefetch={() => setRevision((value) => value + 1)}
+      />
+      <TableTab submissions={submissions} isFetchFailure={isFetchFailure} />
+    </>
   );
-};
-
-export default TablePage;
+}

@@ -5,7 +5,7 @@ It is written in TypeScript with React.
 
 This application uses [Codeforces API](https://codeforces.com/apiHelp).
 
-![capture image](./images/screenshot-table.png)
+![Desktop Contests page with top navigation, handle search, and the contest table](./images/screenshot-table.png)
 
 ## Project structure
 

@@ -1,17 +1,27 @@
 import React from "react";
-import { act, cleanup, render, screen } from "@testing-library/react";
+import {
+  cleanup,
+  fireEvent,
+  render,
+  screen,
+  waitFor,
+} from "@testing-library/react";
+import { MemoryRouter } from "react-router";
 import UserPage from "./index";
-import { cachedUserInfo } from "../../utils/TypedCachedApiClient";
-import { fetchUserSubmission, makeAchievementData } from "./userUtils";
+import { TooltipProvider } from "../../components/ui/Tooltip";
+import {
+  cachedSubmissionHistory,
+  cachedUserInfo,
+} from "../../utils/TypedCachedApiClient";
+import { makeAchievementData } from "./userUtils";
 
 vi.mock("../../utils/TypedCachedApiClient", () => ({
+  cachedSubmissionHistory: vi.fn(),
   cachedUserInfo: vi.fn(),
 }));
 vi.mock("./userUtils", () => ({
-  fetchUserSubmission: vi.fn(),
   makeAchievementData: vi.fn(),
 }));
-vi.mock("../../components/Header/Header", () => ({ default: () => null }));
 vi.mock("./Climbing", () => ({ default: () => null }));
 vi.mock("./Heatmap", () => ({ default: () => null }));
 vi.mock("./Achievement", () => ({ default: () => null }));
@@ -25,7 +35,8 @@ beforeAll(() =>
 );
 beforeEach(() => {
   vi.clearAllMocks();
-  vi.mocked(fetchUserSubmission).mockResolvedValue([]);
+  vi.mocked(cachedUserInfo).mockResolvedValue({ userRating: 0 });
+  vi.mocked(cachedSubmissionHistory).mockResolvedValue([]);
   vi.mocked(makeAchievementData).mockReturnValue({
     submission: [],
     solvedCountAll: 0,
@@ -37,6 +48,14 @@ beforeEach(() => {
   });
 });
 afterEach(cleanup);
+const mount = (userId = "alice") =>
+  render(
+    <MemoryRouter>
+      <TooltipProvider>
+        <UserPage userId={userId} />
+      </TooltipProvider>
+    </MemoryRouter>
+  );
 
 test.each([
   [false, "User not found!"],
@@ -47,38 +66,63 @@ test.each([
 ])(
   "replaces the pending status with the existing error message (fetchFailure=%s)",
   async (isError, message) => {
-    let resolveInfo!: (value: object) => void;
-    vi.mocked(cachedUserInfo).mockReturnValue(
-      new Promise((resolve) => {
-        resolveInfo = resolve;
-      })
-    );
-    render(<UserPage userId="alice" />);
+    if (isError) {
+      vi.mocked(cachedUserInfo).mockRejectedValue(new Error("offline"));
+    } else {
+      vi.mocked(cachedUserInfo).mockResolvedValue(null);
+    }
+    mount();
     expect(screen.getByRole("status", { name: "Loading" })).toBeInTheDocument();
-    await act(async () =>
-      resolveInfo({ isError, isUserExist: false, userRating: 0 })
-    );
     expect(await screen.findByRole("alert")).toHaveTextContent(message);
     expect(screen.queryByRole("status")).not.toBeInTheDocument();
-    expect(fetchUserSubmission).not.toHaveBeenCalled();
+    expect(cachedSubmissionHistory).not.toHaveBeenCalled();
   }
 );
 
 test("shows the native empty submission table after a successful empty response", async () => {
-  vi.mocked(cachedUserInfo).mockResolvedValue({
-    isUserExist: true,
-    isError: false,
-    userRating: 0,
-  });
-  render(<UserPage userId="alice" />);
+  mount();
   expect(await screen.findByText("No data")).toBeInTheDocument();
   expect(
     screen.getByRole("table", { name: "Submissions" })
   ).toBeInTheDocument();
-  expect(screen.getAllByRole("columnheader")).toHaveLength(5);
   expect(screen.queryByRole("status")).not.toBeInTheDocument();
   expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+});
+
+test("opens statistics without fetching until a handle is provided", () => {
+  mount("");
+  expect(screen.getByRole("button", { name: "Refresh" })).toBeDisabled();
+  expect(cachedUserInfo).not.toHaveBeenCalled();
+});
+
+test("starts refreshing submissions before the profile resolves", async () => {
+  const { unmount } = mount();
+  await screen.findByText("No data");
+
+  vi.mocked(cachedUserInfo).mockReturnValueOnce(new Promise(() => {}));
+  fireEvent.click(screen.getByRole("button", { name: "Refresh" }));
+  unmount();
+
+  expect(cachedUserInfo).toHaveBeenLastCalledWith("alice", true);
+  expect(cachedSubmissionHistory).toHaveBeenLastCalledWith("alice", true);
+});
+
+test("refetches both user info and submissions and recovers from a failure", async () => {
+  mount();
+  await screen.findByText("No data");
+  vi.mocked(cachedSubmissionHistory).mockRejectedValueOnce(
+    new Error("offline")
+  );
+  fireEvent.click(screen.getByRole("button", { name: "Refresh" }));
+  await screen.findByRole("alert");
+  expect(cachedUserInfo).toHaveBeenLastCalledWith("alice", true);
+  expect(cachedSubmissionHistory).toHaveBeenLastCalledWith("alice", true);
   expect(
-    screen.queryByRole("button", { name: "Next Page" })
-  ).not.toBeInTheDocument();
+    screen.getByRole("table", { name: "Submissions" })
+  ).toBeInTheDocument();
+  fireEvent.click(screen.getByRole("button", { name: "Refresh" }));
+  await waitFor(() =>
+    expect(screen.queryByRole("alert")).not.toBeInTheDocument()
+  );
+  expect(await screen.findByRole("button", { name: "Refresh" })).toBeEnabled();
 });

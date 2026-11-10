@@ -6,26 +6,36 @@ vi.mock("./ContestTable", () => ({
     name: string;
     isShowDifficulty: boolean;
     isReverseOrder: boolean;
-    userId: string;
-  }) => <output data-testid="table-props">{JSON.stringify(props)}</output>,
+    submissions: Map<string, boolean>;
+    isFetchFailure: boolean;
+  }) => (
+    <output data-testid="table-props">
+      {JSON.stringify({ ...props, submissions: [...props.submissions] })}
+    </output>
+  ),
 }));
 beforeEach(() => localStorage.clear());
 afterEach(() => {
   cleanup();
   localStorage.clear();
 });
+const status = {
+  submissions: new Map([["2000A", true]]),
+  isFetchFailure: false,
+};
 const tableProps = () =>
   JSON.parse(screen.getByTestId("table-props").textContent!);
 
-test("keeps defaults and passes category, difficulty, order and username to the table", () => {
-  render(<TableTab userId="a_B.c-9" />);
+test("keeps defaults and passes category, difficulty, order and submissions to the table", () => {
+  render(<TableTab {...status} />);
   expect(screen.getAllByRole("radio")).toHaveLength(12);
   expect(screen.getByRole("radio", { name: "Educational" })).toBeChecked();
   expect(tableProps()).toEqual({
     name: "Educational Codeforces Rounds",
     isShowDifficulty: true,
     isReverseOrder: false,
-    userId: "a_B.c-9",
+    submissions: [["2000A", true]],
+    isFetchFailure: false,
   });
 });
 
@@ -33,7 +43,7 @@ test("restores existing settings, persists changes and restores them on remount"
   localStorage.setItem("activeTab", JSON.stringify("Div. 3 Contests"));
   localStorage.setItem("isShowDifficulty", "false");
   localStorage.setItem("isReverseOrder", "true");
-  const { unmount } = render(<TableTab userId="alice" />);
+  const { unmount } = render(<TableTab {...status} />);
   expect(screen.getByRole("radio", { name: "Div3" })).toBeChecked();
   expect(
     screen.getByRole("switch", { name: "Show Difficulty" })
@@ -46,7 +56,8 @@ test("restores existing settings, persists changes and restores them on remount"
     name: "Codeforces Global Rounds",
     isShowDifficulty: true,
     isReverseOrder: false,
-    userId: "alice",
+    submissions: [["2000A", true]],
+    isFetchFailure: false,
   });
   expect(localStorage.getItem("activeTab")).toBe(
     JSON.stringify("Codeforces Global Rounds")
@@ -54,7 +65,7 @@ test("restores existing settings, persists changes and restores them on remount"
   expect(localStorage.getItem("isShowDifficulty")).toBe("true");
   expect(localStorage.getItem("isReverseOrder")).toBe("false");
   unmount();
-  render(<TableTab userId="alice" />);
+  render(<TableTab {...status} />);
   expect(screen.getByRole("radio", { name: "Global" })).toBeChecked();
   expect(screen.getByRole("switch", { name: "Show Difficulty" })).toBeChecked();
   expect(
@@ -68,7 +79,7 @@ test.each([
 ] as const)(
   "clicking the %s label toggles and persists its switch",
   (label, key, initial) => {
-    render(<TableTab userId="alice" />);
+    render(<TableTab {...status} />);
     const toggle = screen.getByRole("switch", { name: label });
     fireEvent.click(screen.getByText(label));
     expect(toggle).toHaveAttribute("aria-checked", String(!initial));

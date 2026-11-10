@@ -44,7 +44,7 @@
   color: inherit;
   letter-spacing: -0.5px;
   font-size: 18px;
-  font-weight: 650;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -69,6 +69,7 @@
   padding: 8px 12px;
   color: inherit;
   font-size: 14px;
+  font-weight: 500;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;
@@ -113,7 +114,7 @@
 
 .site-nav a[aria-current],
 .site-info-trigger[aria-current] {
-  font-weight: 650;
+  font-weight: 700;
 }
 
 .site-nav a:focus-visible,
@@ -226,12 +227,13 @@
   min-height: 44px;
   padding: 8px 12px;
   color: inherit;
+  font-weight: 500;
   border-radius: 5px;
   text-decoration: none;
 }
 
 .site-info-menu a[aria-current="page"] {
-  font-weight: 650;
+  font-weight: 700;
 }
 
 .site-info-menu a[data-highlighted] {

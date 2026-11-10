@@ -9,7 +9,8 @@
   border-spacing: 0;
   border-collapse: separate;
   border: 1px solid #dee2e6;
-  border-radius: 2px 2px 0 0;
+  border-radius: 6px;
+  overflow: hidden;
   background: #fff;
   color: rgba(0, 0, 0, 0.88);
   font-size: 14px;
@@ -42,6 +43,10 @@
 
 .submission-table .cell-element {
   padding: 12px;
+}
+
+.submission-table td:first-child {
+  font-variant-numeric: tabular-nums;
 }
 
 :where(.submission-table) a {
@@ -84,17 +89,9 @@
 .theme-dark .submission-table tbody tr:hover > td {
   color: #c9d1d9;
   background: #090c10;
-  border: 1px solid #484848;
+  border-color: #484848;
 }
 
-.theme-dark .submission-table tbody tr:last-child td {
-  border-bottom: 1px solid #484848;
-}
-
-.theme-dark .submission-table {
-  border: none;
-  border-radius: 0;
-}
 @media only screen and (max-width: 575px) {
   .submission-table .cell-element {
     padding-top: 6px;

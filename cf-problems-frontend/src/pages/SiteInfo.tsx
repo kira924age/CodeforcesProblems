@@ -5,6 +5,13 @@ const repository = "https://github.com/kira924age/CodeforcesProblems";
 const changes = [
   {
     date: "2026-11-10",
+    title: "Easier contest browsing and clearer stats",
+    description:
+      "Contest tables hide empty problem columns and let you choose the page size in every category. Category tabs are easier to scan on narrow screens and in dark mode. Contests and User Stats now have an integrated search button, rounded tables, and clearer date and number formatting.",
+    pr: 137,
+  },
+  {
+    date: "2026-11-10",
     title: "New navigation and submission refresh",
     description:
       "Use the top navigation on desktop or the bottom bar on narrow screens. Open Info for About and Changelog, and use Refresh in Contests or User Stats to update your submission data in both views.",
@@ -62,7 +69,7 @@ export function ChangelogPage() {
 export function AboutPage() {
   return (
     <article className="site-info">
-      <header className="info-heading">
+      <header className="info-heading about-heading">
         <h1>About</h1>
         <p>
           A clearer view of your practice. Explore problems, follow your

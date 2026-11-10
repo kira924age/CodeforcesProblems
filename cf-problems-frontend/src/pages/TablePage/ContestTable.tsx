@@ -47,7 +47,11 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
     submissions
   );
 
-  const columns = makeContestColumns(props.name);
+  const columns = makeContestColumns(props.name).filter(
+    ({ dataIndex }) =>
+      dataIndex === "name" ||
+      contestTable.some((row) => row[dataIndex] !== undefined)
+  );
 
   return (
     <React.Fragment>
@@ -84,19 +88,18 @@ const ContestTable: React.FC<ContestTableProps> = (props) => {
           </tbody>
         </table>
       </div>
-      {problemData.length > 0 && (
-        <Pagination
-          className="contest-pagination"
-          current={current}
-          pageSize={pageSize}
-          pageSizeOptions={[10, 20, 50, 100, 150]}
-          total={problemData.length}
-          onChange={(next, size) => {
-            setPage(next);
-            setPageSize(size);
-          }}
-        />
-      )}
+      <Pagination
+        className="contest-pagination"
+        current={current}
+        pageSize={pageSize}
+        pageSizeOptions={[10, 20, 50, 100, 150]}
+        total={problemData.length}
+        alwaysShowPageSize
+        onChange={(next, size) => {
+          setPage(next);
+          setPageSize(size);
+        }}
+      />
     </React.Fragment>
   );
 };

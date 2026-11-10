@@ -6,6 +6,7 @@ type Props = {
   pageSize: number;
   total: number;
   pageSizeOptions?: number[];
+  alwaysShowPageSize?: boolean;
   onChange: (page: number, pageSize: number) => void;
   className?: string;
   label?: string;
@@ -67,11 +68,12 @@ const Pagination = ({
   pageSize,
   total,
   pageSizeOptions = [10, 20, 50, 100],
+  alwaysShowPageSize = false,
   onChange,
   className = "",
   label = "Pagination",
 }: Props) => {
-  if (total === 0) return null;
+  if (total === 0 && !alwaysShowPageSize) return null;
   const last = Math.max(1, Math.ceil(total / pageSize));
   const page = Math.max(1, Math.min(current, last));
   const move = (next: number) => {
@@ -83,7 +85,7 @@ const Pagination = ({
   );
   return (
     <nav className={`ui-pagination ${className}`} aria-label={label}>
-      <ul className="ui-pagination-pages">
+      <ul className="ui-pagination-pages" hidden={total === 0}>
         <li className="ui-pagination-mobile-only">
           <button
             type="button"
@@ -190,7 +192,7 @@ const Pagination = ({
           </button>
         </li>
       </ul>
-      {total > 50 && (
+      {(alwaysShowPageSize || total > 50) && (
         <div className="ui-pagination-size">
           <Select
             label="Page Size"

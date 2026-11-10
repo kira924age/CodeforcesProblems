@@ -38,42 +38,44 @@ export default function HandleForm({
         void navigate(`/${page}/${handle}`);
       }}
     >
-      <input
-        name="handle"
-        aria-label="Codeforces ID"
-        placeholder="Codeforces ID"
-        value={draft}
-        required
-        pattern={"\\s*[a-zA-Z0-9_.\\-]+\\s*"}
-        spellCheck={false}
-        autoCapitalize="none"
-        autoComplete="off"
-        onChange={(event) => setDraft(event.target.value)}
-        onCompositionStart={() => {
-          isComposing.current = true;
-        }}
-        onCompositionEnd={() => {
-          isComposing.current = false;
-        }}
-        onKeyDown={(event) => {
-          if (
-            event.key === "Enter" &&
-            (isComposing.current ||
-              event.nativeEvent.isComposing ||
-              event.keyCode === 229)
-          ) {
-            event.preventDefault();
-          }
-        }}
-      />
-      <Tooltip title={submitLabel} asChild>
-        <button type="submit" aria-label={submitLabel}>
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <circle cx="10.5" cy="10.5" r="5.5" />
-            <path d="m15 15 4 4" />
-          </svg>
-        </button>
-      </Tooltip>
+      <div className="handle-search">
+        <input
+          name="handle"
+          aria-label="Codeforces ID"
+          placeholder="Codeforces ID"
+          value={draft}
+          required
+          pattern={"\\s*[a-zA-Z0-9_.\\-]+\\s*"}
+          spellCheck={false}
+          autoCapitalize="none"
+          autoComplete="off"
+          onChange={(event) => setDraft(event.target.value)}
+          onCompositionStart={() => {
+            isComposing.current = true;
+          }}
+          onCompositionEnd={() => {
+            isComposing.current = false;
+          }}
+          onKeyDown={(event) => {
+            if (
+              event.key === "Enter" &&
+              (isComposing.current ||
+                event.nativeEvent.isComposing ||
+                event.keyCode === 229)
+            ) {
+              event.preventDefault();
+            }
+          }}
+        />
+        <Tooltip title={submitLabel} asChild>
+          <button type="submit" aria-label={submitLabel}>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="5.5" />
+              <path d="m15 15 4 4" />
+            </svg>
+          </button>
+        </Tooltip>
+      </div>
       {onRefetch && (
         <RefetchButton
           onClick={onRefetch}

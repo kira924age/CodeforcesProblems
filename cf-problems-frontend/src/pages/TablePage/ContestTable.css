@@ -8,7 +8,8 @@
   border-spacing: 0;
   border-collapse: separate;
   border: 1px solid #dee2e6;
-  border-radius: 2px 2px 0 0;
+  border-radius: 6px;
+  overflow: hidden;
   background: #fff;
   color: rgba(0, 0, 0, 0.88);
   font-size: 14px;
@@ -28,7 +29,6 @@
   padding: 16px;
   background: #fafafa;
   font-weight: bold;
-  font-size: 16px;
 }
 .contest-table td {
   padding: 0;
@@ -52,7 +52,7 @@
   border-right: 0;
 }
 .contest-table tbody tr:last-child td {
-  border-bottom: 0;
+  border-bottom-width: 0;
 }
 .contest-table tbody tr:hover > td {
   background: #fafafa;
@@ -69,10 +69,7 @@
 .theme-dark .contest-table tbody tr:hover > td {
   color: #c9d1d9;
   background: #090c10;
-  border: 1px solid #484848;
-}
-.theme-dark .contest-table tbody tr:last-child td {
-  border-bottom: 1px solid #484848;
+  border-color: #484848;
 }
 /* Match the bottom navigation breakpoint in Header.css. */
 @media (max-width: 640px) {
@@ -82,9 +79,13 @@
   .contest-table td {
     display: block;
     height: auto;
+    border-right: 0;
   }
   .contest-table td:empty {
     display: none;
+  }
+  .contest-table tbody tr:last-child td:has(~ td:not(:empty)) {
+    border-bottom-width: 1px;
   }
   .contest-table td:not(:first-child) .cell-element {
     padding-left: 2.5rem;
@@ -153,10 +154,6 @@
   width: 100%;
 }
 
-.theme-dark .contest-table {
-  border: none;
-  border-radius: 0;
-}
 .theme-dark .contest-table .OK {
   background: #004306 !important;
 }

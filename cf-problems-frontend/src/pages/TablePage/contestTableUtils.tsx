@@ -3,23 +3,21 @@ import DifficultyCircle from "../../components/DifficultyCircle";
 
 import { getRatingColorClass } from "../../utils/colors";
 
-export const makeColumns = (n: number) => {
-  let res = [
+const makeColumns = (n: number) => {
+  const columns = [
     {
       title: "Contest",
       dataIndex: "name",
-      render: (text: string) => text,
     },
   ];
   for (let i = 0; i < n; i++) {
     const alp: string = String.fromCharCode(65 + i);
-    res.push({
+    columns.push({
       title: alp,
       dataIndex: alp,
-      render: (text: string) => text,
     });
   }
-  return res;
+  return columns;
 };
 
 export const makeContestColumns = (contest: string) => {
@@ -64,17 +62,10 @@ export const makeContestColumns = (contest: string) => {
       break;
   }
 
-  let columns = makeColumns(columnNum);
+  const columns = makeColumns(columnNum);
 
   if (contest === "Microsoft Q# Coding Contests") {
-    columns = [
-      ...makeColumns(9),
-      {
-        title: "U",
-        dataIndex: "U",
-        render: (text: string) => text,
-      },
-    ];
+    columns.push({ title: "U", dataIndex: "U" });
   }
   return columns;
 };

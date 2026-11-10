@@ -1,0 +1,14 @@
+.user-name-label {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.user-name-label .ui-tooltip-trigger {
+  display: flex;
+  flex: none;
+}
+
+.user-name-label a {
+  overflow-wrap: anywhere;
+}

@@ -8,6 +8,7 @@ import Achievement from "./Achievement";
 import SubmissionListTable from "./SubmissionListTable";
 import Climbing from "./Climbing";
 import Heatmap from "./Heatmap";
+import "./UserPage.css";
 
 import { makeSolvedHistory } from "./makeSolvedHistory";
 import { makeSubmissionHistory } from "./makeSubmissionHistory";

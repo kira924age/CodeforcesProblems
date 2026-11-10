@@ -3,7 +3,14 @@
   align-items: end;
   flex-wrap: wrap;
   gap: 8px;
-  margin-block: 16px 20px;
+  margin-block: 8px 20px;
+}
+
+.handle-search {
+  display: flex;
+  flex: 1 1 0;
+  min-width: min(100%, 150px);
+  max-width: 344px;
 }
 
 .handle-form input,
@@ -18,16 +25,16 @@
 }
 
 .handle-form input {
-  flex: 1 1 150px;
+  flex: 1;
   min-width: 0;
-  max-width: 300px;
-  width: 100%;
+  border-radius: 6px 0 0 6px;
   font-size: 16px;
 }
 
 .handle-form input:focus {
   border-color: var(--nav-current-text, #164799);
   outline: 1px solid var(--nav-current-text, #164799);
+  outline-offset: -2px;
 }
 
 .handle-form button {
@@ -61,6 +68,8 @@
 }
 
 .handle-form button[type="submit"] {
+  border-inline-start: 0;
+  border-radius: 0 6px 6px 0;
   background: var(--nav-current-bg, #e8f0ff);
   color: var(--nav-current-text, #164799);
 }

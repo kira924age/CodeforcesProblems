@@ -3,6 +3,7 @@ import { getRatingColorClass } from "../../utils/colors";
 import Tooltip from "../../components/ui/Tooltip";
 
 import TopcoderLikeCircle from "../../components/TopcoderLikeCircle";
+import "./UserNameLabel.css";
 
 interface Props {
   userId: string;
@@ -14,19 +15,17 @@ const UserNameLabel: React.FunctionComponent<Props> = (props: Props) => {
   const userRatingCircle =
     props.rating === undefined ? (
       <Tooltip title="Unrated">
-        <div className="difficulty-unavailable-circle">
-          <span className="big-difficulty-circle"></span>
-        </div>
+        <span className="big-difficulty-circle difficulty-unavailable-circle" />
       </Tooltip>
     ) : (
       <Tooltip title={"Rating: " + String(props.rating)}>
-        <TopcoderLikeCircle rating={props.rating} big={true} />{" "}
+        <TopcoderLikeCircle rating={props.rating} big />
       </Tooltip>
     );
 
   return (
-    <h3>
-      {userRatingCircle}{" "}
+    <h3 className="user-name-label">
+      {userRatingCircle}
       <a
         target="_blank"
         rel="noopener noreferrer"

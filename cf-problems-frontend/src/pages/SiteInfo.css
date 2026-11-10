@@ -50,6 +50,9 @@
   font-size: 13px;
   font-weight: 600;
 }
+.about-heading {
+  margin-bottom: 32px;
+}
 .about-features {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -57,7 +60,7 @@
   margin-bottom: 36px;
 }
 .about-feature {
-  padding: 26px;
+  padding: 18px 26px 26px;
   background: var(--nav-bg);
   border: 1px solid var(--nav-border);
   border-radius: 12px;
@@ -84,12 +87,15 @@
   .info-heading {
     margin-bottom: 32px;
   }
+  .about-heading {
+    margin-bottom: 24px;
+  }
   .about-features {
     grid-template-columns: 1fr;
     gap: 12px;
   }
   .about-feature {
-    padding: 22px;
+    padding: 16px 22px 22px;
   }
   .changelog-entry {
     grid-template-columns: 1fr;

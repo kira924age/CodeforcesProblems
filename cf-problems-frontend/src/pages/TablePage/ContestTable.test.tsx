@@ -25,6 +25,7 @@ const contests = vi.hoisted(() => [
     problems: [
       { index: "A1", name: `Easy ${i + 1}`, rating: 800 },
       { index: "A2", name: `Hard ${i + 1}`, rating: 2200 },
+      ...(i === 50 ? [{ index: "B", name: "Bonus", rating: 1600 }] : []),
     ],
   })),
   { id: 3000, name: "Division 1", type: "Div1", problems: null },
@@ -63,15 +64,13 @@ const props = {
 const rows = () =>
   screen.getByRole("table", { name: props.name }).querySelectorAll("tr");
 
-test("puts Refresh after search and reloads submissions for the applied handle", async () => {
+test("enables Refresh with an applied handle and reloads its submissions", async () => {
   const { rerender } = render(
     <MemoryRouter>
       <TablePage userId="" />
     </MemoryRouter>
   );
-  const search = screen.getByRole("button", { name: "Show Progress" });
   const refresh = screen.getByRole("button", { name: "Refresh" });
-  expect(search.nextElementSibling).toBe(refresh);
   expect(refresh).toBeDisabled();
 
   rerender(
@@ -89,9 +88,7 @@ test("generates cells for only the first 50 contests, reusing the existing colum
   const makeRows = vi.spyOn(utils, "makeContestTable");
   render(<ContestTable {...props} />);
   expect(rows()).toHaveLength(51);
-  expect(screen.getAllByRole("columnheader", { hidden: true })).toHaveLength(
-    10
-  );
+  expect(screen.getAllByRole("columnheader", { hidden: true })).toHaveLength(2);
   expect(makeRows).toHaveBeenCalled();
   for (const call of makeRows.mock.calls) expect(call[0]).toHaveLength(50);
   const first = within(rows()[1] as HTMLElement);
@@ -109,12 +106,15 @@ test("generates cells for only the first 50 contests, reusing the existing colum
 });
 test("paginates before generating cells and retains the selected page on order changes", () => {
   const { rerender } = render(<ContestTable {...props} />);
+  expect(screen.queryByRole("columnheader", { name: "B" })).toBeNull();
   fireEvent.click(screen.getByRole("button", { name: "Next Page" }));
+  expect(screen.getByRole("columnheader", { name: "B" })).toBeInTheDocument();
   expect(
     within(rows()[1] as HTMLElement).getByRole("link", { name: "Round 51" })
   ).toBeInTheDocument();
   expect(screen.queryByText("Round 1")).not.toBeInTheDocument();
   rerender(<ContestTable {...props} isReverseOrder />);
+  expect(screen.queryByRole("columnheader", { name: "B" })).toBeNull();
   expect(
     within(rows()[1] as HTMLElement).getByRole("link", { name: "Round 120" })
   ).toBeInTheDocument();
@@ -140,8 +140,9 @@ test("clamps the page after changing categories and preserves Q# columns and unp
   const { rerender } = render(<ContestTable {...props} />);
   fireEvent.click(screen.getByRole("button", { name: "Next Page" }));
   rerender(<ContestTable {...props} name="Div. 1 Contests" />);
-  expect(screen.getAllByRole("columnheader", { hidden: true })).toHaveLength(8);
+  expect(screen.getAllByRole("columnheader", { hidden: true })).toHaveLength(1);
   expect(screen.getByRole("link", { name: "Division 1" })).toBeInTheDocument();
+  expect(screen.getByRole("combobox", { name: "Page Size" })).toBeVisible();
   expect(screen.getByRole("button", { name: "Next Page" })).toBeDisabled();
   rerender(<ContestTable {...props} name="Microsoft Q# Coding Contests" />);
   expect(screen.getByRole("columnheader", { name: "U" })).toBeInTheDocument();
@@ -186,6 +187,7 @@ test("preserves empty results and submission fetch failure display", () => {
   localStorage.setItem("pageSize", "10");
   const { rerender } = render(<ContestTable {...props} name="unknown" />);
   expect(screen.getByText("No data")).toBeInTheDocument();
+  expect(screen.getByRole("combobox", { name: "Page Size" })).toBeVisible();
   expect(
     screen.queryByRole("button", { name: "Next Page" })
   ).not.toBeInTheDocument();

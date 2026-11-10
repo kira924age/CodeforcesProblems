@@ -15,6 +15,7 @@ type Props = {
 const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
   const difficultyId = React.useId();
   const reverseOrderId = React.useId();
+  const categories = React.useRef<HTMLDivElement>(null);
   const [contest, setContest] = useLocalStorage(
     "activeTab",
     "Educational Codeforces Rounds"
@@ -29,6 +30,47 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
     "isReverseOrder",
     false
   );
+
+  React.useLayoutEffect(() => {
+    const group = categories.current;
+    if (!group) return;
+    const tabs = Array.from(
+      group.querySelectorAll<HTMLButtonElement>(".contest-category")
+    );
+    const markRows = () => {
+      const offsets = tabs.map((tab) => tab.offsetTop);
+      const lastRowStart = offsets.indexOf(offsets[offsets.length - 1]);
+      tabs.forEach((tab, index) => {
+        const top = offsets[index];
+        tab.toggleAttribute("data-last-row", index >= lastRowStart);
+        tab.toggleAttribute(
+          "data-first-row-end",
+          top === offsets[0] && top !== offsets[index + 1]
+        );
+        tab.toggleAttribute("data-last-row-start", index === lastRowStart);
+      });
+
+      // Measure after the last row has stopped stretching.
+      const previousEnd = tabs[lastRowStart - 1];
+      const lastEnd = tabs.at(-1);
+      const exposedEnd =
+        previousEnd &&
+        lastEnd &&
+        previousEnd.getBoundingClientRect().right -
+          lastEnd.getBoundingClientRect().right >=
+          6
+          ? previousEnd
+          : undefined;
+      tabs.forEach((tab) => {
+        tab.toggleAttribute("data-exposed-bottom-end", tab === exposedEnd);
+      });
+    };
+    markRows();
+    const observer = new ResizeObserver(markRows);
+    observer.observe(group);
+    tabs.forEach((tab) => observer.observe(tab));
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <React.Fragment>
@@ -58,6 +100,7 @@ const TableTabButtons: React.FunctionComponent<Props> = (props: Props) => {
       </div>
 
       <RadioGroup.Root
+        ref={categories}
         aria-label="Contest category"
         value={contest}
         className="contest-categories"

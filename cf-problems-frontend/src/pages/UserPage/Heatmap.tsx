@@ -250,7 +250,7 @@ const Heatmap: React.FunctionComponent<Props> = ({ data }) => {
     selectedYear && years.includes(selectedYear) ? selectedYear : years[0];
   return (
     <>
-      <h3>Heatmap</h3>
+      <h3 className="user-chart-heading">Heatmap</h3>
       <hr />
       {year ? (
         <div className="heatmap">

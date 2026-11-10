@@ -22,6 +22,7 @@
 .heatmap-labels,
 .heatmap-legend {
   font-size: 10px;
+  font-variant-numeric: tabular-nums;
 }
 .heatmap-selected {
   fill: none;
@@ -38,6 +39,7 @@
   padding: 8px;
   border-radius: 10px;
   font-size: 14px;
+  font-variant-numeric: tabular-nums;
   text-align: center;
   white-space: nowrap;
 }

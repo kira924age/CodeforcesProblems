@@ -1,10 +1,6 @@
 .feedback-alert,
 .feedback-loading,
 .feedback-empty {
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 14px;
   line-height: 22px;
 }
@@ -25,8 +21,9 @@
   overflow-wrap: break-word;
 }
 .theme-dark .feedback-alert {
-  color: rgba(255, 255, 255, 0.85);
-  border-color: #5b2526;
+  color: #ffd7d5;
+  background: #35191c;
+  border-color: #834249;
 }
 .feedback-loading {
   position: relative;

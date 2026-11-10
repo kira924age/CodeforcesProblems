@@ -96,7 +96,7 @@ const Climbing = ({ solvedHistory }: Props) => {
 
   return (
     <>
-      <h3>Climbing</h3>
+      <h3 className="user-chart-heading">Climbing</h3>
       <hr />
       <div className="climbing-chart">
         <canvas

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../..//components/Header/Header";
+import HandleForm from "../../components/HandleForm";
 import UserNotFound from "./UserNotFound";
 import ErrorMessage from "../TablePage/ErrorMessage";
 import Loading from "./Loading";
@@ -11,104 +11,102 @@ import Heatmap from "./Heatmap";
 
 import { makeSolvedHistory } from "./makeSolvedHistory";
 import { makeSubmissionHistory } from "./makeSubmissionHistory";
-import { fetchUserSubmission, makeAchievementData } from "./userUtils";
-import { cachedUserInfo } from "../../utils/TypedCachedApiClient";
+import { makeAchievementData } from "./userUtils";
+import {
+  cachedSubmissionHistory,
+  cachedUserInfo,
+  type Submission,
+} from "../../utils/TypedCachedApiClient";
 
-interface Props {
+type Profile = {
   userId: string;
-}
+  rating: number;
+  submissions: Submission[];
+  achievements: ReturnType<typeof makeAchievementData>;
+  solvedHistory: ReturnType<typeof makeSolvedHistory>;
+  submissionHistory: ReturnType<typeof makeSubmissionHistory>;
+};
 
-const User: React.FunctionComponent<Props> = (props: Props) => {
-  const [isError, setIsError] = React.useState(false);
-  const [isUserExist, setIsUserExist] = React.useState(false);
-  const [isLoading, setIsLoading] = React.useState(true);
-  const [userRating, setUserRating] = React.useState(0);
-  const [userSubmission, setUserSubmission] = React.useState([] as any[]);
-  const [userInfo, setUserInfo] = React.useState({
-    solvedCountAll: 0,
-    solvedCountLastYear: 0,
-    solvedCountLastMonth: 0,
-    longestStreak: 0,
-    currentStreak: 0,
-    streakSum: 0,
-    solvedHistory: [] as any[],
-    submissionHistory: [] as any[],
-  });
+export default function User({ userId }: { userId: string }) {
+  const [status, setStatus] = React.useState<
+    "loading" | "success" | "not-found" | "error"
+  >("loading");
+  const [profile, setProfile] = React.useState<Profile>();
+  const [revision, setRevision] = React.useState(0);
+  const lastRevision = React.useRef(revision);
 
   React.useEffect(() => {
-    setIsLoading(true);
-    let isMounted = true;
+    const refresh = revision !== lastRevision.current;
+    lastRevision.current = revision;
+    setProfile((previous) =>
+      previous?.userId === userId ? previous : undefined
+    );
+    if (!userId) return;
+    setStatus("loading");
+    let active = true;
 
-    const getUserInfo = async (userId: string) => {
-      const str = "https://codeforces.com/api/user.status?handle=";
-      const userInfo = await cachedUserInfo(props.userId);
-
-      if (userInfo.isUserExist && userInfo.isError === false) {
-        const submissions = await fetchUserSubmission(str + userId);
-        const res = makeAchievementData(submissions);
-        if (isMounted) {
-          setIsLoading(false);
-          setUserSubmission(submissions);
-          setUserInfo({
-            solvedCountAll: res.solvedCountAll,
-            solvedCountLastYear: res.solvedCountLastYear,
-            solvedCountLastMonth: res.solvedCountLastMonth,
-            longestStreak: res.longestStreak,
-            currentStreak: res.currentStreak,
-            streakSum: res.streakSum,
-            solvedHistory: makeSolvedHistory(submissions),
-            submissionHistory: makeSubmissionHistory(submissions),
-          });
-          setIsUserExist(userInfo.isUserExist);
-          setUserRating(userInfo.userRating);
+    const load = async () => {
+      try {
+        // Publish the refresh to the shared cache before waiting for the profile.
+        const submissionRefresh = refresh
+          ? cachedSubmissionHistory(userId, true)
+          : undefined;
+        const info = await cachedUserInfo(userId, refresh);
+        if (!active) return;
+        if (!info) {
+          setProfile(undefined);
+          setStatus("not-found");
+          return;
         }
-      } else {
-        if (isMounted) {
-          setIsLoading(false);
-          setIsError(userInfo.isError);
-          setIsUserExist(userInfo.isUserExist);
-        }
+        const submissions = await (submissionRefresh ??
+          cachedSubmissionHistory(userId));
+        if (!active) return;
+        setProfile({
+          userId,
+          rating: info.userRating,
+          submissions,
+          achievements: makeAchievementData(submissions),
+          solvedHistory: makeSolvedHistory(submissions),
+          submissionHistory: makeSubmissionHistory(submissions),
+        });
+        setStatus("success");
+      } catch {
+        if (active) setStatus("error");
       }
     };
 
-    void getUserInfo(props.userId);
-
+    void load();
     return () => {
-      isMounted = false;
+      active = false;
     };
-  }, [props.userId]);
+  }, [userId, revision]);
 
-  const element =
-    isUserExist && isError === false ? (
-      <>
-        <UserNameLabel userId={props.userId} rating={userRating} />
-        <hr />
-        <Achievement
-          userId={props.userId}
-          solvedCountAll={userInfo.solvedCountAll}
-          solvedCountLastYear={userInfo.solvedCountLastYear}
-          solvedCountLastMonth={userInfo.solvedCountLastMonth}
-          longestStreak={userInfo.longestStreak}
-          currentStreak={userInfo.currentStreak}
-          streakSum={userInfo.streakSum}
-        />
-        <Climbing solvedHistory={userInfo.solvedHistory} />
-        <Heatmap data={userInfo.submissionHistory} />
-        <SubmissionListTable submission={userSubmission} />
-      </>
-    ) : isError ? (
-      <ErrorMessage />
-    ) : (
-      <UserNotFound />
-    );
-  const a = isLoading ? <Loading /> : element;
-
+  const current = profile?.userId === userId ? profile : undefined;
   return (
     <>
-      <Header userId={props.userId} location="user" />
-      <div className="Main">{a}</div>
+      <HandleForm
+        userId={userId}
+        page="user"
+        submitLabel="Show Stats"
+        isLoading={Boolean(userId) && status === "loading"}
+        onRefetch={() => setRevision((value) => value + 1)}
+      />
+      {!userId && (
+        <p>Enter a Codeforces handle to see solved problems and activity.</p>
+      )}
+      {userId && status === "error" && <ErrorMessage />}
+      {userId && status === "not-found" && <UserNotFound />}
+      {userId && status === "loading" && !current && <Loading />}
+      {current && (
+        <>
+          <UserNameLabel userId={userId} rating={current.rating} />
+          <hr />
+          <Achievement userId={userId} {...current.achievements} />
+          <Climbing solvedHistory={current.solvedHistory} />
+          <Heatmap data={current.submissionHistory} />
+          <SubmissionListTable submission={current.submissions} />
+        </>
+      )}
     </>
   );
-};
-
-export default User;
+}

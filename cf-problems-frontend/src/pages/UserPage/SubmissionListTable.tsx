@@ -4,20 +4,8 @@ import EmptyState from "../../components/feedback/EmptyState";
 import DifficultyCircle from "../../components/DifficultyCircle";
 import { getRatingColorClass } from "../../utils/colors";
 import { formatFullDate } from "../../utils/formatDate";
+import type { Submission } from "../../utils/TypedCachedApiClient";
 import "./SubmissionListTable.css";
-
-interface Submission {
-  submissionId: number;
-  creationTimeSeconds: number;
-  problem: {
-    contestId?: number;
-    index: string;
-    name: string;
-    rating?: number;
-  };
-  verdict?: string;
-  programmingLanguage: string;
-}
 
 interface Props {
   submission: Submission[];

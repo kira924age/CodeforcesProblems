@@ -74,7 +74,8 @@
 .theme-dark .contest-table tbody tr:last-child td {
   border-bottom: 1px solid #484848;
 }
-@media only screen and (max-width: 575px) {
+/* Match the bottom navigation breakpoint in Header.css. */
+@media (max-width: 640px) {
   .contest-table thead {
     display: none;
   }

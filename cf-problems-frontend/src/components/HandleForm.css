@@ -1,0 +1,71 @@
+.handle-form {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-block: 16px 20px;
+}
+
+.handle-form input,
+.handle-form button {
+  min-height: 44px;
+  padding: 8px 12px;
+  font: inherit;
+  background: var(--nav-bg, #fff);
+  color: var(--nav-text, #24292f);
+  border: 1px solid var(--nav-border, #d0d7de);
+  border-radius: 6px;
+}
+
+.handle-form input {
+  flex: 1 1 150px;
+  min-width: 0;
+  max-width: 300px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.handle-form input:focus {
+  border-color: var(--nav-current-text, #164799);
+  outline: 1px solid var(--nav-current-text, #164799);
+}
+
+.handle-form button {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  padding: 0;
+}
+
+.handle-form button svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .refetch-button[aria-busy="true"] svg {
+    animation: refetch-spin 0.8s linear infinite;
+  }
+}
+
+@keyframes refetch-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.handle-form button[type="submit"] {
+  background: var(--nav-current-bg, #e8f0ff);
+  color: var(--nav-current-text, #164799);
+}
+
+.handle-form button:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}

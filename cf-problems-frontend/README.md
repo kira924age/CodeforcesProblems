@@ -167,16 +167,22 @@ Hover or tap a day to see its date and submission count. Focus the calendar and
 use Up/Down for adjacent days, Left/Right for adjacent weeks, Home/End for year
 boundaries, and Escape to dismiss the tooltip. Empty days show zero submissions.
 
-## Header controls
+## Navigation and handle controls
 
-The header uses native HTML inputs and buttons. Table/User links retain history
-replacement, while Enter in the username input navigates within the current
-page type and adds a history entry. Browser back/forward keeps the input in sync.
-IME composition Enter does not navigate. User is disabled when the handle is empty.
-Desktop and mobile controls share the input value and preserve their existing styling.
+Contests, User Stats, and Info are in the header on wide screens. At widths of
+640px or less, they move to the bottom of the screen and the contest table stacks
+vertically. Open Info to choose About or Changelog.
 
-Header columns and the achievement rows use native HTML and scoped CSS. Header
-breakpoints retain the previous column proportions at 576, 768, 1200, and 1600px.
+Contests and User Stats each have a Codeforces ID field. Enter a handle and press
+Enter or use the search button to apply it. Leading and trailing whitespace is
+trimmed, and Enter during IME composition leaves the current page in place.
+Switching pages carries the applied handle, and both Contests and User Stats can
+open before a handle is applied. Navigation and handle submissions add history
+entries, so Back and Forward restore the corresponding page and input value.
+Use Refresh to reload progress or stats for the applied handle.
+
+## Achievement layout
+
 Achievement rows retain content-dependent wrapping, a 50% maximum item width on
 small screens, a one-third maximum from 576px, and the existing 10px gutter.
-The question marker is a styled span; its explanation still uses Ant Design Tooltip.
+The question marker opens a tooltip explaining how counts and streaks work.

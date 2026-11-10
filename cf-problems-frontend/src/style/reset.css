@@ -178,6 +178,15 @@ html [type="button"],
 [type="submit"] {
   -webkit-appearance: button;
 }
+:where(
+  button,
+  [role="button"],
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"]
+):where(:not(:disabled, [aria-disabled="true"])) {
+  cursor: pointer;
+}
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,

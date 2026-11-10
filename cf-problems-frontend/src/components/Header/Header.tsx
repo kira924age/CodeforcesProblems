@@ -1,151 +1,98 @@
-import React from "react";
-import Hamburger from "./Hamburger";
-import Logo from "./Logo";
+import { Link, NavLink, useMatch } from "react-router";
+import { DropdownMenu } from "radix-ui";
 import ThemeToggler from "./ThemeToggler";
-import { Link, useNavigate } from "react-router";
-
 import "./Header.css";
-import "./InputBox.css";
 
-interface Props {
-  userId: string | undefined;
-  location: string;
-}
-
-const Header: React.FunctionComponent<Props> = (props: Props) => {
-  const [userId, setUserId] = React.useState(props.userId ?? "");
-
-  React.useEffect(() => {
-    setUserId(props.userId ?? "");
-  }, [props.userId]);
-  const [isOpen, setIsOpen] = React.useState(false);
-
-  const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
-    setUserId(e.currentTarget.value);
-  };
-
-  const navigate = useNavigate();
-  const isComposing = React.useRef(false);
-
-  const handleEnter = () => {
-    void navigate("/" + props.location + "/" + userId);
-  };
-
-  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (
-      event.key === "Enter" &&
-      !isComposing.current &&
-      !event.nativeEvent.isComposing &&
-      event.keyCode !== 229
-    ) {
-      handleEnter();
-    }
-  };
-
-  const toggleIsOpen = () => {
-    setIsOpen(!isOpen);
-  };
-
+const Header = ({ userId }: { userId: string }) => {
+  const isAbout = useMatch("/about");
+  const isChangelog = useMatch("/changelog");
   return (
-    <div id="header">
-      <div className="header-row">
-        <div className="header-logo">
-          <Logo />
-        </div>
-        <div className="header-menu">
-          <div id="input-box">
-            <input
-              className="header-input"
-              type="text"
-              placeholder="Codeforces ID"
-              value={userId}
-              onChange={handleChange}
-              onKeyDown={handleKeyDown}
-              onCompositionStart={() => {
-                isComposing.current = true;
-              }}
-              onCompositionEnd={() => {
-                isComposing.current = false;
-              }}
-            />
-
-            <Link to={"/table/" + userId} replace>
-              <button type="button" className="header-button">
-                Table
-              </button>
-            </Link>
-            {userId === "" ? (
-              <Link
-                to={"/user/" + userId}
-                replace
-                aria-disabled="true"
-                tabIndex={-1}
-                onClick={(event) => event.preventDefault()}
+    <>
+      <header className="site-header">
+        <Link className="site-brand" to="/table/">
+          <img
+            className="site-brand-logo"
+            src={`${import.meta.env.BASE_URL}android-chrome-192x192.png`}
+            width="28"
+            height="28"
+            alt=""
+          />
+          Codeforces Problems
+        </Link>
+      </header>
+      <nav className="site-nav" aria-label="Main navigation">
+        <NavLink to={`/table/${userId}`}>
+          <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+            <path d="M6 5h7M6 9h7M6 13h7M3 5h.01M3 9h.01M3 13h.01" />
+          </svg>
+          <span>Contests</span>
+        </NavLink>
+        <NavLink to={`/user/${userId}`}>
+          <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+            <path d="M8 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM3 13a5 5 0 0 1 10 0" />
+          </svg>
+          <span>User Stats</span>
+        </NavLink>
+        <DropdownMenu.Root modal={false}>
+          <DropdownMenu.Trigger
+            className="site-info-trigger"
+            aria-current={isAbout || isChangelog ? "location" : undefined}
+          >
+            <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path d="M8 14a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM8 7.5v3M8 5h.01" />
+            </svg>
+            <span>
+              Info
+              <svg
+                className="site-info-chevron"
+                viewBox="0 0 16 16"
+                width="14"
+                height="14"
+                aria-hidden="true"
               >
-                <button type="button" className="header-button" disabled>
-                  User
-                </button>
-              </Link>
-            ) : (
-              <Link to={"/user/" + userId} replace>
-                <button type="button" className="header-button">
-                  User
-                </button>
-              </Link>
-            )}
-          </div>
-          <ThemeToggler />
-        </div>
-        <div className="header-toggle">
-          <Hamburger isOpen={isOpen} onToggle={toggleIsOpen} />
-        </div>
-      </div>
-      {isOpen && (
-        <div id="mobile-menu" className="mobile-menu">
-          <div id="input-box">
-            <input
-              className="header-input"
-              type="text"
-              placeholder="Codeforces ID"
-              value={userId}
-              onChange={handleChange}
-              onKeyDown={handleKeyDown}
-              onCompositionStart={() => {
-                isComposing.current = true;
-              }}
-              onCompositionEnd={() => {
-                isComposing.current = false;
-              }}
-            />
-            <Link to={"/table/" + userId} replace>
-              <button type="button" className="header-button">
-                Table
-              </button>
-            </Link>
-            {userId === "" ? (
-              <Link
-                to={"/user/" + userId}
-                replace
-                aria-disabled="true"
-                tabIndex={-1}
-                onClick={(event) => event.preventDefault()}
-              >
-                <button type="button" className="header-button" disabled>
-                  User
-                </button>
-              </Link>
-            ) : (
-              <Link to={"/user/" + userId} replace>
-                <button type="button" className="header-button">
-                  User
-                </button>
-              </Link>
-            )}
-          </div>
-          <ThemeToggler />
-        </div>
-      )}
-    </div>
+                <path d="m4 6 4 4 4-4" />
+              </svg>
+            </span>
+          </DropdownMenu.Trigger>
+          <DropdownMenu.Portal>
+            <DropdownMenu.Content
+              className="site-info-menu"
+              align="end"
+              sideOffset={8}
+              collisionPadding={8}
+            >
+              <DropdownMenu.Item asChild>
+                <NavLink to="/about">
+                  <svg
+                    viewBox="0 0 16 16"
+                    width="16"
+                    height="16"
+                    aria-hidden="true"
+                  >
+                    <path d="M8 14a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM8 7.5v3M8 5h.01" />
+                  </svg>
+                  About
+                </NavLink>
+              </DropdownMenu.Item>
+              <DropdownMenu.Item asChild>
+                <NavLink to="/changelog">
+                  <svg
+                    viewBox="0 0 16 16"
+                    width="16"
+                    height="16"
+                    aria-hidden="true"
+                  >
+                    <path d="M3 5a6 6 0 1 1-.5 5M3 2v3h3M8 5v3l2 1" />
+                  </svg>
+                  Changelog
+                </NavLink>
+              </DropdownMenu.Item>
+            </DropdownMenu.Content>
+          </DropdownMenu.Portal>
+        </DropdownMenu.Root>
+      </nav>
+      <ThemeToggler />
+    </>
   );
 };
 

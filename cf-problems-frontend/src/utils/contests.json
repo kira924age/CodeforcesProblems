@@ -1,5 +1,48 @@
 [
  {
+  "id": 2290,
+  "type": "Div4",
+  "name": "Codeforces Round 1134 (Div. 4)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Three Piles"
+   },
+   {
+    "index": "B",
+    "name": "Stubborn Pen"
+   },
+   {
+    "index": "C",
+    "name": "Books on a Shelf"
+   },
+   {
+    "index": "D",
+    "name": "Letters Down"
+   },
+   {
+    "index": "E",
+    "name": "Avalanche"
+   },
+   {
+    "index": "F",
+    "name": "Value Counters"
+   },
+   {
+    "index": "G1",
+    "name": "Lakeside Trail (Easy Version)"
+   },
+   {
+    "index": "G2",
+    "name": "Lakeside Trail (Hard Version)"
+   },
+   {
+    "index": "H",
+    "name": "Extra Road"
+   }
+  ]
+ },
+ {
   "id": 2279,
   "type": "Div1",
   "name": "Codeforces Round 1133 (Div. 1)",

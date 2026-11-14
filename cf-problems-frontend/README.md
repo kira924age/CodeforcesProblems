@@ -93,8 +93,9 @@ changes. Generated `build/` files are excluded from linting.
 
 Production hosting uses an assets-only Worker named `codeforces-problems`.
 `cloudflare.config.ts` preserves `cf.kira924age.com`; no Worker entrypoint runs
-for static file requests. Existing relative asset URLs and hash routes remain
-unchanged. Codeforces API calls still originate in the browser.
+for static file requests. Browser routes use `/`, `/user`, `/about`, and
+`/changelog`. Static Assets serves the app entry point for direct links and
+reloads. Codeforces API calls still originate in the browser.
 
 ```sh
 pnpm run build:workers
@@ -183,10 +184,13 @@ vertically. Open Info to choose About or Changelog.
 Contests and User Stats each have a Codeforces ID field. Enter a handle and press
 Enter or use the search button to apply it. Leading and trailing whitespace is
 trimmed, and Enter during IME composition leaves the current page in place.
-Switching pages carries the applied handle, and both Contests and User Stats can
-open before a handle is applied. Navigation and handle submissions add history
-entries, so Back and Forward restore the corresponding page and input value.
+The applied handle is saved in localStorage and shared by Contests and User
+Stats across page changes and reloads. Draft input is saved only after submission.
+Navigation adds history entries; Back and Forward change pages while retaining
+the latest applied handle. Both pages can open before a handle is applied.
 Use Refresh to reload progress or stats for the applied handle.
+
+Handles are no longer included in page URLs. Contests opens directly at `/`.
 
 ## Achievement layout
 

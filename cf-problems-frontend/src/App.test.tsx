@@ -8,22 +8,22 @@ import {
   waitFor,
 } from "@testing-library/react";
 import App from "./App";
-import HandleForm from "./components/HandleForm";
+import HandleForm, { type HandleProps } from "./components/HandleForm";
 import { cachedContestArray } from "./utils/TypedCachedApiClient";
 
 vi.mock("./pages/TablePage/index", () => ({
-  default: ({ userId }: { userId: string }) => (
+  default: (props: HandleProps) => (
     <>
-      <HandleForm userId={userId} page="table" submitLabel="Show Progress" />
-      <div>Table: {userId}</div>
+      <HandleForm {...props} submitLabel="Show Progress" />
+      <div>Table: {props.userId}</div>
     </>
   ),
 }));
 vi.mock("./pages/UserPage/index", () => ({
-  default: ({ userId }: { userId: string }) => (
+  default: (props: HandleProps) => (
     <>
-      <HandleForm userId={userId} page="user" submitLabel="Show Stats" />
-      <div>User: {userId}</div>
+      <HandleForm {...props} submitLabel="Show Stats" />
+      <div>User: {props.userId}</div>
     </>
   ),
 }));
@@ -34,82 +34,69 @@ beforeAll(() => {
     value: () => ({ matches: false, addListener() {}, removeListener() {} }),
   });
 });
+beforeEach(() => localStorage.clear());
 afterEach(() => {
   cleanup();
   window.history.replaceState(null, "", "/");
 });
-const mountAt = (hash: string) => {
-  window.history.replaceState(null, "", `/${hash}`);
+const mountAt = (url: string) => {
+  window.history.replaceState(null, "", url);
   return render(<App />);
 };
 const input = () => screen.getByPlaceholderText("Codeforces ID");
 const link = (name: string) => screen.getByRole("link", { name });
 const submit = () => fireEvent.submit(input().closest("form")!);
 
-// Cases were checked against v5 matchPath before migration.
-test.each([
-  ["#/table/", "Table:"],
-  ["#/user/", "User:"],
-  ["#/table/tourist", "Table: tourist"],
-  ["#/user/tourist", "User: tourist"],
-  ["#/table/a_B.c-9", "Table: a_B.c-9"],
-  ["#/user/a_B.c-9", "User: a_B.c-9"],
-  ["#/TABLE/tourist", "Table: tourist"],
-  ["#/table/tourist/extra", "Table: tourist"],
-  ["#/user/tourist?tab=history", "User: tourist"],
-])("preserves the %s bookmark", async (hash, text) => {
-  mountAt(hash);
-  expect(await screen.findByText(text)).toBeInTheDocument();
-  expect(window.location.hash).toBe(hash);
+test.each(["/", "/user"])("opens %s without a saved handle", (url) => {
+  mountAt(url);
+  expect(input()).toHaveValue("");
+  expect(window.location.pathname).toBe(url);
+  expect(window.location.hash).toBe("");
 });
 
-test.each([
-  "#/",
-  "#/unknown",
-  "#/table",
-  "#/user",
-  "#/table/bad!",
-  "#/user/bad!",
-  "#/table/%61bc",
-])("keeps the fallback for %s", async (hash) => {
-  mountAt(hash);
-  expect(await screen.findByText("Table:")).toBeInTheDocument();
-  expect(window.location.hash).toBe("#/table/");
-});
+test.each(["/unknown", "/table", "/user/alice"])(
+  "shows a missing page at %s without redirecting or clearing the saved handle",
+  (url) => {
+    localStorage.setItem("userId", JSON.stringify("alice"));
+    mountAt(url);
+    expect(
+      screen.getByRole("heading", { name: "Page not found" })
+    ).toBeInTheDocument();
+    expect(window.location.pathname).toBe(url);
+    expect(localStorage.getItem("userId")).toBe('"alice"');
+    fireEvent.click(link("Go to Contests"));
+    expect(screen.getByText("Table: alice")).toBeInTheDocument();
+    expect(window.location.pathname).toBe("/");
+  }
+);
 
-test("Submitting pushes history and back/forward keeps the input in sync", async () => {
-  mountAt("#/table/alice");
+test("saves only the applied handle and restores it after a reload", async () => {
+  const first = mountAt("/");
   const field = input();
   field.focus();
-  fireEvent.change(input(), { target: { value: " bob " } });
+  fireEvent.change(field, { target: { value: " bob " } });
+  expect(JSON.parse(localStorage.getItem("userId")!)).toBe("");
   fireEvent.click(screen.getByRole("button", { name: "Show Progress" }));
   expect(await screen.findByText("Table: bob")).toBeInTheDocument();
-  expect(window.location.hash).toBe("#/table/bob");
+  expect(JSON.parse(localStorage.getItem("userId")!)).toBe("bob");
+  expect(window.location.pathname).toBe("/");
+  expect(window.location.hash).toBe("");
   expect(input()).toBe(field);
   expect(field).toHaveFocus();
-  await act(async () => {
-    window.history.back();
-  });
-  await waitFor(() => {
-    expect(screen.getByText("Table: alice")).toBeInTheDocument();
-    expect(input()).toHaveValue("alice");
-  });
-  await act(async () => {
-    window.history.forward();
-  });
-  await waitFor(() => {
-    expect(screen.getByText("Table: bob")).toBeInTheDocument();
-    expect(input()).toHaveValue("bob");
-  });
+  first.unmount();
+  mountAt("/user");
+  expect(screen.getByText("User: bob")).toBeInTheDocument();
+  expect(input()).toHaveValue("bob");
 });
 
-test("navigation keeps the applied handle across information pages and adds history entries", async () => {
-  mountAt("#/table/alice");
+test("navigation and back/forward keep the latest saved handle across information pages", async () => {
+  localStorage.setItem("userId", JSON.stringify("alice"));
+  mountAt("/");
   fireEvent.change(input(), { target: { value: "unsubmitted" } });
   const info = screen.getByRole("button", { name: "Info" });
   fireEvent.keyDown(info, { key: "Enter" });
   expect(await screen.findByRole("menu")).toBeInTheDocument();
-  expect(window.location.hash).toBe("#/table/alice");
+  expect(window.location.pathname).toBe("/");
   fireEvent.click(screen.getByRole("menuitem", { name: "Changelog" }));
   expect(
     await screen.findByRole("heading", { name: "Changelog" })
@@ -121,33 +108,45 @@ test("navigation keeps the applied handle across information pages and adds hist
   expect(
     await screen.findByRole("heading", { name: "About" })
   ).toBeInTheDocument();
-  expect(link("User Stats")).toHaveAttribute("href", "#/user/alice");
+  expect(link("User Stats")).toHaveAttribute("href", "/user");
   fireEvent.click(link("User Stats"));
   expect(await screen.findByText("User: alice")).toBeInTheDocument();
   expect(input()).toHaveValue("alice");
+  fireEvent.change(input(), { target: { value: "bob" } });
+  submit();
   await act(async () => window.history.back());
   expect(
     await screen.findByRole("heading", { name: "About" })
   ).toBeInTheDocument();
-});
-
-test("the logo opens the empty table and user statistics can open without a handle", async () => {
-  mountAt("#/user/alice");
+  await act(async () => window.history.forward());
+  await waitFor(() => {
+    expect(screen.getByText("User: bob")).toBeInTheDocument();
+    expect(input()).toHaveValue("bob");
+  });
   fireEvent.click(link("Codeforces Problems"));
-  expect(await screen.findByText("Table:")).toBeInTheDocument();
-  expect(window.location.hash).toBe("#/table/");
-  fireEvent.click(link("User Stats"));
-  expect(await screen.findByText("User:")).toBeInTheDocument();
-  expect(window.location.hash).toBe("#/user/");
+  expect(await screen.findByText("Table: bob")).toBeInTheDocument();
 });
 
-test("guards Enter and submit during IME composition", async () => {
-  mountAt("#/table/alice");
+test.each(["broken JSON", "42", '{"handle":"alice"}', '"bad!"'])(
+  "ignores an invalid stored handle: %s",
+  (saved) => {
+    localStorage.setItem("userId", saved);
+    mountAt("/");
+    expect(input()).toHaveValue("");
+  }
+);
+
+test("guards invalid handles and IME submission before saving", async () => {
+  localStorage.setItem("userId", JSON.stringify("alice"));
+  mountAt("/");
+  fireEvent.change(input(), { target: { value: "bad!" } });
+  submit();
+  expect(localStorage.getItem("userId")).toBe('"alice"');
   fireEvent.change(input(), { target: { value: "a_B.c-9" } });
   fireEvent.compositionStart(input());
   expect(fireEvent.keyDown(input(), { key: "Enter" })).toBe(false);
   submit();
-  expect(window.location.hash).toBe("#/table/alice");
+  expect(screen.getByText("Table: alice")).toBeInTheDocument();
   fireEvent.compositionEnd(input());
   expect(fireEvent.keyDown(input(), { key: "Enter", isComposing: true })).toBe(
     false
@@ -158,6 +157,7 @@ test("guards Enter and submit during IME composition", async () => {
   expect(fireEvent.keyDown(input(), { key: "Enter" })).toBe(true);
   submit();
   expect(await screen.findByText("Table: a_B.c-9")).toBeInTheDocument();
+  expect(JSON.parse(localStorage.getItem("userId")!)).toBe("a_B.c-9");
 });
 
 test("loads contest data through an ES module import", () => {

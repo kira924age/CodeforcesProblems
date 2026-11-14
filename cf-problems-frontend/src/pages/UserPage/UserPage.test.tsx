@@ -52,7 +52,7 @@ const mount = (userId = "alice") =>
   render(
     <MemoryRouter>
       <TooltipProvider>
-        <UserPage userId={userId} />
+        <UserPage userId={userId} onUserIdChange={vi.fn()} />
       </TooltipProvider>
     </MemoryRouter>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import { cleanup, fireEvent, render, screen } from "@testing-library/react";
-import { HashRouter } from "react-router";
+import { BrowserRouter } from "react-router";
 import Header from "./Header";
 import ThemeProvider from "../ThemeProvider";
 
@@ -23,9 +23,9 @@ afterEach(() => {
 const mount = () =>
   render(
     <ThemeProvider>
-      <HashRouter>
-        <Header userId="alice" />
-      </HashRouter>
+      <BrowserRouter>
+        <Header />
+      </BrowserRouter>
     </ThemeProvider>
   );
 

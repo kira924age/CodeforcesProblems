@@ -1,11 +1,11 @@
 import React from "react";
-import HandleForm from "../../components/HandleForm";
+import HandleForm, { type HandleProps } from "../../components/HandleForm";
 import { cachedUserSubmissions } from "../../utils/TypedCachedApiClient";
 import TableTab from "./TableTab";
 
 const emptySubmissions = new Map<string, boolean>();
 
-export default function TablePage({ userId }: { userId: string }) {
+export default function TablePage({ userId, onUserIdChange }: HandleProps) {
   const [isFetchFailure, setIsFetchFailure] = React.useState(false);
   const [isLoading, setIsLoading] = React.useState(Boolean(userId));
   const [revision, setRevision] = React.useState(0);
@@ -45,7 +45,7 @@ export default function TablePage({ userId }: { userId: string }) {
     <>
       <HandleForm
         userId={userId}
-        page="table"
+        onUserIdChange={onUserIdChange}
         submitLabel="Show Progress"
         isLoading={Boolean(userId) && isLoading}
         onRefetch={() => setRevision((value) => value + 1)}

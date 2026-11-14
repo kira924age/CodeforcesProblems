@@ -6,7 +6,9 @@ export default defineConfig({
     compatibilityDate: "2026-11-14",
     workersDev: true,
     domains: ["cf.kira924age.com"],
-    // Hash routes need only the root HTML. Serve assets without Worker code.
-    assets: { runWorkerFirst: false },
+    assets: {
+      notFoundHandling: "single-page-application",
+      runWorkerFirst: false,
+    },
   },
 });

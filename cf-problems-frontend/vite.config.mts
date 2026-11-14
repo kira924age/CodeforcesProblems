@@ -41,8 +41,8 @@ export default defineConfig(({ mode }) => ({
         open: false,
       }),
   ]),
-  // Preserve relative asset URLs and existing hash routes on either host.
-  base: "./",
+  // Deep links must load assets from the site root, including after a reload.
+  base: "/",
   build: {
     outDir: mode === "analyze" ? ".bundle-analysis/app" : "build",
     sourcemap: true,

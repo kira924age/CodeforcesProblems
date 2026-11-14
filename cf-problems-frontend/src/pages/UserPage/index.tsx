@@ -1,5 +1,5 @@
 import React from "react";
-import HandleForm from "../../components/HandleForm";
+import HandleForm, { type HandleProps } from "../../components/HandleForm";
 import UserNotFound from "./UserNotFound";
 import ErrorMessage from "../TablePage/ErrorMessage";
 import Loading from "./Loading";
@@ -28,7 +28,7 @@ type Profile = {
   submissionHistory: ReturnType<typeof makeSubmissionHistory>;
 };
 
-export default function User({ userId }: { userId: string }) {
+export default function User({ userId, onUserIdChange }: HandleProps) {
   const [status, setStatus] = React.useState<
     "loading" | "success" | "not-found" | "error"
   >("loading");
@@ -87,7 +87,7 @@ export default function User({ userId }: { userId: string }) {
     <>
       <HandleForm
         userId={userId}
-        page="user"
+        onUserIdChange={onUserIdChange}
         submitLabel="Show Stats"
         isLoading={Boolean(userId) && status === "loading"}
         onRefetch={() => setRevision((value) => value + 1)}

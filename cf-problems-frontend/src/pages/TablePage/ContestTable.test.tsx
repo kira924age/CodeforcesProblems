@@ -67,7 +67,7 @@ const rows = () =>
 test("enables Refresh with an applied handle and reloads its submissions", async () => {
   const { rerender } = render(
     <MemoryRouter>
-      <TablePage userId="" />
+      <TablePage userId="" onUserIdChange={vi.fn()} />
     </MemoryRouter>
   );
   const refresh = screen.getByRole("button", { name: "Refresh" });
@@ -75,7 +75,7 @@ test("enables Refresh with an applied handle and reloads its submissions", async
 
   rerender(
     <MemoryRouter>
-      <TablePage userId="alice" />
+      <TablePage userId="alice" onUserIdChange={vi.fn()} />
     </MemoryRouter>
   );
   await waitFor(() => expect(refresh).toBeEnabled());

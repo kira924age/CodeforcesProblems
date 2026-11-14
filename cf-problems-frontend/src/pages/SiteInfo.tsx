@@ -5,6 +5,13 @@ const repository = "https://github.com/kira924age/CodeforcesProblems";
 const changes = [
   {
     date: "2026-11-14",
+    title: "Cleaner URLs and a saved Codeforces ID",
+    description:
+      "Pages now use standard URLs instead of hash routes, with Contests at the site root. Your applied Codeforces ID is saved in localStorage and restored across page navigation and reloads.",
+    pr: 141,
+  },
+  {
+    date: "2026-11-14",
     title: "Hosting moved to Cloudflare Workers",
     description:
       "Moved site hosting from GitHub Pages to Cloudflare Workers Static Assets.",

@@ -1,4 +1,3 @@
-import React from "react";
 import {
   cleanup,
   fireEvent,
@@ -6,7 +5,6 @@ import {
   screen,
   waitFor,
 } from "@testing-library/react";
-import { MemoryRouter } from "react-router";
 import UserPage from "./index";
 import { TooltipProvider } from "../../components/ui/Tooltip";
 import {
@@ -27,12 +25,6 @@ vi.mock("./Heatmap", () => ({ default: () => null }));
 vi.mock("./Achievement", () => ({ default: () => null }));
 vi.mock("./UserNameLabel", () => ({ default: () => null }));
 
-beforeAll(() =>
-  Object.defineProperty(window, "matchMedia", {
-    writable: true,
-    value: () => ({ matches: false, addListener() {}, removeListener() {} }),
-  })
-);
 beforeEach(() => {
   vi.clearAllMocks();
   vi.mocked(cachedUserInfo).mockResolvedValue({ userRating: 0 });
@@ -50,11 +42,9 @@ beforeEach(() => {
 afterEach(cleanup);
 const mount = (userId = "alice") =>
   render(
-    <MemoryRouter>
-      <TooltipProvider>
-        <UserPage userId={userId} onUserIdChange={vi.fn()} />
-      </TooltipProvider>
-    </MemoryRouter>
+    <TooltipProvider>
+      <UserPage userId={userId} onUserIdChange={vi.fn()} />
+    </TooltipProvider>
   );
 
 test.each([

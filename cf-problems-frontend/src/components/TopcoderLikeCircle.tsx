@@ -85,7 +85,6 @@ function calcFillRatio(difficulty: number): number {
 
 interface Props {
   rating: number;
-  // optional props
   big?: boolean;
 }
 

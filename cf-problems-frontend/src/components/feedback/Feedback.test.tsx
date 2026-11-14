@@ -1,4 +1,3 @@
-import React from "react";
 import { cleanup, render, screen } from "@testing-library/react";
 import ErrorMessage from "../../pages/TablePage/ErrorMessage";
 import UserNotFound from "../../pages/UserPage/UserNotFound";

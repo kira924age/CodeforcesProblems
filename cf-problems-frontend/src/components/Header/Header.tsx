@@ -12,9 +12,9 @@ const Header = () => {
         <Link className="site-brand" to="/">
           <img
             className="site-brand-logo"
-            src={`${import.meta.env.BASE_URL}android-chrome-192x192.png`}
-            width="28"
-            height="28"
+            src={`${import.meta.env.BASE_URL}favicon-32x32.png`}
+            width="24"
+            height="24"
             alt=""
           />
           Codeforces Problems

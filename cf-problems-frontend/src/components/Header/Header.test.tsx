@@ -1,15 +1,8 @@
-import React from "react";
 import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router";
 import Header from "./Header";
 import ThemeProvider from "../ThemeProvider";
 
-beforeAll(() => {
-  Object.defineProperty(window, "matchMedia", {
-    writable: true,
-    value: () => ({ matches: false, addListener() {}, removeListener() {} }),
-  });
-});
 beforeEach(() => {
   localStorage.clear();
   document.documentElement.className = "host-class";

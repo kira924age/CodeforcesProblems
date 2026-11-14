@@ -12,12 +12,6 @@ import { TooltipProvider } from "../../components/ui/Tooltip";
 const render = (ui: React.ReactElement) =>
   renderWithoutProvider(ui, { wrapper: TooltipProvider });
 
-beforeAll(() => {
-  Object.defineProperty(window, "matchMedia", {
-    writable: true,
-    value: () => ({ matches: false, addListener() {}, removeListener() {} }),
-  });
-});
 afterEach(cleanup);
 
 const submission = (index: number, verdict: string | undefined = "OK") => ({

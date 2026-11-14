@@ -1,11 +1,13 @@
 import React from "react";
-import { useNavigate } from "react-router";
 import Tooltip from "./ui/Tooltip";
 import "./HandleForm.css";
 
-type Props = {
+export type HandleProps = {
   userId: string;
-  page: "table" | "user";
+  onUserIdChange: (userId: string) => void;
+};
+
+type Props = HandleProps & {
   submitLabel: string;
   onRefetch?: () => void;
   isLoading?: boolean;
@@ -13,14 +15,13 @@ type Props = {
 
 export default function HandleForm({
   userId,
-  page,
+  onUserIdChange,
   submitLabel,
   onRefetch,
   isLoading,
 }: Props) {
   const [draft, setDraft] = React.useState(userId);
   const isComposing = React.useRef(false);
-  const navigate = useNavigate();
 
   React.useEffect(() => {
     setDraft(userId);
@@ -35,7 +36,7 @@ export default function HandleForm({
         const handle = draft.trim();
         if (!/^[a-zA-Z0-9_.-]+$/.test(handle)) return;
         setDraft(handle);
-        void navigate(`/${page}/${handle}`);
+        onUserIdChange(handle);
       }}
     >
       <div className="handle-search">

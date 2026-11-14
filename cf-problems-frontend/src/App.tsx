@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Route, Navigate, Routes, useLocation } from "react-router";
+import { BrowserRouter, Link, Route, Routes, useLocation } from "react-router";
 
 import Header from "./components/Header/Header";
 import ThemeProvider from "./components/ThemeProvider";
@@ -9,14 +9,24 @@ import { AboutPage, ChangelogPage } from "./pages/SiteInfo";
 
 const SiteLayout = () => {
   const { pathname } = useLocation();
-  // Preserve the legacy raw hash paths, including empty handles and suffixes.
-  const match = pathname.match(/^\/(?:table|user)\/([a-zA-Z0-9_.-]*)(?:\/|$)/i);
-  const userId = match?.[1];
-  const [lastHandle, setLastHandle] = React.useState(userId ?? "");
+  const [userId, setUserId] = React.useState(() => {
+    try {
+      const saved: unknown = JSON.parse(localStorage.getItem("userId") ?? '""');
+      return typeof saved === "string" && /^[a-zA-Z0-9_.-]*$/.test(saved)
+        ? saved
+        : "";
+    } catch {
+      return "";
+    }
+  });
   const main = React.useRef<HTMLElement>(null);
 
   React.useEffect(() => {
-    if (userId !== undefined) setLastHandle(userId);
+    try {
+      localStorage.setItem("userId", JSON.stringify(userId));
+    } catch {
+      // Keep the applied handle usable for this visit if storage is unavailable.
+    }
   }, [userId]);
 
   React.useLayoutEffect(() => {
@@ -24,25 +34,30 @@ const SiteLayout = () => {
     if (document.scrollingElement) document.scrollingElement.scrollTop = 0;
   }, [pathname]);
 
-  const fallback = <Navigate to="/table/" replace />;
   return (
     <div className="App">
-      <Header userId={userId ?? lastHandle} />
+      <Header />
       <main className="Main" ref={main}>
         <Routes>
           <Route
-            path="/table/*"
-            element={
-              userId === undefined ? fallback : <TablePage userId={userId} />
-            }
+            path="/"
+            element={<TablePage userId={userId} onUserIdChange={setUserId} />}
           />
           <Route
-            path="/user/*"
-            element={userId === undefined ? fallback : <User userId={userId} />}
+            path="/user"
+            element={<User userId={userId} onUserIdChange={setUserId} />}
           />
           <Route path="/changelog" element={<ChangelogPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="*" element={fallback} />
+          <Route
+            path="*"
+            element={
+              <>
+                <h1>Page not found</h1>
+                <Link to="/">Go to Contests</Link>
+              </>
+            }
+          />
         </Routes>
       </main>
     </div>
@@ -52,9 +67,9 @@ const SiteLayout = () => {
 export default function App() {
   return (
     <ThemeProvider>
-      <HashRouter>
+      <BrowserRouter>
         <SiteLayout />
-      </HashRouter>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }

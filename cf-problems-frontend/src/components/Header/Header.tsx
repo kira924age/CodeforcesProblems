@@ -3,13 +3,13 @@ import { DropdownMenu } from "radix-ui";
 import ThemeToggler from "./ThemeToggler";
 import "./Header.css";
 
-const Header = ({ userId }: { userId: string }) => {
+const Header = () => {
   const isAbout = useMatch("/about");
   const isChangelog = useMatch("/changelog");
   return (
     <>
       <header className="site-header">
-        <Link className="site-brand" to="/table/">
+        <Link className="site-brand" to="/">
           <img
             className="site-brand-logo"
             src={`${import.meta.env.BASE_URL}android-chrome-192x192.png`}
@@ -21,13 +21,13 @@ const Header = ({ userId }: { userId: string }) => {
         </Link>
       </header>
       <nav className="site-nav" aria-label="Main navigation">
-        <NavLink to={`/table/${userId}`}>
+        <NavLink to="/" end>
           <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
             <path d="M6 5h7M6 9h7M6 13h7M3 5h.01M3 9h.01M3 13h.01" />
           </svg>
           <span>Contests</span>
         </NavLink>
-        <NavLink to={`/user/${userId}`}>
+        <NavLink to="/user">
           <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
             <path d="M8 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM3 13a5 5 0 0 1 10 0" />
           </svg>

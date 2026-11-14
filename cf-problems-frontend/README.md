@@ -89,31 +89,38 @@ in `vite.config.mts`. CI runs `pnpm run lint` and rejects both errors and warnin
 `pnpm run lint:fix` applies available safe fixes; remaining issues need manual
 changes. Generated `build/` files are excluded from linting.
 
-## Deployment compatibility
+## Deployment: Cloudflare Workers Static Assets
 
-Vite Plus writes production files to `build/` for GitHub Pages publication.
-`Deploy frontend` publishes on frontend changes pushed to `main` and can also
-be run manually in GitHub Actions (select `main`, then **Run workflow**). It
-runs tests and builds without crawling Codeforces. The daily crawler calls the
-same deployment workflow after saving data. Deployment always builds the latest
-`main`, serializes publication, and writes only to `gh-pages`; it does not commit
-generated build files to `main`. `public/` is copied into
-that output, including `CNAME`, icons, manifests, and the social preview image.
-The HTML entry point is now `index.html` at the project root. Relative asset
-URLs (`base: "./"`) and the existing hash routes are preserved.
+Production hosting uses an assets-only Worker named `codeforces-problems`.
+`cloudflare.config.ts` preserves `cf.kira924age.com`; no Worker entrypoint runs
+for static file requests. Existing relative asset URLs and hash routes remain
+unchanged. Codeforces API calls still originate in the browser.
 
-Node.js 26 is declared in `.nvmrc`, `package.json`, and both frontend build
-workflows. The crawler retains Python 3.11. No OpenSSL legacy option is needed.
-Vite's default production browser target replaces CRA's Browserslist settings;
-legacy browsers outside that target are not included in this migration.
+```sh
+pnpm run build:workers
+pnpm run deploy:check # validates the built deployment; no credentials or uploads
+```
 
-Large bundle and Sass `@import` warnings remain separate follow-up work. Workers
-hosting and removal of tracked build artifacts are also separate changes.
+The `workers` Vite mode enables the Cloudflare plugin and writes deployment output
+to `.cloudflare/output/`. Normal development, tests, bundle analysis, and
+`pnpm run build` / `pnpm run preview` retain the existing Vite workflow. Generated
+Cloudflare output is ignored by Git, formatting, and linting.
+The official `cf` CLI and its compatible Vite plugin are pinned beta releases;
+update them together and check deployment packaging before upgrading.
 
-The Vite Plus configuration uses `.mts` for ESM. The `vite` dependency and pnpm
-overrides point to the same Vite Plus core so the React plugin and test runner
-share one build toolchain. Standalone Prettier and Vitest dependencies are no
-longer needed.
+### GitHub Actions
+
+`Deploy frontend` runs on frontend changes pushed to `main`, or manually using
+**Run workflow** on `main`. It tests, builds once for Cloudflare, validates the
+package, and deploys that same package. Publication remains serialized through
+`frontend-production` and always checks out the latest `main`.
+
+`Regular Crawl` still runs daily at 00:00 UTC (09:00 JST), commits both copies of
+`contests.json`, and explicitly calls the same reusable deployment workflow.
+It forwards the Cloudflare secrets because commits made with `GITHUB_TOKEN` do
+not trigger another push workflow. Manual frontend deployment does not crawl.
+PR CI performs a separate credential-free Cloudflare build and dry run, alongside
+the existing tests, formatting, lint, and bundle-size comparison.
 
 ## Achievement calculations
 

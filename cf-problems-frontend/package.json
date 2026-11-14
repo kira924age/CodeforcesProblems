@@ -2,10 +2,14 @@
   "name": "codeforces-problems-frontend",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vp dev",
     "typecheck": "tsc --noEmit",
     "build": "pnpm run typecheck && vp build",
+    "build:workers": "pnpm run build --mode workers",
+    "deploy:check": "cf deploy --prebuilt --mode workers --dry-run",
+    "deploy": "cf deploy --prebuilt --mode workers",
     "preview": "vp preview",
     "test": "vp test run",
     "test:watch": "vp test",
@@ -24,6 +28,7 @@
     "react-router": "8.5.1"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "2.0.0-beta.v.17",
     "@testing-library/dom": "^10.0.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.3",
@@ -31,6 +36,7 @@
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "6.2.1",
+    "cf": "1.0.0-beta.32",
     "jsdom": "^27.0.0",
     "rollup-plugin-visualizer": "7.1.2",
     "sass": "^1.32.8",

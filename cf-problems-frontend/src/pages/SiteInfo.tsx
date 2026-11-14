@@ -4,6 +4,13 @@ const repository = "https://github.com/kira924age/CodeforcesProblems";
 
 const changes = [
   {
+    date: "2026-11-14",
+    title: "Hosting moved to Cloudflare Workers",
+    description:
+      "Moved site hosting from GitHub Pages to Cloudflare Workers Static Assets.",
+    pr: 139,
+  },
+  {
     date: "2026-11-10",
     title: "Easier contest browsing and clearer stats",
     description:

@@ -7,7 +7,6 @@ import {
   within,
   waitFor,
 } from "@testing-library/react";
-import { MemoryRouter } from "react-router";
 import TablePage from "./index";
 import ContestTable from "./ContestTable";
 import * as utils from "./contestTableUtils";
@@ -40,12 +39,6 @@ vi.mock("../../utils/TypedCachedApiClient", () => ({
   cachedContestArray: () => contests,
   cachedUserSubmissions: vi.fn(),
 }));
-beforeAll(() =>
-  Object.defineProperty(window, "matchMedia", {
-    writable: true,
-    value: () => ({ matches: false, addListener() {}, removeListener() {} }),
-  })
-);
 beforeEach(() => {
   localStorage.clear();
   vi.mocked(cachedUserSubmissions).mockResolvedValue(new Map());
@@ -65,19 +58,11 @@ const rows = () =>
   screen.getByRole("table", { name: props.name }).querySelectorAll("tr");
 
 test("enables Refresh with an applied handle and reloads its submissions", async () => {
-  const { rerender } = render(
-    <MemoryRouter>
-      <TablePage userId="" onUserIdChange={vi.fn()} />
-    </MemoryRouter>
-  );
+  const { rerender } = render(<TablePage userId="" onUserIdChange={vi.fn()} />);
   const refresh = screen.getByRole("button", { name: "Refresh" });
   expect(refresh).toBeDisabled();
 
-  rerender(
-    <MemoryRouter>
-      <TablePage userId="alice" onUserIdChange={vi.fn()} />
-    </MemoryRouter>
-  );
+  rerender(<TablePage userId="alice" onUserIdChange={vi.fn()} />);
   await waitFor(() => expect(refresh).toBeEnabled());
   fireEvent.click(refresh);
   expect(cachedUserSubmissions).toHaveBeenLastCalledWith("alice", true);

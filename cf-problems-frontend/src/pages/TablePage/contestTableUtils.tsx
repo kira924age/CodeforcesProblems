@@ -1,4 +1,3 @@
-import React from "react";
 import DifficultyCircle from "../../components/DifficultyCircle";
 
 import { getRatingColorClass } from "../../utils/colors";
@@ -141,34 +140,18 @@ export const makeContestTable = (
 
       obj[problemId[0]] = (
         <>
-          {obj[problemId[0]] !== undefined ? (
-            <>
-              {obj[problemId[0]]}
-              <div className={className}>
-                {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
-                <a
-                  href={PREFIX + String(x.id) + "/problem/" + e.index}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className={ratingColorClass}
-                >
-                  {String(e.index) + ". " + problemName}
-                </a>
-              </div>
-            </>
-          ) : (
-            <div className={className}>
-              {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
-              <a
-                href={PREFIX + String(x.id) + "/problem/" + e.index}
-                rel="noopener noreferrer"
-                target="_blank"
-                className={ratingColorClass}
-              >
-                {String(e.index) + ". " + problemName}
-              </a>
-            </div>
-          )}
+          {obj[problemId[0]]}
+          <div className={className}>
+            {isShowDifficulty && <DifficultyCircle rating={e.rating} />}
+            <a
+              href={PREFIX + String(x.id) + "/problem/" + e.index}
+              rel="noopener noreferrer"
+              target="_blank"
+              className={ratingColorClass}
+            >
+              {String(e.index) + ". " + problemName}
+            </a>
+          </div>
         </>
       );
     });

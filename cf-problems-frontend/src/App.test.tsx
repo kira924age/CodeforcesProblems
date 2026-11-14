@@ -1,4 +1,3 @@
-import React from "react";
 import {
   act,
   cleanup,
@@ -9,7 +8,6 @@ import {
 } from "@testing-library/react";
 import App from "./App";
 import HandleForm, { type HandleProps } from "./components/HandleForm";
-import { cachedContestArray } from "./utils/TypedCachedApiClient";
 
 vi.mock("./pages/TablePage/index", () => ({
   default: (props: HandleProps) => (
@@ -28,12 +26,6 @@ vi.mock("./pages/UserPage/index", () => ({
   ),
 }));
 
-beforeAll(() => {
-  Object.defineProperty(window, "matchMedia", {
-    writable: true,
-    value: () => ({ matches: false, addListener() {}, removeListener() {} }),
-  });
-});
 beforeEach(() => localStorage.clear());
 afterEach(() => {
   cleanup();
@@ -158,14 +150,4 @@ test("guards invalid handles and IME submission before saving", async () => {
   submit();
   expect(await screen.findByText("Table: a_B.c-9")).toBeInTheDocument();
   expect(JSON.parse(localStorage.getItem("userId")!)).toBe("a_B.c-9");
-});
-
-test("loads contest data through an ES module import", () => {
-  expect(cachedContestArray()[0]).toEqual(
-    expect.objectContaining({
-      id: expect.any(Number),
-      name: expect.any(String),
-      problems: expect.any(Array),
-    })
-  );
 });

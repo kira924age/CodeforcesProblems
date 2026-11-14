@@ -16,7 +16,6 @@
 .handle-form input,
 .handle-form button {
   min-height: 44px;
-  padding: 8px 12px;
   font: inherit;
   background: var(--nav-bg, #fff);
   color: var(--nav-text, #24292f);
@@ -25,6 +24,7 @@
 }
 
 .handle-form input {
+  padding: 8px 12px;
   flex: 1;
   min-width: 0;
   border-radius: 6px 0 0 6px;

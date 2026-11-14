@@ -69,6 +69,16 @@ jobs:
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: node scripts/bundle-size.cjs _base/cf-problems-frontend/build cf-problems-frontend/build "$BASE_SHA" "$GITHUB_SHA" bundle-size.md
+      - name: Build Cloudflare deployment
+        run: pnpm run build:workers
+        working-directory: cf-problems-frontend
+        env:
+          CF_SEND_TELEMETRY: "false"
+      - name: Validate Cloudflare deployment without credentials
+        run: pnpm run deploy:check
+        working-directory: cf-problems-frontend
+        env:
+          CF_SEND_TELEMETRY: "false"
       - name: Upload bundle report
         if: github.event_name == 'pull_request'
         uses: actions/upload-artifact@v7.0.2

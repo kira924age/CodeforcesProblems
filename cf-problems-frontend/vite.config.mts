@@ -10,19 +10,22 @@ export default defineConfig(({ mode }) => ({
     sortPackageJson: false,
     ignorePatterns: [
       "build/**",
+      ".cloudflare/**",
       "src/utils/contests.json",
       "pnpm-lock.yaml",
       ".bundle-analysis/**",
     ],
   },
   lint: {
-    ignorePatterns: ["build/**", ".bundle-analysis/**"],
+    ignorePatterns: ["build/**", ".bundle-analysis/**", ".cloudflare/**"],
     jsPlugins: [{ name: "vite-plus", specifier: "vite-plus/oxlint-plugin" }],
     rules: { "vite-plus/prefer-vite-plus-imports": "error" },
     options: { typeAware: true, typeCheck: true },
   },
   plugins: lazyPlugins(async () => [
     react(),
+    mode === "workers" &&
+      (await import("@cloudflare/vite-plugin")).cloudflare(),
     mode === "analyze" &&
       (await import("rollup-plugin-visualizer")).visualizer({
         filename: fileURLToPath(
@@ -38,7 +41,7 @@ export default defineConfig(({ mode }) => ({
         open: false,
       }),
   ]),
-  // Preserve relative asset URLs and the existing GitHub Pages publication job.
+  // Preserve relative asset URLs and existing hash routes on either host.
   base: "./",
   build: {
     outDir: mode === "analyze" ? ".bundle-analysis/app" : "build",

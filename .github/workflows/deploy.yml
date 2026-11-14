@@ -9,9 +9,14 @@ on:
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
   workflow_call:
+    secrets:
+      CLOUDFLARE_API_TOKEN:
+        required: true
+      CLOUDFLARE_ACCOUNT_ID:
+        required: true
 
 permissions:
-  contents: write
+  contents: read
 
 # Daily updates and code releases share the same publication lock.
 concurrency:
@@ -22,6 +27,8 @@ jobs:
   deploy:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    env:
+      CF_SEND_TELEMETRY: "false"
     defaults:
       run:
         working-directory: cf-problems-frontend
@@ -40,23 +47,10 @@ jobs:
           cache-dependency-path: cf-problems-frontend/pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
-      - run: pnpm run build
-      - name: Check out publication branch
-        uses: actions/checkout@v7.0.1
-        with:
-          ref: gh-pages
-          path: _pages
-      - name: Publish built files
-        working-directory: .
-        run: |
-          # Checkout and build can give different HTML the same size and mtime.
-          # Compare content so the entry point always references the new bundle.
-          rsync -ac --delete --exclude='.git' cf-problems-frontend/build/ _pages/
-          touch _pages/.nojekyll
-          git -C _pages config user.name actions-user
-          git -C _pages config user.email action@github.com
-          git -C _pages add -A
-          if ! git -C _pages diff --cached --quiet; then
-            git -C _pages commit -m "Deploy frontend from $(git rev-parse HEAD)"
-            git -C _pages push origin HEAD:gh-pages
-          fi
+      - run: pnpm run build:workers
+      - run: pnpm run deploy:check
+      - name: Deploy static assets to Cloudflare
+        run: pnpm run deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

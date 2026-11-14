@@ -4,3 +4,11 @@ overrides:
 allowBuilds:
   "@parcel/watcher": true
   fsevents: false
+  workerd: true
+minimumReleaseAgeExclude:
+  - "@cloudflare/build-output-utils@0.9.14"
+  - "@cloudflare/config@0.32.1"
+  - "@cloudflare/runtime-types@0.1.28"
+  - "@cloudflare/vite-plugin@2.0.0-beta.v.17"
+  - cf@1.0.0-beta.32
+  - miniflare@5.20261113.0-beta

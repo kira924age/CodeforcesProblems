@@ -1,5 +1,36 @@
 [
  {
+  "id": 2285,
+  "type": "Div2",
+  "name": "Codeforces Round 1135 (Div. 2)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Composite Permutation"
+   },
+   {
+    "index": "B",
+    "name": "Diverse String"
+   },
+   {
+    "index": "C",
+    "name": "Max Substitution"
+   },
+   {
+    "index": "D",
+    "name": "Reverse Partition"
+   },
+   {
+    "index": "E",
+    "name": "Arithmetic Subarray"
+   },
+   {
+    "index": "F",
+    "name": "Mooclear Reactor 3"
+   }
+  ]
+ },
+ {
   "id": 2290,
   "type": "Div4",
   "name": "Codeforces Round 1134 (Div. 4)",

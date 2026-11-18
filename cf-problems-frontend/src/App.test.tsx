@@ -5,6 +5,7 @@ import {
   render,
   screen,
   waitFor,
+  within,
 } from "@testing-library/react";
 import App from "./App";
 import HandleForm, { type HandleProps } from "./components/HandleForm";
@@ -100,8 +101,11 @@ test("navigation and back/forward keep the latest saved handle across informatio
   expect(
     await screen.findByRole("heading", { name: "About" })
   ).toBeInTheDocument();
-  expect(link("User Stats")).toHaveAttribute("href", "/user");
-  fireEvent.click(link("User Stats"));
+  const statsLink = within(screen.getByRole("main")).getByRole("link", {
+    name: "User Stats",
+  });
+  expect(statsLink).toHaveAttribute("href", "/user");
+  fireEvent.click(statsLink);
   expect(await screen.findByText("User: alice")).toBeInTheDocument();
   expect(input()).toHaveValue("alice");
   fireEvent.change(input(), { target: { value: "bob" } });

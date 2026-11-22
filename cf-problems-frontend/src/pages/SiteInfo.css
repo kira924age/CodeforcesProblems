@@ -6,6 +6,8 @@
   --info-muted: #5d6d80;
   --info-subtle: #7c8a9c;
   --info-accent: #245dce;
+  max-width: 880px;
+  margin-inline: auto;
   padding-block: 8px 4px;
   color: var(--info-text);
 }
@@ -52,7 +54,6 @@
   letter-spacing: -1.6px;
 }
 .about-reading p {
-  max-width: 80ch;
   margin: 0 0 20px;
   color: var(--info-muted);
   font-size: 16px;

@@ -1,6 +1,7 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Codeforces Problems",
+  "short_name": "Codeforces Problems",
+  "start_url": "/",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

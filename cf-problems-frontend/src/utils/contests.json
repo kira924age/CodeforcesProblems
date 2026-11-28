@@ -1,5 +1,44 @@
 [
  {
+  "id": 2292,
+  "type": "Div3",
+  "name": "Codeforces Round 1138 (Div. 3)",
+  "problems": [
+   {
+    "index": "A",
+    "name": "Picnic for Two"
+   },
+   {
+    "index": "B",
+    "name": "Grapefruit Juice"
+   },
+   {
+    "index": "C",
+    "name": "Finding Shapes in the Clouds"
+   },
+   {
+    "index": "D",
+    "name": "Unexpected Precipitation"
+   },
+   {
+    "index": "E",
+    "name": "Blush"
+   },
+   {
+    "index": "F",
+    "name": "Pink-Black"
+   },
+   {
+    "index": "G",
+    "name": "Soft Memories"
+   },
+   {
+    "index": "H",
+    "name": "Missed Call"
+   }
+  ]
+ },
+ {
   "id": 2289,
   "type": "Div2",
   "name": "Codeforces Round 1137 (Div. 2)",
